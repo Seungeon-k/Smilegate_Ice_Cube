@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+        <GlobalCustomUI.VTab Text="Leader board,In-Mod Shop,Data Store,Project" name="DataTab" ItemWidth="160" ItemHeight="30" ItemHorizontal="true" ItemAlignl="FlexStart" style="flex-grow: 0; height: 100%; width: 200px; max-width: 180px; min-width: 180px; padding-top: 10px; padding-right: 6px; padding-bottom: 10px; padding-left: 6px; background-color: rgb(83, 83, 91);" />
+        <GameFramework.Editor.ExtendEditor.GameSetting.CategoryTable name="DataTable" CategoryName="StarCrafting System" AddButtonName="+ Add Data" style="width: 220px; max-width: 220px; min-width: 220px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; opacity: 1; visibility: visible; display: none;" />
+        <GlobalCustomUI.VScrollView name="ItemContent" style="flex-grow: 1; background-color: rgb(68, 68, 74);" />
+    </ui:VisualElement>
+</ui:UXML>

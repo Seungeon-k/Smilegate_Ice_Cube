@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Ribbon/uss/RibbonItem.uss?fileID=7433441132597879392&amp;guid=213c161647494f678f765682fb8b1c92&amp;type=3#RibbonItem" />
+    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" class="RibbonItem small">
+        <ui:VisualElement name="BackGround">
+            <ui:VisualElement name="Icon" />
+            <ui:Label text="Label" name="Name" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

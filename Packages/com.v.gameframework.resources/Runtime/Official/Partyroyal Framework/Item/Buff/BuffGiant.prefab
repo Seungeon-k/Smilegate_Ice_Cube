@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5973092466626043790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097636729390570773}
+  - component: {fileID: 3192958358475928157}
+  - component: {fileID: 1990808674281281750}
+  m_Layer: 0
+  m_Name: ServerScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097636729390570773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973092466626043790}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1444152168971503976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3192958358475928157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973092466626043790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766008277, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: f12c6a1588cb7e44e9988d3fba9b23d7, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 2348312197885329425
+  _customEvents: []
+  _LfunctionInfoContainer:
+    _functionInfos:
+    - _funcName: OnEnd
+      _argStrings: []
+      _argCount: 0
+  _lastGuid: f12c6a1588cb7e44e9988d3fba9b23d7
+  references:
+    version: 2
+    RefIds:
+    - rid: 2348312197885329425
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: ForceScale
+        IsSync: 0
+        FromScript: 0
+        _value: 0.3
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+--- !u!114 &1990808674281281750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973092466626043790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254441954, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetSVO: {fileID: 3192958358475928157}
+  _luaFuncName: OnEnd
+  _luaArgString: void
+--- !u!1 &6677894970096753681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318251655563322399}
+  - component: {fileID: 5749355838818374096}
+  m_Layer: 0
+  m_Name: ClientScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318251655563322399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677894970096753681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1444152168971503976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5749355838818374096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677894970096753681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 266094360, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: c3f050e2074f0d04c9699bdb986c5467, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 2348312197885329413
+    - rid: 2348312197885329414
+    - rid: 2348312197885329415
+    - rid: 2348312197885329416
+  _customEvents:
+  - rid: 2348312197885329418
+  _LfunctionInfoContainer:
+    _functionInfos: []
+  _lastGuid: c3f050e2074f0d04c9699bdb986c5467
+  references:
+    version: 2
+    RefIds:
+    - rid: 2348312197885329413
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: LifeTime
+        IsSync: 0
+        FromScript: 0
+        _value: 6
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2348312197885329414
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: CharacterScale
+        IsSync: 0
+        FromScript: 0
+        _value: 2
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2348312197885329415
+      type: {class: V_AudioClip, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: StartSound
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 8300000, guid: 593f064103a1f4646a575c31d64e9ded, type: 3}
+    - rid: 2348312197885329416
+      type: {class: V_AudioClip, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: EndSound
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 8300000, guid: 59b835286ad844646b96fa7f1417a4ed, type: 3}
+    - rid: 2348312197885329418
+      type: {class: VULuaEventVoid, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1990808674281281750}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvoke
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        _funcName: OnEnd
+--- !u!1 &9174506781953045306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1444152168971503976}
+  - component: {fileID: 7294825478826402401}
+  - component: {fileID: -1948341069991125987}
+  m_Layer: 0
+  m_Name: BuffGiant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1444152168971503976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174506781953045306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2097636729390570773}
+  - {fileID: 1318251655563322399}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7294825478826402401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174506781953045306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -463033835, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _buffId: Buff.Giant
+  _buffGroupId: Buff.Acton.Scale
+  _buffName: Giant Buff
+  _buffDescription: Temporarily enlarges the character when activated.
+  _duplicatePolicy: 0
+  _priority: 1
+  _persistPolicy: 1
+  OnBeforeAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFreezed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResumed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-1948341069991125987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174506781953045306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1800309526, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gizmoIcon: {fileID: 21300000, guid: 36fdc38245f2c3a4c9f57ef39b182251, type: 3}
+  _displayLabel: {r: 0, g: 0, b: 0, a: 1}
+  _paletteIcon: {fileID: 21300000, guid: 36fdc38245f2c3a4c9f57ef39b182251, type: 3}
+  _description: "Enlarge the target\u2019s size."
+  isGizmoDraw: 1

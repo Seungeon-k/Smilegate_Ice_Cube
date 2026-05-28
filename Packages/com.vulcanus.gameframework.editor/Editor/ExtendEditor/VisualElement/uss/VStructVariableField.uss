@@ -1,0 +1,18 @@
+.VStructVariableField {
+    background-color: var(--background-container-02);
+    border-radius: 5px;
+    margin: 1px;
+    flex-direction: row;
+    align-items: center;
+    min-height: 10px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    justify-content: flex-start;
+    width: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}

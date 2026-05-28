@@ -1,0 +1,13 @@
+.VToolbar {
+    background-color: rgb(47, 47, 55);
+}
+
+.horizontal .VToolbar {
+    flex-direction: row;
+    align-items: center;
+}
+
+.vertical .VToolbar {
+    flex-direction: column;
+    align-items: flex-start;
+}

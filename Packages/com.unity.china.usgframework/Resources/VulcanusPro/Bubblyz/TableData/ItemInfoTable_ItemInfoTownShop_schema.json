@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "Price": "!Int",
+    "ProductID": "!String",
+    "ID_INT_TEMP": "!Int"
+}

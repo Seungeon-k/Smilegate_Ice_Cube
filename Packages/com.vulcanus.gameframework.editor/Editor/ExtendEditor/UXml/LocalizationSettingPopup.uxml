@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Footer">
+        <ui:VisualElement name="AddItem" style="flex-direction: row; justify-content: space-between;">
+            <ui:DropdownField label="Language" name="LangDF" style="flex-grow: 1;" />
+            <ui:Button text="Add" display-tooltip-when-elided="true" name="AddBtn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

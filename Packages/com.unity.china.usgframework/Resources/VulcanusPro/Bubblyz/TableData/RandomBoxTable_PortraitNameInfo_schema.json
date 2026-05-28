@@ -1,0 +1,5 @@
+{
+    "RandomItemID": "!String",
+    "PortraitName": "!String",
+    "ID_INT_TEMP": "!Int"
+}

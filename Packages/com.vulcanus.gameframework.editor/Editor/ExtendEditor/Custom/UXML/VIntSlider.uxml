@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-direction: row; flex-grow: 1;">
+        <GlobalCustomUI.VLabel text="test" name="vLabel" />
+        <GlobalCustomUI.VSlider name="vSlider" style="align-items: center; justify-content: flex-start;" />
+        <GlobalCustomUI.VIntegerField name="vIntField" style="flex-grow: 0; min-width: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

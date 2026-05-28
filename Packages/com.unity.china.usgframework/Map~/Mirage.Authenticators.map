@@ -1,0 +1,46 @@
+{
+  "Name": "Mirage.Authenticators",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\Mirage.Authenticators.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Authenticators\\SessionId\\SessionData.cs",
+      "OriginalGuid": "dbf391d950b8f844fa9f5afecafef0c2",
+      "ClassNamespace": "Mirage.Authenticators.SessionId",
+      "ClassName": "SessionData",
+      "ClassFullName": "Mirage.Authenticators.SessionId.SessionData",
+      "FileID": 2116363483
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Authenticators\\BasicAuthenticator.cs",
+      "OriginalGuid": "5ee74a01400b9664cb736e2e5001b25a",
+      "ClassNamespace": "Mirage.Authenticators",
+      "ClassName": "BasicAuthenticator",
+      "ClassFullName": "Mirage.Authenticators.BasicAuthenticator",
+      "FileID": 2143584732
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Authenticators\\SessionId\\ISessionIdStore.cs",
+      "OriginalGuid": "6312a53457ef0bf40b7ec2fe6c54aece",
+      "ClassNamespace": "Mirage.Authenticators.SessionId",
+      "ClassName": "ClientSession",
+      "ClassFullName": "Mirage.Authenticators.SessionId.ClientSession",
+      "FileID": 1380819439
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Authenticators\\SessionId\\SessionIdAuthenticator.cs",
+      "OriginalGuid": "8ed75b9b93251c54386d31f2d8a85744",
+      "ClassNamespace": "Mirage.Authenticators.SessionId",
+      "ClassName": "SessionIdAuthenticator",
+      "ClassFullName": "Mirage.Authenticators.SessionId.SessionIdAuthenticator",
+      "FileID": 2105806908
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Authenticators\\SessionId\\CreateSession.cs",
+      "OriginalGuid": "8f14517fd0c186d45a6a7831cbec38c0",
+      "ClassNamespace": "Mirage.Authenticators.SessionId",
+      "ClassName": "CreateSession",
+      "ClassFullName": "Mirage.Authenticators.SessionId.CreateSession",
+      "FileID": 1847374388
+    }
+  ]
+}

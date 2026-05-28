@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2396830013406961599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7310375428503088153}
+  - component: {fileID: 7300956421021822492}
+  m_Layer: 0
+  m_Name: Timer_S
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7310375428503088153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2396830013406961599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8689836706395798545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7300956421021822492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2396830013406961599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766008277, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: 2377ef6eeb124794cb3ae67f02b7d41b, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 5281415727661187112
+    - rid: 5281415727661187113
+  _customEvents:
+  - rid: 5281415727661187114
+  - rid: 5281415727661187115
+  - rid: 5281415727661187116
+  _LfunctionInfoContainer:
+    _functionInfos:
+    - _funcName: StartTime
+      _argStrings: []
+      _argCount: 0
+    - _funcName: ResetTime
+      _argStrings: []
+      _argCount: 0
+  _variableRouter:
+    Connections: []
+  _lastGuid: 2377ef6eeb124794cb3ae67f02b7d41b
+  references:
+    version: 2
+    RefIds:
+    - rid: 5281415727661187112
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: TargetTimeSeconds
+        IsSync: 0
+        FromScript: 0
+        _value: 10
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 5281415727661187113
+      type: {class: V_Boolean, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: IsRunning
+        IsSync: 0
+        FromScript: 0
+        _value: 0
+    - rid: 5281415727661187114
+      type: {class: VULuaEventArgs, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 3253119816952349070}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvokeArgs
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: GameFramework.Runtime.Framework.ArgsData,
+                GameFramework.Runtime
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        typeStr:
+        - float
+        - float
+        _funcName: OnTimerStart
+    - rid: 5281415727661187115
+      type: {class: VULuaEventVoid, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 6164969891500971201}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvoke
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        _funcName: OnTimerFinish
+    - rid: 5281415727661187116
+      type: {class: VULuaEventVoid, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8610408900786755798}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvoke
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        _funcName: OnResetTimer
+--- !u!1 &4903755697668049216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041679202418150538}
+  - component: {fileID: 518443522415931212}
+  - component: {fileID: 3253119816952349070}
+  - component: {fileID: 6164969891500971201}
+  - component: {fileID: 8610408900786755798}
+  m_Layer: 0
+  m_Name: Timer_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041679202418150538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903755697668049216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8689836706395798545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518443522415931212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903755697668049216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 266094360, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: 82c32dd61a59a3c4d816fabc21512082, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables: []
+  _customEvents:
+  - rid: 5281415727661187121
+  - rid: 5281415727661187117
+  - rid: 5281415727661187118
+  - rid: 5281415727661187119
+  _LfunctionInfoContainer:
+    _functionInfos:
+    - _funcName: StartTime
+      _argStrings:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      _argCount: 2
+    - _funcName: FinishTime
+      _argStrings: []
+      _argCount: 0
+    - _funcName: ResetTime
+      _argStrings: []
+      _argCount: 0
+  _variableRouter:
+    Connections: []
+  _lastGuid: 82c32dd61a59a3c4d816fabc21512082
+  references:
+    version: 2
+    RefIds:
+    - rid: 5281415727661187117
+      type: {class: VULuaEventVoid, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvoke
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        _funcName: OnTimerComplete
+    - rid: 5281415727661187118
+      type: {class: VULuaEventArgs, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvokeArgs
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: GameFramework.Runtime.Framework.ArgsData,
+                GameFramework.Runtime
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        typeStr:
+        - int
+        _funcName: OnScheduledEachSeconds
+    - rid: 5281415727661187119
+      type: {class: VULuaEventArgs, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: LuaInvokeArgs
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: GameFramework.Runtime.Framework.ArgsData,
+                GameFramework.Runtime
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        typeStr:
+        - int
+        _funcName: OnScheduledEachMilliseconds
+    - rid: 5281415727661187121
+      type: {class: VULuaEventVoid, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        m_PersistentCalls:
+          m_Calls: []
+        _funcName: OnTimerStart
+--- !u!114 &3253119816952349070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903755697668049216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254441954, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetSVO: {fileID: 518443522415931212}
+  _luaFuncName: StartTime
+  _luaArgString: Single,Single
+--- !u!114 &6164969891500971201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903755697668049216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254441954, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetSVO: {fileID: 518443522415931212}
+  _luaFuncName: FinishTime
+  _luaArgString: void
+--- !u!114 &8610408900786755798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4903755697668049216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254441954, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetSVO: {fileID: 518443522415931212}
+  _luaFuncName: ResetTime
+  _luaArgString: void
+--- !u!1 &5902865992384295536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8689836706395798545}
+  - component: {fileID: 1168331860642943207}
+  - component: {fileID: 5001163203395635579}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8689836706395798545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5902865992384295536}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -990.47473, y: -992.3921, z: -22.251019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7310375428503088153}
+  - {fileID: 1041679202418150538}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1168331860642943207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5902865992384295536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -418092222, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _tags: []
+  _layerIndex: 0
+--- !u!114 &5001163203395635579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5902865992384295536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1800309526, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gizmoIcon: {fileID: 21300000, guid: d5a4bcc093b9fa94798f093b59ed2e90, type: 3}
+  _displayLabel: {r: 0, g: 0, b: 0, a: 1}
+  _paletteIcon: {fileID: 21300000, guid: d5a4bcc093b9fa94798f093b59ed2e90, type: 3}
+  _description: Start timer and invoke OnComplete when finished
+  isGizmoDraw: 1

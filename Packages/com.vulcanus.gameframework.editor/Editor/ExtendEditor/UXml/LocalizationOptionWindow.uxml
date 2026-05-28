@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Root" style="padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; flex-grow: 1;">
+        <ui:VisualElement name="EditorTitle" style="justify-content: center; height: 24px; min-height: 24px; padding-left: 6px; background-color: rgb(59, 59, 67);">
+            <ui:Label tabindex="-1" text="editor.window.label.language_setting.editor_language" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; justify-content: center; overflow: hidden; text-overflow: ellipsis;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 10px;" />
+        <ui:VisualElement name="EditorLanguage" style="flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; flex-basis: 0; width: 40%; min-width: 40%;">
+                <ui:Label tabindex="-1" text="editor.window.label.language_setting.editor_language" parse-escape-sequences="true" display-tooltip-when-elided="true" style="min-width: auto; -unity-text-align: middle-left; text-overflow: ellipsis; white-space: nowrap; align-items: flex-start; flex-direction: row; flex-basis: auto; overflow: hidden; display: flex; visibility: visible; justify-content: flex-start; flex-shrink: 0; flex-grow: 0; padding-left: 15px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-items: stretch; flex-basis: 0; width: 60%; min-width: 60%;">
+                <ui:DropdownField name="EditorLangDF" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 20px;" />
+        <ui:VisualElement name="GameTitle" style="justify-content: center; height: 24px; min-height: 24px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 6px; background-color: rgb(59, 59, 67);">
+            <ui:Label tabindex="-1" text="editor.window.label.language_setting.game_language" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; justify-content: center; overflow: hidden; text-overflow: ellipsis;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 10px;" />
+        <ui:VisualElement name="NativeLanguage" style="flex-direction: row; display: flex;">
+            <ui:VisualElement style="flex-basis: 0; flex-grow: 1; width: 40%; min-width: 40%;">
+                <ui:Label tabindex="-1" text="editor.window.label.language_setting.native_language" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 15px; overflow: hidden; text-overflow: ellipsis;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-basis: 0; flex-grow: 1; width: 60%; min-width: 60%;">
+                <ui:DropdownField name="AssetLangDF" />
+                <uie:EnumField value="Center" name="AssetLangEF" style="display: none; flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 10px;" />
+        <ui:VisualElement name="SupportLanguage" style="flex-direction: row; padding-left: 0;">
+            <ui:VisualElement style="flex-grow: 1; flex-basis: 0; width: 40%; min-width: 40%;">
+                <ui:Label tabindex="-1" text="editor.window.label.language_setting.support_Language" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 15px; overflow: hidden; text-overflow: ellipsis;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ItemListVE" style="flex-grow: 1; flex-basis: 0; width: 60%; min-width: 60%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BackGround" style="flex-grow: 1; height: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

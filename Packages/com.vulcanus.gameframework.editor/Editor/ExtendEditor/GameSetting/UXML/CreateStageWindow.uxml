@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgb(83, 83, 91); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;">
+        <ui:VisualElement style="justify-content: center; align-items: flex-start; color: rgb(255, 255, 255); -unity-font-style: bold;">
+            <ui:Label text="Start From new Stage" display-tooltip-when-elided="true" name="title" style="-unity-text-align: middle-center; font-size: 14px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="align-items: flex-start; color: rgb(196, 196, 196); padding-top: 10px; padding-right: 0; padding-bottom: 10px; padding-left: 0;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="subtitle" style="flex-grow: 1; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentGroup" style="flex-grow: 1;">
+            <VulcanusEditor.ExtendEditor.VTap contentText="All,Game,Theme" style="height: 30px; justify-content: center; margin-top: 20px; margin-right: 20px; margin-bottom: 10px; margin-left: 20px;" />
+            <ui:ScrollView name="Content" horizontal-page-size="4" horizontal-scroller-visibility="Hidden" style="flex-grow: 1; flex-direction: row; background-color: rgb(59, 59, 67); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-right: 20px; margin-left: 20px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="createBT" style="height: 25px; width: 420px; background-color: rgb(117, 83, 243); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; align-self: center; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 20px; margin-bottom: 20px;">
+            <ui:Label text="Create Scene" display-tooltip-when-elided="true" name="createText" style="flex-grow: 1; -unity-text-align: middle-center; -unity-font-style: bold; justify-content: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

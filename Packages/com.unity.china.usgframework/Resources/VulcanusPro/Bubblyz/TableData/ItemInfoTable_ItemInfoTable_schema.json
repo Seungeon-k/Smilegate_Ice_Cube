@@ -1,0 +1,12 @@
+{
+    "ID": "!String",
+    "PrefabName": "!String",
+    "PrefabNameOnGround": "!String",
+    "PrefabNameUsed": "!String",
+    "ItemType": "EItemType",
+    "WeaponType": "!String",
+    "PartsType": "EPartsType",
+    "IsSubItem": "!Bool",
+    "InterferenceParts": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

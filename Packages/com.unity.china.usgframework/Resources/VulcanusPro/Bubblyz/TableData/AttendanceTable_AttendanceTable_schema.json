@@ -1,0 +1,10 @@
+{
+    "ID": "!String",
+    "type": "!String",
+    "AttendanceTitleNPC": "!String",
+    "AttendanceTitle": "!String",
+    "AttendanceDescription": "!String",
+    "AttendanceDateStart": "!GroupString, !Int",
+    "AttendanceDateEnd": "!GroupString, !Int",
+    "ID_INT_TEMP": "!Int"
+}

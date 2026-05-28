@@ -1,0 +1,6 @@
+{
+    "RandomBoxTabID": "!Int",
+    "RandomBoxName": "!String",
+    "BoxType": "!String",
+    "NowOpen": "!Bool"
+}

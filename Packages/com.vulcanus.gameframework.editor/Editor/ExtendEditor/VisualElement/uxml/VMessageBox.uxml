@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VMessageBox.uss?fileID=7433441132597879392&amp;guid=26734f6e54a0e054cb8e2ede55ff63a3&amp;type=3#VMessageBox" />
+    <ui:VisualElement class="VMessageBox">
+        <ui:VisualElement name="Icon" style="width: 32px; height: 32px;" />
+        <ui:Label name="Description" />
+    </ui:VisualElement>
+</ui:UXML>

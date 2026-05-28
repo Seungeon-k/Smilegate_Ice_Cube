@@ -1,0 +1,2406 @@
+{
+  "Name": "USGFramework.Editor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGFramework.Editor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorApplicationHandling\\SceneFlowHandler.cs",
+      "OriginalGuid": "bc4589cd5ac74834db0d978daa6fe525",
+      "ClassNamespace": "USGFramework.Editor.EditorApplicationHandling",
+      "ClassName": "SceneFlowHandler",
+      "ClassFullName": "USGFramework.Editor.EditorApplicationHandling.SceneFlowHandler",
+      "FileID": 1978342429
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MaterialOre\\RangeProperty.cs",
+      "OriginalGuid": "8a2915dd00d8e4f8cb0681de17197faa",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "RangeProperty",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.RangeProperty",
+      "FileID": 711492643
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\SystemTag.cs",
+      "OriginalGuid": "7b1d7f4bbe8134503859a95289617212",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "SystemTag",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.SystemTag",
+      "FileID": -300690920
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetProcessor\\USGIngotTexturePostProcessor.cs",
+      "OriginalGuid": "b459717cd8664a4f9705cb8281b18abc",
+      "ClassNamespace": "USGFramework.Editor.USGAssetProcessor",
+      "ClassName": "USGIngotTexturePostProcessor",
+      "ClassFullName": "USGFramework.Editor.USGAssetProcessor.USGIngotTexturePostProcessor",
+      "FileID": -124326573
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\SelectActionEvent.cs",
+      "OriginalGuid": "1c398a9282534e4881711244a2efc2da",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "SelectActionEvent",
+      "ClassFullName": "USGFramework.Editor.Events.SelectActionEvent",
+      "FileID": 618532848
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\ByteableReadWriter.cs",
+      "OriginalGuid": "80eed72d29ee2fe47b7c98ecc0f535c4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BytesableWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BytesableWriter",
+      "FileID": -21604403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\FakeRuntimeSetting.cs",
+      "OriginalGuid": "52f4747e8e287d74cb19765e653d3ba2",
+      "ClassNamespace": null,
+      "ClassName": "FakeRuntimeSetting",
+      "ClassFullName": "FakeRuntimeSetting",
+      "FileID": 15062249
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DataSheetEditor\\DataSheetWindow\\DataSheetWindowUndoRedo.cs",
+      "OriginalGuid": "48ca5d5610e433e48ac5e410a3f5cea1",
+      "ClassNamespace": "USGFramework.Editor.DataSheetEditor",
+      "ClassName": "UnityDataSheetOreWindow",
+      "ClassFullName": "USGFramework.Editor.DataSheetEditor.UnityDataSheetOreWindow",
+      "FileID": -905443639
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\VoxelWorldPaint.cs",
+      "OriginalGuid": "4b9d8f4abb4840d4eab7399af2a0d242",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "VoxelWorldEditor",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.VoxelWorldEditor",
+      "FileID": 165576804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\USGConverter\\USGConverterBase.cs",
+      "OriginalGuid": "71bdeda8aabe6b940af4d99a0efe6fb1",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.USGConverter",
+      "ClassName": "USGConverterBase",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.USGConverter.USGConverterBase",
+      "FileID": -341955461
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\TxtReader.cs",
+      "OriginalGuid": "07eedd4125738420999bc246cecfa19b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "TxtReader",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.TxtReader",
+      "FileID": 1606969889
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\RotateGuiComponent.cs",
+      "OriginalGuid": "aa221323086d63d489eb21c7b8a7c50c",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "RotateGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.RotateGuiComponent",
+      "FileID": 302933455
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\OpenStoveEvent.cs",
+      "OriginalGuid": "fa035c114ceb4a56a61ad47baeba899d",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "OpenStoveEvent",
+      "ClassFullName": "USGFramework.Editor.Events.OpenStoveEvent",
+      "FileID": 1285718414
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\BinWriter.cs",
+      "OriginalGuid": "46070327291e443999fa8dd5ce209bfb",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "BinWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.BinWriter",
+      "FileID": -946769697
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\CreateNewTerrainMenu.cs",
+      "OriginalGuid": "0875fa022d524d04bb8c0a4549bc210e",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "CreateNewTerrainMenu",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.CreateNewTerrainMenu",
+      "FileID": -1092163577
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\RestartUnityProjectEvent.cs",
+      "OriginalGuid": "82ce5588d6ac4526b587a22589c8c33b",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "RestartUnityProjectEvent",
+      "ClassFullName": "USGFramework.Editor.Events.RestartUnityProjectEvent",
+      "FileID": 1982492050
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\EditorMold.cs",
+      "OriginalGuid": "2a0f99c1e6e54a942a1fb37ab020e49a",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "EditorMold",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.EditorMold",
+      "FileID": -1662642074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\CursorState.cs",
+      "OriginalGuid": "050cc2adeb5441141a0c6516e0512390",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "CursorState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.CursorState",
+      "FileID": -1085707381
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\FSMOre.cs",
+      "OriginalGuid": "50b976d217f994a47b461f51a1000b31",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMOre",
+      "FileID": -1897635849
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\VoxelWorldPalette.cs",
+      "OriginalGuid": "e959c29da763b644c9b88dadbab914c7",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "VoxelWorldEditor",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.VoxelWorldEditor",
+      "FileID": 165576804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\CommandForm.cs",
+      "OriginalGuid": "53b4eed2410b69e47bc0adb16a8cf633",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CommandForm",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CommandForm",
+      "FileID": -1847159708
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\AddStructureGuiComponent.cs",
+      "OriginalGuid": "5cb753a5e864a634f952abbf1f6d9d81",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "AddStructureGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.AddStructureGuiComponent",
+      "FileID": -968714655
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGLuaFramework\\LuaScriptAssetMenu.cs",
+      "OriginalGuid": "7e1cf8c91b67d5341aa2707175054c42",
+      "ClassNamespace": "USGFramework.Editor.USGLuaFramework",
+      "ClassName": "LuaScriptAssetMenu",
+      "ClassFullName": "USGFramework.Editor.USGLuaFramework.LuaScriptAssetMenu",
+      "FileID": -1762625540
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\DoCreateWorldDataAsset.cs",
+      "OriginalGuid": "1b22b0dc54e6ecf47ba583a73e49e7da",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "DoCreateWorldDataAsset",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.DoCreateWorldDataAsset",
+      "FileID": 1911920592
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\UnityWorldDataEditor.cs",
+      "OriginalGuid": "79d634986af4fc04fb959d024511de5c",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "UnityWorldDataEditor",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.UnityWorldDataEditor",
+      "FileID": -1710060785
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\CompressionLZ4.cs",
+      "OriginalGuid": "db498e06f961843039b4a4721ac21e86",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "CompressionLZ4",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.CompressionLZ4",
+      "FileID": 424624791
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGFixUp\\CsFile.cs",
+      "OriginalGuid": "4cbdff25c6ed4d8d8681ea5285c49a68",
+      "ClassNamespace": "USGFramework.Editor.FixUp",
+      "ClassName": "CsFile",
+      "ClassFullName": "USGFramework.Editor.FixUp.CsFile",
+      "FileID": -125573114
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagLong.cs",
+      "OriginalGuid": "48fac732e44b04fb3aca5d9573f3aeda",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagLong",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagLong",
+      "FileID": -79932977
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\ActionSelectedEvent.cs",
+      "OriginalGuid": "7ab62eb9fedd4b1c825e71bc1de72ffc",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "ActionSelectedEvent",
+      "ClassFullName": "USGFramework.Editor.Events.ActionSelectedEvent",
+      "FileID": -1182873658
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\OreTag.cs",
+      "OriginalGuid": "9e06164bed5a24eb290753e2968e2d18",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "OreTag",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.OreTag",
+      "FileID": -340428977
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\TransformEditorExtension.cs",
+      "OriginalGuid": "9e208d1b33aacd140b64ddce6cd86d26",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions",
+      "ClassName": "TransformEditorExtension",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.TransformEditorExtension",
+      "FileID": -1448847684
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\IdleState.cs",
+      "OriginalGuid": "e6bc9ba4c4dfee6478a1ceb0e00ee0d3",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "IdleState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.IdleState",
+      "FileID": 1297731953
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Utils\\AssetUtil.cs",
+      "OriginalGuid": "9c6e7ad216bc1a34e9e93e3027cf58a8",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Utils",
+      "ClassName": "AssetUtil",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Utils.AssetUtil",
+      "FileID": -1461271212
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterKey.cs",
+      "OriginalGuid": "ff559f53e2c204e0aa407d774364590d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterKey",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterKey",
+      "FileID": 1335363770
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\SpuitGuiComponent.cs",
+      "OriginalGuid": "4af7982c4aef29640ac541f0ec6c316f",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "SpuitGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.SpuitGuiComponent",
+      "FileID": 1873709333
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BehaviorOre\\BehaviorOre.cs",
+      "OriginalGuid": "206a004e7e5de8b4b8bc87dd66a939e7",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "BehaviorOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.BehaviorOre",
+      "FileID": 313988706
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagByteArray.cs",
+      "OriginalGuid": "3fd5285c80d074c949486b259fb9c842",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagByteArray",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagByteArray",
+      "FileID": 940172898
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleMerger.cs",
+      "OriginalGuid": "ba850be20aff4acc83e62bf7ddd530b1",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleMerger",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleMerger",
+      "FileID": -1632887027
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterBase.cs",
+      "OriginalGuid": "b555cfa912daa42f3940e25538490c77",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterBase",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterBase",
+      "FileID": 1328841973
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\HeaderPack.cs",
+      "OriginalGuid": "61c541946dfc86145bc5b8a5712d20ea",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "HeaderPack",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.HeaderPack",
+      "FileID": 876729500
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\BaseDeserializer.cs",
+      "OriginalGuid": "ab34ce38f1bbe3046b7aba7cf5814ded",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BaseDeserializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BaseDeserializer",
+      "FileID": -1956078294
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\BytesBuffer.cs",
+      "OriginalGuid": "0216e36e73d29b846a1273f70b02d8ca",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BytesBuffer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BytesBuffer",
+      "FileID": 1168761522
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorEventCenter\\EditorEventCenter.cs",
+      "OriginalGuid": "97cea43efcd82df45a3e985a0b8241d0",
+      "ClassNamespace": "USGFramework.Editor.EventHandler",
+      "ClassName": "EditorEventCenter",
+      "ClassFullName": "USGFramework.Editor.EventHandler.EditorEventCenter",
+      "FileID": -2055706901
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagString.cs",
+      "OriginalGuid": "bc9ffc40b0c4e482ead8977bb7e21860",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagString",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagString",
+      "FileID": 1373102411
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagUShort.cs",
+      "OriginalGuid": "18d461ff62dfb4b029969a65064aef3d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagUShort",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagUShort",
+      "FileID": -351291599
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\FlipState.cs",
+      "OriginalGuid": "2329da4e393181a48a1611d92c3f2d04",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "FlipState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.FlipState",
+      "FileID": -1350876416
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterBool.cs",
+      "OriginalGuid": "394ed838479e7479187ba0db0c06502b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterBool",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterBool",
+      "FileID": -1060471374
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SomeableSerializer.cs",
+      "OriginalGuid": "08b2b590e6f295043905a65e1a2ecba8",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableSerializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableSerializer",
+      "FileID": 2084391526
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTSerializableAttribute.cs",
+      "OriginalGuid": "37b37f6ad275041cfb793ba9e73e1d5a",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTSerializableAttribute",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTSerializableAttribute",
+      "FileID": -1244165253
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTHelper.cs",
+      "OriginalGuid": "79b0fa1e506d64745898f511b82a11f6",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTHelper",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTHelper",
+      "FileID": 1469419625
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorApplicationHandling\\EditorReflectionTypes.cs",
+      "OriginalGuid": "b8d555b0cdba9e74491b396704068117",
+      "ClassNamespace": "USGFramework.Editor.EditorApplicationHandling",
+      "ClassName": "EditorReflectionTypes",
+      "ClassFullName": "USGFramework.Editor.EditorApplicationHandling.EditorReflectionTypes",
+      "FileID": -1738372457
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BlockOre\\VoxelFaceParam.cs",
+      "OriginalGuid": "24fd07a1d586044b7bd57cc35977b537",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelFaceParam",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelFaceParam",
+      "FileID": -1075706548
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\OreReference.cs",
+      "OriginalGuid": "9384aea8898f6495984249f5962fbb01",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "OreReference",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.OreReference",
+      "FileID": 91544797
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\ReplaceGuiComponent.cs",
+      "OriginalGuid": "cc9e8b5dd0a28304a956974c6a695dcb",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "ReplaceGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.ReplaceGuiComponent",
+      "FileID": -1837416713
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FontOres.cs",
+      "OriginalGuid": "5333788d5360c41bfbd15ae26c08ce84",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FontOres",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FontOres",
+      "FileID": -1555235650
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FillGuiComponent.cs",
+      "OriginalGuid": "011d2fb40d90e0547a08a4ae1575d0c3",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FillGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FillGuiComponent",
+      "FileID": 1710530608
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MaterialOre\\MaterialOre.cs",
+      "OriginalGuid": "fa7723d34fae8457a820a4e7487dfd72",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "MaterialOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.MaterialOre",
+      "FileID": -1042335375
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\USGConverter\\USGAssetsImportRules.cs",
+      "OriginalGuid": "8a3c40e52b299024796678ce2058c144",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.USGConverter",
+      "ClassName": "USGAssetsImportRules",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.USGConverter.USGAssetsImportRules",
+      "FileID": 1338817374
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\GuiComponents\\SimpleGuiBehaviour.cs",
+      "OriginalGuid": "01d29d3c5d0387f448e419ea99e63eca",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions.GuiComponents",
+      "ClassName": "SimpleGuiBehaviour",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.GuiComponents.SimpleGuiBehaviour",
+      "FileID": -1260259306
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\FSMTransition.cs",
+      "OriginalGuid": "0eff2955834654e1dbeb8ee8b1299875",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMTransition",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMTransition",
+      "FileID": 1342670647
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\RemotePlay\\RemotePlayHelper.cs",
+      "OriginalGuid": "239a8074cbc0c894a93a7a7e873d1d18",
+      "ClassNamespace": "USGFramework.Editor.RemotePlay",
+      "ClassName": "RemotePlayHelper",
+      "ClassFullName": "USGFramework.Editor.RemotePlay.RemotePlayHelper",
+      "FileID": -1613883970
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\BytesableException.cs",
+      "OriginalGuid": "53fe8c16cde24c044ab329b4035fc69a",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BytesableException",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BytesableException",
+      "FileID": -940757914
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\PasteGuiComponent.cs",
+      "OriginalGuid": "4d52455d04b8d994ea4d0e361b8abd85",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "PasteGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.PasteGuiComponent",
+      "FileID": 1431469894
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\MakeStructureGuiComponent.cs",
+      "OriginalGuid": "f12c3f0fa4b7aa34dafeb2a1feef6981",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "MakeStructureGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.MakeStructureGuiComponent",
+      "FileID": -662518669
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\MoldState.cs",
+      "OriginalGuid": "da600c92df9eda74ebcaf86dc1b33753",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "MoldState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.MoldState",
+      "FileID": -1055686442
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\StructureEditor\\UnityVoxelStructureOreEditor.cs",
+      "OriginalGuid": "6563f952f0cff3b4fa92c90136fbf5d2",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.StructureEditor",
+      "ClassName": "UnityVoxelStructureOreEditor",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.StructureEditor.UnityVoxelStructureOreEditor",
+      "FileID": -175919127
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\OreMoldData.cs",
+      "OriginalGuid": "865d6103397307047aa802e12862b8ab",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "OreMoldData",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.OreMoldData",
+      "FileID": 1240123769
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorWindow\\BlockPaletteWindow.cs",
+      "OriginalGuid": "c654296ffbbf09643b0aeb3955a5e7cc",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorWindow",
+      "ClassName": "BlockPaletteWindow",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorWindow.BlockPaletteWindow",
+      "FileID": 1900648238
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\TerrainOre\\VoxelPropertyValueWrap.cs",
+      "OriginalGuid": "2a948283e45124a15a7671e6aa9f6ed4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelPropertyValueWrap",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelPropertyValueWrap",
+      "FileID": 1769520760
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagShort.cs",
+      "OriginalGuid": "c3960af8b12514fdc8d809cd31fa98b0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagShort",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagShort",
+      "FileID": -6655280
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\ParticleOre\\ParticleOre_SC.cs",
+      "OriginalGuid": "13a68ed599fff4447b5811fd1de1bf12",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "ParticleKeyframe",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.ParticleKeyframe",
+      "FileID": 1355360479
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\AnyState.cs",
+      "OriginalGuid": "6f76a17e8fca44e7ca9911b0592035f9",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AnyState",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AnyState",
+      "FileID": 938748363
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTBase.cs",
+      "OriginalGuid": "1c382f451c129402db908915a594b547",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTBase",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTBase",
+      "FileID": -1815754601
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ProcessHelper\\ProcessLogFile.cs",
+      "OriginalGuid": "5b2f98b222b14e53b7a87a7fd56f4683",
+      "ClassNamespace": "USGFramework.Editor.ProcessHelper",
+      "ClassName": "ProcessLogFile",
+      "ClassFullName": "USGFramework.Editor.ProcessHelper.ProcessLogFile",
+      "FileID": -1597454317
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\VoxelMaterialOre.cs",
+      "OriginalGuid": "0f682e2e50063904880a4b024b16644b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelMaterialOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelMaterialOre",
+      "FileID": 788906308
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\PublishEvent.cs",
+      "OriginalGuid": "3fd535b43e94624469057007480bbbad",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "PublishEvent",
+      "ClassFullName": "USGFramework.Editor.Events.PublishEvent",
+      "FileID": -1807975764
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BlockOre\\MeshBlockOre.cs",
+      "OriginalGuid": "758528b6e60904f0591c8f1ca25b73b9",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "MeshBlockOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.MeshBlockOre",
+      "FileID": -697118982
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\PrefabOre.cs",
+      "OriginalGuid": "7197cfdda65444af4a6f8f227e598a0f",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "PrefabOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.PrefabOre",
+      "FileID": -254160321
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SomeableTarget.cs",
+      "OriginalGuid": "a2d7b2717b2116d43aafef319e925470",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableTargetCache",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableTargetCache",
+      "FileID": 1440151748
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MaterialOre\\BaseMaterialOre.cs",
+      "OriginalGuid": "981a6d32d077f4ce0b5df38f4c65fb19",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "BaseMaterialOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.BaseMaterialOre",
+      "FileID": -614592122
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\GuiComponents\\AddLuaBehaviourButtonGuiComponent.cs",
+      "OriginalGuid": "7a90fe03b45983d4cad115d51caf0630",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions.GuiComponents",
+      "ClassName": "AddLuaBehaviourButtonGuiComponent",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.GuiComponents.AddLuaBehaviourButtonGuiComponent",
+      "FileID": -614653056
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackingEditor.cs",
+      "OriginalGuid": "83023437a7ac4bcd9885fafe96e652aa",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "PackagingEditor",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagingEditor",
+      "FileID": -395678952
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BlockOre\\VoxelPropertyValue.cs",
+      "OriginalGuid": "bd979a34e92a74adaa614b7d29d2add0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelPropertyValue",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelPropertyValue",
+      "FileID": -1892683826
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleBuildHandler.cs",
+      "OriginalGuid": "b73fe373a8de4ae8b81707a44ab47bce",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleBuildHandler",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleBuildHandler",
+      "FileID": 550102890
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BlockOre\\VoxelCollisionModel.cs",
+      "OriginalGuid": "bc3fd3be86c5041cd832a0a3c7fc6d92",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelCollisionModel",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelCollisionModel",
+      "FileID": 155786379
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagDouble.cs",
+      "OriginalGuid": "9b1d3ccd698374d5f811c7e1edd96929",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagDouble",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagDouble",
+      "FileID": -190692069
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorApplicationHandling\\EditorReflectionTypesGameObjectPart.cs",
+      "OriginalGuid": "c0abb12c900b42c42a2ac5f1902e6207",
+      "ClassNamespace": "USGFramework.Editor.EditorApplicationHandling",
+      "ClassName": "EditorReflectionTypes",
+      "ClassFullName": "USGFramework.Editor.EditorApplicationHandling.EditorReflectionTypes",
+      "FileID": -1738372457
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\BytesableSerializer.cs",
+      "OriginalGuid": "6ef9dbbfb036410438ea18bc8fb9f97d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BytesableSerializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BytesableSerializer",
+      "FileID": -961830520
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\MultitonItemRefer.cs",
+      "OriginalGuid": "afedaac0b635e4119b16ec6abe3f7fdc",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "MultitonItemRefer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.MultitonItemRefer",
+      "FileID": -1658803259
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\PublishUgc2Stove.cs",
+      "OriginalGuid": "ad42cfa953b7481a8d1ba6f9caed1206",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "PublishUGC2StoveEvent",
+      "ClassFullName": "USGFramework.Editor.Events.PublishUGC2StoveEvent",
+      "FileID": 972044549
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\StaticOre.cs",
+      "OriginalGuid": "3bb62231f2d3d4146a58b2913ce6aee1",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "StaticOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.StaticOre",
+      "FileID": 1484261535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\GetProjectPermission.cs",
+      "OriginalGuid": "eb343ddb0ae68994aa0fbc1122bf6342",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "GetProjectPermission",
+      "ClassFullName": "USGFramework.Editor.Events.GetProjectPermission",
+      "FileID": 1626080643
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\IOre.cs",
+      "OriginalGuid": "471378e66e5734af7b7b98830801b0ac",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "IOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.IOre",
+      "FileID": 847513349
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DataSheetEditor\\DataSheetWindow\\DataSheetWindowOptionBox.cs",
+      "OriginalGuid": "ec857d5013197d5448ee1f057e12b056",
+      "ClassNamespace": "USGFramework.Editor.DataSheetEditor",
+      "ClassName": "UnityDataSheetOreWindow",
+      "ClassFullName": "USGFramework.Editor.DataSheetEditor.UnityDataSheetOreWindow",
+      "FileID": -905443639
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\OpenExternalBrowserEvent.cs",
+      "OriginalGuid": "3e345b45b61e4fd5934a42935ba24619",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "OpenExternalBrowserEvent",
+      "ClassFullName": "USGFramework.Editor.Events.OpenExternalBrowserEvent",
+      "FileID": -421121142
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\GearOre.cs",
+      "OriginalGuid": "20e0a1e8f7b95448e8826e5bc0c81898",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "GearOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.GearOre",
+      "FileID": 652358165
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3TextureOptionConvertor.cs",
+      "OriginalGuid": "23f3c4563bc64126815f3ddadd007fc4",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3TextureOptionConvertor",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3TextureOptionConvertor",
+      "FileID": -135589531
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\Framework\\ElementCreator.cs",
+      "OriginalGuid": "fa5ef3dcf45ec4b4fa2513336eaeae5e",
+      "ClassNamespace": "USGFramework.Editor.Interface",
+      "ClassName": "ElementCreator",
+      "ClassFullName": "USGFramework.Editor.Interface.ElementCreator",
+      "FileID": 409872541
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditModes.cs",
+      "OriginalGuid": "ea509cc2727efb145a646ed252a7e61e",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "WorldEditModes",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditModes",
+      "FileID": -1469643582
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagList.cs",
+      "OriginalGuid": "f190a2bc752bc4f52848ed8811a4d821",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagList",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagList",
+      "FileID": -1997714739
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\PaintShowBrushGuiComponent.cs",
+      "OriginalGuid": "8f10763a76329f147957a7960f04dfcd",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "PaintShowBrushGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.PaintShowBrushGuiComponent",
+      "FileID": 1819771789
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\ExpressionDelegateFactory.cs",
+      "OriginalGuid": "ec6b4c07f2e08c549b3dc135db18f292",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "ExpressionDelegateFactory",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.ExpressionDelegateFactory",
+      "FileID": 738002010
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\BlockPaletteGuiComponent.cs",
+      "OriginalGuid": "c8e7a800140d323449926b6f6eee4c1c",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "BlockPaletteGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.BlockPaletteGuiComponent",
+      "FileID": 700825693
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMTriggerParameter.cs",
+      "OriginalGuid": "34dce9ce21e894c09a63c2df5d9d1746",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMTriggerParameter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMTriggerParameter",
+      "FileID": -496701056
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MeshOre\\SubMesh.cs",
+      "OriginalGuid": "8912aea9f59f7498eb60d3b317865da6",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "SubMesh",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.SubMesh",
+      "FileID": -818568783
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\Bytesable.cs",
+      "OriginalGuid": "e08be676ebcf8e041a66819876de2b07",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "Bytesable",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.Bytesable",
+      "FileID": 725356710
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\AccessaryNode.cs",
+      "OriginalGuid": "d7373aa62b4c55947b7f428bfc15da46",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AccessaryNode",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AccessaryNode",
+      "FileID": -1938413678
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagBool.cs",
+      "OriginalGuid": "8842e6650801742f28ed13fe54cf503e",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagBool",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagBool",
+      "FileID": -243689256
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\PickGuiComponent.cs",
+      "OriginalGuid": "51d1560e80753ad4db50a8dd40dc53da",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "PickGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.PickGuiComponent",
+      "FileID": -454595453
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MeshOre\\MeshOre.cs",
+      "OriginalGuid": "068a87238b764497e89476fd12211d00",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "MeshOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.MeshOre",
+      "FileID": 1079281364
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\AddShowBrushGuiComponent.cs",
+      "OriginalGuid": "76127a862a7b1f342a5318eae99bb362",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "AddShowBrushGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.AddShowBrushGuiComponent",
+      "FileID": 2024523697
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\CursorGuiComponent.cs",
+      "OriginalGuid": "c3822a83e6294d44cbef89392402d76b",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "CursorGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.CursorGuiComponent",
+      "FileID": 1443656246
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\DummyTextButtonGuiComponent.cs",
+      "OriginalGuid": "a3be79692848f934aa703f8861738d47",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "DummyTextButtonGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.DummyTextButtonGuiComponent",
+      "FileID": -254953650
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorApplicationHandling\\EditorDLLReimporter.cs",
+      "OriginalGuid": "06474df386d0b154f8c2bd2e428f8b23",
+      "ClassNamespace": "USGFramework.Editor",
+      "ClassName": "EditorDLLReimporter",
+      "ClassFullName": "USGFramework.Editor.EditorDLLReimporter",
+      "FileID": -957397883
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\AddStructureState.cs",
+      "OriginalGuid": "1e0abe54106f8374ebef653046a28433",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "AddStructureState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.AddStructureState",
+      "FileID": -454317132
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\FrameworkModeHandler\\VAddressable\\GFAddressableModeHandler.cs",
+      "OriginalGuid": "544fe80041bf4fac9d4aa93caacef06e",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "GFAddressableModeHandler",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.GFAddressableModeHandler",
+      "FileID": 454633174
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagInt.cs",
+      "OriginalGuid": "3d367fd205b9f4d43b367863fe10f6c4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagInt",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagInt",
+      "FileID": 373313137
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\OreThumbnail.cs",
+      "OriginalGuid": "cd66eccc900dc4fdfaa80e443a6e7e0e",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "OreThumbnail",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.OreThumbnail",
+      "FileID": 1234095079
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FlattenShowBrushGuiComponent.cs",
+      "OriginalGuid": "7cd2497ec03841e40ba78ffdf93c9ff4",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FlattenShowBrushGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FlattenShowBrushGuiComponent",
+      "FileID": 1506490979
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FlipGuiComponent.cs",
+      "OriginalGuid": "1240eeb95fe98b34fb68b020ceb836f3",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FlipGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FlipGuiComponent",
+      "FileID": -29863540
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\MoldGraphicsHelperGenerator.cs",
+      "OriginalGuid": "b2e6fa1188797e9468269ff07cc8bdb5",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "MoldGraphicsHelperGenerator",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.MoldGraphicsHelperGenerator",
+      "FileID": 1914087246
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\CryptoHeaderData.cs",
+      "OriginalGuid": "2e3bd60a75d18f341b7164a7e5adef5e",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CryptoHeaderData",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CryptoHeaderData",
+      "FileID": -247448585
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\WorldEditorGuiComponentBase\\WorldEditorGuiComponentBase.cs",
+      "OriginalGuid": "e8e7c05b8bec4bb4d8216cec337170d5",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase",
+      "ClassName": "WorldEditorGuiComponentBase",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase.WorldEditorGuiComponentBase",
+      "FileID": -123434932
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\ScriptOre.cs",
+      "OriginalGuid": "097e6438e694b4ef88ee9dd4edb59660",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "ScriptOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.ScriptOre",
+      "FileID": 1788717640
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetProcessor\\USGAssetModificationProcessor.cs",
+      "OriginalGuid": "8f8f83c6524d3824e95d6baa0edf48b2",
+      "ClassNamespace": "USGFramework.Editor.USGAssetProcessor",
+      "ClassName": "USGAssetModificationProcessor",
+      "ClassFullName": "USGFramework.Editor.USGAssetProcessor.USGAssetModificationProcessor",
+      "FileID": 375695375
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SomeableDeserializer.cs",
+      "OriginalGuid": "820bb2d78a404b641876a9f1a465e4b2",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableDeserializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableDeserializer",
+      "FileID": -1746732928
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\AddState.cs",
+      "OriginalGuid": "48df2db4aabac754e9be9f4b4623b7ee",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "AddState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.AddState",
+      "FileID": -2099595180
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\GuiComponents\\GuiExtensionMask.cs",
+      "OriginalGuid": "458e36ef7fad9044bafa7f8b24f20df5",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions.GuiComponents",
+      "ClassName": "GuiExtensionMask",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.GuiComponents.GuiExtensionMask",
+      "FileID": 437562469
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\CopyGuiComponent.cs",
+      "OriginalGuid": "3c74cccf475444045bb65063c7af3c71",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "CopyGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.CopyGuiComponent",
+      "FileID": -716664414
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\QuickSlotGuiComponent.cs",
+      "OriginalGuid": "dab1f31c374e96542a1512d0d6628e1a",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "QuickSlotGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.QuickSlotGuiComponent",
+      "FileID": 301976423
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorConfig.cs",
+      "OriginalGuid": "5161e17d2103aa54baaa5fc5baf7844d",
+      "ClassNamespace": "USGFramework.Editor",
+      "ClassName": "EditorConfig",
+      "ClassFullName": "USGFramework.Editor.EditorConfig",
+      "FileID": -634844259
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\Packager.cs",
+      "OriginalGuid": "0c3d96d0b27963d4eb04f1442613d37b",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "Packager",
+      "ClassFullName": "USGFramework.Editor.USGPackager.Packager",
+      "FileID": -832937341
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\EntryState.cs",
+      "OriginalGuid": "592f8ec63830547a38f04842445a7100",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "EntryState",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.EntryState",
+      "FileID": 653564712
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiObjects\\DiMeshPresentation.cs",
+      "OriginalGuid": "a5614baf6178d494b8b920d43f4f264c",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiObjects",
+      "ClassName": "DiMeshPresentation",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiObjects.DiMeshPresentation",
+      "FileID": -565065418
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\AddGuiComponent.cs",
+      "OriginalGuid": "a9ca34c276e60a34797b48af1688aa1d",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "AddGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.AddGuiComponent",
+      "FileID": 1322012203
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\TxtWriter.cs",
+      "OriginalGuid": "2f04c5d655e1e477eb7ed1386c698cb0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "TxtWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.TxtWriter",
+      "FileID": -1850965400
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\EraseGuiComponent.cs",
+      "OriginalGuid": "e876dbf9426692c44bdfce1ad609bba0",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "EraseGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.EraseGuiComponent",
+      "FileID": 1011531473
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\ByteBuffer.cs",
+      "OriginalGuid": "b7e00c861c768c54ba26ced6a7e445b3",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "ByteBuffer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.ByteBuffer",
+      "FileID": -1914291584
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\StoveEditorDatastoreEvent.cs",
+      "OriginalGuid": "88a2c7f0badaa7b4eaa76c70b36937b8",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "GetDataStoresUsage",
+      "ClassFullName": "USGFramework.Editor.Events.GetDataStoresUsage",
+      "FileID": 1087078867
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\MeshBlockEditor\\UnityMeshBlockOreStage.cs",
+      "OriginalGuid": "b9b6b625d3efef240b07a9859f6d9c37",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.MeshBlockEditor",
+      "ClassName": "UnityMeshBlockOreStage",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.MeshBlockEditor.UnityMeshBlockOreStage",
+      "FileID": 1976524716
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SerializerOption.cs",
+      "OriginalGuid": "46c2b05118f4a7349999e0eac7bbf172",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SerializerOption",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SerializerOption",
+      "FileID": 1433226070
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\TextableReadWriter.cs",
+      "OriginalGuid": "0ab3245f21a85ed419ca37a49f20774b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "TextableWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.TextableWriter",
+      "FileID": 664182352
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\ExtrudeState.cs",
+      "OriginalGuid": "ec4b38a31e33ebd41a6819d2f7cfc18f",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "ExtrudeState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.ExtrudeState",
+      "FileID": 232475036
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiObjects\\DiSkinnedMesh.cs",
+      "OriginalGuid": "f81572b1da410e74282e3e34d823783f",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiObjects",
+      "ClassName": "DiSkinnedMesh",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiObjects.DiSkinnedMesh",
+      "FileID": -798667220
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\VoxelBlockEditor\\UnityVoxelBlockOreEditor.cs",
+      "OriginalGuid": "02fdfae28d3f7c941bfadcdd802b9290",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.VoxelBlockEditor",
+      "ClassName": "UnityVoxelBlockOreEditor",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.VoxelBlockEditor.UnityVoxelBlockOreEditor",
+      "FileID": 614206202
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\TransformHandleState.cs",
+      "OriginalGuid": "8f93c7dd24972994c8543e636894c893",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "TransformHandleState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.TransformHandleState",
+      "FileID": -229489519
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagULong.cs",
+      "OriginalGuid": "ea17334df38e6496a8eab3b2a46c247a",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagULong",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagULong",
+      "FileID": -630903239
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\LocalLauncher\\LocalLauncherUtil.cs",
+      "OriginalGuid": "0742984ab735a1748affa8ad0790e1d6",
+      "ClassNamespace": "USGFramework.Editor.LocalLauncher",
+      "ClassName": "LocalLauncherUtil",
+      "ClassFullName": "USGFramework.Editor.LocalLauncher.LocalLauncherUtil",
+      "FileID": -249031589
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\WorldEditorGuiComponentBase\\WorldEditorToggledGuiComponentBase.cs",
+      "OriginalGuid": "76e5e6eef8d1c924c9b0b3d3a4e6f405",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase",
+      "ClassName": "WorldEditorToggledGuiComponentBase",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase.WorldEditorToggledGuiComponentBase",
+      "FileID": 624909606
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\WICEvent.cs",
+      "OriginalGuid": "c74bf46da71e44bea2e06554d1e01fbd",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "WICCreateProjectKeyEvent",
+      "ClassFullName": "USGFramework.Editor.Events.WICCreateProjectKeyEvent",
+      "FileID": -812475039
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\BinReader.cs",
+      "OriginalGuid": "292774599f5af4df9b61e30c79e8ebca",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "BinReader",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.BinReader",
+      "FileID": 1434426222
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\WorldEditorStateBase.cs",
+      "OriginalGuid": "7e462896e0218bc45ae3909cd55ab593",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "WorldEditorStateBase",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.WorldEditorStateBase",
+      "FileID": -306228029
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMDefaultTypeParameter.cs",
+      "OriginalGuid": "14a8ba67a591b4548bb43949d91c5158",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMDefaultTypeParameter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMDefaultTypeParameter",
+      "FileID": 1906860265
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\Log\\OpenLog.cs",
+      "OriginalGuid": "a32c48771d7f467f920d79dbb4b8746c",
+      "ClassNamespace": "USGFramework.Editor.Log",
+      "ClassName": "OpenLog",
+      "ClassFullName": "USGFramework.Editor.Log.OpenLog",
+      "FileID": 1956169048
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\WorldEditorGuiComponentBase\\WorldEditorButtonGuiComponentBase.cs",
+      "OriginalGuid": "43f44912262486b40b1ddf9129e10f24",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase",
+      "ClassName": "WorldEditorButtomGuiComponentBase",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiComponentBase.WorldEditorButtomGuiComponentBase",
+      "FileID": -979992384
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\DeleteGuiComponent.cs",
+      "OriginalGuid": "380e6a09740263240a9d62e81a1e42e2",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "DeleteGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.DeleteGuiComponent",
+      "FileID": 1606677595
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\DummyEventHandleComponent.cs",
+      "OriginalGuid": "f5feae8d0836b6c44bfa4c4bf56e1721",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "DummyEventHandleComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.DummyEventHandleComponent",
+      "FileID": -1832034176
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\VoxelStructureOre.cs",
+      "OriginalGuid": "8bf74b2da96bd594e82187e217785aac",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelStructureOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelStructureOre",
+      "FileID": 986704495
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\FSMState.cs",
+      "OriginalGuid": "bc70478cae6bc47bc928c4310572ebb7",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMState",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMState",
+      "FileID": 1358465041
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SomeableTargetItem.cs",
+      "OriginalGuid": "d76d3eb345a48ea4592c2d53a14162bb",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableTargetItem",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableTargetItem",
+      "FileID": 350003716
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\TextureOre\\Texture2DOre.cs",
+      "OriginalGuid": "a53de4ab721044cc7ba23f111aff0378",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "Texture2DOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.Texture2DOre",
+      "FileID": 1899102577
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorWindow\\ReplaceWindow.cs",
+      "OriginalGuid": "16a5a0755b8eb4e4da0ab61af11b3763",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorWindow",
+      "ClassName": "ReplaceWindow",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorWindow.ReplaceWindow",
+      "FileID": 1444111340
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\PickState.cs",
+      "OriginalGuid": "71617481b8c16b24aac4514f596b4625",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "PickState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.PickState",
+      "FileID": -1330931261
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\ISomeableSerialization.cs",
+      "OriginalGuid": "60cc761e3316de243900af336f6a6eaf",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SerializationUtil",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SerializationUtil",
+      "FileID": -2119715622
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\HeadlessBundleBuilder.cs",
+      "OriginalGuid": "f3d21e6a54ab44d1b9f645d4a707ee01",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "HeadlessBundleBuilder",
+      "ClassFullName": "USGFramework.Editor.USGPackager.HeadlessBundleBuilder",
+      "FileID": -1523236653
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagFloatArray.cs",
+      "OriginalGuid": "233bfdb58435b4bbe8af08861dca7316",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagFloatArray",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagFloatArray",
+      "FileID": -1504575755
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagByte.cs",
+      "OriginalGuid": "674922a4546d34c27ae7d5bb08d74ff2",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagByte",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagByte",
+      "FileID": 926313994
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\TerrainOre\\WorldDataImporter.cs",
+      "OriginalGuid": "9b005dd04d61afd408ad9fef98361cd0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "WorldDataImporter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.WorldDataImporter",
+      "FileID": -1395084668
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagNull.cs",
+      "OriginalGuid": "209a29b1ef388426baa726e469766869",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagNull",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagNull",
+      "FileID": 522490063
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\VoxelBlockEditor\\UnityVoxelBlockOreStageCachedData.cs",
+      "OriginalGuid": "dc602eb3b2d4e9b4195ed031253bb8e7",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.VoxelBlockEditor",
+      "ClassName": "UnityVoxelBlockOreStage",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.VoxelBlockEditor.UnityVoxelBlockOreStage",
+      "FileID": 1708329343
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\VoxelWorldEditor.cs",
+      "OriginalGuid": "350b43d51d5e78d4e8074da10826e081",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "VoxelWorldEditor",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.VoxelWorldEditor",
+      "FileID": 165576804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\MeshBlockEditor\\UnityMeshBlockOreEditor.cs",
+      "OriginalGuid": "28346c030acc3a94ba7cac0aec667511",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.MeshBlockEditor",
+      "ClassName": "UnityMeshBlockOreEditor",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.MeshBlockEditor.UnityMeshBlockOreEditor",
+      "FileID": -2120906480
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BuildProcess\\UpdateApiCompatibilityLevel.cs",
+      "OriginalGuid": "fa3e7d935aed4a8697e763f21aed5f2a",
+      "ClassNamespace": "USGFramework.Editor.BuildProcess",
+      "ClassName": "UpdateApiCompatibilityLevel",
+      "ClassFullName": "USGFramework.Editor.BuildProcess.UpdateApiCompatibilityLevel",
+      "FileID": -1538310349
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerUtil.cs",
+      "OriginalGuid": "f577597b38c3434d8e46917c18ed6e9a",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "PackagerUtil",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerUtil",
+      "FileID": -1731799863
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\FrameworkModeHandler\\USGFrameworkModeHandler.cs",
+      "OriginalGuid": "e7070321e9d34cdb8b8d982ffb1be50c",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "USGFrameworkModeHandler",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.USGFrameworkModeHandler",
+      "FileID": 37552015
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\TextableSerializer.cs",
+      "OriginalGuid": "098ab7b4c52291e489dcbd8a66d20566",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "TextableSerializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.TextableSerializer",
+      "FileID": 1649559143
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\PaintGuiComponent.cs",
+      "OriginalGuid": "936d58fd0fab6904b9a89d9b44a23819",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "PaintGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.PaintGuiComponent",
+      "FileID": 681414830
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGFixUp\\CsAssembly.cs",
+      "OriginalGuid": "f5d863cdf5bb4737ad9d1ade72d2ff00",
+      "ClassNamespace": "USGFramework.Editor.FixUp",
+      "ClassName": "CsAssembly",
+      "ClassFullName": "USGFramework.Editor.FixUp.CsAssembly",
+      "FileID": -698008785
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BuildProcess\\FrameworkInfoBuildProcessor.cs",
+      "OriginalGuid": "6a917d6789d964140a5c799d12f7526f",
+      "ClassNamespace": "USGFramework.Editor.BuildProcess",
+      "ClassName": "FrameworkInfoBuildProcessor",
+      "ClassFullName": "USGFramework.Editor.BuildProcess.FrameworkInfoBuildProcessor",
+      "FileID": -505273513
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleEvaluator.cs",
+      "OriginalGuid": "b18b14ce2ff243e38b73ac171513844f",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleEvaluator",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleEvaluator",
+      "FileID": -184605743
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\FlattenState.cs",
+      "OriginalGuid": "d58047f89bcfd6146945ff1513371a0e",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "FlattenState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.FlattenState",
+      "FileID": 1271002342
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\PaintState.cs",
+      "OriginalGuid": "5eb38a33d3cd9ef4691ca954df5b38e9",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "PaintState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.PaintState",
+      "FileID": -206794216
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\IUserBundleBuildHandler.cs",
+      "OriginalGuid": "c888c76d10d55064ca9cdc63282e94c6",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "BuildUserBundleParameter",
+      "ClassFullName": "USGFramework.Editor.USGPackager.BuildUserBundleParameter",
+      "FileID": -809002070
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SomeableConverter.cs",
+      "OriginalGuid": "1c87cc0074737ae4695d933b5a439a46",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableConverter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableConverter",
+      "FileID": 27156401
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\CustomAttributeBytesableSerializer.cs",
+      "OriginalGuid": "fd8b8a49ce094da409eeb9fa10039897",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CustomAttributeBytesableSerializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CustomAttributeBytesableSerializer",
+      "FileID": -1106279191
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGLuaFramework\\LuaProperty\\NativePropertyUI.cs",
+      "OriginalGuid": "d42b0bea167efd5498f2a09aaafce429",
+      "ClassNamespace": "USGFramework.Editor.USGLuaFramework.LuaProperty",
+      "ClassName": "NativePropertyUI",
+      "ClassFullName": "USGFramework.Editor.USGLuaFramework.LuaProperty.NativePropertyUI",
+      "FileID": 1790143689
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleAssigner.cs",
+      "OriginalGuid": "8deaea4fee7540c490416c405a0d569f",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleAssigner",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleAssigner",
+      "FileID": -680481758
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\VulcanusUtility\\VulcanusTweener_Drawer.cs",
+      "OriginalGuid": "e3328aa688332f54cbd4acfae790cd55",
+      "ClassNamespace": "USGFramework.Editor.VulcanusUtility",
+      "ClassName": "VulcanusTweener_Inspector",
+      "ClassFullName": "USGFramework.Editor.VulcanusUtility.VulcanusTweener_Inspector",
+      "FileID": 667088108
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterInt.cs",
+      "OriginalGuid": "ded1db5490e635d43966d8c4cf418744",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterInt",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterInt",
+      "FileID": -2074192908
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MaterialOre\\ShaderSelection.cs",
+      "OriginalGuid": "33bd90c66792f48fab50b474a2ea4677",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "ShaderSelection",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.ShaderSelection",
+      "FileID": -272996113
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterMouse.cs",
+      "OriginalGuid": "7c39122d7a6355747882ddda9a206e25",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterMouse",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterMouse",
+      "FileID": -436881132
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BehaviorOre\\BehaviorOre_SC.cs",
+      "OriginalGuid": "8d56a3bfe00913545b36c7cb55238136",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FieldSerializationData",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FieldSerializationData",
+      "FileID": 630305544
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\TextableDeserializer.cs",
+      "OriginalGuid": "1f03333f0694abc41a19fd2de14d7d6d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "TextableDeserializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.TextableDeserializer",
+      "FileID": -1806200230
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\SkeletalOre.cs",
+      "OriginalGuid": "0daf1acd4d74044759ffae234172dc6b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "SkeletalOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.SkeletalOre",
+      "FileID": 648198271
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\ClipBoard.cs",
+      "OriginalGuid": "1349937b6a9d4894fb641338ffb9253f",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "ClipBoard",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.ClipBoard",
+      "FileID": 1699235831
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\FrameworkModeHandler\\VAddressable\\SmartAddresserUtility.cs",
+      "OriginalGuid": "547a9cc20b024b86a425803e33cdecbf",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "SmartAddresserUtility",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.SmartAddresserUtility",
+      "FileID": 1774159466
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\VBPacker\\VBPackerHeader.cs",
+      "OriginalGuid": "d524e537202e4bc59d4de4f557168b5d",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "VBPackerHeader",
+      "ClassFullName": "USGFramework.Editor.USGPackager.VBPackerHeader",
+      "FileID": 587465739
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\TextableConverter.cs",
+      "OriginalGuid": "91875ae53b41c2d498940d0ca30277e6",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "TextableConverter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.TextableConverter",
+      "FileID": -258998808
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\CutGuiComponent.cs",
+      "OriginalGuid": "de4fd17a9fe69bd45b707f28605722af",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "CutGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.CutGuiComponent",
+      "FileID": 835195283
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\Messageable.cs",
+      "OriginalGuid": "ac31bf028a20e344ca0aab700ff5984c",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "Messageable",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.Messageable",
+      "FileID": 515258785
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\VoxelTerrainOre.cs",
+      "OriginalGuid": "f361393f9b8eb4390a731c651901a87d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelTerrainOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelTerrainOre",
+      "FileID": 883954249
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGFixUp\\Const.cs",
+      "OriginalGuid": "9aeb5496b56b404d84e8b50be6783ce0",
+      "ClassNamespace": "USGFramework.Editor.FixUp",
+      "ClassName": "Const",
+      "ClassFullName": "USGFramework.Editor.FixUp.Const",
+      "FileID": -584798217
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FlattenGuiComponent.cs",
+      "OriginalGuid": "f0de08c61b539d247851b717007fd7c5",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FlattenGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FlattenGuiComponent",
+      "FileID": 550320626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FoliageShowBrushGuiComponent.cs",
+      "OriginalGuid": "5ce3d952678a7eb41be4664e18620648",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FoliageShowBrushGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FoliageShowBrushGuiComponent",
+      "FileID": 1840149627
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\USGPackagerSettings.cs",
+      "OriginalGuid": "fe151d73f4c4fd5409ff581f9da564f8",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "USGPackagerSettings",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.USGPackagerSettings",
+      "FileID": -795822803
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\UserData.cs",
+      "OriginalGuid": "26585160efb795b408fa6434a8666d85",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "UserData",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.UserData",
+      "FileID": -1977045925
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\ByteablePack.cs",
+      "OriginalGuid": "52aa1076c3e3ec9439f4f02e0db49286",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "ByteablePack",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.ByteablePack",
+      "FileID": -2055569915
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Vpack.cs",
+      "OriginalGuid": "70351b0c89cee344d9160693fcd4b9ff",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter",
+      "ClassName": "Vpack",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Vpack",
+      "FileID": 1162813316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\ScaleGuiComponent.cs",
+      "OriginalGuid": "3e65b7f5e4ab7b54faa1859da8236be5",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "ScaleGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.ScaleGuiComponent",
+      "FileID": -712161083
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGFixUp\\FixUpSystem.cs",
+      "OriginalGuid": "23149c47a2eff13468e75a6e050f61ae",
+      "ClassNamespace": "USGFramework.Editor.FixUp",
+      "ClassName": "FixUpSystem",
+      "ClassFullName": "USGFramework.Editor.FixUp.FixUpSystem",
+      "FileID": 1287990137
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\USGPackagerSettingsProvider.cs",
+      "OriginalGuid": "132420bef2215f64cac520724e1abe23",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "USGPackagerSettingsProvider",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.USGPackagerSettingsProvider",
+      "FileID": -1898427910
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorApplicationHandling\\EditorStartUpSequence.cs",
+      "OriginalGuid": "18058ea67f97d564aab261e3fdd158b6",
+      "ClassNamespace": "USGFramework.Editor.EditorApplicationHandling",
+      "ClassName": "EditorStartUpSequence",
+      "ClassFullName": "USGFramework.Editor.EditorApplicationHandling.EditorStartUpSequence",
+      "FileID": -618258010
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\CustomAttributeBytesableDeserializer.cs",
+      "OriginalGuid": "2014a2c5bbb401449be26ac454a04f85",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CustomAttributeBytesableDeserializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CustomAttributeBytesableDeserializer",
+      "FileID": -297143058
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagIntArray.cs",
+      "OriginalGuid": "bf2ca2fdac90d43469dcdbe9d146aa8b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagIntArray",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagIntArray",
+      "FileID": 835195482
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\StoveRequest.cs",
+      "OriginalGuid": "1406f890194647478f5ae10e8945f22d",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "StoveRequest",
+      "ClassFullName": "USGFramework.Editor.Events.StoveRequest",
+      "FileID": -839624840
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DeviceSimulator\\DeviceSimulatorHelper.cs",
+      "OriginalGuid": "c4cb39d3f330eab4cad57bd7eed88f77",
+      "ClassNamespace": "USGFramework.Editor.DeviceSimulator",
+      "ClassName": "DeviceSimulatorHelper",
+      "ClassFullName": "USGFramework.Editor.DeviceSimulator.DeviceSimulatorHelper",
+      "FileID": 1601591137
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DataSheetEditor\\DataSheetWindow\\DataSheetWindowButtonFunction.cs",
+      "OriginalGuid": "c641221f12e9ac14e88ab596b795d384",
+      "ClassNamespace": "USGFramework.Editor.DataSheetEditor",
+      "ClassName": "UnityDataSheetOreWindow",
+      "ClassFullName": "USGFramework.Editor.DataSheetEditor.UnityDataSheetOreWindow",
+      "FileID": -905443639
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagCompound.cs",
+      "OriginalGuid": "e9b053397eb6f497280d2d36ca1894ed",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagCompound",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagCompound",
+      "FileID": 1806630554
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\DataSheetOres.cs",
+      "OriginalGuid": "1e73e149a61e45341a37221852081d46",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "DataSheetOres",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.DataSheetOres",
+      "FileID": -522230195
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\ExtrudeGuiComponent.cs",
+      "OriginalGuid": "b7628a6e59763664ea8316871ce8a341",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "ExtrudeGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.ExtrudeGuiComponent",
+      "FileID": -918413924
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\MessageableReadWriter.cs",
+      "OriginalGuid": "a424480b950c45847878c53d7d6aa05e",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "MessageableWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.MessageableWriter",
+      "FileID": 1342532691
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\VBPacker\\VBPacker.cs",
+      "OriginalGuid": "fd5e817348b940d4b0aea473995bc5b7",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "VBPacker",
+      "ClassFullName": "USGFramework.Editor.USGPackager.VBPacker",
+      "FileID": 1813720636
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\USGConverter\\USGIngotConverter.cs",
+      "OriginalGuid": "a93e1a5938434084a9cbbcb89f06b8de",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.USGConverter",
+      "ClassName": "USGIngotConverter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.USGConverter.USGIngotConverter",
+      "FileID": 2086949641
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\BoneInfo.cs",
+      "OriginalGuid": "86d9b4934263f4ef2817ca7d982d6966",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "BoneInfo",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.BoneInfo",
+      "FileID": -917262363
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\DummyGuiComponent.cs",
+      "OriginalGuid": "23a6a237f4447d543821aa8f316ac3f4",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "DummyGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.DummyGuiComponent",
+      "FileID": -1037054544
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\BaseOre.cs",
+      "OriginalGuid": "9a72b4d15ddf74961b568d6231372eb0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "BaseOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.BaseOre",
+      "FileID": -1495296847
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\PartInfo.cs",
+      "OriginalGuid": "16d8e89fb02b24257842e383f1878a5f",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "PartInfo",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.PartInfo",
+      "FileID": 447894552
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\RectTransformEditorExtension.cs",
+      "OriginalGuid": "3b9524c4bcfb6bb4d8e5d8ce4ec9fada",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions",
+      "ClassName": "RectTransformEditorExtension",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.RectTransformEditorExtension",
+      "FileID": -2042888045
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\AccessaryCovering.cs",
+      "OriginalGuid": "f8196cc777ac1ad4dafe5f77cdfe526e",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AccessaryCovering",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AccessaryCovering",
+      "FileID": 149907023
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EditorPopup\\PopupDialogue.cs",
+      "OriginalGuid": "a301bd1cbdc818944852a0e39fee54fd",
+      "ClassNamespace": "USGFramework.Editor.EditorPopup",
+      "ClassName": "PopupDialogue",
+      "ClassFullName": "USGFramework.Editor.EditorPopup.PopupDialogue",
+      "FileID": 654244778
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\FSMDefinedParameter.cs",
+      "OriginalGuid": "495ca682712f34280a86837703e43d88",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMDefinedParameter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMDefinedParameter",
+      "FileID": -249775626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiObjects\\DiSkeletalMesh.cs",
+      "OriginalGuid": "676bc3f52b2193b49ba6d5ee1511f1e7",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiObjects",
+      "ClassName": "DiSkeletalMesh",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiObjects.DiSkeletalMesh",
+      "FileID": 1406054165
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\MoldGraphicsHelper.cs",
+      "OriginalGuid": "73f3b80a349477042a2d5c64d3e58215",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "DiGizmos",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.DiGizmos",
+      "FileID": -1938829408
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagFloat.cs",
+      "OriginalGuid": "3382d4a49cda04cbe9174d2df7a322f3",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagFloat",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagFloat",
+      "FileID": -300472884
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\AnimationNode.cs",
+      "OriginalGuid": "8a69adb34f49941269185cb999d505c5",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AnimationNode",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AnimationNode",
+      "FileID": -2028771954
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\StreamingIngotFile.cs",
+      "OriginalGuid": "e84a60338be9f4d65b279bdefbac8ebe",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "StreamingIngotFile",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.StreamingIngotFile",
+      "FileID": 438372254
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DeviceSimulator\\DeviceSimulatorMenu.cs",
+      "OriginalGuid": "709379dbc63790a4e8e70c43c31fda71",
+      "ClassNamespace": "USGFramework.Editor.DeviceSimulator",
+      "ClassName": "DeviceSimulatorMenu",
+      "ClassFullName": "USGFramework.Editor.DeviceSimulator.DeviceSimulatorMenu",
+      "FileID": 1162601715
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\PaletteDataHandler.cs",
+      "OriginalGuid": "5379d0c1a46759d4983dde5e9509f898",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "PaletteDataHandler",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.PaletteDataHandler",
+      "FileID": -1458485971
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagUInt.cs",
+      "OriginalGuid": "a56070153c274472ca54687a26d7ea51",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagUInt",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagUInt",
+      "FileID": 117641232
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\CommunicationAttribute.cs",
+      "OriginalGuid": "593dd953683b3e64aa36281b740a59f1",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CommandBranchAttribute",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CommandBranchAttribute",
+      "FileID": 1507492421
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagEnd.cs",
+      "OriginalGuid": "2c2295491ccdd4d22ad20ba248e8f960",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagEnd",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagEnd",
+      "FileID": 1829897540
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\GuiComponents\\ObjectPickerControlID.cs",
+      "OriginalGuid": "c7c5898d0ab61ab4fa59fd69bcb4b96f",
+      "ClassNamespace": "USGFramework.Editor.ComponentExtensions.GuiComponents",
+      "ClassName": "ObjectPickerControlID",
+      "ClassFullName": "USGFramework.Editor.ComponentExtensions.GuiComponents.ObjectPickerControlID",
+      "FileID": 1651450555
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\AnimationOre.cs",
+      "OriginalGuid": "776a304c6ca05604a9467b23953c02d4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AnimationOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AnimationOre",
+      "FileID": 756556365
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SpecificObjectUtil.cs",
+      "OriginalGuid": "a1d9ff47756b8c64c8dc89ef4285172b",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SpecificObjectUtil",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SpecificObjectUtil",
+      "FileID": -805658886
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\FSMCondition.cs",
+      "OriginalGuid": "908417c95629f4dbbb6ccf8891a90866",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMCondition",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMCondition",
+      "FileID": -1616430328
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagLongArray.cs",
+      "OriginalGuid": "5310e7bc483514ad7bcae1e9ce8c6151",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagLongArray",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagLongArray",
+      "FileID": -721196507
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SerializeUtil.cs",
+      "OriginalGuid": "65e7493ca49127243b72763ffab020da",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SerializeUtil",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SerializeUtil",
+      "FileID": -348701169
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\ShapeUtil.cs",
+      "OriginalGuid": "a68611e912c19fa4bb85abeb9b6d4efd",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "ShapeUtil",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.ShapeUtil",
+      "FileID": -1931147348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\DiObjectBase.cs",
+      "OriginalGuid": "67b222cea1f5045ae8de9948b96995e6",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "DiObjectBase",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.DiObjectBase",
+      "FileID": -1015856079
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\SpriteOres.cs",
+      "OriginalGuid": "21a473de9bbf84d2cb35437d3b7501c7",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "SpriteOres",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.SpriteOres",
+      "FileID": 535422158
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\MoldRack.cs",
+      "OriginalGuid": "9349e429c5e41664b849dd38fbbb8f5d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "MoldRack",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.MoldRack",
+      "FileID": 94187209
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\FrameworkModeHandler\\GameFrameworkModeHandler.cs",
+      "OriginalGuid": "a7615b8d3b284f2f9db653dcb30f1109",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "GameFrameworkModeHandler",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.GameFrameworkModeHandler",
+      "FileID": 1654940944
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\MeshBlockEditor\\UnityMeshBlockOreMenu.cs",
+      "OriginalGuid": "26df5819d8274734995af0acad89de41",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.MeshBlockEditor",
+      "ClassName": "UnityMeshBlockOreMenu",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.MeshBlockEditor.UnityMeshBlockOreMenu",
+      "FileID": -2105692433
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\SceneViewExtensionForCaptureScene.cs",
+      "OriginalGuid": "4fdebb77cedc7b94bb774f6bdf6fd8b9",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor",
+      "ClassName": "SceneViewExtensionForCaptureScene",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.SceneViewExtensionForCaptureScene",
+      "FileID": -1499845273
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\SomeableReadWriter.cs",
+      "OriginalGuid": "86dca04311db69443ac62b8ba89a20ed",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "ByteableWriter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.ByteableWriter",
+      "FileID": 752932340
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\HotKeySettings\\WorldEditorHotKeySettings.cs",
+      "OriginalGuid": "03f723f85d7b4354b81a3ac92a7b4935",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.HotKeySettings",
+      "ClassName": "WorldEditorHotKeySettings",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.HotKeySettings.WorldEditorHotKeySettings",
+      "FileID": 881522522
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleBuilder.cs",
+      "OriginalGuid": "51565b220510417eaee7dd8db98f193b",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleBuilder",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleBuilder",
+      "FileID": -1634739726
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SerializeStatics.cs",
+      "OriginalGuid": "62c3b64dc10a3d043b682fa1dc70a0eb",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SerializeStatics",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SerializeStatics",
+      "FileID": 226422105
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\FoliageGuiComponent.cs",
+      "OriginalGuid": "c2156c557f169704185e611c04d7d034",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "FoliageGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.FoliageGuiComponent",
+      "FileID": 1118636959
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\Crypto.cs",
+      "OriginalGuid": "724e9aba84e8bfd47b4ad3b93e623f51",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "Crypto",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.Crypto",
+      "FileID": 1653561247
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\EraseState.cs",
+      "OriginalGuid": "904f10912eda8c54fb3e57536dd506b3",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "EraseState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.EraseState",
+      "FileID": 1363795504
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BlockOre\\VoxelBlockOre.cs",
+      "OriginalGuid": "7189ad3efa1924358b8ba13c55b214a4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "VoxelBlockOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.VoxelBlockOre",
+      "FileID": -157141542
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\BytesableDeserializer.cs",
+      "OriginalGuid": "5e73c5940d6d152498c661c8bbf22e8a",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BytesableDeserializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BytesableDeserializer",
+      "FileID": -1903195850
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorWindow\\QuickSlots.cs",
+      "OriginalGuid": "dbc1d9ec05a53d64dbb620fe5f1717ce",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorWindow",
+      "ClassName": "QuickSlots",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorWindow.QuickSlots",
+      "FileID": 2051007706
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\MoveGuiComponent.cs",
+      "OriginalGuid": "f37fa5469f2a4e74a83ebfddc08e5f69",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "MoveGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.MoveGuiComponent",
+      "FileID": -481199170
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiUtil\\NBTTagBoolArray.cs",
+      "OriginalGuid": "6729d20b529014c179da9db1cc210473",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiUtil",
+      "ClassName": "NBTTagBoolArray",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiUtil.NBTTagBoolArray",
+      "FileID": 99962713
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\ComponentExtensions\\GameObjectEditorExtension.cs",
+      "OriginalGuid": "d23f17aa0c1a40341bb846cf530ef3f9",
+      "ClassNamespace": "USGFramework.Editor",
+      "ClassName": "GameObjectEditorExtension",
+      "ClassFullName": "USGFramework.Editor.GameObjectEditorExtension",
+      "FileID": 1445737140
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\FSMOre\\Parameter\\FSMParameterFloat.cs",
+      "OriginalGuid": "80857bf88c3f64dfab2d340f281b5e55",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "FSMParameterFloat",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.FSMParameterFloat",
+      "FileID": 1004006608
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetProcessor\\USGModificationProcessorFilter.cs",
+      "OriginalGuid": "5e65f40d073f90b4c8955415ceee513d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetProcessor",
+      "ClassName": "USGModificationProcessorFilter",
+      "ClassFullName": "USGFramework.Editor.USGAssetProcessor.USGModificationProcessorFilter",
+      "FileID": -1120791876
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\BodyOre\\AnimationEvent.cs",
+      "OriginalGuid": "564fe9e51d1f04ebf80f22bffe879995",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AnimationEvent",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AnimationEvent",
+      "FileID": 1217111419
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\EditTool\\Extrude\\ExtrudeRay.cs",
+      "OriginalGuid": "f9c0da8e74c4087489bf9f6207e50f49",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.EditTool.Extrude",
+      "ClassName": "ExtrudeRay",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.EditTool.Extrude.ExtrudeRay",
+      "FileID": 574426606
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\TextureOre\\AstcencHelper.cs",
+      "OriginalGuid": "301107ef4aeb9024d8f2c7617d7785a0",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "AstcencHelper",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.AstcencHelper",
+      "FileID": 1993612335
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\ExportedMold.cs",
+      "OriginalGuid": "e1e1e3e0bd83eeb49ac3253ea3916a5d",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "ExportedMold",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.ExportedMold",
+      "FileID": 1442290426
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\EventClasses\\StoveEditorProductEvent.cs",
+      "OriginalGuid": "810cf154ffac42a4a7d758b88d5b53d7",
+      "ClassNamespace": "USGFramework.Editor.Events",
+      "ClassName": "GetProductsEvent",
+      "ClassFullName": "USGFramework.Editor.Events.GetProductsEvent",
+      "FileID": -776001729
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\FoliageState.cs",
+      "OriginalGuid": "7f85f2cb1dafab546bbe4f1f13ba8346",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "FoliageState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.FoliageState",
+      "FileID": -1205112789
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\VoxelWorldStructure.cs",
+      "OriginalGuid": "57e5f504374f4cd4eb8c954aafe85b88",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "VoxelWorldEditor",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.VoxelWorldEditor",
+      "FileID": 165576804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\DataSheetEditor\\DataSheetWindow\\UnityDataSheetOreWindow.cs",
+      "OriginalGuid": "c7f911063001ed64a975bc6aeedec76e",
+      "ClassNamespace": "USGFramework.Editor.DataSheetEditor",
+      "ClassName": "UnityDataSheetOreWindow",
+      "ClassFullName": "USGFramework.Editor.DataSheetEditor.UnityDataSheetOreWindow",
+      "FileID": -905443639
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\DiObjects\\DiStaticMesh.cs",
+      "OriginalGuid": "372c914dec4c8354e8d56f2a9cf2101c",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.DiObjects",
+      "ClassName": "DiStaticMesh",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.DiObjects.DiStaticMesh",
+      "FileID": -105228275
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\EraseShowBrushGuiComponent.cs",
+      "OriginalGuid": "59d1d0df0e9bb7941966990db6b9a704",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "EraseShowBrushGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.EraseShowBrushGuiComponent",
+      "FileID": 10375890
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\VoxelBlockEditor\\UnityVoxelBlockOreStage.cs",
+      "OriginalGuid": "9a8fabe6e93ae3646b9a44845f0754cf",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.VoxelBlockEditor",
+      "ClassName": "UnityVoxelBlockOreStage",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.VoxelBlockEditor.UnityVoxelBlockOreStage",
+      "FileID": 1708329343
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerSettings\\FrameworkModeHandler\\VAddressable\\LuaFileBackupUtility.cs",
+      "OriginalGuid": "fe303dcdb4da4305b43efad98c14bf58",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.PackagerSettings",
+      "ClassName": "LuaFileBackupUtility",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerSettings.LuaFileBackupUtility",
+      "FileID": -2103853357
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGLuaFramework\\LuaComponentEditor.cs",
+      "OriginalGuid": "7fb666e68fd72ec4c920e0a9ae2f1a2a",
+      "ClassNamespace": "USGFramework.Editor.USGLuaFramework",
+      "ClassName": "LuaComponentEditor",
+      "ClassFullName": "USGFramework.Editor.USGLuaFramework.LuaComponentEditor",
+      "FileID": 974274817
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\CryptoTransformXOR.cs",
+      "OriginalGuid": "a9bde07a93ff7364f9f062b458b92f77",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "CryptoTransformXOR",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.CryptoTransformXOR",
+      "FileID": 1119128768
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\PackagerOption.cs",
+      "OriginalGuid": "2fb3715244e5459e9633583ab1a64795",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "PackagerOption",
+      "ClassFullName": "USGFramework.Editor.USGPackager.PackagerOption",
+      "FileID": 529750909
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\ParticleOre\\ParticleOre.cs",
+      "OriginalGuid": "1bf8eba56c09a4a31a8fe7521f6050cd",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "ParticleOre",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.ParticleOre",
+      "FileID": -611941158
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\StructureEditor\\UnityVoxelStructureOreStage.cs",
+      "OriginalGuid": "a813697adabf9dc40b3390b45a69b186",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.StructureEditor",
+      "ClassName": "UnityVoxelStructureOreStage",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.StructureEditor.UnityVoxelStructureOreStage",
+      "FileID": 334053362
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BuildProcess\\USGLauncherBuildUtility.cs",
+      "OriginalGuid": "b99743cfc09f1004f80e5bd522c0bf15",
+      "ClassNamespace": "USGFramework.Editor.BuildProcess",
+      "ClassName": "USGLauncherBuildUtility",
+      "ClassFullName": "USGFramework.Editor.BuildProcess.USGLauncherBuildUtility",
+      "FileID": -2029863535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\OpenAssetHandler.cs",
+      "OriginalGuid": "700a7aa8afe9d0d4a8c901b3de56f05c",
+      "ClassNamespace": "USGFramework.Editor",
+      "ClassName": "OpenAssetHandler",
+      "ClassFullName": "USGFramework.Editor.OpenAssetHandler",
+      "FileID": 2002625239
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\BlockEditor\\VoxelBlockEditor\\UnityVoxelBlockOreMenu.cs",
+      "OriginalGuid": "2d34c3efe16dd074b87e51846139c9c3",
+      "ClassNamespace": "USGFramework.Editor.BlockEditor.VoxelBlockEditor",
+      "ClassName": "UnityVoxelBlockOreMenu",
+      "ClassFullName": "USGFramework.Editor.BlockEditor.VoxelBlockEditor.UnityVoxelBlockOreMenu",
+      "FileID": -2126101847
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\OreDataStructure\\Base\\DiPlayerRefer.cs",
+      "OriginalGuid": "7216a0533ad294edbbefdd4965d21411",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.OreDataStructure",
+      "ClassName": "DiPlayerRefer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.OreDataStructure.DiPlayerRefer",
+      "FileID": -203937777
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\MoldModeGuiComponent.cs",
+      "OriginalGuid": "4160951f6c476084d88a54df6f0991bd",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "MoldGuiComponent",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.MoldGuiComponent",
+      "FileID": 412603869
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\SelectedMold.cs",
+      "OriginalGuid": "ffa8f79fbbbb43a4ea5d33df7303c41d",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor",
+      "ClassName": "SelectedMold",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.SelectedMold",
+      "FileID": 519195630
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\USGConverter\\RawDataTypeFilter.cs",
+      "OriginalGuid": "e09295ac66af4b5fa2233bc60beefa30",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.USGConverter",
+      "ClassName": "RawDataTypeFilter",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.USGConverter.RawDataTypeFilter",
+      "FileID": -577313749
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorStates\\SpuitState.cs",
+      "OriginalGuid": "50c52d85a78a42e4290b624b88078fd4",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorStates",
+      "ClassName": "SpuitState",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorStates.SpuitState",
+      "FileID": 1147116981
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\SerializationAttribute.cs",
+      "OriginalGuid": "baece7d182e34f649a07821ee9dab9ff",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "SomeableSerializationBaseAttribute",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.SomeableSerializationBaseAttribute",
+      "FileID": -224876840
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Serialization\\core\\BaseSerializer.cs",
+      "OriginalGuid": "741e87d7153af8747a5085bc137044b4",
+      "ClassNamespace": "USGFramework.Editor.USGAssetConverter.Serialization",
+      "ClassName": "BaseSerializer",
+      "ClassFullName": "USGFramework.Editor.USGAssetConverter.Serialization.BaseSerializer",
+      "FileID": -1078335896
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\RuntimeSettingAssetUpdater.cs",
+      "OriginalGuid": "1823d2ac706b4327bba6f43bd80f5950",
+      "ClassNamespace": "USGFramework.Editor",
+      "ClassName": "RuntimeSettingAssetUpdater",
+      "ClassFullName": "USGFramework.Editor.RuntimeSettingAssetUpdater",
+      "FileID": 641115624
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\WorldEditor\\WorldEditorGuiComponents\\WorldEditorGuiBehaviour.cs",
+      "OriginalGuid": "e7e2651442dc7f04cac154b0825048ae",
+      "ClassNamespace": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents",
+      "ClassName": "WorldEditorGuiBehaviour",
+      "ClassFullName": "USGFramework.Editor.WorldEditor.WorldEditorGuiComponents.WorldEditorGuiBehaviour",
+      "FileID": -686364821
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\FormatV3\\V3BundleVulcanusMerger.cs",
+      "OriginalGuid": "cde384b0a12b43a498b5fa0ef493ffce",
+      "ClassNamespace": "USGFramework.Editor.USGPackager.FormatV3",
+      "ClassName": "V3BundleVulcanusMerger",
+      "ClassFullName": "USGFramework.Editor.USGPackager.FormatV3.V3BundleVulcanusMerger",
+      "FileID": 1776233403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGPackager\\EditorEssentialBundleDefines.cs",
+      "OriginalGuid": "1cfdd9db39ac4bd98b141e7e32a44ba5",
+      "ClassNamespace": "USGFramework.Editor.USGPackager",
+      "ClassName": "EditorEssentialBundleDefines",
+      "ClassFullName": "USGFramework.Editor.USGPackager.EditorEssentialBundleDefines",
+      "FileID": 237191878
+    }
+  ]
+}

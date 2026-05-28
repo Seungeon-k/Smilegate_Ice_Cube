@@ -1,0 +1,46 @@
+.VListField {
+}
+
+.VListField > #Head {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    background-color: var(--background-container-02);
+}
+
+.VListField > #Head > #Title {
+    width: 80%;
+    padding: 0;
+    color: var(--text-primary-default);
+}
+
+.VListField > #Head > #Size {
+    width: 20%;
+    padding: 0;
+}
+
+.VListField > #ListView {
+    padding: 0;
+    background-color: var(--background-container-02);
+    border-color: var(--background-container-01);
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.VListField > #Bottom {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.VListField > #Bottom > #Add {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/add.png?fileID=2800000&guid=610777ca2b5f7ea4a99084f1a823ae78&type=3#add");
+    width: 16px;
+    height: 16px;
+}
+
+.VListField > #Bottom > #Remove {
+    width: 16px;
+    height: 16px;
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/remove.png?fileID=2800000&guid=cffc6b13751765d46833d90bffa2be5a&type=3#remove");
+}

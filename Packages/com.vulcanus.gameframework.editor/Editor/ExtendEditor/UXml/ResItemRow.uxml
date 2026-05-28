@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/UXml/PaletteResource.uss?fileID=7433441132597879392&amp;guid=06c0e8364a215124880b5954a700df4a&amp;type=3#PaletteResource" />
+    <ui:VisualElement name="ResItemRow" class="ItemRow" style="flex-direction: row; width: auto; height: 60px; background-color: rgba(255, 97, 97, 0); align-items: center;" />
+</ui:UXML>

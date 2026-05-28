@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="flex-direction: row; background-color: rgb(59, 59, 67); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; height: 20px; padding-right: 2px; padding-left: 2px;">
+        <ui:VisualElement name="SearchIcon" style="align-self: center; margin-right: 2px; margin-left: 2px;">
+            <ui:VisualElement name="Icon" picking-mode="Ignore" style="width: 15px; height: 15px; min-width: 15px; min-height: 15px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/search.png?fileID=2800000&amp;guid=eddb16fcc3e648647b7f246873dd52f3&amp;type=3#search&quot;);" />
+        </ui:VisualElement>
+        <ui:TextField picking-mode="Ignore" name="Search" style="flex-grow: 1; background-color: rgb(0, 0, 0); margin-right: 0; margin-top: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:VisualElement name="CloseIcon" style="align-self: center; margin-right: 2px; margin-left: 2px;">
+            <ui:VisualElement name="icon" picking-mode="Ignore" style="background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/window_close.png?fileID=2800000&amp;guid=a1a5acb72691e4647bd16207869a2746&amp;type=3#window_close&quot;); min-width: 15px; min-height: 15px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

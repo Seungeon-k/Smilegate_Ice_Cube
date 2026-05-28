@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "Icon": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "ItemGrade": "!String",
+    "ID_INT_TEMP": "!Int"
+}

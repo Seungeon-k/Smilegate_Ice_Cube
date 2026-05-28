@@ -1,0 +1,44 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+
+RWTexture2D<float2> _Result;
+
+float _BlurSize;
+float _StandardDeviation;
+float _Samples;
+float _Size;
+
+[numthreads(30, 30, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    #define PI 3.14159265359
+    #define E 2.71828182846
+    
+    float2 col = 0;
+    float sum = 0;
+    
+    if (_StandardDeviation == 0)
+        return;
+    
+    for (float index = 0; index < _Samples; index++)
+    {
+        float offset = (index / (_Samples - 1) - 0.5) * _BlurSize;
+        
+        float2 uv = id.xy + float2(0, offset);
+        
+        float stDevSquared = _StandardDeviation * _StandardDeviation;
+        
+        float gauss = (1 / sqrt(2 * PI * stDevSquared)) * pow(E, -((offset * offset) / (2 * stDevSquared)));
+        
+        sum += gauss;
+        
+        col += _Result[uv] * gauss;
+    }
+    
+    col = col / sum;
+    
+    _Result[id.xy] = col;
+}

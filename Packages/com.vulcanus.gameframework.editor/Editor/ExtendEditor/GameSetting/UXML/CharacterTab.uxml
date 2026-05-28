@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/dark.uss?fileID=7433441132597879392&amp;guid=fd17f51ae6a768943b00a6bfb1d60ea4&amp;type=3#dark" />
+    <ui:VisualElement name="Top" style="background-color: rgba(32, 32, 32, 0);">
+        <ui:Foldout text="editor.window.label.game_setting_editor.character_data" name="CharacterData" class="Foldout SettingsCategoryBackground OnSettingsCategoryText" style="width: auto; height: auto; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; -unity-font-style: Normal; font-size: 14px; background-color: rgba(115, 115, 115, 0);">
+            <ui:VisualElement name="Layout" style="flex-direction: row; height: 100%; width: 90%; min-width: 90%; border-left-color: rgb(59, 59, 67); border-right-color: rgb(59, 59, 67); border-top-color: rgb(59, 59, 67); border-bottom-color: rgb(59, 59, 67);">
+                <ui:VisualElement name="Left" style="width: 40%; height: 100%; font-size: 14px; -unity-font-style: normal; min-width: 40%;">
+                    <ui:Label text="editor.window.label.game_setting_editor.character_name" display-tooltip-when-elided="true" name="CharacterName" class="OnSettingsCategoryText" style="margin-top: 5px; margin-bottom: 5px; height: 25px; font-size: 12px;" />
+                    <ui:Label text="editor.window.label.game_setting_editor.preview" display-tooltip-when-elided="true" name="ModelLabel" class="OnSettingsCategoryText" style="height: 120px; -unity-text-align: upper-left; padding-left: 0; font-size: 12px; -unity-font-style: normal; padding-top: 0; padding-right: 0; padding-bottom: 0;" />
+                    <ui:Label text="Move Speed" display-tooltip-when-elided="true" name="MoveSpeed" class="OnSettingsCategoryText" style="margin-top: 5px; margin-bottom: 5px; height: 25px; display: none; font-size: 12px;" />
+                    <ui:Label text="editor.window.label.game_setting_editor.max_move_speed" display-tooltip-when-elided="true" name="MaxMoveSpeed" class="OnSettingsCategoryText" style="margin-top: 5px; margin-bottom: 5px; height: 25px; font-size: 12px;" />
+                    <ui:Label text="editor.window.label.game_setting_editor.rotation_time" display-tooltip-when-elided="true" name="RotationTime" class="OnSettingsCategoryText" style="margin-top: 5px; margin-bottom: 5px; height: 25px; font-size: 12px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" picking-mode="Ignore" style="width: 60%; height: 100%; min-width: 60%;">
+                    <ui:TextField name="CharacterName" max-length="18" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; height: 25px; font-size: 12px; padding-right: 30%;" />
+                    <ui:VisualElement name="Model" style="width: 100px; height: 100px; max-width: 120px; max-height: 120px; min-height: 120px; min-width: 120px; background-color: rgb(42, 42, 42); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-left: 5px;" />
+                    <uie:FloatField value="42.2" name="MoveSpeed" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 12px; height: 25px; display: none;" />
+                    <uie:FloatField value="42.2" name="MaxMoveSpeed" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; height: 25px; font-size: 12px; padding-right: 30%;" />
+                    <uie:FloatField value="42.2" name="RotationTime" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; height: 25px; font-size: 12px; padding-right: 30%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Label text="VariableGroup" display-tooltip-when-elided="true" name="VariableGroupLabel" style="font-size: 16px; display: none;" />
+        <ui:Foldout text="VariableGroup" name="VariableGroup" class="Foldout SettingsCategoryBackground OnSettingsCategoryText" style="display: none; width: auto; height: auto; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
+            <CustomMemberTable name="MemberTable" />
+        </ui:Foldout>
+        <ui:Foldout text="LuaScript" name="LuaScript" class="SettingsCategoryBackground OnSettingsCategoryText" style="width: auto; padding-right: 0; font-size: 16px; padding-top: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-bottom: 0; padding-left: 0; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; display: none;">
+            <ui:VisualElement name="LuaScript" style="flex-direction: row;">
+                <ui:VisualElement name="Left" style="width: 30%; padding-left: 15px;">
+                    <ui:Label text="Lua Script" display-tooltip-when-elided="true" name="LuaScript" class="Label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 70%;">
+                    <uie:ObjectField name="LuaScript" class="Field" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

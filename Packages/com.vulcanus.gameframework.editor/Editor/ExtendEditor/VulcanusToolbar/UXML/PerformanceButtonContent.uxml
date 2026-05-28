@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="background-color: rgb(67, 71, 81); flex-grow: 1; height: 450px;">
+        <ui:VisualElement name="Head" style="align-self: center;">
+            <ui:Label tabindex="-1" text="Performance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Memory" style="background-color: rgb(61, 64, 73); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <ui:VisualElement style="flex-direction: row; justify-content: space-around; align-items: stretch; align-self: center; flex-grow: 1; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+                <ui:Label tabindex="-1" text="Memory Usage" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); align-self: center; justify-content: center; align-items: center; flex-grow: 1; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="9999MB" parse-escape-sequences="true" display-tooltip-when-elided="true" name="nowMomory" style="color: rgb(255, 255, 255); align-self: flex-end;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-direction: column; justify-content: space-around; align-items: flex-start; align-self: stretch; flex-grow: 1; width: 100%; -unity-font-style: bold; margin-top: 10px; margin-bottom: 10px;">
+                <ui:Label tabindex="-1" text="Device Overload" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); align-self: flex-start; justify-content: center; align-items: center; flex-grow: 1;" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: 100%;">
+                    <ui:VisualElement name="High" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="High" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 70%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="25%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(118, 194, 139);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Med" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="Med" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 70%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="75%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(233, 195, 8);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Low" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="Low" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 70%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="100%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(203, 95, 98);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 5px; background-color: rgb(255, 255, 255); padding-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; margin-right: 5px; margin-left: 5px; margin-top: 5px; margin-bottom: 5px;" />
+        <ui:VisualElement name="ObjectCount" style="background-color: rgb(61, 64, 73); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <ui:VisualElement style="flex-direction: row; justify-content: space-around; align-items: stretch; align-self: center; flex-grow: 1; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+                <ui:Label tabindex="-1" text="Object Count" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); align-self: center; justify-content: center; align-items: center; flex-grow: 1; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-direction: column; justify-content: space-around; align-items: flex-start; align-self: stretch; flex-grow: 1; width: 100%; -unity-font-style: bold; margin-top: 0; margin-bottom: 0; margin-right: 0; margin-left: 0;">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: 100%;">
+                    <ui:VisualElement name="Device" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="Device" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 40%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeviceCount" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="25MB" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(118, 194, 139);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Prop" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="Prop" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 40%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PropCount" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="25MB" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(233, 195, 8);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ETC" style="flex-grow: 1; flex-direction: row; justify-content: space-around; margin-right: 0; margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="ETC" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 40%; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ETCCount" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+                        <ui:Label tabindex="-1" text="25MB" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: center; -unity-text-align: middle-center; color: rgb(203, 95, 98);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

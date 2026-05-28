@@ -1,0 +1,9 @@
+{
+    "ID": "!String",
+    "Icon": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "Price": "!Int",
+    "Season": "!String",
+    "ID_INT_TEMP": "!Int"
+}

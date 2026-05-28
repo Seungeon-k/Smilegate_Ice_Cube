@@ -1,0 +1,10 @@
+{
+    "ID": "!String",
+    "StartDate": "!GroupString, !Int",
+    "EndDate": "!GroupString, !Int",
+    "SeasonName": "!String",
+    "UnlockItem": "!String",
+    "PremiumProductID": "!String",
+    "MetaExport": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

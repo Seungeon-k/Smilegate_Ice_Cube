@@ -1,0 +1,14 @@
+{
+    "ID": "!String",
+    "type": "!String",
+    "group": "!String",
+    "Group_Start": "!Bool",
+    "Group_Prev": "!String",
+    "Group_Next": "!String",
+    "Check_Type": "!String",
+    "Total_Check_Point": "!Int",
+    "Reward": "!String",
+    "Achievement_Main_Name": "!String",
+    "Achievement_Main_Get": "!String",
+    "ID_INT_TEMP": "!Int"
+}

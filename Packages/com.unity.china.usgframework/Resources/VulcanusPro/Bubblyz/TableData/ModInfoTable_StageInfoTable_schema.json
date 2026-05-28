@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "ModID": "!String",
+    "Stage_Desc": "!String",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorUnit/uss/VChainEventItem.uss?fileID=7433441132597879392&amp;guid=6404ced20b047764895c730eba54b69c&amp;type=3#VChainEventItem" />
+    <ui:VisualElement name="VChainEventItem" class="VChainEventItem">
+        <ui:VisualElement name="Left"/>
+        <ui:VisualElement name="Right"/>
+    </ui:VisualElement>
+</ui:UXML>

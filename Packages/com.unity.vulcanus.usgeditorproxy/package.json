@@ -1,0 +1,11 @@
+{
+  "name": "com.unity.vulcanus.usgeditorproxy",
+  "displayName": "USGEditorProxy",
+  "description": "A framework proxy for USG Editor",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.china.commonframework": "0.1.4",
+    "com.unity.china.usgframework": "0.2.9"
+  }
+}

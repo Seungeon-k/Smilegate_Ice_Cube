@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1439460856, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Layer Data
+  m_EditorClassIdentifier: 
+  _assetKey: 6ca10c335f15af54eaddd0891827a8f6
+  layers:
+  - name: Default
+  - name: UI
+  - name: Own
+  - name: Other
+  - name: Collision1
+  - name: Collision2
+  - name: Collision3
+  collisions:
+  - indexA: 0
+    indexB: 2
+  - indexA: 0
+    indexB: 3
+  - indexA: 0
+    indexB: 4
+  - indexA: 0
+    indexB: 5
+  - indexA: 0
+    indexB: 6
+  - indexA: 2
+    indexB: 6
+  - indexA: 2
+    indexB: 5
+  - indexA: 2
+    indexB: 3
+  - indexA: 2
+    indexB: 4
+  - indexA: 3
+    indexB: 6
+  - indexA: 3
+    indexB: 5
+  - indexA: 3
+    indexB: 4
+  - indexA: 4
+    indexB: 6
+  - indexA: 4
+    indexB: 5
+  - indexA: 5
+    indexB: 6

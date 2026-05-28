@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1646000590, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: DefaultRoom
+  m_EditorClassIdentifier: 
+  _assetKey: ebdd00d9c105f8d4485bf6dc2f7f3cab
+  MatchInfo:
+    MinPlayerCount: 4
+    MaxPlayerCount: 20
+    RecruitmentTime: 30
+    PlayerWaitTime: 20
+    IsBackfill: 0
+    BackfillTime: 60
+    luaScript: {fileID: 0}
+  _playerSettingDatas:
+  - {fileID: 11400000, guid: b7fdd194fa648c04c84c62215d64bb97, type: 2}
+  _dataServiceData: {fileID: 11400000, guid: 8a87d738ac5bb9544869a36529629af4, type: 2}
+  _gameSettingData: {fileID: 11400000, guid: c41e7b86fe346364bb4c299a2083a139, type: 2}
+  _tagLayerData: {fileID: 11400000, guid: c2ac2be4a31d09e499a2e4d6bf22ba0a, type: 2}
+  _inputSettingData: {fileID: 11400000, guid: ecca06223bca207479872fb9afad0863, type: 2}
+  _vLayerData: {fileID: 11400000, guid: 6ca10c335f15af54eaddd0891827a8f6, type: 2}
+  _systemObjectFields:
+  - {fileID: 1410000370071204768, guid: c6011a7f07c02fb448f224df86754fb2, type: 3}
+  - {fileID: 1973928184180796754, guid: d9bbc188e360cd443a1eb0e847df4bef, type: 3}
+  - {fileID: 1535259650242104077, guid: d95d5f68527b9614588c137a5d221771, type: 3}
+  _localizationTable: {fileID: 11400000, guid: aa066f6e73d76274583e2d796f8ca6d1, type: 2}
+  PlatformInfo:
+    UseLeaderboard: 0
+  stageData: {fileID: 11400000, guid: 03ae1ee7271f92a4ebc27175d7159332, type: 2}

@@ -1,0 +1,758 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2080859248, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: InputSystem
+  m_EditorClassIdentifier: 
+  _assetKey: ecca06223bca207479872fb9afad0863
+  _systemInputActionList:
+  - rid: 981842420427653120
+  - rid: 981842420427653121
+  - rid: 981842420427653122
+  _officialInputActionList:
+  - rid: 3577582756951752754
+  - rid: 3577582756951752918
+  - rid: 3577582756951752922
+  - rid: 3577582756951752923
+  - rid: 3577582756951752930
+  - rid: 3577582756951752931
+  - rid: 981842173573988352
+  - rid: 981842173573988353
+  _additionalInputActionList:
+  - rid: 7751447712030261261
+  - rid: 981842173573988379
+  - rid: 981842173573988380
+  - rid: 981842173573988381
+  - rid: 981842173573988382
+  - rid: 981842173573988383
+  - rid: 981842173573988384
+  - rid: 981842173573988385
+  - rid: 981842173573988386
+  references:
+    version: 2
+    RefIds:
+    - rid: 981842173573988352
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: MouseLook
+        actionType: 1
+        ignoreLock: 1
+        bindingList:
+        - rid: 981842173573988358
+        - rid: 981842173573988361
+    - rid: 981842173573988353
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Interraction
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988363
+        - rid: 981842173573988364
+    - rid: 981842173573988358
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: MouseLook Key LeftAlt
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988360
+    - rid: 981842173573988360
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: LeftAlt
+    - rid: 981842173573988361
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: MouseLook Key RightAlt
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988362
+    - rid: 981842173573988362
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: RightAlt
+    - rid: 981842173573988363
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Interraction Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472516922212356
+    - rid: 981842173573988364
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Interraction Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988366
+    - rid: 981842173573988366
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988379
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange1
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988387
+        - rid: 981842173573988388
+    - rid: 981842173573988380
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange2
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988391
+        - rid: 981842173573988392
+    - rid: 981842173573988381
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange3
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988395
+        - rid: 981842173573988396
+    - rid: 981842173573988382
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange4
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988397
+        - rid: 981842173573988398
+    - rid: 981842173573988383
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange5
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988399
+        - rid: 981842173573988400
+    - rid: 981842173573988384
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange6
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988401
+        - rid: 981842173573988402
+    - rid: 981842173573988385
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange7
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988403
+        - rid: 981842173573988404
+    - rid: 981842173573988386
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: StarExchange8
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988405
+        - rid: 981842173573988406
+    - rid: 981842173573988387
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange1 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988389
+    - rid: 981842173573988388
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange1 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988390
+    - rid: 981842173573988389
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 1
+    - rid: 981842173573988390
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988391
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange2 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988393
+    - rid: 981842173573988392
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange2 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988394
+    - rid: 981842173573988393
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 2
+    - rid: 981842173573988394
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988395
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange3 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988407
+    - rid: 981842173573988396
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange3 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988408
+    - rid: 981842173573988397
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange4 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988409
+    - rid: 981842173573988398
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange4 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988410
+    - rid: 981842173573988399
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange5 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988411
+    - rid: 981842173573988400
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange5 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988412
+    - rid: 981842173573988401
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange6 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988413
+    - rid: 981842173573988402
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange6 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988414
+    - rid: 981842173573988403
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange7 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988415
+    - rid: 981842173573988404
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange7 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988416
+    - rid: 981842173573988405
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange8 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988417
+    - rid: 981842173573988406
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: StarExchange8 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842173573988418
+    - rid: 981842173573988407
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 3
+    - rid: 981842173573988408
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988409
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 4
+    - rid: 981842173573988410
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988411
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 5
+    - rid: 981842173573988412
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988413
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 6
+    - rid: 981842173573988414
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988415
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 7
+    - rid: 981842173573988416
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988417
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: 8
+    - rid: 981842173573988418
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842173573988421
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: E
+    - rid: 981842173573988423
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Dash Mouse Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472516922212353
+    - rid: 981842420427653120
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Chat
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842420427653123
+        - rid: 981842420427653124
+    - rid: 981842420427653121
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Setting
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842420427653127
+        - rid: 981842420427653128
+    - rid: 981842420427653122
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Emotion
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842420427653131
+        - rid: 981842420427653132
+    - rid: 981842420427653123
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Chat Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653125
+    - rid: 981842420427653124
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Chat Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653126
+    - rid: 981842420427653125
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: Enter
+    - rid: 981842420427653126
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842420427653127
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Setting Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653129
+    - rid: 981842420427653128
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Setting Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653130
+    - rid: 981842420427653129
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: Escape
+    - rid: 981842420427653130
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 981842420427653131
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Emotion Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653133
+    - rid: 981842420427653132
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Emotion Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 981842420427653134
+    - rid: 981842420427653133
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: Tab
+    - rid: 981842420427653134
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 1899472516922212353
+      type: {class: InputMouseKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _button: Mouse Button 2
+    - rid: 1899472516922212354
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: LeftShift
+    - rid: 1899472516922212356
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: F
+    - rid: 1899472521995485184
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Dash Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472521995485186
+    - rid: 1899472521995485185
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Dash Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472521995485187
+    - rid: 1899472521995485186
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: R
+    - rid: 1899472521995485187
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 1899472521995485188
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 3 Key
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472521995485191
+    - rid: 1899472521995485189
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 3 Button
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 1899472521995485192
+    - rid: 1899472521995485190
+      type: {class: InputMouseKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _button: Mouse Button 1
+    - rid: 1899472521995485191
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: T
+    - rid: 1899472521995485192
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 3577582756951752754
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: D-padMove
+        actionType: 0
+        ignoreLock: 0
+        bindingList:
+        - rid: 3577582756951752756
+        - rid: 3577582756951752840
+    - rid: 3577582756951752756
+      type: {class: UpDownLeftRightCompositeBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: 
+        WASDBinding:
+        - name: Up Key
+          _pressed: 0
+          _released: 0
+          _kindData:
+            rid: 3577582756951752793
+          compositePartType: 0
+        - name: Down Key
+          _pressed: 0
+          _released: 0
+          _kindData:
+            rid: 3577582756951752794
+          compositePartType: 1
+        - name: Left Key
+          _pressed: 0
+          _released: 0
+          _kindData:
+            rid: 3577582756951752795
+          compositePartType: 2
+        - name: Right Key
+          _pressed: 0
+          _released: 0
+          _kindData:
+            rid: 3577582756951752796
+          compositePartType: 3
+    - rid: 3577582756951752793
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: W
+    - rid: 3577582756951752794
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: S
+    - rid: 3577582756951752795
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: A
+    - rid: 3577582756951752796
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: D
+    - rid: 3577582756951752840
+      type: {class: Vector2Binding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Joystick
+        _kindData:
+          rid: 3577582756951752841
+    - rid: 3577582756951752841
+      type: {class: InputUIVector2KindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiKind: Joystick
+    - rid: 3577582756951752918
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Jump
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 3577582756951752920
+        - rid: 3577582756951752919
+    - rid: 3577582756951752919
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Jump Key
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 3577582756951752921
+    - rid: 3577582756951752920
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Jump Button
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 3577582756951752926
+    - rid: 3577582756951752921
+      type: {class: InputKeyboardKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        key: Space
+    - rid: 3577582756951752922
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Dash
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 981842173573988423
+        - rid: 1899472521995485184
+        - rid: 1899472521995485185
+    - rid: 3577582756951752923
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Action 1
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 3577582756951752928
+        - rid: 3577582801691344898
+    - rid: 3577582756951752926
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 3577582756951752928
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 1 Button
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 3577582756951752929
+    - rid: 3577582756951752929
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 3577582756951752930
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Action 2
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 3577582756951752932
+        - rid: 3577582801691344900
+    - rid: 3577582756951752931
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Action 3
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 3577582756951752933
+        - rid: 1899472521995485188
+        - rid: 1899472521995485189
+    - rid: 3577582756951752932
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 2 Button
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 3577582756951752934
+    - rid: 3577582756951752933
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 3 Mouse Button
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 1899472521995485190
+    - rid: 3577582756951752934
+      type: {class: InputUIButtonKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _uiButton: Button
+    - rid: 3577582801691344898
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 1 Key
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 1899472516922212354
+    - rid: 3577582801691344900
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Action 2 Key
+        _pressed: 0
+        _released: 0
+        _kindData:
+          rid: 981842173573988421
+    - rid: 7751447712030261261
+      type: {class: InputAction, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        actionName: Touch
+        actionType: 1
+        ignoreLock: 0
+        bindingList:
+        - rid: 7751447712030261262
+        - rid: 7751447712030261263
+    - rid: 7751447712030261262
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: MouseButton
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 7751447712030261264
+    - rid: 7751447712030261263
+      type: {class: ButtonBinding, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        name: Touch
+        _pressed: 1
+        _released: 0
+        _kindData:
+          rid: 7751447712030261265
+    - rid: 7751447712030261264
+      type: {class: InputMouseKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _button: Mouse Button 1
+    - rid: 7751447712030261265
+      type: {class: InputTouchKindData, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        _touch: TouchScreen

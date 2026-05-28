@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="DoneButton" style="flex-direction: row; justify-content: center; align-items: center; width: 160px; background-color: rgb(59, 59, 67); background-image: none; display: flex; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 22px; border-left-color: rgb(103, 105, 115); border-right-color: rgb(103, 105, 115); border-top-color: rgb(103, 105, 115); border-bottom-color: rgb(103, 105, 115);">
+        <ui:VisualElement style="height: auto; width: 6px;" />
+        <ui:VisualElement name="Icon" style="height: 16px; width: 16px; background-image: resource(&apos;SceneLoadOut&apos;);" />
+        <ui:VisualElement style="height: auto; width: 6px;" />
+        <ui:Label text="Exit UI Edit" display-tooltip-when-elided="true" name="Label" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        <ui:VisualElement style="width: 12px;" />
+    </ui:Button>
+</ui:UXML>

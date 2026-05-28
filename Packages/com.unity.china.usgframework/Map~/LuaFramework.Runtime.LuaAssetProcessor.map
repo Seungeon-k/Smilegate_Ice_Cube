@@ -1,0 +1,14 @@
+{
+  "Name": "LuaFramework.Runtime.LuaAssetProcessor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\LuaFramework.Runtime.LuaAssetProcessor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\LuaAssetProcessor\\LuaScript.cs",
+      "OriginalGuid": "75e623af83940d34e95340ae177d03be",
+      "ClassNamespace": "LuaFramework.Runtime.LuaAssetProcessor",
+      "ClassName": "LuaScript",
+      "ClassFullName": "LuaFramework.Runtime.LuaAssetProcessor.LuaScript",
+      "FileID": -1569085993
+    }
+  ]
+}

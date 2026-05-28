@@ -1,0 +1,18 @@
+.VChainEventItem {
+    min-height: 10px;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VChainEventItem > #Left {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.VChainEventItem > #Right {
+    width: 50%;
+    flex-grow: 1;
+}

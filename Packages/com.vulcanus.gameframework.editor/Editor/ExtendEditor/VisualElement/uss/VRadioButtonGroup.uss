@@ -1,0 +1,23 @@
+.VRadioButtonGroup {
+}
+
+.VRadioButtonGroup > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+}
+
+.child .VRadioButtonGroup > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+}
+
+.VRadioButtonGroup > VisualElement {
+    width: 65%;
+    min-width: 65%;
+}
+
+.child .VRadioButtonGroup > VisualElement {
+    padding-left: 10px;
+}

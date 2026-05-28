@@ -1,0 +1,539 @@
+openapi: 3.0.2
+info:
+  title: Resource Store API
+  version: 1.0.0
+servers:
+- description: |
+    Relative URL configuration for flexibility across different environments. Clients need to prepend the appropriate base URL.
+  url: /v1
+- description: |
+    Absolute URL configuration for local development environment. This URL specifies the complete path to access the API locally.
+  url: http://localhost:8001/v1
+paths:
+  /resource-store/access-token:
+    delete:
+      operationId: invalidateAccessToken
+      responses:
+        "200":
+          description: OK
+      summary: Invalidate the User Access Token
+      tags:
+      - Resource Store
+    get:
+      description: This is the GetAccessToken operation originated from UGCAS
+      operationId: getAccessToken
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccessToken'
+          description: OK
+        "401":
+          description: Unauthorized
+      summary: Get User Access Token
+      tags:
+      - Resource Store
+  /resource-store/get-user-info:
+    get:
+      description: This is the GetUserInfo operation
+      operationId: getUserInfo
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserInfo'
+          description: OK
+        "404":
+          description: Not Found
+      summary: Get User Information
+      tags:
+      - Resource Store
+  /resource-store/get-vulcanus-app-config:
+    get:
+      description: Get VulcanusAppConfiguration
+      operationId: getVulcanusAppConfiguration
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VulcanusAppConfiguration'
+          description: OK
+        "401":
+          description: Unauthorized
+      summary: Get VulcanusAppConfiguration
+      tags:
+      - Resource Store
+  /resource-store/webview:
+    delete:
+      operationId: destroyWebview
+      parameters:
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: true
+        explode: true
+        in: query
+        name: publishOnly
+        required: true
+        schema:
+          type: boolean
+        style: form
+      responses:
+        "202":
+          description: Accepted
+      summary: Destroy the Webview App
+      tags:
+      - Resource Store
+    get:
+      operationId: openWebviewUrl
+      parameters:
+      - example: https://example.com/
+        explode: true
+        in: query
+        name: url
+        required: true
+        schema:
+          type: string
+        style: form
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: true
+        explode: true
+        in: query
+        name: publishOnly
+        required: true
+        schema:
+          type: boolean
+        style: form
+      responses:
+        "200":
+          description: Ok
+      summary: open a resource URL in the Webview App
+      tags:
+      - Resource Store
+    post:
+      operationId: createWebview
+      parameters:
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      responses:
+        "202":
+          content:
+            application/json:
+              example: web view app opened on port ***
+              schema:
+                type: string
+          description: Accepted
+      summary: Create a new Webview App
+      tags:
+      - Resource Store
+    put:
+      operationId: recreateWebview
+      parameters:
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: https://example.com/
+        explode: true
+        in: query
+        name: url
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "202":
+          content:
+            application/json:
+              example: web view app opened on port ***
+              schema:
+                type: string
+          description: Accepted
+      summary: Recreate the Webview App
+      tags:
+      - Resource Store
+  /resource-store/select-action:
+    post:
+      operationId: selectAction
+      parameters:
+      - example: https://example.com/
+        explode: true
+        in: query
+        name: url
+        required: true
+        schema:
+          type: string
+        style: form
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      responses:
+        "202":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SelectAction'
+          description: Accepted
+      summary: Select an action to publish
+      tags:
+      - Resource Store
+  /resource-store/publish:
+    post:
+      operationId: publish
+      parameters:
+      - example: https://example.com/
+        explode: true
+        in: query
+        name: url
+        required: true
+        schema:
+          type: string
+        style: form
+      - example: 1234
+        explode: true
+        in: query
+        name: pid
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: "{'json':'string'}"
+        explode: true
+        in: query
+        name: stove_data
+        required: true
+        schema:
+          type: string
+        style: form
+      - example: 1024
+        explode: true
+        in: query
+        name: min-width
+        required: false
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: 768
+        explode: true
+        in: query
+        name: min-height
+        required: false
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: 1024
+        explode: true
+        in: query
+        name: width
+        required: false
+        schema:
+          format: int32
+          type: integer
+        style: form
+      - example: 768
+        explode: true
+        in: query
+        name: height
+        required: false
+        schema:
+          format: int32
+          type: integer
+        style: form
+      responses:
+        "202":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SelectAction'
+          description: Accepted
+      summary: Publish an item to Resource Store
+      tags:
+      - Resource Store
+  /resource-store/heartbeat:
+    post:
+      operationId: sendProjectHeartbeat
+      parameters:
+      - example: true
+        explode: true
+        in: query
+        name: active
+        required: true
+        schema:
+          type: boolean
+        style: form
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Heartbeat'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Heartbeat'
+          description: OK
+        "404":
+          description: Not Found - sessionId does not match any existing session
+      summary: Send project heartbeat
+      tags:
+      - Resource Store
+  /resource-store/open-external-browser:
+    get:
+      operationId: openExternalBrowser
+      parameters:
+      - example: http://something
+        explode: true
+        in: query
+        name: url
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Bad Request
+        "401":
+          description: Unauthorized
+      summary: Open URL in an default web browser(by Stove)
+      tags:
+      - Resource Store
+  /resource-store/restart-unity-project:
+    get:
+      operationId: restartUnityProject
+      parameters:
+      - example: ""
+        explode: true
+        in: query
+        name: fullPath
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Bad Request
+        "401":
+          description: Unauthorized
+      summary: Restart Unity Project
+      tags:
+      - Resource Store
+components:
+  schemas:
+    AccessToken:
+      example:
+        access_token: access_token
+        api_id: 0
+        code: 6
+        message: message
+        request_id: request_id
+      properties:
+        api_id:
+          format: int32
+          type: integer
+        code:
+          format: int32
+          type: integer
+        message:
+          type: string
+        request_id:
+          type: string
+        access_token:
+          type: string
+      type: object
+    Heartbeat:
+      example:
+        unityVersion: 2020.3.15f2
+        sessionId: 12345678
+      properties:
+        sessionId:
+          example: 12345678
+          format: int64
+          minimum: 0
+          type: integer
+        unityVersion:
+          example: 2020.3.15f2
+          type: string
+      type: object
+    UserInfo:
+      example:
+        user_id: user_id
+        member_no: 0
+        nickname: nickname
+      properties:
+        member_no:
+          format: int64
+          type: integer
+        nickname:
+          type: string
+        user_id:
+          type: string
+      type: object
+    SelectAction:
+      example:
+        port: 12345
+        pid: 12345
+        message: blah~
+      properties:
+        port:
+          example: 12345
+          format: uint16
+          type: integer
+        message:
+          example: blah~
+          type: string
+        pid:
+          example: 12345
+          format: uint16
+          type: integer
+      type: object
+    VulcanusAppConfiguration:
+      example:
+        environment: vgdev
+        editor_service:
+          ServerVersion: ServerVersion
+          ApiServerGrpcUrl: ApiServerGrpcUrl
+          ApiServerHttpUrl: ApiServerHttpUrl
+          ServerGroupId: ServerGroupId
+          PlatformServerUrl: PlatformServerUrl
+        service:
+          StoveServiceId: StoveServiceId
+          NewUGCModPublishUrlFormat: NewUGCModPublishUrlFormat
+          CreatorCenterUrl: CreatorCenterUrl
+          IsUsingStoveApi: true
+          SelectActionUrlFormat: SelectActionUrlFormat
+          UGCModPublishUrl: UGCModPublishUrl
+          UGCResourcePublishUrl: UGCResourcePublishUrl
+          UGCWebViewUrl: UGCWebViewUrl
+          StoveCallerId: StoveCallerId
+          StoveExternalApiUri: StoveExternalApiUri
+          Environment: Environment
+          StoveBubblyzApiUri: StoveBubblyzApiUri
+          StoveCommonApiUri: StoveCommonApiUri
+          UGCBaseurl: UGCBaseurl
+          StoveClientId: StoveClientId
+          MemberNo: 0
+      properties:
+        environment:
+          example: vgdev
+          type: string
+        service:
+          $ref: '#/components/schemas/Service'
+        editor_service:
+          $ref: '#/components/schemas/EditorService'
+      type: object
+    Service:
+      example:
+        StoveServiceId: StoveServiceId
+        NewUGCModPublishUrlFormat: NewUGCModPublishUrlFormat
+        CreatorCenterUrl: CreatorCenterUrl
+        IsUsingStoveApi: true
+        SelectActionUrlFormat: SelectActionUrlFormat
+        UGCModPublishUrl: UGCModPublishUrl
+        UGCResourcePublishUrl: UGCResourcePublishUrl
+        UGCWebViewUrl: UGCWebViewUrl
+        StoveCallerId: StoveCallerId
+        StoveExternalApiUri: StoveExternalApiUri
+        Environment: Environment
+        StoveBubblyzApiUri: StoveBubblyzApiUri
+        StoveCommonApiUri: StoveCommonApiUri
+        UGCBaseurl: UGCBaseurl
+        StoveClientId: StoveClientId
+        MemberNo: 0
+      properties:
+        Environment:
+          type: string
+        UGCBaseurl:
+          type: string
+        UGCWebViewUrl:
+          type: string
+        UGCModPublishUrl:
+          type: string
+        NewUGCModPublishUrlFormat:
+          type: string
+        UGCResourcePublishUrl:
+          type: string
+        SelectActionUrlFormat:
+          type: string
+        CreatorCenterUrl:
+          type: string
+        IsUsingStoveApi:
+          type: boolean
+        StoveCommonApiUri:
+          type: string
+        StoveBubblyzApiUri:
+          type: string
+        StoveExternalApiUri:
+          type: string
+        StoveClientId:
+          type: string
+        StoveServiceId:
+          type: string
+        StoveCallerId:
+          type: string
+        MemberNo:
+          format: int64
+          type: integer
+      type: object
+    EditorService:
+      example:
+        ServerVersion: ServerVersion
+        ApiServerGrpcUrl: ApiServerGrpcUrl
+        ApiServerHttpUrl: ApiServerHttpUrl
+        ServerGroupId: ServerGroupId
+        PlatformServerUrl: PlatformServerUrl
+      properties:
+        PlatformServerUrl:
+          type: string
+        ServerGroupId:
+          type: string
+        ServerVersion:
+          type: string
+        ApiServerHttpUrl:
+          type: string
+        ApiServerGrpcUrl:
+          type: string
+      type: object
+

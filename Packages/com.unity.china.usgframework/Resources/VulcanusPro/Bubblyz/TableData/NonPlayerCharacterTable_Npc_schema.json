@@ -1,0 +1,11 @@
+{
+    "ID": "!Int",
+    "NPCID": "!String",
+    "NpcType": "!String",
+    "SkinPreset": "!String",
+    "prefabPath": "!String",
+    "controllerPath": "!String",
+    "avatarPath": "!String",
+    "ColliderRadius": "!Float",
+    "ColliderHeight": "!Float"
+}

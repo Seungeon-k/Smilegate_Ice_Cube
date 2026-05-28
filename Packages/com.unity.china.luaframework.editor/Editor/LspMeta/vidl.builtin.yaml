@@ -1,0 +1,1604 @@
+version: 0.1
+types:
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Mathf.lua
+  Mathf:
+    codeType: class
+    members:
+      PI:
+        type: number
+      Deg2Red:
+        type: number
+      Rad2Deg:
+        type: number
+      Infinity:
+        type: number
+      NegativeInfinity:
+        type: number
+      Epsilon:
+        type: number
+    methods:
+      - name: Abs
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Acos
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Asin
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Atan
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+        return:
+          type: number
+      - name: Atan2
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+        return:
+          type: number
+      - name: Ceil
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: integer
+      - name: Cos
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Sin
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Exp
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Floor
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: integer
+      - name: Max
+        static: true
+        parameters:
+          x:
+            type: number
+          ...:
+            type: number
+        return:
+          type: number
+      - name: Min
+        static: true
+        parameters:
+          x:
+            type: number
+          ...:
+            type: number
+        return:
+          type: number
+      - name: Pow
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+        return:
+          type: number
+      - name: Sqrt
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Tan
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Deg
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Rad
+        static: true
+        parameters:
+          x:
+            type: number
+        return:
+          type: number
+      - name: Random
+        static: true
+        parameters:
+          m:
+            type: integer
+          n:
+            type: integer
+        return:
+          type: integer
+      - name: Approximately
+        static: true
+        parameters:
+          a:
+            type: number
+          b:
+            type: number
+        return:
+          type: boolean
+      - name: Clamp
+        static: true
+        parameters:
+          value:
+            type: number
+          min:
+            type: number
+          max:
+            type: number
+        return:
+          type: number
+      - name: Clamp01
+        static: true
+        parameters:
+          value:
+            type: number
+        return:
+          type: number
+      - name: DeltaAngle
+        static: true
+        parameters:
+          current:
+            type: number
+          target:
+            type: number
+        return:
+          type: number
+      - name: Gamma
+        static: true
+        parameters:
+          value:
+            type: number
+          absmax:
+            type: number
+          gamma:
+            type: number
+        return:
+          type: number
+      - name: InverseLerp
+        static: true
+        parameters:
+          from:
+            type: number
+          to:
+            type: number
+          value:
+            type: number
+        return:
+          type: number
+      - name: Lerp
+        static: true
+        parameters:
+          from:
+            type: number
+          to:
+            type: number
+          t:
+            type: number
+        return:
+          type: number
+      - name: LerpAngle
+        static: true
+        parameters:
+          a:
+            type: number
+          b:
+            type: number
+          t:
+            type: number
+        return:
+          type: number
+      - name: LerpUnclamped
+        static: true
+        parameters:
+          a:
+            type: number
+          b:
+            type: number
+          t:
+            type: number
+        return:
+          type: number
+      - name: MoveTowards
+        static: true
+        parameters:
+          current:
+            type: number
+          target:
+            type: number
+          maxDelta:
+            type: number
+        return:
+          type: number
+      - name: MoveTowardsAngle
+        static: true
+        parameters:
+          current:
+            type: number
+          target:
+            type: number
+          maxDelta:
+            type: number
+        return:
+          type: number
+      - name: PingPong
+        static: true
+        parameters:
+          t:
+            type: number
+          length:
+            type: number
+        return:
+          type: number
+      - name: PingPong
+        static: true
+        parameters:
+          t:
+            type: number
+          length:
+            type: number
+        return:
+          type: number
+      - name: Round
+        static: true
+        parameters:
+          num:
+            type: number
+        return:
+          type: integer
+      - name: Sign
+        static: true
+        parameters:
+          num:
+            type: number
+        return:
+          type: integer
+      - name: SmoothStep
+        static: true
+        parameters:
+          from:
+            type: number
+          to:
+            type: number
+          t:
+            type: number
+        return:
+          type: number
+      - name: HorizontalAngle
+        static: true
+        parameters:
+          dir:
+            type: Vector3
+        return:
+          type: number
+      - name: IsNan
+        static: true
+        parameters:
+          number:
+            type: number
+        return:
+          type: boolean
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Time.lua
+  Time:
+    codeType: class
+    members:
+      deltaTime:
+        type: number
+      unscaledDeltaTime:
+        type: number
+      fixedDeltaTime:
+        type: number
+      maximumDeltaTime:
+        type: number
+      time:
+        type: number
+      unscaledTime:
+        type: number
+      fixedTime:
+        type: number
+      realtimeSinceStartup:
+        type: number
+      timeSinceLevelLoad:
+        type: number
+      timeScale:
+        type: number
+      frameCount:
+        type: number
+      captureFramerate:
+        type: number
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Ray.lua
+  Ray:
+    codeType: class
+    members:
+      origin:
+        type: Vector3
+      direction:
+        type: Vector3
+    methods:
+      - name: New
+        static: true
+        parameters:
+          direction:
+            type: Vector3
+          origin:
+            type: Vector3
+        return:
+          type: Ray
+      - name: GetPoint
+        return:
+          type: Vector3
+      - name: Get
+        return:
+          type: number
+          type2: number
+          type3: number
+          type4: number
+          type5: number
+          type6: number
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/RaycastHit.lua
+  RaycastHit:
+    codeType: class
+    members:
+      collider:
+        type: VFramework.Collider
+      distance:
+        type: number
+      normal:
+        type: Vector3
+      point:
+        type: Vector3
+      rigidbody:
+        type: VFramework.Rigidbody
+      transform:
+        type: VFramework.Transform
+    methods:
+      - name: New
+        static: true
+        parameters:
+          collider:
+            type: Collider
+          distance:
+            type: number
+          normal:
+            type: Vector3
+          point:
+            type: Vector3
+          rigidbody:
+            type: Rigidbody
+          transform:
+            type: Transform
+        return:
+          type: RaycastHit
+      - name: Init
+        parameters:
+          collider:
+            type: Collider
+          distance:
+            type: number
+          normal:
+            type: Vector3
+          point:
+            type: Vector3
+          rigidbody:
+            type: Rigidbody
+          transform:
+            type: Transform
+      - name: Get
+        return:
+          type: Collider
+          type2: number
+          type3: Vector3
+          type4: Vector3
+          type5: Rigidbody
+          type6: Transform
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Plane.lua
+  Plane:
+    codeType: class
+    members:
+      normal:
+        type: Vector3
+      distance:
+        type: number
+    methods:
+      - name: New
+        static: true
+        parameters:
+          normal:
+            type: Vector3
+          distance:
+            type: number
+        return:
+          type: Plane
+      - name: Get
+        return:
+          type: Vector3
+          type2: number
+      - name: Raycast
+        parameters:
+          ray:
+            type: Ray
+        return:
+          type: boolean
+          type2: number
+      - name: SetNormalAndPosition
+        parameters:
+          inNormal:
+            type: Vector3
+          inPoint:
+            type: Vector3
+      - name: Set3Points
+        parameters:
+          a:
+            type: Vector3
+          b:
+            type: Vector3
+          v:
+            type: Vector3
+      - name: GetDistanceToPoint
+        parameters:
+          inPt:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: GetSide
+        parameters:
+          inPt:
+            type: Vector3
+        return:
+          type: boolean
+      - name: SameSize
+        parameters:
+          inPt0:
+            type: Vector3
+          inPt1:
+            type: Vector3
+        return:
+          type: boolean
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Bounds.lua
+  Bounds:
+    codeType: class
+    members:
+      center:
+        type: Vector3
+      extents:
+        type: Vector3
+      size:
+        type: Vector3
+      min:
+        type: Vector3
+      max:
+        type: Vector3
+    methods:
+      - name: New
+        static: true
+        parameters:
+          center:
+            type: Vector3
+          size:
+            type: Vector3
+        return:
+          type: Bounds
+      - name: Get
+        return:
+          type: Vector3
+          type2: Vector3
+      - name: GetSize
+        return:
+          type: Vector3
+      - name: SetSize
+        parameters:
+          value:
+            type: Vector3
+      - name: GetMin
+        return:
+          type: Vector3
+      - name: SetMin
+        parameters:
+          value:
+            type: Vector3
+      - name: GetMax
+        return:
+          type: Vector3
+      - name: SetMax
+        parameters:
+          value:
+            type: Vector3
+      - name: SetMinMax
+        parameters:
+          min:
+            type: Vector3
+          max:
+            type: Vector3
+      - name: Encapsulate
+        parameters:
+          point:
+            type: Vector3
+      - name: Expand
+        parameters:
+          amount:
+            type: number
+      - name: Expand
+        parameters:
+          amount:
+            type: Vector3
+      - name: Intersects
+        parameters:
+          bounds:
+            type: Bounds
+        return:
+          type: boolean
+      - name: Contains
+        parameters:
+          p:
+            type: Vector3
+        return:
+          type: boolean
+      - name: IntersectRay
+        parameters:
+          ray:
+            type: Ray
+        return:
+          type: boolean
+          type2: number
+      - name: ClosestPoint
+        parameters:
+          point:
+            type: Vector3
+        return:
+          type: Vector3
+          type2: number
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Color.lua
+  Color:
+    codeType: class
+    members:
+      "[1]":
+        type: number
+      "[2]":
+        type: number
+      "[3]":
+        type: number
+      "[4]":
+        type: number
+      r:
+        type: number
+      g:
+        type: number
+      b:
+        type: number
+      a:
+        type: number
+      red:
+        type: Color
+      green:
+        type: Color
+      blue:
+        type: Color
+      white:
+        type: Color
+      black:
+        type: Color
+      yellow:
+        type: Color
+      cyan:
+        type: Color
+      magenta:
+        type: Color
+      gray:
+        type: Color
+      clear:
+        type: Color
+    methods:
+      - name: New
+        static: true
+        parameters:
+          r:
+            type: number
+          g:
+            type: number
+          b:
+            type: number
+          a:
+            type: number
+        return:
+          type: Color
+      - name: Set
+        parameters:
+          r:
+            type: number
+          g:
+            type: number
+          b:
+            type: number
+          a:
+            type: number
+      - name: Get
+        return:
+          type: number
+          type2: number
+          type3: number
+          type4: number
+      - name: Equals
+        parameters:
+          other:
+            type: Color
+        return:
+          type: boolean
+      - name: Lerp
+        static: true
+        parameters:
+          a:
+            type: Color
+          b:
+            type: Color
+          t:
+            type: number
+        return:
+          type: Color
+      - name: LerpUnclamped
+        static: true
+        parameters:
+          a:
+            type: Color
+          b:
+            type: Color
+          t:
+            type: number
+        return:
+          type: Color
+      - name: HSVToRGB
+        static: true
+        parameters:
+          H:
+            type: number
+          S:
+            type: number
+          V:
+            type: number
+          hdr:
+            type: boolean
+        return:
+          type: Color
+      - name: GrayScale
+        static: true
+        parameters:
+          a:
+            type: Color
+        return:
+          type: Color
+  
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Vector2.lua
+  Vector2:
+    codeType: class
+    members:
+      "[1]":
+        type: number
+      "[2]":
+        type: number
+      x:
+        type: number
+      y:
+        type: number
+      up:
+        type: Vector2
+      right:
+        type: Vector2
+      zero:
+        type: Vector2
+      one:
+        type: Vector2
+      magnitude:
+        type: number
+      sqrMagnitude:
+        type: number
+      normalized:
+        type: Vector2
+    methods:
+      - name: New
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+        return:
+          type: Vector2
+      - name: Set
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+      - name: Get
+        return:
+          type: number
+          type2: number
+      - name: Clone
+        return:
+          type: Vector2
+      - name: SqrMagnitude
+        return:
+          type: number
+      - name: Normalize
+        static: true
+        parameters:
+          v:
+            type: Vector2
+        return:
+          type: Vector2
+      - name: SetNormalize
+        return:
+          type: Vector2
+      - name: Dot
+        static: true
+        parameters:
+          lhs:
+            type: Vector2
+          rhs:
+            type: Vector2
+        return:
+          type: number
+      - name: Angle
+        static: true
+        parameters:
+          from:
+            type: Vector2
+          to:
+            type: Vector2
+        return:
+          type: number
+      - name: Magnitude
+        static: true
+        parameters:
+          v:
+            type: Vector2
+        return:
+          type: number
+      - name: Reflect
+        static: true
+        parameters:
+          dir:
+            type: Vector2
+          normal:
+            type: Vector2
+        return:
+          type: Vector2
+      - name: Distance
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+        return:
+          type: number
+      - name: Lerp
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+          t:
+            type: number
+        return:
+          type: Vector2
+      - name: LerpUnclamped
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+          t:
+            type: number
+      - name: MoveTowards
+        static: true
+        parameters:
+          current:
+            type: Vector2
+          target:
+            type: Vector2
+          maxDistanceDelta:
+            type: number
+      - name: ClampMagnitude
+        static: true
+        parameters:
+          v:
+            type: Vector2
+          maxLength:
+            type: number
+      - name: SmoothDamp
+        static: true
+        parameters:
+          current:
+            type: Vector2
+          target:
+            type: Vector2
+          Velocity:
+            type: Vector2
+          smoothTime:
+            type: number
+          maxSpeed:
+            type: number
+          deltaTime:
+            type: number
+        return:
+          type: Vector2
+          type2: number
+      - name: Max
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+      - name: Min
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+      - name: Scale
+        static: true
+        parameters:
+          a:
+            type: Vector2
+          b:
+            type: Vector2
+      - name: Div
+        parameters:
+          d:
+            type: number
+        return:
+          type: Vector2
+      - name: Mul
+        parameters:
+          d:
+            type: number
+        return:
+          type: Vector2
+      - name: Add
+        parameters:
+          b:
+            type: Vector2
+        return:
+          type: Vector2
+      - name: Sub
+        parameters:
+          b:
+            type: Vector2
+        return:
+          type: Vector2
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Vector3.lua
+  Vector3:
+    codeType: class
+    members:
+      "[1]":
+        type: number
+      "[2]":
+        type: number
+      "[3]":
+        type: number
+      x:
+        type: number
+      y:
+        type: number
+      z:
+        type: number
+      up:
+        type: Vector3
+      down:
+        type: Vector3
+      right:
+        type: Vector3
+      left:
+        type: Vector3
+      forward:
+        type: Vector3
+      back:
+        type: Vector3
+      zero:
+        type: Vector3
+      one:
+        type: Vector3
+      magnitude:
+        type: number
+      normalized:
+        type: Vector3
+      sqrMagnitude:
+        type: number
+    methods:
+      - name: New
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+        return:
+          type: Vector3
+      - name: Set
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+      - name: Get
+        return:
+          type: number
+          type2: number
+          type3: number
+      - name: Clone
+        return:
+          type: Vector3
+      - name: Distance
+        static: true
+        parameters:
+          va:
+            type: Vector3
+          vb:
+            type: Vector3
+        return:
+          type: number
+      - name: Dot
+        static: true
+        parameters:
+          lhs:
+            type: Vector3
+          rhs:
+            type: Vector3
+        return:
+          type: number
+      - name: Lerp
+        static: true
+        parameters:
+          from:
+            type: Vector3
+          to:
+            type: Vector3
+          t:
+            type: number
+      - name: Magnitude
+        return:
+          type: number
+      - name: Max
+        static: true
+        parameters:
+          lhs:
+            type: Vector3
+          rhs:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Min
+        static: true
+        parameters:
+          lhs:
+            type: Vector3
+          rhs:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Normalize
+        static: true
+        parameters:
+          v:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: SetNormalize
+        return:
+          type: Vector3
+      - name: SqrMagnitude
+        return:
+          type: number
+      - name: Angle
+        static: true
+        parameters:
+          from:
+            type: Vector3
+          to:
+            type: Vector3
+        return:
+          type: number
+      - name: ClampMagnitude
+        parameters:
+          maxLength:
+            type: number
+        return:
+          type: Vector3
+      - name: OrthoNormalize
+        parameters:
+          va:
+            type: Vector3
+          vb:
+            type: Vector3
+          vc:
+            type: Vector3
+        return:
+          type: Vector3
+          type2: Vector3
+          type3: Vector3
+      - name: MoveTowards
+        static: true
+        parameters:
+          current:
+            type: Vector3
+          target:
+            type: Vector3
+          maxDistanceDelta:
+            type: number
+        return:
+          type: Vector3
+      - name: RotateTowards
+        static: true
+        parameters:
+          current:
+            type: Vector3
+          target:
+            type: Vector3
+          maxRadiansDelta:
+            type: number
+          maxMagnitudeDelta:
+            type: number
+        return:
+          type: Vector3
+      - name: SmoothDamp
+        static: true
+        parameters:
+          current:
+            type: Vector3
+          target:
+            type: Vector3
+          currentVelocity:
+            type: Vector3
+          smoothTime:
+            type: number
+        return:
+          type: Vector3
+          type2: Vector3
+      - name: Scale
+        static: true
+        parameters:
+          a:
+            type: Vector3
+          b:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Cross
+        static: true
+        parameters:
+          lhs:
+            type: Vector3
+          rhs:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Equals
+        parameters:
+          other:
+            type: Vector3
+        return:
+          type: boolean
+      - name: Reflect
+        static: true
+        parameters:
+          inDirection:
+            type: Vector3
+          inNormal:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Project
+        static: true
+        parameters:
+          vector:
+            type: Vector3
+          onNormal:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: ProjectOnPlane
+        static: true
+        parameters:
+          vector:
+            type: Vector3
+          planeNormal:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Slerp
+        static: true
+        parameters:
+          from:
+            type: Vector3
+          to:
+            type: Vector3
+          t:
+            type: number
+        return:
+          type: Vector3
+      - name: Mul
+        parameters:
+          q:
+            type: number
+        return:
+          type: Vector3
+      - name: Div
+        parameters:
+          d:
+            type: number
+        return:
+          type: Vector3
+      - name: Add
+        parameters:
+          vb:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: Sub
+        parameters:
+          vb:
+            type: Vector3
+        return:
+          type: Vector3
+      - name: MulQuat
+        parameters:
+          quat:
+            type: Quternion
+        return:
+          type: Vector3
+      - name: AngleAroundAxis
+        static: true
+        parameters:
+          from:
+            type: Vector3
+          to:
+            type: Vector3
+          axis:
+            type: Vector3
+        return:
+          type: number
+  
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Vector4.lua
+  Vector4:
+    codeType: class
+    members:
+      "[1]":
+        type: number
+      "[2]":
+        type: number
+      "[3]":
+        type: number
+      "[4]":
+        type: number
+      x:
+        type: number
+      y:
+        type: number
+      z:
+        type: number
+      w:
+        type: number
+      zero:
+        type: Vector4
+      one:
+        type: Vector4
+      magnitude:
+        type: number
+      sqrMagnitude:
+        type: number
+      normalized:
+        type: Vector4
+    methods:
+      - name: New
+        static: true
+        parameters:
+          w:
+            type: number
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+        return:
+          type: Vector4
+      - name: Set
+        parameters:
+          w:
+            type: number
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+      - name: Get
+        return:
+          type: number
+          type2: number
+          type3: number
+          type4: number
+      - name: Lerp
+        static: true
+        parameters:
+          from:
+            type: Vector4
+          to:
+            type: Vector4
+          t:
+            type: number
+        return:
+          type: Vector4
+      - name: MoveTowards
+        static: true
+        parameters:
+          current:
+            type: Vector4
+          target:
+            type: Vector4
+          maxDistanceDelta:
+            type: number
+        return:
+          type: Vector4
+      - name: Scale
+        static: true
+        parameters:
+          a:
+            type: Vector4
+          b:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: SetScale
+        parameters:
+          scale:
+            type: Vector4
+      - name: Normalize
+        static: true
+        parameters:
+          v:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: SetNormalize
+        return:
+          type: Vector4
+      - name: Div
+        parameters:
+          d:
+            type: number
+        return:
+          type: Vector4
+      - name: Mul
+        parameters:
+          d:
+            type: number
+        return:
+          type: Vector4
+      - name: Add
+        parameters:
+          b:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: Sub
+        parameters:
+          b:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: Dot
+        static: true
+        parameters:
+          a:
+            type: Vector4
+          b:
+            type: Vector4
+        return:
+          type: number
+      - name: Project
+        static: true
+        parameters:
+          a:
+            type: Vector4
+          b:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: Distance
+        static: true
+        parameters:
+          a:
+            type: Vector4
+          b:
+            type: Vector4
+        return:
+          type: number
+      - name: Magnitude
+        static: true
+        parameters:
+          a:
+            type: Vector4
+        return:
+          type: number
+      - name: SqrMagnitude
+        static: true
+        parameters:
+          a:
+            type: Vector4
+        return:
+          type: number
+      - name: Min
+        static: true
+        parameters:
+          lhs:
+            type: Vector4
+          rhs:
+            type: Vector4
+        return:
+          type: Vector4
+      - name: Max
+        static: true
+        parameters:
+          lhs:
+            type: Vector4
+          rhs:
+            type: Vector4
+        return:
+          type: Vector4
+  
+  # https://github.com/topameng/tolua/blob/master/Assets/ToLua/Lua/UnityEngine/Quaternion.lua
+  Quaternion:
+    codeType: class
+    members:
+      "[1]":
+        type: number
+      "[2]":
+        type: number
+      "[3]":
+        type: number
+      "[4]":
+        type: number
+      x:
+        type: number
+      y:
+        type: number
+      z:
+        type: number
+      w:
+        type: number
+      identity:
+        type: Quaternion
+      eulerAngles:
+        type: Vector3
+    methods:
+      - name: New
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+          w:
+            type: number
+        return:
+          type: Quaternion
+      - name: Set
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+          w:
+            type: number
+      - name: Clone
+        return:
+          type: Quaternion
+      - name: Get
+        return:
+          type: number
+          type2: number
+          type3: number
+          type4: number
+      - name: Dot
+        static: true
+        parameters:
+          a:
+            type: Quaternion
+          b:
+            type: Quaternion
+        return:
+          type: number
+      - name: Angle
+        static: true
+        parameters:
+          a:
+            type: Quaternion
+          b:
+            type: Quaternion
+        return:
+          type: number
+      - name: AngleAxis
+        static: true
+        parameters:
+          angle:
+            type: number
+          axis:
+            type: Vector3
+        return:
+          type: Quaternion
+      - name: Equals
+        static: true
+        parameters:
+          a:
+            type: Quaternion
+          b:
+            type: Quaternion
+        return:
+          type: boolean
+      - name: Euler
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+        return:
+          type: Quaternion
+      - name: SetEuler
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+        return:
+          type: Quaternion
+      - name: Normalize
+        static: true
+        return:
+          type: Quaternion
+      - name: SetNormalize
+      - name: FromToRotation
+        static: true
+        parameters:
+          from:
+            type: Vector3
+          to:
+            type: Vector3
+        return:
+          type: Quaternion
+      - name: SetFromToRotation
+        parameters:
+          from:
+            type: Vector3
+          tp:
+            type: Vector3
+        return:
+          type: Quaternion
+      - name: Inverse
+        return:
+          type: Quaternion
+      - name: Lerp
+        static: true
+        parameters:
+          q1:
+            type: Quaternion
+          q2:
+            type: Quaternion
+          t:
+            type: number
+        return:
+          type: Quaternion
+      - name: LookRotation
+        static: true
+        parameters:
+          forward:
+            type: Vector3
+          up:
+            type: Vector3
+        return:
+          type: Quaternion
+      - name: SetIdentity
+      - name: Slerp
+        static: true
+        parameters:
+          from:
+            type: Quaternion
+          to:
+            type: Quaternion
+          t:
+            type: number
+        return:
+          type: Quaternion
+      - name: RotateTowards
+        static: true
+        parameters:
+          from:
+            type: Quaternion
+          to:
+            type: Quaternion
+          maxDegreesDelta:
+            type: number
+        return:
+          type: Quaternion
+      - name: ToAngleAxis
+        static: true
+        return:
+          type: number
+          type2: Vector3
+      - name: ToEulerAngles
+        return:
+          type: Vector3
+      - name: Forward
+        return:
+          type: Vector3
+      - name: MulVec3
+        parameters:
+          point:
+            type: Vector3
+        return:
+          type: Vector3
+          

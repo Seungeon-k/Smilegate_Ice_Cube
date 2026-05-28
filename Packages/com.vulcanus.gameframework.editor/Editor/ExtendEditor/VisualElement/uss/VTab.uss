@@ -1,0 +1,8 @@
+.VTab {
+    background-color: var(--background-container-04);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    flex-direction: row;
+}

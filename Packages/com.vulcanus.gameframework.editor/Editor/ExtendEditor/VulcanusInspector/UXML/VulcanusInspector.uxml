@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/CustomDark.uss?fileID=7433441132597879392&amp;guid=7cb21c68881a46e4eb07a92ffbdab306&amp;type=3#CustomDark" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VulcanusInspector/uss/VulcanusInspector.uss?fileID=7433441132597879392&amp;guid=c5bb93a3d2e4dfc4680b8fa750774291&amp;type=3#VulcanusInspector" />
+    <ui:VisualElement name="Layout" class="WindowContainer" style="flex-grow: 1; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; height: 100%; max-height: 100%; min-height: 100%; justify-content: space-around;">
+        <ui:ScrollView style="height: auto; max-height: none; min-height: auto; width: 100%; max-width: 100%; min-width: 100%; flex-grow: 1; justify-content: space-around;">
+            <ui:VisualElement name="Setting" style="display: flex;" />
+            <ui:VisualElement name="Head" style="display: flex; padding-right: 2px; padding-left: 2px;">
+                <ui:VisualElement name="Toggle" style="height: 32px; max-height: 32px; min-height: 32px; background-color: rgb(220, 229, 241); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; margin-top: 10px; margin-right: 4px; margin-bottom: 10px; margin-left: 4px; display: none;" />
+                <ui:VisualElement name="ObjectNameLayout" style="flex-direction: row; height: 25px; max-height: 25px; min-height: 25px; left: 4px; margin-right: 4px;">
+                    <ui:VisualElement name="objectIcon" style="height: 25px; width: 25px; max-height: 25px; min-height: 25px; max-width: 25px; min-width: 25px;" />
+                    <ui:VisualElement name="ActiveToggleContainer" style="flex-grow: 0;">
+                        <VulcanusEditor.ExtendEditor.VToggle class="LabelHide" />
+                    </ui:VisualElement>
+                    <VulcanusEditor.ExtendEditor.VTextField name="objectName" class="LabelHide" style="flex-grow: 1; padding-right: 10px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TagAndLayer" style="flex-direction: row; display: flex;">
+                    <GlobalCustomUI.VCustomTagDropdown name="VTag" style="width: 50%;" />
+                    <GlobalCustomUI.VCustomLayerDropdown name="VLayer" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TagLayer" style="height: 25px; max-height: 25px; min-height: 25px; margin-top: 4px; flex-direction: row; margin-right: 4px; margin-left: 4px; display: none; left: 4px;">
+                    <ui:Label text="Tag" display-tooltip-when-elided="true" class="OnWindowContainerText" style="width: 10%; -unity-text-align: middle-center; -unity-font-style: bold;" />
+                    <ui:Button text="DropDownButton" display-tooltip-when-elided="true" name="DropDownButton" style="width: 100%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PrefabLayout" style="height: auto; max-height: none; min-height: auto; flex-direction: column; margin-left: 4px; margin-right: 4px;">
+                    <uie:ObjectField label="Prefab" name="TargetPrefab" style="margin-bottom: 0;" />
+                    <ui:VisualElement name="VisualElement" style="flex-direction: row; align-items: center; justify-content: space-around; height: auto; max-height: none; flex-grow: 1;">
+                        <VulcanusEditor.ExtendEditor.VButton name="OverridesOpenBT" text="Overrides" Text="Override" class="NoneSize" style="flex-grow: 1; padding-right: 20px;" />
+                        <VulcanusEditor.ExtendEditor.VButton name="prefabSelectBT" text="Select" Text="Select" class="NoneSize" style="flex-grow: 1; padding-right: 2px;" />
+                        <VulcanusEditor.ExtendEditor.VButton name="prefabOpenBT" text="Open" Text="Open" class="NoneSize" style="flex-grow: 1; padding-left: 2px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <VulcanusEditor.ExtendEditor.VButton name="Clone" Text="Save As Custom" class="VButton" style="flex-grow: 1; padding-right: 10px; padding-left: 10px;" />
+            <ui:VisualElement name="Content" />
+            <ui:VisualElement name="Tail" style="height: 66px; align-items: stretch; display: flex; align-self: center; flex-grow: 1; width: 100%;">
+                <VulcanusEditor.ExtendEditor.VButton name="AddComponent" text="Add Component" class="NoneColor" style="height: 30px; display: flex; align-items: stretch; align-self: center; transform-origin: center; flex-grow: 1; width: 70%;" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <GameFramework.Editor.ExtendEditor.VulcanusAssetLabel name="AssetLabel" style="display: flex;" />
+    </ui:VisualElement>
+</ui:UXML>

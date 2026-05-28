@@ -1,0 +1,5 @@
+{
+    "DrowTypeID": "!String",
+    "RandomDrawCount": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

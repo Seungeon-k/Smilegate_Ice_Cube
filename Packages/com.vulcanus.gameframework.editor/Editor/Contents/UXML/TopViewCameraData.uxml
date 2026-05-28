@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-direction: column;">
+        <ui:Foldout text="Camera Data" name="CameraData">
+            <ui:Foldout text="Base Setting" style="margin-left: 15px; flex-direction: column;">
+                <ui:VisualElement name="Layout" style="flex-direction: row;">
+                    <ui:VisualElement name="Left" style="width: 40%;">
+                        <ui:Label text="Distance" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Pitch" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Yaw" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Zoom" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Orthographic" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Offset" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Fov" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Right" style="width: 60%;">
+                        <uie:FloatField value="0" name="Distance" style="height: 22px;" />
+                        <ui:VisualElement name="Pitch" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="180" name="PitchSlider" low-value="0" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 5px; padding-right: 5px; align-items: stretch;" />
+                            <uie:FloatField value="42.2" name="PitchValue" style="width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Yaw" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="180" name="YawSlider" low-value="-180" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 5px; padding-right: 5px; align-items: stretch;" />
+                            <uie:FloatField value="42.2" name="YawValue" style="width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Zoom" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="180" name="ZoomSlider" low-value="-180" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 5px; padding-right: 5px; align-items: stretch;" />
+                            <uie:FloatField value="42.2" name="ZoomValue" style="width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </ui:VisualElement>
+                        <ui:Toggle name="Orthographic" style="height: 22px;" />
+                        <uie:Vector3Field name="Offset" style="height: 22px; -unity-text-align: middle-left;" />
+                        <uie:FloatField value="42.2" name="Fov" style="height: 22px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout text="Rig Setting" style="padding-left: 15px;">
+                <ui:VisualElement name="Layout" style="flex-direction: row;">
+                    <ui:VisualElement name="Left" style="width: 40%;">
+                        <ui:Label text="Non-Tracking Area" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Damping" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Right" style="width: 60%;">
+                        <uie:FloatField value="0" name="FollowDistance" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Damping" style="height: 22px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

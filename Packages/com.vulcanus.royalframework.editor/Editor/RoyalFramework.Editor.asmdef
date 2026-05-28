@@ -1,0 +1,19 @@
+{
+    "name": "RoyalFramework.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:69448af7b92c7f342b298e06a37122aa",
+        "GUID:e246a67d1cfef33468a3ac95f7919b49"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Root" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+        <ui:VisualElement name="InSide" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <ui:VisualElement name="Head" style="height: 20px; background-color: rgb(75, 75, 75); flex-direction: row; -unity-text-align: middle-left; align-items: center; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                <ui:VisualElement name="IconVE" style="background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorVE/StyleSheets/Icon/Icon_Send_36.png?fileID=2800000&amp;guid=388ab4f263851014a8a87371af250160&amp;type=3#Icon_Send_36&quot;); width: 14px; height: 14px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;" />
+                <ui:Label text="Connection" display-tooltip-when-elided="true" name="Title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" />
+            <ui:VisualElement name="Foot" style="flex-direction: row;">
+                <ui:Button text="+ Add Connection" display-tooltip-when-elided="true" name="AddBtn" style="flex-grow: 1; -unity-text-align: middle-left; color: rgba(255, 255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,18 @@
+﻿/* HEAD */
+
+.gc-list-head { }
+
+/* FOOT */
+
+.gc-list-body 
+{
+    
+}
+
+.gc-list-body .gc-list-item-root {
+    position: relative;
+}
+
+/* FOOT */
+
+.gc-list-foot { }

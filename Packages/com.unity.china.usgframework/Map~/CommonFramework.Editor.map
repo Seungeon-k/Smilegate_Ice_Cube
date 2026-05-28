@@ -1,0 +1,134 @@
+{
+  "Name": "CommonFramework.Editor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\CommonFramework.Editor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\AssetEditor\\UnitySelectAssetWindow.cs",
+      "OriginalGuid": "fa221bf00073f0e419fa0133dd2dbd36",
+      "ClassNamespace": "CommonFramework.Editor.AssetEditor",
+      "ClassName": "UnitySelectAssetWindow",
+      "ClassFullName": "CommonFramework.Editor.AssetEditor.UnitySelectAssetWindow",
+      "FileID": 1039118781
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\EditorUserSettingsProperty.cs",
+      "OriginalGuid": "89d8567b3b5f46aeb8febc6d32bdf628",
+      "ClassNamespace": "CommonFramework.Editor",
+      "ClassName": "EditorUserSettingsProperty",
+      "ClassFullName": "CommonFramework.Editor.EditorUserSettingsProperty",
+      "FileID": 1906989304
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\GuiBehaviour\\ButtonGuiRenderBase.cs",
+      "OriginalGuid": "9d3f7e4e5eabec647a5541299c0495e1",
+      "ClassNamespace": "CommonFramework.Editor.GuiBehaviour",
+      "ClassName": "ButtonGuiRenderBase",
+      "ClassFullName": "CommonFramework.Editor.GuiBehaviour.ButtonGuiRenderBase",
+      "FileID": -1910101153
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\GuiBehaviour\\GuiBehaviourBase.cs",
+      "OriginalGuid": "9c79a5e4799cade4b9967261569feb47",
+      "ClassNamespace": "CommonFramework.Editor.GuiBehaviour",
+      "ClassName": "GuiBehaviourBase",
+      "ClassFullName": "CommonFramework.Editor.GuiBehaviour.GuiBehaviourBase",
+      "FileID": 908421019
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\UndoRedo\\UndoRedoBatch.cs",
+      "OriginalGuid": "dab59d50f434a0b44a0ffa95296e230f",
+      "ClassNamespace": "CommonFramework.Editor.UndoRedo",
+      "ClassName": "UndoRedoBatch",
+      "ClassFullName": "CommonFramework.Editor.UndoRedo.UndoRedoBatch",
+      "FileID": 1613902203
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\EditorWindowSingleton.cs",
+      "OriginalGuid": "8d21a4d1fc3371c4bae68d5bf0b6cd39",
+      "ClassNamespace": "CommonFramework.Editor",
+      "ClassName": "EditorWindowSingleton",
+      "ClassFullName": "CommonFramework.Editor.EditorWindowSingleton",
+      "FileID": 1770493632
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\GuiBehaviour\\TextButtonGuiRenderBase.cs",
+      "OriginalGuid": "36f0fd220b5f55345b23bd98e1f25989",
+      "ClassNamespace": "CommonFramework.Editor.GuiBehaviour",
+      "ClassName": "TextButtonGuiRenderBase",
+      "ClassFullName": "CommonFramework.Editor.GuiBehaviour.TextButtonGuiRenderBase",
+      "FileID": -2031784104
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\VResources\\VResourcesBuilder.cs",
+      "OriginalGuid": "7d276308af994a5eaa5fb65485120856",
+      "ClassNamespace": "CommonFramework.Editor",
+      "ClassName": "VResourcesBuilder",
+      "ClassFullName": "CommonFramework.Editor.VResourcesBuilder",
+      "FileID": -168037460
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\GuiBehaviour\\GuiRenderBase.cs",
+      "OriginalGuid": "841f5feb02674f3489308ae0d34bb917",
+      "ClassNamespace": "CommonFramework.Editor.GuiBehaviour",
+      "ClassName": "GuiRenderBase",
+      "ClassFullName": "CommonFramework.Editor.GuiBehaviour.GuiRenderBase",
+      "FileID": -1381551864
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\AssetEditor\\UnityPreviewSceneStageBase.cs",
+      "OriginalGuid": "f252bdc13da9b224c95b491d691aff87",
+      "ClassNamespace": "CommonFramework.Editor.AssetEditor",
+      "ClassName": "UnityPreviewSceneStageBase",
+      "ClassFullName": "CommonFramework.Editor.AssetEditor.UnityPreviewSceneStageBase",
+      "FileID": 1779275707
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\Addressables\\AddressablesBuildScript.cs",
+      "OriginalGuid": "69f9db44748c450ea482f11c5dbececc",
+      "ClassNamespace": "CommonFramework.Editor",
+      "ClassName": "AddressablesBuildScript",
+      "ClassFullName": "CommonFramework.Editor.AddressablesBuildScript",
+      "FileID": 1272503811
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\AssetEditor\\UnityPreviewEditorBase.cs",
+      "OriginalGuid": "b63dd84a9031ded439e17c468fbc2818",
+      "ClassNamespace": "CommonFramework.Editor.AssetEditor",
+      "ClassName": "UnityPreviewEditorBase",
+      "ClassFullName": "CommonFramework.Editor.AssetEditor.UnityPreviewEditorBase",
+      "FileID": -186210174
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\UndoRedo\\UndoRedoActionManager.cs",
+      "OriginalGuid": "8661590daac637a438c89fe8c48cc42e",
+      "ClassNamespace": "CommonFramework.Editor.UndoRedo",
+      "ClassName": "UndoRedoActionManager",
+      "ClassFullName": "CommonFramework.Editor.UndoRedo.UndoRedoActionManager",
+      "FileID": -1473839007
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\Addressables\\AddressablesManifestBuilder.cs",
+      "OriginalGuid": "43e6edab24a34786ac13d3df9ce04fb2",
+      "ClassNamespace": "CommonFramework.Editor",
+      "ClassName": "AddressablesManifestBuilder",
+      "ClassFullName": "CommonFramework.Editor.AddressablesManifestBuilder",
+      "FileID": 1441159862
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\UndoRedo\\UndoRedoActionHandler.cs",
+      "OriginalGuid": "04eaa7b8ddbbf4c4ea4ceeecf00aa829",
+      "ClassNamespace": "CommonFramework.Editor.UndoRedo",
+      "ClassName": "UndoRedoActionHandler",
+      "ClassFullName": "CommonFramework.Editor.UndoRedo.UndoRedoActionHandler",
+      "FileID": -728069131
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework.editor\\Editor\\Vulcanus\\VulcanusAppConfig.cs",
+      "OriginalGuid": "63820fdebbef4650927825ce2df0ec1d",
+      "ClassNamespace": "CommonFramework.Editor.Vulcanus",
+      "ClassName": "VulcanusAppConfig",
+      "ClassFullName": "CommonFramework.Editor.Vulcanus.VulcanusAppConfig",
+      "FileID": 916246931
+    }
+  ]
+}

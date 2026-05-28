@@ -1,0 +1,40 @@
+#GC-ValueKeyPickTool-Name {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#GC-ValueKeyPickTool-Name Label {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#GC-ValueKeyPickTool-Name TextField {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#GC-ValueKeyPickTool-Name TextField TextInput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#GC-ValueKeyPickTool-Name #GC-NamePickTool-Dropdown {
+    width: 17px;
+    height: 16px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 1px 0;
+    background-color: var(--gc-color-list-head-default);
+    border-color: var(--gc-color-border-default);
+    border-width: 1px;
+    border-left-width: 0;
+    border-top-right-radius: var(--gc-common-border-radius);
+    border-bottom-right-radius: var(--gc-common-border-radius);
+}
+
+#GC-ValueKeyPickTool-Name #GC-NamePickTool-Dropdown:hover {
+    background-color: var(--gc-color-list-head-hover);
+}

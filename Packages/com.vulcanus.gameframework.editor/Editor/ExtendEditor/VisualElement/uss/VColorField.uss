@@ -1,0 +1,49 @@
+.VColorField {
+    height: 22px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+.VColorField > Label {
+    width: 35%;
+    min-width: 35%;
+    font-size: 12px;
+    color: var(--text-primary-default);
+    -unity-text-align: middle-left;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VColorField > Label {
+    padding-left: 6px;
+    font-size: 12px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VColorField > #unity-internal-color-field {
+    width: 65%;
+    border-color: rgb(47, 47, 55);
+    height: 18px;
+    justify-content: flex-start;
+    border-radius: 3px;
+    border-width: 1px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    min-width: 65%;
+}

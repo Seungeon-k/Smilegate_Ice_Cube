@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VSliderFloat.uss?fileID=7433441132597879392&amp;guid=c829bff0d86042538aa972b63ce83f24&amp;type=3#VSliderFloat" />
+    <ui:Slider label="Slider" show-input-field="true" class="VSliderFloat" />
+</ui:UXML>

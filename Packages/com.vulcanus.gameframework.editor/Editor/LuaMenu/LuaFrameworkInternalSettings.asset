@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55eebb88e235a0a49809a0dbf34998b2, type: 3}
+  m_Name: LuaFrameworkInternalSettings
+  m_EditorClassIdentifier: 
+  WrapperGenerationPath: Packages\com.vulcanus.gameframework\Runtime\0_Framework\Lua\Generated
+  GeneratedNameSpace: Lua.Generated
+  WrapperGenerationHandlePath: Packages\com.vulcanus.gameframework\Runtime\0_Framework\Lua\Generated
+  GeneratedHandleNameSpace: Lua.Generated
+  BinderGenerationPath: Packages\com.vulcanus.gameframework\Runtime\0_Framework\Lua\Generated
+  BinderGeneratedNameSpace: Lua.Generated.Binder
+  LuaBinderAsset: {fileID: 11400000, guid: 8d607c442ed30bb4bbd3b2d43357badd, type: 2}
+  WrapperClassAsset: {fileID: 11400000, guid: ce720bff56e524a4eaebd3ce95e389d2, type: 2}
+  HideMenu: 1
+  GeneratedHideMenuPreprocessorFlag: GAMEFRAMEWORK_DEV

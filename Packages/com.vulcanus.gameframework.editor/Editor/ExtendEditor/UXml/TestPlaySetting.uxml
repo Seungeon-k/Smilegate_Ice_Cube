@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Main">
+        <ui:VisualElement name="GraphicsTitleVE" style="flex-direction: row; justify-content: flex-start; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(89, 89, 89); height: 31px;">
+            <ui:VisualElement name="HeadVE" style="height: 30px; width: 30px;">
+                <ui:VisualElement name="IconVE" style="height: auto;" />
+            </ui:VisualElement>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="TitleLB" style="height: 30px; justify-content: center; -unity-text-align: middle-left;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="GraphicsBodyVE" style="flex-direction: column; justify-content: space-between; align-items: stretch;">
+            <ui:VisualElement name="LineVE" style="flex-direction: row; justify-content: space-between; height: 30px; align-items: center;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="GraphicsLB" style="margin-right: 0; padding-right: 0; padding-left: 0; -unity-text-align: middle-left; margin-left: 40px; padding-top: 0; padding-bottom: 0;" />
+                <uie:EnumField value="Center" name="GraphicsEF" style="width: 100px; justify-content: space-between; height: auto; align-items: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SoundTitleVE" style="flex-direction: row; justify-content: flex-start; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(89, 89, 89);">
+            <ui:VisualElement name="HeadVE" style="height: 30px; width: 30px;">
+                <ui:VisualElement name="IconVE" style="height: auto;" />
+            </ui:VisualElement>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="TitleLB" style="height: 30px; justify-content: center; -unity-text-align: middle-left;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SoundBodyVE" style="flex-direction: column; justify-content: space-between;">
+            <ui:VisualElement name="LineVE" style="flex-direction: row; height: 30px; align-items: center;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="SoundLB" style="margin-right: 0; padding-right: 0; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left: 40px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LineVE" style="flex-direction: row; height: 30px; align-items: center; justify-content: space-between;">
+                <ui:SliderInt picking-mode="Ignore" value="100" high-value="100" name="SoundSlider" style="margin-left: 60px; margin-top: 0; margin-right: 0; margin-bottom: 0; width: 100px;" />
+                <uie:IntegerField value="100" name="SoundTF" style="width: 40px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

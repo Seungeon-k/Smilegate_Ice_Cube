@@ -1,0 +1,7 @@
+{
+    "ID": "!String",
+    "Icon_Category": "!String",
+    "BG_Category_Color": "!String",
+    "BG_List_Item_Color": "!String",
+    "ID_INT_TEMP": "!Int"
+}

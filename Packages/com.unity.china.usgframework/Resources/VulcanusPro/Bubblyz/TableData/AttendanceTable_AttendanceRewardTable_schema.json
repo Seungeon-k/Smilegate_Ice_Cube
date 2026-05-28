@@ -1,0 +1,9 @@
+{
+    "ID": "!String",
+    "group": "!String",
+    "AttendanceRewardID": "!String",
+    "AttendanceBonusRewardID": "!String",
+    "Grade": "!String",
+    "OrdinalNumber": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

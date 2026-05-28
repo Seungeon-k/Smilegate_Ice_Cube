@@ -1,0 +1,206 @@
+{
+  "Name": "Mirage.SocketLayer",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\Mirage.SocketLayer.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Sequencer.cs",
+      "OriginalGuid": "ce10b7c89e0c5464e8bab50fa7d4738c",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Sequencer",
+      "ClassFullName": "Mirage.SocketLayer.Sequencer",
+      "FileID": -1212236114
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ConnectionTrackers\\ConnectingTracker.cs",
+      "OriginalGuid": "c2659ac76cf94db4eb9bf5287269ce37",
+      "ClassNamespace": "Mirage.SocketLayer.ConnectionTrackers",
+      "ClassName": "ConnectingTracker",
+      "ClassFullName": "Mirage.SocketLayer.ConnectionTrackers.ConnectingTracker",
+      "FileID": -1484879518
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\ReliableConnection.cs",
+      "OriginalGuid": "82237b8f59f117c4e8dba472501a274e",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "ReliableConnection",
+      "ClassFullName": "Mirage.SocketLayer.ReliableConnection",
+      "FileID": 740406389
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\INotifyCallBack.cs",
+      "OriginalGuid": "968b5fcba723a2844902db2f6c55443e",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "INotifyCallBackExtensions",
+      "ClassFullName": "Mirage.SocketLayer.INotifyCallBackExtensions",
+      "FileID": -1916390171
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Config.cs",
+      "OriginalGuid": "9fe8a1305ddbe2244ab94ee7b77948bf",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Config",
+      "ClassFullName": "Mirage.SocketLayer.Config",
+      "FileID": -1282320752
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\LoggerExtensions.cs",
+      "OriginalGuid": "2aa54265e69bdd343ad586b852f9864e",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "LoggerExtensions",
+      "ClassFullName": "Mirage.SocketLayer.LoggerExtensions",
+      "FileID": 1785097171
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ConnectionTrackers\\KeepAliveTracker.cs",
+      "OriginalGuid": "8c16979028a6b1c4381713546ef6ad4b",
+      "ClassNamespace": "Mirage.SocketLayer.ConnectionTrackers",
+      "ClassName": "KeepAliveTracker",
+      "ClassFullName": "Mirage.SocketLayer.ConnectionTrackers.KeepAliveTracker",
+      "FileID": 1954296281
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ByteUtils.cs",
+      "OriginalGuid": "bacac50e5440be241992174727872eb2",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "ByteUtils",
+      "ClassFullName": "Mirage.SocketLayer.ByteUtils",
+      "FileID": 885077434
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\SocketFactory.cs",
+      "OriginalGuid": "3ebb946ee372f6e43a1c841aae67e25e",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "SocketFactory",
+      "ClassFullName": "Mirage.SocketLayer.SocketFactory",
+      "FileID": 1654730594
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\AckSystem.cs",
+      "OriginalGuid": "0c2723a7c2efe6f48bc46297fd4d698c",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "AckSystem",
+      "ClassFullName": "Mirage.SocketLayer.AckSystem",
+      "FileID": -149121808
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\NotifyToken.cs",
+      "OriginalGuid": "f57193672cc6d204db9cb5331cd4ed45",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "NotifyToken",
+      "ClassFullName": "Mirage.SocketLayer.NotifyToken",
+      "FileID": 2043469796
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\Batch.cs",
+      "OriginalGuid": "bc94ef0f341425949a7d47c2bb7de95b",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Batch",
+      "ClassFullName": "Mirage.SocketLayer.Batch",
+      "FileID": -2058497427
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\SocketLayerException.cs",
+      "OriginalGuid": "fe4a6773eb96bbc4583424b9693e96d3",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "SocketLayerException",
+      "ClassFullName": "Mirage.SocketLayer.SocketLayerException",
+      "FileID": 937466716
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ConnectKeyValidator.cs",
+      "OriginalGuid": "dcd8c8b550d4ded48bb44edcc035beae",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "ConnectKeyValidator",
+      "ClassFullName": "Mirage.SocketLayer.ConnectKeyValidator",
+      "FileID": 2100509945
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Pool.cs",
+      "OriginalGuid": "783f5130452ef8e408c202cb47088a32",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Pool",
+      "ClassFullName": "Mirage.SocketLayer.Pool",
+      "FileID": -926057964
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ConnectionTrackers\\DisconnectedTracker.cs",
+      "OriginalGuid": "b967fd482d3b1724bb8147a435d061d9",
+      "ClassNamespace": "Mirage.SocketLayer.ConnectionTrackers",
+      "ClassName": "DisconnectedTracker",
+      "ClassFullName": "Mirage.SocketLayer.ConnectionTrackers.DisconnectedTracker",
+      "FileID": 1207315075
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ByteBuffer.cs",
+      "OriginalGuid": "d4a3e8b3aacf45b43bf3e29826cf13ac",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "ByteBuffer",
+      "ClassFullName": "Mirage.SocketLayer.ByteBuffer",
+      "FileID": 753585117
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\ConnectionExtensions.cs",
+      "OriginalGuid": "b990607bc8357ef47afe25f2e8b21992",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "ConnectionExtensions",
+      "ClassFullName": "Mirage.SocketLayer.ConnectionExtensions",
+      "FileID": -132244186
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Peer.cs",
+      "OriginalGuid": "a734eca2ad00d0d4380cddbd69ea24bf",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Peer",
+      "ClassFullName": "Mirage.SocketLayer.Peer",
+      "FileID": 1758497346
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\Connection.cs",
+      "OriginalGuid": "537be39ecff5ca44b93caaabbf2f3df4",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Connection",
+      "ClassFullName": "Mirage.SocketLayer.Connection",
+      "FileID": 1207614431
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\ConnectionTrackers\\TimeoutTracker.cs",
+      "OriginalGuid": "f328e50f9867240489806e84a105dc20",
+      "ClassNamespace": "Mirage.SocketLayer.ConnectionTrackers",
+      "ClassName": "TimeoutTracker",
+      "ClassFullName": "Mirage.SocketLayer.ConnectionTrackers.TimeoutTracker",
+      "FileID": 214724224
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Metrics.cs",
+      "OriginalGuid": "17ca81029cb938f428493d7c2956c109",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "Metrics",
+      "ClassFullName": "Mirage.SocketLayer.Metrics",
+      "FileID": 1850582535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\RateLimitBucket.cs",
+      "OriginalGuid": "1a93592942ab66f4a9a316b3ed14a918",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "RateLimitBucket",
+      "ClassFullName": "Mirage.SocketLayer.RateLimitBucket",
+      "FileID": -1135441146
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\RingBuffer.cs",
+      "OriginalGuid": "3fdf3805984b23744bec39fd24e460df",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "RingBuffer",
+      "ClassFullName": "Mirage.SocketLayer.RingBuffer",
+      "FileID": 315892957
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SocketLayer\\Connection\\NoReliableConnection.cs",
+      "OriginalGuid": "5120696e9f4e5b84797b4301ef764da3",
+      "ClassNamespace": "Mirage.SocketLayer",
+      "ClassName": "NoReliableConnection",
+      "ClassFullName": "Mirage.SocketLayer.NoReliableConnection",
+      "FileID": 2040241865
+    }
+  ]
+}

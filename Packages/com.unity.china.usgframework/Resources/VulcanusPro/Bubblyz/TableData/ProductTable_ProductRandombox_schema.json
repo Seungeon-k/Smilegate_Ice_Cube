@@ -1,0 +1,9 @@
+{
+    "ID": "!String",
+    "ProductList": "!GroupString, !String",
+    "Name": "!String",
+    "IsIAP": "!Bool",
+    "PriceType": "!String",
+    "Price": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

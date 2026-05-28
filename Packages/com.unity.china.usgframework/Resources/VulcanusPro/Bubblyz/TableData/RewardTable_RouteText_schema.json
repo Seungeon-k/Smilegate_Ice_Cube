@@ -1,0 +1,5 @@
+{
+    "Reward_Route": "!String",
+    "Reward_Text": "!String",
+    "ID_INT_TEMP": "!Int"
+}

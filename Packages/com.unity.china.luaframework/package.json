@@ -1,0 +1,7 @@
+{
+  "name": "com.unity.china.luaframework",
+  "displayName": "LuaFramework",
+  "description": "A framework used for C# tolua",
+  "version": "0.1.1",
+  "unity": "2021.3"
+}

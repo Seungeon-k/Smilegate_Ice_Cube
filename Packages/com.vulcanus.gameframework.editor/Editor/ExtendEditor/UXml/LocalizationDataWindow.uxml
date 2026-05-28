@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Root" style="flex-grow: 1; justify-content: flex-start; background-color: rgb(83, 83, 91); padding-bottom: 6px; padding-top: 6px;">
+        <ui:VisualElement name="TopButtonGroup" style="flex-direction: row-reverse; display: flex; padding-right: 6px; padding-bottom: 6px;">
+            <ui:Button text="CSV로 익스포트" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExportBtn" style="padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; background-color: rgb(59, 59, 67); border-left-color: rgba(47, 47, 55, 0); border-right-color: rgba(47, 47, 55, 0); border-top-color: rgba(47, 47, 55, 0); border-bottom-color: rgba(47, 47, 55, 0); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; height: 24px;" />
+            <ui:Button text="CSV에서 임포트" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ImportBtn" style="padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; background-color: rgb(59, 59, 67); border-left-color: rgba(47, 47, 55, 0); border-right-color: rgba(47, 47, 55, 0); border-top-color: rgba(47, 47, 55, 0); border-bottom-color: rgba(47, 47, 55, 0); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; height: 24px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SearchView" style="height: 30px; align-self: auto; flex-direction: column-reverse; justify-content: center; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; min-height: 30px;">
+            <GlobalCustomUI.VTextSearch name="TextSearch" style="justify-content: center; height: 24px; min-height: 24px;" />
+        </ui:VisualElement>
+        <ui:ScrollView name="HeaderView" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" mode="Horizontal" style="flex-grow: 0; display: flex; background-color: rgb(56, 56, 56);" />
+        <ui:ScrollView name="BodyView" mode="VerticalAndHorizontal" style="flex-grow: 1; flex-shrink: 1; min-height: auto; background-color: rgb(56, 56, 56);" />
+        <ui:VisualElement name="ButtonGroup" style="flex-direction: row; -unity-text-align: upper-left; padding-top: 6px; padding-right: 6px; padding-bottom: 10px; padding-left: 6px;">
+            <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddRowBtn" style="flex-shrink: 0; flex-grow: 0; width: 100px; height: 30px; background-color: rgb(59, 59, 67); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

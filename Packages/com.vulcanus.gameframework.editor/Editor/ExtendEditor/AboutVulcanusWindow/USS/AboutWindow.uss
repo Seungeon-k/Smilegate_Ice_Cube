@@ -1,0 +1,3 @@
+.AboutWindow {
+    background-color: var(--surface-default);
+}

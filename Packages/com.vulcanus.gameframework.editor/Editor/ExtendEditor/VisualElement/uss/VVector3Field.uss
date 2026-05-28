@@ -1,0 +1,134 @@
+.VVector3Field {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    padding-left: 3px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.VVector3Field > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    text-overflow: ellipsis;
+    min-width: 35%;
+    margin-right: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.aspectRatio .VVector3Field > Label {
+    width: 35%;
+    text-overflow: ellipsis;
+    margin-right: 0;
+    min-width: 35%;
+    flex-shrink: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.child .VVector3Field > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.VVector3Field > Toggle {
+    display: none;
+    margin: 0;
+}
+
+.VVector3Field > Toggle > VisualElement > #unity-checkmark {
+    background-image: resource('d_Unlinked');
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+.VVector3Field > Toggle:checked > VisualElement > #unity-checkmark {
+    background-image: resource('d_Linked');
+}
+
+.aspectRatio .VVector3Field > Toggle {
+    display: flex;
+    width: 65%;
+    min-width: 65%;
+}
+
+.VVector3Field > Vector3Field {
+    width: 65%;
+    height: 18px;
+    min-width: 65%;
+}
+
+.VVector3Field > Vector3Field > VisualElement {
+    width: 100%;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-x-input > Label {
+    font-size: 12px;
+    color: var(--Vector-x-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-x-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-x-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-y-input > Label {
+    font-size: 12px;
+    color: var(--Vector-y-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-y-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-y-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-z-input > Label {
+    font-size: 12px;
+    color: var(--Vector-z-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-z-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3Field > Vector3Field > VisualElement > #unity-z-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}

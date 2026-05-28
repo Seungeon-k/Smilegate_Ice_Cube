@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VTab.uss?fileID=7433441132597879392&amp;guid=2dcf82c7115b8084e896041c6994e2c9&amp;type=3#VTab" />
+    <ui:VisualElement name="Tab" class="VTab" style="flex-grow: 1;" />
+</ui:UXML>

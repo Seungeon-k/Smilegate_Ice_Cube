@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="width: 180px; height: 130px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; background-color: rgb(99, 100, 111); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; align-items: center;">
+        <ui:VisualElement name="ImageIcon" style="width: 170px; height: 90px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;" />
+        <ui:VisualElement style="height: 4px; max-height: 4px; width: 100%;" />
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="ResetBT" style="width: 82px; height: 24px; background-color: rgb(67, 67, 72); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border-left-color: rgb(65, 65, 66); border-right-color: rgb(65, 65, 66); border-top-color: rgb(65, 65, 66); border-bottom-color: rgb(65, 65, 66); border-top-width: 0.5px; border-right-width: 0.5px; border-bottom-width: 0.5px; border-left-width: 0.5px; align-items: center; justify-content: center;">
+                <ui:Label text="Reset" display-tooltip-when-elided="true" name="ResetBtText" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 8px;" />
+            <ui:VisualElement name="OpenBT" style="width: 82px; height: 24px; background-color: rgb(67, 67, 72); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border-top-width: 0.5px; border-right-width: 0.5px; border-bottom-width: 0.5px; border-left-width: 0.5px; border-left-color: rgb(65, 65, 65); border-right-color: rgb(65, 65, 65); border-top-color: rgb(65, 65, 65); border-bottom-color: rgb(65, 65, 65); align-items: center; justify-content: center;">
+                <ui:Label text="Open" display-tooltip-when-elided="true" name="OpenBtText" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

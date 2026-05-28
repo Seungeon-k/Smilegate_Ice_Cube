@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Custom/USS/VTab.uss?fileID=7433441132597879392&amp;guid=488649932aac32749bcd63d07fb22a4c&amp;type=3#VTab" />
+    <ui:VisualElement name="Top" class="Background ToggleBackground" style="flex-grow: 1; flex-direction: row; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; padding-right: 0; padding-left: 0; padding-top: 0; padding-bottom: 0;" />
+    <ui:VisualElement name="BackgroundColor" class="dark-theme Background" />
+    <ui:VisualElement name="SelectColor" class="test Select" />
+</ui:UXML>

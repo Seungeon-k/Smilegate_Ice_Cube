@@ -1,0 +1,12 @@
+<linker>
+
+    <assembly fullname="System">
+        <type fullname="System.Net.WebHeaderCollection" preserve="all"/>
+    </assembly>
+
+    <assembly fullname="Backend.Sdk">
+        <type fullname="Backend.Gms.Models.*" preserve="all" />
+        <type fullname="Backend.Outer.Models.*" preserve="all" />
+    </assembly>
+
+</linker>

@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "name": "!String",
+    "weight": "!Int",
+    "label": "!String",
+    "fileName": "!String",
+    "ID_INT_TEMP": "!Int"
+}

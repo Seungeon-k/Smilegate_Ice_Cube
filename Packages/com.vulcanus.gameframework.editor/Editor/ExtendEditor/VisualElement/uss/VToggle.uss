@@ -1,0 +1,64 @@
+.VToggle {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.VToggle > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VToggle > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VToggle > VisualElement {
+    width: 65%;
+    min-width: 65%;
+}
+
+.VToggle > VisualElement > #unity-checkmark {
+    padding: 2px;
+    padding-left: 4px;
+}
+
+.dark-theme .VToggle > VisualElement > #unity-checkmark {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/checkbox_false_dark.png?fileID=21300000&guid=8fc959ab9ff572e4995cad5b9dad9b09&type=3#checkbox_false_dark");
+}
+
+.dark-theme .VToggle:checked > VisualElement > #unity-checkmark {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/checkbox_true_dark.png?fileID=21300000&guid=a6c65b63e54a05d449cf2cd8111368f7&type=3#checkbox_true_dark");
+}
+
+.light-theme .VToggle > VisualElement > #unity-checkmark {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/checkbox_false_dark.png?fileID=21300000&guid=8fc959ab9ff572e4995cad5b9dad9b09&type=3#checkbox_false_dark");
+}
+
+.light-theme .VToggle:checked > VisualElement > #unity-checkmark.checked {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/checkbox_true_dark.png?fileID=21300000&guid=a6c65b63e54a05d449cf2cd8111368f7&type=3#checkbox_true_dark");
+}
+
+.mixed .dark-theme .VToggle > VisualElement > #unity-checkmark {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/d_toggle_mixed_bg.png?fileID=21300000&guid=6fc901379055f7b449d455e08dedc285&type=3#d_toggle_mixed_bg");
+}
+
+.mixed .dark-theme .VToggle:checked > VisualElement > #unity-checkmark {
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/d_toggle_mixed_bg.png?fileID=21300000&guid=6fc901379055f7b449d455e08dedc285&type=3#d_toggle_mixed_bg");
+}

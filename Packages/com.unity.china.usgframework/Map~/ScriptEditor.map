@@ -1,0 +1,62 @@
+{
+  "Name": "ScriptEditor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\ScriptEditor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\ScriptDetails.cs",
+      "OriginalGuid": "bc475c2f03777d344ad6ce6fbea744fc",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "ScriptParseBase",
+      "ClassFullName": "ScriptEditor.ScriptParseBase",
+      "FileID": 144547898
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\ColorDefinition.cs",
+      "OriginalGuid": "b97a39ba2d7dfac4f8c7bca0bab61777",
+      "ClassNamespace": "ScriptEditor.Definitions",
+      "ClassName": "ColorDefinition",
+      "ClassFullName": "ScriptEditor.Definitions.ColorDefinition",
+      "FileID": 1047881847
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\TextManager.cs",
+      "OriginalGuid": "ac75c3329adfecc4d92ea123f9731846",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "TextManager",
+      "ClassFullName": "ScriptEditor.TextManager",
+      "FileID": 353314680
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\ScriptWindow.cs",
+      "OriginalGuid": "8a8b3c740011c4244826b889d4c39ba3",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "ScriptWindow",
+      "ClassFullName": "ScriptEditor.ScriptWindow",
+      "FileID": -1975805562
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\TextInspector.cs",
+      "OriginalGuid": "858fd10b9304dad4a92011411d6fb88c",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "TextInspector",
+      "ClassFullName": "ScriptEditor.TextInspector",
+      "FileID": 1462588087
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\LuaInspector.cs",
+      "OriginalGuid": "96e09a7d89e146a48aa245921dd73ae6",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "LuaInspector",
+      "ClassFullName": "ScriptEditor.LuaInspector",
+      "FileID": 1268817558
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.scripteditor.exp\\Scripts\\TextHandler.cs",
+      "OriginalGuid": "81f9851c689b1474298b14dcd36927f1",
+      "ClassNamespace": "ScriptEditor",
+      "ClassName": "TextHandler",
+      "ClassFullName": "ScriptEditor.TextHandler",
+      "FileID": -1147795317
+    }
+  ]
+}

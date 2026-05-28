@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2588865325825602310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775636735695201127}
+  - component: {fileID: 2379068352478412842}
+  m_Layer: 0
+  m_Name: Client Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &775636735695201127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588865325825602310}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1626174208001341808}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2379068352478412842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588865325825602310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 266094360, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: ab70880560f957647a209d4d785a145b, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 3896895228204548135
+    - rid: 3896895228204548136
+    - rid: 3896895228204548137
+    - rid: 3896895228204548138
+    - rid: 2611761531698282588
+  _customEvents: []
+  _LfunctionInfoContainer:
+    _functionInfos: []
+  _variableRouter:
+    Connections: []
+  _lastGuid: ab70880560f957647a209d4d785a145b
+  references:
+    version: 2
+    RefIds:
+    - rid: 393809327735439366
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Sprint
+    - rid: 393809327735439369
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Flyup
+    - rid: 2131003257281576962
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Statue
+    - rid: 2131003257281576963
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Shovel
+    - rid: 2131003682455552056
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Bomb
+    - rid: 2131003755925864467
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.TimedBomb
+    - rid: 2611761531698282588
+      type: {class: V_AudioClip, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: pickupSound
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 8300000, guid: 8ddd8684529898b4ba62e38a97456ea0, type: 3}
+    - rid: 3896895228204548135
+      type: {class: V_List, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: Slot1Items
+        IsSync: 0
+        FromScript: 0
+        _value:
+          IsSyncPacking: 0
+          _usingVariables:
+          - rid: 393809327735439366
+          _itemType: string
+        _subDataContainer:
+          IsSyncPacking: 0
+          _usingVariables: []
+    - rid: 3896895228204548136
+      type: {class: V_List, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: Slot2Items
+        IsSync: 0
+        FromScript: 0
+        _value:
+          IsSyncPacking: 0
+          _usingVariables:
+          - rid: 3896895228204548139
+          _itemType: string
+        _subDataContainer:
+          IsSyncPacking: 0
+          _usingVariables: []
+    - rid: 3896895228204548137
+      type: {class: V_List, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: Slot3Items
+        IsSync: 0
+        FromScript: 0
+        _value:
+          IsSyncPacking: 0
+          _usingVariables:
+          - rid: 3896895228204548140
+          - rid: 5316713855970705446
+          - rid: 393809327735439369
+          - rid: 2131003257281576962
+          - rid: 2131003257281576963
+          - rid: 2131003682455552056
+          - rid: 2131003755925864467
+          _itemType: string
+        _subDataContainer:
+          IsSyncPacking: 0
+          _usingVariables: []
+    - rid: 3896895228204548138
+      type: {class: V_ScriptVo, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: ActionBtns
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 0}
+        UseScriptInstance: 1
+    - rid: 3896895228204548139
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Block
+    - rid: 3896895228204548140
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Bat
+    - rid: 5316713855970705446
+      type: {class: V_String, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: 1
+        IsSync: 0
+        FromScript: 0
+        _value: Item.Giant
+--- !u!1 &6016720149126415606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626174208001341808}
+  - component: {fileID: 3290719540657274080}
+  - component: {fileID: 6582231776151452276}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626174208001341808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6016720149126415606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.521261, y: -73.11927, z: 74.676926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3477362160799281709}
+  - {fileID: 775636735695201127}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3290719540657274080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6016720149126415606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -418092222, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _tags: []
+  _layerIndex: 0
+--- !u!114 &6582231776151452276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6016720149126415606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1800309526, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gizmoIcon: {fileID: 21300000, guid: e4bc3a831636c654cada3a4fe4a7bb0c, type: 3}
+  _displayLabel: {r: 0, g: 0, b: 0, a: 1}
+  _paletteIcon: {fileID: 21300000, guid: e4bc3a831636c654cada3a4fe4a7bb0c, type: 3}
+  _description: Stores items acquired by the player in designated slots and displays
+    them on button UI
+  isGizmoDraw: 1
+--- !u!1 &6163000319803886106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3477362160799281709}
+  - component: {fileID: 8303388444384300267}
+  m_Layer: 0
+  m_Name: Server Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3477362160799281709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163000319803886106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1626174208001341808}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8303388444384300267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163000319803886106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766008277, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: 47ad4d974463a334b94de044d5a3a179, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables: []
+  _customEvents: []
+  _LfunctionInfoContainer:
+    _functionInfos: []
+  _variableRouter:
+    Connections: []
+  _lastGuid: 47ad4d974463a334b94de044d5a3a179
+  references:
+    version: 2
+    RefIds: []

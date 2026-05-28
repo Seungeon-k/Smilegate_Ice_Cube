@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Ribbon/uss/RibbonPopup.uss?fileID=7433441132597879392&amp;guid=48a9ae48a4474c1498e89fc30f0dc229&amp;type=3#RibbonPopup" />
+    <ui:VisualElement name="Container" class="RibbonPopup" />
+</ui:UXML>

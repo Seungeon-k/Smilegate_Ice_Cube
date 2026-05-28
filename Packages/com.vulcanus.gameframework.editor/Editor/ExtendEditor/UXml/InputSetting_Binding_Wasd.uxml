@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: row; width: 100%; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-left-color: rgb(67, 67, 72); border-right-color: rgb(67, 67, 72); border-top-color: rgb(67, 67, 72); border-bottom-color: rgb(67, 67, 72); align-items: center; background-color: rgb(86, 86, 96); margin-top: 2px; margin-bottom: 2px;">
+        <ui:VisualElement style="width: 95%; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+            <ui:TextField picking-mode="Ignore" label="editor.inputsetting.bindingname" value="filler text" name="Name" is-delayed="true" />
+            <ui:VisualElement>
+                <ui:Label text="Up" display-tooltip-when-elided="true" style="background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; -unity-font-style: bold;" />
+                <ui:VisualElement style="flex-direction: row; background-color: rgb(86, 86, 96); margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; display: none;">
+                    <ui:Label text="Binding Name" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="UpName" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px;">
+                    <ui:Label text="editor.inputsetting.path" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="UpKind" style="width: 50%; background-color: rgb(59, 59, 67); border-left-color: rgb(76, 76, 84); border-right-color: rgb(76, 76, 84); border-top-color: rgb(76, 76, 84); border-bottom-color: rgb(76, 76, 84); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label text="Down" display-tooltip-when-elided="true" style="background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; -unity-font-style: bold;" />
+                <ui:VisualElement name="VisualElement" style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; display: none;">
+                    <ui:Label text="Binding Name" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="DownName" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px;">
+                    <ui:Label text="editor.inputsetting.path" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="DownKind" style="width: 50%; background-color: rgb(59, 59, 67); border-left-color: rgb(76, 76, 84); border-right-color: rgb(76, 76, 84); border-top-color: rgb(76, 76, 84); border-bottom-color: rgb(76, 76, 84); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label text="Left" display-tooltip-when-elided="true" style="background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; -unity-font-style: bold;" />
+                <ui:VisualElement style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; display: none;">
+                    <ui:Label text="Binding Name" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="LeftName" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px;">
+                    <ui:Label text="editor.inputsetting.path" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="LeftKind" style="width: 50%; background-color: rgb(59, 59, 67); border-left-color: rgb(76, 76, 84); border-right-color: rgb(76, 76, 84); border-top-color: rgb(76, 76, 84); border-bottom-color: rgb(76, 76, 84); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label text="Right" display-tooltip-when-elided="true" style="background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; -unity-font-style: bold;" />
+                <ui:VisualElement style="flex-direction: row; background-color: rgb(86, 86, 96); margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; display: none;">
+                    <ui:Label text="Binding Name" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="RightName" style="width: 50%;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px;">
+                    <ui:Label text="editor.inputsetting.path" display-tooltip-when-elided="true" style="width: 50%;" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="RightKind" style="width: 50%; background-color: rgb(59, 59, 67); border-left-color: rgb(76, 76, 84); border-right-color: rgb(76, 76, 84); border-top-color: rgb(76, 76, 84); border-bottom-color: rgb(76, 76, 84); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 5%; align-items: flex-end; justify-content: center;">
+            <ui:VisualElement name="Delete" style="width: 16px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/delete.png?fileID=2800000&amp;guid=5b572d3c6466dde4ea17512d09af835b&amp;type=3#delete&quot;); height: 15px; justify-content: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

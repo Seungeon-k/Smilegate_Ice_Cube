@@ -1,0 +1,59 @@
+{
+  "name": "com.vulcanus.template.basic",
+  "displayName": "Basic",
+  "type": "template",
+  "description": "Create a new game freely on the basic stage.",
+  "version": "1.0.147",
+  "updateRequired": false,
+  "isTemplate": false,
+  "unityPackages": [],
+  "commonPackages": [
+    {
+      "name": "com.usg.common-packages",
+      "type": "common-packages",
+      "description": "Vulcanus common packages",
+      "version": "1.0.266",
+      "updateRequired": false,
+      "isTemplate": false,
+      "unityPackages": [
+        "com.alelievr.node-graph-processor",
+        "com.cysharp.unitask",
+        "com.miragenet.mirage",
+        "com.scripteditor.exp",
+        "com.unity.addressables",
+        "com.unity.china.commonframework",
+        "com.unity.china.commonframework.editor",
+        "com.unity.china.luaframework",
+        "com.unity.china.luaframework.editor",
+        "com.unity.china.usgframework",
+        "com.unity.china.usgframework.editor",
+        "com.unity.china.usgwebservices",
+        "com.unity.cinemachine",
+        "com.unity.vulcanus.renderpipeline",
+        "com.unity.vulcanus.usgdatabaseservice",
+        "com.unity.vulcanus.usgeditorproxy",
+        "com.unity.vulcanus.usgstartupsetting",
+        "com.v.common.resources",
+        "com.v.gameframework.resources",
+        "com.vulcanus.devtools",
+        "com.vulcanus.gameframework.editor",
+        "com.vulcanus.pixelcanvas",
+        "com.vulcanus.royalframework",
+        "com.vulcanus.royalframework.editor",
+        "jp.co.cyberagent.smartaddresser",
+        "moonsharp"
+      ]
+    },
+    {
+      "name": "com.vulcanus.game-packages",
+      "type": "game-packages",
+      "description": "Vulcanus game packages",
+      "version": "1.0.270",
+      "updateRequired": false,
+      "isTemplate": false,
+      "unityPackages": [
+        "com.vulcanus.gameframework"
+      ]
+    }
+  ]
+}

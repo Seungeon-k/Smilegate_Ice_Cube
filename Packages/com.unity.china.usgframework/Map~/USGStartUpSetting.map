@@ -1,0 +1,62 @@
+{
+  "Name": "USGStartUpSetting",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGStartUpSetting.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSettingZoneServerData.cs",
+      "OriginalGuid": "3debde1244c84b98b2ec098167cd8232",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSettingZoneServerData",
+      "ClassFullName": "USGStartUpSetting.StartUpSettingZoneServerData",
+      "FileID": 273790806
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSetting.cs",
+      "OriginalGuid": "ae12a70a522541643b23587e97455672",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSetting",
+      "ClassFullName": "USGStartUpSetting.StartUpSetting",
+      "FileID": 205722874
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSettingDefine.cs",
+      "OriginalGuid": "ca176d7f8701c684b8f9a19551c0e22a",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSettingDefine",
+      "ClassFullName": "USGStartUpSetting.StartUpSettingDefine",
+      "FileID": 370316042
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\SeiralizeStartUpSettingDataSO.cs",
+      "OriginalGuid": "22acd9aa2a04444baaf91d329161f67c",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "SeiralizeStartUpSettingDataSO",
+      "ClassFullName": "USGStartUpSetting.SeiralizeStartUpSettingDataSO",
+      "FileID": 2050093137
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSettingData.cs",
+      "OriginalGuid": "a644e2a1818148558a49244b41161990",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSettingData",
+      "ClassFullName": "USGStartUpSetting.StartUpSettingData",
+      "FileID": -1990602700
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSettingZoneClientData.cs",
+      "OriginalGuid": "326ced7172d84f9abdf6e6c5e6e3c385",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSettingZoneClientData",
+      "ClassFullName": "USGStartUpSetting.StartUpSettingZoneClientData",
+      "FileID": -1697855182
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Runtime\\StartUpSettingDataSO.cs",
+      "OriginalGuid": "b86aa13dd88349608220988854645a63",
+      "ClassNamespace": "USGStartUpSetting",
+      "ClassName": "StartUpSettingDataSO",
+      "ClassFullName": "USGStartUpSetting.StartUpSettingDataSO",
+      "FileID": -1872195985
+    }
+  ]
+}

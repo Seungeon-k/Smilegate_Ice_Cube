@@ -1,0 +1,92 @@
+.HeadText {
+    background-color: var(--surface-default);
+}
+
+.HeadBackground {
+    background-color: var(--surface-default);
+    height: 36px;
+    min-height: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.OptionButton {
+    width: 45px;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    background-color: var(--background-container-02);
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.RunButton {
+    border-radius: 15px;
+    width: 80px;
+    height: 22px;
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    color: var(--text-primary-default);
+    background-color: var(--secondary-default);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    -unity-font-style: bold;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-right: 0;
+    margin-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.CancelButton {
+    border-radius: 15px;
+    width: 80px;
+    height: 22px;
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    color: var(--text-primary-default);
+    background-color: var(--background-container-02);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    -unity-font-style: bold;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-right: 0;
+    margin-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.ScrollView {
+    background-color: var(--background-container-02);
+    height: 50%;
+    min-height: 50%;
+}
+
+.RunButtonBackground {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}

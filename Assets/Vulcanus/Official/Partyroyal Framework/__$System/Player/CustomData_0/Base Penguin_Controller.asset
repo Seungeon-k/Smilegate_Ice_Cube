@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2118947425, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Base Penguin_Controller
+  m_EditorClassIdentifier: 
+  _assetKey: 343c1cd241f469c4c8a67f354dcf411f
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 2100031225394626626
+    - rid: 2100031225394626627
+    - rid: 2100031225394626628
+  _controller: {fileID: 5394475876036158141, guid: 7bb3ac79afdd9f645b44dc6588253dd4, type: 3}
+  _effectData:
+    Effects:
+    - {fileID: 11400000, guid: a3c5a805261aa0049ab192ca3486b82e, type: 2}
+    - {fileID: 11400000, guid: efb7cc7d11988d24585c54479726bae9, type: 2}
+    - {fileID: 11400000, guid: ee2d83c8ec2322f4ab317ba541599abd, type: 2}
+    - {fileID: 11400000, guid: 01352a3c8e62c0a46bacaeda0e802e0b, type: 2}
+    - {fileID: 11400000, guid: 955a4e120325f8245b6695ec8f31e347, type: 2}
+    - {fileID: 11400000, guid: 232eedac3e87d284497d79fbd4ed9e3a, type: 2}
+    - {fileID: 11400000, guid: b59f5879951d1de429b3ec6fad3898b5, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2100031225394626626
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 1
+        ValueKey: moveSpeed
+        IsSync: 1
+        FromScript: 0
+        _value: 2.3
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2100031225394626627
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 1
+        ValueKey: maxSpeed
+        IsSync: 1
+        FromScript: 0
+        _value: 3.4
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2100031225394626628
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 1
+        ValueKey: charRotateTime
+        IsSync: 1
+        FromScript: 0
+        _value: 0.03
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0

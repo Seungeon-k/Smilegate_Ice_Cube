@@ -1,0 +1,42 @@
+.VDropdownField {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.VDropdownField > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+}
+
+.child .VDropdownField > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VDropdownField > VisualElement {
+    width: 65%;
+    height: 18px;
+    background-color: var(--original-background-button);
+    border-color: var(--background-container-01);
+    border-radius: 2px;
+    border-width: 1px;
+    min-width: 65%;
+}
+
+.VDropdownField > VisualElement > .unity-base-popup-field__text {
+}
+
+.VDropdownField > VisualElement > VisualElement {
+}

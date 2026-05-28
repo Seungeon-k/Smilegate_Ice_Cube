@@ -1,0 +1,11 @@
+{
+  "name": "com.scripteditor.exp",
+  "version": "0.0.99",
+  "unity": "2020.3",
+  "unityRelease": "15f2",
+  "displayName": "ScriptEditor",
+  "author": {
+    "name": "ScriptEditor",
+    "url": ""
+  }
+}

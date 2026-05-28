@@ -1,0 +1,21 @@
+Label {
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+.PropertyBox{
+    flex-direction: row;
+}
+.InputField{
+    margin-left: 10px;
+    width: 100px;
+}
+.EnumField{
+    flex-direction:column;
+}
+HelpBox{
+    display: none;
+}
+.WarningLabel{
+    font-size: 10px;
+    -unity-font-style: normal;
+}

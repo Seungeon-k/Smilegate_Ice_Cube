@@ -1,0 +1,414 @@
+{
+  "Name": "CommonFramework.Runtime",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\CommonFramework.Runtime.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Serialization\\SerializeStack.cs",
+      "OriginalGuid": "2ecfeb2d46c51e44eb5a7ba01196bdb6",
+      "ClassNamespace": "CommonFramework.Runtime.Serialization",
+      "ClassName": "SerializeStack",
+      "ClassFullName": "CommonFramework.Runtime.Serialization.SerializeStack",
+      "FileID": 1932344535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Service\\RemoteContentCache.cs",
+      "OriginalGuid": "341bcd9f60534594ca7a0c843d66e3e0",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "ContentCacheService",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.ContentCacheService",
+      "FileID": -105594391
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\AddressablesInfo.cs",
+      "OriginalGuid": "01aff0bb1b3d4e46930e7ea43677c338",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "AddressablesInfo",
+      "ClassFullName": "CommonFramework.Runtime.AddressablesInfo",
+      "FileID": -39701780
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\SimpleCRC32.cs",
+      "OriginalGuid": "bebdc63f5210436dbb1d33e867d63fc9",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "SimpleCRC32",
+      "ClassFullName": "CommonFramework.Runtime.SimpleCRC32",
+      "FileID": -785516435
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Communicator.cs",
+      "OriginalGuid": "f3050dd1fae299949a3d590ef7e75925",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "Communicator",
+      "ClassFullName": "CommonFramework.Runtime.Communicator",
+      "FileID": -158735835
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\VResources\\VUGCFileFetcher.cs",
+      "OriginalGuid": "6bd097baaabb47eaa5d84995f9ffc9f2",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "VUGCFileFetcher",
+      "ClassFullName": "CommonFramework.Runtime.VUGCFileFetcher",
+      "FileID": 2104705910
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Utils\\HashUtil.cs",
+      "OriginalGuid": "f8fd343c4a1647b1b57789b2dd94007e",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "HashUtil",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.HashUtil",
+      "FileID": -2008123742
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\AddressablesBundleInfo.cs",
+      "OriginalGuid": "5f278ed09e0346a198f8cb6597b6ca0c",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "AddressablesBundleInfo",
+      "ClassFullName": "CommonFramework.Runtime.AddressablesBundleInfo",
+      "FileID": -2134573883
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\MonoHandler.cs",
+      "OriginalGuid": "06f15d362797418db29c09796dc5650c",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "MonoHandler",
+      "ClassFullName": "CommonFramework.Runtime.MonoHandler",
+      "FileID": -909468655
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\MonoSingleton.cs",
+      "OriginalGuid": "1997702e498780c44aa40d21e4827706",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "MonoSingleton",
+      "ClassFullName": "CommonFramework.Runtime.MonoSingleton",
+      "FileID": -1642609671
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\BaseClass\\UIType.cs",
+      "OriginalGuid": "84ddb80c1996ae3489b3ae35b84f54e1",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "UIType",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.UIType",
+      "FileID": -1315141300
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Extensions\\DictionaryExtension.cs",
+      "OriginalGuid": "09ffc89557aed9e48aa013bee33a305e",
+      "ClassNamespace": "CommonFramework.Runtime.Extensions",
+      "ClassName": "DictionaryExtension",
+      "ClassFullName": "CommonFramework.Runtime.Extensions.DictionaryExtension",
+      "FileID": -1893412671
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Config.cs",
+      "OriginalGuid": "cbc296c228e808240b8aa978f9335e65",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "Config",
+      "ClassFullName": "CommonFramework.Runtime.Config",
+      "FileID": 1835258350
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineParser.cs",
+      "OriginalGuid": "12cc9dcafac3e1f488acd95038b53c32",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling",
+      "ClassName": "CommandLineParser",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineParser",
+      "FileID": -1407984537
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Models\\CacheRecord.cs",
+      "OriginalGuid": "932e82436a7f4968bc66011d59ba54bc",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "CacheRecord",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.CacheRecord",
+      "FileID": 336820746
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Models\\ManifestEntry.cs",
+      "OriginalGuid": "3377c04870a64285a1d4e527e445bc6f",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "ManifestEntry",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.ManifestEntry",
+      "FileID": -33259392
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\BitmaskActionMachine\\BitmaskActionMachine.cs",
+      "OriginalGuid": "1502dc8805d32e245b7eeafe2cbf9981",
+      "ClassNamespace": "CommonFramework.Runtime.BitmaskActions",
+      "ClassName": "BitmaskActionMachine",
+      "ClassFullName": "CommonFramework.Runtime.BitmaskActions.BitmaskActionMachine",
+      "FileID": -1051611760
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Utils\\GameObjectUtil.cs",
+      "OriginalGuid": "e992a16fbea2a6044bd364748fa2dd86",
+      "ClassNamespace": "CommonFramework.Runtime.Utils",
+      "ClassName": "GameObjectUtil",
+      "ClassFullName": "CommonFramework.Runtime.Utils.GameObjectUtil",
+      "FileID": -1161953713
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Serialization\\SerializeDictionary.cs",
+      "OriginalGuid": "331fa1593b27cc84db8269e55833fe7f",
+      "ClassNamespace": "CommonFramework.Runtime.Serialization",
+      "ClassName": "SerializeDictionary",
+      "ClassFullName": "CommonFramework.Runtime.Serialization.SerializeDictionary",
+      "FileID": 926504757
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Global\\Defines\\VPackage.cs",
+      "OriginalGuid": "16c4479c849d02c47975d21f80f77f41",
+      "ClassNamespace": "CommonFramework.Runtime.Global.Defines",
+      "ClassName": "VPackage",
+      "ClassFullName": "CommonFramework.Runtime.Global.Defines.VPackage",
+      "FileID": -1285559155
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineOptions\\BaseClass\\CommandLineNoValueOptionBase.cs",
+      "OriginalGuid": "a9f0edf02377d244aae3330a4d9b3e4a",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions",
+      "ClassName": "CommandLineNoValueOptionBase",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions.CommandLineNoValueOptionBase",
+      "FileID": -744947193
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\BaseClass\\BaseView.cs",
+      "OriginalGuid": "b9a90c49a863ded47963f5671f69e030",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "BaseView",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.BaseView",
+      "FileID": -503436494
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\CacheIndex\\CacheIndex.cs",
+      "OriginalGuid": "843dc6aa1fba47a097b203046f097e04",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "CacheIndex",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.CacheIndex",
+      "FileID": -1542595674
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineHandler.cs",
+      "OriginalGuid": "21afa4dc07a096a4bb334f050db1d275",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling",
+      "ClassName": "CommandLineHandler",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineHandler",
+      "FileID": -867716746
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\BaseClass\\StaticView.cs",
+      "OriginalGuid": "563f8c46faf63854dafe30f70b640ff1",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "StaticView",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.StaticView",
+      "FileID": 2051827628
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\VResources\\VUGCFileFetcher.ICleanup\\VUGCFileFetcherVCleanup.cs",
+      "OriginalGuid": "321d17977ed44d7bb84aeaebb0fc3ebd",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "VUGCFileFetcherVCleanup",
+      "ClassFullName": "CommonFramework.Runtime.VUGCFileFetcherVCleanup",
+      "FileID": -862983724
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\ViewContextManager.cs",
+      "OriginalGuid": "1afcad228639502479338cada35670ad",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "ViewContextManager",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.ViewContextManager",
+      "FileID": 1989338220
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommunicatorManager.cs",
+      "OriginalGuid": "46157333b6a81fd41a0998e41199c980",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "CommunicatorManager",
+      "ClassFullName": "CommonFramework.Runtime.CommunicatorManager",
+      "FileID": -1007483049
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Utils\\TimeUtil.cs",
+      "OriginalGuid": "0d03647b7b234038aa988cdb65695850",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "TimeUtil",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.TimeUtil",
+      "FileID": -1013443675
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\BitmaskActionMachine\\BitmaskAction.cs",
+      "OriginalGuid": "b56c9c0f528c06c4f9006e4bcf5f4d0c",
+      "ClassNamespace": "CommonFramework.Runtime.BitmaskActions",
+      "ClassName": "BitmaskAction",
+      "ClassFullName": "CommonFramework.Runtime.BitmaskActions.BitmaskAction",
+      "FileID": -888907811
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\BaseClass\\BaseViewContext.cs",
+      "OriginalGuid": "aaaa469d5a3872248968bba6525ea7c7",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "BaseViewContext",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.BaseViewContext",
+      "FileID": 1443865322
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\IniParser.cs",
+      "OriginalGuid": "f41f36de72f88974ebb1d7ea92116de8",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "IniParser",
+      "ClassFullName": "CommonFramework.Runtime.IniParser",
+      "FileID": -548243207
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineOptions\\BaseClass\\CommandLineStringValueBase.cs",
+      "OriginalGuid": "720243804550bdc45a7aa94304ca557e",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions",
+      "ClassName": "CommandLineStringValueBase",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions.CommandLineStringValueBase",
+      "FileID": -386132625
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Singleton.cs",
+      "OriginalGuid": "c2b9563a7186ec54da322c8320b83aa4",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "Singleton",
+      "ClassFullName": "CommonFramework.Runtime.Singleton",
+      "FileID": 1210769769
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Models\\Manifest.cs",
+      "OriginalGuid": "0650096cd4c641b1ac8c2c880eb05f3c",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "Manifest",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.Manifest",
+      "FileID": 1913373084
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\PathUtility.cs",
+      "OriginalGuid": "dc400e3b882b4ad1af267c6b5ed8aafc",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "PathUtility",
+      "ClassFullName": "CommonFramework.Runtime.PathUtility",
+      "FileID": -1291889738
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\AddressablesUtility.cs",
+      "OriginalGuid": "1239f3c0f7e94ebca5315dcff19ce349",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "AddressablesUtility",
+      "ClassFullName": "CommonFramework.Runtime.AddressablesUtility",
+      "FileID": -320168430
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Extensions\\ObjectExtension.cs",
+      "OriginalGuid": "0799bc31bc214cfd87a18ed12c92183e",
+      "ClassNamespace": "CommonFramework.Runtime.Extensions",
+      "ClassName": "ComponentExtension",
+      "ClassFullName": "CommonFramework.Runtime.Extensions.ComponentExtension",
+      "FileID": 971330159
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineOptions\\BaseClass\\CommandLineOptionBase.cs",
+      "OriginalGuid": "21dcc6bb3cf590e49bc8eeb43b333415",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions",
+      "ClassName": "CommandLineOptionBase",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineOptions.CommandLineOptionBase",
+      "FileID": 75848359
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CommandLineHandling\\CommandLineOption.cs",
+      "OriginalGuid": "dbec31642eda5c34aae0b2cbc4c6b04c",
+      "ClassNamespace": "CommonFramework.Runtime.CommandLineHandling",
+      "ClassName": "CommandLineOption",
+      "ClassFullName": "CommonFramework.Runtime.CommandLineHandling.CommandLineOption",
+      "FileID": -863238891
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\VResources\\VUGCFileFetcher.ICleanup\\VUGCFileFetcherUserCleanup.cs",
+      "OriginalGuid": "e64b5a852f194c69989b9b1c16b6a9e7",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "VUGCFileFetcherUserCleanup",
+      "ClassFullName": "CommonFramework.Runtime.VUGCFileFetcherUserCleanup",
+      "FileID": -1044334147
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Addressables\\AddressablesConstants.cs",
+      "OriginalGuid": "bbcd1fc923eb406c94fdbb7343e3e2b5",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "AddressablesConstants",
+      "ClassFullName": "CommonFramework.Runtime.AddressablesConstants",
+      "FileID": 701296632
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\CacheExample.cs",
+      "OriginalGuid": "aab88a6d9d0016944b12b70fd2182970",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "CacheExample",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.CacheExample",
+      "FileID": 1196825764
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\Utils\\JsonHelper.cs",
+      "OriginalGuid": "544417d05cf34c54496b82fcbea879a4",
+      "ClassNamespace": "CommonFramework.Runtime.Utils",
+      "ClassName": "JsonHelper",
+      "ClassFullName": "CommonFramework.Runtime.Utils.JsonHelper",
+      "FileID": -847350277
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\ThreadManager.cs",
+      "OriginalGuid": "5bbf9acf02a58cf41817a4fb8fc62b7a",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "ThreadManager",
+      "ClassFullName": "CommonFramework.Runtime.ThreadManager",
+      "FileID": -224647387
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\VResources\\VResourcesLoaderTest.cs",
+      "OriginalGuid": "698cb044bb4959e4e9afe3de50794e93",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "VResourcesLoaderTest",
+      "ClassFullName": "CommonFramework.Runtime.VResourcesLoaderTest",
+      "FileID": -1626827971
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\StateMachine\\StateMachine.cs",
+      "OriginalGuid": "e7bc84a48d557a945aaaaee691b19eb4",
+      "ClassNamespace": "CommonFramework.Runtime.FiniteStateMachine",
+      "ClassName": "StateMachine",
+      "ClassFullName": "CommonFramework.Runtime.FiniteStateMachine.StateMachine",
+      "FileID": 2034748599
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\UISystems\\UIManager.cs",
+      "OriginalGuid": "62561831538b3e14e9bc24dfbfd0eb9f",
+      "ClassNamespace": "CommonFramework.Runtime.UISystems",
+      "ClassName": "UIManager",
+      "ClassFullName": "CommonFramework.Runtime.UISystems.UIManager",
+      "FileID": 677002222
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\CoroutineManager.cs",
+      "OriginalGuid": "84a85642b70cfd043b192a213c688db7",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "CoroutineManager",
+      "ClassFullName": "CommonFramework.Runtime.CoroutineManager",
+      "FileID": -246842705
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\RemoteContentCache\\Models\\CacheIndexData.cs",
+      "OriginalGuid": "bf3cc9e6e5e247018dba9b7a35141e68",
+      "ClassNamespace": "CommonFramework.Runtime.RemoteContentCache",
+      "ClassName": "CacheIndexData",
+      "ClassFullName": "CommonFramework.Runtime.RemoteContentCache.CacheIndexData",
+      "FileID": 460801948
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.commonframework\\Scripts\\Runtime\\VResources\\VResources.cs",
+      "OriginalGuid": "caaebe15a4b0441d8c6fea9f7f7a62ef",
+      "ClassNamespace": "CommonFramework.Runtime",
+      "ClassName": "VResources",
+      "ClassFullName": "CommonFramework.Runtime.VResources",
+      "FileID": -1128720608
+    }
+  ]
+}

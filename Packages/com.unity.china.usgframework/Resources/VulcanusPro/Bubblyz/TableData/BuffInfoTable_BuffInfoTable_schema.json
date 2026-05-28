@@ -1,0 +1,18 @@
+{
+    "ID_temp": "!String",
+    "ID": "!String",
+    "Type": "EBuffType",
+    "EffectInfos": "!GroupString, EffectInfoID",
+    "GroupID": "!String",
+    "LifeTime": "!Float",
+    "StartPrefabs": "!GroupString, !String",
+    "EndPrefabs": "!GroupString, !String",
+    "AnimName": "!String",
+    "IntervalDuration": "!Float",
+    "IntervalStartTime": "!Int",
+    "IntervalTime": "!Int",
+    "IntervalEffectInfos": "!GroupString, EffectInfoID",
+    "AttachSkinItem": "!String",
+    "StopWhenTeleport": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

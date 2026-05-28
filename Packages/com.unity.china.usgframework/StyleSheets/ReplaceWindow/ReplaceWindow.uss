@@ -1,0 +1,198 @@
+
+.BlackLabel{
+    color: black;
+}
+
+.Title{
+    font-size: 15px;
+    color: black;
+}
+#OptionImage{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("../WorldEditorUI/Icons/ReplaceType.png");
+    
+}
+
+.ReplaceBox{
+    background-color: #ffffff;
+    margin-top: 6px;
+}
+.PresentInput{
+    flex-direction: row;
+}
+.my-integer-field #unity-text-input{
+    color: #0508f2;
+    background-color: white;
+}
+IntegerField{
+    width: 60px;
+}
+#Apply{
+    width: 80px;
+    margin-left:180px;
+}
+.BlockAssetBox{
+    background-color: #c0c0c0;
+    border-width: 1px;
+    flex-grow:1;
+    border-color: grey;
+    max-height: 233px;
+}
+.PercentLabel{
+    color: black;
+}
+.ReplaceButton{
+    background-color: white;
+    color: black;
+    border-width: 1.2px;
+}
+#Sum{
+    color: #0064ff;
+    margin-left:  50px;
+}
+#RemainBlock{
+    color: #0064ff;
+    margin-left:  50px;
+}
+.H2{
+    font-size: 12px;
+    color: black;
+}
+.TypeLabel{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+}
+.NumLabel{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    color: white;
+}
+.ButtonImage{
+    width: 55px;
+    height: 55px;
+    flex-grow: 1;
+}
+#BlockSelectBox{
+    background-color: rgba(54, 54, 54, 0.8);
+   flex-grow:6;
+    height: 136px;
+    width: 200px;
+
+}
+#BlockSelect
+{
+    flex-direction: row;
+}
+#OptionBox{
+    background-color: #c0c0c0;
+    flex-grow:1.95;
+    flex-direction: column;
+    border-color: grey;
+    max-width: 207px;
+    
+}
+
+
+#ReplaceBox{
+    background-color: #ffffff;
+    min-height:330px;
+    flex-direction: row;
+    border-color: grey;
+}
+#InfoBox{
+    background-color: #ffffff;
+    min-height: 25px;
+    border-color: grey;
+    
+
+}
+#BlockAssetBox{
+    background-color: #ececec;
+    border-color: grey;
+    flex-direction: column;
+}
+.AssetButton{
+    width: 60px;
+    height: 60px;
+    margin-left: 0px;
+    background-color: #c0c0c0;
+    border-width: 0px;
+}
+.SelectButton{
+    width: 65px;
+    height: 65px;
+    margin-left:0px;
+    background-color: rgba(54, 54, 54, 0.8);
+    border-width: 0px;
+}
+.EmptyBlockBackGround
+{
+    background-color: #313131;
+}
+.EmptyButton
+{
+    width: 65px;
+    height: 65px;
+    margin-left:0px;
+    background-color: rgba(54, 54, 54, 0.8);
+    border-width: 0px;
+}
+.ReplaceImage{
+    background-image: url("../WorldEditorUI/Icons/AddBox.png");
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+}
+.EmptyImage
+{
+    background-color: #333333;
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+}
+.ReplaceLabel{
+    color: black;
+    flex-wrap:wrap;
+    width: 80px;
+    margin-left: 20px;
+}
+.ReplaceBox{
+    flex-direction: column; 
+    align-items: center;
+}
+.BlockView{
+    height: 42px;
+    width: 180px;
+    flex-direction: row;
+    margin-left: -5px;
+    align-items: center;
+}
+.InfoList{
+    flex-direction: column;
+    margin-left: 6px;
+}
+Box{
+    background-color:#878787;
+}
+.SelectBlockName{
+    font-size: 10px;
+    color: white;
+}
+.EmptyBlock{
+    font-size: 10px;
+    color: white;
+}
+.AssetBlockName{
+    font-size: 10px;
+    color: black;
+}
+.BlockLine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}

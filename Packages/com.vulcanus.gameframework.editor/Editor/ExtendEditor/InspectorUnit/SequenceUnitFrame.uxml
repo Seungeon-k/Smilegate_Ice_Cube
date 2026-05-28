@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorVE/StyleSheets/TestInspect.uss?fileID=7433441132597879392&amp;guid=83c3e8c22422bc14ba8a1756396d9f9e&amp;type=3#TestInspect" />
+    <ui:VisualElement name="Root" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: flex-start; margin-top: 4px; margin-bottom: 4px;">
+        <ui:VisualElement name="Head" style="background-color: rgb(29, 29, 29); -unity-text-align: middle-left; flex-direction: row; align-items: center;">
+            <ui:VisualElement name="SnapVE" style="height: 20px; width: 20px; flex-shrink: 0; flex-direction: row;" />
+            <ui:VisualElement name="DisableBtnVE" style="background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center;">
+                <ui:Toggle name="DisableToggle" value="true" style="height: auto; margin-top: 0; margin-right: 4px; margin-bottom: 0; margin-left: 4px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="IconVE" style="cursor: initial; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorVE/StyleSheets/Icon/Icon_Send_36.png?fileID=2800000&amp;guid=388ab4f263851014a8a87371af250160&amp;type=3#Icon_Send_36&quot;); height: 14px; width: 14px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;" />
+            <ui:VisualElement name="HeadTitle" style="height: auto; flex-direction: row; flex-grow: 1;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="EventName" />
+            </ui:VisualElement>
+            <ui:Button text=":" display-tooltip-when-elided="true" name="ContextBtn" style="background-color: rgba(0, 0, 0, 0); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; width: 20px; height: 20px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="height: auto; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px;" />
+    </ui:VisualElement>
+</ui:UXML>

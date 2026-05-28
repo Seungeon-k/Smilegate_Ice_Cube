@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="height: 20px; max-height: 20px; min-height: 20px; flex-direction: row; align-items: center; flex-grow: 0;">
+        <ui:Label text="0" display-tooltip-when-elided="true" name="index" style="width: 20px; -unity-text-align: upper-center; color: rgb(0, 0, 0);" />
+        <ui:Label text=":" display-tooltip-when-elided="true" style="color: rgb(0, 0, 0);" />
+        <ui:Label text="Default" display-tooltip-when-elided="true" name="LayerName" style="flex-grow: 1; color: rgb(0, 0, 0);" />
+        <ui:VisualElement name="Look" style="height: 20px; max-height: 20px; min-height: 20px; min-width: 20px; max-width: 20px; width: 20px; display: none;" />
+        <ui:VisualElement name="Click" style="height: 20px; max-height: 20px; min-height: 20px; min-width: 20px; max-width: 20px; width: 20px; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

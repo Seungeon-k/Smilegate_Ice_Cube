@@ -1,0 +1,121 @@
+using System;
+using System.IO;
+using CommonFramework.Runtime;
+using GameFramework.Runtime.World;
+using LuaFramework.Runtime.Core;
+using MoonSharp.Interpreter;
+using USGFramework.Runtime.Core.Global;
+using USGFramework.Runtime.Core.USGManager;
+
+namespace GameFramework.Runtime.Framework
+{
+    [System.Reflection.Obfuscation(Exclude = true)]
+    public static class LuaInstanceCreator
+    {
+        [System.Reflection.Obfuscation(Exclude = true)]
+        public static string ScriptHeader() => $"function CreateLuaInstance(tableId); ";
+        
+        [System.Reflection.Obfuscation(Exclude = true)]
+        public static string ScriptFooter => $"\n_G[tableId] = this\n" +
+                                              $"return this\n" +
+                                              $"end\n";
+
+        public static DynValue CreateLuaInstanceEditor(Script interpreter, ScriptObjectVo scriptVo)
+        {
+            var luaScript = scriptVo.luaScript;
+            
+            interpreter.DoString($"{ScriptHeader()} {luaScript.Text} {ScriptFooter}");
+            
+            DynValue getFunction = interpreter.Globals.Get("CreateLuaInstance");
+            if (getFunction != null && getFunction.Type == DataType.Function)
+            {
+                var requireFn = interpreter.Globals.Get("require");
+                DynValue exVariable = interpreter.Call(requireFn, DynValue.NewString("expose_variable")).ToScalar();
+                DynValue exFunction = interpreter.Call(requireFn, DynValue.NewString("expose_function")).ToScalar();
+                DynValue mtCreator =
+                    interpreter.Call(requireFn, DynValue.NewString("create_metatables")).ToScalar();
+                DynValue instances = interpreter.Call(requireFn, DynValue.NewString("lua_instance")).ToScalar();
+
+                interpreter.Globals.Set("__EX_VARIABLE__", exVariable);
+                
+                interpreter.Globals.Set("_VOBJECT_", exVariable.Table.Get("vobject"));
+                interpreter.Globals.Set("_VCOMPONENT_", exVariable.Table.Get("component"));
+                interpreter.Globals.Set("_VASSET_", exVariable.Table.Get("asset"));
+                
+                interpreter.Globals.Set("__EX_FUNCTION__", exFunction);
+                interpreter.Globals.Set("__CREATOR__", mtCreator);
+                interpreter.Globals.Set("__INSTANCES__", instances);
+
+                var instanceName = LuaTableNameMaker.MakeTableName(scriptVo.gameObject.name);
+                return interpreter.Call(getFunction, instanceName);
+            }
+
+            return DynValue.Nil;
+        }
+
+        public static string MakeTableKey(ScriptObjectVo scriptVo)
+        {
+            uint makeObjectKey(VObjectBase vo) =>
+                (scriptVo.SyncKey > 0) ? vo.SyncKey : (uint)vo.GetInstanceID();
+            
+            string objectName = LuaTableNameMaker.MakeTableName(scriptVo.gameObject.name);
+            string tableKey = $"{objectName}_{makeObjectKey(scriptVo)}";
+
+            return tableKey;
+        }
+        
+        public static LuaTable CreateLuaInstance(ScriptObjectVo scriptVo, LuaManager luaManager, string tableKey)
+        {
+            
+#if UNITY_EDITOR
+            if (USGApplication.PlayModeScript == VResources.PlayModeScript.UseAssetDatabase)
+            {
+                var luaPath = UnityEditor.AssetDatabase.GetAssetPath(scriptVo.luaScript);
+                var dir = Path.GetDirectoryName(Path.GetFullPath(luaPath));
+                if (!string.IsNullOrEmpty(dir))
+                {
+<<<<<<< HEAD
+                    dir = dir.Replace('\\', '/');
+                    luaManager.AddLuaScriptPath(dir);
+                }
+=======
+                    // 경로 구분자 통일
+                    dir = dir.Replace('\\', '/');
+                    luaManager.AddLuaScriptPath(dir);
+                }    
+>>>>>>> october-external-test
+            }
+#endif
+            var ext = ".lua";
+            string scriptName = scriptVo.luaScript.name;
+            
+            if (scriptVo.luaScript.IsLuaByteCode())
+            {
+                luaManager.DoFile($"{scriptName}{ext}");
+            }
+            else
+            {
+                try
+                {
+                    luaManager.DoFile($"{scriptName}{ext}", ScriptHeader(), ScriptFooter);    
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }  
+                    
+            }
+
+            using var getTable = luaManager.GetFunction($"CreateLuaInstance");
+            return getTable.Invoke<string, LuaTable>(tableKey);
+        }
+        
+        public static LuaTable CreateLuaInstance(ScriptObjectVo scriptVo, LuaManager luaManager)
+        {
+            string tableKey = MakeTableKey(scriptVo);
+
+            return CreateLuaInstance(scriptVo, luaManager, tableKey);
+        }
+    }
+}

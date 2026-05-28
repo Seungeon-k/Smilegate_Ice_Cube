@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5451440093672058356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5581934241027045971}
+  - component: {fileID: 6658933089056789673}
+  - component: {fileID: 5983170765591013555}
+  m_Layer: 0
+  m_Name: BuffSprint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5581934241027045971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451440093672058356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0757687, y: 0.21627486, z: -5.0301433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7963199756518314201}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6658933089056789673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451440093672058356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -463033835, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _buffId: Buff.Sprint
+  _buffGroupId: Buff.Acton.Speed
+  _buffName: Sprint Buff
+  _buffDescription: Temporarily enlarges the character when activated.
+  _duplicatePolicy: 0
+  _priority: 1
+  _persistPolicy: 1
+  OnBeforeAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFreezed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResumed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5983170765591013555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451440093672058356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1800309526, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gizmoIcon: {fileID: 21300000, guid: a8111deb4e5d57c44b010aa0a8a88c60, type: 3}
+  _displayLabel: {r: 0, g: 0, b: 0, a: 1}
+  _paletteIcon: {fileID: 21300000, guid: a8111deb4e5d57c44b010aa0a8a88c60, type: 3}
+  _description: "Increase the target\u2019s movement speed."
+  isGizmoDraw: 1
+--- !u!1 &6470979211866628870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7963199756518314201}
+  - component: {fileID: 8066568390444469405}
+  m_Layer: 0
+  m_Name: ServerScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7963199756518314201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470979211866628870}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5581934241027045971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8066568390444469405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470979211866628870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766008277, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: bcd76ff5152c0c14883f6d51f229fa6f, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 2348312197885329427
+    - rid: 2348312197885329428
+    - rid: 2348312197885329436
+    - rid: 2348312197885329440
+    - rid: 2348312197885329430
+  _customEvents: []
+  _LfunctionInfoContainer:
+    _functionInfos: []
+  _lastGuid: bcd76ff5152c0c14883f6d51f229fa6f
+  references:
+    version: 2
+    RefIds:
+    - rid: 2348312197885329427
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: LifeTime
+        IsSync: 0
+        FromScript: 0
+        _value: 2
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2348312197885329428
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: AdditionalSpeed
+        IsSync: 0
+        FromScript: 0
+        _value: 10
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2348312197885329430
+      type: {class: V_AudioClip, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: BuffSound
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 8300000, guid: b5f75189bcca4fe4bb798f9bc5708b26, type: 3}
+    - rid: 2348312197885329436
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: HeadbuttingForceScale
+        IsSync: 0
+        FromScript: 0
+        _value: 2.5
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 2348312197885329440
+      type: {class: V_GameObjectVo, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: ActionBuff
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 2774416710254091121, guid: 3184f47010aebfd4fa2c37bbb1f84a1a, type: 3}

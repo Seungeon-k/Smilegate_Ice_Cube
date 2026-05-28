@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/PackagePacking/USS/PackingWindow.uss?fileID=7433441132597879392&amp;guid=5c1f903813049a44fb32a9f2346060ee&amp;type=3#PackingWindow" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgb(83, 83, 91); height: 100%; min-height: 100%;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeadText" class="HeadText" style="height: 50px; -unity-text-align: middle-left; min-height: 50px; padding-top: 18px; padding-bottom: 18px; -unity-font-style: bold;" />
+        <ui:VisualElement name="Head" class="HeadBackground" style="flex-direction: row;">
+            <ui:Button text="All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="All" class="OptionButton" style="margin-left: 6px;" />
+            <ui:Button text="None" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Noen" class="OptionButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 100%;">
+            <ui:ScrollView name="Custom" class="ScrollView" style="visibility: visible; overflow: visible; min-height: 10%;" />
+            <ui:VisualElement name="bar" style="height: 3px; min-height: 3px;" />
+            <ui:ScrollView name="Official" class="ScrollView" style="min-height: 10%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" class="RunButtonBackground" style="flex-direction: row; justify-content: flex-end; min-height: 35px;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Version" style="font-size: 12px; color: rgb(255, 255, 255); -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+            <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CancelBT" class="CancelButton" />
+            <ui:Button text="Run" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RunBT" class="RunButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+{
+    "ID": "!String",
+    "ProductTableName": "!String",
+    "UseMail": "!Bool",
+    "MetaExport": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,9 @@
+.VFoldout {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.VFoldout > Toggle {
+    font-size: 12px;
+    margin-top: 4px;
+}

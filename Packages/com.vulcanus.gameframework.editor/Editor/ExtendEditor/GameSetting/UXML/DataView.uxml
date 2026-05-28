@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/CustomDark.uss?fileID=7433441132597879392&amp;guid=7cb21c68881a46e4eb07a92ffbdab306&amp;type=3#CustomDark" />
+    <ui:VisualElement name="Top">
+        <ui:Foldout text="Starcraft Data" name="StarcraftData" class="SettingsCategoryBackground OnSettingsCategoryText" style="width: auto; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; height: 50px;">
+            <ui:VisualElement name="Layout" style="flex-direction: row; margin-left: 15px;">
+                <ui:VisualElement name="Left" style="width: 30%;">
+                    <ui:Label text="Name" display-tooltip-when-elided="true" name="StarCraftingName" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 70%;">
+                    <ui:TextField picking-mode="Ignore" name="StarCraftingName" style="margin-right: 15px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Foldout text="Starcraft Item Setting" name="StarCraftingItemSetting" class="SettingsCategoryBackground OnSettingsCategoryText" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
+            <ui:VisualElement />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

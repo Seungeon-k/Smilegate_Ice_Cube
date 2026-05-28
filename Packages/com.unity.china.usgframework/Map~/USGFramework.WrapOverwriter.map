@@ -1,0 +1,110 @@
+{
+  "Name": "USGFramework.WrapOverwriter",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGFramework.WrapOverwriter.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_RendererWrap_Overwrite.cs",
+      "OriginalGuid": "fd3c45b4a44c7ff49b7ebc2ad6958b96",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_RendererWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_RendererWrap_Overwrite",
+      "FileID": -554106297
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_ObjectWrap_Overwrite.cs",
+      "OriginalGuid": "098731b0f336f9e4a99485156f495a9c",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_ObjectWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_ObjectWrap_Overwrite",
+      "FileID": -551110098
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\USGFramework_Runtime_USGVoxelTerrain_ServiceFunctions_TerrainServiceUtilityWrap_Overwrite.cs",
+      "OriginalGuid": "09cfd056c894e3b479aea9c445f8a258",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "USGFramework_Runtime_USGVoxelTerrain_ServiceFunctions_TerrainServiceUtilityWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.USGFramework_Runtime_USGVoxelTerrain_ServiceFunctions_TerrainServiceUtilityWrap_Overwrite",
+      "FileID": 122103925
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_TimeWrap_Overwrite.cs",
+      "OriginalGuid": "a244d6d9f46b28540a33677b4316df08",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_TimeWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_TimeWrap_Overwrite",
+      "FileID": -1749194925
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\USGFramework_Runtime_Core_USGLuaFramework_LuaEventCenterWrap_Overwrite.cs",
+      "OriginalGuid": "1980fe86429f9044ca1ee50a307f965d",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "USGFramework_Runtime_Core_USGLuaFramework_LuaEventCenterWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.USGFramework_Runtime_Core_USGLuaFramework_LuaEventCenterWrap_Overwrite",
+      "FileID": -482436882
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\USGFramework_Runtime_Core_USGNetwork_Events_ClientDisconnectedEventWrap_OverWrite.cs",
+      "OriginalGuid": "b87377a2a97821e4d99ef33e5d464790",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "USGFramework_Runtime_Core_USGNetwork_Events_ClientDisconnectedEventWrap_OverWrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.USGFramework_Runtime_Core_USGNetwork_Events_ClientDisconnectedEventWrap_OverWrite",
+      "FileID": -1474993986
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\USGFramework_Runtime_USGZone_EventCenterWrap_Overwrite.cs",
+      "OriginalGuid": "578156aab3f04334586a37cc33c48362",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "USGFramework_Runtime_USGZone_EventCenterWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.USGFramework_Runtime_USGZone_EventCenterWrap_Overwrite",
+      "FileID": -361124234
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_BehaviourWrap_Overwrite.cs",
+      "OriginalGuid": "43a141c6b854f754f8708b84279adb18",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_BehaviourWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_BehaviourWrap_Overwrite",
+      "FileID": 1579002126
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_PhysicsWrap_Overwrite.cs",
+      "OriginalGuid": "67f5a7938dba51d48a1d0f08b9f26178",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_PhysicsWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_PhysicsWrap_Overwrite",
+      "FileID": 58289942
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\LuaBindWrapOverwriter.cs",
+      "OriginalGuid": "409827f609a0da94eb672722f849e45e",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "LuaBindWrapOverwriter",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.LuaBindWrapOverwriter",
+      "FileID": -1552767752
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_GameObjectWrap_Overwrite.cs",
+      "OriginalGuid": "c09803f79a1d4e342be7e14703900d31",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_GameObjectWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_GameObjectWrap_Overwrite",
+      "FileID": 594582901
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\USGFramework_Runtime_Core_USGNetwork_NetworkUtilityWrap_Overwrite.cs",
+      "OriginalGuid": "e8267a1aed3350548adb58c7a72c3aa0",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "USGFramework_Runtime_Core_USGNetwork_NetworkUtilityWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.USGFramework_Runtime_Core_USGNetwork_NetworkUtilityWrap_Overwrite",
+      "FileID": 641956866
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\WrapOverwriter\\UnityEngine_QualitySettingsWrap_Overwrite.cs",
+      "OriginalGuid": "cf596acc213293e4b9066ebad291473c",
+      "ClassNamespace": "USGFramework.LuaBindWrapOverwriter",
+      "ClassName": "UnityEngine_QualitySettingsWrap_Overwrite",
+      "ClassFullName": "USGFramework.LuaBindWrapOverwriter.UnityEngine_QualitySettingsWrap_Overwrite",
+      "FileID": -27845999
+    }
+  ]
+}

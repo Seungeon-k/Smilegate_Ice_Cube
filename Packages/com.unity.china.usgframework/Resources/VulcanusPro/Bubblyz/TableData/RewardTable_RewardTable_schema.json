@@ -1,0 +1,20 @@
+{
+    "Reward": "!String",
+    "Reward_Route": "!String",
+    "Reward_Type1": "!String",
+    "Reward_Target1": "!GroupString, !String",
+    "Reward_Value1": "!GroupString, !Int",
+    "Reward_Type2": "!String",
+    "Reward_Target2": "!GroupString, !String",
+    "Reward_Value2": "!GroupString, !Int",
+    "Reward_Type3": "!String",
+    "Reward_Target3": "!GroupString, !String",
+    "Reward_Value3": "!GroupString, !Int",
+    "Reward_Type4": "!String",
+    "Reward_Target4": "!GroupString, !String",
+    "Reward_Value4": "!GroupString, !Int",
+    "Reward_Type5": "!String",
+    "Reward_Target5": "!GroupString, !String",
+    "Reward_Value5": "!GroupString, !Int",
+    "ID_INT_TEMP": "!Int"
+}

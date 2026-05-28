@@ -1,0 +1,7 @@
+.DefaultTextColor {
+    color: var(--text-primary-default);
+}
+
+.DisableTextColor {
+    color: var(--text-primary-disabled);
+}

@@ -1,0 +1,12 @@
+{
+    "ID": "!String",
+    "EmotionType": "!String",
+    "ItemGrade": "!String",
+    "Icon": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "Price": "!Int",
+    "ProductID": "!String",
+    "Prefab": "!String",
+    "ID_INT_TEMP": "!Int"
+}

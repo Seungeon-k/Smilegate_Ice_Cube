@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; min-height: 280px; min-width: 260px; flex-direction: row;">
+        <ui:VisualElement name="View" style="flex-grow: 1; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; background-color: rgb(99, 100, 111); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; min-width: 260px;">
+            <ui:VisualElement name="Title" style="height: 14px; max-height: 14px; min-height: 14px; flex-direction: row; margin-bottom: 10px;">
+                <ui:VisualElement name="DragIcon" style="height: 14px; max-height: 14px; min-height: 14px; width: 14px; max-width: 14px; min-width: 14px;" />
+                <ui:VisualElement style="width: 8px; max-width: 8px; min-width: 8px;" />
+                <ui:Label text="Round1" display-tooltip-when-elided="true" name="RoundText" style="-unity-font-style: bold; justify-content: flex-start;" />
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1;" />
+                <ui:VisualElement name="Option" style="height: 14px; max-height: 14px; min-height: 14px; min-width: 14px; max-width: 14px; width: 14px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/window_more.png?fileID=2800000&amp;guid=3bc599e16a094eb46b6aa9512032ac22&amp;type=3#window_more&quot;);" />
+            </ui:VisualElement>
+            <GlobalCustomUI.VScrollView name="Content" vertical-scroller-visibility="AlwaysVisible" style="flex-grow: 1;" />
+            <ui:VisualElement style="height: 10px; max-height: 10px; min-height: 10px;" />
+            <ui:VisualElement name="ButtonLayout" style="height: 24px; max-height: 24px; min-height: 24px; align-items: center;">
+                <ui:VisualElement name="AddStageBt" style="height: 24px; max-height: 24px; min-height: 24px; background-color: rgb(154, 127, 253); width: 120px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; align-items: center; justify-content: center;">
+                    <ui:Label text="+ Add Stage" display-tooltip-when-elided="true" picking-mode="Ignore" name="AddStageBtLB" style="-unity-text-align: middle-left;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DropZone" style="min-width: 10px; max-width: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

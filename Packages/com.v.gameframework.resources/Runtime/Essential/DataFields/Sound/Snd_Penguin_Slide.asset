@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2055329038, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Snd_Penguin_Slide
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: edb2a29873561c24ba0dcf5a27589a0a, type: 3}
+  loop: 0
+  sequential: 0
+  sound3D: 1
+  volumeMin: 100
+  volumeMax: 100
+  pitchMin: 100
+  pitchMax: 100
+  minDistance: 0
+  maxDistance: 30
+  spatialBlend: 0.9
+  overlapMax: 3
+  followingObjectPos: 1
+  useRolloff: 1
+  rolloffMode: 2
+  curveSource: {fileID: 4223857296745354079, guid: 443202ca01d72f5499e338ca325f6239, type: 3}

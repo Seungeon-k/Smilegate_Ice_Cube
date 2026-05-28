@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement style="flex-direction: row;">
+        <engine:Button name="Tab1" text="Tab1" class="TabButton">
+
+        </engine:Button>
+        <engine:Button name="Tab2" text="Tab2" class="TabButton">
+
+        </engine:Button>
+        <engine:Button name="Tab3" text="Tab3" class="TabButton">
+
+        </engine:Button>
+        <engine:Button text="Empty All" style="margin-left: 30px; width:70px" class="TabButton" name="EmptyAll">
+
+        </engine:Button>
+    </engine:VisualElement>
+    <engine:VisualElement style="flex-direction: row;" name="BlockList">
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+                
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+                
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+            <engine:Label class="BlockNum" text="1" style="position:relative">
+
+            </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="2" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="3" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="4" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="5" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="6" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="7" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="8" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="9" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+        <engine:Button class="BlockButton" style="width:80px; height:90px">
+            <engine:Image style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px;" class="AddImage">
+
+            </engine:Image>
+            <engine:Label class="BlockName" style="color:Black;">
+
+            </engine:Label>
+            <engine:Box style="background-color:DodgerBlue">
+                <engine:Label class="BlockNum" text="0" style="position:relative">
+
+                </engine:Label>
+            </engine:Box>
+        </engine:Button>
+    </engine:VisualElement>
+
+</engine:UXML>

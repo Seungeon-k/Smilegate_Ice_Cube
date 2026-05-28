@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="margin-top: 10px;">
+        <ui:VisualElement name="Padding">
+            <ui:Label text="Padding" display-tooltip-when-elided="true" name="Padding" />
+            <ui:VisualElement name="PaddingTop" style="flex-direction: row; align-items: center;">
+                <uie:FloatField label="Top" value="0" name="PaddingTop" style="width: 80%;" />
+                <ui:DropdownField name="PaddingTop" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PaddingRight" style="flex-direction: row;">
+                <uie:FloatField label="Right" value="0" name="PaddingRight" style="width: 80%;" />
+                <ui:DropdownField name="PaddingRight" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PaddingBottom" style="flex-direction: row;">
+                <uie:FloatField label="Bottom" value="0" name="PaddingBottom" style="width: 80%;" />
+                <ui:DropdownField name="PaddingBottom" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PaddingLeft" style="flex-direction: row;">
+                <uie:FloatField label="Left" value="0" name="PaddingLeft" style="width: 80%;" />
+                <ui:DropdownField name="PaddingLeft" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Margin" style="margin-top: 10px;">
+            <ui:Label text="Margin" display-tooltip-when-elided="true" />
+            <ui:VisualElement name="MarginTop" style="flex-direction: row;">
+                <uie:FloatField label="Top" value="0" name="MarginTop" style="width: 80%;" />
+                <ui:DropdownField name="MarginTop" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MarginRight" style="flex-direction: row;">
+                <uie:FloatField label="Right" value="0" name="MarginRight" style="width: 80%;" />
+                <ui:DropdownField name="MarginRight" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MarginBottom" style="flex-direction: row;">
+                <uie:FloatField label="Bottom" value="0" name="MarginBottom" style="width: 80%;" />
+                <ui:DropdownField name="MarginBottom" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MarginLeft" style="flex-direction: row;">
+                <uie:FloatField label="Left" value="0" name="MarginLeft" style="width: 80%; margin-right: 3px;" />
+                <ui:DropdownField name="MarginLeft" index="0" choices="px,%,none,initial" style="width: 15%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="align-items: flex-end;">
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" style="width: 30px; height: 30px; font-size: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:Box class="StaticZone" name="ToolBarZone">
+        <engine:ScrollView class = "TopToolBar" name = "TopToolBar" mode = "Horizontal">
+            <engine:Box class = "ButtonZone" name = "ClipBoardZone">
+                <editor:Toolbar class = "Buttons" name = "ClipBoardButtons">
+                    <engine:Box class = "ButtonZone" name = "CopyZone">
+                        <engine:Button class = "TopToolBarButtons" name = "CopyButton"/>
+                        <engine:Label class = "ButtonLabel" name = "CopyLabel" text = "Copy"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "CutZone">
+                        <engine:Button class = "TopToolBarButtons" name = "CutButton"/>
+                        <engine:Label class = "ButtonLabel" name = "CutLabel" text = "Cut"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "PasteZone">
+                        <engine:Button class = "TopToolBarButtons" name = "PasteButton"/>
+                        <engine:Label class = "ButtonLabel" name = "PasteLabel" text = "Paste"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "DeleteZone">
+                        <engine:Button class = "TopToolBarButtons" name = "DeleteButton"/>
+                        <engine:Label class = "ButtonLabel" name = "DeleteLabel" text = "Delete"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "ClipBoardLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "ClipBoard" text = "ClipBoard"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "RowZone">
+                <editor:Toolbar class = "Buttons" name = "RowButtons">
+                    <engine:Box class = "ButtonZone" name = "AddZone">
+                        <engine:Button class = "TopToolBarButtons" name = "AddButton"/>
+                        <engine:Label class = "ButtonLabel" name = "AddLabel" text = "Add"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "HeightZone">
+                        <engine:Button class = "TopToolBarButtons" name = "HeightButton"/>
+                        <engine:Label class = "ButtonLabel" name = "HeightLabel" text = "Height"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "RowLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "Row" text = "Row"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "ColumnZone">
+                <editor:Toolbar class = "Buttons" name = "ColumnButtons">
+                    <engine:Box class = "ButtonZone" name = "InsertZone">
+                        <engine:Button class = "TopToolBarButtons" name = "InsertButton"/>
+                        <engine:Label class = "ButtonLabel" name = "InsertLabel" text = "Insert"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "RenameZone">
+                        <engine:Button class = "TopToolBarButtons" name = "RenameButton"/>
+                        <engine:Label class = "ButtonLabel" name = "RenameLabel" text = "Rename"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "WidthZone">
+                        <engine:Button class = "TopToolBarButtons" name = "WidthButton"/>
+                        <engine:Label class = "ButtonLabel" name = "WidthLabel" text = "Width"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "ColumnLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "Column" text = "Column"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "ViewZone">
+                <editor:Toolbar class = "Buttons" name = "ViewButtons">
+                    <engine:Box class = "ButtonZone" name = "HideZone">
+                        <engine:Button class = "TopToolBarButtons" name = "HideButton"/>
+                        <engine:Label class = "ButtonLabel" name = "HideLabel" text = "Hide"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "UnhideZone">
+                        <engine:Button class = "TopToolBarButtons" name = "UnhideButton"/>
+                        <engine:Label class = "ButtonLabel" name = "UnhideLabel" text = "Unhide"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "FixZone">
+                        <engine:Button class = "TopToolBarButtons" name = "FixButton"/>
+                        <engine:Label class = "ButtonLabel" name = "FixLabel" text = "Fix"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "UnfixZone">
+                        <engine:Button class = "TopToolBarButtons" name = "UnfixButton"/>
+                        <engine:Label class = "ButtonLabel" name = "UnfixLabel" text = "Unfix"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "ViewLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "View" text = "View"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "SortingZone">
+                <editor:Toolbar class = "Buttons" name = "SortingButtons">
+                    <engine:Box class = "ButtonZone" name = "AscZone">
+                        <engine:Button class = "TopToolBarButtons" name = "AscButton"/>
+                        <engine:Label class = "ButtonLabel" name = "AscLabel" text = "Asc"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "DescZone">
+                        <engine:Button class = "TopToolBarButtons" name = "DescButton"/>
+                        <engine:Label class = "ButtonLabel" name = "DescLabel" text = "Desc"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "NoorderZone">
+                        <engine:Button class = "TopToolBarButtons" name = "NoorderButton"/>
+                        <engine:Label class = "ButtonLabel" name = "NoorderLabel" text = "Noorder"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "SortingLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "Sorting" text = "Sorting"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "SearchZone">
+                <editor:Toolbar class = "Buttons" name = "SearchButtons">
+                    <engine:Box class = "ButtonZone" name = "FindZone">
+                        <engine:Button class = "TopToolBarButtons" name = "FindButton"/>
+                        <engine:Label class = "ButtonLabel" name = "FindLabel" text = "Find"/>
+                    </engine:Box>
+                    <engine:Box class = "ButtonZone" name = "ReplaceZone">
+                        <engine:Button class = "TopToolBarButtons" name = "ReplaceButton"/>
+                        <engine:Label class = "ButtonLabel" name = "ReplaceLabel" text = "Replace"/>
+                    </engine:Box>
+                </editor:Toolbar>
+                <engine:Box class = "GroupLabelZone" name = "SearchLabelZone">
+                    <engine:Label class = "ButtonsGroupLabel" name = "Search" text = "Search"/>
+                </engine:Box>
+            </engine:Box>
+            <engine:Box class = "ButtonZone" name = "DataTypeZone">
+                <engine:Box class = "DataTypeProperty">
+                    <engine:Toggle name = "Primary" text = "Primary"/>
+                    <engine:Toggle name = "SerialNum" text = "Serial Num"/>
+                    <editor:ToolbarMenu name = "SetDataType"/>
+                </engine:Box>
+                <engine:Box class = "GroupLabelZone" name = "DataTypeLabelZone">
+                    <engine:Label class = "DataTypeLabel" name = "DataType" text = "DataType"/>
+                </engine:Box>
+            </engine:Box>
+        </engine:ScrollView>
+    </engine:Box>
+    <engine:Box class = "DataZone" name = "DataZone">
+        <engine:Box name="RowSelectButtons">
+            <engine:ScrollView class="RowSelectButtons" name="FixedRowButtons">
+                
+            </engine:ScrollView>
+            <engine:ScrollView class="RowSelectButtons" name="UnfixedRowButtons">
+                
+            </engine:ScrollView>
+        </engine:Box>
+        <engine:Box class = "TableZone" name = "FixedColumnZone">
+            <engine:ScrollView class="ColumnSelectButtons" name="FixedButtons" mode="Horizontal">
+                
+            </engine:ScrollView>
+            <engine:ScrollView class = "Titles" name = "FixedTitles" mode = "Horizontal">
+
+            </engine:ScrollView>
+            <engine:ScrollView class="FixedColumnAndRow" name = "FixedColumnAndRow">
+
+            </engine:ScrollView>
+            <engine:ScrollView class = "FixedColumn" name = "FixedColumn" mode = "Vertical">
+
+            </engine:ScrollView>
+        </engine:Box>
+        <engine:Box class = "TableZone" name = "TableZone">
+            <engine:ScrollView class="ColumnSelectButtons" name="UnfixedButtons" mode="Horizontal">
+
+            </engine:ScrollView>
+            <engine:ScrollView class = "Titles" name = "Titles" mode="Horizontal">
+
+            </engine:ScrollView>
+            <engine:ScrollView class = "FixedRow" name = "FixedRow" mode = "VerticalAndHorizontal">
+
+            </engine:ScrollView>
+            <engine:ScrollView class = "ContentZone" name = "ContentZone" mode = "VerticalAndHorizontal">
+
+            </engine:ScrollView>
+        </engine:Box>
+        <engine:Box name="Addcolumn">
+            <editor:ToolbarMenu class = "AddColumnButton" name = "AddColumnButton" text = "Add a Column"/>
+        </engine:Box>
+    </engine:Box>
+    <engine:Box class = "StaticZone" name = "GlobelButtonZone">
+        <engine:Button class = "GlobelButton" name = "AddRowButton" text = "Add a New Row"/>
+        <engine:Button class = "GlobelButton" name = "SaveButton" text = "Save"/>
+        <engine:Button class = "GlobelButton" name = "SaveLuaButton" text = "Save as Lua"/>
+    </engine:Box>
+    
+</engine:UXML>

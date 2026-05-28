@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="height: 30px; flex-direction: row; align-items: center; width: 120px;">
+        <ui:VisualElement name="icon" picking-mode="Ignore" style="width: 30px; height: 30px; display: flex;" />
+        <ui:ProgressBar high-value="100" name="bar" picking-mode="Ignore" style="width: 80px; color: rgb(255, 4, 0); overflow: visible; display: flex;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,19 @@
+{
+    "ID": "!String",
+    "type": "EIndicatorType",
+    "directionType": "EIndicatorDirectionType",
+    "enable": "!Bool",
+    "canCancel": "!Bool",
+    "itemOffset": "!Vector3",
+    "maxPower": "!Int",
+    "powerGageRate": "!Float",
+    "initIndicatorScale": "!Vector3",
+    "addForceRate": "!Float",
+    "floorPosition": "!Bool",
+    "inverseNormalRate": "!Float",
+    "snap": "!Bool",
+    "scale": "!Vector3",
+    "canRotate": "!Bool",
+    "checkScale": "!Float",
+    "ID_INT_TEMP": "!Int"
+}

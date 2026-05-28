@@ -1,0 +1,31 @@
+# Generated project files
+Library/
+Temp/
+Logs/
+Obj/
+Build/
+Builds/
+UserSettings/
+.vs/
+
+# IDE and solution output
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash and local diagnostics
+sysinfo.txt
+*.stackdump
+

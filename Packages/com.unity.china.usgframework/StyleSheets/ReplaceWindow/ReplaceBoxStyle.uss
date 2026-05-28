@@ -1,0 +1,16 @@
+.ReplaceLabel{
+    color: #969696;
+    flex-wrap:wrap;
+    width: 80px;
+    margin-left: 20px;
+}
+.ReplaceButton{
+    background-color: #ffffff;
+    color: #969696;
+}
+.ReplaceImage{
+    background-image: url("../WorldEditorUI/Icons/AddBox2.png");
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+}

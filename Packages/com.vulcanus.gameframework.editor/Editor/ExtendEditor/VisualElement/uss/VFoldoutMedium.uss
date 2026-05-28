@@ -1,0 +1,50 @@
+.VFoldoutMedium {
+    width: 100%;
+}
+
+.VFoldoutMedium > Toggle {
+    background-color: var(--background-container-02);
+    height: 20px;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.VFoldoutMedium > #unity-content {
+}
+
+.VFoldoutMedium > Toggle > VisualElement {
+    flex-direction: row;
+    align-items: center;
+}
+
+.VFoldoutMedium > Toggle > VisualElement > Label {
+    width: auto;
+    height: 16px;
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: var(--text-primary-default);
+    -unity-text-align: middle-left;
+}
+
+.VFoldoutMedium > Toggle > VisualElement > #unity-checkmark {
+    width: 16px;
+    height: 16px;
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/arrow-right.png?fileID=2800000&guid=128b0fd9e1957f645b5b31e24a7e00bb&type=3#arrow-right");
+}
+
+.VFoldoutMedium:checked > Toggle > VisualElement > #unity-checkmark {
+    width: 16px;
+    height: 16px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url("project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/arrow-down.png?fileID=2800000&guid=1be3471fb2371414eacf7e0743b15598&type=3#arrow-down");
+    -unity-slice-scale: 1px;
+}

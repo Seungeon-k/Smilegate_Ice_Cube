@@ -1,0 +1,2 @@
+.cursor-resize-h { cursor: resize-horizontal; }
+.cursor-resize-v { cursor: resize-vertical; }

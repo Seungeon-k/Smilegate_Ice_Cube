@@ -1,0 +1,12 @@
+{
+    "ID": "!String",
+    "Icon": "!String",
+    "Icon_EventPopup": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "DisableBareSkinUpdate": "!Bool",
+    "ItemGrade": "!String",
+    "SignatureAnimClip": "!String",
+    "AddColliderHeight": "!Float",
+    "ID_INT_TEMP": "!Int"
+}

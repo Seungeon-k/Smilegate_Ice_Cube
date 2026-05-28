@@ -1,0 +1,710 @@
+{
+  "Name": "RoyalFramework.RoyalModule",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\RoyalFramework.RoyalModule.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UICaptureReceiver.cs",
+      "OriginalGuid": "bcf94fc6840c20f4e856f7e4b1b8f18a",
+      "ClassNamespace": null,
+      "ClassName": "UICaptureReceiver",
+      "ClassFullName": "UICaptureReceiver",
+      "FileID": -858818260
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalResourceService.cs",
+      "OriginalGuid": "ab97794eff5e68e4688728c632091336",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalResourceService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalResourceService",
+      "FileID": -1179024864
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIPressHiderHandler.cs",
+      "OriginalGuid": "c618adb404d9f8e40a3a068cc5267544",
+      "ClassNamespace": null,
+      "ClassName": "UIPressHiderHandler",
+      "ClassFullName": "UIPressHiderHandler",
+      "FileID": -2011584028
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerAttackAPI.cs",
+      "OriginalGuid": "79420c0e202660a42b68c1aac4939212",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerAttackAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerAttackAPI",
+      "FileID": -1781456126
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\LockUGCCameraInUGC.cs",
+      "OriginalGuid": "3cf0e8f65c3ce524c97c48d03d54e424",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "LockUGCCameraInUGC",
+      "ClassFullName": "RoyalFramework.RoyalModule.LockUGCCameraInUGC",
+      "FileID": 1523098250
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\PlatformManagerAPI.cs",
+      "OriginalGuid": "1d5c90bba49f7db4a9ceecaa1c88bb3a",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "PlatformManagerAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.PlatformManagerAPI",
+      "FileID": 1460962918
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerEmotionAPI.cs",
+      "OriginalGuid": "15eb6ea1b02f1b44ba77ef7350654da3",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerEmotionAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerEmotionAPI",
+      "FileID": -1499134730
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalCharacterHandler.cs",
+      "OriginalGuid": "9e05a3ac87bfc2a45af79a82e5670202",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalCharacterHandler",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalCharacterHandler",
+      "FileID": -248783311
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerEquipAPI.cs",
+      "OriginalGuid": "33374f9bddf980440bd9618bcc999ec0",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerEquipAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerEquipAPI",
+      "FileID": 1657766243
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalInputBindingService.cs",
+      "OriginalGuid": "3a7d1b47fb9ae20409a3b7a558ed1348",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalInputBindingService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalInputBindingService",
+      "FileID": 1004254970
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIAutoSizeTarget.cs",
+      "OriginalGuid": "e14101d16dab36946b36c670b93f2b79",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "UIAutoSizeTarget",
+      "ClassFullName": "RoyalFramework.RoyalModule.UIAutoSizeTarget",
+      "FileID": 567416991
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\TouchScreenKeyboardWidget.cs",
+      "OriginalGuid": "6dd2e87b1eedaeb48b59d242938a61de",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "TouchScreenKeyboardWidget",
+      "ClassFullName": "RoyalFramework.RoyalModule.TouchScreenKeyboardWidget",
+      "FileID": -1671932477
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\ForceLayoutRebuild.cs",
+      "OriginalGuid": "8aad19d5d5628ed4f8956a1842a385eb",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "ForceLayoutRebuild",
+      "ClassFullName": "RoyalFramework.RoyalModule.ForceLayoutRebuild",
+      "FileID": -1255070900
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerAnimAPI.cs",
+      "OriginalGuid": "32c38a08625abf3469a2a6e56841d6fc",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerAnimAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerAnimAPI",
+      "FileID": 781233694
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalAPIBase.cs",
+      "OriginalGuid": "9a7d3e794411a854d8fd5c979ab833c0",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalAPIBase",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalAPIBase",
+      "FileID": 1705949206
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Controller\\Effect\\RoyalScreenEffectController.cs",
+      "OriginalGuid": "630c8a040e899aa4ba0fce3e2be9763a",
+      "ClassNamespace": "RoyalFramework.ParticleModule",
+      "ClassName": "RoyalScreenEffectController",
+      "ClassFullName": "RoyalFramework.ParticleModule.RoyalScreenEffectController",
+      "FileID": -68822286
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\AddressablesBindingAPI.cs",
+      "OriginalGuid": "4f3540e7264050148b93a23a768959c4",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "AddressablesBindingAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.AddressablesBindingAPI",
+      "FileID": -61892575
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalProjectileService.cs",
+      "OriginalGuid": "fa474799f9cafd3449246dd75c45c727",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalProjectileService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalProjectileService",
+      "FileID": -645194300
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalSyncService.cs",
+      "OriginalGuid": "e4af8a67e4fcf8a449ac3542b03841fe",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalSyncService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalSyncService",
+      "FileID": -962721431
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\AddressableResourceService.cs",
+      "OriginalGuid": "ac9069340ce21664cb29a95480ac1655",
+      "ClassNamespace": null,
+      "ClassName": "AddressablePetResourceService",
+      "ClassFullName": "AddressablePetResourceService",
+      "FileID": 214757142
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Controller\\Projectile\\RoyalProjectileController.cs",
+      "OriginalGuid": "949341c562e74b24ea676e08588b9a19",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalProjectileController",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalProjectileController",
+      "FileID": -1849302064
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Vehicles\\UI\\UISteeringArrow.cs",
+      "OriginalGuid": "d0977e945d587c749880a8119890cf5c",
+      "ClassNamespace": null,
+      "ClassName": "UISteeringArrow",
+      "ClassFullName": "UISteeringArrow",
+      "FileID": -370776858
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerMoveAPI.cs",
+      "OriginalGuid": "8b7c8b2eeb7798d4fbfba3331fc4e112",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerMoveAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerMoveAPI",
+      "FileID": 1477974937
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\IFSCLuaContents.cs",
+      "OriginalGuid": "d934be76d349f8a45ada403540276412",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "IFSCLuaContents",
+      "ClassFullName": "RoyalFramework.RoyalModule.IFSCLuaContents",
+      "FileID": 1705775917
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\VehicleMgrAPI.cs",
+      "OriginalGuid": "10ace985a2378d44899dba714dbcb087",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "VehicleMgrAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.VehicleMgrAPI",
+      "FileID": 1846719723
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\SyncObject\\RoyalSyncObjectBase.cs",
+      "OriginalGuid": "3e939a557e649fe4cae2fc0bae7c42c8",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalSyncObjectBase",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalSyncObjectBase",
+      "FileID": -126438755
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalAnimEventListener.cs",
+      "OriginalGuid": "5239581afc7bbc84bb09debcb914595c",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "RoyalAnimEventListener",
+      "ClassFullName": "RoyalFramework.CommonModule.RoyalAnimEventListener",
+      "FileID": -1713296553
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalDataService.cs",
+      "OriginalGuid": "84a8c76182b69574eac6c796b8b613ce",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalDataService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalDataService",
+      "FileID": -2109059291
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UISafeAreaRoot.cs",
+      "OriginalGuid": "3cb77b305e6201048934b5e232a890a8",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "UISafeAreaRoot",
+      "ClassFullName": "RoyalFramework.RoyalModule.UISafeAreaRoot",
+      "FileID": -1252245666
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIPressHider.cs",
+      "OriginalGuid": "e74e7c5421c5a5844a5fc792401d0645",
+      "ClassNamespace": null,
+      "ClassName": "UIPressHider",
+      "ClassFullName": "UIPressHider",
+      "FileID": 1774713693
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalEffectAPI.cs",
+      "OriginalGuid": "d3b614b1cdc355642a2c79898ccca616",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalEffectAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalEffectAPI",
+      "FileID": -1077573580
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalTableAPI.cs",
+      "OriginalGuid": "9d3f059e2670a77498f9eb9842cb240d",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalTableAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalTableAPI",
+      "FileID": 352210196
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalNonPlayerCharacterService.cs",
+      "OriginalGuid": "628f4f131e985f64f8f7d5d8e70fd32e",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalNonPlayerCharacterService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalNonPlayerCharacterService",
+      "FileID": -1675948887
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\IFSCScrollRect.cs",
+      "OriginalGuid": "2656e6372f7a4a74c82939847466f938",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "IFSCScrollRect",
+      "ClassFullName": "RoyalFramework.RoyalModule.IFSCScrollRect",
+      "FileID": -947108843
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Vehicles\\RoyalCarModule.cs",
+      "OriginalGuid": "cbde54db77ef0434dbb294a8be914c95",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalCarModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalCarModule",
+      "FileID": 835947605
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\LuaComponent\\LuaComponentBind.cs",
+      "OriginalGuid": "7f1d8c21c5833b646b7dce46075a0509",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "LuaComponentBind",
+      "ClassFullName": "RoyalFramework.RoyalModule.LuaComponentBind",
+      "FileID": -1465722545
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Rhythm\\RhythmChartList.cs",
+      "OriginalGuid": "2fd27e38197ef5d4aa4ddcb4100a81fb",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RhythmChartList",
+      "ClassFullName": "RoyalFramework.RoyalModule.RhythmChartList",
+      "FileID": 1914367678
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalParticleService.cs",
+      "OriginalGuid": "892f1fffd43e141478432e4abc44dc11",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalParticleService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalParticleService",
+      "FileID": -453779617
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalDummyPlayerHandler.cs",
+      "OriginalGuid": "32e46bf16869f364e965c538bc30af0e",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalDummyPlayerHandler",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalDummyPlayerHandler",
+      "FileID": 884482101
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalSoundAPI.cs",
+      "OriginalGuid": "80d5327f00047fd4790a85ef053d2811",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalSoundAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalSoundAPI",
+      "FileID": -520622791
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Framework\\RoyalFramework.cs",
+      "OriginalGuid": "502e16cb3c90ac04ab70c0d174266209",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalFramework",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalFramework",
+      "FileID": -547846395
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\NonPlayerCharacterAPI.cs",
+      "OriginalGuid": "b7e86e4a84d37154d925c80318a66d0e",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "NonPlayerCharacterAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.NonPlayerCharacterAPI",
+      "FileID": -788240256
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalDummyPlayerModule.cs",
+      "OriginalGuid": "3fc2f6a4dc00cba4faa12ea45d3f8953",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalDummyPlayerModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalDummyPlayerModule",
+      "FileID": -271156986
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIAutoHideScrollbars.cs",
+      "OriginalGuid": "c061a7b6fffc2a241a396b83c43bfad9",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "UIAutoHideScrollbars",
+      "ClassFullName": "RoyalFramework.RoyalModule.UIAutoHideScrollbars",
+      "FileID": 298003164
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Vehicles\\VehicleTakeTrigger.cs",
+      "OriginalGuid": "c322e2cc9b6c15e40a95533601326f4d",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "VehicleTakeTrigger",
+      "ClassFullName": "RoyalFramework.RoyalModule.VehicleTakeTrigger",
+      "FileID": 1555780051
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalUIContollerAPI.cs",
+      "OriginalGuid": "707b714b1e1504046a236c73bcb1cd2a",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalUIContollerAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalUIContollerAPI",
+      "FileID": -1272999247
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalVehicleService.cs",
+      "OriginalGuid": "683c4355529797846a4ad5d90c6c8bbf",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalVehicleService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalVehicleService",
+      "FileID": -517316768
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\AIState\\RoyalAIStatePetTeleport.cs",
+      "OriginalGuid": "3900f7c047751cb4a9bae2906d076361",
+      "ClassNamespace": null,
+      "ClassName": "RoyalAIStatePetTeleport",
+      "ClassFullName": "RoyalAIStatePetTeleport",
+      "FileID": -848876341
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalRhythmService.cs",
+      "OriginalGuid": "e55a34836ed6ff342a4a4c4f6abb50ed",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalRhythmService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalRhythmService",
+      "FileID": 2019052600
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\WrapClass\\RoyalClassSettings.cs",
+      "OriginalGuid": "7337852d22f9ad84d812d927810a9b0a",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalClassSettings",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalClassSettings",
+      "FileID": 588978153
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalSoundService.cs",
+      "OriginalGuid": "fd1703661619f6c4f9bd2638c9eaf7e4",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalSoundService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalSoundService",
+      "FileID": -1593433290
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIWrapLayoutGroup.cs",
+      "OriginalGuid": "44d6ee1421f9e4c43b83b048398b6cd1",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "UIWrapLayoutGroup",
+      "ClassFullName": "RoyalFramework.RoyalModule.UIWrapLayoutGroup",
+      "FileID": 2024543473
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalAPI.cs",
+      "OriginalGuid": "109d3de5bae54d64aa5484b2960efeb9",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalAPI",
+      "FileID": -1962278286
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\TextMeshProUGUIExtensions.cs",
+      "OriginalGuid": "9427a9c1a9d6c3e45b7358f6336eaed1",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "TextMeshProUGUIExtensions",
+      "ClassFullName": "RoyalFramework.RoyalModule.TextMeshProUGUIExtensions",
+      "FileID": 1582107044
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Common\\RDebug.cs",
+      "OriginalGuid": "80f5777b4105a0244bcad39b708fca27",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RDebug",
+      "ClassFullName": "RoyalFramework.RoyalModule.RDebug",
+      "FileID": -2105314545
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Vehicles\\UI\\UIVehicleButton.cs",
+      "OriginalGuid": "de5e162651faf774383522175e115085",
+      "ClassNamespace": null,
+      "ClassName": "UIVehicleButton",
+      "ClassFullName": "UIVehicleButton",
+      "FileID": -350996282
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\SubModules\\RoyalNonPlayerSubModuleAttack.cs",
+      "OriginalGuid": "807c2bac43bdbc04ea3e6951eb6a8fee",
+      "ClassNamespace": null,
+      "ClassName": "RoyalNonPlayerSubModuleAttack",
+      "ClassFullName": "RoyalNonPlayerSubModuleAttack",
+      "FileID": -124946600
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalPlayerAFKCoordinator.cs",
+      "OriginalGuid": "45ac6d8099becb048928e1e0d980ab29",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalPlayerAFKCoordinator",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalPlayerAFKCoordinator",
+      "FileID": 1289731478
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RhythmChartAPI.cs",
+      "OriginalGuid": "672c2f262f1ae3545966b0d9c8b03cb5",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RhythmChartAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RhythmChartAPI",
+      "FileID": 731520774
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\TextMeshProInputExtensions.cs",
+      "OriginalGuid": "c834c94b2b80e644c9fe5ebca3d52a3a",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "TextMeshProInputExtensions",
+      "ClassFullName": "RoyalFramework.RoyalModule.TextMeshProInputExtensions",
+      "FileID": -916801171
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalNonPlayerCharacterHandler.cs",
+      "OriginalGuid": "c57823b7fd0bfde46a44da0f15a8db2a",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalNonPlayerCharacterHandler",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalNonPlayerCharacterHandler",
+      "FileID": -501573940
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerBaseAPI.cs",
+      "OriginalGuid": "1c9db28ece09d4b43ad213432ffe22aa",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerBaseAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerBaseAPI",
+      "FileID": 1515707132
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalCharacterModule.cs",
+      "OriginalGuid": "70a3228b0c0ff764da2658d666988e52",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalCharacterModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalCharacterModule",
+      "FileID": -404472640
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\InputBindingAPI.cs",
+      "OriginalGuid": "367c355db65cd164d9517be47f2a73c3",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "InputBindingAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.InputBindingAPI",
+      "FileID": 1219399366
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalNonPlayerCharacterModule.cs",
+      "OriginalGuid": "488471e908fb7c344869c5a385307685",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalNonPlayerCharacterModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalNonPlayerCharacterModule",
+      "FileID": -334073582
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\NonPlayerGimmickSupporterAPI.cs",
+      "OriginalGuid": "a75973de7c89bdf4e82f42735ba5ccfb",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "NonPlayerGimmickSupporterAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.NonPlayerGimmickSupporterAPI",
+      "FileID": 1885174039
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\SubModules\\RoyalNonplayerSubModuleMove.cs",
+      "OriginalGuid": "186d4557cc927f64c84b7a7f8a680e3f",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalNonplayerSubModuleMove",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalNonplayerSubModuleMove",
+      "FileID": 1586952539
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Vehicles\\UI\\UISteeringWheel.cs",
+      "OriginalGuid": "163c4d4484b3ecb44b248fe1dc257916",
+      "ClassNamespace": null,
+      "ClassName": "UISteeringWheel",
+      "ClassFullName": "UISteeringWheel",
+      "FileID": -1160405611
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalBareSkinService.cs",
+      "OriginalGuid": "1ee2a3c5820ae6b47841812efc3fc8d5",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalBareSkinService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalBareSkinService",
+      "FileID": -720682302
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\SubModules\\RoyalPetSubModuleAI.cs",
+      "OriginalGuid": "26c9eadf00baf564f84c91faf8e86f32",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalPetSubModuleAI",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalPetSubModuleAI",
+      "FileID": 189912002
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Service\\RoyalCharacterService.cs",
+      "OriginalGuid": "5b0a44795e98cfb41b0908cf59273612",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalCharacterService",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalCharacterService",
+      "FileID": 1030091578
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalPlayerCollisionAPI.cs",
+      "OriginalGuid": "9ffcb4596db68cc48bc0434f5d62915c",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalPlayerCollisionAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalPlayerCollisionAPI",
+      "FileID": 643950617
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIScrollViewTween.cs",
+      "OriginalGuid": "d1027b1f688ba80489d59f0f0ca8210d",
+      "ClassNamespace": null,
+      "ClassName": "UIScrollViewTween",
+      "ClassFullName": "UIScrollViewTween",
+      "FileID": 216377449
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Controller\\Effect\\RoyalEffectController.cs",
+      "OriginalGuid": "0a42afe7cbf8c3b41ab933911e880b6b",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalEffectController",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalEffectController",
+      "FileID": -542044010
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\PetMgmtAPI.cs",
+      "OriginalGuid": "f662476e7b988fe4aa4dfc8d72614fae",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "PetMgmtAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.PetMgmtAPI",
+      "FileID": 1635086858
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\AIState\\RoyalAIStatePetRun.cs",
+      "OriginalGuid": "31a508032b78e3c4095ba0c06b024e9d",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalAIStatePetRun",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalAIStatePetRun",
+      "FileID": -105800396
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalProjectileAPI.cs",
+      "OriginalGuid": "97c88f356226a454d8c27eb386a171c5",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalProjectileAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalProjectileAPI",
+      "FileID": -1816948014
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\SubModules\\RoyalNonPlayerSubModuleAnim.cs",
+      "OriginalGuid": "4b3f8bc6c2276eb4cacb3b4f593b6dbc",
+      "ClassNamespace": null,
+      "ClassName": "RoyalNonPlayerSubModuleAnim",
+      "ClassFullName": "RoyalNonPlayerSubModuleAnim",
+      "FileID": -1449585628
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\RoyalPetModule.cs",
+      "OriginalGuid": "10406134b66acfb4dad86d332b258534",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalPetModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalPetModule",
+      "FileID": 1305548574
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\InputControllerAPI.cs",
+      "OriginalGuid": "c6ce4d502534ba641be0586cee3eeda5",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "InputControllerAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.InputControllerAPI",
+      "FileID": 376606348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Common\\HashUtils.cs",
+      "OriginalGuid": "a5adc4eef583f0a449b92e845272f5b5",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "HashUtils",
+      "ClassFullName": "RoyalFramework.RoyalModule.HashUtils",
+      "FileID": -630003106
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Character\\SubModules\\RoyalSubModuleAttackDash.cs",
+      "OriginalGuid": "10e66ab6a7f874e408f8a76405e59ec9",
+      "ClassNamespace": null,
+      "ClassName": "RoyalSubModuleAttackDash",
+      "ClassFullName": "RoyalSubModuleAttackDash",
+      "FileID": -567823643
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Object\\RoyalParkourBoardModule.cs",
+      "OriginalGuid": "49551e2018958ce4784388eddc6e774f",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "RoyalParkourBoardModule",
+      "ClassFullName": "RoyalFramework.RoyalModule.RoyalParkourBoardModule",
+      "FileID": -1987968155
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\BackgroundCaptureAgent.cs",
+      "OriginalGuid": "723cd12db9ea5de47a718d64d2d61afe",
+      "ClassNamespace": null,
+      "ClassName": "BackgroundCaptureAgent",
+      "ClassFullName": "BackgroundCaptureAgent",
+      "FileID": -1276954579
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\RoyalDummyPlayerAPI.cs",
+      "OriginalGuid": "2eb374212b69b2b468bc29357b40ac43",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "RoyalDummyPlayerAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.RoyalDummyPlayerAPI",
+      "FileID": -1043664323
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\USGMonoBehaviour.cs",
+      "OriginalGuid": "85479da469d775a478abfa0844546984",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "USGMonoBehaviour",
+      "ClassFullName": "RoyalFramework.RoyalModule.USGMonoBehaviour",
+      "FileID": 573045263
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\UI\\UIToggleGroup.cs",
+      "OriginalGuid": "2458d4f8d0ec370479357cf2baf3a42c",
+      "ClassNamespace": "RoyalFramework.RoyalModule",
+      "ClassName": "UIToggleGroup",
+      "ClassFullName": "RoyalFramework.RoyalModule.UIToggleGroup",
+      "FileID": 837359155
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\RoyalModule\\Lua\\BindClass\\PixelCanvasAPI.cs",
+      "OriginalGuid": "2edce4ba104218b439b901b04da05654",
+      "ClassNamespace": "RoyalFramework.RoyalModule.Lua",
+      "ClassName": "PixelCanvasAPI",
+      "ClassFullName": "RoyalFramework.RoyalModule.Lua.PixelCanvasAPI",
+      "FileID": -1773292447
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GF_User_Config
+  m_EditorClassIdentifier: 
+  m_GroupName: GF_User_Config
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 34b6869b2edab234a83ad8321a2c0def
+  m_SerializeEntries:
+  - m_GUID: 0102b223175f97d47aeacff1bae1a631
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/GameMode.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03ae1ee7271f92a4ebc27175d7159332
+    m_Address: Assets/Vulcanus/Custom/__$Stage/My_Basic_Sand.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2952829c7cbc3404eb7cd52dd5c098b9
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Player/CustomData_0/Base
+      Penguin_Player.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 343c1cd241f469c4c8a67f354dcf411f
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Player/CustomData_0/Base
+      Penguin_Controller.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3acc30f8070ed4341915faf0128ba65f
+    m_Address: Assets/Vulcanus/Custom/Prefab/SoundListener.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ca10c335f15af54eaddd0891827a8f6
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Layer/Layer
+      Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82dd160b2648cfa40a12832c3b60ef2c
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Player/CustomData_0/Base
+      Penguin_Model.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a648c5c2ab269f498d820a37b216726
+    m_Address: Packages/com.vulcanus.gameframework/GameFrameworkPackingConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a87d738ac5bb9544869a36529629af4
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/DataServiceData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa066f6e73d76274583e2d796f8ca6d1
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Localization/LocalizationTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7fdd194fa648c04c84c62215d64bb97
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Player/CustomData_0/Base
+      Penguin (0).asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2ac2be4a31d09e499a2e4d6bf22ba0a
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Tag/Tag Layer
+      Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c41e7b86fe346364bb4c299a2083a139
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/GameSettingData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebdd00d9c105f8d4485bf6dc2f7f3cab
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/DefaultRoom.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecca06223bca207479872fb9afad0863
+    m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/InputSystem/InputSystem.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 452f2d086f433b14389eb3dbe85a43aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 46b490d34aa85f443a2f9c94f2d264ea, type: 2}
+    - {fileID: 11400000, guid: 46dd347bb1ac82e4194185e75c6f366c, type: 2}
+    - {fileID: 11400000, guid: 127190394acd11e4fb441f6a588e8ebc, type: 2}

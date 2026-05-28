@@ -1,0 +1,50 @@
+Label {
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+ObjectField{
+    margin-left: 10px;
+    width: auto;
+}
+
+IntegerField{
+    margin-left: 10px;
+    width: auto;
+}
+.Box{
+    margin-top: 2px; 
+    margin-bottom: 2px;
+    width: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(0,0,0,0);
+}
+Button{
+    width: auto;
+}
+
+Foldout{
+    margin-right: 20px;
+}
+
+.SelectButton{
+    margin-left: 70px;
+    width: 300px;
+}
+.PropertyBox{
+    flex-direction: row;
+}
+.InputField{
+    margin-left: 10px;
+    width: 100px;
+}
+.EnumField{
+    flex-direction:column;
+}
+
+#EditBut{
+    margin-left:45px;
+}
+
+
+

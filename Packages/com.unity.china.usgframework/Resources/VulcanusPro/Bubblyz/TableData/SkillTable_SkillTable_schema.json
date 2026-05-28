@@ -1,0 +1,22 @@
+{
+    "ID": "!String",
+    "skillType": "!String",
+    "buffID": "!String",
+    "projectileID": "!String",
+    "weaponSize": "!Vector3",
+    "ColliderMultiple": "!GroupString, !Float",
+    "impulseMultiple": "!Float",
+    "fallingDownDrag": "!Float",
+    "sphereAngle": "!Float",
+    "checkPlayerPos": "!Bool",
+    "isAdjustContactPoint": "!Bool",
+    "isBackJump": "!Bool",
+    "DontDecreaseItemCount": "!Bool",
+    "tag": "!String",
+    "time": "!GroupString, !Int",
+    "intParameter": "!GroupString, !Int",
+    "floatParameter": "!GroupString, !Int",
+    "vOffset": "!GroupString, !Vector3",
+    "rOffset": "!GroupString, !Vector3",
+    "ID_INT_TEMP": "!Int"
+}

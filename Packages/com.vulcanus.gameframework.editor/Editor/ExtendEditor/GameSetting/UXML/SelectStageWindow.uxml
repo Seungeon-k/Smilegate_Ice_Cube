@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; background-color: rgb(99, 100, 111); margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; height: 100%;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label text="Select Stage" display-tooltip-when-elided="true" name="SelectStageLB" />
+            <ui:VisualElement style="height: 10px; max-height: 10px; min-height: 10px;" />
+            <GlobalCustomUI.VScrollView name="StageList" style="flex-grow: 1;" />
+            <ui:VisualElement style="height: 10px; max-height: 10px; min-height: 10px;" />
+            <ui:VisualElement name="ButtonLayout" style="width: 100%; height: 24px; align-items: center;">
+                <ui:VisualElement name="SelectBT" style="width: 120px; height: 24px; justify-content: center; background-color: rgb(67, 67, 72); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; max-height: 24px; min-height: 24px;">
+                    <ui:Label text="Select" display-tooltip-when-elided="true" picking-mode="Ignore" name="SelectBTLB" style="-unity-text-align: middle-center; -unity-font-style: bold;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

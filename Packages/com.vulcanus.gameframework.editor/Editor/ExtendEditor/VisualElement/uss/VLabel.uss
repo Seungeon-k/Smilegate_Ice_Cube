@@ -1,0 +1,19 @@
+.VLabel {
+    color: var(--text-primary-default);
+    margin-right: 0;
+    text-overflow: ellipsis;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.child .VLabel > Label {
+    padding-left: 6px;
+    margin-right: 0;
+    text-overflow: ellipsis;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    overflow: hidden;
+}

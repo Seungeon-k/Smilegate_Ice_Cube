@@ -1,0 +1,653 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1250263992, guid: 6645f35736772dc418932d3b0515bf07, type: 3}
+  m_Name: LuaBindingSelectionStore
+  m_EditorClassIdentifier: 
+  types:
+  - typeFullName: UnityEngine.AudioSource
+    members:
+    - memberKey: UnityEngine.AudioSource|method|PlayOnGamepad|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|DisableGamepadOutput|params:|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetGamepadSpeakerMixLevel|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetGamepadSpeakerMixLevelDefault|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetGamepadSpeakerRestrictedAudio|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|Play|params:|ret:System.Void, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|Play|params:System.UInt64, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|PlayDelayed|params:System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|PlayScheduled|params:System.Double,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|PlayOneShot|params:UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|PlayOneShot|params:UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetScheduledStartTime|params:System.Double,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetScheduledEndTime|params:System.Double,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|Stop|params:|ret:System.Void, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|Pause|params:|ret:System.Void, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|UnPause|params:|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetCustomCurve|params:UnityEngine.AudioSourceCurveType,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,UnityEngine.AnimationCurve,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|GetCustomCurve|params:UnityEngine.AudioSourceCurveType,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.AnimationCurve,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|GetOutputData|params:System.Single[],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|GetSpectrumData|params:System.Single[],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.FFTWindow,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetSpatializerFloat|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|GetSpatializerFloat|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single&,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|GetAmbisonicDecoderFloat|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single&,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|method|SetAmbisonicDecoderFloat|params:System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|volume|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|pitch|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|time|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|timeSamples|type:System.Int32, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|clip|type:UnityEngine.AudioClip, UnityEngine.AudioModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|outputAudioMixerGroup|type:UnityEngine.Audio.AudioMixerGroup,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|gamepadSpeakerOutputType|type:UnityEngine.GamepadSpeakerOutputType,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|isPlaying|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:False|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|isVirtual|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:False|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|loop|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|ignoreListenerVolume|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|playOnAwake|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|ignoreListenerPause|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|velocityUpdateMode|type:UnityEngine.AudioVelocityUpdateMode,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|panStereo|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|spatialBlend|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|spatialize|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|spatializePostEffects|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|reverbZoneMix|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|bypassEffects|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|bypassListenerEffects|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|bypassReverbZones|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|dopplerLevel|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|spread|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|priority|type:System.Int32, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.AudioSource|prop|mute|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|minDistance|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|maxDistance|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.AudioSource|prop|rolloffMode|type:UnityEngine.AudioRolloffMode,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+  - typeFullName: UnityEngine.Experimental.Audio.AudioSourceExtensionsInternal
+    members: []
+  - typeFullName: UnityEngine.Animator
+    members: []
+  - typeFullName: UnityEngine.Animation
+    members:
+    - memberKey: UnityEngine.Animation|method|Stop|params:|ret:System.Void, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Stop|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Rewind|params:|ret:System.Void, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Rewind|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Play|params:|ret:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Play|params:UnityEngine.PlayMode, UnityEngine.AnimationModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|IsPlaying|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Play|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Play|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.PlayMode,
+        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|CrossFade|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|CrossFade|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|CrossFade|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.PlayMode,
+        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Blend|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Blend|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|Blend|params:System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 1
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|method|SyncLayer|params:System.Int32, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|prop|clip|type:UnityEngine.AnimationClip,
+        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Animation|prop|playAutomatically|type:System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Animation|prop|wrapMode|type:UnityEngine.WrapMode, UnityEngine.CoreModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 1
+      sync: 1
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Animation|prop|isPlaying|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:False|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 0
+    - memberKey: UnityEngine.Animation|prop|animatePhysics|type:System.Boolean, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Animation|prop|cullingType|type:UnityEngine.AnimationCullingType,
+        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Animation|prop|localBounds|type:UnityEngine.Bounds,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+  - typeFullName: UnityEngine.Camera
+    members:
+    - memberKey: UnityEngine.Camera|method|GetGateFittedLensShift|params:|ret:UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|SetTargetBuffers|params:UnityEngine.RenderBuffer,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,UnityEngine.RenderBuffer,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:System.Void,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|prop|fieldOfView|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Camera|prop|farClipPlane|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Camera|prop|nearClipPlane|type:System.Single, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.Camera|prop|pixelWidth|type:System.Int32, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:False|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|prop|pixelHeight|type:System.Int32, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:False|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|WorldToScreenPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|WorldToViewportPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ScreenToWorldPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ViewportToWorldPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ScreenToViewportPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ViewportToScreenPoint|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ViewportPointToRay|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,UnityEngine.Camera+MonoOrStereoscopicEye,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Ray,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 0
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ViewportPointToRay|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Ray,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+    - memberKey: UnityEngine.Camera|method|ScreenPointToRay|params:UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|ret:UnityEngine.Ray,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|static:False
+      selection: 1
+      sync: 0
+      canRead: 0
+      canWrite: 0
+  - typeFullName: UnityEngine.UI.Text
+    members:
+    - memberKey: UnityEngine.UI.Text|prop|text|type:System.String, mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1
+    - memberKey: UnityEngine.UI.Text|prop|fontSize|type:System.Int32, mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089|get:True|set:True|static:False
+      selection: 1
+      sync: 0
+      canRead: 1
+      canWrite: 1

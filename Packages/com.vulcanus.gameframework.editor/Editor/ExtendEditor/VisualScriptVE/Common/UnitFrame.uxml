@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="Head" style="flex-direction: row; justify-content: space-between; background-color: rgb(54, 135, 25); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <ui:VisualElement name="FoldBtnVE" style="background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: center; -unity-text-align: upper-center; flex-direction: row;">
+                <ui:Button text="▼" display-tooltip-when-elided="true" name="FoldBtn" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; background-color: rgba(0, 0, 0, 0); width: 20px; align-items: flex-start; justify-content: center; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="DisableBtnVE" style="background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center;">
+                <ui:Toggle name="DisableToggle" value="true" style="height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TitleVE" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0); flex-direction: row; align-items: center; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="TitleLB" style="padding-left: 2px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ChangeBtnVE" style="align-items: center; justify-content: center;">
+                <ui:Button display-tooltip-when-elided="true" name="ChangeBtn" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 22px; height: 20px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorVE/StyleSheets/Icon/Icon_Replace_36.png?fileID=2800000&amp;guid=787772a40b02bc64c985c4f87cd6b24e&amp;type=3#Icon_Replace_36&quot;); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-bottom-width: 0; -unity-background-scale-mode: scale-to-fit; align-items: center; justify-content: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ContextBtnVE" style="justify-content: center; align-items: center; -unity-text-align: middle-center;">
+                <ui:Button text=":" display-tooltip-when-elided="true" name="ContextBtn" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-top-width: 0; border-right-width: 1px; border-bottom-width: 0; border-left-width: 1px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; height: 20px; width: 22px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Ribbon/uss/RibbonRoot.uss?fileID=7433441132597879392&amp;guid=3e41e182a715dae449ceb4e3a6f980c7&amp;type=3#RibbonRoot" />
+    <ui:VisualElement name="Root" class="RibbonRoot" style="flex-direction: row; flex-shrink: 0;" />
+</ui:UXML>

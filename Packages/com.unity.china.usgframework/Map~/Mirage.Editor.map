@@ -1,0 +1,174 @@
+{
+  "Name": "Mirage.Editor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\Mirage.Editor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Logging\\LogSettingsEditor.cs",
+      "OriginalGuid": "85ad7b27a4ecdb345a945d860844eaf1",
+      "ClassNamespace": "Mirage.EditorScripts.Logging",
+      "ClassName": "LogSettingsEditor",
+      "ClassFullName": "Mirage.EditorScripts.Logging.LogSettingsEditor",
+      "FileID": -387810202
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Inspectors\\NetworkIdentityInspector.cs",
+      "OriginalGuid": "9761ac68a5a38e741b9f4ba584985089",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkIdentityInspector",
+      "ClassFullName": "Mirage.NetworkIdentityInspector",
+      "FileID": -1787305288
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Inspectors\\NetworkPrefabsInspector.cs",
+      "OriginalGuid": "1ece8e48a0ed49bcbe428a98206b3e5c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPrefabsInspector",
+      "ClassFullName": "Mirage.NetworkPrefabsInspector",
+      "FileID": -1183127233
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\SceneDrawer.cs",
+      "OriginalGuid": "b24704a46211b4ea294aba8f58715cea",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SceneDrawer",
+      "ClassFullName": "Mirage.SceneDrawer",
+      "FileID": 1189245979
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Inspectors\\NetworkBehaviourInspector.cs",
+      "OriginalGuid": "f02853db46b6346e4866594a96c3b0e7",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkBehaviourInspector",
+      "ClassFullName": "Mirage.NetworkBehaviourInspector",
+      "FileID": 1935286847
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\FoldoutEventDrawer.cs",
+      "OriginalGuid": "6ed2568ec7bf34c4aabbf9680e81fcf8",
+      "ClassNamespace": "Mirage",
+      "ClassName": "FoldoutEventDrawer",
+      "ClassFullName": "Mirage.FoldoutEventDrawer",
+      "FileID": 1240579909
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Logging\\LogSettingChecker.cs",
+      "OriginalGuid": "0a87951c798af274bb9e907f6851337f",
+      "ClassNamespace": "Mirage.EditorScripts.Logging",
+      "ClassName": "LogSettingChecker",
+      "ClassFullName": "Mirage.EditorScripts.Logging.LogSettingChecker",
+      "FileID": 428484436
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\NetworkMenu.cs",
+      "OriginalGuid": "c1185d804fd7d464ab92712ab430bb3c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkMenu",
+      "ClassFullName": "Mirage.NetworkMenu",
+      "FileID": -685318633
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Logging\\LogSettingsProvider.cs",
+      "OriginalGuid": "f2af5126e676e61469bd22e690659fef",
+      "ClassNamespace": "Mirage.EditorScripts.Logging",
+      "ClassName": "LogSettingsProvider",
+      "ClassFullName": "Mirage.EditorScripts.Logging.LogSettingsProvider",
+      "FileID": 322029509
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Logging\\LogLevelsGUI.cs",
+      "OriginalGuid": "81ce01b12bb10264d8ec79a3c36ced7d",
+      "ClassNamespace": "Mirage.EditorScripts.Logging",
+      "ClassName": "LogLevelsGUI",
+      "ClassFullName": "Mirage.EditorScripts.Logging.LogLevelsGUI",
+      "FileID": -193127143
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\NetworkedPrefabAttributeDrawer.cs",
+      "OriginalGuid": "f2e12cdad8944d099b14011cc1910630",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkedPrefabAttributeDrawer",
+      "ClassFullName": "Mirage.NetworkedPrefabAttributeDrawer",
+      "FileID": -951112574
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Utils\\NetworkPrefabsCache.cs",
+      "OriginalGuid": "65f736dc8ce427d48a5441cb80c2b0c1",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPrefabsCache",
+      "ClassFullName": "Mirage.NetworkPrefabsCache",
+      "FileID": -668247757
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Logging\\LogSettingsSOEditor.cs",
+      "OriginalGuid": "bd876bb5841c79e4fbeefba3be177f63",
+      "ClassNamespace": "Mirage.EditorScripts.Logging",
+      "ClassName": "LogSettingsSOEditor",
+      "ClassFullName": "Mirage.EditorScripts.Logging.LogSettingsSOEditor",
+      "FileID": 603487769
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\SyncVarAttributeDrawer.cs",
+      "OriginalGuid": "27821afc81c4d064d8348fbeb00c0ce8",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncVarAttributeDrawer",
+      "ClassFullName": "Mirage.SyncVarAttributeDrawer",
+      "FileID": 136034527
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Utils\\NetworkPrefabUtils.cs",
+      "OriginalGuid": "b2d73ecaf970847428d85ad28fcb85cf",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPrefabUtils",
+      "ClassFullName": "Mirage.NetworkPrefabUtils",
+      "FileID": 2092173241
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\SyncSettingsDrawer.cs",
+      "OriginalGuid": "f02da43a3fd0b304d991a41a8e70543c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncSettingsDrawer",
+      "ClassFullName": "Mirage.SyncSettingsDrawer",
+      "FileID": 791848717
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\NetworkInformationPreview.cs",
+      "OriginalGuid": "51a99294efe134232932c34606737356",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkInformationPreview",
+      "ClassFullName": "Mirage.NetworkInformationPreview",
+      "FileID": -602256103
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\ReadOnlyDecoratorDrawer.cs",
+      "OriginalGuid": "6c05c2e7b29e25248b9d21fec72ba9f9",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ReadOnlyDecoratorDrawer",
+      "ClassFullName": "Mirage.ReadOnlyDecoratorDrawer",
+      "FileID": 1513227349
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Utils\\InspectorHelper.cs",
+      "OriginalGuid": "047c894c2a5ccc1438b7e59302f62744",
+      "ClassNamespace": "Mirage",
+      "ClassName": "InspectorHelper",
+      "ClassFullName": "Mirage.InspectorHelper",
+      "FileID": 120364921
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\Drawers\\NetworkPrefabsPropertyDrawer.cs",
+      "OriginalGuid": "1227378f72011bc46b2db1e0fcd3591c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPrefabsPropertyDrawer",
+      "ClassFullName": "Mirage.NetworkPrefabsPropertyDrawer",
+      "FileID": 1833227891
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Editor\\WelcomeWindow\\WelcomeWindow.cs",
+      "OriginalGuid": "9cb4a2ca833962c459088a08768460e2",
+      "ClassNamespace": "Mirage",
+      "ClassName": "WelcomeWindow",
+      "ClassFullName": "Mirage.WelcomeWindow",
+      "FileID": -1432713858
+    }
+  ]
+}

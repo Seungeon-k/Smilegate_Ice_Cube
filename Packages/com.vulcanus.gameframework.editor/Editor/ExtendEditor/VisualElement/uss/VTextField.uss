@@ -1,0 +1,52 @@
+.VTextField {
+    height: 22px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.VTextField > Label {
+    width: 35%;
+    min-width: 35%;
+    font-size: 12px;
+    color: var(--text-primary-default);
+    -unity-text-align: middle-left;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VTextField > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VTextField > #unity-text-input {
+    width: 65%;
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+    justify-content: flex-start;
+    border-radius: 2px;
+    border-width: 1px;
+    flex-direction: row;
+    align-items: center;
+    min-width: 65%;
+}
+
+.VTextField > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+    height: auto;
+    text-overflow: ellipsis;
+}

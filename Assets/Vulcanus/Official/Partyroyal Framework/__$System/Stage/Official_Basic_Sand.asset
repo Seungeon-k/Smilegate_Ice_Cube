@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1678894900, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Official_Basic_Sand
+  m_EditorClassIdentifier: 
+  _assetKey: 8319ff3cff125e34296a6b2ab80c0bdd
+  _sceneAsset: {fileID: 102900000, guid: 5e88e00a19745384598503f1e8a6def3, type: 3}
+  _sceneName: Official_Basic_Sand
+  sceneImage: {fileID: 0}
+  _gameData: {fileID: 0}
+  luaScript: {fileID: 0}
+  stageName: Sand Stage
+  stageSummary: A basic sand-themed stage.
+  stageImage: {fileID: 2800000, guid: b1ab71b910b71f046a4c2d4985c1b84f, type: 3}
+  stageIcon: {fileID: 0}
+  editorTemplateType: 1
+  editorSourceType: 1
+  editorStageType: 1

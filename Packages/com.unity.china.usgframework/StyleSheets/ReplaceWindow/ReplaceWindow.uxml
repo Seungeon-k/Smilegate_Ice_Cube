@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement style="flex-direction: row; display: flex;">
+        <engine:Box name="BlockSelectBox">
+            <engine:ScrollView name="BlockSelect">
+
+            </engine:ScrollView>>
+        </engine:Box>
+        <engine:Box name="OptionBox" >
+            <engine:Label text="Replace Option" class="Title" >
+                
+            </engine:Label>
+            <engine:VisualElement style="flex-direction: row;">
+                <engine:Label text="Replace Type" class="H2">
+
+                </engine:Label>
+                <engine:Image name="OptionImage" tooltip="When replacing, select the replacement principle of the original block and the replacement block">
+                    
+                </engine:Image>
+            </engine:VisualElement>
+
+            <engine:Label text="Normal" class="H2">
+                <engine:Toggle style="margin-left: 110px;" name="Normal">
+                </engine:Toggle>
+            </engine:Label>
+
+            <engine:Label text="Replace with fill" class="H2" >
+                <engine:Toggle style="margin-left: 110px;" name="Fill">
+                </engine:Toggle>
+            </engine:Label>
+
+        </engine:Box>
+    </engine:VisualElement>
+    
+    
+    <engine:VisualElement style="flex-direction: row; ">
+        
+        <engine:VisualElement style="flex-direction: column; flex-grow:6;width:400px;" >
+            <engine:Box name="ReplaceBox">
+                <engine:Box style="flex-grow:1;" class="ReplaceBox">
+                    <engine:VisualElement  class="BlockView" name="AddToReplace">
+                        <engine:Image class="ReplaceImage">
+                            
+                        </engine:Image>
+                        <engine:VisualElement style="flex-direction: column;">
+                            <engine:Label text="Choose a Block" class="ReplaceLabel" >
+
+                            </engine:Label>
+                            <engine:Label text="want to RePlace" class="ReplaceLabel" >
+
+                            </engine:Label>
+                        </engine:VisualElement>
+
+                    </engine:VisualElement>
+                </engine:Box>
+                <engine:Box style="flex-grow:1;" class="ReplaceBox" name="ReplaceRight">
+
+                </engine:Box>
+
+            </engine:Box>
+            
+            <engine:Box name="InfoBox">
+                <engine:VisualElement style="flex-direction: row;">
+                    <engine:Label name="Sum">
+                    </engine:Label>
+                    <engine:Label name="RemainBlock">
+                    </engine:Label>
+                </engine:VisualElement>
+            </engine:Box>
+            
+            <engine:Button name="Apply" text="Apply">
+            </engine:Button>
+        </engine:VisualElement>
+        
+        <engine:Box name="BlockAssetBox">
+                <engine:Box  class="BlockAssetBox">
+                    <engine:Label text="Voxel Block" class="Title"/>
+                    <engine:ScrollView name="VoxelBlock">
+                    </engine:ScrollView>
+                </engine:Box>  
+            
+                <engine:Box  class="BlockAssetBox">
+                    <engine:Label text="Mesh Block" class="Title"/>
+                    <engine:ScrollView name="MeshBlock">
+                    </engine:ScrollView>
+                </engine:Box>
+        </engine:Box>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="flex-direction: row;">
+        <ui:VisualElement picking-mode="Ignore" name="Icon" style="width: 20px; height: 20px; min-width: 20px; min-height: 20px; align-self: center; visibility: visible; background-image: none; justify-content: center;">
+            <ui:VisualElement picking-mode="Ignore" style="align-self: center; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/check_48.png?fileID=2800000&amp;guid=9cb79afd9093f0e42a80897cc4082e58&amp;type=3#check_48&quot;); min-width: 10px; min-height: 10px;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" picking-mode="Ignore" style="align-self: center; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

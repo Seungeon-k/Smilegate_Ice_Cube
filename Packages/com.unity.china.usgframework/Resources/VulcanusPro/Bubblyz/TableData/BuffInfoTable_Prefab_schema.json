@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "PrefabName": "!String",
+    "PrefabType": "EBuffPrefabType",
+    "IsAttachPrefab": "!Bool",
+    "StopStates": "!GroupString, EStateFlag",
+    "ID_INT_TEMP": "!Int"
+}

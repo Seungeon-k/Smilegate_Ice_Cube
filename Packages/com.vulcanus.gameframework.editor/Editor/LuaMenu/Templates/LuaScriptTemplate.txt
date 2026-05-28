@@ -1,0 +1,32 @@
+
+    local this = __CREATOR__.new()
+
+    ---@type VFramework.ServiceApi    
+    local serviceApi
+    ---@type VFramework.ScriptObject
+    local scriptObject
+
+    this.AutoStart = __EX_VARIABLE__.bool(true)
+    
+    
+    function this.OnStart()
+    
+        serviceApi = this.serviceApi
+        scriptObject = this.scriptObject
+        
+    end
+    
+    
+    function this.OnUpdate(deltaTime)
+                
+    end
+    
+    function this.OnDestroy()
+        
+    end
+
+    __EX_FUNCTION__(this)
+    function this.OnClick()
+
+    end
+

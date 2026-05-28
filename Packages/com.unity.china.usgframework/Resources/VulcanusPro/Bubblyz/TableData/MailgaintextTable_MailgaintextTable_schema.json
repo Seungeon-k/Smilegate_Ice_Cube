@@ -1,0 +1,7 @@
+{
+    "ID": "!String",
+    "Mail_Gain_Fail_Title": "!String",
+    "Mail_Gain_Fail_Contents": "!String",
+    "Mail_Gain_Fail_Day": "!GroupString, !Int",
+    "ID_INT_TEMP": "!Int"
+}

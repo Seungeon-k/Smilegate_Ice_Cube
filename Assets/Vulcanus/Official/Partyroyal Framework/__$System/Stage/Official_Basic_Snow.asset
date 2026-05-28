@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1678894900, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Official_Basic_Snow
+  m_EditorClassIdentifier: 
+  _assetKey: 
+  _sceneAsset: {fileID: 102900000, guid: f7b0771441299e24383a6add34053bbc, type: 3}
+  _sceneName: Official_Basic_Snow
+  sceneImage: {fileID: 0}
+  _gameData: {fileID: 0}
+  luaScript: {fileID: 0}
+  stageName: Snow Stage
+  stageSummary: 'A basic snow-themed stage. '
+  stageImage: {fileID: 2800000, guid: 98d315f588d4867499df6b3030a99da8, type: 3}
+  stageIcon: {fileID: 0}
+  editorTemplateType: 1
+  editorSourceType: 1
+  editorStageType: 1

@@ -1,0 +1,54 @@
+{
+  "Name": "USGStartUpSetting.Editor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGStartUpSetting.Editor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\StartUpSettingWindow.cs",
+      "OriginalGuid": "d58d46b17a2d4bbaacce39dca389f80a",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "StartUpSettingWindow",
+      "ClassFullName": "USGStartUpSetting.Editor.StartUpSettingWindow",
+      "FileID": -727908077
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\StartUpSettingDataSOEditor.cs",
+      "OriginalGuid": "02d7a72270df40259dc47dc7f58a0276",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "StartUpSettingDataSOEditor",
+      "ClassFullName": "USGStartUpSetting.Editor.StartUpSettingDataSOEditor",
+      "FileID": 35727690
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\StartUpSettingZoneServerDataDrawer.cs",
+      "OriginalGuid": "85baae77e611c7f4db14b2743822c7d8",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "StartUpSettingZoneServerDataDrawer",
+      "ClassFullName": "USGStartUpSetting.Editor.StartUpSettingZoneServerDataDrawer",
+      "FileID": 219847272
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\EditorStartUpSettingDefine.cs",
+      "OriginalGuid": "c331781fcf4e406284c60e1e5de5a040",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "EditorStartUpSettingDefine",
+      "ClassFullName": "USGStartUpSetting.Editor.EditorStartUpSettingDefine",
+      "FileID": -57305281
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\StartUpSettingZoneClientDataDrawer.cs",
+      "OriginalGuid": "3b7feae32fe34aecb4fe95ad126588f3",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "StartUpSettingZoneClientDataDrawer",
+      "ClassFullName": "USGStartUpSetting.Editor.StartUpSettingZoneClientDataDrawer",
+      "FileID": -1386028679
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgstartupsetting\\Editor\\StartUpSettingDataDrawer.cs",
+      "OriginalGuid": "ea73c12fec5491d46b071ca63d4d1c4a",
+      "ClassNamespace": "USGStartUpSetting.Editor",
+      "ClassName": "StartUpSettingDataDrawer",
+      "ClassFullName": "USGStartUpSetting.Editor.StartUpSettingDataDrawer",
+      "FileID": 1581697643
+    }
+  ]
+}

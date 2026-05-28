@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/UXML/SelectThemeWindow.uss?fileID=7433441132597879392&amp;guid=bd7584af64c68654085bf9cf55d1c123&amp;type=3#SelectThemeWindow" />
+    <ui:VisualElement name="Top">
+        <ui:ScrollView>
+            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="SelectName" />
+            <ui:Foldout text="BackGround" name="Background" class="FoldOut" />
+            <ui:Foldout text="Size" name="Size" class="FoldOut" />
+            <ui:Foldout text="Margin And Padding" name="MarginAndPadding" class="FoldOut" />
+            <ui:Foldout text="Border" name="Border" class="FoldOut" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

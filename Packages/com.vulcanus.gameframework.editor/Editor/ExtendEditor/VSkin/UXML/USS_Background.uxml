@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top">
+        <uie:ColorField label="Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="BackGroundColor" />
+        <uie:ObjectField label="Image" name="BackGroundImage" />
+        <uie:ColorField label="ImageTint" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="BackGroundImageTint" />
+        <uie:ColorField label="TextColor" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="TextColor" />
+        <ui:VisualElement style="align-items: flex-end;">
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" style="width: 30px; height: 30px; font-size: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

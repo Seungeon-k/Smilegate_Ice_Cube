@@ -1,0 +1,470 @@
+{
+  "Name": "USGWebServices.Editor",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGWebServices.Editor.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\PublishServiceBase.cs",
+      "OriginalGuid": "70c05d57c9935dc4b9f2fcf3d109bf6a",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "PublishServiceBase",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.PublishServiceBase",
+      "FileID": 783620292
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\FavoriteService.cs",
+      "OriginalGuid": "9b272b0f80d9fc341b5422cc36ad905b",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "FavoriteService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.FavoriteService",
+      "FileID": 1779039918
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Util\\FilterUtil.cs",
+      "OriginalGuid": "3ac187985adc5c249b64b92cd4e86423",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Util",
+      "ClassName": "FilterUtil",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Util.FilterUtil",
+      "FileID": -453692937
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Util\\WebServiceUtility.cs",
+      "OriginalGuid": "c2fe45156cbc8fd489f7a6acb94c396d",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Util",
+      "ClassName": "WebServiceUtility",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Util.WebServiceUtility",
+      "FileID": -1701843395
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\ResourceStoreDataBase.cs",
+      "OriginalGuid": "d08fd539ca66d4e4c868dda21cbeca7f",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "ResourceStoreDataBase",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.ResourceStoreDataBase",
+      "FileID": 1881107356
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\VulcanusApp\\VulcanusAppConfigurationService.cs",
+      "OriginalGuid": "6d9ea719d7244e54a1c6a5007ad65c7a",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.VulcanusApp",
+      "ClassName": "VulcanusAppConfigurationService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.VulcanusApp.VulcanusAppConfigurationService",
+      "FileID": 1003107260
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\StoveResponseContext.cs",
+      "OriginalGuid": "dc5e013d008f446d8beffb7dfd9de497",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "StoveResponseContext",
+      "ClassFullName": "USGWebServices.Editor.Stove.StoveResponseContext",
+      "FileID": 806230247
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCMyUGCCatalog.cs",
+      "OriginalGuid": "ef559b45a2af3944ebc164a19c8dafb2",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCMyUGCCatalog",
+      "ClassName": "UGCMyUGCCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCMyUGCCatalog.UGCMyUGCCatalog",
+      "FileID": -1953162647
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\CompanionAppService.cs",
+      "OriginalGuid": "69a8d7bd2f1a43fab4eff183f75a95fc",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "CompanionAppService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.CompanionAppService",
+      "FileID": 1516890056
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\MyUGCService.cs",
+      "OriginalGuid": "27a8fc7ef1ea2834dbd577b212ab1853",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "MyUGCService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.MyUGCService",
+      "FileID": 1803285811
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\VulcanusApp\\VulcanusAppConfigurationOption.cs",
+      "OriginalGuid": "c4bd3180ef174c3685a215a8f2d3b127",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.VulcanusApp",
+      "ClassName": "VulcanusAppConfigurationOption",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.VulcanusApp.VulcanusAppConfigurationOption",
+      "FileID": 1366677766
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Pages\\StorePage.cs",
+      "OriginalGuid": "3c6b7f00b0071124d9a987775af277ac",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Pages",
+      "ClassName": "StorePage",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Pages.StorePage",
+      "FileID": 290469289
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\InventoryData.cs",
+      "OriginalGuid": "6b7f2472e63c2a34382b0379e4f9c4db",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "InventoryData",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.InventoryData",
+      "FileID": 1334564262
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\ResourceStoreDataManager.cs",
+      "OriginalGuid": "d74e730aa5b638a45a2c472761d12acc",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "ResourceStoreDataManager",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.ResourceStoreDataManager",
+      "FileID": 722623613
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Pages\\ResourcePageBase.cs",
+      "OriginalGuid": "2712a6bd8cb16ae4c94fc8b85f134dbf",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Pages",
+      "ClassName": "ResourcePageBase",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Pages.ResourcePageBase",
+      "FileID": 1669211605
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCUploadCatalog.cs",
+      "OriginalGuid": "7090cb22a90a0644dab797b332c9e732",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog",
+      "ClassName": "UGCUploadCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCUploadCatalog",
+      "FileID": 845144269
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Util\\URLUtil.cs",
+      "OriginalGuid": "84c2f84aede6ec945ba98730697e0595",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Util",
+      "ClassName": "URLUtil",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Util.URLUtil",
+      "FileID": 958112432
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\InventoryService.cs",
+      "OriginalGuid": "2417b2158c57f4041a458c05bfefd6c9",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "InventoryService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.InventoryService",
+      "FileID": 1202851205
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Heartbeat\\HeartbeatService.HeartbeatSkipOption.cs",
+      "OriginalGuid": "5900c4121b3741a4b1fcd749e70ce658",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Heartbeat",
+      "ClassName": "HeartbeatService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Heartbeat.HeartbeatService",
+      "FileID": -378716310
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\ResourceStoreWindow.cs",
+      "OriginalGuid": "36ee8e018e24a6e44acbebb0738c52a7",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore",
+      "ClassName": "ResourceStoreWindow",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.ResourceStoreWindow",
+      "FileID": -270644149
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Pages\\FavoritePage.cs",
+      "OriginalGuid": "59db7c4ade38bc6489a4ece5a4bfb0c9",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Pages",
+      "ClassName": "FavoritePage",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Pages.FavoritePage",
+      "FileID": -1049461585
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\ResourceStoreWebHandler.cs",
+      "OriginalGuid": "8f48ca5e6a1ba0041a349f229db419db",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "ResourceStoreWebHandler",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.ResourceStoreWebHandler",
+      "FileID": -1777942415
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCBackpackCatalog.cs",
+      "OriginalGuid": "29bd2d7010e8f734ba61fb601f649a7f",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCBackpackCatalog",
+      "ClassName": "UGCBackpackCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCBackpackCatalog.UGCBackpackCatalog",
+      "FileID": 2028174705
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\MyUGCData.cs",
+      "OriginalGuid": "1b9ff3d144a2ebe4f900b5c949082ebb",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "MyUGCData",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.MyUGCData",
+      "FileID": -754288462
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\AccessTokenService.cs",
+      "OriginalGuid": "f13d9a113bb57fd49ad59c530fca73d9",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "AccessTokenService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.AccessTokenService",
+      "FileID": 132745783
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\PublishWebHandler.cs",
+      "OriginalGuid": "eb8c315806fc8c646a57cec0518d24b6",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "PublishWebHandler",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.PublishWebHandler",
+      "FileID": 945785824
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\StoreService.cs",
+      "OriginalGuid": "5865378707de6a74f952318fdd266dbb",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "StoreService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.StoreService",
+      "FileID": -1485639632
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\FavoriteData.cs",
+      "OriginalGuid": "6534f0ebc0745c24bb31e7f136f14337",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "FavoriteData",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.FavoriteData",
+      "FileID": 485699988
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCFavoriteCatalog.cs",
+      "OriginalGuid": "ce0d5ebbba6206f4f8a85656c3d2a760",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCFavoriteCatalog",
+      "ClassName": "UGCFavoriteCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCFavoriteCatalog.UGCFavoriteCatalog",
+      "FileID": -646061098
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\WebviewAppManager.cs",
+      "OriginalGuid": "a0c537a951c816d4c9dd55fcdc1c7152",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore",
+      "ClassName": "WebviewAppManager",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.WebviewAppManager",
+      "FileID": -1335386496
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\StoveRequestHandler.cs",
+      "OriginalGuid": "75a69f6b4461423db1a508f28cdde0ba",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "StoveRequestHandler",
+      "ClassFullName": "USGWebServices.Editor.Stove.StoveRequestHandler",
+      "FileID": 637506678
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\WebServices\\WebHandler.cs",
+      "OriginalGuid": "ed4cc904d92faa64aaf48709e99a2b1b",
+      "ClassNamespace": "USGWebServices.Editor.WebServices",
+      "ClassName": "WebHandler",
+      "ClassFullName": "USGWebServices.Editor.WebServices.WebHandler",
+      "FileID": 75090889
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Util\\PublishUtil.cs",
+      "OriginalGuid": "2b5868cf70160244ebc999106e7ecf38",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Util",
+      "ClassName": "PublishUtil",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Util.PublishUtil",
+      "FileID": 1505841753
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\PublishAsset.cs",
+      "OriginalGuid": "a1e9f67b023ed504e85c9ff3a51d6d5a",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "PublishAsset",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.PublishAsset",
+      "FileID": -630233282
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\Data\\RequestMod.cs",
+      "OriginalGuid": "d18e560cb068455eaabf1c48b8943d9f",
+      "ClassNamespace": "USGWebServices.Editor.Stove.Data",
+      "ClassName": "RequestMod",
+      "ClassFullName": "USGWebServices.Editor.Stove.Data.RequestMod",
+      "FileID": 805308980
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Util\\PortHoldOn.cs",
+      "OriginalGuid": "8d3d0d618e8c7ca4db4bd617ac3b57f4",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Util",
+      "ClassName": "PortHoldOn",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Util.PortHoldOn",
+      "FileID": -187940206
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Heartbeat\\HeartbeatService.cs",
+      "OriginalGuid": "27d42c1da0ca6d647a249cfff18ea391",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Heartbeat",
+      "ClassName": "HeartbeatService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Heartbeat.HeartbeatService",
+      "FileID": -378716310
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Heartbeat\\HeartbeatService.HeartbeatOption.cs",
+      "OriginalGuid": "46d49a4130c04501b23cbcc2e60be2ba",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Heartbeat",
+      "ClassName": "HeartbeatService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Heartbeat.HeartbeatService",
+      "FileID": -378716310
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\Data\\StoveData.cs",
+      "OriginalGuid": "3883ea784cae4f58bc3a3acac11982a5",
+      "ClassNamespace": "USGWebServices.Editor.Stove.Data",
+      "ClassName": "OpenWICRoot",
+      "ClassFullName": "USGWebServices.Editor.Stove.Data.OpenWICRoot",
+      "FileID": 284966541
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\Data\\ResponseMod.cs",
+      "OriginalGuid": "699ac45404f149bca5bdc5c9fbd50545",
+      "ClassNamespace": "USGWebServices.Editor.Stove.Data",
+      "ClassName": "ResponseMod",
+      "ClassFullName": "USGWebServices.Editor.Stove.Data.ResponseMod",
+      "FileID": 93232269
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\DataZipUploadCatalog.cs",
+      "OriginalGuid": "8af7737958be4e948660591ff28b2487",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog",
+      "ClassName": "DataZipUploadCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.DataZipUploadCatalog",
+      "FileID": 763652681
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\ResourceServiceBase.cs",
+      "OriginalGuid": "2308b1bf9ea6b0c45bb1d9087dec5001",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services",
+      "ClassName": "ResourceServiceBase",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.ResourceServiceBase",
+      "FileID": -1644373751
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\ModPublishService.cs",
+      "OriginalGuid": "ecedfb713ebda9c469e10fc338391204",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "ModPublishService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.ModPublishService",
+      "FileID": 382975663
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCGetUGCCatalog.cs",
+      "OriginalGuid": "8fa61ae4a1f2dc643983b3b6f342ccf5",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCGetUGCCatalog",
+      "ClassName": "UGCGetUGCCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCGetUGCCatalog.UGCGetUGCCatalog",
+      "FileID": -1171057039
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\UploadDataZipData.cs",
+      "OriginalGuid": "24e8425524ce491c92ab092f56751220",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "UploadDataZipData",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.UploadDataZipData",
+      "FileID": -796507316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\ResourceStoreMenu.cs",
+      "OriginalGuid": "eb3156746395c2d439e3c99489f31d47",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore",
+      "ClassName": "ResourceStoreMenu",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.ResourceStoreMenu",
+      "FileID": 1277633237
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\PublishUGC2Stove.cs",
+      "OriginalGuid": "22392b815abc4e7286c73cf4d3b9e056",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "PublishUGC2Stove",
+      "ClassFullName": "USGWebServices.Editor.Stove.PublishUGC2Stove",
+      "FileID": 552239466
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\StoveWebApiService.cs",
+      "OriginalGuid": "44d0fd714cd144988ce918d70a24f892",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "StoveWebApiService",
+      "ClassFullName": "USGWebServices.Editor.Stove.StoveWebApiService",
+      "FileID": -76438008
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\EditorApplicationHandling\\EditorStartUpSequence.cs",
+      "OriginalGuid": "98b2dd4e6f9b043449c9636f5cf71a54",
+      "ClassNamespace": "USGWebServices.Editor.EditorApplicationHandling",
+      "ClassName": "EditorStartUpSequence",
+      "ClassFullName": "USGWebServices.Editor.EditorApplicationHandling.EditorStartUpSequence",
+      "FileID": -634948479
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\StoveRequestContext.cs",
+      "OriginalGuid": "a8705acfa78a46a9a04c3656d0ee47f8",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "StoveRequestContext",
+      "ClassFullName": "USGWebServices.Editor.Stove.StoveRequestContext",
+      "FileID": -1482088359
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\UserActionWatcher.cs",
+      "OriginalGuid": "97ef1165645f4694ade6705cdfb3afc9",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "UserActionWatcher",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.UserActionWatcher",
+      "FileID": -358901333
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\WICScreenSize.cs",
+      "OriginalGuid": "d98e174471f340d0b86518fa566b4844",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "WICScreenSize",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.WICScreenSize",
+      "FileID": -782933704
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\Catalog\\UGCShopCatalog.cs",
+      "OriginalGuid": "77410a4bbd8d97c49880ae446e2b59d3",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCShopCatalog",
+      "ClassName": "UGCShopCatalog",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.Catalog.UGCShopCatalog.UGCShopCatalog",
+      "FileID": -917642421
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Pages\\InventoryPage.cs",
+      "OriginalGuid": "784b2101c245cc940b28a55d1dcd5ad7",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Pages",
+      "ClassName": "InventoryPage",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Pages.InventoryPage",
+      "FileID": 943899195
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\Stove\\StoveAPI.cs",
+      "OriginalGuid": "aa251ae628f74c2c81c549ed00a255e0",
+      "ClassNamespace": "USGWebServices.Editor.Stove",
+      "ClassName": "StoveAPI",
+      "ClassFullName": "USGWebServices.Editor.Stove.StoveAPI",
+      "FileID": 577244287
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Services\\Publish\\ResourcePublishService.cs",
+      "OriginalGuid": "b0b1b5df1db24734b8034293fa5a059c",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Services.Publish",
+      "ClassName": "ResourcePublishService",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Services.Publish.ResourcePublishService",
+      "FileID": -152606720
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Data\\ShopData.cs",
+      "OriginalGuid": "bd8afeee1cd0eff4fb5e154d8aefd86d",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Data",
+      "ClassName": "ShopData",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Data.ShopData",
+      "FileID": 122678171
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgwebservices\\Scripts\\Editor\\ResourceStore\\Pages\\MyUGCPage.cs",
+      "OriginalGuid": "f6be0ca2ddcb7ae45833cc83ad43eca6",
+      "ClassNamespace": "USGWebServices.Editor.ResourceStore.Pages",
+      "ClassName": "MyUGCPage",
+      "ClassFullName": "USGWebServices.Editor.ResourceStore.Pages.MyUGCPage",
+      "FileID": 55539044
+    }
+  ]
+}

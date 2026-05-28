@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1757716776, guid: 7f91a3146d0514747a4728cce2bea13d, type: 3}
+  m_Name: Backup_NewBehaviorTree 1
+  m_EditorClassIdentifier: 
+  rootNodeId: 
+  nodes:
+  - nodeId: 417590f8-087f-4a30-8815-b93ebafe7ea5
+    nodeType: TaskMoveToPosition
+    position: {x: 272.00006, y: 691.9602}
+    nodeName: TaskMoveToPosition
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - sharedTimerKey
+    - trackingDist
+    - layerName
+    - moveSpeed
+    paramValues:
+    - RandomTarget
+    - SharedMoveEndTime
+    - 1.5
+    - Default
+    - 3.5
+  - nodeId: 363f73e3-4aca-4e4c-92a9-991cefd5a807
+    nodeType: MemorySequence
+    position: {x: 272.00006, y: 165.96022}
+    nodeName: Patrol Logic
+    parentId: 
+    childrenIds:
+    - ae7876f3-8dc0-4f94-abbd-3a4a8e539cff
+    - 417590f8-087f-4a30-8815-b93ebafe7ea5
+    paramKeys: []
+    paramValues: []
+  - nodeId: ae7876f3-8dc0-4f94-abbd-3a4a8e539cff
+    nodeType: TaskSetRandomTarget
+    position: {x: 255.00008, y: 386.96027}
+    nodeName: Set Random Target
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - boundsKey
+    paramValues:
+    - RandomTarget
+    - MapBounds
+  - nodeId: 895f062c-a639-4f96-aca0-faaf8d027c5c
+    nodeType: MemorySequence
+    position: {x: 610.0001, y: -72.039825}
+    nodeName: Return Logic
+    parentId: 
+    childrenIds:
+    - 04b2f0c0-605d-467f-804c-caaa773de83b
+    - 963d9ad1-2190-4f22-b89f-d22d1478799b
+    paramKeys: []
+    paramValues: []
+  - nodeId: 04b2f0c0-605d-467f-804c-caaa773de83b
+    nodeType: TaskSetRandomTarget
+    position: {x: 688.0001, y: 165.96022}
+    nodeName: Set Center Target
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - boundsKey
+    paramValues:
+    - RandomTarget
+    - MapBounds
+  - nodeId: 963d9ad1-2190-4f22-b89f-d22d1478799b
+    nodeType: TaskMoveToPosition
+    position: {x: 688.0001, y: 386.96027}
+    nodeName: Return Move
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - sharedTimerKey
+    - trackingDist
+    - layerName
+    - moveSpeed
+    paramValues:
+    - RandomTarget
+    - SharedMoveEndTime
+    - 1.5
+    - Default
+    - 3.5
+  - nodeId: 671f9723-f893-409f-bfc9-ebac894bc090
+    nodeType: TaskMoveToPosition
+    position: {x: 1115.4606, y: -680}
+    nodeName: EMERGENCY MOVE
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - sharedTimerKey
+    - trackingDist
+    - layerName
+    - moveSpeed
+    paramValues:
+    - RandomTarget
+    - SharedMoveEndTime
+    - 1.5
+    - Default
+    - 3.5
+  - nodeId: 1b222068-73b0-452c-96f0-5138add63ec9
+    nodeType: MemorySequence
+    position: {x: 1030.0001, y: -885.99994}
+    nodeName: Emergency Logic
+    parentId: 
+    childrenIds:
+    - 671f9723-f893-409f-bfc9-ebac894bc090
+    paramKeys: []
+    paramValues: []
+  - nodeId: 90eb0eab-1a10-4322-a9bc-b97070222e1f
+    nodeType: ConditionIsInBoundary
+    position: {x: 245.00008, y: -72.039825}
+    nodeName: checkInPatrolBounds
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - boundsKey
+    - targetType
+    - targetKey
+    paramValues:
+    - mapBounds
+    - Self
+    - In Patrol Bounds?
+  - nodeId: 9cc2fdf1-7b27-4946-a1af-9c9b4fa184de
+    nodeType: ConditionIsInBoundary
+    position: {x: 370, y: -722}
+    nodeName: checkInMapBounds
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - boundsKey
+    - targetType
+    - targetKey
+    paramValues:
+    - patrolBounds
+    - Self
+    - In Map Bounds?
+  - nodeId: 89eb4011-de66-4b32-908c-a59cb7506a90
+    nodeType: Selector
+    position: {x: 370, y: -493}
+    nodeName: Normal Routine Selector
+    parentId: 
+    childrenIds:
+    - a7a97b4c-5109-4284-9297-361be7270cd9
+    - 4d3cf1f1-a12e-45e1-a0ff-b4dc95bc4501
+    paramKeys: []
+    paramValues: []
+  - nodeId: a7a97b4c-5109-4284-9297-361be7270cd9
+    nodeType: Sequence
+    position: {x: 267.00012, y: -238.03984}
+    nodeName: Check Patrol
+    parentId: 
+    childrenIds:
+    - 90eb0eab-1a10-4322-a9bc-b97070222e1f
+    - 363f73e3-4aca-4e4c-92a9-991cefd5a807
+    paramKeys: []
+    paramValues: []
+  - nodeId: 4d3cf1f1-a12e-45e1-a0ff-b4dc95bc4501
+    nodeType: Sequence
+    position: {x: 610.0001, y: -238.03984}
+    nodeName: Out of Patrol
+    parentId: 
+    childrenIds:
+    - 895f062c-a639-4f96-aca0-faaf8d027c5c
+    paramKeys: []
+    paramValues: []
+  - nodeId: 97fd576d-9af6-4bc0-bfcf-2ed238a1f343
+    nodeType: Sequence
+    position: {x: 387.5001, y: -900.10016}
+    nodeName: Safe Zone Logic
+    parentId: 
+    childrenIds:
+    - 9cc2fdf1-7b27-4946-a1af-9c9b4fa184de
+    - 89eb4011-de66-4b32-908c-a59cb7506a90
+    paramKeys: []
+    paramValues: []
+  - nodeId: eb4f67a2-656f-4d71-abaf-781f50276ff8
+    nodeType: Selector
+    position: {x: 491.5, y: -1231}
+    nodeName: Move Phase Selector
+    parentId: 
+    childrenIds:
+    - 97fd576d-9af6-4bc0-bfcf-2ed238a1f343
+    - 1b222068-73b0-452c-96f0-5138add63ec9
+    paramKeys: []
+    paramValues: []
+  - nodeId: 58680c71-4173-4d28-8446-66ca9803cd4f
+    nodeType: TaskWait
+    position: {x: 1542.661, y: -886}
+    nodeName: TaskWait
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - minTime
+    - maxTime
+    paramValues:
+    - 3
+    - 5
+  - nodeId: bf7995e4-bd07-43df-a01f-f1d68798d0cd
+    nodeType: Sequence
+    position: {x: 983.5, y: -1231.0001}
+    nodeName: Global Wait Sequence
+    parentId: 
+    childrenIds:
+    - 58680c71-4173-4d28-8446-66ca9803cd4f
+    paramKeys: []
+    paramValues: []
+  - nodeId: 740cd258-09fc-48e7-85ce-19bce7c9e332
+    nodeType: MemorySequence
+    position: {x: 419.00006, y: -1640.6735}
+    nodeName: Spy Main Loop
+    parentId: 
+    childrenIds:
+    - ac177afd-c7b3-4af2-b02d-290cb1c28760
+    - eb4f67a2-656f-4d71-abaf-781f50276ff8
+    - bf7995e4-bd07-43df-a01f-f1d68798d0cd
+    paramKeys: []
+    paramValues: []
+  - nodeId: ac177afd-c7b3-4af2-b02d-290cb1c28760
+    nodeType: TaskSetRandomTimer
+    position: {x: 33.34503, y: -1231}
+    nodeName: Set Move Time (8~13s)
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - key
+    - minTime
+    - maxTime
+    paramValues:
+    - SharedMoveEndTime
+    - 8
+    - 13

@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/dark.uss?fileID=7433441132597879392&amp;guid=fd17f51ae6a768943b00a6bfb1d60ea4&amp;type=3#dark" />
+    <ui:VisualElement name="Top" class="SettingsCategoryBackground" style="border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+        <ui:VisualElement name="Layout" style="flex-direction: row; width: 100%; height: 100%; margin-top: 20px; margin-bottom: 20px;">
+            <ui:VisualElement name="Left" style="width: 50%; align-items: center;">
+                <ui:VisualElement name="Model" style="width: 300px; height: 300px; background-color: rgb(37, 58, 85);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Right" style="width: 50%; flex-direction: row; margin-right: 10px; margin-left: 10px;">
+                <ui:VisualElement name="Labels" style="width: 20%;">
+                    <ui:Label text="Head" display-tooltip-when-elided="true" name="Head" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Hair" display-tooltip-when-elided="true" name="Hair" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Face" display-tooltip-when-elided="true" name="Face" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Body" display-tooltip-when-elided="true" name="Body" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Neck" display-tooltip-when-elided="true" name="Neck" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Foot" display-tooltip-when-elided="true" name="Foot" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                    <ui:Label text="Back" display-tooltip-when-elided="true" name="Back" class="Label" style="height: 30px; -unity-text-align: middle-left; margin-top: 2px; margin-bottom: 2px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ObjectFields" class="Field" style="width: 80%; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                    <GlobalCustomUI.VObjectField name="Head" style="margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0; height: 30px;" />
+                    <GlobalCustomUI.VObjectField name="hair" style="margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0; height: 30px;" />
+                    <GlobalCustomUI.VObjectField name="Face" style="height: 30px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;" />
+                    <GlobalCustomUI.VObjectField name="Body" style="height: 30px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;" />
+                    <GlobalCustomUI.VObjectField name="Neck" style="height: 30px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;" />
+                    <GlobalCustomUI.VObjectField name="Foot" style="height: 30px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;" />
+                    <GlobalCustomUI.VObjectField name="Back" style="height: 30px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

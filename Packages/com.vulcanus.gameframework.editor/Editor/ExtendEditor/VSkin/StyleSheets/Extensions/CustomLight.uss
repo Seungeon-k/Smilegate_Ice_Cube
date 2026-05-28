@@ -1,0 +1,207 @@
+
+Label{
+    color : rgb(65, 65, 65);
+}
+
+.AppToolbar{ 
+	background-color : rgb(136, 165, 236);
+}
+.dragtab-label{ 
+	background-color : rgb(255, 255, 255);
+	border-top-left-radius : 10px;
+	border-top-right-radius : 10px;
+}
+.dragtab first{
+    background-color : rgb(255, 255, 255);
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+.AppBackground{ 
+	background-color : rgb(106, 143, 231);
+}
+.OnAppBackgroundIcon{ 
+	background-color : rgb(255, 243, 243);
+}
+.OnAppBackgroundText{ 
+	background-color : rgb(255, 243, 243);
+}
+.WindowBackground{ 
+	background-color : rgb(136, 165, 236);
+}
+.OnWindowBackgroundIcon{ 
+	background-color : rgb(136, 165, 236);
+}
+.WindowContainer{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnWindowContainerText{ 
+	color : rgb(65, 65, 65);
+	-unity-background-image-tint-color : rgb(65, 65, 65);
+}
+.OnWindowContainerTextSub{ 
+	color : rgb(116, 122, 141);
+}
+.TabBackground{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnTabText{ 
+	color : rgb(88, 95, 188);
+}
+.OnTabIcon{
+    -unity-background-image-tint-color : rgb(88, 95, 188);
+}
+.InspectorComponentBackground{ 
+	background-color : rgb(243, 247, 252);
+}
+.OnInspectorComponentText{ 
+	color : rgb(65, 65, 65);
+}
+.OnInspectorComponentIcon{ 
+	-unity-background-image-tint-color : rgb(112, 137, 208);
+}
+.DivideBorder{ 
+	background-color : rgb(156, 183, 221);
+}
+.FieldBackground{ 
+	background-color : rgb(255, 255, 255);
+}
+.FieldBorder{ 
+	border-left-color : rgb(176, 224, 255);
+	border-right-color : rgb(176, 224, 255);
+	border-top-color : rgb(176, 224, 255);
+	border-bottom-color : rgb(176, 224, 255);
+	border-top-width : 0.5px;
+	border-right-width : 0.5px;
+	border-bottom-width : 0.5px;
+	border-left-width : 0.5px;
+}
+.OnFieldText{ 
+	color : rgb(65, 65, 65);
+}
+.OnFieldIcon{ 
+	-unity-background-image-tint-color : rgb(65, 65, 65);
+}
+.AddButtonBackground{ 
+	background-color : rgb(154, 127, 253);
+}
+.OnAddButtonText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnAddButtonIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.CommonButton{ 
+	background-color : rgb(233, 240, 248);
+}
+.OnCommonButtonIcon{ 
+	background-color : rgb(154, 153, 198);
+}
+.OnCommonButtonDisabled{ 
+	background-color : rgb(174, 173, 209);
+}
+.FocusActive{ 
+	background-color : rgb(97, 194, 255);
+}
+.OnFocusActiveText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnFocusActiveIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.LayoutSlider{ 
+	background-color : rgb(190, 204, 254);
+}
+.LayoutSliderHandle{ 
+	background-color : rgb(152, 152, 152);
+}
+.Scrollbar{ 
+	background-color : rgb(190, 204, 254);
+}
+.ScrollbarArrow{ 
+	background-color : rgb(152, 152, 152);
+}
+.ToggleBackground{ 
+	background-color : rgb(220, 229, 241);
+}
+.ToggleSelected{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnToggleText{ 
+	color : rgb(65, 65, 65);
+}
+.OnToggleIcon{ 
+	background-color : rgb(65, 65, 65);
+}
+.DropdownBackground{ 
+	background-color : rgb(233, 240, 248);
+}
+.DropdownBorder{ 
+	border-left-color : rgb(164, 170, 246);
+	border-right-color : rgb(164, 170, 246);
+	border-top-color : rgb(164, 170, 246);
+	border-bottom-color : rgb(164, 170, 246);
+}
+.OnDropdownText{ 
+	background-color : rgb(90, 76, 142);
+}
+.OnDropdownIcon{ 
+	background-color : rgb(90, 76, 142);
+}
+.SceneItemBackground{ 
+	background-color : rgb(233, 240, 248);
+}
+.SceneItemText{ 
+	color : rgb(65, 65, 65);
+}
+.SceneItemIcon{ 
+	-unity-background-image-tint-color : rgb(88, 95, 188);
+}
+.SettingsMenuBackground{ 
+	background-color : rgb(220, 229, 241);
+}
+.SettingsMenuSelected{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnSettingsMenuText{ 
+	color : rgb(65, 65, 65);
+}
+.MessageBackground{ 
+	background-color : rgb(243, 247, 252);
+}
+.SettingsCategoryBackground{ 
+	background-color : rgb(243, 247, 252);
+}
+.SettingsCategoryListBackground{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnSettingsCategoryText{ 
+	color : rgb(65, 65, 65);
+}
+.OnSettingsCategoryIcon{ 
+	-unity-background-image-tint-color : rgba(243, 247, 252, 255);
+}
+.ListHover {
+    background-color: rgb(229, 229, 229);
+}
+.TooltipBackground {
+    color: rgb(255, 255, 255);
+}
+.TooltipBorder {
+    color: rgb(136, 165, 236);
+}
+.OnTooltip {
+    color: rgb(65, 65, 65);
+}
+.OnTooltipInfo {
+    color: rgb(136, 165, 236);
+}
+.OnTooltipInfoBorder {
+    color: rgb(136, 165, 236);
+}
+
+.TitleBackground {
+   color: rgb(220, 229, 241);
+}
+.ListInnerBox {
+   color: rgb(243, 247, 252);
+}

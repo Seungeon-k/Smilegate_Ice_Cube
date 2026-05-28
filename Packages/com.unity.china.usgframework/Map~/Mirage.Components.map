@@ -1,0 +1,182 @@
+{
+  "Name": "Mirage.Components",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\Mirage.Components.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\DisplayMetrics\\DisplayMetricsAverageGui.cs",
+      "OriginalGuid": "fc574a7aad794bb4f92d506123548695",
+      "ClassNamespace": "Mirage.DisplayMetrics",
+      "ClassName": "DisplayMetricsAverageGui",
+      "ClassFullName": "Mirage.DisplayMetrics.DisplayMetricsAverageGui",
+      "FileID": 1983818682
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkPingDisplay.cs",
+      "OriginalGuid": "bc654f29862fc2643b948f772ebb9e68",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPingDisplay",
+      "ClassFullName": "Mirage.NetworkPingDisplay",
+      "FileID": 1197526983
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkManagerHud.cs",
+      "OriginalGuid": "6442dc8070ceb41f094e44de0bf87274",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkManagerHud",
+      "ClassFullName": "Mirage.NetworkManagerHud",
+      "FileID": -1793654552
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\DisplayMetrics\\SetDisplayMetrics.cs",
+      "OriginalGuid": "7c354427f6a5b2d4e85a2d7b3336615c",
+      "ClassNamespace": "Mirage.DisplayMetrics",
+      "ClassName": "SetDisplayMetrics",
+      "ClassFullName": "Mirage.DisplayMetrics.SetDisplayMetrics",
+      "FileID": -746297342
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\DisplayMetrics\\RequestServerMetrics.cs",
+      "OriginalGuid": "0a72d47940bf27744a731a75b77323b4",
+      "ClassNamespace": "Mirage.DisplayMetrics",
+      "ClassName": "RequestServerMetrics",
+      "ClassFullName": "Mirage.DisplayMetrics.RequestServerMetrics",
+      "FileID": 390444566
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\ReadyCheck.cs",
+      "OriginalGuid": "0bb33fde051722548ab1b202b8d9237c",
+      "ClassNamespace": "Mirage.Components",
+      "ClassName": "ReadyCheck",
+      "ClassFullName": "Mirage.Components.ReadyCheck",
+      "FileID": 1014636265
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\HostRendererVisibility.cs",
+      "OriginalGuid": "275d345d2dec7874c9952f264c4b1bac",
+      "ClassNamespace": "Mirage",
+      "ClassName": "HostRendererVisibility",
+      "ClassFullName": "Mirage.HostRendererVisibility",
+      "FileID": -1505178655
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\HeadlessFrameLimiter.cs",
+      "OriginalGuid": "0bdbb066fe0e4a74fa881291f96bac11",
+      "ClassNamespace": "Mirage",
+      "ClassName": "HeadlessFrameLimiter",
+      "ClassFullName": "Mirage.HeadlessFrameLimiter",
+      "FileID": -1363507802
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\OnlineOfflineScene.cs",
+      "OriginalGuid": "bcf064708efd1d543b42f6bc5a0ca1da",
+      "ClassNamespace": "Mirage",
+      "ClassName": "OnlineOfflineScene",
+      "ClassFullName": "Mirage.OnlineOfflineScene",
+      "FileID": 927892282
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\SyncObjectActive.cs",
+      "OriginalGuid": "0ed2de9acd52ea94d80c248e534284e3",
+      "ClassNamespace": "Mirage.Components",
+      "ClassName": "SyncObjectActive",
+      "ClassFullName": "Mirage.Components.SyncObjectActive",
+      "FileID": 26386089
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkTransformBase.cs",
+      "OriginalGuid": "2e77294d8ccbc4e7cb8ca2bd0d3e99ea",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkTransformBase",
+      "ClassFullName": "Mirage.NetworkTransformBase",
+      "FileID": -1585363205
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\HeadlessAutoStart.cs",
+      "OriginalGuid": "f333c8247442ac84db6c38b8ac66a6ed",
+      "ClassNamespace": "Mirage",
+      "ClassName": "HeadlessAutoStart",
+      "ClassFullName": "Mirage.HeadlessAutoStart",
+      "FileID": 414025519
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkManagerGUI.cs",
+      "OriginalGuid": "81da5905cb362874ba7cbe36247debba",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkManagerGUI",
+      "ClassFullName": "Mirage.NetworkManagerGUI",
+      "FileID": -226852194
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\NetworkProximityChecker.cs",
+      "OriginalGuid": "1731d8de2d0c84333b08ebe1e79f4118",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkProximityChecker",
+      "ClassFullName": "Mirage.NetworkProximityChecker",
+      "FileID": 730496744
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkAnimator.cs",
+      "OriginalGuid": "7f6f3bf89aa97405989c802ba270f815",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkAnimator",
+      "ClassFullName": "Mirage.NetworkAnimator",
+      "FileID": 18526843
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkTransformChild.cs",
+      "OriginalGuid": "734b48bea0b204338958ee3d885e11f0",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkTransformChild",
+      "ClassFullName": "Mirage.NetworkTransformChild",
+      "FileID": -1511725864
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\AlwaysNetworkVisibility.cs",
+      "OriginalGuid": "fe574c41a22a1bb47ba63192717cdb65",
+      "ClassNamespace": "Mirage.Visibility",
+      "ClassName": "AlwaysNetworkVisibility",
+      "ClassFullName": "Mirage.Visibility.AlwaysNetworkVisibility",
+      "FileID": -1593137169
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\SceneChecking\\SceneVisibilityChecker.cs",
+      "OriginalGuid": "b042155288d5f454791cbf81c3a78fc7",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SceneVisibilityChecker",
+      "ClassFullName": "Mirage.SceneVisibilityChecker",
+      "FileID": 497774873
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\LobbyReady.cs",
+      "OriginalGuid": "cab1987daf098074b9ff0d39fbb3d37b",
+      "ClassNamespace": "Mirage.Components",
+      "ClassName": "LobbyReady",
+      "ClassFullName": "Mirage.Components.LobbyReady",
+      "FileID": 1277525287
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\SceneChecking\\NetworkSceneChecker.cs",
+      "OriginalGuid": "b7fdb599e1359924bad6255660370252",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkSceneChecker",
+      "ClassFullName": "Mirage.NetworkSceneChecker",
+      "FileID": -1183893798
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\Visibility\\NetworkMatchChecker.cs",
+      "OriginalGuid": "1020a74962faada4b807ac5dc053a4cf",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkMatchChecker",
+      "ClassFullName": "Mirage.NetworkMatchChecker",
+      "FileID": -738968527
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Components\\NetworkTransform.cs",
+      "OriginalGuid": "2f74aedd71d9a4f55b3ce499326d45fb",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkTransform",
+      "ClassFullName": "Mirage.NetworkTransform",
+      "FileID": -1814523301
+    }
+  ]
+}

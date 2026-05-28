@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1757716776, guid: 7f91a3146d0514747a4728cce2bea13d, type: 3}
+  m_Name: NewBehaviorTree
+  m_EditorClassIdentifier: 
+  rootNodeId: 740cd258-09fc-48e7-85ce-19bce7c9e332
+  nodes:
+  - nodeId: fe14ee21-d6dc-48b2-81fa-a1f640035b95
+    nodeType: Selector
+    position: {x: 150, y: -1520}
+    nodeName: Selector
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: 397a0d15-96b0-4a77-89d7-371fb155ef7c
+    nodeType: Sequence
+    position: {x: 368, y: -1520}
+    nodeName: Sequence
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: 8e4dff41-5391-4505-ad7b-bb00b154c344
+    nodeType: MemorySequence
+    position: {x: 592, y: -1520}
+    nodeName: MemorySequence
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: 5049ae97-6f04-4294-8fd4-b93ac4098f48
+    nodeType: RepeaterSequence
+    position: {x: 845, y: -1539}
+    nodeName: RepeaterSequence
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - repeatPolicy
+    paramValues:
+    - RepeatUntilSuccess
+    objectKeys: []
+    objectValues: []
+  - nodeId: e2a78869-0d56-47c8-950a-e445e69a3f34
+    nodeType: OneShotSequence
+    position: {x: 1127, y: -1539}
+    nodeName: OneShotSequence
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: 670a75c2-1d2b-49d6-840d-af50ca492deb
+    nodeType: TaskSetRandomFloat
+    position: {x: 150, y: -1300}
+    nodeName: TaskSetRandomFloat
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - key
+    - minTime
+    - maxTime
+    paramValues:
+    - SharedMoveEndTime
+    - 8
+    - 13
+    objectKeys: []
+    objectValues: []
+  - nodeId: 73d0f812-ab02-407c-b555-897894e6ec0d
+    nodeType: TaskWait
+    position: {x: 459, y: -1300}
+    nodeName: TaskWait
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - minTime
+    - maxTime
+    paramValues:
+    - 3
+    - 5
+    objectKeys: []
+    objectValues: []
+  - nodeId: dd792e10-bbae-4567-9f74-b1c2d1544a9c
+    nodeType: TaskMoveToPosition
+    position: {x: 671, y: -1300}
+    nodeName: TaskMoveToPosition
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - sharedTimerKey
+    - trackingDist
+    - layerMask
+    - minTime
+    - maxTime
+    - useMeshSizeCorrection
+    paramValues:
+    - RandomTarget
+    - SharedMoveEndTime
+    - 1.5
+    - 0
+    - 3
+    - 5
+    - False
+    objectKeys: []
+    objectValues: []
+  - nodeId: db228d29-eb8b-47ce-a732-8de37701ff52
+    nodeType: TaskSetRandomTargetInBounds
+    position: {x: 950, y: -1300}
+    nodeName: TaskSetRandomTargetInBounds
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - boundsKey
+    paramValues:
+    - RandomTarget
+    - MapBounds
+    objectKeys: []
+    objectValues: []
+  - nodeId: 7122e416-d856-4228-a924-efc04b2f3d51
+    nodeType: TaskRandomMove
+    position: {x: 1292, y: -1300}
+    nodeName: TaskRandomMove
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - key
+    - checkFallDistance
+    - minTime
+    - maxTime
+    paramValues:
+    - SharedMoveEndTime
+    - 1
+    - 8
+    - 13
+    objectKeys: []
+    objectValues: []
+  - nodeId: 57409795-3322-4d0f-9f44-c4b96ad0b117
+    nodeType: TaskFailure
+    position: {x: 150, y: -934}
+    nodeName: TaskFailure
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: 7cb4c756-2164-45de-9030-f660c4d5d8c1
+    nodeType: TaskRunning
+    position: {x: 388, y: -934}
+    nodeName: TaskRunning
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: c98ef603-f930-4e50-b2fa-414e5b593270
+    nodeType: TaskChangeBT
+    position: {x: 621, y: -934}
+    nodeName: TaskChangeBT
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys:
+    - BehaviorTreeAsset
+    objectValues:
+    - {fileID: 11400000, guid: 96abde444a5bdb34b8c6094e81f147a3, type: 2}
+  - nodeId: f93607eb-81ef-42b6-8b5f-588b4c697615
+    nodeType: TaskSearchNearTarget
+    position: {x: 1002, y: -934}
+    nodeName: TaskSearchNearTarget
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    paramValues:
+    - Target
+    objectKeys: []
+    objectValues: []
+  - nodeId: ce669ce1-95cc-49a6-94cd-d3fb0bd8322c
+    nodeType: TaskJump
+    position: {x: 1289, y: -934}
+    nodeName: TaskJump
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - jumpMaxTime
+    paramValues:
+    - Target
+    - 0.38
+    objectKeys: []
+    objectValues: []
+  - nodeId: 41091496-27e1-4059-bfda-8afe7eb58d96
+    nodeType: TaskAvoidTarget
+    position: {x: 150, y: -664}
+    nodeName: TaskAvoidTarget
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - updateInterval
+    - totalDuration
+    paramValues:
+    - Target
+    - 1
+    - -1
+    objectKeys: []
+    objectValues: []
+  - nodeId: 825a54f6-b828-4931-af2f-500f6a88c038
+    nodeType: TaskDash
+    position: {x: 425, y: -664}
+    nodeName: TaskDash
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - coolTime
+    paramValues:
+    - 3
+    objectKeys: []
+    objectValues: []
+  - nodeId: a23511cc-49b3-423f-8104-0480c1d952ad
+    nodeType: TaskUpdatePlatformScanner
+    position: {x: 647, y: -664}
+    nodeName: TaskUpdatePlatformScanner
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - rootKeys
+    - searchTargetNames
+    paramValues:
+    - Target
+    - 
+    - 
+    objectKeys: []
+    objectValues: []
+  - nodeId: 7325710d-15e7-4b13-96c6-42be593af91b
+    nodeType: TaskFindTargets
+    position: {x: 971, y: -664}
+    nodeName: TaskFindTargets
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - searchNames
+    - searchType
+    paramValues:
+    - Target
+    - 
+    - Name
+    objectKeys: []
+    objectValues: []
+  - nodeId: 8c56931d-48a2-47a3-8db5-48f6934b1d38
+    nodeType: TaskUpdateZoneInfo
+    position: {x: 1225, y: -664}
+    nodeName: TaskUpdateZoneInfo
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - boundsListKey
+    - outZoneIndexKey
+    - outIsInsideKey
+    paramValues:
+    - IceZone
+    - CurrentZoneIndex
+    - IsInsideZone
+    objectKeys: []
+    objectValues: []
+  - nodeId: dd3646dc-b512-4c10-bf8f-7450b9ba0ea1
+    nodeType: TaskMoveZone
+    position: {x: 1517, y: -664}
+    nodeName: TaskMoveZone
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - zoneIndexKey
+    - zoneListKey
+    - separationDist
+    - separationWeight
+    - layerMask
+    paramValues:
+    - CurrentZoneIndex
+    - IceZone
+    - 2.5
+    - 2
+    - 0
+    objectKeys: []
+    objectValues: []
+  - nodeId: 69895a52-fcdc-4ce4-9512-44c1ade2c3d6
+    nodeType: ConditionIsInBoundary
+    position: {x: 183, y: -316}
+    nodeName: ConditionIsInBoundary
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - boundsKey
+    - targetType
+    - targetKey
+    paramValues:
+    - MapBounds
+    - Self
+    - Target
+    objectKeys: []
+    objectValues: []
+  - nodeId: 419c0bef-b78a-481d-a1d3-0c815d92e285
+    nodeType: ConditionCheckOverFloat
+    position: {x: 480, y: -316}
+    nodeName: ConditionCheckOverFloat
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - sharedTimerKey
+    paramValues:
+    - SharedMoveEndTime
+    objectKeys: []
+    objectValues: []
+  - nodeId: 4d13187a-3f4c-428d-b687-14296e0f3bc0
+    nodeType: ConditionIsInDistance
+    position: {x: 799, y: -316}
+    nodeName: ConditionIsInDistance
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - checkX
+    - checkY
+    - checkZ
+    - betweenDist
+    paramValues:
+    - Target
+    - True
+    - True
+    - True
+    - 2
+    objectKeys: []
+    objectValues: []
+  - nodeId: 50b7e4e8-95a0-4575-bb60-dd829ebc5b0b
+    nodeType: ConditionRaycast
+    position: {x: 1086, y: -316}
+    nodeName: ConditionRaycast
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - direction
+    - maxDistance
+    - layerMask
+    paramValues:
+    - (0, -1, 0)
+    - 1
+    - -1
+    objectKeys: []
+    objectValues: []
+  - nodeId: b166886b-0787-4db0-a7d3-718a023e1d8d
+    nodeType: ConditionCheckCharacterState
+    position: {x: 1346, y: -316}
+    nodeName: ConditionCheckCharacterState
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetState
+    paramValues:
+    - 1
+    objectKeys: []
+    objectValues: []
+  - nodeId: 1ba0ae5a-fb97-45eb-9a5f-f34c6ace5846
+    nodeType: ConditionCheckStuck
+    position: {x: 1719, y: -310}
+    nodeName: ConditionCheckStuck
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - stuckThresholdTime
+    - checkInterval
+    - moveThreshold
+    paramValues:
+    - 3
+    - 0.4
+    - 0.2
+    objectKeys: []
+    objectValues: []
+  - nodeId: 9fc49804-5c0d-4ac1-bc13-76873571e4f1
+    nodeType: ConditionIsOnGround
+    position: {x: 183, y: -77}
+    nodeName: ConditionIsOnGround
+    parentId: 
+    childrenIds: []
+    paramKeys: []
+    paramValues: []
+    objectKeys: []
+    objectValues: []
+  - nodeId: db84fb48-0907-426c-a28c-1e78ea708817
+    nodeType: ConditionContainsInt
+    position: {x: 185, y: 69}
+    nodeName: ConditionContainsInt
+    parentId: 
+    childrenIds: []
+    paramKeys:
+    - targetKey
+    - integers
+    paramValues:
+    - Target
+    - 
+    objectKeys: []
+    objectValues: []
+  blackboardKeys: []

@@ -1,0 +1,22 @@
+{
+    "name": "PixelCanvas.Editor",
+    "rootNamespace": "",
+    "references": [
+        "PixelCanvas",
+        "Unity.Addressables.Editor",
+        "EasyButtons",
+        "EasyButtons.Editor",
+        "Unity.Mathematics.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

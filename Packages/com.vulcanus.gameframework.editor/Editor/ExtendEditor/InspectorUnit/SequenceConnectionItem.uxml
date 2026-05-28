@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Root" style="flex-direction: row; height: 20px;">
+        <ui:VisualElement name="LeftVE" style="flex-direction: row; width: 50%; height: 20px; align-items: center;">
+            <ui:VisualElement name="SnapVE" style="width: 20px; display: flex; max-width: 20px;">
+                <ui:Label text="=" display-tooltip-when-elided="true" name="SnapLb" style="-unity-text-align: middle-center; justify-content: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="EnableVE" style="width: 20px; justify-content: center; align-items: center; flex-direction: row; display: none; max-width: 20px;">
+                <ui:Toggle name="EnableTb" style="width: auto; align-items: center; justify-content: center; height: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ObjectVE" style="flex-grow: 1;">
+                <uie:ObjectField name="RootOF" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="RightVE" style="flex-direction: row; width: 50%; height: 20px; align-items: center;">
+            <ui:VisualElement name="DropdownVE" style="flex-grow: 1;">
+                <ui:DropdownField name="EventDF" style="justify-content: flex-end;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="RemoveVE" style="width: 24px; max-width: 24px; min-width: 24px;">
+                <ui:Button text="-" display-tooltip-when-elided="true" name="RemoveBtn" style="width: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

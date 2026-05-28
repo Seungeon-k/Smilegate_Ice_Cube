@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "PetDrawInfo_Star": "!Int",
+    "PetDrawInfo_DrawCnt": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

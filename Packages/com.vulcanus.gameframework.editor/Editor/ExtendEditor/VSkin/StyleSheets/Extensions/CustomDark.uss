@@ -1,0 +1,192 @@
+.AppToolbar{ 
+	background-color : rgb(71, 72, 78);
+}
+.dragtab-label{ 
+	background-color : rgba(230, 227, 255, 0);
+}
+.AppBackground{ 
+	background-color : rgb(89, 90, 97);
+}
+.OnAppBackgroundIcon{ 
+	background-color : rgb(187, 192, 255);
+}
+.OnAppBackgroundText{ 
+	background-color : rgb(187, 192, 255);
+}
+.WindowBackground{ 
+	background-color : rgb(71, 72, 78);
+}
+.OnWindowBackgroundIcon{ 
+	background-color : rgb(187, 192, 255);
+}
+.WindowContainer{ 
+	background-color : rgb(83, 83, 91);
+}
+.OnWindowContainerText{ 
+	color : rgb(255, 255, 255);
+}
+.OnWindowContainerTextSub{ 
+	color : rgb(208, 213, 231);
+}
+.TabBackground{ 
+	background-color : rgb(83, 83, 91);
+}
+.OnTabText{ 
+	color : rgb(246, 247, 255);
+}
+.OnTabIcon{ 
+	-unity-background-image-tint-color : rgb(246, 247, 255);
+}
+.InspectorComponentBackground{ 
+	background-color : rgb(68, 68, 74);
+}
+.OnInspectorComponentText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnInspectorComponentIcon{ 
+	-unity-background-image-tint-color : rgb(255, 255, 255);
+}
+.DivideBorder{ 
+	background-color : rgb(96, 96, 105);
+}
+.FieldBackground{ 
+	background-color : rgb(80, 80, 92);
+}
+.FieldBorder{ 
+	border-left-color : rgb(67, 67, 72);
+	border-right-color : rgb(67, 67, 72);
+	border-top-color : rgb(67, 67, 72);
+	border-bottom-color : rgb(67, 67, 72);
+	border-top-width : 0.5px;
+	border-right-width : 0.5px;
+	border-bottom-width : 0.5px;
+	border-left-width : 0.5px;
+}
+.OnFieldText{ 
+	color : rgb(255, 255, 255);
+}
+.OnFieldIcon{ 
+	-unity-background-image-tint-color : rgb(255, 255, 255);
+}
+.AddButtonBackground{ 
+	background-color : rgb(89, 90, 97);
+}
+.OnAddButtonText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnAddButtonIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.CommonButton{ 
+	background-color : rgb(103, 105, 115);
+}
+.OnCommonButtonIcon{ 
+	background-color : rgb(201, 201, 201);
+}
+.OnCommonButtonDisabled{ 
+	background-color : rgb(152, 153, 158);
+}
+.FocusActive{ 
+	background-color : rgb(62, 95, 150);
+}
+.OnFocusActiveText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnFocusActiveIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.LayoutSlider{ 
+	background-color : rgb(96, 96, 105);
+}
+.LayoutSliderHandle{ 
+	background-color : rgb(141, 143, 152);
+}
+.Scrollbar{ 
+	background-color : rgb(141, 143, 152);
+}
+.ScrollbarArrow{ 
+	background-color : rgb(232, 232, 232);
+}
+.ToggleBackground{ 
+	background-color : rgb(96, 96, 105);
+}
+.ToggleSelected{ 
+	background-color : rgb(119, 119, 129);
+}
+.OnToggleText{ 
+	color : rgb(255, 255, 255);
+}
+.OnToggleIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.DropdownBackground{ 
+	background-color : rgb(80, 80, 92);
+}
+.DropdownBorder{ 
+	border-left-color : rgb(67, 67, 72);
+	border-right-color : rgb(67, 67, 72);
+	border-top-color : rgb(67, 67, 72);
+}
+.OnDropdownText{ 
+	background-color : rgb(255, 255, 255);
+}
+.OnDropdownIcon{ 
+	background-color : rgb(255, 255, 255);
+}
+.SceneItemBackground{ 
+	background-color : rgb(88, 95, 188);
+}
+.SceneItemText{ 
+	color : rgb(255, 255, 255);
+}
+.SceneItemIcon{ 
+	-unity-background-image-tint-color : rgb(255, 255, 255);
+}
+.SettingsMenuBackground{ 
+	background-color : rgb(99, 100, 111);
+}
+.SettingsMenuSelected{ 
+	background-color : rgb(119, 119, 129);
+}
+.OnSettingsMenuText{ 
+	color : rgb(255, 255, 255);
+}
+.MessageBackground{ 
+	background-color : rgb(99, 100, 111);
+}
+.SettingsCategoryBackground{ 
+	background-color : rgb(99, 100, 111);
+}
+.SettingsCategoryListBackground{ 
+	background-color : rgb(90, 90, 96);
+}
+.OnSettingsCategoryText{ 
+	color : rgb(255, 255, 255);
+}
+.OnSettingsCategoryIcon{ 
+	-unity-background-image-tint-color : rgb(255, 255, 255);
+}
+.ListHover{ 
+	background-color : rgb(96, 97, 104);
+}
+.TooltipBackground{ 
+	color : rgb(71, 72, 78);
+}
+.TooltipBorder{ 
+	color : rgb(42, 42, 42);
+}
+.OnTooltip{ 
+	color : rgb(255, 255, 255);
+}
+.OnTooltipInfo{ 
+	color : rgb(71, 72, 78);
+}
+.OnTooltipInfoBorder{ 
+	color : rgb(255, 255, 255);
+}
+.TitleBackground{ 
+	color : rgb(57, 57, 64);
+}
+.ListInnerBox{ 
+	color : rgb(78, 78, 86);
+}

@@ -1,0 +1,21 @@
+VisualElement {}
+
+ScrollView{
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 200px;
+    background-color: dimgray;
+}
+.SetCount{
+    width: 15px;
+    height: 15px;
+}
+.Build{
+    width: 200px;
+    height: 20px
+}
+.ButtonBox{
+    flex-direction: row-reverse;
+    background-color: dimgray;
+    width: 300px;
+}

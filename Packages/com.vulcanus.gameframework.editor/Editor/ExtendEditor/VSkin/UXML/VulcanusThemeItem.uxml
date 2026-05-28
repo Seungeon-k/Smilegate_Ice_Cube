@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Layout" style="flex-direction: row; width: 160px; max-width: 160px;">
+        <ui:TextField picking-mode="Ignore" value="filler text" name="ClassName" style="width: 250px;" />
+        <ui:Button text="Select" display-tooltip-when-elided="true" name="Select" style="width: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

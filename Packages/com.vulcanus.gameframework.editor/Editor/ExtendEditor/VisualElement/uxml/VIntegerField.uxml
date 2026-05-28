@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VIntegerField.uss?fileID=7433441132597879392&amp;guid=b3c9e4ce00b1c3d4ab52340e0d61b510&amp;type=3#VIntegerField" />
+    <uie:IntegerField label="Int Field" value="42" class="VIntegerField" />
+</ui:UXML>

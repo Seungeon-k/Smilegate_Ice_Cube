@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-direction: row; justify-content: flex-start; background-color: rgb(83, 83, 91); flex-grow: 1; align-self: stretch; height: 100%; min-height: 100%;">
+        <ui:VisualElement name="Left" style="width: 260px; -unity-slice-right: 10; margin-right: 6px; min-width: 260px; margin-top: 6px; margin-bottom: 6px; margin-left: 6px; flex-grow: 1; height: 98%; min-height: 0;">
+            <ui:VisualElement style="border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; background-color: rgb(68, 68, 74); margin-bottom: 3px; min-height: 100px; height: 100px;">
+                <ui:Label text="editor.window.label.input.system_actions" display-tooltip-when-elided="true" name="SystemActions" style="-unity-font-style: bold; background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-right: 2px; padding-left: 2px; padding-top: 2px; padding-bottom: 2px; overflow: hidden;" />
+                <ui:ScrollView name="SystemActionList" style="flex-grow: 1; min-height: 100px; max-height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; background-color: rgb(68, 68, 74); margin-bottom: 3px; min-height: 180px; height: 180px;">
+                <ui:Label text="editor.window.label.input.official_actions" display-tooltip-when-elided="true" name="OfficialActions" style="-unity-font-style: bold; background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-right: 2px; padding-left: 2px; padding-top: 2px; padding-bottom: 2px; overflow: hidden;" />
+                <ui:ScrollView name="OfficialActionList" style="flex-grow: 1; min-height: 100px; max-height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; background-color: rgb(68, 68, 74); flex-grow: 1; justify-content: space-around; flex-direction: column; min-height: 0;">
+                <ui:Label text="editor.window.label.input.additional_actions" display-tooltip-when-elided="true" name="AdditionalActrions" style="-unity-font-style: bold; background-color: rgb(57, 57, 64); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; padding-right: 2px; padding-left: 2px; padding-top: 2px; padding-bottom: 2px; overflow: hidden; height: 20px;" />
+                <ui:ScrollView name="AdditionalActrionList" style="flex-grow: 1; min-height: 0;" />
+                <ui:VisualElement style="align-items: center; height: 36px; min-height: 36px; flex-shrink: 0;">
+                    <VulcanusEditor.ExtendEditor.VButton name="AddAction" csharp-type="VulcanusEditor.ExtendEditor.VButton" Text="editor.window.button.input.add_actions" style="width: 100%; min-width: 80%; overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="align-items: stretch; width: 100%; background-color: rgb(68, 68, 74); padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; flex-direction: column; align-self: stretch; flex-grow: 1;">
+            <ui:VisualElement style="-unity-font-style: bold; flex-direction: row; width: 100%; justify-content: space-between; align-items: center; padding-left: 10px; padding-right: 10px; height: 24px; min-height: 24px; max-height: 24px;">
+                <ui:Label text="editor.window.label.input.action_name" display-tooltip-when-elided="true" style="background-color: rgba(67, 67, 72, 0); visibility: visible; width: 40%; overflow: hidden;" />
+                <ui:TextField picking-mode="Ignore" name="ActionName" style="flex-direction: row; justify-content: space-between; background-color: rgb(67, 67, 72); border-left-color: rgb(67, 67, 72); border-right-color: rgb(67, 67, 72); border-top-color: rgb(67, 67, 72); border-bottom-color: rgb(67, 67, 72); display: flex; visibility: visible; width: 60%; height: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="-unity-font-style: bold; flex-direction: row; width: 100%; justify-content: space-between; align-items: center; padding-right: 10px; padding-left: 10px; height: 28px; min-height: 28px; max-height: 28px;">
+                <ui:Label text="editor.window.label.input.action_type" display-tooltip-when-elided="true" style="width: 40%; overflow: hidden;" />
+                <ui:DropdownField name="ActionType" style="width: 60%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="-unity-font-style: bold; flex-direction: row; width: 100%; justify-content: space-between; align-items: center; padding-right: 10px; padding-left: 10px; height: 28px; min-height: 28px; max-height: 28px;">
+                <ui:Label text="editor.window.label.input.ignore_lock" display-tooltip-when-elided="true" style="width: 40%; overflow: hidden;" />
+                <ui:Toggle name="IgnoreLock" style="width: 60%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="min-height: 10px; align-items: flex-start; padding-top: 10px; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 96%; align-self: center; max-height: 460px;">
+                <ui:ScrollView name="BindingList" style="min-height: 10px; width: 100%; align-self: center; max-height: 390px; background-color: rgb(57, 57, 64); padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+                <ui:VisualElement style="align-items: center; width: 100%;">
+                    <VulcanusEditor.ExtendEditor.VButton name="AddBinding" csharp-type="VulcanusEditor.ExtendEditor.VButton" Text="editor.window.button.input.add_binding" style="width: 100%; background-color: rgb(68, 68, 74); overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

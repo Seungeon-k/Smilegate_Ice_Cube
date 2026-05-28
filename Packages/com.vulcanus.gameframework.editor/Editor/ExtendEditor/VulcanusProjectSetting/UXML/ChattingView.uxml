@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="flex-grow: 1; margin-top: 6px; margin-right: 6px; margin-bottom: 6px; margin-left: 6px;">
+        <ui:VisualElement name="VisualElement" style="height: 24px; justify-content: center; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(59, 59, 67); padding-left: 6px;">
+            <ui:Label tabindex="-1" text="editor.common.chat" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChatTitle" style="-unity-font-style: Normal;" />
+        </ui:VisualElement>
+        <VulcanusEditor.ExtendEditor.VDropdownField name="dropdown" style="margin-left: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

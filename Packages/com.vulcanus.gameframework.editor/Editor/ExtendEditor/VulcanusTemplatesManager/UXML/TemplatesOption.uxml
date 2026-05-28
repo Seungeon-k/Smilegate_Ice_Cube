@@ -1,0 +1,47 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" class="test" style="flex-grow: 1;">
+        <ui:VisualElement style="margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; border-left-color: rgb(255, 18, 18); border-right-color: rgb(255, 18, 18); border-top-color: rgb(255, 18, 18); border-bottom-color: rgb(255, 18, 18); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+            <ui:DropdownField label="현재 템플릿 이름" name="NowTemplates" style="-unity-font-style: bold; padding-top: 10px; padding-bottom: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;" />
+            <ui:VisualElement name="Room" style="width: 100%; flex-direction: row; margin-top: 5px; margin-bottom: 5px;">
+                <uie:ObjectField label="Room" name="RoomField" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                <ui:Button text="열기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Open" style="width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: column; height: 180px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+            <ui:VisualElement name="DragPoint" style="height: 30px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; color: rgb(20, 84, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(67, 67, 245); border-right-color: rgb(67, 67, 245); border-top-color: rgb(67, 67, 245); border-bottom-color: rgb(67, 67, 245); flex-direction: row;">
+                <ui:Label tabindex="-1" text="이곳에 Stage를 Drag 하면 그 스테이지로 실행됩니다." parse-escape-sequences="true" display-tooltip-when-elided="true" picking-mode="Ignore" style="flex-grow: 1; -unity-text-align: middle-left;" />
+                <uie:ObjectField name="targetStageField" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:ScrollView name="StageList" style="border-left-color: rgb(67, 67, 245); border-right-color: rgb(67, 67, 245); border-top-color: rgb(67, 67, 245); border-bottom-color: rgb(67, 67, 245); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisuaElement" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px;">
+            <ui:Label tabindex="-1" text="오류 검사" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center;" />
+            <ui:VisualElement name="RoomDataContent" style="flex-direction: row; margin-top: 5px;">
+                <ui:VisualElement name="Left" style="width: 20%;">
+                    <ui:Label tabindex="-1" text="캐릭터 계수" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Label tabindex="-1" text="스테이지 여부" parse-escape-sequences="true" display-tooltip-when-elided="true" style="text-overflow: ellipsis;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 20%;">
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerData" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StageData" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Warning" style="width: 60%;">
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerDataWarning" style="color: rgb(255, 0, 0);" />
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StageDataWarning" style="color: rgb(255, 0, 0);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="경고 수정 후 눌러주세요(UI Reset)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeCheck" style="width: 40%;" />
+            <ui:Label tabindex="-1" text="[경고] 플레이는 가능하지만 Stage생성시 오류 가능성있음" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 248, 14);" />
+            <ui:Label tabindex="-1" text="[에러] 플레이 불가능" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px;">
+            <ui:Label tabindex="-1" text="기능들" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionFunction" style="align-self: center;" />
+            <ui:Button text="커스텀 폴더 열기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CustomFolderOpen" />
+            <ui:Button text="커스텀 폴더안에 Scene,Stage 데이터 삭제" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CustomFolderClear" />
+            <ui:Button text="유저가 유니티를 처음 열었을 때 상황으로 변경함" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FirstUnity" enable-rich-text="true" style="visibility: visible; opacity: 1; overflow: hidden; display: flex;" />
+            <ui:Button text="현재 연결된 Stage의 Unity Scene을 Open" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NowSceneOpen" />
+            <ui:Button text="MyStage 생성한다." parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateMyStage" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="지금은 RoomData에 Stage를 변경하는 기능을 제공하지 않습니다. 직접수정해야 합니다." parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 14px; white-space: normal; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+{
+    "ID": "!String",
+    "delayTime": "!Float",
+    "duration": "!Float",
+    "easingCurve": "!String",
+    "ID_INT_TEMP": "!Int"
+}

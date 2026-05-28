@@ -1,0 +1,10 @@
+{
+    "ID": "!String",
+    "GenreIcon": "!String",
+    "Color_TitleBG": "!String",
+    "Color_Title": "!String",
+    "Color_IconBG": "!String",
+    "Color_IconOutilne": "!String",
+    "Color_IconShadow": "!String",
+    "ID_INT_TEMP": "!Int"
+}

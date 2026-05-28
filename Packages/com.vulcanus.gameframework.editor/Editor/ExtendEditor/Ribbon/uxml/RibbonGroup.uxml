@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Ribbon/uss/RibbonGroup.uss?fileID=7433441132597879392&amp;guid=f46bb49762c0faf46afebaa14354f6d5&amp;type=3#RibbonGroup" />
+    <ui:VisualElement class="RibbonGroup">
+        <ui:VisualElement name="Box" class="VRibbonGroup" style="flex-direction: column;">
+            <ui:VisualElement name="Container" style="background-color: rgba(83, 83, 91, 0);" />
+            <ui:Label text="Label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Line" />
+    </ui:VisualElement>
+</ui:UXML>

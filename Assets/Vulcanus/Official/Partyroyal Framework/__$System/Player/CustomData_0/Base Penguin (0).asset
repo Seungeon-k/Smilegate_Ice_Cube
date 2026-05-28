@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -448906403, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Base Penguin (0)
+  m_EditorClassIdentifier: 
+  _assetKey: b7fdd194fa648c04c84c62215d64bb97
+  playerSettingName: Base Penguin (0)
+  _modelData: {fileID: 11400000, guid: 82dd160b2648cfa40a12832c3b60ef2c, type: 2}
+  _characterControllerData: {fileID: 11400000, guid: 343c1cd241f469c4c8a67f354dcf411f, type: 2}
+  _playerData: {fileID: 11400000, guid: 2952829c7cbc3404eb7cd52dd5c098b9, type: 2}
+  luaScript: {fileID: 0}

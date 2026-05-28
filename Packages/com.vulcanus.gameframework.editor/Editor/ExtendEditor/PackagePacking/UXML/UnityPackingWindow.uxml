@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/PackagePacking/USS/PackingWindow.uss?fileID=7433441132597879392&amp;guid=5c1f903813049a44fb32a9f2346060ee&amp;type=3#PackingWindow" />
+    <ui:VisualElement name="Top" style="flex-grow: 1; background-color: rgb(83, 83, 91); height: 100%; min-height: 100%;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeadText" class="HeadText" style="height: 50px; -unity-text-align: middle-left; min-height: 50px; padding-top: 18px; padding-bottom: 18px; -unity-font-style: bold;" />
+        <ui:VisualElement name="Head" class="HeadBackground" style="flex-direction: row; height: 36px; padding-top: 6px; padding-bottom: 6px; min-height: 36px;">
+            <ui:Button text="All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="All" class="OptionButton" style="margin-left: 6px; background-color: rgb(59, 59, 67); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); width: 45px;" />
+            <ui:Button text="None" parse-escape-sequences="true" display-tooltip-when-elided="true" name="None" class="OptionButton" style="background-color: rgb(59, 59, 67); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); width: 45px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 100%;">
+            <ui:ScrollView name="Custom" class="ScrollView" style="visibility: visible; overflow: visible; min-height: 10%; background-color: rgb(59, 59, 67); flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" class="RunButtonBackground" style="flex-direction: row; justify-content: flex-end; min-height: 35px; max-height: 35px; height: 35px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: center;">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Version" style="font-size: 12px; color: rgb(255, 255, 255); -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+            <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CancelBT" class="CancelButton" style="background-color: rgb(59, 59, 67); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); width: 80px;" />
+            <ui:Button text="Run" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RunBT" class="RunButton" style="background-color: rgb(117, 83, 243); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); width: 80px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

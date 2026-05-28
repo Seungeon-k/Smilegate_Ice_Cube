@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "Name": "!String",
+    "IsUsed": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

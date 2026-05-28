@@ -1,0 +1,11 @@
+{
+    "ID": "!String",
+    "Profile_Item_Type": "!String",
+    "Icon": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "PrefabInfo": "!String",
+    "Background_Effect": "!String",
+    "ItemGrade": "!String",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,57 @@
+#pragma kernel CSFLoodFillPaint
+
+#define IsEqual(A, B) (A.r == B.r) && (A.g == B.g) && (A.b == B.b)
+//#define IsEqual(A, B) (A.r == B.r) && (A.g == B.g) && (A.b == B.b) && (A.a == B.a)
+
+//RWStructuredBuffer<int> intBuffer;
+
+int4 _params; // x : nUV.x | y : nUV.y | z : texture Widht | w : texture Height
+#define selectednUV _params.xy
+#define textureWidth _params.z
+#define textureHeight _params.w
+
+float3 selectedColor;
+Texture2D<float4> seedTexture;
+RWTexture2D<float4> drawingLayerTarget;
+
+bool IsValid(int x, int y, float3 selectedColor)
+{
+    if (x < 0 || textureWidth-1 < x)
+        return false;
+    if (y < 0 || textureHeight-1 < y)
+        return false;
+
+    uint2 nUV = uint2(x, y);
+    if (IsEqual(drawingLayerTarget[nUV].rgb, selectedColor) == true)
+        return false;
+    if (IsEqual(seedTexture[nUV].rgb, selectedColor) == false)
+        return false;
+    return true;
+}
+
+void DFS_array(int x, int y, float3 targetColor, float3 selectedColor)
+{
+    // uint2 nUV = uint2(x, y);
+    // drawingLayerTarget[nUV].rgb = selectedColor;
+
+    // if (IsValid(x, y + 1, targetColor) == true)
+    //     DFS_array(x, y + 1, targetColor, selectedColor);
+    // if (IsValid(x + 1, y, targetColor) == true)
+    //     DFS_array(x + 1, y, targetColor, selectedColor);
+    // if (IsValid(x, y - 1, targetColor) == true)
+    //     DFS_array(x, y - 1, targetColor, selectedColor);
+    // if (IsValid(x - 1, y, targetColor) == true)
+    //     DFS_array(x - 1, y, targetColor, selectedColor);
+}
+
+[numthreads(1, 1, 1)]
+void CSFLoodFillPaint(
+    const uint3 groupThreadID : SV_GroupThreadID, 
+    const uint3 groupID : SV_GroupID, 
+    const uint groupIndex : SV_GroupIndex, 
+    const uint3 id : SV_DispatchThreadID)
+{
+    
+    float3 targetColor = seedTexture[selectednUV].rgb;
+    //DFS_array(selectednUV.x, selectednUV.y, targetColor, selectedColor);
+}

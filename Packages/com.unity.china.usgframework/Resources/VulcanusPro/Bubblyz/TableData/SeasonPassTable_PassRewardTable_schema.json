@@ -1,0 +1,8 @@
+{
+    "id": "!Int",
+    "LevelID": "!Int",
+    "Season": "!String",
+    "LevelExp": "!Int",
+    "FreeReward": "!String",
+    "PremiumReward": "!String"
+}

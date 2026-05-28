@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="NodeView.uss" />
+    <ui:VisualElement name="node-border">
+        <ui:VisualElement name="contents">
+            <ui:VisualElement name="top">
+             
+
+                <ui:VisualElement name="footer" style="background-color: rgb(56, 56, 56); border-top-width: 1px; border-color: rgb(30, 30, 30); padding: 4px;">
+                    <ui:Label name="node-type-label" text="NodeType" style="-unity-text-align: middle-center; color: rgb(150, 150, 150); font-size: 10px;" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+</ui:UXML>

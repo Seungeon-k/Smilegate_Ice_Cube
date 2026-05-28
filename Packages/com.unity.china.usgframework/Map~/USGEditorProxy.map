@@ -1,0 +1,278 @@
+{
+  "Name": "USGEditorProxy",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGEditorProxy.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMIPlatformService.cs",
+      "OriginalGuid": "dad4dfc1d22c7f64ebfe6367c1b55953",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMIPlatformService",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMIPlatformService",
+      "FileID": 789264152
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\MirageVulcanusServices\\P2PClientSocket.cs",
+      "OriginalGuid": "5f75224c87824913b8a237bb5c35a665",
+      "ClassNamespace": "MirageVulcanusServices",
+      "ClassName": "P2PClientSocket",
+      "ClassFullName": "MirageVulcanusServices.P2PClientSocket",
+      "FileID": 39326535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMIToolService.cs",
+      "OriginalGuid": "f0d2aa5561dd6e14da27084485ec9b0e",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMIToolService",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMIToolService",
+      "FileID": 1428584461
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\Account.cs",
+      "OriginalGuid": "ba64d0993d1f82d43bb0c3b622efd9a6",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "Account",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.Account",
+      "FileID": 418098926
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMIPenguinDataService.cs",
+      "OriginalGuid": "61abbd95b5bf5ad4a913a002d49e0ed8",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMIPenguinDataService",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMIPenguinDataService",
+      "FileID": -1872143919
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\MirageVulcanusServices\\P2PConnectionHandle.cs",
+      "OriginalGuid": "ec242ab7b2da4992a3106e6d30825295",
+      "ClassNamespace": "MirageVulcanusServices",
+      "ClassName": "P2PConnectionHandle",
+      "ClassFullName": "MirageVulcanusServices.P2PConnectionHandle",
+      "FileID": -1711025373
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxyDirectLeaderboardService.cs",
+      "OriginalGuid": "bdac9df2582df534b8b10a261ea3c8ca",
+      "ClassNamespace": null,
+      "ClassName": "EditorProxyDirectLeaderboardService",
+      "ClassFullName": "EditorProxyDirectLeaderboardService",
+      "FileID": -284741251
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorZoneServerCommunicationService.cs",
+      "OriginalGuid": "8b822a3e31f533547bbfa5cb79e6709f",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "EditorZoneServerCommunicationService",
+      "ClassFullName": "USGProxy.Runtime.Services.EditorZoneServerCommunicationService",
+      "FileID": 1949496493
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxyDirectPenguinDataService.cs",
+      "OriginalGuid": "4918ea43408bee6448883c38957ad24d",
+      "ClassNamespace": "Vulcanus.Server.Shared.LinkRmi",
+      "ClassName": "EditorProxyDirectPenguinDataService",
+      "ClassFullName": "Vulcanus.Server.Shared.LinkRmi.EditorProxyDirectPenguinDataService",
+      "FileID": 2088485390
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\Mirage\\MirageWithP2P.cs",
+      "OriginalGuid": "46ba00589b6d4425a3548bb6f11ed253",
+      "ClassNamespace": "VssServices.Mirage",
+      "ClassName": "MirageWithP2P",
+      "ClassFullName": "VssServices.Mirage.MirageWithP2P",
+      "FileID": -1165051022
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\LeaderboardStore\\LeaderboardStore.cs",
+      "OriginalGuid": "0a6d0995479476e439547ddae0750a08",
+      "ClassNamespace": "USGProxy.Runtime.Services.Leaderboard",
+      "ClassName": "LeaderboardStoreEntry",
+      "ClassFullName": "USGProxy.Runtime.Services.Leaderboard.LeaderboardStoreEntry",
+      "FileID": -962694622
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxyDirectLinkService.cs",
+      "OriginalGuid": "ce4bfa8deed2b5a47b1307baba654c3a",
+      "ClassNamespace": "Vulcanus.Server.Shared.LinkRmi",
+      "ClassName": "EditorProxyDirectLinkServiceSample",
+      "ClassFullName": "Vulcanus.Server.Shared.LinkRmi.EditorProxyDirectLinkServiceSample",
+      "FileID": -1379209094
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\PackmanLogger.cs",
+      "OriginalGuid": "8b4cd79a865e443288f5817a4cee30da",
+      "ClassNamespace": "VssServices",
+      "ClassName": "PackmanLogger",
+      "ClassFullName": "VssServices.PackmanLogger",
+      "FileID": 2125162207
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\StudioVulcanusSession.cs",
+      "OriginalGuid": "6c1d67d3d8a147ecacb40338dcd58250",
+      "ClassNamespace": "VssServices",
+      "ClassName": "StudioVulcanusSession",
+      "ClassFullName": "VssServices.StudioVulcanusSession",
+      "FileID": -1040277435
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\VssSdkLogger.cs",
+      "OriginalGuid": "2f373c1b8a7f43e1bb140abb219e6572",
+      "ClassNamespace": "VssServices",
+      "ClassName": "VssSdkLogger",
+      "ClassFullName": "VssServices.VssSdkLogger",
+      "FileID": 1235961838
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\MirageVulcanusServices\\P2PHostSocket.cs",
+      "OriginalGuid": "b3d590aa96604042b16166ab7d477b81",
+      "ClassNamespace": "MirageVulcanusServices",
+      "ClassName": "P2PHostSocket",
+      "ClassFullName": "MirageVulcanusServices.P2PHostSocket",
+      "FileID": 279984537
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxyDirectResponseDispatcher.cs",
+      "OriginalGuid": "5d65d9a0e2a94715a20cd5574754a0a1",
+      "ClassNamespace": "Vulcanus.Server.Shared.LinkRmi",
+      "ClassName": "EditorProxyDirectResponseDispatcher",
+      "ClassFullName": "Vulcanus.Server.Shared.LinkRmi.EditorProxyDirectResponseDispatcher",
+      "FileID": -532998966
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\MirageVulcanusServices\\P2PSocketFactory.cs",
+      "OriginalGuid": "d98041441c8f45f7a22384e99a76d4ba",
+      "ClassNamespace": "MirageVulcanusServices",
+      "ClassName": "P2PSocketFactory",
+      "ClassFullName": "MirageVulcanusServices.P2PSocketFactory",
+      "FileID": 1033419210
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\UgcHandler.cs",
+      "OriginalGuid": "ed812fb4369edef408ecd895a4dd7453",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "UgcHandler",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.UgcHandler",
+      "FileID": 1432335051
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxy.cs",
+      "OriginalGuid": "0f24de7b5e51a954f8a4c43a48cd845d",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "EditorProxy",
+      "ClassFullName": "USGProxy.Runtime.Services.EditorProxy",
+      "FileID": -18685577
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\PlatformSdkLogger.cs",
+      "OriginalGuid": "ef4285a0131a48fc92b8471ed3bdf182",
+      "ClassNamespace": "VssServices",
+      "ClassName": "PlatformSdkLogger",
+      "ClassFullName": "VssServices.PlatformSdkLogger",
+      "FileID": 1320654721
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\VssResult.cs",
+      "OriginalGuid": "f8715cd527ea404d9e370d666db14e6f",
+      "ClassNamespace": "VssServices",
+      "ClassName": "VssException",
+      "ClassFullName": "VssServices.VssException",
+      "FileID": 1897732644
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\LeaderboardStore\\LeaderboardStoreService.cs",
+      "OriginalGuid": "faf7b7d6f8f740e448e9b31140ca5927",
+      "ClassNamespace": "USGProxy.Runtime.Services.Leaderboard",
+      "ClassName": "LeaderboardStoreService",
+      "ClassFullName": "USGProxy.Runtime.Services.Leaderboard.LeaderboardStoreService",
+      "FileID": -245419826
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMIContentService.cs",
+      "OriginalGuid": "8155f1c505d28504ca166064d557a09f",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMIContentService",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMIContentService",
+      "FileID": -977114236
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMIServiceHandler.cs",
+      "OriginalGuid": "5894ab606a78e5e40b344fde59e5a509",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMIServiceHandler",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMIServiceHandler",
+      "FileID": -2022120505
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\KeepAliveService.cs",
+      "OriginalGuid": "83500ee7b7fb46cb840dbde5a77d0117",
+      "ClassNamespace": "VssServices",
+      "ClassName": "KeepAliveService",
+      "ClassFullName": "VssServices.KeepAliveService",
+      "FileID": 239250808
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\ZoneServerCommunicationService.cs",
+      "OriginalGuid": "aad92776f5ef80842bc36d0f4556b661",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "ZoneServerCommunicationService",
+      "ClassFullName": "USGProxy.Runtime.Services.ZoneServerCommunicationService",
+      "FileID": -1152556860
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\RMILinkService.cs",
+      "OriginalGuid": "f917e30ca35bdcf43b15ba856f4c5803",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "RMILinkService",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.RMILinkService",
+      "FileID": 2145429903
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\EditorProxyServices\\EditorProxyHelper.cs",
+      "OriginalGuid": "0b500fe5069bc7f4c983371776cb1877",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "EditorProxyHelper",
+      "ClassFullName": "USGProxy.Runtime.Services.EditorProxyHelper",
+      "FileID": -1844120154
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ClientProxyServices\\ClientCommunicationService.cs",
+      "OriginalGuid": "bf878db59e91eb74aae2c603fb6ce8d2",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "ClientCommunicationService",
+      "ClassFullName": "USGProxy.Runtime.Services.ClientCommunicationService",
+      "FileID": -1140502228
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\VssServices\\StudioVulcanusSessionManager.cs",
+      "OriginalGuid": "203c99e6152e4444a28c88e7884c57ff",
+      "ClassNamespace": "VssServices",
+      "ClassName": "StudioVulcanusSessionManager",
+      "ClassFullName": "VssServices.StudioVulcanusSessionManager",
+      "FileID": -1100372932
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\BaseProxyServices\\CommunicationService.cs",
+      "OriginalGuid": "cfbd3bdbb7136a4458b967c0c295f2d9",
+      "ClassNamespace": "USGProxy.Runtime.Services",
+      "ClassName": "CommunicationService",
+      "ClassFullName": "USGProxy.Runtime.Services.CommunicationService",
+      "FileID": 1100215794
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\ServerProxyServices\\AccountManager.cs",
+      "OriginalGuid": "0fe7a1a385c84344b911419643056f9b",
+      "ClassNamespace": "USGProxy.Runtime.Services.RMIServices",
+      "ClassName": "AccountManager",
+      "ClassFullName": "USGProxy.Runtime.Services.RMIServices.AccountManager",
+      "FileID": 1539354420
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.vulcanus.usgeditorproxy\\Scripts\\Runtime\\MirageVulcanusServices\\P2PSocket.cs",
+      "OriginalGuid": "cfde1f8f080040d1be788e736f0c28b7",
+      "ClassNamespace": "MirageVulcanusServices",
+      "ClassName": "P2PSocket",
+      "ClassFullName": "MirageVulcanusServices.P2PSocket",
+      "FileID": 2079302550
+    }
+  ]
+}

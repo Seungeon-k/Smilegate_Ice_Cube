@@ -1,0 +1,24 @@
+{
+    "name": "PixelCanvas",
+    "rootNamespace": "PixelCanvas",
+    "references": [
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:4e1e938e860d31f468e4a1a4ccd41e4b",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:9844c522ca97155429b7b5596c2ed713",
+        "GUID:7f27511d7ad0a0a448cf2592928a3ce9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

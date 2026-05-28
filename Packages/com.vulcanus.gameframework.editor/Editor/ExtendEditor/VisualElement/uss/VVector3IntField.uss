@@ -1,0 +1,89 @@
+.VVector3IntField {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.VVector3IntField > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.child .VVector3IntField > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.VVector3IntField > VisualElement {
+    width: 65%;
+    flex-direction: row;
+    min-width: 65%;
+}
+
+.VVector3IntField > VisualElement > #unity-x-input > Label {
+    font-size: 12px;
+    color: var(--Vector-x-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3IntField > VisualElement > #unity-x-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3IntField > VisualElement > #unity-x-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector3IntField > VisualElement > #unity-y-input > Label {
+    font-size: 12px;
+    color: var(--Vector-y-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3IntField > VisualElement > #unity-y-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3IntField > VisualElement > #unity-y-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector3IntField > VisualElement > #unity-z-input > Label {
+    font-size: 12px;
+    color: var(--Vector-z-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector3IntField > VisualElement > #unity-z-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector3IntField > VisualElement > #unity-z-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}

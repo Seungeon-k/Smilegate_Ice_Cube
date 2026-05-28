@@ -1,0 +1,85 @@
+
+.BlockButton{
+    width: 100px;
+    height: 105px;
+    margin-left: 0;
+}
+.BlockButtonColumn{
+    flex-direction: row;
+    margin-top: 5px;
+}
+.BlockButtonBlank {
+    width: 100px;
+    height: 105px;
+    margin-left: 0;
+    background-color: #878787;
+    border-color: #878787;
+}
+
+#Refresh{
+    height: 20px;
+    width: 50px;
+}
+Box{
+    background-color:#878787;
+}
+
+Image{
+    margin-top: 5px;
+}
+.ImageColumn{
+    margin-top: 3px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.VoxelName{
+    font-size: 9px;
+    color: black;
+}
+.VoxelNameColumn{
+    font-size: 12px;
+    color: black;
+    margin-left: 5px;
+}
+
+.Label{
+    font-size: 15px;
+    -unity-font-style: bold;
+}
+.BlockLineRow{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.BlockLineColumn{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+.Blocks{
+    width: 328px;
+    background-color:#878787;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    min-height: 110px;
+}
+.unity-search-field-base__search-button{
+    margin-left: 3px;
+    width: 10px;
+    height: 10px;
+}
+ToolbarSearchField{
+    height: 18px;
+    width: 325px;
+}
+
+.ScaleSlider{
+    width:80px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    align-self:flex-end;
+}

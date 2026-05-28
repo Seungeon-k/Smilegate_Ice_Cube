@@ -1,0 +1,1854 @@
+{
+  "Name": "RoyalFramework.CommonModule",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\RoyalFramework.CommonModule.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\BareSkinInfoTable_BareSkinInfoTable.cs",
+      "OriginalGuid": "ecb82e182ab42e14f80e21f5a607d70c",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "BareSkinInfoTable_BareSkinInfoTable",
+      "ClassFullName": "GeneratedTable.BareSkinInfoTable_BareSkinInfoTable",
+      "FileID": 1242016929
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\WrapedFloat.cs",
+      "OriginalGuid": "9e06a1b1657bf9749aedf7a52571dcd0",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "WrapedFloat",
+      "ClassFullName": "RoyalFramework.CommonModule.WrapedFloat",
+      "FileID": 2062213339
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleAttack.cs",
+      "OriginalGuid": "7cc206358d443ed4a8f279b189d1a389",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleAttack",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleAttack",
+      "FileID": -650390867
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\RoyalFramework\\PlatformMobile.cs",
+      "OriginalGuid": "75c813a7b6322404a93a37060b819e99",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformMobile",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformMobile",
+      "FileID": 310050687
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\CursorController.cs",
+      "OriginalGuid": "8b2f72bc756eb09438f497f6011345c2",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "CursorController",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.CursorController",
+      "FileID": 376238102
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\CommonFunction.cs",
+      "OriginalGuid": "d5d635706de00f24c9f30dc226b11c3d",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "CommonFuction",
+      "ClassFullName": "NewBehaviorTree.CommonFuction",
+      "FileID": 1130846600
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\SkillController.cs",
+      "OriginalGuid": "8f4f6fa0a5d925841a6fcdaf5485acbf",
+      "ClassNamespace": null,
+      "ClassName": "SkillController",
+      "ClassFullName": "SkillController",
+      "FileID": 1697228768
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionCheckZoneTimeout.cs",
+      "OriginalGuid": "b64d6f37efba50b44b4af6ba3607123e",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionCheckZoneTimeout",
+      "ClassFullName": "NewBehaviorTree.ConditionCheckZoneTimeout",
+      "FileID": 382001146
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\UIStackManager\\UICommonInputLuaProxy.cs",
+      "OriginalGuid": "7ef0e4f92d4d28544998ee10e83ae94a",
+      "ClassNamespace": "RoyalFramework.CommonModule.UI",
+      "ClassName": "UICommonInputLuaProxy",
+      "ClassFullName": "RoyalFramework.CommonModule.UI.UICommonInputLuaProxy",
+      "FileID": 501753708
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\SkillData.cs",
+      "OriginalGuid": "63d62bb5b493db74cbfc70849bd949d3",
+      "ClassNamespace": null,
+      "ClassName": "SkillData",
+      "ClassFullName": "SkillData",
+      "FileID": -1228096814
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskFailure.cs",
+      "OriginalGuid": "3d71d418b9292144f94ed1f7faa76bae",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskFailure",
+      "ClassFullName": "NewBehaviorTree.TaskFailure",
+      "FileID": -1063283520
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionCheckCharacterState.cs",
+      "OriginalGuid": "32e046f17b84ae7469d7ebbd7106a8ad",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionCheckCharacterState",
+      "ClassFullName": "NewBehaviorTree.ConditionCheckCharacterState",
+      "FileID": 944969432
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\LockState.cs",
+      "OriginalGuid": "9821ebd376a9ab740b07c602e7405ece",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "LockState",
+      "ClassFullName": "RoyalFramework.CommonModule.LockState",
+      "FileID": -968064732
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionCheckEnum.cs",
+      "OriginalGuid": "ea05317b8c03c9748b8d9620d1043e89",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionCheckEnum",
+      "ClassFullName": "NewBehaviorTree.ConditionCheckEnum",
+      "FileID": 297524031
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcCreepingIcePlateSupporter.cs",
+      "OriginalGuid": "5166682b575f3cb4eb0c0c756461d680",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NpcCreepingIcePlateSuppoter",
+      "ClassFullName": "RoyalFramework.CommonModule.NpcCreepingIcePlateSuppoter",
+      "FileID": -1384079509
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Composite\\Sequence.cs",
+      "OriginalGuid": "4d03a9f8a484988409d8feb1610c77c0",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "Sequence",
+      "ClassFullName": "NewBehaviorTree.Sequence",
+      "FileID": -329831534
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\MannequinTable_MannequinTable.cs",
+      "OriginalGuid": "321516fabc8b724458892cd9dd14b096",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "MannequinTable_MannequinTable",
+      "ClassFullName": "GeneratedTable.MannequinTable_MannequinTable",
+      "FileID": 1233479316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskResetNodes.cs",
+      "OriginalGuid": "a1b54e4e956775b498e4a6a672b14603",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskResetNodes",
+      "ClassFullName": "NewBehaviorTree.TaskResetNodes",
+      "FileID": -125215730
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductPackage.cs",
+      "OriginalGuid": "ba694051b1059ab46a6edb9e97ef1d91",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductPackage",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductPackage",
+      "FileID": 533013532
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\AttendanceTable_AttendanceTable.cs",
+      "OriginalGuid": "1abf71da1dd1029488c3bc8018a0c0fe",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "AttendanceTable_AttendanceTable",
+      "ClassFullName": "GeneratedTable.AttendanceTable_AttendanceTable",
+      "FileID": -2088769149
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_SoundInfoTable.cs",
+      "OriginalGuid": "57b81d7553cb54e498d0040005971812",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_SoundInfoTable",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_SoundInfoTable",
+      "FileID": 467650968
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_DuckingTargets.cs",
+      "OriginalGuid": "c4e2a7c878689ea4ba61a463ad590191",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_DuckingTargets",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_DuckingTargets",
+      "FileID": 308879262
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_PetGachaMachine.cs",
+      "OriginalGuid": "952f0ad230ee04c4faa5eb5d18549dcc",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_PetGachaMachine",
+      "ClassFullName": "GeneratedTable.Pet_PetGachaMachine",
+      "FileID": -768519008
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_PetStats.cs",
+      "OriginalGuid": "475363c37de4b7e4284daecfc81bb246",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_PetStats",
+      "ClassFullName": "GeneratedTable.Pet_PetStats",
+      "FileID": -1804945685
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Composite\\Selector.cs",
+      "OriginalGuid": "5d044715dc4746848898220bc7df6c5e",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "Selector",
+      "ClassFullName": "NewBehaviorTree.Selector",
+      "FileID": 1036934415
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\PackageBoxTable_PackageBoxInfoTable.cs",
+      "OriginalGuid": "95c05a3a009c26148a2ab9402a6a0ad9",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "PackageBoxTable_PackageBoxInfoTable",
+      "ClassFullName": "GeneratedTable.PackageBoxTable_PackageBoxInfoTable",
+      "FileID": 1345809565
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SeasonPassTable_PassMissionTable.cs",
+      "OriginalGuid": "02b15548730ee79479525ed956aee979",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SeasonPassTable_PassMissionTable",
+      "ClassFullName": "GeneratedTable.SeasonPassTable_PassMissionTable",
+      "FileID": -1782320854
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSuccess.cs",
+      "OriginalGuid": "7977df3b87cb6a146821d04e24e0c583",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSuccess",
+      "ClassFullName": "NewBehaviorTree.TaskSuccess",
+      "FileID": -1284034626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\Events.cs",
+      "OriginalGuid": "c283fb1d4b1596342b3c39863577225e",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "Events",
+      "ClassFullName": "RoyalFramework.CommonModule.Events",
+      "FileID": 2108644072
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionRaycast.cs",
+      "OriginalGuid": "aa04ce043c8da8a4cb23154f021af572",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionRaycast",
+      "ClassFullName": "NewBehaviorTree.ConditionRaycast",
+      "FileID": -692364255
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\GlobalService\\HIDController.cs",
+      "OriginalGuid": "8913c416ff143024b8c24dc54adb1dfb",
+      "ClassNamespace": "GlobalService",
+      "ClassName": "HIDController",
+      "ClassFullName": "GlobalService.HIDController",
+      "FileID": -1994837466
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_ClipNames.cs",
+      "OriginalGuid": "d403a7b75d3ee9942b8b0e02d870322b",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_ClipNames",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_ClipNames",
+      "FileID": 1308093984
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SeasonPassTable_UnlockItemInfoTable.cs",
+      "OriginalGuid": "d5cb0d4cc0b2dcb4baf134bd7c4a9753",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SeasonPassTable_UnlockItemInfoTable",
+      "ClassFullName": "GeneratedTable.SeasonPassTable_UnlockItemInfoTable",
+      "FileID": 1675603603
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleEquip.cs",
+      "OriginalGuid": "549cb61e89e42a54d93151a50232d283",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleEquip",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleEquip",
+      "FileID": 988833342
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskRunning.cs",
+      "OriginalGuid": "82ac5ae0e6c6fd34d8007237380137a3",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskRunning",
+      "ClassFullName": "NewBehaviorTree.TaskRunning",
+      "FileID": 345588189
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_ItemInfoTownShop.cs",
+      "OriginalGuid": "f94cc5a4ae9fa1a488f9ad756e8870e2",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_ItemInfoTownShop",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_ItemInfoTownShop",
+      "FileID": -491919856
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionCheckOverTime.cs",
+      "OriginalGuid": "12f927bb5ec074d4fa3bbc42262b0fc6",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionCheckOverFloat",
+      "ClassFullName": "NewBehaviorTree.ConditionCheckOverFloat",
+      "FileID": 1846044116
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\SimplePathFinder.cs",
+      "OriginalGuid": "312cafd27c24ff9469c2206aba7fe959",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "SimplePathFinder",
+      "ClassFullName": "RoyalFramework.CommonModule.SimplePathFinder",
+      "FileID": 1911835529
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\Unity_Input.cs",
+      "OriginalGuid": "c161679e077729740a0da92080856ad4",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "Unity_Input",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.Unity_Input",
+      "FileID": 2062375745
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\BTNodeData.cs",
+      "OriginalGuid": "f40b99885ef59e64f94d0017d8ac679b",
+      "ClassNamespace": null,
+      "ClassName": "BTNodeData",
+      "ClassFullName": "BTNodeData",
+      "FileID": -1840280351
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_IndicatorInfo.cs",
+      "OriginalGuid": "cae1048a132335147b18eb78766a6655",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_IndicatorInfo",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_IndicatorInfo",
+      "FileID": 1593078
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetTeleport.cs",
+      "OriginalGuid": "e2b5805e86e537a4cae4841c1cfbc0ba",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetTeleport",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetTeleport",
+      "FileID": 1958790920
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RewardTable_RewardTable.cs",
+      "OriginalGuid": "fb0757a3c63176c4f8a5761c1bb9327a",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RewardTable_RewardTable",
+      "ClassFullName": "GeneratedTable.RewardTable_RewardTable",
+      "FileID": 1069302469
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\UIStackManager\\UICommonInput.cs",
+      "OriginalGuid": "d5d3bf20d06302e4e9bfcfedb538ff16",
+      "ClassNamespace": "RoyalFramework.CommonModule.UI",
+      "ClassName": "UICommonInput",
+      "ClassFullName": "RoyalFramework.CommonModule.UI.UICommonInput",
+      "FileID": -974757017
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleAnim.cs",
+      "OriginalGuid": "872ea4119c938f54c94402ce2bde60bd",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleAnim",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleAnim",
+      "FileID": 1903441107
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\IInputInterface.cs",
+      "OriginalGuid": "a146938d0dc89fc4eb8b33cfd0261f7a",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "ActionCache",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.ActionCache",
+      "FileID": -822124194
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonLayerManager.cs",
+      "OriginalGuid": "08e08dda491508d459a8956a6c6b3e82",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonLayerManager",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonLayerManager",
+      "FileID": -1901687232
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\GlobalService\\InputHub.cs",
+      "OriginalGuid": "5fb063179dd080844921d103c6854caa",
+      "ClassNamespace": "GlobalService",
+      "ClassName": "InputHub",
+      "ClassFullName": "GlobalService.InputHub",
+      "FileID": 761072342
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\BuffInfoTable_Prefab.cs",
+      "OriginalGuid": "29e6ca853bbfd82428dbeb51056d2198",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "BuffInfoTable_Prefab",
+      "ClassFullName": "GeneratedTable.BuffInfoTable_Prefab",
+      "FileID": -1789361660
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\AttendanceTable_AttendanceRewardTable.cs",
+      "OriginalGuid": "e1691d3b9d8737544bdf9535008eefba",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "AttendanceTable_AttendanceRewardTable",
+      "ClassFullName": "GeneratedTable.AttendanceTable_AttendanceRewardTable",
+      "FileID": 1528875467
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\BehaviorTree.cs",
+      "OriginalGuid": "cd985216613a10043b751ac9f1e91d2f",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "BTRunner",
+      "ClassFullName": "NewBehaviorTree.BTRunner",
+      "FileID": -567793006
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleCollision.cs",
+      "OriginalGuid": "7770d7c21bb454f4e9ba12bc52362cf8",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleCollision",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleCollision",
+      "FileID": 559509145
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSearchNearTarget.cs",
+      "OriginalGuid": "65023303d5571e546b9077ecefda624d",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSearchNearTarget",
+      "ClassFullName": "NewBehaviorTree.TaskSearchNearTarget",
+      "FileID": 2137884114
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_RVTypeMatchTable.cs",
+      "OriginalGuid": "c4b01b732d3e52b4f9ae7354d09189cc",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_RVTypeMatchTable",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_RVTypeMatchTable",
+      "FileID": 1772219472
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NonPlayerGimmickSupporter.cs",
+      "OriginalGuid": "679c8273711b96349a9d21af87ce0be9",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NonPlayerGimmickSupporter",
+      "ClassFullName": "RoyalFramework.CommonModule.NonPlayerGimmickSupporter",
+      "FileID": 364275471
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Tables\\CommonProjectileTable.cs",
+      "OriginalGuid": "91fe5ff00a579c04dbc4ab9f48dae7d0",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonProjectileTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonProjectileTable",
+      "FileID": 1445880687
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_PetDrawInfo.cs",
+      "OriginalGuid": "27c7dab744ca34448ad1439eb8fa1a82",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_PetDrawInfo",
+      "ClassFullName": "GeneratedTable.Pet_PetDrawInfo",
+      "FileID": -1427281804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ModInfoTable_ModTabTable.cs",
+      "OriginalGuid": "b64e3d6c5a61d8e4cb698adbe124d39e",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ModInfoTable_ModTabTable",
+      "ClassFullName": "GeneratedTable.ModInfoTable_ModTabTable",
+      "FileID": -1647307328
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionIsInBoundary.cs",
+      "OriginalGuid": "73770962ffa336e48aefc8022d961824",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionIsInBoundary",
+      "ClassFullName": "NewBehaviorTree.ConditionIsInBoundary",
+      "FileID": -1025117294
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTRedGreenLight.cs",
+      "OriginalGuid": "250ca5be51f00b64e9f8ab16b6526edf",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTRedGreenLight",
+      "ClassFullName": "RoyalFramework.CommonModule.BTRedGreenLight",
+      "FileID": 1859980580
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Sound\\RhythmChart.cs",
+      "OriginalGuid": "04caaca1fcc367445810ef233f5ff1d0",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RhythmChart",
+      "ClassFullName": "GeneratedTable.RhythmChart",
+      "FileID": 1765573560
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\CurrencyTable_CurrencyTable.cs",
+      "OriginalGuid": "0b930fc9bbe3a50459bd353186d33dfe",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "CurrencyTable_CurrencyTable",
+      "ClassFullName": "GeneratedTable.CurrencyTable_CurrencyTable",
+      "FileID": -1917341854
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\ICommonMirageAdaptor.cs",
+      "OriginalGuid": "c01d39205c260784c83bb117586bf7e7",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CRPCArgsSerializer",
+      "ClassFullName": "RoyalFramework.CommonModule.CRPCArgsSerializer",
+      "FileID": -1970146013
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSetRandomFloat.cs",
+      "OriginalGuid": "041d00d3242fa0143807af47ce9197df",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSetRandomFloat",
+      "ClassFullName": "NewBehaviorTree.TaskSetRandomFloat",
+      "FileID": -416038519
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Node.cs",
+      "OriginalGuid": "c2f610cc1b6db77459d37ee2c4b80174",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "Node",
+      "ClassFullName": "NewBehaviorTree.Node",
+      "FileID": 261173477
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductBareSkin.cs",
+      "OriginalGuid": "0ac376559e0b23546ab114ce7a477b4f",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductBareSkin",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductBareSkin",
+      "FileID": 682152423
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleEmotion.cs",
+      "OriginalGuid": "36d56481b9ef9d743b354c9b98b52627",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleEmotion",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleEmotion",
+      "FileID": -159663097
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonCharacterModule.cs",
+      "OriginalGuid": "f86c00de87f3b954baf60b55d8fa3134",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonCharacterModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonCharacterModule",
+      "FileID": 1479831074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\GlobalPathStorageUnits.cs",
+      "OriginalGuid": "d3b41b8e45ac7ec4098483ae47d10c31",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "GlobalPathStorageUnits",
+      "ClassFullName": "RoyalFramework.CommonModule.GlobalPathStorageUnits",
+      "FileID": -1332611151
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\CommonPetSubModuleAI.cs",
+      "OriginalGuid": "216a1993ce1b9954e8e0d42f8688b9d8",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonPetSubModuleAI",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonPetSubModuleAI",
+      "FileID": 1592731612
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\UIManager_UIManager.cs",
+      "OriginalGuid": "fae7e5772e0c1084483127c5c86928f8",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "UIManager_UIManager",
+      "ClassFullName": "GeneratedTable.UIManager_UIManager",
+      "FileID": 2087833786
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\PlayRewardTable_ExpTable.cs",
+      "OriginalGuid": "77d02ef042de19f4eb14081703396acd",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "PlayRewardTable_ExpTable",
+      "ClassFullName": "GeneratedTable.PlayRewardTable_ExpTable",
+      "FileID": 1103503999
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\BTGlobalManager.cs",
+      "OriginalGuid": "3564fc14f23670341915cf2cb21580da",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "BTGlobalManager",
+      "ClassFullName": "NewBehaviorTree.BTGlobalManager",
+      "FileID": 596996834
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductPass.cs",
+      "OriginalGuid": "7fc676d9b9f64d24599d7038cbe600cf",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductPass",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductPass",
+      "FileID": -1473872214
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Vehicles\\VehicleModule.cs",
+      "OriginalGuid": "c6dd92c7097a9254ab611b1da8f2a09b",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "VehicleModule",
+      "ClassFullName": "RoyalFramework.CommonModule.VehicleModule",
+      "FileID": -726040875
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_FadeIn.cs",
+      "OriginalGuid": "d993f6658dba66546b4c9304bf164e68",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_FadeIn",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_FadeIn",
+      "FileID": -1567999804
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\PlayerInputActions.cs",
+      "OriginalGuid": "4c3adc89ddeb27b43962291c9b54fe68",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "@PlayerInputActions",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.@PlayerInputActions",
+      "FileID": 1065824364
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonCharacterModule_LuaToCSharp.cs",
+      "OriginalGuid": "cd89bee4b9928034786a70bfba03efed",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonCharacterModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonCharacterModule",
+      "FileID": 1479831074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SeasonPassTable_SeasonTable.cs",
+      "OriginalGuid": "769cdc3dc58f7a846b78fe94c74f06c8",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SeasonPassTable_SeasonTable",
+      "ClassFullName": "GeneratedTable.SeasonPassTable_SeasonTable",
+      "FileID": 998979122
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonAnimEventListener.cs",
+      "OriginalGuid": "dc13284a42bf2d74783da3ba1118a2ef",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonAnimEventListener",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonAnimEventListener",
+      "FileID": -1474939944
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\HIDSystem\\ControllerLayoutData.cs",
+      "OriginalGuid": "5977153267f987e46a52cedaefe0c932",
+      "ClassNamespace": "RoyalFramework.CommonModule.UI",
+      "ClassName": "ControllerLayoutData",
+      "ClassFullName": "RoyalFramework.CommonModule.UI.ControllerLayoutData",
+      "FileID": -1671893820
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonNonPlayerCharacterModule.cs",
+      "OriginalGuid": "c76f75c259b677f469019b396d40a05e",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonNonPlayerCharacterModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonNonPlayerCharacterModule",
+      "FileID": 356195185
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductTable.cs",
+      "OriginalGuid": "bf0f5dc78c66c5641847046367060dbc",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductTable",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductTable",
+      "FileID": 150425662
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonPetModule.cs",
+      "OriginalGuid": "8be8f1726cda9a1458365f9e07c6444c",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonPetModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonPetModule",
+      "FileID": 2059108081
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleAttackDash.cs",
+      "OriginalGuid": "00ab85f565ea581468a7a3318415255e",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleAttackDash",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleAttackDash",
+      "FileID": 645723391
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\Controllers\\CommonAnimSpeedController.cs",
+      "OriginalGuid": "1dc11676c91a6b947a7702cd25f3d93d",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonAnimSpeedController",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonAnimSpeedController",
+      "FileID": -155513194
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\StateMachineBehaviour\\SetRunBoolOnEnter.cs",
+      "OriginalGuid": "b5336acc380ec14479769ece32ef87be",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "SetRunBoolOnEnter",
+      "ClassFullName": "RoyalFramework.CommonModule.SetRunBoolOnEnter",
+      "FileID": 1582248523
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskChangeBT.cs",
+      "OriginalGuid": "bffae56c79df92c438d454e7e74f507a",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskChangeBT",
+      "ClassFullName": "NewBehaviorTree.TaskChangeBT",
+      "FileID": -316154290
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskFindTargets.cs",
+      "OriginalGuid": "497adb97112595e4d82a6fb0482098c9",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskFindTargets",
+      "ClassFullName": "NewBehaviorTree.TaskFindTargets",
+      "FileID": -733001806
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\BotNameTable_BotNameTable.cs",
+      "OriginalGuid": "1c324fe5772ac824b805d4ebd4b3e353",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "BotNameTable_BotNameTable",
+      "ClassFullName": "GeneratedTable.BotNameTable_BotNameTable",
+      "FileID": 589158132
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_PetCollection.cs",
+      "OriginalGuid": "bd1340fc481c89b41b11e7757e6a98c1",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_PetCollection",
+      "ClassFullName": "GeneratedTable.Pet_PetCollection",
+      "FileID": 1948725179
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleScale.cs",
+      "OriginalGuid": "7495da3c318910948a7b6a89e6355c1f",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleScale",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleScale",
+      "FileID": 1243747967
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\GlobalService\\GlobalServiceHub.cs",
+      "OriginalGuid": "825adaf349a0cda4ba7ebf3478a94bc5",
+      "ClassNamespace": "GlobalService",
+      "ClassName": "GlobalServiceHub",
+      "ClassFullName": "GlobalService.GlobalServiceHub",
+      "FileID": 722468386
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionContainsInt.cs",
+      "OriginalGuid": "5b4b2dbe9496c0f458deefba052a1e6a",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionContainsInt",
+      "ClassFullName": "NewBehaviorTree.ConditionContainsInt",
+      "FileID": -1052120397
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcColorSwitchSupporter.cs",
+      "OriginalGuid": "d5642558b6baf2d40a17e87ee0fc9153",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NpcColorSwitchSupporter",
+      "ClassFullName": "RoyalFramework.CommonModule.NpcColorSwitchSupporter",
+      "FileID": -691822843
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\Node.cs",
+      "OriginalGuid": "79280f4f7b3e8e74eb6c2d62adff5d40",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "Node",
+      "ClassFullName": "RoyalFramework.CommonModule.Node",
+      "FileID": -521558073
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\GlobalService\\KeyGuideHub.cs",
+      "OriginalGuid": "b7bd252807ee0cc48b4abac6f868d387",
+      "ClassNamespace": "GlobalService",
+      "ClassName": "KeyGuideHub",
+      "ClassFullName": "GlobalService.KeyGuideHub",
+      "FileID": -2059731617
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\GameFramework\\PlatformGameFramework.cs",
+      "OriginalGuid": "3a139503f19b6264caed70ea23a3aecb",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformGameFramework",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformGameFramework",
+      "FileID": 1702144602
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\SearchTargetUpdater.cs",
+      "OriginalGuid": "b05d7a3dd3c418641a251b3382feecab",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "SearchTargetUpdater",
+      "ClassFullName": "NewBehaviorTree.SearchTargetUpdater",
+      "FileID": 1788767979
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_ItemInfoTable.cs",
+      "OriginalGuid": "e07abbb22506ca449980a581faf656ce",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_ItemInfoTable",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_ItemInfoTable",
+      "FileID": 661715635
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\PlayRewardTable_CoinTable.cs",
+      "OriginalGuid": "456b88c1f723330428a16348ddb15a17",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "PlayRewardTable_CoinTable",
+      "ClassFullName": "GeneratedTable.PlayRewardTable_CoinTable",
+      "FileID": 1701870622
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\CommonPetSubModuleBase.cs",
+      "OriginalGuid": "a57168ca8642c2a448ec0cb3b3de3edd",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonPetSubModuleBase",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonPetSubModuleBase",
+      "FileID": 758753788
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ModInfoTable_ModGenreInfoTable.cs",
+      "OriginalGuid": "9c597eaf61bcd6d489ca9f3611c0f5c3",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ModInfoTable_ModGenreInfoTable",
+      "ClassFullName": "GeneratedTable.ModInfoTable_ModGenreInfoTable",
+      "FileID": 183218818
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\UIHotkeyButton_KeyAppearance.cs",
+      "OriginalGuid": "c1b0ab6a604e193448b0415e0822b8cd",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "UIHotkeyButton_KeyAppearance",
+      "ClassFullName": "GeneratedTable.UIHotkeyButton_KeyAppearance",
+      "FileID": -820682852
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\FollowerZoneSystem.cs",
+      "OriginalGuid": "a25c4127d384d184db11fca935699ca3",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "FollowerZoneSystem",
+      "ClassFullName": "RoyalFramework.CommonModule.FollowerZoneSystem",
+      "FileID": -751849058
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionIsOnGround.cs",
+      "OriginalGuid": "cdc6446f338f25e4cb06f7c0d797224f",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionIsOnGround",
+      "ClassFullName": "NewBehaviorTree.ConditionIsOnGround",
+      "FileID": 909719805
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\NonPlayerCharacterTable_SkinPreset.cs",
+      "OriginalGuid": "f8523f590275171448aa04ef93dabbae",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "NonPlayerCharacterTable_SkinPreset",
+      "ClassFullName": "GeneratedTable.NonPlayerCharacterTable_SkinPreset",
+      "FileID": -772947237
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskMoveToPosition.cs",
+      "OriginalGuid": "c3161ae623a883641b069537777fff1d",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskMoveToPosition",
+      "ClassFullName": "NewBehaviorTree.TaskMoveToPosition",
+      "FileID": -1963913481
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonCharacterManager.cs",
+      "OriginalGuid": "3d82852dfc25b904699ac777a73c2669",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonCharacterManager",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonCharacterManager",
+      "FileID": -366837250
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\RoyalFramework\\PlatformPC.cs",
+      "OriginalGuid": "9a1537942f5abbb48b81a0e22d2e8108",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformPC",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformPC",
+      "FileID": -273253971
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Achievement_AchievementMain.cs",
+      "OriginalGuid": "2f2545c0ed179994b909e22c5f4783c2",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Achievement_AchievementMain",
+      "ClassFullName": "GeneratedTable.Achievement_AchievementMain",
+      "FileID": -1244420903
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BehaviorTree.cs",
+      "OriginalGuid": "a74be97a733ea1b4d843a5f388b58715",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BehaviorTree",
+      "ClassFullName": "RoyalFramework.CommonModule.BehaviorTree",
+      "FileID": -2027401403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSetGlobalSceneData.cs",
+      "OriginalGuid": "9869732e36a3c814dbaf46e4b1bfe4d3",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSetGlobalSceneData",
+      "ClassFullName": "NewBehaviorTree.TaskSetGlobalSceneData",
+      "FileID": -1954943790
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Composite\\OneShotSequence.cs",
+      "OriginalGuid": "f8cfc8514669ae44d8652c454b152f52",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "OneShotSequence",
+      "ClassFullName": "NewBehaviorTree.OneShotSequence",
+      "FileID": -1228345182
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_RandomBoxItemRateTable.cs",
+      "OriginalGuid": "ac7a8082154c6ef4a8f140537447bb8e",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_RandomBoxItemRateTable",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_RandomBoxItemRateTable",
+      "FileID": -1445332034
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleBase.cs",
+      "OriginalGuid": "33496a8d49194854baaa836a955ba55d",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleBase",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleBase",
+      "FileID": -818679720
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcOpenSesameSupporter.cs",
+      "OriginalGuid": "44a20c93cdbf1d3449a754dcbe32ed50",
+      "ClassNamespace": null,
+      "ClassName": "NpcOpenSesameSupporter",
+      "ClassFullName": "NpcOpenSesameSupporter",
+      "FileID": -1418469364
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\ExtentionMethod.cs",
+      "OriginalGuid": "b76c6d61c8076ba4d8b818d0f842d5a2",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "ExtentionMethod",
+      "ClassFullName": "RoyalFramework.CommonModule.ExtentionMethod",
+      "FileID": 1757058760
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SkillTable_ProjectileTable.cs",
+      "OriginalGuid": "5b783c80e918c3f4283f6972ba430ea6",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SkillTable_ProjectileTable",
+      "ClassFullName": "GeneratedTable.SkillTable_ProjectileTable",
+      "FileID": -1165932468
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\PlatformManager.cs",
+      "OriginalGuid": "3969e294102f95446978b3042292dc2d",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformManager",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformManager",
+      "FileID": 2012359511
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_SkinInfo.cs",
+      "OriginalGuid": "50c80005d0061794997db39e4dbd3241",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_SkinInfo",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_SkinInfo",
+      "FileID": 924085431
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\PlatformBase.cs",
+      "OriginalGuid": "64e2429a1f3e7834c8ba45130720bb24",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformBase",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformBase",
+      "FileID": -767464035
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\SoundInfoTable_ETC.cs",
+      "OriginalGuid": "394239ba9c676d242a19ffff709d2851",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "DuckingTable",
+      "ClassFullName": "GeneratedTable.DuckingTable",
+      "FileID": 617506254
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\CurveTable.cs",
+      "OriginalGuid": "5400deaf76be4674eb0d3fbbd374d8f9",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CurveTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CurveTable",
+      "FileID": 309527175
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Buff\\CommonBuff.cs",
+      "OriginalGuid": "4095a2a6197ac9b4686c7dffca93fe5c",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonBuff",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonBuff",
+      "FileID": -2098978403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\HIDSystem\\UISetControllerLayout.cs",
+      "OriginalGuid": "77d4e1edec637ff4db49b8ad27d896a0",
+      "ClassNamespace": "RoyalFramework.CommonModule.UI",
+      "ClassName": "UISetControllerLayout",
+      "ClassFullName": "RoyalFramework.CommonModule.UI.UISetControllerLayout",
+      "FileID": -787502719
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTAvoidWalls.cs",
+      "OriginalGuid": "965373c4b3fc4f5499155e9c0111206c",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTAvoidWalls",
+      "ClassFullName": "RoyalFramework.CommonModule.BTAvoidWalls",
+      "FileID": -391804660
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonCharacterModule_CSharpToLua.cs",
+      "OriginalGuid": "2f4a05a80f407ce44b1d15d7b9e61d5e",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonCharacterModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonCharacterModule",
+      "FileID": 1479831074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\BuffInfoTable_EffectInfo.cs",
+      "OriginalGuid": "120a5921120e0ac499c9ea1395b7e9df",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "BuffInfoTable_EffectInfo",
+      "ClassFullName": "GeneratedTable.BuffInfoTable_EffectInfo",
+      "FileID": 1906764801
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_TownRandomBoxCardDrawType.cs",
+      "OriginalGuid": "15ff2e426dffd4049966f2e194fe5769",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_TownRandomBoxCardDrawType",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_TownRandomBoxCardDrawType",
+      "FileID": -1170366791
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\GoodsTable_GoodsTable.cs",
+      "OriginalGuid": "270265aeb6736bc4ab8b9ef63c75b6c5",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "GoodsTable_GoodsTable",
+      "ClassFullName": "GeneratedTable.GoodsTable_GoodsTable",
+      "FileID": -2060376293
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_RandomBoxTabTable.cs",
+      "OriginalGuid": "fc0bf165c106564488046263db16ed73",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_RandomBoxTabTable",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_RandomBoxTabTable",
+      "FileID": -1013939189
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_Pet.cs",
+      "OriginalGuid": "01deaac5be4a1884992af02c09f3ef4e",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_Pet",
+      "ClassFullName": "GeneratedTable.Pet_Pet",
+      "FileID": -1366379923
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_PortraitNameInfo.cs",
+      "OriginalGuid": "4bc12f40f5cc1ff4baac2aaec9f167c5",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_PortraitNameInfo",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_PortraitNameInfo",
+      "FileID": -931037677
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetSurprised.cs",
+      "OriginalGuid": "2d6bbd2f548752c4ab92c0c929b43ebd",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetSurprised",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetSurprised",
+      "FileID": 1804001151
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\HIDSystem\\UIHotkeyButton.cs",
+      "OriginalGuid": "3a2f233ade752ff46a49a65988255287",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "UIHotkeyButton",
+      "ClassFullName": "RoyalFramework.CommonModule.UIHotkeyButton",
+      "FileID": 29675848
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIState.cs",
+      "OriginalGuid": "6ffe8368119805e48a06c61bb96ec362",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIState",
+      "ClassFullName": "RoyalFramework.CommonModule.AIState",
+      "FileID": -1311230392
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\UIStackManager\\UIStackManager.cs",
+      "OriginalGuid": "cd89e77ac027d9a408da1e3ab6852f1b",
+      "ClassNamespace": "RoyalFramework.CommonModule.UI",
+      "ClassName": "UIStackManager",
+      "ClassFullName": "RoyalFramework.CommonModule.UI.UIStackManager",
+      "FileID": -762761890
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Achievement_ACategory.cs",
+      "OriginalGuid": "4f642b0fdb9d5a44ba2f96f9356fb480",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Achievement_ACategory",
+      "ClassFullName": "GeneratedTable.Achievement_ACategory",
+      "FileID": -1983386949
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SeasonPassTable_PassRewardTable.cs",
+      "OriginalGuid": "ded52c735e5016344852205b2c7e0224",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SeasonPassTable_PassRewardTable",
+      "ClassFullName": "GeneratedTable.SeasonPassTable_PassRewardTable",
+      "FileID": -445325596
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTCrossTheStreet.cs",
+      "OriginalGuid": "e2dfb27ff7e88da4c9ba09ecfb9711f2",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTCrossTheStreet",
+      "ClassFullName": "RoyalFramework.CommonModule.BTCrossTheStreet",
+      "FileID": 992970659
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_FadeOut.cs",
+      "OriginalGuid": "92507accf4b6255429ee35929823a255",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_FadeOut",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_FadeOut",
+      "FileID": -1193681654
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\CommonItemTable_CommonItemTable.cs",
+      "OriginalGuid": "245f89fb6c914f04f8a01010397c6f5e",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "CommonItemTable_CommonItemTable",
+      "ClassFullName": "GeneratedTable.CommonItemTable_CommonItemTable",
+      "FileID": -1631823592
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\ZoneCollector.cs",
+      "OriginalGuid": "2d12f4431b7ec6d44a79ef5a131fa112",
+      "ClassNamespace": null,
+      "ClassName": "ZoneCollector",
+      "ClassFullName": "ZoneCollector",
+      "FileID": 1403437156
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePet.cs",
+      "OriginalGuid": "c779e6d283ebc4541a6a50d11640ab2f",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePet",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePet",
+      "FileID": 2124945188
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Achievement_Achievement.cs",
+      "OriginalGuid": "aefab58ba74ec1344b6cf6af4860878a",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Achievement_Achievement",
+      "ClassFullName": "GeneratedTable.Achievement_Achievement",
+      "FileID": -1430297103
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ModInfoTable_StageInfoTable.cs",
+      "OriginalGuid": "943e55ef395c49c4893ac6f9946f2521",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ModInfoTable_StageInfoTable",
+      "ClassFullName": "GeneratedTable.ModInfoTable_StageInfoTable",
+      "FileID": -1245309767
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskRandomMove.cs",
+      "OriginalGuid": "8732e05bbc1284f4cba131c823c3b5f4",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskRandomMove",
+      "ClassFullName": "NewBehaviorTree.TaskRandomMove",
+      "FileID": -66563943
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\TextTable_TextTable.cs",
+      "OriginalGuid": "7a5dd310f8f515c4a90ebe80074be406",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "TextTable_TextTable",
+      "ClassFullName": "GeneratedTable.TextTable_TextTable",
+      "FileID": 776031972
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\EnumActionKey.cs",
+      "OriginalGuid": "b18ed4a4bc8ac5d46bbeb4793f157af9",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "EActionKeyLayer",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.EActionKeyLayer",
+      "FileID": -2080878864
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Composite\\MemorySequence.cs",
+      "OriginalGuid": "acb58e133995e3242a76430f1260c146",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "MemorySequence",
+      "ClassFullName": "NewBehaviorTree.MemorySequence",
+      "FileID": 67383670
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\CharacterTable_MovePropertys.cs",
+      "OriginalGuid": "220a707aa6f5cae4a9fdd67b2df2b408",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "CharacterTable_MovePropertys",
+      "ClassFullName": "GeneratedTable.CharacterTable_MovePropertys",
+      "FileID": 886427723
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RandomBoxTable_TownRandomBoxInfoTable.cs",
+      "OriginalGuid": "f74e0798a1baf654fa52cd8da0f1e560",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RandomBoxTable_TownRandomBoxInfoTable",
+      "ClassFullName": "GeneratedTable.RandomBoxTable_TownRandomBoxInfoTable",
+      "FileID": 196448627
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTColorSwitch.cs",
+      "OriginalGuid": "bdc858ec4780cac428d96945cfbc98a3",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTColorSwitch",
+      "ClassFullName": "RoyalFramework.CommonModule.BTColorSwitch",
+      "FileID": 1293765447
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\CommonPetSubModuleAnim.cs",
+      "OriginalGuid": "b8b2467889503694ab83c167fea1cef0",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonPetSubModuleAnim",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonPetSubModuleAnim",
+      "FileID": -90471611
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Buff\\CommonBuffEffect.cs",
+      "OriginalGuid": "5e43a318e3f22cb4991a6e731b841275",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonBuffEffect",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonBuffEffect",
+      "FileID": 833358160
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\BehaviorTreeAsset.cs",
+      "OriginalGuid": "0e7effedaf8f5bd40a2daf2305b55f30",
+      "ClassNamespace": null,
+      "ClassName": "BehaviorTreeAsset",
+      "ClassFullName": "BehaviorTreeAsset",
+      "FileID": 1757716776
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcRunUpAndDownSupporter.cs",
+      "OriginalGuid": "3aec70ed8d20f07408084fc23710e1a1",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NpcRunUpAndDownSupporter",
+      "ClassFullName": "RoyalFramework.CommonModule.NpcRunUpAndDownSupporter",
+      "FileID": 2132398335
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskAvoidTarget.cs",
+      "OriginalGuid": "6e90918e30e288e4d913decc9536c9ee",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskAvoidTarget",
+      "ClassFullName": "NewBehaviorTree.TaskAvoidTarget",
+      "FileID": 1572825952
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\SkillManager.cs",
+      "OriginalGuid": "bbd37cf7b3381de4da7712a1dd5551a2",
+      "ClassNamespace": null,
+      "ClassName": "SkillManager",
+      "ClassFullName": "SkillManager",
+      "FileID": -873740424
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionCheckStuck.cs",
+      "OriginalGuid": "1b8bedd97519a2f49b1f2f5f72c4aa3b",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionCheckStuck",
+      "ClassFullName": "NewBehaviorTree.ConditionCheckStuck",
+      "FileID": -883600841
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskDash.cs",
+      "OriginalGuid": "0ca7daf1596dbc649a422aa18502a181",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskDash",
+      "ClassFullName": "NewBehaviorTree.TaskDash",
+      "FileID": -350136568
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\NonPlayerCharacterTable_Npc.cs",
+      "OriginalGuid": "2d8646f595dcf1843b0353e063de3ee8",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "NonPlayerCharacterTable_Npc",
+      "ClassFullName": "GeneratedTable.NonPlayerCharacterTable_Npc",
+      "FileID": 1141278844
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\EmotionInfoTable_EmotionInfoTable.cs",
+      "OriginalGuid": "478d321771e36b844866cc657ca30540",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "EmotionInfoTable_EmotionInfoTable",
+      "ClassFullName": "GeneratedTable.EmotionInfoTable_EmotionInfoTable",
+      "FileID": 408285913
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SkillTable_SkillTable.cs",
+      "OriginalGuid": "4dd1921c6e527084e8ee8a03ce5c34f5",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SkillTable_SkillTable",
+      "ClassFullName": "GeneratedTable.SkillTable_SkillTable",
+      "FileID": 1869182054
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetAffection.cs",
+      "OriginalGuid": "0136f9a917eb3224b9b9913ec4a2f42e",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetAffection",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetAffection",
+      "FileID": 2090218832
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Sound\\SoundInfoTable.cs",
+      "OriginalGuid": "c31c2c0be8f3e414e8cf614494431882",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable",
+      "ClassFullName": "GeneratedTable.SoundInfoTable",
+      "FileID": 652548417
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_EpicInfo.cs",
+      "OriginalGuid": "13235847bb79fde40aebac070a6fb773",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_EpicInfo",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_EpicInfo",
+      "FileID": -1032471953
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSetRandomTargetInBounds.cs",
+      "OriginalGuid": "fdb36f956012ad9459d2f9fb4e736a23",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSetRandomTargetInBounds",
+      "ClassFullName": "NewBehaviorTree.TaskSetRandomTargetInBounds",
+      "FileID": -1705571725
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\CommonPetSubModuleMove.cs",
+      "OriginalGuid": "ad7d3464e52306a4eab3036d656524a1",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonPetSubModuleMove",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonPetSubModuleMove",
+      "FileID": -1110512601
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\EmotionInfoTable_EmojiInfoTable.cs",
+      "OriginalGuid": "0b115b78b4badf5498bdcf823c4590a0",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "EmotionInfoTable_EmojiInfoTable",
+      "ClassFullName": "GeneratedTable.EmotionInfoTable_EmojiInfoTable",
+      "FileID": -832148956
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\PlayRewardTable_ModeBonusTable.cs",
+      "OriginalGuid": "4b686d8849d159945834a7d965ca089f",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "PlayRewardTable_ModeBonusTable",
+      "ClassFullName": "GeneratedTable.PlayRewardTable_ModeBonusTable",
+      "FileID": 286676733
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductRandombox.cs",
+      "OriginalGuid": "18323ef1fb2a298418b5856a37249177",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductRandombox",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductRandombox",
+      "FileID": -1530989077
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\UI\\RoyalUIControllerService.cs",
+      "OriginalGuid": "915bc68010712634384954ea40d21d9b",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "RoyalUIControllerService",
+      "ClassFullName": "RoyalFramework.CommonModule.RoyalUIControllerService",
+      "FileID": -2104527994
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\InputController.cs",
+      "OriginalGuid": "1c926662b5dc90c499ec4728a2bce97f",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "InputController",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.InputController",
+      "FileID": 1823394205
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ParticleInfoTable_ParticleInfoTable.cs",
+      "OriginalGuid": "dd4351ff9760c024b8324104e09c6b1a",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ParticleInfoTable_ParticleInfoTable",
+      "ClassFullName": "GeneratedTable.ParticleInfoTable_ParticleInfoTable",
+      "FileID": 934217857
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Tables\\CommonBareSkinTable.cs",
+      "OriginalGuid": "f6ff2c3a2968a55489ae3caf2909bb75",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonBareSkinTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonBareSkinTable",
+      "FileID": -635972825
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ShopTable_ShopTable.cs",
+      "OriginalGuid": "6bd963b1851cc2e4cb5a1b87f6879b7e",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ShopTable_ShopTable",
+      "ClassFullName": "GeneratedTable.ShopTable_ShopTable",
+      "FileID": -1564911889
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Crypto\\CrtRandom.cs",
+      "OriginalGuid": "1e3dc40b26da2e94eb328af1b810b4d9",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CrtRandom",
+      "ClassFullName": "RoyalFramework.CommonModule.CrtRandom",
+      "FileID": -118056707
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProfileInfoTable_ProfileInfo.cs",
+      "OriginalGuid": "002b83f4670e0524a8f2379e586f3eb2",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProfileInfoTable_ProfileInfo",
+      "ClassFullName": "GeneratedTable.ProfileInfoTable_ProfileInfo",
+      "FileID": -1540947599
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Tables\\CommonEmotionTable.cs",
+      "OriginalGuid": "64a79ce68cc56d44c8e87291f1daf46a",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonEmotionTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonEmotionTable",
+      "FileID": -1680397171
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetRun.cs",
+      "OriginalGuid": "c0dad3a1193e7d94a94efd684af540bb",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetRun",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetRun",
+      "FileID": -518070069
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductCurrency.cs",
+      "OriginalGuid": "7e261e07cf916c94ca3a9fa61a6d9b9f",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductCurrency",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductCurrency",
+      "FileID": 752654742
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\SoundInfoTable_PreloadSoundInfoTable.cs",
+      "OriginalGuid": "5a1d8d6f1e6a6e148a88616144c92991",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundInfoTable_PreloadSoundInfoTable",
+      "ClassFullName": "GeneratedTable.SoundInfoTable_PreloadSoundInfoTable",
+      "FileID": -506897016
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetSubModule\\PetModuleProperty.cs",
+      "OriginalGuid": "24a1a4f75ef242c4ea1dda6ee91bf7a5",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "PetModuleProperty",
+      "ClassFullName": "RoyalFramework.CommonModule.PetModuleProperty",
+      "FileID": 1839683835
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Vehicles\\VehicleManager.cs",
+      "OriginalGuid": "d60771ea5fbb14347b6338975ab61c90",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "VehicleManager",
+      "ClassFullName": "RoyalFramework.CommonModule.VehicleManager",
+      "FileID": 1698659815
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTRunUpAndDown.cs",
+      "OriginalGuid": "4bf69563e0b9f074b8e20e57f0d4aafc",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTRunUpAndDown",
+      "ClassFullName": "RoyalFramework.CommonModule.BTRunUpAndDown",
+      "FileID": -827906297
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Composite\\RepeaterSequence.cs",
+      "OriginalGuid": "f1c82804382e7d440ae4b1945732beda",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "RepeaterSequence",
+      "ClassFullName": "NewBehaviorTree.RepeaterSequence",
+      "FileID": 713206362
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonDataManager.cs",
+      "OriginalGuid": "17f5fe8ee83eb844f96bc756fa93d040",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonDataManager",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonDataManager",
+      "FileID": -221954067
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcAvoidWallSupporter.cs",
+      "OriginalGuid": "711e850554e675d4e9e0dccda7b71de7",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NpcAvoidWallSupporter",
+      "ClassFullName": "RoyalFramework.CommonModule.NpcAvoidWallSupporter",
+      "FileID": -1307201214
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleMove.cs",
+      "OriginalGuid": "18b98f621c788404ea583a62551a56ae",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleMove",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleMove",
+      "FileID": 2070896903
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BehaviorTreeController.cs",
+      "OriginalGuid": "0d54707c8d632b647a37d5adbf431291",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BehaviorTreeController",
+      "ClassFullName": "RoyalFramework.CommonModule.BehaviorTreeController",
+      "FileID": 827148348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetDetect.cs",
+      "OriginalGuid": "8a2d48e72706438409da02da3c500438",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetDetect",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetDetect",
+      "FileID": 1501527828
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Tables\\CommonSkillTable.cs",
+      "OriginalGuid": "0abb855987bbb6b4aa0c4f78d6742fde",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSkillTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSkillTable",
+      "FileID": -145054925
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Sound\\SoundScriptableObject.cs",
+      "OriginalGuid": "aaafcc1a23eac5a46a0d5452a163e905",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "SoundScriptableObject",
+      "ClassFullName": "GeneratedTable.SoundScriptableObject",
+      "FileID": -1063754494
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionIsFrontLayer.cs",
+      "OriginalGuid": "c23a35a0590957e4dba446f7b5550df1",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionIsFrontLayer",
+      "ClassFullName": "NewBehaviorTree.ConditionIsFrontLayer",
+      "FileID": 2815132
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\SubModules\\CommonSubModuleBuff.cs",
+      "OriginalGuid": "d4a926c6b6a070e4489535e5d266a57c",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonSubModuleBuff",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonSubModuleBuff",
+      "FileID": 523464853
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\BuffInfoTable_BuffInfoTable.cs",
+      "OriginalGuid": "dae61858c62022049981afa5057d053a",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "BuffInfoTable_BuffInfoTable",
+      "ClassFullName": "GeneratedTable.BuffInfoTable_BuffInfoTable",
+      "FileID": -458342506
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Condition\\ConditionIsInDistance.cs",
+      "OriginalGuid": "8de1383a1758a3b4b9339b9a1fba8da3",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "ConditionIsInDistance",
+      "ClassFullName": "NewBehaviorTree.ConditionIsInDistance",
+      "FileID": 1167873203
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\AIState\\AIStatePetIdle.cs",
+      "OriginalGuid": "96eab92f085f8804db7a9ffadf1858c8",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "AIStatePetIdle",
+      "ClassFullName": "RoyalFramework.CommonModule.AIStatePetIdle",
+      "FileID": 1191346065
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskJump.cs",
+      "OriginalGuid": "b19f39e7a08dccf458f80452e2dd4069",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskJump",
+      "ClassFullName": "NewBehaviorTree.TaskJump",
+      "FileID": 1987051343
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\RoyalFramework\\PlatformRoyalFramework.cs",
+      "OriginalGuid": "a2be0426889fec540bad2fe7eedc8131",
+      "ClassNamespace": "RoyalFramework.CommonModule.Platform",
+      "ClassName": "PlatformRoyalFramework",
+      "ClassFullName": "RoyalFramework.CommonModule.Platform.PlatformRoyalFramework",
+      "FileID": 222137161
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ItemInfoTable_WeaponInfo.cs",
+      "OriginalGuid": "eca2b5b9ea15884438f6a5fc7c9ea908",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ItemInfoTable_WeaponInfo",
+      "ClassFullName": "GeneratedTable.ItemInfoTable_WeaponInfo",
+      "FileID": 1041853849
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskSetTarget.cs",
+      "OriginalGuid": "01a2c8cad3e351e4793f7321ee6a6ac2",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskSetTarget",
+      "ClassFullName": "NewBehaviorTree.TaskSetTarget",
+      "FileID": -828787690
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\NodeType.cs",
+      "OriginalGuid": "72663b301c14a214d8ecb6507127ea18",
+      "ClassNamespace": null,
+      "ClassName": "NodeType",
+      "ClassFullName": "NodeType",
+      "FileID": 1234860792
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\CommonCharacterModule_RPC.cs",
+      "OriginalGuid": "41d3c30833a59094fae7b027cd19d175",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonCharacterModule",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonCharacterModule",
+      "FileID": 1479831074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskUpdatePlatformScanner.cs",
+      "OriginalGuid": "dfcb86d723c5929459702adbb48a11b9",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskUpdatePlatformScanner",
+      "ClassFullName": "NewBehaviorTree.TaskUpdatePlatformScanner",
+      "FileID": -1764927745
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskMoveZone.cs",
+      "OriginalGuid": "328cdf8b70fd00d488024960b555f7a5",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskMoveZone",
+      "ClassFullName": "NewBehaviorTree.TaskMoveZone",
+      "FileID": 2026699329
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Platform\\RoyalPlatformService.cs",
+      "OriginalGuid": "e054a07b09bd7f44cb44985268096b3b",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "RoyalPlatformService",
+      "ClassFullName": "RoyalFramework.CommonModule.RoyalPlatformService",
+      "FileID": 1382222198
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ParticleInfoTable_ScreenEffectInfoTable.cs",
+      "OriginalGuid": "9affd6201cf703748a663b13890225e4",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ParticleInfoTable_ScreenEffectInfoTable",
+      "ClassFullName": "GeneratedTable.ParticleInfoTable_ScreenEffectInfoTable",
+      "FileID": -1794883637
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\RewardTable_RouteText.cs",
+      "OriginalGuid": "a2f77618542d28b4d826173e86012b48",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "RewardTable_RouteText",
+      "ClassFullName": "GeneratedTable.RewardTable_RouteText",
+      "FileID": 1462438689
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\RoyalInputControllerService.cs",
+      "OriginalGuid": "8b8be605fb07cf340978d10264670479",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "RoyalInputControllerService",
+      "ClassFullName": "RoyalFramework.CommonModule.RoyalInputControllerService",
+      "FileID": -578043538
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskUpdateZoneInfo.cs",
+      "OriginalGuid": "5b7575865e1708748a1fd3cca22d1580",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskUpdateZoneInfo",
+      "ClassFullName": "NewBehaviorTree.TaskUpdateZoneInfo",
+      "FileID": -716955356
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductCostume.cs",
+      "OriginalGuid": "190c5d704eef8f543b3de43729affae1",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductCostume",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductCostume",
+      "FileID": -1745371618
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\GlobalValues.cs",
+      "OriginalGuid": "cbbfa91714ec7a64098b376f7c24af20",
+      "ClassNamespace": "RoyalFramework.CommonModule.Global",
+      "ClassName": "GlobalValues",
+      "ClassFullName": "RoyalFramework.CommonModule.Global.GlobalValues",
+      "FileID": -1077994673
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\Task\\TaskWait.cs",
+      "OriginalGuid": "75468f00fb57a004d9ef2c12cd3dd055",
+      "ClassNamespace": "NewBehaviorTree",
+      "ClassName": "TaskWait",
+      "ClassFullName": "NewBehaviorTree.TaskWait",
+      "FileID": 570317470
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\NpcCrossTheStreetSupporter.cs",
+      "OriginalGuid": "0a9c5c34effd8c04ca0ecf6686934771",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "NpcCrossTheStreetSupporter",
+      "ClassFullName": "RoyalFramework.CommonModule.NpcCrossTheStreetSupporter",
+      "FileID": -1992335429
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\CouponTable_CouponTable.cs",
+      "OriginalGuid": "c50d19f2f43e0fb47a00ff32688eccdd",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "CouponTable_CouponTable",
+      "ClassFullName": "GeneratedTable.CouponTable_CouponTable",
+      "FileID": 1412032895
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\TableManagerCommon.cs",
+      "OriginalGuid": "64678b8cb71f80f4dae25636e55983f0",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "TableManagerCommon",
+      "ClassFullName": "GeneratedTable.TableManagerCommon",
+      "FileID": -1119648314
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\BehaviourTree\\BTCreepingIcePlate.cs",
+      "OriginalGuid": "2e5221f119f3f814a99d687ae37447b7",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BTCreepingIcePlate",
+      "ClassFullName": "RoyalFramework.CommonModule.BTCreepingIcePlate",
+      "FileID": -1195270996
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\Pet_PetGacha.cs",
+      "OriginalGuid": "8ddb3a9d2fd08c047aadf689388cc9d4",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "Pet_PetGacha",
+      "ClassFullName": "GeneratedTable.Pet_PetGacha",
+      "FileID": 1783649497
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\UserAutoNicknamePoolTable_UserAutoNicknamePoolTable.cs",
+      "OriginalGuid": "b618d92688bfe8a47a40dca7c45b7411",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "UserAutoNicknamePoolTable_UserAutoNicknamePoolTable",
+      "ClassFullName": "GeneratedTable.UserAutoNicknamePoolTable_UserAutoNicknamePoolTable",
+      "FileID": 500420911
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\Tables\\CommonBuffTable.cs",
+      "OriginalGuid": "4c77f68fb255caa409cd769c97f95988",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "CommonBuffTable",
+      "ClassFullName": "RoyalFramework.CommonModule.CommonBuffTable",
+      "FileID": -370829105
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\Layer_Enum.cs",
+      "OriginalGuid": "3d08cef6004ba3f408eb7335b7c322a9",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "PhysicsCollisionMatrix",
+      "ClassFullName": "GeneratedTable.PhysicsCollisionMatrix",
+      "FileID": -1961280760
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\MailgaintextTable_MailgaintextTable.cs",
+      "OriginalGuid": "7becbadb5a2b49046979dde3bfb6c606",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "MailgaintextTable_MailgaintextTable",
+      "ClassFullName": "GeneratedTable.MailgaintextTable_MailgaintextTable",
+      "FileID": -1622599664
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\ProductTable_ProductEmote.cs",
+      "OriginalGuid": "5f1d0b8061bff1b4698e9e069596c47c",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "ProductTable_ProductEmote",
+      "ClassFullName": "GeneratedTable.ProductTable_ProductEmote",
+      "FileID": 197847522
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\TableData\\CharacterTable_AttackDash.cs",
+      "OriginalGuid": "8d5d25893d5874949ba58355006b4977",
+      "ClassNamespace": "GeneratedTable",
+      "ClassName": "CharacterTable_AttackDash",
+      "ClassFullName": "GeneratedTable.CharacterTable_AttackDash",
+      "FileID": -1182494577
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\NewBehaviorTree\\BTBuilder.cs",
+      "OriginalGuid": "fcf497c6ce4286341bc79dbd29cad47c",
+      "ClassNamespace": null,
+      "ClassName": "BTBuilder",
+      "ClassFullName": "BTBuilder",
+      "FileID": -1860709249
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Input\\InputActionExtentions.cs",
+      "OriginalGuid": "360b0e90f23453345b9a325f92c92f03",
+      "ClassNamespace": "RoyalFramework.CommonModule.InputV2",
+      "ClassName": "InputActionExtentions",
+      "ClassFullName": "RoyalFramework.CommonModule.InputV2.InputActionExtentions",
+      "FileID": -1045157701
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Common\\BoneReattacher.cs",
+      "OriginalGuid": "3e2748053cd44c04d9a50b0f0ea00fb5",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "BoneReattacher",
+      "ClassFullName": "RoyalFramework.CommonModule.BoneReattacher",
+      "FileID": 332168672
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.vulcanus.royalframework\\Runtime\\CommonModule\\Character\\PetMgmt.cs",
+      "OriginalGuid": "2e0d3a1b3e8784745b480c28e6cca0b5",
+      "ClassNamespace": "RoyalFramework.CommonModule",
+      "ClassName": "PetMgmt",
+      "ClassFullName": "RoyalFramework.CommonModule.PetMgmt",
+      "FileID": 1632321974
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="BackGround">
+        <ui:VisualElement name="Head" style="align-items: stretch; justify-content: center;">
+            <ui:VisualElement name="HeadLayout" style="flex-direction: row; height: 40px; background-color: rgb(40, 40, 40); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); width: auto; align-items: stretch; justify-content: flex-start;">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="Name" style="width: 30%; -unity-text-align: middle-center; font-size: 16px; -unity-font-style: bold; border-top-right-radius: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); border-right-width: 1px;" />
+                <ui:Label text="Type" display-tooltip-when-elided="true" name="Type" style="width: 20%; -unity-text-align: middle-center; font-size: 16px; -unity-font-style: bold; border-right-width: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26);" />
+                <ui:Label text="Value" display-tooltip-when-elided="true" name="Value" style="width: 50%; -unity-text-align: middle-center; font-size: 16px; -unity-font-style: bold; border-right-width: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); align-items: flex-start;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="min-height: 40px; border-top-width: 0; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26);" />
+        <ui:VisualElement name="Tail" style="margin-top: 20px; height: 55px;">
+            <ui:Button text="Add List" display-tooltip-when-elided="false" name="AddMemberButton" enable-rich-text="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); height: 30px; -unity-font-style: bold; font-size: 18px; background-color: rgba(154, 127, 253, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  targetFolderObject: {fileID: 102900000, guid: 202ad829dbc264147abde6359bfe25ab, type: 3}
+  m_DefaultGroup: 021742dfcb280a0429b9a28db5b85e31
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 1
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 1
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 2
+  m_ShaderBundleCustomNaming: v
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 143dd3064f44f6442879112b1260576c
+  m_RemoteCatalogLoadPath:
+    m_Id: 595927c24c4436e449eb88f11de0a56c
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: v
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 2f53519c51ccc384ab0440f4d56652ce, type: 2}
+  - {fileID: 11400000, guid: 66fee0b568e461145b4bba5a7380833d, type: 2}
+  - {fileID: 11400000, guid: cc6049c92b40e814aacf68ffa18024d4, type: 2}
+  - {fileID: 11400000, guid: 06978d67382d7f54bb4efccf9813c150, type: 2}
+  - {fileID: 11400000, guid: b2c5ae60071930a43ab3386ef868492f, type: 2}
+  - {fileID: 11400000, guid: 17a637a61d0b136428f3811597a3b860, type: 2}
+  - {fileID: 11400000, guid: 9861bda3f28ddae49b0105bf80030311, type: 2}
+  - {fileID: 11400000, guid: 21090ee00f4542a48bfd543854b1a127, type: 2}
+  m_Builder:
+    activeCategory: {fileID: 11400000, guid: d287f95668777ca4db98884525d78b75, type: 2}
+    buildScope: 0
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 899a5bc75f2796c4380835f48e86299c
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 143dd3064f44f6442879112b1260576c
+        m_Value: '[VBuildPath]/GFUser/[BuildTarget]'
+      - m_Id: 405b174ec2abc9e4882259d483fc3991
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 595927c24c4436e449eb88f11de0a56c
+        m_Value: '[UserLoadUrl]/GFUser/[BuildTarget]'
+      - m_Id: b23e0b94c9841e54bbf4fe568fe8ec2e
+        m_Value: '[VLoadUrl]/GFCommon/[BuildTarget]'
+      - m_Id: c0e41540bfecf694ca45b898112eb592
+        m_Value: ServerData/Bundles
+      - m_Id: c87059f66a2d51a4c9584789200c723f
+        m_Value: '[VBuildPath]/GFCommon/[BuildTarget]'
+      - m_Id: cef3e4478d0b2254697e76a2354aa5cb
+        m_Value: '{CommonFramework.Runtime.VResources.UserLoadUrl}'
+      - m_Id: fb8112894d95e4542949540facf26c2f
+        m_Value: '{CommonFramework.Runtime.VResources.VLoadUrl}'
+    m_ProfileEntryNames:
+    - m_Id: 143dd3064f44f6442879112b1260576c
+      m_Name: GFUser.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 405b174ec2abc9e4882259d483fc3991
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 595927c24c4436e449eb88f11de0a56c
+      m_Name: GFUser.LoadPath
+      m_InlineUsage: 0
+    - m_Id: b23e0b94c9841e54bbf4fe568fe8ec2e
+      m_Name: GFCommon.LoadPath
+      m_InlineUsage: 0
+    - m_Id: c0e41540bfecf694ca45b898112eb592
+      m_Name: VBuildPath
+      m_InlineUsage: 0
+    - m_Id: c87059f66a2d51a4c9584789200c723f
+      m_Name: GFCommon.BuildPath
+      m_InlineUsage: 0
+    - m_Id: cef3e4478d0b2254697e76a2354aa5cb
+      m_Name: UserLoadUrl
+      m_InlineUsage: 0
+    - m_Id: fb8112894d95e4542949540facf26c2f
+      m_Name: VLoadUrl
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - Model
+    - UIDevice
+    - SpecialFX
+    - Palette Icon
+    - Decor
+    - Animation Clip
+    - UI
+    - Result Animation
+    - Font
+    - Character
+    - Sprite_Temp
+    - BGM
+    - Architecture
+    - Material
+    - Gizmo Icon
+    - Effect
+    - Prefap
+    - ScritableObject
+    - Face
+    - Sound
+    - GF
+    - BasicShape
+    - Volume
+    - Texture
+    - Avatar
+    - Neck
+    - Device
+    - Item
+    - Tex
+    - Body
+    - Stage Icon
+    - Shape
+    - Thumbnail_Temp
+    - Data
+    - Renewal_Texture
+    - UIPrefab
+    - Back
+    - Hair
+    - Buff
+    - Shader
+    - Materials
+    - Clothes
+    - FBX
+    - Foot
+    - __$Lighting
+    - Skybox
+    - __$internal
+    - Animator
+    - Enemy
+    - Prefab_Temp
+    - Service
+    - Prefab
+    - PhysicMaterial
+    - Head
+    - VFX
+    - Projectile
+    - Network
+    - NPC
+    - Device Script
+    - GFCommonModel
+    - GFCommonUIDevice
+    - GFCommonSpecialFX
+    - GFCommonPalette Icon
+    - GFCommonDecor
+    - GFCommonAnimation Clip
+    - GFCommonUI
+    - GFCommonResult Animation
+    - GFCommonFonts
+    - GFCommonCharacter
+    - GFCommonSprite_Temp
+    - GFCommonBGM
+    - GFCommonArchitecture
+    - GFCommonMaterial
+    - GFCommonGizmo Icon
+    - GFCommonEffect
+    - GFCommonPrefap
+    - GFCommonScritableObject
+    - GFCommonFace
+    - GFCommonSound
+    - GFCommonGF
+    - GFCommonBasicShape
+    - GFCommonVolume
+    - GFCommonTexture
+    - GFCommonAvatar
+    - GFCommonNeck
+    - GFCommonDevice
+    - GFCommonItem
+    - GFCommonTex
+    - GFCommonBody
+    - GFCommonStage Icon
+    - GFCommonShape
+    - GFCommonThumbnail_Temp
+    - GFCommonData
+    - GFCommonRenewal_Texture
+    - GFCommonUIPrefabs
+    - GFCommonBack
+    - GFCommonHair
+    - GFCommonBuff
+    - GFCommonShader
+    - GFCommonMaterials
+    - GFCommonPrefab
+    - GFCommonClothes
+    - GFCommonFBX
+    - GFCommonFoot
+    - GFCommonFont
+    - GFCommon__$Lighting
+    - GFCommonSkybox
+    - GFCommonPhysicsMaterial
+    - GFCommon__$internal
+    - GFCommonAnimator
+    - GFCommonEnemy
+    - GFCommonPrefab_Temp
+    - GFCommonService
+    - GFCommonModuleScript
+    - GFCommonPhysicMaterial
+    - GFCommonHead
+    - GFCommonVFX
+    - GFCommonProjectile
+    - GFCommonNetwork
+    - GFCommonNPC
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 5dc99adf1829f6046be4269adbb967ec, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 168103c4dc5347545a747f965ea88275, type: 2}
+  - {fileID: 11400000, guid: c37dce2682fcf414ebc229637d417c2b, type: 2}
+  - {fileID: 11400000, guid: a7cca0a4fc51d064f805ddd3e287d62a, type: 2}
+  - {fileID: 11400000, guid: 86a1dd652ba6d5e479774e142b2869fa, type: 2}
+  m_ActiveProfileId: 899a5bc75f2796c4380835f48e86299c
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 1
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
+    m_PingTimeoutInMilliseconds: 5000

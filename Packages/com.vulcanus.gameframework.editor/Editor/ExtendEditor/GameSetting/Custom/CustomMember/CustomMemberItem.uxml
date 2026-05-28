@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="BackGround" style="flex-direction: row; min-height: 40px;">
+        <ui:VisualElement name="MemberNameLayout" style="width: 30%; padding-right: 10px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px; border-top-width: 0; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26);">
+            <ui:TextField picking-mode="Ignore" text="Name" name="MemberName" style="-unity-text-align: middle-left; height: 100%; font-size: 14px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MemberTypeLayout" style="width: 20%; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; padding-top: 5px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); border-top-width: 0; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0;">
+            <ui:DropdownField choices="Int,Long,String,Bool" index="0" name="MemberType" style="height: 100%; font-size: 14px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MemberValueLayout" style="width: 50%; padding-right: 10px; padding-left: 10px; border-bottom-width: 1px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); border-right-width: 1px; justify-content: center; align-items: center;" />
+        <ui:VisualElement name="Buttons" style="width: 90px; border-left-color: rgb(26, 26, 26); border-right-color: rgb(26, 26, 26); border-top-color: rgb(26, 26, 26); border-bottom-color: rgb(26, 26, 26); border-bottom-width: 1px; flex-direction: row;">
+            <ui:VisualElement style="width: 65px;">
+                <ui:Button text="Save" display-tooltip-when-elided="true" name="SaveButton" />
+                <ui:Button text="Delete" display-tooltip-when-elided="true" name="DeleteButton" />
+            </ui:VisualElement>
+            <ui:VisualElement style="height: 100%; width: 35px; align-items: center; justify-content: center;">
+                <ui:VisualElement name="SaveBackGround" style="min-width: 20px; min-height: 20px; max-width: 20px; align-items: center; background-color: rgb(191, 0, 0); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; max-height: 20px; margin-right: 5px; margin-left: 5px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

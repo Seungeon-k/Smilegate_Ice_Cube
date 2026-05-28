@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; width: 100%; height: 100%;">
+        <ui:VisualElement name="ListView" style="width: 240px; min-width: 240px;">
+            <GameFramework.Editor.ExtendEditor.GameSetting.CategoryTable name="CategoryTable" CategoryName="editor.window.label.game_setting_editor.character_list" AddButtonName="editor.window.button.add_character" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentView" style="flex-grow: 1; align-items: center;">
+            <GlobalCustomUI.VTab Text="Character,Costume" name="SelectTab" ItemWidth="120" ItemHeight="40" ItemTextScale="14" style="height: 60px; width: 260px; display: none;" />
+            <GlobalCustomUI.VScrollView name="TabContent" style="flex-grow: 1; height: 100%; width: 100%; background-color: rgb(68, 68, 74);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

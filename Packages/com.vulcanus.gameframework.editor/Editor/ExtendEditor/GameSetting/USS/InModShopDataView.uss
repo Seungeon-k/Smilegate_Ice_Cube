@@ -1,0 +1,29 @@
+.TitleTextColor {
+    color: var(--text-primary-default);
+}
+
+.TitleBackGroundColor {
+    background-color: var(--background-container-02);
+}
+
+.DefaultTextColor {
+    color: var(--text-primary-default);
+}
+
+.DisableTextColor {
+    color: var(--text-primary-disabled);
+}
+
+.CreateButton {
+    background-color: var(--secondary-default);
+    color: var(--text-primary-default);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -unity-font-style: bold;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

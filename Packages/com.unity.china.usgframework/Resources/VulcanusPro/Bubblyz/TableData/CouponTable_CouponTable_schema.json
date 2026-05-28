@@ -1,0 +1,6 @@
+{
+    "CouponID": "!String",
+    "CouponName": "!String",
+    "PackageBoxId": "!String",
+    "ToMailBox": "!String"
+}

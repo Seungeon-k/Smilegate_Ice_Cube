@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/CustomDark.uss?fileID=7433441132597879392&amp;guid=7cb21c68881a46e4eb07a92ffbdab306&amp;type=3#CustomDark" />
+    <ui:VisualElement name="Top" style="margin-top: 5px; margin-bottom: 5px;">
+        <ui:VisualElement name="Layout" class="SettingsCategoryListBackground" style="flex-direction: row; min-height: 60px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(93, 93, 93); border-right-color: rgb(93, 93, 93); border-top-color: rgb(93, 93, 93); border-bottom-color: rgb(93, 93, 93); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding-left: 0; padding-right: 0; margin-right: 15px;">
+            <ui:VisualElement name="DragLayout" style="flex-direction: column; width: 35px; justify-content: center;">
+                <ui:Label text="≡" display-tooltip-when-elided="true" name="DragLabel" style="font-size: 25px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement picking-mode="Ignore" style="width: 100%; margin-left: 0; padding-left: 10px;">
+                <ui:VisualElement name="Head" style="flex-direction: row; height: 20px; align-items: center; justify-content: flex-start; padding-top: 0; margin-top: 5px; margin-bottom: 5px;">
+                    <ui:VisualElement style="justify-content: center; align-items: center; min-width: 100px;">
+                        <ui:Label text="Number of Stars" name="NumberofStars" display-tooltip-when-elided="true" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="Slider" focusable="false" style="min-width: 70px; max-width: 300px;" />
+                    <ui:VisualElement style="min-width: 70px;">
+                        <uie:IntegerField value="42" name="StarCount" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="height: 100%; width: 100%; -unity-text-align: upper-left; align-items: flex-end;">
+                        <ui:VisualElement name="Option" style="width: 20px; height: 100%; padding-right: 0; margin-right: 10px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Body" style="margin-top: 10px;">
+                    <ui:VisualElement name="Content" style="padding-left: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="AddItemButton" style="height: 25px; background-color: rgb(154, 127, 253); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-right: 15px; padding-top: 0; margin-top: 5px; align-items: center; justify-content: center; border-left-color: rgb(116, 116, 116); border-right-color: rgb(116, 116, 116); border-top-color: rgb(116, 116, 116); border-bottom-color: rgb(116, 116, 116); display: none;">
+            <ui:Label text="+ Add Item" display-tooltip-when-elided="true" picking-mode="Ignore" name="AddItemButtonLB" style="-unity-text-align: middle-center; font-size: 14px; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

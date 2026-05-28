@@ -1,0 +1,6 @@
+{
+    "GoodsID": "!String",
+    "Item": "!String",
+    "Amount": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

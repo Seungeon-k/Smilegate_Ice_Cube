@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX_SimpleShaderTransparent
+  m_Shader: {fileID: 4800000, guid: 47f2b6c28bf2f0c4ca0579f13077424b, type: 3}
+  m_ValidKeywords:
+  - _FOG
+  m_InvalidKeywords:
+  - VERTEX_OFFSET
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplacementGuide:
+        m_Texture: {fileID: 2800000, guid: 4aab8e6901201dd4d9761c39288986d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BANDING: 0
+    - CIRCLE_MASK: 0
+    - POLAR: 0
+    - RECT_MASK: 0
+    - SOFT_BLEND: 0
+    - _Banding: 0
+    - _Bands: 3
+    - _BurnSize: 1
+    - _CircleMask: 1
+    - _Contrast: 1
+    - _Culling: 0
+    - _Cutoff: 0
+    - _CutoffSoftness: 0.724
+    - _DisplacementAmount: 0.1
+    - _FOG: 1
+    - _InnerRadius: 0
+    - _IntersectionThresholdMax: 1
+    - _OuterRadius: 0.5
+    - _PolarCoords: 1
+    - _Power: 1
+    - _RectHeight: 0
+    - _RectMask: 0
+    - _RectMaskCutoff: 0
+    - _RectSmoothness: 0
+    - _RectWidth: 0
+    - _SecondTex: 0
+    - _Smoothness: 0
+    - _SoftBlend: 1
+    - _VertexOffset: 1
+    - _VertexOffsetAmount: 1
+    m_Colors:
+    - _BurnCol: {r: 2.297397, g: 0.39751875, b: 0, a: 1}
+    - _Color: {r: 5.992157, g: 3.2313726, b: 0.0627451, a: 1}
+    - _PanningSpeed: {r: 4, g: 0, b: 3, a: 0.5}
+    - _SecondaryPanningSpeed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

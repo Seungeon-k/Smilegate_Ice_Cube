@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <editor:Toolbar style="background-color: rgba(0,0,0,0);border-width: 0px;">
+        <engine:Button text="Apply" name="Apply">
+
+        </engine:Button>
+
+        <engine:Button text="Reset" name="Reset">
+
+        </engine:Button>
+    </editor:Toolbar>
+    
+    <engine:Foldout text="Mesh Block">
+        <editor:ObjectField allow-scene-objects="false" name="PrefabField" label="Prefab">
+
+        </editor:ObjectField>
+        
+        <engine:Toggle label="Breakable" name="Breakable">
+
+        </engine:Toggle>
+
+        <engine:Toggle label="Collidable" name="Collidable">
+
+        </engine:Toggle>
+        
+        <editor:Vector3Field label="Position" binding-path="Position" name="Position">
+            
+        </editor:Vector3Field>
+        
+        <editor:Vector3Field label="Rotate" binding-path="Rotate" name="Rotate">
+
+        </editor:Vector3Field>
+        
+        <editor:Vector3Field label="Scale" binding-path="Scale" name="Scale">
+
+        </editor:Vector3Field>
+        
+        <editor:Vector3IntField label="BlockSize" binding-path="BlockSize" name="BlockSize">
+
+        </editor:Vector3IntField>
+        
+        <engine:HelpBox name="BlockSizeWarning" message-type="Warning" text="The value you want to set is not legal.">
+            
+        </engine:HelpBox>
+    </engine:Foldout>
+</engine:UXML>

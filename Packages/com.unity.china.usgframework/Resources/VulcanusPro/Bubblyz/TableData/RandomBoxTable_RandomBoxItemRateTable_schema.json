@@ -1,0 +1,7 @@
+{
+    "ID": "!Int",
+    "RandomBoxID": "!String",
+    "RandomItemID": "!String",
+    "Probability": "!Float",
+    "MileageItem": "!Bool"
+}

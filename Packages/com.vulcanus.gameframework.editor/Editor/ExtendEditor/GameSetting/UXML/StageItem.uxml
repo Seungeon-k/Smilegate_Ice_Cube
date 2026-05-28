@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/dark.uss?fileID=7433441132597879392&amp;guid=fd17f51ae6a768943b00a6bfb1d60ea4&amp;type=3#dark" />
+    <ui:VisualElement name="StageItem" style="flex-grow: 1; height: 40px; max-height: 40px; min-height: 40px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; justify-content: flex-start; margin-right: 4px; margin-left: 4px; flex-direction: row; align-items: center;">
+        <ui:VisualElement name="Icon" style="width: 60px; height: 34px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-right: 4px; margin-left: 4px; max-width: 60px; min-width: 60px;" />
+        <ui:Label text="Base Stage" display-tooltip-when-elided="true" name="StageName" style="margin-left: 5px; margin-right: 5px; flex-grow: 1; max-width: 165px;" />
+        <ui:VisualElement name="Option" style="width: 20px; height: 20px; align-items: stretch; transform-origin: center; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/window_more.png?fileID=2800000&amp;guid=3bc599e16a094eb46b6aa9512032ac22&amp;type=3#window_more&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>

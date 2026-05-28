@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VListField.uss?fileID=7433441132597879392&amp;guid=121f7a06fc7ab1947a3057555246400a&amp;type=3#VListField" />
+    <ui:VisualElement name="Root" class="VListField">
+        <ui:VisualElement name="Head" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" />
+            <ui:UnsignedIntegerField name="Size" />
+        </ui:VisualElement>
+        <ui:ListView name="ListView" />
+        <ui:VisualElement name="Bottom">
+            <ui:Button name="Add" style="background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/add.png?fileID=2800000&amp;guid=610777ca2b5f7ea4a99084f1a823ae78&amp;type=3#add&quot;); margin-top: 6px; margin-right: 3px; margin-bottom: 6px; margin-left: 6px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(57, 60, 66); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;" />
+            <ui:Button name="Remove" style="background-color: rgb(60, 59, 66); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 6px; margin-right: 6px; margin-bottom: 6px; margin-left: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

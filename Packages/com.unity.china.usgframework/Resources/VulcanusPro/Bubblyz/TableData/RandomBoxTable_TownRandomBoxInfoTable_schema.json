@@ -1,0 +1,20 @@
+{
+    "RandomBoxID": "!String",
+    "RandomBoxName": "!String",
+    "RandomBoxDesc": "!String",
+    "MileageDesc": "!String",
+    "EndDate": "!GroupString, !Int",
+    "End_Comment": "!String",
+    "CutSceneNames": "!String",
+    "PriceType": "!String",
+    "DrawOnePrice": "!Int",
+    "DrawTenPrice": "!Int",
+    "TicketType": "!String",
+    "DrawTicketPrice": "!Int",
+    "MileageGain": "!Bool",
+    "DrawOneScore": "!Int",
+    "DrawTenScore": "!Int",
+    "MileageMaxScore": "!Int",
+    "MetaExport": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

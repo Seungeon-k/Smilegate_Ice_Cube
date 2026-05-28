@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="BackGround" style="padding-left: 6px; padding-right: 6px; flex-direction: row; background-color: rgb(90, 90, 96); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; justify-content: space-between; margin-right: 0; margin-top: 0; margin-bottom: 2px; padding-top: 2px; padding-bottom: 2px; align-items: center;">
+        <ui:VisualElement name="Action" style="width: 100%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Name" style="align-items: flex-start; padding-right: 0; padding-left: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="More" style="width: 15px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/window_more.png?fileID=2800000&amp;guid=3bc599e16a094eb46b6aa9512032ac22&amp;type=3#window_more&quot;); height: 15px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+{
+  "Name": "USGFramework.Runtime.Generated.LuaBinderAsset",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGFramework.Runtime.Generated.LuaBinderAsset.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Generated\\LuaBinderAsset\\GeneratedLuaAsset.cs",
+      "OriginalGuid": "e491f05ba19ca794bbe3f44560be4166",
+      "ClassNamespace": "USGFramework.Runtime.Generated.LuaBinderAsset",
+      "ClassName": "GeneratedLuaAsset",
+      "ClassFullName": "USGFramework.Runtime.Generated.LuaBinderAsset.GeneratedLuaAsset",
+      "FileID": -750891172
+    }
+  ]
+}

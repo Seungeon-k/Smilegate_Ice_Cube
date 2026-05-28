@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/dark.uss?fileID=7433441132597879392&amp;guid=fd17f51ae6a768943b00a6bfb1d60ea4&amp;type=3#dark" />
+    <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="StageListView" class="SettingsCategoryBackground" style="width: 280px; min-width: 280px; flex-grow: 1; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;">
+            <ui:Label text="My Stage" display-tooltip-when-elided="true" name="MyStage" style="padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; margin-bottom: 10px; -unity-text-align: middle-left; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-left: 0; font-size: 14px;" />
+            <ui:ScrollView vertical-scroller-visibility="Auto" name="ItemView" class="SettingsCategoryListBackground" style="flex-grow: 1; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 4px; margin-right: 4px; margin-bottom: 4px; margin-left: 4px;" />
+            <ui:VisualElement style="border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; justify-content: center; margin-top: 10px;">
+                <VulcanusEditor.ExtendEditor.VImageButton Text="Add Stage" name="AddButton" style="width: 240px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="SettingsCategoryBackground" style="margin-left: 0; flex-grow: 1; width: 100%; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;">
+            <GlobalCustomUI.VTitlebar titleName="Stage info" look="true" name="TitleBar" style="margin-top: 5px; margin-right: 0; margin-bottom: 5px; margin-left: 0; flex-grow: 0;" />
+            <ui:VisualElement name="Layout" style="flex-direction: row; flex-grow: 1;">
+                <ui:VisualElement name="Left" style="width: 140px; margin-left: 20px; margin-right: 10px;">
+                    <ui:Label text="Name" display-tooltip-when-elided="true" name="StageName" class="OnWindowContainerText" style="margin-top: 5px; margin-bottom: 5px; height: 25px; font-size: 14px; -unity-font-style: normal;" />
+                    <ui:Label text="Description" display-tooltip-when-elided="true" name="GameInfomation" class="OnWindowContainerText" style="height: 60px; margin-top: 5px; margin-bottom: 5px; -unity-text-align: middle-left; font-size: 14px; -unity-font-style: normal;" />
+                    <ui:Label text="Preview Image" display-tooltip-when-elided="true" name="StageImageText" class="OnWindowContainerText" style="height: 67px; margin-top: 5px; margin-bottom: 0; font-size: 14px; margin-right: 0; margin-left: 0; -unity-font-style: normal;" />
+                    <ui:Label text="Icon" display-tooltip-when-elided="true" name="StageIconImage" class="OnWindowContainerText" style="height: 25px; margin-top: 5px; margin-bottom: 5px; font-size: 14px; -unity-text-align: middle-left; -unity-font-style: normal;" />
+                    <ui:Label text="Scene" display-tooltip-when-elided="true" name="GamePlayScene" class="OnWindowContainerText" style="height: 25px; margin-top: 5px; margin-bottom: 5px; -unity-text-align: middle-left; font-size: 14px; -unity-font-style: normal; display: none;" />
+                    <ui:Label text="LuaScript" display-tooltip-when-elided="true" name="LuaScript" class="OnWindowContainerText" style="height: 25px; margin-top: 5px; margin-bottom: 5px; -unity-text-align: middle-left; font-size: 14px; -unity-font-style: normal; display: none;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" picking-mode="Ignore" style="width: 70%;">
+                    <GlobalCustomUI.VTextField name="StageName" style="margin-top: 5px; margin-bottom: 5px; font-size: 14px; height: 25px; flex-wrap: wrap; white-space: normal;" />
+                    <GlobalCustomUI.VTextField multiline="true" name="GameInfomation" picking-mode="Ignore" style="margin-top: 5px; margin-bottom: 5px; white-space: normal; height: 60px; flex-wrap: wrap;" />
+                    <ui:VisualElement name="StageImage" style="max-width: 120px; max-height: 64px; min-height: 64px; min-width: 120px; margin-left: 3px; border-top-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 5px; margin-bottom: 5px; background-color: rgb(42, 42, 42);" />
+                    <GlobalCustomUI.VObjectField name="IconImage" />
+                    <uie:ObjectField name="LuaScript" style="margin-top: 5px; margin-bottom: 5px; height: 25px; padding-right: 50%; font-size: 12px; display: none;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="align-items: center;">
+                <VulcanusEditor.ExtendEditor.VButton name="StageOpenButton" Text="Open" style="width: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

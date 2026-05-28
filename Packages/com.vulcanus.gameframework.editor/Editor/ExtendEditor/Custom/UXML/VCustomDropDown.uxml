@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-direction: row; margin-top: 2px; margin-bottom: 2px; width: 100%; height: 20px;">
+        <ui:Label display-tooltip-when-elided="true" name="FieldName" text="Tag" style="margin-right: 10px; margin-left: 10px; height: 20px; -unity-text-align: middle-left; margin-top: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 0;" />
+        <ui:VisualElement name="DropField" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-left-color: rgb(218, 78, 78); border-right-color: rgb(218, 78, 78); border-top-color: rgb(218, 78, 78); border-bottom-color: rgb(218, 78, 78); flex-direction: row; height: 20px; align-items: center; background-image: none; width: auto; padding-left: 3px; padding-right: 3px;">
+            <ui:Label display-tooltip-when-elided="true" name="DropdownText" style="flex-grow: 1;" />
+            <ui:VisualElement name="DropdownIcon" style="width: 20px; height: 20px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/arrow_down.png?fileID=2800000&amp;guid=ae7ebba0b4c02514ca58aeccab563332&amp;type=3#arrow_down&quot;);" />
+            <ui:VisualElement name="DropdownContent" style="position: absolute; height: 148px; width: 100%; align-items: center; justify-content: space-between; top: 20px; background-color: rgb(180, 120, 120); display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

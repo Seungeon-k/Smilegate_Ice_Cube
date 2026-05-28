@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "Type": "!String",
+    "Value": "!Float",
+    "ID_INT_TEMP": "!Int"
+}

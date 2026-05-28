@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Layout" style="flex-grow: 1;">
+        <ui:VisualElement style="flex-direction: row; height: 30px; max-height: 30px; min-height: 30px;">
+            <ui:Button text="White" display-tooltip-when-elided="true" name="WhiteButton" style="width: 60px; max-width: 60px; min-width: 60px;" />
+            <ui:Button text="Dark" display-tooltip-when-elided="true" name="DarkButton" style="width: 60px;" />
+            <ui:Button text="Save" display-tooltip-when-elided="true" name="SaveButton" style="width: 60px;" />
+            <ui:Button text="All Reset" display-tooltip-when-elided="true" name="Reset" style="width: 60px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 40px; max-height: 40px;">
+            <ui:TextField picking-mode="Ignore" label="FileName" value="filler text" text="FileName" name="FileName" />
+            <uie:IntegerField label="USS Group Count" value="42" name="GroupCount" style="height: auto; max-height: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; padding-top: 10px; flex-grow: 1;">
+            <ui:ScrollView name="ThemeScrollView" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="AlwaysVisible" style="flex-grow: 0; width: 320px; height: 100%; max-width: 320px;" />
+            <ui:VisualElement name="SettingWindow" style="width: 100%; height: 100%; flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

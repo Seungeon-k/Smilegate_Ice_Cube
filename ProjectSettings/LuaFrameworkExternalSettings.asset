@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17636556d4b6c274b9bd885b7e5e9e2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WrapperGenerationPath: Packages\com.unity.china.usgframework\Scripts\Generated\CSharpToLuaWrappers
+  GeneratedNameSpace: USGFramework.Runtime.Generated.CSharpToLuaWrappers
+  WrapperGenerationHandlePath: Packages\com.unity.china.usgframework\Scripts\Generated\APIHandler
+  GeneratedHandleNameSpace: USGFramework.Runtime.Generated.APIHandler
+  BinderGenerationPath: Packages\com.unity.china.usgframework\Scripts\Generated\LuaBinderAsset
+  BinderGeneratedNameSpace: USGFramework.Runtime.Generated.LuaBinderAsset
+  LuaBinderAsset: {fileID: 11400000, guid: 987c6cddacd679140a04bf81fd11422d, type: 2}
+  WrapperClassAsset: {fileID: 11400000, guid: 46142d2393278464d91274aea0be3d3c, type: 2}
+  HideMenu: 1
+  GeneratedHideMenuPreprocessorFlag: USGFRAMEWORK_DEV_ONLY

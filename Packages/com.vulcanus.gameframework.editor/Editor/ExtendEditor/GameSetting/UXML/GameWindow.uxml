@@ -1,0 +1,59 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/dark.uss?fileID=7433441132597879392&amp;guid=fd17f51ae6a768943b00a6bfb1d60ea4&amp;type=3#dark" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <ui:VisualElement name="Top" style="flex-grow: 1; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+        <ui:VisualElement name="GameView" class="SettingsCategoryBackground" style="border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; height: auto; flex-grow: 0; background-color: rgb(68, 68, 74); display: none;">
+            <ui:VisualElement name="Spacer" style="height: 10px; max-height: 10px; min-height: 10px;" />
+            <GlobalCustomUI.VTitlebar titleName="Game" name="gameTitlebar" look="true" style="padding-top: 5px; padding-bottom: 5px; background-color: rgba(59, 59, 67, 0);" />
+            <ui:VisualElement name="gameContent" style="flex-grow: 0; margin-right: 10px; margin-left: 10px; margin-bottom: 10px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; align-items: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 10px; max-height: 10px; min-height: 10px; display: none;" />
+        <ui:VisualElement name="MatchingView" class="SettingsCategoryBackground" style="border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; flex-grow: 0; background-color: rgba(68, 68, 74, 0);">
+            <ui:VisualElement name="VisualElement" style="min-height: 22px; background-color: rgb(59, 59, 67); max-height: 22px; justify-content: center;">
+                <ui:Label tabindex="-1" text="Matching Information" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MatchingTitleText" style="justify-content: center; -unity-text-align: middle-left; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 5px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MatchingContent" style="flex-direction: row; -unity-font-style: normal; display: flex;">
+                <ui:VisualElement name="Left" style="width: 40%; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-left: 10px;">
+                    <ui:Label text="MinPlayerCount" name="MinPlayerCount" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="margin-top: 10px; margin-bottom: 5px; font-size: 12px; -unity-text-align: middle-left; text-overflow: ellipsis; overflow: hidden;" />
+                    <ui:Label text="MaxPlayerCount" name="MaxPlayerCount" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="margin-top: 5px; margin-bottom: 5px; font-size: 12px; -unity-text-align: middle-left; text-overflow: ellipsis; overflow: hidden;" />
+                    <ui:Label text="RecruitmentTime" name="RecruitmentTime" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="margin-top: 5px; margin-bottom: 5px; font-size: 12px; -unity-text-align: middle-left; text-overflow: ellipsis; overflow: hidden;" />
+                    <ui:Label text="WaitGameTime" name="WaitGameTime" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="margin-top: 5px; margin-bottom: 5px; font-size: 12px; -unity-text-align: middle-left; text-overflow: ellipsis; overflow: hidden;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 60%; flex-grow: 1;">
+                    <GlobalCustomUI.VIntegerField name="MinPlayerCount" style="height: 25px;" />
+                    <GlobalCustomUI.VIntegerField name="MaxPlayerCount" style="height: 25px;" />
+                    <GlobalCustomUI.VFloatField name="RecruitmentTime" style="height: 25px;" />
+                    <GlobalCustomUI.VFloatField name="WaitGameTime" style="height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Side" style="height: 12px;" />
+            <ui:VisualElement name="VisualElement" style="min-height: 22px; background-color: rgb(59, 59, 67); justify-content: center; align-items: flex-start;">
+                <ui:Label tabindex="-1" text="Test Control Type" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InputSimulationContent" style="-unity-text-align: middle-left; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 5px; align-items: stretch; justify-content: flex-start; align-self: flex-start;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="min-height: 22px; justify-content: flex-start; align-items: flex-start; flex-direction: row;">
+                <ui:VisualElement name="Left" style="width: 40%; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-left: 10px;">
+                    <ui:Label text="Input Simulation Mode" name="InputSimulationPropertyName" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="font-size: 12px; -unity-text-align: middle-left; justify-content: flex-start; text-overflow: ellipsis; margin-bottom: 10px; margin-top: 10px; overflow: hidden;" />
+                    <ui:Label text="Hotkey Guide" name="HotkeyPropertyName" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="font-size: 12px; -unity-text-align: middle-left; justify-content: flex-start; text-overflow: ellipsis; padding-left: 10px; margin-bottom: 10px; overflow: hidden;" />
+                    <ui:Label text="Mouse Cursor Lock" name="MouseCursorPropertyName" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="font-size: 12px; -unity-text-align: middle-left; justify-content: flex-start; text-overflow: ellipsis; padding-left: 10px; margin-bottom: 10px; white-space: nowrap; overflow: hidden;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 60%; flex-grow: 1; justify-content: center; align-self: center;">
+                    <ui:DropdownField name="InputSimulationDropdown" style="height: 25px;" />
+                    <ui:DropdownField name="HotkeyDropdown" style="height: 25px;" />
+                    <ui:DropdownField name="MouseCursorDropdown" style="height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; height: 10px;" />
+            <ui:VisualElement name="VisualElement" style="min-height: 22px; background-color: rgb(59, 59, 67); justify-content: center; align-items: flex-start;">
+                <ui:Label tabindex="-1" text="Language" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LanguageTitleText" style="-unity-text-align: middle-left; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 5px; align-items: stretch; justify-content: flex-start; align-self: flex-start;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LanguageContent" style="min-height: 22px; justify-content: flex-start; align-items: flex-start; flex-direction: row;">
+                <ui:VisualElement name="Left" style="width: 40%; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-left: 10px;">
+                    <ui:Label text="Test Play Language" name="TestPlayLanguage" display-tooltip-when-elided="true" class="OnSettingsMenuText" style="margin-top: 10px; margin-bottom: 5px; font-size: 12px; height: 25px; width: 220px; -unity-text-align: middle-left; justify-content: flex-start; text-overflow: ellipsis; overflow: hidden;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Right" style="width: 60%; flex-grow: 1; justify-content: center; align-self: center;">
+                    <ui:DropdownField choices="English" index="0" name="TestPlayLangDF" style="height: 25px; margin-top: 5px; margin-right: 0; margin-bottom: 5px; margin-left: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

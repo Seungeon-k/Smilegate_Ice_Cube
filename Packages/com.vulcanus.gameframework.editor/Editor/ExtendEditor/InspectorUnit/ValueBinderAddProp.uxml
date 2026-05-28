@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-self: stretch; align-items: center; justify-content: flex-start;">
+            <ui:Label tabindex="-1" text="Bind Component" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CompLB" />
+            <uie:ObjectField name="CompOF" style="flex-grow: 0; flex-shrink: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="align-items: center; flex-direction: row; justify-content: space-between; align-self: stretch;">
+            <ui:Label tabindex="-1" text="Variable List" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PropLB" />
+            <ui:DropdownField name="PropDF" style="flex-grow: 1; flex-shrink: 1;" />
+            <ui:Button text="Add Variable" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddBtn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

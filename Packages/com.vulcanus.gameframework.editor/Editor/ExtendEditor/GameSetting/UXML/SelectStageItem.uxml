@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="width: 100%; height: 148px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; border-top-width: 0.5px; border-right-width: 0.5px; border-bottom-width: 0.5px; border-left-width: 0.5px; border-left-color: rgb(61, 61, 61); border-right-color: rgb(61, 61, 61); border-top-color: rgb(61, 61, 61); border-bottom-color: rgb(61, 61, 61);">
+        <ui:VisualElement picking-mode="Ignore" style="height: 44px; width: 100%; flex-direction: row;">
+            <ui:VisualElement name="StageIcon" picking-mode="Ignore" style="width: 80px; height: 40px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="title" picking-mode="Ignore" style="flex-shrink: 1; flex-grow: 1; margin-left: 4px; -unity-text-align: middle-left; white-space: normal;" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="sub" picking-mode="Ignore" style="flex-grow: 1; white-space: normal; margin-top: 2px; flex-wrap: wrap; background-color: rgb(78, 78, 86);" />
+    </ui:VisualElement>
+</ui:UXML>

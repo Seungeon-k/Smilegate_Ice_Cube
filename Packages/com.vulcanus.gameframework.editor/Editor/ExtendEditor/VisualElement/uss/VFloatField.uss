@@ -1,0 +1,44 @@
+.VFloatField {
+    height: 22px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.VFloatField > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    -unity-text-align: middle-left;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VFloatField > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VFloatField > #unity-text-input {
+    width: 65%;
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+    justify-content: flex-start;
+    border-radius: 2px;
+    border-width: 1px;
+    min-width: 65%;
+}
+
+.VFloatField > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}

@@ -1,0 +1,4 @@
+.my-integer-field #unity-text-input{
+    color: #ff6300;
+    background-color: white;
+}

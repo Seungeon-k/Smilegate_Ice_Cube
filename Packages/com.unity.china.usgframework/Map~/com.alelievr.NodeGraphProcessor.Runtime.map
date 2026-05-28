@@ -1,0 +1,198 @@
+{
+  "Name": "com.alelievr.NodeGraphProcessor.Runtime",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\com.alelievr.NodeGraphProcessor.Runtime.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\ExposedParameter.cs",
+      "OriginalGuid": "680a499af8c1716428e070768ce8971a",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "ExposedParameter",
+      "ClassFullName": "GraphProcessor.ExposedParameter",
+      "FileID": 2124687635
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\ParameterNode.cs",
+      "OriginalGuid": "0f8090ed77d2b4211a2b313f5ed17913",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "ParameterNode",
+      "ClassFullName": "GraphProcessor.ParameterNode",
+      "FileID": -815473311
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\JsonSerializer.cs",
+      "OriginalGuid": "c53e0d90013624cea90a3c2d436cae63",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "JsonSerializer",
+      "ClassFullName": "GraphProcessor.JsonSerializer",
+      "FileID": -1129266192
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\SerrializableObject.cs",
+      "OriginalGuid": "2134eb9534cbd0746be450ae8538655f",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "SerializableObject",
+      "ClassFullName": "GraphProcessor.SerializableObject",
+      "FileID": 649088086
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\ExceptionToLog.cs",
+      "OriginalGuid": "8fc4b2c15f6b53c419008947edc57da1",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "ExceptionToLog",
+      "ClassFullName": "GraphProcessor.ExceptionToLog",
+      "FileID": -1658066538
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\NodePort.cs",
+      "OriginalGuid": "3f706f6f8536b264cb9beb4781f59eda",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "NodePort",
+      "ClassFullName": "GraphProcessor.NodePort",
+      "FileID": -1968663456
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\BaseNode.cs",
+      "OriginalGuid": "d3989238b25842a4da391d2c531fac81",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "BaseNode",
+      "ClassFullName": "GraphProcessor.BaseNode",
+      "FileID": -585421819
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Processing\\BaseGraphProcessor.cs",
+      "OriginalGuid": "f35826d7d9b70c342a1e3a77e831946b",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "BaseGraphProcessor",
+      "ClassFullName": "GraphProcessor.BaseGraphProcessor",
+      "FileID": 910427709
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\AppDomainExtension.cs",
+      "OriginalGuid": "5b7e6ceb2028e4680bc69f1513a37b35",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "AppDomainExtension",
+      "ClassFullName": "GraphProcessor.AppDomainExtension",
+      "FileID": 1713772780
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Processing\\TypeAdapter.cs",
+      "OriginalGuid": "368c05c79a492d54fa8f0f6ff3c42264",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "TypeAdapter",
+      "ClassFullName": "GraphProcessor.TypeAdapter",
+      "FileID": -1709801589
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\Group.cs",
+      "OriginalGuid": "612834e03af5aa04a972c51c3a3604ee",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "Group",
+      "ClassFullName": "GraphProcessor.Group",
+      "FileID": 1593456415
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Processing\\ProcessGraphProcessor.cs",
+      "OriginalGuid": "db1563f2bafeb0249a1ebada05b17e53",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "ProcessGraphProcessor",
+      "ClassFullName": "GraphProcessor.ProcessGraphProcessor",
+      "FileID": 2109959191
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\GraphUtils.cs",
+      "OriginalGuid": "371c9f60999484f4e90e7d7933cda144",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "GraphUtils",
+      "ClassFullName": "GraphProcessor.GraphUtils",
+      "FileID": -1659575232
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\BaseStackNode.cs",
+      "OriginalGuid": "5ccfaaae997c11c40ae62971837666d6",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "BaseStackNode",
+      "ClassFullName": "GraphProcessor.BaseStackNode",
+      "FileID": -1904238055
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\PinnedElement.cs",
+      "OriginalGuid": "0429aeae57996a844a00657c8913e21d",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "PinnedElement",
+      "ClassFullName": "GraphProcessor.PinnedElement",
+      "FileID": 1406958879
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Processing\\JobGraphProcessor.cs",
+      "OriginalGuid": "21d965dd846be8e4dad4b0d71a06d016",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "JobGraphProcessor",
+      "ClassFullName": "GraphProcessor.JobGraphProcessor",
+      "FileID": -1637451453
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Graph\\Attributes.cs",
+      "OriginalGuid": "1305853968aeb3045b5c7caef2bbdfee",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "InputAttribute",
+      "ClassFullName": "GraphProcessor.InputAttribute",
+      "FileID": -1726580498
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Processing\\CustomPortIO.cs",
+      "OriginalGuid": "75502a01a74e426449b9e9b91bc66267",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "CustomPortIO",
+      "ClassFullName": "GraphProcessor.CustomPortIO",
+      "FileID": -390743568
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\SerializableEdge.cs",
+      "OriginalGuid": "e07921523edfe44ce9b789fc5ceb44f0",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "SerializableEdge",
+      "ClassFullName": "GraphProcessor.SerializableEdge",
+      "FileID": 2075293433
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\SerializableType.cs",
+      "OriginalGuid": "49d77def0f0dd4431a0a872dad8fd922",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "SerializableType",
+      "ClassFullName": "GraphProcessor.SerializableType",
+      "FileID": 2101149127
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\RelayNode.cs",
+      "OriginalGuid": "b8c90be388aff88468cc6d90d48c0210",
+      "ClassNamespace": null,
+      "ClassName": "RelayNode",
+      "ClassFullName": "RelayNode",
+      "FileID": -1910992257
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Graph\\BaseGraph.cs",
+      "OriginalGuid": "31390c44c9f3a3d40b424bf6821999a2",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "BaseGraph",
+      "ClassFullName": "GraphProcessor.BaseGraph",
+      "FileID": 1048030481
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Utils\\TypeExtension.cs",
+      "OriginalGuid": "0068e7c9cd63d4b48bfb24b30aeb9aa7",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "TypeExtension",
+      "ClassFullName": "GraphProcessor.TypeExtension",
+      "FileID": -316591707
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.alelievr.node-graph-processor\\Runtime\\Elements\\StickyNote.cs",
+      "OriginalGuid": "d78c527c31afef549bfea1a83a1baa57",
+      "ClassNamespace": "GraphProcessor",
+      "ClassName": "StickyNote",
+      "ClassFullName": "GraphProcessor.StickyNote",
+      "FileID": -1772301312
+    }
+  ]
+}

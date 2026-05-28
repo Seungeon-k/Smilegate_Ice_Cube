@@ -1,0 +1,121 @@
+// Each #kernel tells which function to compile; you can have many kernels
+//#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+#pragma kernel CSCalculateModifiedRegion 
+
+#if defined(SHADER_API_GLES3)
+    #define THREAD_X 8
+    #define THREAD_Y 8
+    #define THREAD_Z 1
+#elif defined(SHADER_API_VULKAN)
+    #define THREAD_X 16
+    #define THREAD_Y 16
+    #define THREAD_Z 1
+#else
+    #define THREAD_X 32
+    #define THREAD_Y 32
+    #define THREAD_Z 1
+#endif
+
+static const uint NUM_THREADS = THREAD_X * THREAD_Y * THREAD_Z;
+static const float NUM_THREADS_F = NUM_THREADS;
+
+struct ModifiedRect
+{
+    uint2 begin;
+    uint2 end;
+};
+
+struct ColorDiff
+{
+    float3 color;
+    uint4 index;
+};
+
+Texture2D<float4> mergedTexture;
+SamplerState sampler_mergedTexture;
+
+Texture2D<float4> colorDiffTexture;
+SamplerState sampler_colorDiffTexture;
+
+float4 groupDimension;
+groupshared ModifiedRect region[NUM_THREADS];
+RWStructuredBuffer<ModifiedRect> modifiedRectBuffer;
+RWStructuredBuffer<ColorDiff> diffBuffer;
+
+//RWStructuredBuffer<ColorDiff> diffBuffer;
+//RWTexture2D<ColorDiff> diffBuffer;
+// RWTexture2D<float4> Result;
+// Texture2D<float4> ImageInput;
+//AppendStructuredBuffer<int> appendBuffer;
+
+[numthreads(THREAD_X,THREAD_Y, THREAD_Z)]
+void CSCalculateModifiedRegion(
+    const uint3 groupThreadID : SV_GroupThreadID, 
+    const uint3 groupID : SV_GroupID, 
+    const uint groupIndex : SV_GroupIndex, 
+    const uint3 id : SV_DispatchThreadID)
+{
+    float2 textureSize = float2(THREAD_X, THREAD_Y) * groupDimension.xy;
+    float3 diffColor = colorDiffTexture.SampleLevel(sampler_colorDiffTexture, id.xy / textureSize, 0).rgb;
+
+    //result could be Zero even rgb is not Zero (Due to minus values)
+    diffColor = abs(diffColor);
+    
+    region[groupIndex].begin = uint2(textureSize.x, textureSize.y);
+    region[groupIndex].end = uint2(0, 0);
+    [branch] if (diffColor.r + diffColor.g + diffColor.b != 0)
+    {
+        region[groupIndex].begin = uint2(min(id.x, region[groupIndex].begin.x), min(id.y, region[groupIndex].begin.y));
+        region[groupIndex].end = uint2(max(id.x, region[groupIndex].end.x), max(id.y, region[groupIndex].end.y));
+    }
+    // memoryBarrierShared();
+    // InterlockedAdd();
+    //GroupMemoryBarrier();
+    //barrier();
+    
+    GroupMemoryBarrierWithGroupSync();
+    if (groupIndex == 0)
+        return;
+
+    uint2 begin = region[0].begin;
+    uint2 end = region[0].end;
+    [loop]for (uint i=1; i<NUM_THREADS ; ++i)
+    {
+        begin = uint2(min(begin.x, region[i].begin.x), min(begin.y, region[i].begin.y));
+        end = uint2(max(end.x, region[i].end.x), max(end.y, region[i].end.y));
+    }
+    
+    uint index = groupID.x + (groupID.y * groupDimension.x);
+    modifiedRectBuffer[index].begin = begin;
+    modifiedRectBuffer[index].end = end;
+}
+
+#pragma kernel CSReadPixel
+RWStructuredBuffer<float4> _ColorBuffer;
+RWTexture2D<float4> _RWTargetTex;
+float4 _PixelIndexCoord;
+
+[numthreads(1, 1, 1)]
+void CSReadPixel(
+    const uint3 groupThreadID : SV_GroupThreadID, 
+    const uint3 groupID : SV_GroupID, 
+    const uint groupIndex : SV_GroupIndex, 
+    const uint3 id : SV_DispatchThreadID)
+{
+
+    float4 color = _RWTargetTex[int2(_PixelIndexCoord.xy)];
+    _ColorBuffer[0] = color;
+}
+
+#pragma kernel CSProjectionBrushApplier
+RWStructuredBuffer<int> _UVCenterRatioBuffer;
+RWTexture2D<float4> _RWBrushProjection;
+
+[numthreads(32, 32, 1)]
+void CSProjectionBrushApplier(const uint3 groupThreadID : SV_GroupThreadID, 
+    const uint3 groupID : SV_GroupID, 
+    const uint groupIndex : SV_GroupIndex, 
+    const uint3 id : SV_DispatchThreadID)
+{
+
+}

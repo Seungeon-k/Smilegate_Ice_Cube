@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "Pet_Collection_Season": "!String",
+    "Pet_Collection_Name": "!String",
+    "Pet_Collection_Year": "!Int",
+    "Pet_Collection_Thumbnail": "!String",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Item" style="flex-direction: row; justify-content: flex-start;">
+        <ui:Label text="Eng" display-tooltip-when-elided="true" name="LangLb" style="width: 120px; justify-content: center; -unity-text-align: middle-left;" />
+        <ui:TextField picking-mode="Ignore" value="filler text" name="LocTextTF" style="min-width: auto; width: auto; flex-grow: 1; flex-shrink: 1;" />
+        <ui:Button text="Remove" display-tooltip-when-elided="true" name="RemoveBtn" />
+    </ui:VisualElement>
+</ui:UXML>

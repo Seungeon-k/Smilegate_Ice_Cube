@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1318717522677367852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6352563697090391562}
+  - component: {fileID: 621170323383207877}
+  - component: {fileID: 2994261222084182500}
+  m_Layer: 0
+  m_Name: DebuffBallooned
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6352563697090391562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318717522677367852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5757702449678805641}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621170323383207877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318717522677367852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -463033835, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _buffId: Debuff.Ballooned
+  _buffGroupId: Buff.Acton.Fly
+  _buffName: Debuff Ballooned
+  _buffDescription: Traps the character inside a balloon for a certain duration.
+  _duplicatePolicy: 1
+  _priority: 1
+  _persistPolicy: 0
+  OnBeforeAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFreezed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResumed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2994261222084182500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318717522677367852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1800309526, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gizmoIcon: {fileID: 21300000, guid: 15b74efdce03a3445b515f7b784f9ae0, type: 3}
+  _displayLabel: {r: 0, g: 0, b: 0, a: 1}
+  _paletteIcon: {fileID: 21300000, guid: 15b74efdce03a3445b515f7b784f9ae0, type: 3}
+  _description: Traps the player inside a balloon for a certain duration.
+  isGizmoDraw: 1
+--- !u!1 &2903474772845228241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5757702449678805641}
+  - component: {fileID: 2489868559870467899}
+  m_Layer: 0
+  m_Name: ServerScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5757702449678805641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2903474772845228241}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6352563697090391562}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2489868559870467899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2903474772845228241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 766008277, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiType: 1
+  _tags: []
+  _layerIndex: 0
+  _parent: {fileID: 0}
+  _children: []
+  _luaScript: {fileID: -6750239444755058063, guid: b10ef5b83696b2748b19c8035a4ad4bd, type: 3}
+  _dataContainer:
+    IsSyncPacking: 0
+    _usingVariables:
+    - rid: 3223262667353620528
+    - rid: 3223262667353620531
+    - rid: 3223262667353620532
+    - rid: 3223262667353620536
+  _customEvents: []
+  _LfunctionInfoContainer:
+    _functionInfos: []
+  _variableRouter:
+    Connections: []
+  _lastGuid: b10ef5b83696b2748b19c8035a4ad4bd
+  references:
+    version: 2
+    RefIds:
+    - rid: 3223262667353620528
+      type: {class: V_Float, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: LifeTime
+        IsSync: 0
+        FromScript: 0
+        _value: 10
+        _range: 0
+        _min: 0
+        _max: 0
+        _step: 0
+    - rid: 3223262667353620531
+      type: {class: V_AudioClip, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: BuffSound
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 8300000, guid: ce531e0e05860fb4fbaadb8a7b9184d6, type: 3}
+    - rid: 3223262667353620532
+      type: {class: V_GameObjectVo, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: BuffStartEffect
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 5559438650805740831, guid: 913ba4b4d10d01e48af3a6380285ea8b, type: 3}
+    - rid: 3223262667353620536
+      type: {class: V_GameObjectVo, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
+      data:
+        Scope: 1
+        IsSystemValue: 0
+        ValueKey: BuffEndEffect
+        IsSync: 0
+        FromScript: 0
+        _value: {fileID: 1640209950536481209, guid: 389acae39ed98e744a1db59c111569c0, type: 3}

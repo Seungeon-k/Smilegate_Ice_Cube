@@ -1,0 +1,758 @@
+{
+  "Name": "Mirage",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\Mirage.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\AddLateEvent.cs",
+      "OriginalGuid": "5fe90e0cf9d95ee4cafd2ef7bb45fb9e",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "AddLateEvent",
+      "ClassFullName": "Mirage.Events.AddLateEvent",
+      "FileID": -833336015
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\BitHelper.cs",
+      "OriginalGuid": "1ba9a01829f61d6428bb3e276ac9272a",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "BitHelper",
+      "ClassFullName": "Mirage.Serialization.BitHelper",
+      "FileID": 854295439
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Logging\\LogSettingsSO.cs",
+      "OriginalGuid": "ab487992956b0f3469d980540a5cffb0",
+      "ClassNamespace": "Mirage.Logging",
+      "ClassName": "LogSettingsSO",
+      "ClassFullName": "Mirage.Logging.LogSettingsSO",
+      "FileID": 987579952
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\ClientStoppedReason.cs",
+      "OriginalGuid": "a7eb51078953dab4c93fbf759747aac7",
+      "ClassNamespace": "Mirage",
+      "ClassName": "StoppedReasonExtensions",
+      "ClassFullName": "Mirage.StoppedReasonExtensions",
+      "FileID": -842039551
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\NetworkReader.cs",
+      "OriginalGuid": "1610f05ec5bd14d6882e689f7372596a",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "NetworkReader",
+      "ClassFullName": "Mirage.Serialization.NetworkReader",
+      "FileID": -661437222
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\MessageReceiverExtensions.cs",
+      "OriginalGuid": "b69974b4671b2b140b9b09201bbf8305",
+      "ClassNamespace": "Mirage",
+      "ClassName": "MessageReceiverExtensions",
+      "ClassFullName": "Mirage.MessageReceiverExtensions",
+      "FileID": -2116009589
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Extensions\\ServerObjectManagerExtensions.cs",
+      "OriginalGuid": "adb1e735579fcdd4998343dddb83b5af",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ServerObjectManagerExtensions",
+      "ClassFullName": "Mirage.ServerObjectManagerExtensions",
+      "FileID": -775862553
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Logging\\LogFactory.cs",
+      "OriginalGuid": "d06522432d5a44e1587967a4731cd279",
+      "ClassNamespace": "Mirage.Logging",
+      "ClassName": "LogFactory",
+      "ClassFullName": "Mirage.Logging.LogFactory",
+      "FileID": -1767018140
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\StringHash.cs",
+      "OriginalGuid": "733f020f9b76d453da841089579fd7a7",
+      "ClassNamespace": "Mirage",
+      "ClassName": "StringHash",
+      "ClassFullName": "Mirage.StringHash",
+      "FileID": -786867440
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\ClientObjectManager.cs",
+      "OriginalGuid": "a2cbc85c1c2f1c249bbe95ae110bbcde",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ClientObjectManager",
+      "ClassFullName": "Mirage.ClientObjectManager",
+      "FileID": 1053922784
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\NetworkWriterPool.cs",
+      "OriginalGuid": "3f34b53bea38e4f259eb8dc211e4fdb6",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "NetworkWriterPool",
+      "ClassFullName": "Mirage.Serialization.NetworkWriterPool",
+      "FileID": 230717427
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkManager.cs",
+      "OriginalGuid": "8aab4c8111b7c411b9b92cf3dbc5bd4e",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkManager",
+      "ClassFullName": "Mirage.NetworkManager",
+      "FileID": 315511079
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkTime.cs",
+      "OriginalGuid": "09a0c241fc4a5496dbf4a0ab6e9a312c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkTime",
+      "ClassFullName": "Mirage.NetworkTime",
+      "FileID": 213219607
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Extensions\\NetworkWorldExtensions.cs",
+      "OriginalGuid": "985b3e84be1a9f644b6a5c7d0373d7a5",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkWorldExtensions",
+      "ClassFullName": "Mirage.NetworkWorldExtensions",
+      "FileID": 498280974
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Utils\\AutoPool.cs",
+      "OriginalGuid": "f9157ddcafc953742b98cc43dec2feaf",
+      "ClassNamespace": "Mirage",
+      "ClassName": "AutoPool",
+      "ClassFullName": "Mirage.AutoPool",
+      "FileID": -467660305
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SyncPrefab.cs",
+      "OriginalGuid": "cab119467bf746343af2d5c59558db3c",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncPrefabSerialize",
+      "ClassFullName": "Mirage.SyncPrefabSerialize",
+      "FileID": 766893769
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VarVector2Packer.cs",
+      "OriginalGuid": "86084c7de6699aa4abaf0232955279de",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarVector2Packer",
+      "ClassFullName": "Mirage.Serialization.VarVector2Packer",
+      "FileID": -816302050
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RemoteCalls\\RemoteCallHelper.cs",
+      "OriginalGuid": "d2cdbcbd1e377d6408a91acbec31ba16",
+      "ClassNamespace": "Mirage.RemoteCalls",
+      "ClassName": "RemoteCallCollection",
+      "ClassFullName": "Mirage.RemoteCalls.RemoteCallCollection",
+      "FileID": -123236943
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\MessagePacker.cs",
+      "OriginalGuid": "2db134099f0df4d96a84ae7a0cd9b4bc",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "MessagePacker",
+      "ClassFullName": "Mirage.Serialization.MessagePacker",
+      "FileID": 470056130
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\CustomAttributes.cs",
+      "OriginalGuid": "c04c722ee2ffd49c8a56ab33667b10b0",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncVarAttribute",
+      "ClassFullName": "Mirage.SyncVarAttribute",
+      "FileID": 1343941482
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\QuaternionPacker.cs",
+      "OriginalGuid": "62c06dfd1d38c294badc710697aff611",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "QuaternionPacker",
+      "ClassFullName": "Mirage.Serialization.QuaternionPacker",
+      "FileID": 1627391457
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Collections\\SyncSet.cs",
+      "OriginalGuid": "8a31599d9f9dd4ef9999f7b9707c832c",
+      "ClassNamespace": "Mirage.Collections",
+      "ClassName": "SyncSet",
+      "ClassFullName": "Mirage.Collections.SyncSet",
+      "FileID": 433080415
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkPrefabs.cs",
+      "OriginalGuid": "a8e59b92c80543e086d22f9a62a9357f",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPrefabs",
+      "ClassFullName": "Mirage.NetworkPrefabs",
+      "FileID": 1259546926
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\AnglePacker.cs",
+      "OriginalGuid": "fd4fbcca05961a04cb96127ae7925e82",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "AnglePacker",
+      "ClassFullName": "Mirage.Serialization.AnglePacker",
+      "FileID": 105459366
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Logging\\LogSettings.cs",
+      "OriginalGuid": "ac6e8eccf4b6f4dc7b24c276ef47fde8",
+      "ClassNamespace": "Mirage.Logging",
+      "ClassName": "LogSettings",
+      "ClassFullName": "Mirage.Logging.LogSettings",
+      "FileID": -1650716347
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkSceneManager.cs",
+      "OriginalGuid": "30967dfd80dbb6c46a270a64ebecb951",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkSceneManager",
+      "ClassFullName": "Mirage.NetworkSceneManager",
+      "FileID": -544972576
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkWorld.cs",
+      "OriginalGuid": "0c85810b173bce04893aaa56412b2220",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkWorld",
+      "ClassFullName": "Mirage.NetworkWorld",
+      "FileID": 1433250981
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Collections\\SyncDictionary.cs",
+      "OriginalGuid": "4b346c49cfdb668488a364c3023590e2",
+      "ClassNamespace": "Mirage.Collections",
+      "ClassName": "SyncDictionary",
+      "ClassFullName": "Mirage.Collections.SyncDictionary",
+      "FileID": 369276152
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\CompressedExtensions.cs",
+      "OriginalGuid": "e54b019846572bd479a7f5d3b8e9e5d9",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "CompressedExtensions",
+      "ClassFullName": "Mirage.Serialization.CompressedExtensions",
+      "FileID": 14136484
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RemoteCalls\\ReturnRpcException.cs",
+      "OriginalGuid": "6d7c9adc2757bbd42b1ec02b8742b90e",
+      "ClassNamespace": "Mirage.RemoteCalls",
+      "ClassName": "ReturnRpcException",
+      "ClassFullName": "Mirage.RemoteCalls.ReturnRpcException",
+      "FileID": -874017897
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Authentication\\AuthenticatorSettings.cs",
+      "OriginalGuid": "c7e02988fe8ee5e4ea9ba1d3bd60f031",
+      "ClassNamespace": "Mirage.Authentication",
+      "ClassName": "AuthenticatorSettings",
+      "ClassFullName": "Mirage.Authentication.AuthenticatorSettings",
+      "FileID": 728293613
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SpawnDelegates.cs",
+      "OriginalGuid": "66c1ea9608e0dae40a8114fd37ad3992",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SpawnEvent",
+      "ClassFullName": "Mirage.SpawnEvent",
+      "FileID": -94106893
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\MethodInvocationException.cs",
+      "OriginalGuid": "be8c389f1d18848878b2fb617eec06ae",
+      "ClassNamespace": "Mirage",
+      "ClassName": "MethodInvocationException",
+      "ClassFullName": "Mirage.MethodInvocationException",
+      "FileID": 1463228156
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Collections\\SyncList.cs",
+      "OriginalGuid": "744fc71f748fe40d5940e04bf42b29f3",
+      "ClassNamespace": "Mirage.Collections",
+      "ClassName": "SyncList",
+      "ClassFullName": "Mirage.Collections.SyncList",
+      "FileID": -1411518102
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkBehaviour.cs",
+      "OriginalGuid": "655ee8cba98594f70880da5cc4dc442d",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkBehaviour",
+      "ClassFullName": "Mirage.NetworkBehaviour",
+      "FileID": -358135872
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Authentication\\PlayerAuthentication.cs",
+      "OriginalGuid": "4a5ca993d8bfe614ea3376ca6bfd9ee8",
+      "ClassNamespace": "Mirage.Authentication",
+      "ClassName": "PlayerAuthentication",
+      "ClassFullName": "Mirage.Authentication.PlayerAuthentication",
+      "FileID": -1998719810
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\DeserializeFailedException.cs",
+      "OriginalGuid": "945e3d7855a4943a78fd90a90edb98d9",
+      "ClassNamespace": "Mirage",
+      "ClassName": "DeserializeFailedException",
+      "ClassFullName": "Mirage.DeserializeFailedException",
+      "FileID": 312162280
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkDiagnostics.cs",
+      "OriginalGuid": "c3754b39e5f8740fd93f3337b2c4274e",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkDiagnostics",
+      "ClassFullName": "Mirage.NetworkDiagnostics",
+      "FileID": -1203916322
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VarFloatPacker.cs",
+      "OriginalGuid": "96a76eaf70b1dcd47b1cfda1c98d4420",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarFloatPacker",
+      "ClassFullName": "Mirage.Serialization.VarFloatPacker",
+      "FileID": -775097428
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\NetworkPlayerAddLateEvent.cs",
+      "OriginalGuid": "db78f722745e5d04aaac46f8aabd0450",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "NetworkPlayerAddLateEvent",
+      "ClassFullName": "Mirage.Events.NetworkPlayerAddLateEvent",
+      "FileID": 1486892568
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VarVector3Packer.cs",
+      "OriginalGuid": "14e1e42c2a63d324c83b7aaf67d324fa",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarVector3Packer",
+      "ClassFullName": "Mirage.Serialization.VarVector3Packer",
+      "FileID": 1308491946
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkInspectorCallbacks.cs",
+      "OriginalGuid": "3592d87e6b4cb8743a08a398c1386e75",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkInspectorCallbacks",
+      "ClassFullName": "Mirage.NetworkInspectorCallbacks",
+      "FileID": 557219131
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\PipePeerConnection.cs",
+      "OriginalGuid": "e70f822957c6c44be82ea71fdacb7952",
+      "ClassNamespace": "Mirage",
+      "ClassName": "PipePeerConnection",
+      "ClassFullName": "Mirage.PipePeerConnection",
+      "FileID": 1419842560
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkPlayer.cs",
+      "OriginalGuid": "b5fd0c843eaf6e84f93b7069be632136",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkPlayer",
+      "ClassFullName": "Mirage.NetworkPlayer",
+      "FileID": -1622333503
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Utils\\MessageWaiter.cs",
+      "OriginalGuid": "3e386cf2edd462e4ba0668f42d5b05e8",
+      "ClassNamespace": "Mirage",
+      "ClassName": "MessageWaiter",
+      "ClassFullName": "Mirage.MessageWaiter",
+      "FileID": -1511089019
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\Vector3Packer.cs",
+      "OriginalGuid": "d2f6b7a4b33422e47b03898a06a14c7d",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "Vector3Packer",
+      "ClassFullName": "Mirage.Serialization.Vector3Packer",
+      "FileID": -908746822
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RemoteCalls\\ClientRpcSender.cs",
+      "OriginalGuid": "d7e7d2448469ee645af49d2721e7d47b",
+      "ClassNamespace": "Mirage.RemoteCalls",
+      "ClassName": "ClientRpcSender",
+      "ClassFullName": "Mirage.RemoteCalls.ClientRpcSender",
+      "FileID": -870029403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkClient.cs",
+      "OriginalGuid": "abe6be14204d94224a3e7cd99dd2ea73",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkClient",
+      "ClassFullName": "Mirage.NetworkClient",
+      "FileID": -610209903
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VarDoublePacker.cs",
+      "OriginalGuid": "1b69679fcbccfca49a59fed7e701145b",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarDoublePacker",
+      "ClassFullName": "Mirage.Serialization.VarDoublePacker",
+      "FileID": -1917047076
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Logging\\MirageLogHandler.cs",
+      "OriginalGuid": "0b98841557e9893489c0fb47a68e527d",
+      "ClassNamespace": "Mirage.Logging",
+      "ClassName": "MirageLogHandler",
+      "ClassFullName": "Mirage.Logging.MirageLogHandler",
+      "FileID": 110626121
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Collections\\SyncStack.cs",
+      "OriginalGuid": "508a22ec36910db45a38eb47bd2e4cba",
+      "ClassNamespace": "Mirage.Collections",
+      "ClassName": "SyncStack",
+      "ClassFullName": "Mirage.Collections.SyncStack",
+      "FileID": 597500386
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\AddLateEventBase.cs",
+      "OriginalGuid": "e5e161bb849a4ff4ab541c3099513315",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "AddLateEventBase",
+      "ClassFullName": "Mirage.Events.AddLateEventBase",
+      "FileID": 418325017
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkBehaviorSyncvar.cs",
+      "OriginalGuid": "9abba11a34ed34dfbabf7b336aab5b06",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkBehaviorSerializers",
+      "ClassFullName": "Mirage.NetworkBehaviorSerializers",
+      "FileID": -1966902295
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VarIntBlocksPacker.cs",
+      "OriginalGuid": "124da2a56c14a924bb6bda5663c0c6f2",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarIntBlocksPacker",
+      "ClassFullName": "Mirage.Serialization.VarIntBlocksPacker",
+      "FileID": 745483190
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\VariableIntPacker.cs",
+      "OriginalGuid": "93822b4a356267942b8457394696ba08",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "VarIntPacker",
+      "ClassFullName": "Mirage.Serialization.VarIntPacker",
+      "FileID": 346007869
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SceneManagerEvents.cs",
+      "OriginalGuid": "0e5900937ac8fd34da143611317ee401",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SceneChangeFinishedEvent",
+      "ClassFullName": "Mirage.SceneChangeFinishedEvent",
+      "FileID": 1694102341
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\GameObjectSyncvar.cs",
+      "OriginalGuid": "68fc08d3fba494bc4a9185fe5b9a0d30",
+      "ClassNamespace": "Mirage",
+      "ClassName": "GameObjectSerializers",
+      "ClassFullName": "Mirage.GameObjectSerializers",
+      "FileID": 676070389
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Authentication\\NetworkAuthenticator.cs",
+      "OriginalGuid": "fafe2b7c167d0ef49b623e4721fd6d44",
+      "ClassNamespace": "Mirage.Authentication",
+      "ClassName": "NetworkAuthenticator",
+      "ClassFullName": "Mirage.Authentication.NetworkAuthenticator",
+      "FileID": -576551468
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Collections\\SyncObjectUtils.cs",
+      "OriginalGuid": "ae54218cd9160a14b81a17fd8e27c422",
+      "ClassNamespace": "Mirage.Collections",
+      "ClassName": "SyncObjectUtils",
+      "ClassFullName": "Mirage.Collections.SyncObjectUtils",
+      "FileID": -1648863221
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\BoolAddLateEvent.cs",
+      "OriginalGuid": "343495f6fb762024eb6f72bea967238d",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "BoolAddLateEvent",
+      "ClassFullName": "Mirage.Events.BoolAddLateEvent",
+      "FileID": -1290161133
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Utils\\ListHelper.cs",
+      "OriginalGuid": "f7ca5b58ee744fa45ba668142476f393",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ListHelper",
+      "ClassFullName": "Mirage.ListHelper",
+      "FileID": -1886528909
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\PackedExtensions.cs",
+      "OriginalGuid": "c23a05014147603439bd8188dd9065f4",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "PackedExtensions",
+      "ClassFullName": "Mirage.Serialization.PackedExtensions",
+      "FileID": -87072602
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RemoteCalls\\ServerRpcSender.cs",
+      "OriginalGuid": "a121e996c12fd814aae645cf2ad7abbe",
+      "ClassNamespace": "Mirage.RemoteCalls",
+      "ClassName": "ServerRpcSender",
+      "ClassFullName": "Mirage.RemoteCalls.ServerRpcSender",
+      "FileID": 14614298
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\INetworkVisibility.cs",
+      "OriginalGuid": "8c33828537d63e84682b0c509b064497",
+      "ClassNamespace": "Mirage",
+      "ClassName": "AlwaysVisible",
+      "ClassFullName": "Mirage.AlwaysVisible",
+      "FileID": -205650527
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\NetworkWriter.cs",
+      "OriginalGuid": "48d2207bcef1f4477b624725f075f9bd",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "NetworkWriter",
+      "ClassFullName": "Mirage.Serialization.NetworkWriter",
+      "FileID": -179851356
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RemoteCalls\\RpcHandler.cs",
+      "OriginalGuid": "48430134e27d88e4ebe0432c8f60a3ab",
+      "ClassNamespace": "Mirage.RemoteCalls",
+      "ClassName": "RpcHandler",
+      "ClassFullName": "Mirage.RemoteCalls.RpcHandler",
+      "FileID": 1650366179
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Extensions\\GameObjectExtension.cs",
+      "OriginalGuid": "7f5b2c02e4036bd4d883603faef1a50d",
+      "ClassNamespace": "Mirage",
+      "ClassName": "GameObjectExtensions",
+      "ClassFullName": "Mirage.GameObjectExtensions",
+      "FileID": 1001287549
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\DisconnectAddLateEvent.cs",
+      "OriginalGuid": "c0cf67d6101f1634e81d6d03b15ff8b5",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "DisconnectAddLateEvent",
+      "ClassFullName": "Mirage.Events.DisconnectAddLateEvent",
+      "FileID": 1742543602
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\SystemTypesExtensions.cs",
+      "OriginalGuid": "ec53980ec8c3c4744850d05d4f02adb3",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "SystemTypesExtensions",
+      "ClassFullName": "Mirage.Serialization.SystemTypesExtensions",
+      "FileID": -2007141662
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\ExponentialMovingAverage.cs",
+      "OriginalGuid": "05e858cbaa54b4ce4a48c8c7f50c1914",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ExponentialMovingAverage",
+      "ClassFullName": "Mirage.ExponentialMovingAverage",
+      "FileID": 2008701668
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\MirageTypesExtensions.cs",
+      "OriginalGuid": "fab87181149258046a6126752c2c34ab",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "MirageTypesExtensions",
+      "ClassFullName": "Mirage.Serialization.MirageTypesExtensions",
+      "FileID": 1088921863
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\GenericTypesSerializationExtensions.cs",
+      "OriginalGuid": "f8407512ce3e79b4cb38c3da4b8b8855",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "GenericTypesSerializationExtensions",
+      "ClassFullName": "Mirage.Serialization.GenericTypesSerializationExtensions",
+      "FileID": -419564031
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SyncVarReceiver.cs",
+      "OriginalGuid": "4c20cc4c9499e634cb4b107ae257d5ff",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncVarReceiver",
+      "ClassFullName": "Mirage.SyncVarReceiver",
+      "FileID": 202318403
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\CharacterSpawner.cs",
+      "OriginalGuid": "a7aaac73a16c040fd871cb977b5c557b",
+      "ClassNamespace": "Mirage",
+      "ClassName": "CharacterSpawner",
+      "ClassFullName": "Mirage.CharacterSpawner",
+      "FileID": -38591228
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\FloatPacker.cs",
+      "OriginalGuid": "f44847fc059d5464eba7bd04088ddfa1",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "FloatPacker",
+      "ClassFullName": "Mirage.Serialization.FloatPacker",
+      "FileID": -658238350
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\ServerObjectManager.cs",
+      "OriginalGuid": "b750203ddb2d9f84abd799a5c2c32cb6",
+      "ClassNamespace": "Mirage",
+      "ClassName": "ServerObjectManager",
+      "ClassFullName": "Mirage.ServerObjectManager",
+      "FileID": -1657366387
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Version.cs",
+      "OriginalGuid": "74c593fe4a83904419de612e06b9fe37",
+      "ClassNamespace": "Mirage",
+      "ClassName": "Version",
+      "ClassFullName": "Mirage.Version",
+      "FileID": -102382951
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\StringExtensions.cs",
+      "OriginalGuid": "c7586332376693c47bbe1d5de122752e",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "StringExtensions",
+      "ClassFullName": "Mirage.Serialization.StringExtensions",
+      "FileID": 1329377320
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkIdentity.cs",
+      "OriginalGuid": "9b91ecbcc199f4492b9a91e820070131",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkIdentity",
+      "ClassFullName": "Mirage.NetworkIdentity",
+      "FileID": 680085626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\RecentlyDestroyed.cs",
+      "OriginalGuid": "d4b4dcd06dfefcc41a4615935e2eabbd",
+      "ClassNamespace": "Mirage",
+      "ClassName": "RecentlyDestroyed",
+      "ClassFullName": "Mirage.RecentlyDestroyed",
+      "FileID": -1127742157
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\UnityTypesExtensions.cs",
+      "OriginalGuid": "f22bc838f4b93334e994048b463d0c5e",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "UnityTypesExtensions",
+      "ClassFullName": "Mirage.Serialization.UnityTypesExtensions",
+      "FileID": -1107702339
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SpawnObjectException.cs",
+      "OriginalGuid": "200717479b471fd4a8baa64ee8059c92",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SpawnObjectException",
+      "ClassFullName": "Mirage.SpawnObjectException",
+      "FileID": 504545129
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\MessageHandler.cs",
+      "OriginalGuid": "a9b600aef1886a64c82a2263b230f007",
+      "ClassNamespace": "Mirage",
+      "ClassName": "MessageHandler",
+      "ClassFullName": "Mirage.MessageHandler",
+      "FileID": 1273776914
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\SyncVarSender.cs",
+      "OriginalGuid": "e31d7a89fffff6e49a464e7bdab70439",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SyncVarSender",
+      "ClassFullName": "Mirage.SyncVarSender",
+      "FileID": -1461953642
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\Vector2Packer.cs",
+      "OriginalGuid": "a26a59a805a1d6e47a9e41a9aa5e8108",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "Vector2Packer",
+      "ClassFullName": "Mirage.Serialization.Vector2Packer",
+      "FileID": -598474886
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\WeaverAttributes.cs",
+      "OriginalGuid": "19b36a836fcbdaa40a44b360d1de570a",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "WeaverIgnoreAttribute",
+      "ClassFullName": "Mirage.Serialization.WeaverIgnoreAttribute",
+      "FileID": 2102958367
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\Packers\\ZigZag.cs",
+      "OriginalGuid": "fced96ad9167cb14a875d6dace9f55bc",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "ZigZag",
+      "ClassFullName": "Mirage.Serialization.ZigZag",
+      "FileID": -780193932
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\BitMask.cs",
+      "OriginalGuid": "e8ce6cd3bc8829743bc1b67cf937135d",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "BitMask",
+      "ClassFullName": "Mirage.Serialization.BitMask",
+      "FileID": 310232109
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\CollectionExtensions.cs",
+      "OriginalGuid": "a8efdb09843e40e439052c6655d076f0",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "CollectionExtensions",
+      "ClassFullName": "Mirage.Serialization.CollectionExtensions",
+      "FileID": -1583233493
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Events\\AddLateEventUnity.cs",
+      "OriginalGuid": "f303514e55407eb40ae5f171cc96e8ac",
+      "ClassNamespace": "Mirage.Events",
+      "ClassName": "AddLateEventUnity",
+      "ClassFullName": "Mirage.Events.AddLateEventUnity",
+      "FileID": 484220007
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\Serialization\\NetworkReaderPool.cs",
+      "OriginalGuid": "2bacff63613ad634a98f9e4d15d29dbf",
+      "ClassNamespace": "Mirage.Serialization",
+      "ClassName": "NetworkReaderPool",
+      "ClassFullName": "Mirage.Serialization.NetworkReaderPool",
+      "FileID": 1543920410
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkIdentitySyncvar.cs",
+      "OriginalGuid": "4cd73054e97124f75a5fbf550ae0391f",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkIdentitySerializers",
+      "ClassFullName": "Mirage.NetworkIdentitySerializers",
+      "FileID": 1754193485
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkServer.cs",
+      "OriginalGuid": "a5f5ec068f5604c32b160bc49ee97b75",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkServer",
+      "ClassFullName": "Mirage.NetworkServer",
+      "FileID": 822327231
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.miragenet.mirage\\Runtime\\NetworkVisibility.cs",
+      "OriginalGuid": "c08f1a030234d49d391d7223a8592f15",
+      "ClassNamespace": "Mirage",
+      "ClassName": "NetworkVisibility",
+      "ClassFullName": "Mirage.NetworkVisibility",
+      "FileID": 670647170
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "ID": "!Int",
+    "Pet": "!String",
+    "Pet_Gacha_Machine": "!String",
+    "Pet_Gacha_Prob": "!Float"
+}

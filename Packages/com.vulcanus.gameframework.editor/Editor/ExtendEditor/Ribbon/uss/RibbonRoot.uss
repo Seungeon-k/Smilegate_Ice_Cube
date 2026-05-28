@@ -1,0 +1,13 @@
+.RibbonRoot {
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(83, 83, 91);
+    flex-grow: 1;
+    margin: 0;
+    min-width: 1700px;
+}
+
+.horizontal .RibbonRoot {
+    flex-direction: row;
+    align-items: center;
+}

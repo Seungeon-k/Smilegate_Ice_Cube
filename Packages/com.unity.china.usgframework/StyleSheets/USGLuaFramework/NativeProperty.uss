@@ -1,0 +1,39 @@
+Label{
+    align-self: center;
+    font-size: 13px;
+    -unity-font-style: bold;        
+}
+.PropertyBox{
+    padding: 2px;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    margin-right: 2px;
+}
+.ChildBox{
+    flex-direction: row;
+    flex-grow:1;
+    overflow: hidden;
+}
+.NameInputField{
+    margin-left: 10px;
+    flex-grow: 1;
+}
+.ValueInputField{
+    flex-grow:1;
+    margin-left: 10px;
+    width: auto;
+}
+.EnumField{
+    flex-grow: 1;
+    margin-left: 14px;
+}
+FloatInput {
+    width: 1px;
+}
+IntegerInput {
+    width: 1px;
+}
+TextInput {
+    width: 1px;
+}

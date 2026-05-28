@@ -1,0 +1,205 @@
+
+:root {
+    --primary-default: #3E5F96; /* #3E5F96 */
+    --secondary-default: #7553F3; /* #7553F3 */
+    --surface-default: #53535B; /* #53535B */
+    --background-default: #232326; /* #232326 */
+    --text-primary-default: #EBF3FF; /* #EBF3FF */
+    --text-primary-disabled:  #979797; /*  #979797 */
+    --icon-primary: #EBF3FF; /*  #EBF3FF */
+    --background-container-01: #2f2f37; /* #2f2f37 */
+    --background-container-02 : #3B3B43; /* #3B3B43 */
+    --background-container-03 : #44444A; /* #44444A */
+    --background-container-04 : #565660; /* #565660 */
+    --background-container-05 : #63646F; /* #63646F */
+    --original-background-field : #2a2a2a; /* #2a2a2a */
+    --original-background-button : #515151; /* #515151 */
+    --service-default : #8ED839; /* #8ED839 */
+    --object-default : #ED9C1B; /*ED9C1B*/
+    --object-disabled : #8E5E10; /*8E5E10*/
+    --object-sub : #B4AFAA; /*B4AFAA*/
+    --event-send : #E6C366; /*E6C366*/
+    --event-receive : #7FE8FF; /*7FE8FF*/    
+    --VButton-Background-Color: #50505C; /* #50505C */
+    --VButton-Border-Color: #434348; /* #434348 */
+    --Event-Background-color: rgb(71, 71, 81); /* #474751 */
+    --Event-Border-color: rgb(55, 55, 55); /* #373737 */
+    --Event-List-Background-color: #50505C; /* #50505C */
+    --Connect-Background-color: rgb(71, 71, 81); /* #474751 */
+    --VComponentButton-Background-Color: rgb(154, 127, 253); /* #9a7ffd */
+    --Vector-x-color: #FF3838; /* #FF3838 */
+    --Vector-y-color: #7CCA22; /* #7CCA22 */
+    --Vector-z-color: #1FB1F0; /* #1FB1F0 */
+    --Vector-w-color: #FF41F2; /* #FF41F2 */
+    --action-default: #2C2C38; /* #2C2C38 */
+    --action-Int: #558B2F; /* #558B2F */
+    --action-float: #005AA7; /* #005AA7 */
+    --action-bool: #8E0000; /* #8E0000 */
+    --action-color: #D84315; /* #D84315 */
+    --action-string: #7B1FA2; /* #7B1FA2 */
+    --action-player: #0277BD; /* #0277BD */
+}
+
+.dark-theme {
+    --primary-default: #3E5F96; /* #3E5F96 */
+    --secondary-default: #7553F3; /* #7553F3 */
+    --surface-default: #53535B; /* #53535B */
+    --background-default: #232326; /* #232326 */
+    --text-primary-default: #EBF3FF; /* #EBF3FF */
+    --text-primary-disabled:  #979797; /*  #979797 */
+    --icon-primary: #EBF3FF; /*  #EBF3FF */
+    --background-container-01: #2f2f37; /* #2f2f37 */
+    --background-container-02 : #3B3B43; /* #3B3B43 */
+    --background-container-03 : #44444A; /* #44444A */
+    --background-container-04 : #565660; /* #565660 */
+    --background-container-05 : #63646F; /* #63646F */
+    --original-background-field : #2a2a2a; /* #2a2a2a */
+    --original-background-button : #515151; /* #515151 */
+    --service-default : #8ED839; /* #8ED839 */
+    --object-default : #ED9C1B; /*ED9C1B*/
+    --object-disabled : #8E5E10; /*8E5E10*/
+    --object-sub : #B4AFAA; /*B4AFAA*/
+    --event-send : #E6C366; /*E6C366*/
+    --event-receive : #7FE8FF; /*7FE8FF*/
+    --VButton-Background-Color: #50505C; /* #50505C */
+    --VButton-Border-Color: #434348; /* #434348 */
+    --Event-Background-color: rgb(71, 71, 81); /* #474751 */
+    --Event-Border-color: rgb(55, 55, 55); /* #373737 */
+    --Event-List-Background-color: #50505C; /* #50505C */
+    --Connect-Background-color: rgb(71, 71, 81); /* #474751 */
+    --VComponentButton-Background-Color: rgb(154, 127, 253); /* #9a7ffd */
+    --Vector-x-color: #FF3838; /* #FF3838 */
+    --Vector-y-color: #7CCA22; /* #7CCA22 */
+    --Vector-z-color: #1FB1F0; /* #1FB1F0 */
+    --Vector-w-color: #FF41F2; /* #FF41F2 */
+    --action-default: #2C2C38; /* #2C2C38 */
+    --action-Int: #558B2F; /* #558B2F */
+    --action-float: #005AA7; /* #005AA7 */
+    --action-bool: #8E0000; /* #8E0000 */
+    --action-color: #D84315; /* #D84315 */
+    --action-string: #7B1FA2; /* #7B1FA2 */
+    --action-player: #0277BD; /* #0277BD */
+}
+
+.light-theme {
+    --primary-default: #3E5F96; /* #3E5F96 */
+    --secondary-default: #7553F3; /* #7553F3 */
+    --surface-default: #53535B; /* #53535B */
+    --background-default: #232326; /* #232326 */
+    --text-primary-default: #EBF3FF; /* #EBF3FF */
+    --text-primary-disabled:  #979797; /*  #979797 */
+    --icon-primary: #EBF3FF; /*  #EBF3FF */
+    --background-container-01: #2f2f37; /* #2f2f37 */
+    --background-container-02 : #3B3B43; /* #3B3B43 */
+    --background-container-03 : #44444A; /* #44444A */
+    --background-container-04 : #565660; /* #565660 */
+    --background-container-05 : #63646F; /* #63646F */
+    --original-background-field : #2a2a2a; /* #2a2a2a */
+    --original-background-button : #515151; /* #515151 */
+    --service-default : #8ED839; /* #8ED839 */
+    --object-default : #ED9C1B; /*ED9C1B*/
+    --object-disabled : #8E5E10; /*8E5E10*/
+    --object-sub : #B4AFAA; /*B4AFAA*/
+    --event-send : #E6C366; /*E6C366*/
+    --event-receive : #7FE8FF; /*7FE8FF*/
+    --VButton-Background-Color: #50505C; /* #50505C */
+    --VButton-Border-Color: #434348; /* #434348 */
+    --Event-Background-color: rgb(71, 71, 81); /* #474751 */
+    --Event-Border-color: rgb(55, 55, 55); /* #373737 */
+    --Event-List-Background-color: #50505C; /* #50505C */
+    --Connect-Background-color: rgb(71, 71, 81); /* #474751 */
+    --VComponentButton-Background-Color: rgb(154, 127, 253); /* #9a7ffd */
+    --Vector-x-color: #FF3838; /* #FF3838 */
+    --Vector-y-color: #7CCA22; /* #7CCA22 */
+    --Vector-z-color: #1FB1F0; /* #1FB1F0 */
+    --Vector-w-color: #FF41F2; /* #FF41F2 */
+    --action-default: #2C2C38; /* #2C2C38 */
+    --action-Int: #558B2F; /* #558B2F */
+    --action-float: #005AA7; /* #005AA7 */
+    --action-bool: #8E0000; /* #8E0000 */
+    --action-color: #D84315; /* #D84315 */
+    --action-string: #7B1FA2; /* #7B1FA2 */
+    --action-player: #0277BD; /* #0277BD */
+}
+
+.unity-theme-dark {
+    --primary-default: #3E5F96; /* #3E5F96 */
+    --secondary-default: #7553F3; /* #7553F3 */
+    --surface-default: #53535B; /* #53535B */
+    --background-default: #232326; /* #232326 */
+    --text-primary-default: #EBF3FF; /* #EBF3FF */
+    --text-primary-disabled:  #979797; /*  #979797 */
+    --icon-primary: #EBF3FF; /*  #EBF3FF */
+    --background-container-01: #2f2f37; /* #2f2f37 */
+    --background-container-02 : #3B3B43; /* #3B3B43 */
+    --background-container-03 : #44444A; /* #44444A */
+    --background-container-04 : #565660; /* #565660 */
+    --background-container-05 : #63646F; /* #63646F */
+    --original-background-field : #2a2a2a; /* #2a2a2a */
+    --original-background-button : #515151; /* #515151 */
+    --service-default : #8ED839; /* #8ED839 */
+    --object-default : #ED9C1B; /*ED9C1B*/
+    --object-disabled : #8E5E10; /*8E5E10*/
+    --object-sub : #B4AFAA; /*B4AFAA*/
+    --event-send : #E6C366; /*E6C366*/
+    --event-receive : #7FE8FF; /*7FE8FF*/
+    --VButton-Background-Color: #50505C; /* #50505C */
+    --VButton-Border-Color: #434348; /* #434348 */
+    --Event-Background-color: rgb(71, 71, 81); /* #474751 */
+    --Event-Border-color: rgb(55, 55, 55); /* #373737 */
+    --Event-List-Background-color: #50505C; /* #50505C */
+    --Connect-Background-color: rgb(71, 71, 81); /* #474751 */
+    --VComponentButton-Background-Color: rgb(154, 127, 253); /* #9a7ffd */
+    --Vector-x-color: #FF3838; /* #FF3838 */
+    --Vector-y-color: #7CCA22; /* #7CCA22 */
+    --Vector-z-color: #1FB1F0; /* #1FB1F0 */
+    --Vector-w-color: #FF41F2; /* #FF41F2 */
+    --action-default: #2C2C38; /* #2C2C38 */
+    --action-Int: #558B2F; /* #558B2F */
+    --action-float: #005AA7; /* #005AA7 */
+    --action-bool: #8E0000; /* #8E0000 */
+    --action-color: #D84315; /* #D84315 */
+    --action-string: #7B1FA2; /* #7B1FA2 */
+    --action-player: #0277BD; /* #0277BD */
+}
+
+.unity-theme-light {
+    --primary-default: #3E5F96; /* #3E5F96 */
+    --secondary-default: #7553F3; /* #7553F3 */
+    --surface-default: #53535B; /* #53535B */
+    --background-default: #232326; /* #232326 */
+    --text-primary-default: #EBF3FF; /* #EBF3FF */
+    --text-primary-disabled:  #979797; /*  #979797 */
+    --icon-primary: #EBF3FF; /*  #EBF3FF */
+    --background-container-01: #2f2f37; /* #2f2f37 */
+    --background-container-02 : #3B3B43; /* #3B3B43 */
+    --background-container-03 : #44444A; /* #44444A */
+    --background-container-04 : #565660; /* #565660 */
+    --background-container-05 : #63646F; /* #63646F */
+    --original-background-field : #2a2a2a; /* #2a2a2a */
+    --original-background-button : #515151; /* #515151 */
+    --service-default : #8ED839; /* #8ED839 */
+    --object-default : #ED9C1B; /*ED9C1B*/
+    --object-disabled : #8E5E10; /*8E5E10*/
+    --object-sub : #B4AFAA; /*B4AFAA*/
+    --event-send : #E6C366; /*E6C366*/
+    --event-receive : #7FE8FF; /*7FE8FF*/
+    --VButton-Background-Color: #50505C; /* #50505C */
+    --VButton-Border-Color: #434348; /* #434348 */
+    --Event-Background-color: rgb(71, 71, 81); /* #474751 */
+    --Event-Border-color: rgb(55, 55, 55); /* #373737 */
+    --Event-List-Background-color: #50505C; /* #50505C */
+    --Connect-Background-color: rgb(71, 71, 81); /* #474751 */
+    --VComponentButton-Background-Color: rgb(154, 127, 253); /* #9a7ffd */
+    --Vector-x-color: #FF3838; /* #FF3838 */
+    --Vector-y-color: #7CCA22; /* #7CCA22 */
+    --Vector-z-color: #1FB1F0; /* #1FB1F0 */
+    --Vector-w-color: #FF41F2; /* #FF41F2 */
+    --action-default: #2C2C38; /* #2C2C38 */
+    --action-Int: #558B2F; /* #558B2F */
+    --action-float: #005AA7; /* #005AA7 */
+    --action-bool: #8E0000; /* #8E0000 */
+    --action-color: #D84315; /* #D84315 */
+    --action-string: #7B1FA2; /* #7B1FA2 */
+    --action-player: #0277BD; /* #0277BD */    
+}

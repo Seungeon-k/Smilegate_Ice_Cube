@@ -1,0 +1,21 @@
+{
+  "name": "com.vulcanus.render-pipelines.vulcanus",
+  "displayName": "Vulcanus RP",
+  "version": "12.1.15",
+  "unity": "2021.3",
+  "unityRelease": "0b15",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.burst": "1.8.9",
+    "com.unity.render-pipelines.core": "12.1.15",
+    "com.unity.shadergraph": "12.1.15"
+  },
+  "keywords": [
+    "graphics",
+    "performance",
+    "rendering",
+    "mobile",
+    "render",
+    "pipeline"
+  ]
+}

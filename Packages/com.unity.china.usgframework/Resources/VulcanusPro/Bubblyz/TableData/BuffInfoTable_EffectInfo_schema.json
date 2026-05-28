@@ -1,0 +1,7 @@
+{
+    "ID": "!String",
+    "EffectType": "EBuffEffectType",
+    "EffectValue": "!Float",
+    "IgnoreResetWhenInterval": "!Bool",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,10 @@
+{
+    "PackageBoxID": "!String",
+    "PackageBoxGoodsList": "!GroupString, !String",
+    "Icon": "!String",
+    "Reward_Route": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "ItemGrade": "!String",
+    "ID_INT_TEMP": "!Int"
+}

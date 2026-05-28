@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/VisualScript/Variable/StyleSheets/Variable-ListTest.uss?fileID=7433441132597879392&amp;guid=093f67e7910c50246a41fbf9e30f2f83&amp;type=3#Variable-ListTest" />
+    <ui:VisualElement name="TOP" style="flex-direction: column; width: 100%;">
+        <ui:VisualElement name="DeviceViewOFF" style="display: flex;">
+            <ui:VisualElement name="Head" style="width: 100%; flex-direction: row;">
+                <ui:VisualElement name="LEFT" style="width: 40%;">
+                    <ui:Label text="Category" display-tooltip-when-elided="true" name="Category_Text" class="Variable-ListTest-Left-Lable" />
+                    <ui:Label text="ValueNicName" display-tooltip-when-elided="true" name="ValueNicName_Text" class="Variable-ListTest-Left-Lable" />
+                    <ui:Label text="Is UserControlData" display-tooltip-when-elided="true" name="UserControlData_Text" class="Variable-ListTest-Left-Lable" />
+                    <ui:Label text="Is Sync" display-tooltip-when-elided="true" name="IsSync_Text" class="Variable-ListTest-Left-Lable" />
+                    <ui:Label text="ValueType" display-tooltip-when-elided="true" name="ValueType_Text" class="Variable-ListTest-Left-Lable" />
+                </ui:VisualElement>
+                <ui:VisualElement name="RIGHT" style="width: 60%;">
+                    <ui:TextField picking-mode="Ignore" value="filler text" name="Category" class="Variable-ListTest-Right-Field" />
+                    <ui:TextField picking-mode="Ignore" name="ValueNicName" style="margin-top: 1px; margin-right: 3px; margin-bottom: 0; margin-left: 3px; padding-right: 10px; width: 100%; height: 20px;" />
+                    <ui:Toggle name="IsUserControlData" class="Variable-ListTest-Right-Field" />
+                    <ui:Toggle name="IsSync" class="Variable-ListTest-Right-Field" />
+                    <ui:DropdownField name="ValueType" choices="NONE,VTValueType,Component" index="0" class="Variable-ListTest-Right-Field" />
+                    <ui:DropdownField name="VTValueType" class="Variable-ListTest-Right-Field" />
+                    <uie:ObjectField name="GameObjectField" class="Variable-ListTest-Right-Field" />
+                    <uie:ObjectField name="ComponentField" class="Variable-ListTest-Right-Field" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Body">
+                <ui:VisualElement name="Layout" style="margin-right: 5px; margin-left: 20px; margin-top: 10px;">
+                    <ui:Label text="Value List" display-tooltip-when-elided="true" name="ValueList_Text" style="height: auto; font-size: 15px;" />
+                    <ui:VisualElement name="ListOutLine" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; flex-direction: row; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; flex-wrap: nowrap; max-height: none; min-height: 20px; min-width: 25px;">
+                        <ui:VisualElement name="Table" style="width: 100%; height: 100%; min-height: auto;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Buttons" style="-unity-text-align: middle-center; flex-direction: row; justify-content: flex-end;">
+                        <ui:Button text="+" display-tooltip-when-elided="true" name="Add" class="Variable-ListTest-Body-Buttons" />
+                        <ui:Button text="-" display-tooltip-when-elided="true" name="Delete" class="Variable-ListTest-Body-Buttons" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Tail">
+                <ui:Button text="Refresh" display-tooltip-when-elided="true" name="Refresh" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

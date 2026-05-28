@@ -1,0 +1,14 @@
+using UnityEditor;
+using UnityEngine;
+
+namespace GameFramework.Runtime
+{
+    public static class LocalizationMenu
+    {
+        [MenuItem("[Lo:LocalizationTestMenu]/[Lo:TestMenu]")]
+        public static void ExeTestMenu()
+        {
+            LocalizationHelper.MenuGenerate();
+        }
+    }
+}

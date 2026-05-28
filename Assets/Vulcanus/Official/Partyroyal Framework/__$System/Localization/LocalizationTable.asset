@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1825415902, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: LocalizationTable
+  m_EditorClassIdentifier: 
+  _assetKey: aa066f6e73d76274583e2d796f8ca6d1
+  editLanguage: 10
+  defaultLanguage: 10
+  displayLanguage: 10  
+  supportLanguages:
+  - langCode: 10
+    isSupport: 1
+  - langCode: 23
+    isSupport: 1
+  rows:
+  - key: ID_STAGE_HUDMESSAGEUI
+    textData:
+    - language: 10
+      text: A basic scene with minimal setup. Customize it as you like.
+    - language: 23
+      text: "\uCD5C\uC18C\uD55C\uC758 \uC124\uC815\uC774 \uC801\uC6A9\uB41C \uAE30\uBCF8
+        \uC52C\uC785\uB2C8\uB2E4. \uC790\uC720\uB86D\uAC8C \uAD6C\uC131\uD574\uBCF4\uC138\uC694."
+    - language: 40
+      text: 40000000

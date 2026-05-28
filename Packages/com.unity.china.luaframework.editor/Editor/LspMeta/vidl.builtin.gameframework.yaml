@@ -1,0 +1,283 @@
+# 참고
+# - http://vulcanus-ci.smilegate.net:88/doc/main/luascript-expose-list.html#expose-variable-alias
+# - Vulcanus IDL(VIDL) 명세(https://wiki.smilegate.net/pages/viewpage.action?pageId=441368304)
+version: 0.1
+types:
+  MetaTables:
+    codeType: class
+    members:
+      serviceApi:
+        type: VFramework.ServiceApi
+      scriptObject:
+        type: VFramework.ScriptObject
+      "[string]":
+        type: any
+    methods:
+      - name: OnEnable
+        static: true
+      - name: OnDisable
+        static: true
+      - name: OnStart
+        static: true
+      - name: OnDestroy
+        static: true
+      - name: OnUpdate
+        static: true
+        parameters:
+          deltaTime:
+            type: number
+      - name: OnLateUpdate
+        static: true
+      - name: OnFixedUpdate
+        static: true
+      - name: OnTriggerEnter
+        static: true
+      - name: OnTriggerExit
+        static: true
+      - name: OnCollisionEnter
+        static: true
+      - name: OnCollisionExit
+        static: true
+      - name: OnClick
+        static: true
+  __CREATOR__:
+    codeType: class
+    methods:
+      - name: new
+        static: true
+        return:
+          type: MetaTables
+  __EX_VARIABLE__:
+    codeType: class
+    members:
+      vobject:        
+        type: _VOBJECT_
+      component:
+        type: _VCOMPONENT_
+      asset:
+        type: _VASSET_
+    methods:
+      - name: vobject
+        static: true
+        return:
+          type: VFramework.VObject
+      - name: int
+        static: true
+        return:
+          type: int
+      - name: int
+        static: true
+        parameters:
+          default:
+            type: integer
+        return:
+          type: int
+      - name: float
+        static: true
+        return:
+          type: number
+      - name: float
+        static: true
+        parameters:
+          default:
+            type: number
+        return:
+          type: number
+      - name: bool
+        static: true
+        return:
+          type: bool
+      - name: bool
+        static: true
+        parameters:
+          default:
+            type: boolean
+        return:
+          type: bool
+      - name: string
+        static: true
+        return:
+          type: string
+      - name: string
+        static: true
+        parameters:
+          default:
+            type: string
+        return:
+          type: string
+      - name: color
+        static: true
+        return:
+          type: Color
+      - name: color
+        static: true
+        parameters:
+          hex:
+            type: string
+        return:
+          type: Color
+      - name: vector2
+        static: true
+        return:
+          type: Vector2
+      - name: vector2
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+        return:
+          type: Vector2
+      - name: vector3
+        static: true
+        return:
+          type: Vector3
+      - name: vector3
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+        return:
+          type: Vector3
+      - name: vector4
+        static: true
+        return:
+          type: Vector4
+      - name: vector4
+        static: true
+        parameters:
+          x:
+            type: number
+          y:
+            type: number
+          z:
+            type: number
+          w:
+            type: number
+        return:
+          type: Vector4
+      - name: list
+        static: true
+        parameters:
+          genericType:
+            type: T
+            generic: true
+        return:
+          type: T[]
+      - name: event
+        return:
+          type: VFramework.Events.VUEventBase
+  _VOBJECT_:
+    codeType: class
+    methods:
+      - name: vobject
+        static: true
+        return:
+          type: VFramework.VObject
+      - name: script
+        static: true
+        return:
+          type: VFramework.ScriptObject
+  _VCOMPONENT_:
+    codeType: class
+    methods:
+      - name: button
+        static: true
+        return:
+          type: VFramework.UI.Button
+      - name: image
+        static: true
+        return:
+          type: VFramework.UI.Image
+      - name: canvas
+        static: true
+        return:
+          type: VFramework.UI.Canvas
+      - name: slider
+        static: true
+        return:
+          type: VFramework.UI.Solider
+      - name: text
+        static: true
+        return:
+          type: VFramework.TextMeshProUGUI
+      - name: animation
+        static: true
+        return:
+          type: VFramework.UI.Animation
+      - name: animator
+        static: true
+        return:
+          type: VFramework.UI.Animator
+      - name: transform
+        static: true
+        return:
+          type: VFramework.UI.Transform
+      - name: renderer
+        static: true
+        return:
+          type: VFramework.UI.Renderer
+      - name: collider
+        static: true
+        return:
+          type: VFramework.UI.Collider
+      - name: rigidbody
+        static: true
+        return:
+          type: VFramework.UI.Rigidbody
+      - name: particleSystem
+        static: true
+        return:
+          type: VFramework.UI.ParticleSystem
+      - name: audioSource
+        static: true
+        return:
+          type: VFramework.UI.AudioSource
+  _VASSET_:
+    codeType: class
+    methods:
+      - name: audioClip
+        static: true
+        return:
+          type: VFramework.AudioClip
+      - name: animationClip
+        static: true
+        return:
+          type: VFramework.AnimationClip
+      - name: sprite
+        static: true
+        return:
+          type: VFramework.Sprite
+      - name: texture
+        static: true
+        return:
+          type: VFramework.Texture
+      - name: material
+        static: true
+        return:
+          type: VFramework.Material
+  GlobalFunctions:
+    codeType: function
+    methods:
+      - name: __EX_FUNCTION__
+        parameters:
+          metaTable:
+            type: MetaTables
+      - name: __EX_FUNCTION__
+        parameters:
+          metaTable:
+            type: MetaTables
+          ...:
+            type: any
+      - name: typeof
+        parameters:
+          genericType:
+            type: T
+            generic: true
+        return:
+          type: T

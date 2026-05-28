@@ -1,0 +1,21 @@
+{
+  "name": "com.vulcanus.pixelcanvas",
+  "displayName": "Vulcanus Pixel Canvas",
+  "version": "12.1.15",
+  "unity": "2021.3",
+  "unityRelease": "0b15",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.render-pipelines.core": "12.1.15",
+    "com.unity.shadergraph": "12.1.15",
+	"com.cysharp.unitask": "2.3.3"
+  },
+  "keywords": [
+    "graphics",
+    "performance",
+    "rendering",
+    "mobile",
+    "render",
+    "pipeline"
+  ]
+}

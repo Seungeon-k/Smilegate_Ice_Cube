@@ -1,0 +1,17 @@
+{
+  "name": "com.vulcanus.royalframework",
+  "displayName": "Vulcanus RoyalFramework",
+  "author": {
+    "name": "Smilegate"
+  },
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "This module for penguinroyal game",
+  "keywords": [
+    "RoyalFramework"
+  ],
+  "category": "Framework",
+  "dependencies": {
+    "com.unity.china.usgframework": "0.10.0"
+  }
+}

@@ -1,0 +1,25 @@
+/* ========== Editor Themes Plugin ==========*/
+/*            Auto Generated Code            */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*v0.65*/
+*Alien {
+}
+.IN BigTitle{ 
+	background-color: rgba(226, 25, 25, 255);
+	 -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+	width: auto;
+	min-width: auto;
+	max-width: none;
+	height: auto;
+	min-height: auto;
+	max-height: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+ } 

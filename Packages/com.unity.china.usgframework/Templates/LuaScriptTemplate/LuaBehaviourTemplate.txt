@@ -1,0 +1,29 @@
+#SCRIPTNAME# = {}
+
+function #SCRIPTNAME#.GetTable()
+    local this = {}
+    local GameObject = UnityEngine.GameObject
+    local thisGameObject
+    local thisLuaComponent
+    local thisTransform
+    
+    -- Awake
+    ---@param luaComponentInfo USGFramework.Runtime.USGLuaFramework.LuaComponentInfo
+    function this.Awake(luaComponentInfo)
+        thisGameObject = luaComponentInfo.TargetGameObject    
+        thisTransform = luaComponentInfo.TargetTransform
+        thisLuaComponent = luaComponentInfo.Owner   
+    end
+    
+    -- Start is called before the first frame update
+    function this.Start()
+        
+    end
+    
+    -- Update is called once per frame
+    function this.Update()
+    
+    end
+    
+    return this
+end

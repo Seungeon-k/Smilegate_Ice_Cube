@@ -1,0 +1,17 @@
+{
+    "ID": "!String",
+    "MaterialName": "!String",
+    "RChannel": "!GroupString, !Float",
+    "GChannel": "!GroupString, !Float",
+    "BChannel": "!GroupString, !Float",
+    "AChannel": "!GroupString, !Float",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "ColorType": "!String",
+    "ItemGrade": "!String",
+    "Icon": "!String",
+    "IsCustom": "!Bool",
+    "Price": "!Int",
+    "ProductID": "!String",
+    "ID_INT_TEMP": "!Int"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "com.unity.china.usgframework.editor",
+  "displayName": "USG Framework Editor",
+  "description": "A framework for USG Project Editor",
+  "version": "0.10.0",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.china.commonframework": "0.1.4",
+    "com.unity.china.luaframework": "0.1.1",
+    "com.unity.device-simulator.devices": "1.0.0",
+    "com.unity.ai.navigation": "1.0.0-exp.4",
+    "com.unity.cinemachine": "2.10.3",
+    "com.miragenet.mirage": "146.3.1"
+  }
+}

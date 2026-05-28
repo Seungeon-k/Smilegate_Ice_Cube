@@ -1,0 +1,30 @@
+{
+  "Name": "VorbisPluginImpl",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\VorbisPluginImpl.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Plugins\\VorbisPlugin\\Impl\\src\\NativeBridge.cs",
+      "OriginalGuid": "7a62e42f4d5890e429df61d6f0af2e0d",
+      "ClassNamespace": "OggVorbis",
+      "ClassName": "NativeBridge",
+      "ClassFullName": "OggVorbis.NativeBridge",
+      "FileID": 1394101487
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Plugins\\VorbisPlugin\\Impl\\src\\NativeErrorException.cs",
+      "OriginalGuid": "43b9e4fd60d7b1b42babf0b567adc798",
+      "ClassNamespace": "OggVorbis",
+      "ClassName": "NativeErrorException",
+      "ClassFullName": "OggVorbis.NativeErrorException",
+      "FileID": -1073459206
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework.editor\\Editor\\USGAssetConverter\\Plugins\\VorbisPlugin\\Impl\\src\\VorbisPlugin.cs",
+      "OriginalGuid": "02000528ede72eb4e9fa9627185e0ac6",
+      "ClassNamespace": "OggVorbis",
+      "ClassName": "VorbisPlugin",
+      "ClassFullName": "OggVorbis.VorbisPlugin",
+      "FileID": -808438366
+    }
+  ]
+}

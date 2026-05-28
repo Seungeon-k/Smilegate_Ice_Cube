@@ -1,0 +1,12 @@
+{
+    "Pet_Gacha_Machine": "!String",
+    "Cash_Type": "!String",
+    "Pet_Gacha_Machine_Name": "!String",
+    "EndDate": "!GroupString, !Int",
+    "End_Comment": "!String",
+    "Cash_Price": "!Int",
+    "Ten_Count_Cash_Price": "!Int",
+    "TicketType": "!String",
+    "DrawTicketPrice": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

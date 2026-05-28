@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="VulcanusPlatformSdk">
+    <type fullname="VulcanusPlatformSdk.Models.*" preserve="all"/>
+    <type fullname="VulcanusPlatformSdk.V1.*" preserve="all"/>
+  </assembly>
+</linker>

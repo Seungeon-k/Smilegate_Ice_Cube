@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "targetName": "!String",
+    "fadeOutTime": "!Float",
+    "fadeInTime": "!Float",
+    "fadeOutVolume": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

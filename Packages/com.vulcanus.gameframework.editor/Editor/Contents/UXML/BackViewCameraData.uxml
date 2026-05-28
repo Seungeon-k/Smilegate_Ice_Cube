@@ -1,0 +1,82 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top" style="flex-direction: column;">
+        <ui:Foldout text="Camera Data" name="CameraData">
+            <ui:Foldout text="Base Setting" style="margin-left: 15px; flex-direction: column;">
+                <ui:VisualElement name="Layout" style="flex-direction: row;">
+                    <ui:VisualElement name="Left" style="width: 40%;">
+                        <ui:Label text="Camera Rotation X Speed" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Camera Rotation Y Speed" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Pitch" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 44px; -unity-text-align: middle-left;" />
+                        <ui:Label text="Yaw" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left;" />
+                        <ui:Label text="Zoom" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 44px; -unity-text-align: middle-left;" />
+                        <ui:Label text="Offset" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left;" />
+                        <ui:Label text="Fov" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left;" />
+                        <ui:Label text="Object Collide" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Right" style="width: 60%;">
+                        <uie:FloatField value="0" name="CameraRotationXSpeed" style="height: 22px;" />
+                        <uie:FloatField value="0" name="CameraRotationYSpeed" style="height: 22px;" />
+                        <ui:VisualElement name="Pitch" style="height: 44px; flex-direction: column; margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px;">
+                            <ui:VisualElement style="flex-direction: row; width: 100%; flex-grow: 1; margin-top: 1px; margin-right: 0; margin-bottom: 1px; margin-left: 0; height: 22px;">
+                                <ui:Label text="Min" display-tooltip-when-elided="true" style="-unity-text-align: middle-left; width: 20%;" />
+                                <uie:FloatField value="42.2" name="MinPitch" style="width: 30%; margin-left: 0; margin-right: 0;" />
+                                <ui:Label text="Max" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; width: 20%;" />
+                                <uie:FloatField value="42.2" name="MaxPitch" style="width: 30%; margin-left: 0; margin-right: 0;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="height: 22px; flex-direction: row;">
+                                <ui:Label text="Value" display-tooltip-when-elided="true" style="height: 22px; -unity-text-align: middle-left; flex-direction: column; width: 20%;" />
+                                <uie:FloatField value="42.2" name="ValuePitch" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Yaw" style="height: 22px; margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; flex-direction: row; width: auto;">
+                            <ui:Label text="Value" display-tooltip-when-elided="true" style="width: 20%; -unity-text-align: middle-left;" />
+                            <uie:FloatField value="42.2" name="ValueYaw" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Zoom" style="height: 44px; flex-direction: column; margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px;">
+                            <ui:VisualElement style="flex-direction: row; width: 100%; flex-grow: 1; margin-top: 1px; margin-right: 0; margin-bottom: 1px; margin-left: 0; height: 22px;">
+                                <ui:Label text="Min" display-tooltip-when-elided="true" style="-unity-text-align: middle-left; width: 20%;" />
+                                <uie:FloatField value="42.2" name="MinZoom" style="width: 30%; margin-left: 0; margin-right: 0;" />
+                                <ui:Label text="Max" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; width: 20%;" />
+                                <uie:FloatField value="42.2" name="MaxZoom" style="width: 30%; margin-left: 0; margin-right: 0;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="height: 22px; flex-direction: row;">
+                                <ui:Label text="Value" display-tooltip-when-elided="true" style="height: 22px; -unity-text-align: middle-left; flex-direction: column; width: 20%;" />
+                                <uie:FloatField value="42.2" name="ValueZoom" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Offset" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <uie:Vector3Field name="OffsetVector3" style="width: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-align: middle-left;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="FovSlider" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="90" name="FovSlider" low-value="30" style="width: 80%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 5px; padding-right: 5px;" />
+                            <uie:FloatField value="42.2" name="FovValue" style="width: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Collide" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; flex-direction: row; width: auto;">
+                            <ui:Toggle name="CollideToggle" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout text="Rig Setting" style="padding-left: 15px;">
+                <ui:VisualElement name="Layout" style="flex-direction: row;">
+                    <ui:VisualElement name="Left" style="width: 40%;">
+                        <ui:Label text="Top Rig_height" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Top Rig_Radius" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Middle Rig_Height" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Middle Rig_Radius" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Bottom Rig_Height" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                        <ui:Label text="Bottom Rig_Radius" display-tooltip-when-elided="true" style="margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; height: 22px; -unity-text-align: middle-left; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Right" style="width: 60%;">
+                        <uie:FloatField value="0" name="Top_Rig_Height" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Top_Rig_Radius" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Middle_Rig_Height" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Middle_Rig_Radius" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Bottom_Rig_Height" style="height: 22px;" />
+                        <uie:FloatField value="0" name="Bottom_Rig_Radius" style="height: 22px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

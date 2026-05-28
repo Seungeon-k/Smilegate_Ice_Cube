@@ -1,0 +1,6 @@
+.Select {
+    background-color: var(--primary-default);
+}
+.Background {
+    background-color: var(--background-container-02);
+}

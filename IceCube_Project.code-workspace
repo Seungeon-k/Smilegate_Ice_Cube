@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "Project",
+      "path": ".\\Assets\\Vulcanus"
+    },
+    {
+      "name": "LuaMeta",
+      "path": "C:\\ProgramData\\ZAMMYSMITH\\review2\\Templates\\node_modules\\com.vulcanus.game-packages\\com.vulcanus.gameframework\\lsp-meta\\en"
+    }
+  ],
+  "settings": {}
+}

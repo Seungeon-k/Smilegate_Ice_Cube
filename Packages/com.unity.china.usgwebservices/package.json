@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.china.usgwebservices",
+  "displayName": "USG WebServices",
+  "description": "USG Project's resource store and heartbeat system",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.china.commonframework": "0.1.4",
+    "com.unity.china.luaframework": "0.1.1",
+    "com.unity.china.usgframework": "0.2.4"
+  }
+}

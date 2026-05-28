@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 786243947, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: ItemField_Bat
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: Bat
+  Prefab: {fileID: 6756367567561216167, guid: 2232f2537d2aba94994d1475fffb050d, type: 3}
+  ItemType: 0
+  Icon: {fileID: 10904, guid: 0000000000000000f000000000000000, type: 0}
+  Desc: BatBat
+  IndicatorPrefab: {fileID: 0}
+  HitEffectPrefab: {fileID: 1168475037247470142, guid: f45f71d884958494ea3061e2092fe062, type: 3}

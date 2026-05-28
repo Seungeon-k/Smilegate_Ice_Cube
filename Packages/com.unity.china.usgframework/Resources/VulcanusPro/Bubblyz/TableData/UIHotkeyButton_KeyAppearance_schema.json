@@ -1,0 +1,8 @@
+{
+    "ID": "!String",
+    "SpriteName": "!String",
+    "IconRollAngle": "!Float",
+    "IconHorizontalFlip": "!Bool",
+    "Text": "!String",
+    "TextPositionOffset": "!Vector2"
+}

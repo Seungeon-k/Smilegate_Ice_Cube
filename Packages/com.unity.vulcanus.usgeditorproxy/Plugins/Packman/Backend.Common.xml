@@ -1,0 +1,1126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Backend.Common.Constants.ErrorCode">
+            <summary>
+                서버 에러 코드 정의
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.VulcanusServerExceptionFromModGrpc">
+            <summary>
+                Mod실 제공 Grpc(Content, PenguinData Server) 처리 중 예외.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InternalServerError">
+            <summary>
+                서버 내부 에러(예외 발생 등)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FeatureNotAllowed">
+            <summary>
+                서버에서 해당 기능이 허용되지 않는다. (보통 IsDebugging 이 False 일 경우)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.SendPacketFailed">
+            <summary>
+                존서버에 패킷 전송 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InvalidArguments">
+            <summary>
+                요청 정보가 유효하지 않음
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TerminatedZoneServer">
+            <summary>
+                존서버가 파괴되었다(로그 기록용)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.DisconnectedZoneServer">
+            <summary>
+                존서버와의 접속이 비정상적으로 종료되었다.(로그 기록용)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AlreadyLoggedIn">
+            <summary>
+                사용자가 이미 로그인하였다(중복 로그인)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AuthenticationFailed">
+            <summary>
+                사용자 인증 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.NotLoggedIn">
+            <summary>
+                사용자가 로그인하지 않았다
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZoneNotFound">
+            <summary>
+                게임존이 존재하지 않는다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AlreadyGameZoneEntered">
+            <summary>
+                게임존에 이미 입장하였다(중복 입장)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InvalidGameZoneState">
+            <summary>
+                게임존 상태가 일치하지 않는다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.MatchDataNotFoundInGameZone">
+            <summary>
+                매칭 데이터를 게임존에서 확인하지 못했습니다.
+                클라이언트 접속/로딩이 너무 오래걸려서 매칭이 취소되었습니다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZoneNotEntered">
+            <summary>
+                게임존에 입장하지 않았다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.EntranceBlocked">
+            <summary>
+                입장 불가 상태
+                Lua 로직상 입장을 허용하지 않는 상태
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.EntranceDenied">
+            <summary>
+                GameHost가 입장을 거부함
+                Lua 로직에서 입장을 거부함
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZoneAlreadyCreated">
+            <summary>
+                게임존이 이미 생성됨
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZonePlayerFull">
+            <summary>
+                게임존이 가득 차서 유저 입장이 불가함
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZoneNotReadied">
+            <summary>
+                게임존이 준비가 되지 않았다(UGC 로딩 중 등의 이유)
+                - 클라이언트는 일정 시간 이후에 다시 입장 요청을 해야 한다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FailedToCreateGameHost">
+            <summary>
+                게임호스트 생성(초기화)에 실패하였다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.BackfillCannotWorkPublicOrSecretRoom">
+            <summary>
+                광장 혹은 비공개 존에서는 모집을 실행할 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.BackFilledEnoughUsers">
+            <summary>
+                이미 요청한 인원만큼 모집되어있다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.BackFilledTimeout">
+            <summary>
+                모집 요청의 시간이 만료되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AlreadyGameZoneCreating">
+            <summary>
+                이미 게임 존을 생성하고 있다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.OtherGameZoneAssigned">
+            <summary>
+                다른 존이 할당되어있다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.WaitingZoneProxyReady">
+            <summary>
+                예약한 존 Container 가 booting 중이다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AlreadyGameZoneCreated">
+            <summary>
+                이미 게임 존이 생성되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FailedToCreateGameZoneByGmsCheck">
+            <summary>
+                GMS 에게 create-zone/check 보냈는데 오류 발생
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TooManyGameZone">
+            <summary>
+                게임존 생성 한계치 초과
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FailedToCreateGameZone">
+            <summary>
+                잘못된 존 정보로 인해 GameZone을 생성할 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FailedToQueryUgcMeta">
+            <summary>
+                Ugc Meta 정보를 얻을 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FailedToDownloadUgcFile">
+            <summary>
+                Ugc 파일을 다운로드할 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TimeoutCreateGameZone">
+            <summary>
+                GameZone 생성 시간을 초과하였습니다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TimeoutIdleGameZone">
+            <summary>
+                GameZone 유저 없이 유지하는 시간을 초과했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CannotCreateP2PGroup">
+            <summary>
+                P2P 그룹을 생성할 수 없다
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CannotJoinToP2PGroup">
+            <summary>
+                P2P 그룹에 참여할 수 없다(ProudNet 내부 에러)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InvalidContextDataType">
+            <summary>
+                잘못된 컨택스트 데이터 타입.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.LoginException">
+            <summary>
+                로그인 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.EnterGameZoneException">
+            <summary>
+                게임존 입장 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CreateZoneException">
+            <summary>
+                존 생성 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ChangeNicknameGrpcException">
+            <summary>
+                이름 변경 grpc 요청 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.WorldSessionLoginException">
+            <summary>
+                사용자 로그인 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CancelZoneCreationOnExit">
+            <summary>
+                ApplicationStopping에 따른 존 생성 취소.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InvalidUgcFileSize">
+            <summary>
+                잘못된 ugc 파일 사이즈
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InvalidUgcChecksum">
+            <summary>
+                잘못된 ugc 체크섬.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CreateUgcTimeout">
+            <summary>
+                Ugc 생성 타임아웃.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.MatchingVersionMissMatching">
+            <summary>
+                존 서버와 요청온 MatchingVersion이 다름
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneRestartingTimeout">
+            <summary>
+                존 서버와 재시작 시도 시간을 넘겼다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.CannotChangeZoneLimitOnPublicRoom">
+            <summary>
+                광장에서는 ChangeZoneLimit 을 사용할 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.WorldSessionReLoginException">
+            <summary>
+                사용자 재로그인 중 예외 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.NotFoundReservedAccount">
+            <summary>
+                예약 account 정보를 찾을 수 없음.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ReLoginFailedAlreadyLoggedIn">
+            <summary>
+                이미 로그인 한 유저로 재로그인 실패.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ReLoginFailedReservationTimeout">
+            <summary>
+                예약 시간 Timeout.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AdapterChannelUnknownError">
+            <summary>
+                AdapterChannel 에서 알 수 없는 오류가 발생했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.AdapterResponseEmptyCurrency">
+            <summary>
+                Adapter 응답에 재화 정보가 비어있다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.MiddlewareChannelUnknownError">
+            <summary>
+                MiddlewareChannel 에서 알 수 없는 오류가 발생했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.MiddlewareResponseEmptyProduct">
+            <summary>
+                Middleware 응답에 상품 정보가 비어있다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InModShopCreateReceiptFailed">
+            <summary>
+                인모드 상점 구매 시 영수증 생성 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InModShopUpdateReceiptFailed">
+            <summary>
+                인모드 상점 구매 시 영수증 갱신 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.InModShopDeletedProduct">
+            <summary>
+                인모드 구매 시 삭제된 상품 구매 실패.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PlatformExceptionOccurred">
+            <summary>
+                플랫폼 서버에서 처리시 예외 발생
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.LeaderboardNoPermission">
+            <summary>
+                리더보드를 수정할 권한이 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.LeaderboardNotFound">
+            <summary>
+                리더보드를 찾을 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.LeaderboardCreate">
+            <summary>
+                리더보드를 생성할 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.FromToolRequested">
+            <summary>
+                툴에서 존 삭제를 요청했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ApiRequestFailed">
+            <summary>
+                Api 요청 중 에러 발생.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.StoveResponseNullOrEmpty">
+            <summary>
+                StoveApi 결과 값이 비어 있음.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherUnknownError">
+            <summary>
+                Lambda - VulcanusZoneLauncher 에서 오류 발생
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherTimeout">
+            <summary>
+                Lambda - VulcanusZoneLauncher 에서 생성 시간 초과
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherInvalidArguments">
+            <summary>
+                Lambda - VulcanusZoneLauncher 인자 값이 잘못되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherTaskDefinitionMissing">
+            <summary>
+                Lambda - VulcanusZoneLauncher Task definition 관련 설정을 찾을 수 없다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherTaskNotAssigned">
+            <summary>
+                Lambda - VulcanusZoneLauncher Task 할당 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherTaskInvalidState">
+            <summary>
+                Lambda - VulcanusZoneLauncher 생성된 Task 의 상태가 이상하다. (PENDING, RUNNING) 이 아니다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherWorldNotReady">
+            <summary>
+                Lambda - VulcanusZoneLauncher 에서 월드 서버의 준비가 안되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneLauncherCreationFailed">
+            <summary>
+                Lambda - VulcanusZoneLauncher 에서 존 생성 요청을 보내는 것을 실패했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneProvisionerUnknown">
+            <summary>
+                Lambda - VulcanusZoneProvisioner 에서 알 수 없는 에러가 발생했다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneProvisionInvalidEvent">
+            <summary>
+                Lambda - Vulcanus Lambda Provision 이 잘못된 이벤트 소스에서 호출되었다.
+                ZoneProvisioner 가 ApiGateway 에서 호출됭었거나, SetProvisionCapacity 가 EventBridge 등에서 호출되었을 때
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneTaskFailLoggerInvalidEvent">
+            <summary>
+                Lambda - Vulcanus Task Fail Logger 인자 값이 잘못되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ProxyDisconnected">
+            <summary>
+                존 서버와의 접속이 끊겼다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.GameZoneHostDisconnected">
+            <summary>
+                존 호스트 세션의 접속이 끊겼다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.NotFromZoneServer">
+            <summary>
+                LinkZ2W 요청은 존서버만 허용함
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.NotSupportedOnProduction">
+            <summary>
+                Debug 환경에서만 실행되는 기능입니다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrHttpUnauthorized">
+            <summary>인증 정보 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinMemberNo">
+            <summary>Purin ErrorCode :</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinInvalidAccessToken">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinLogin">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinPingPong">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNoneUser">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinLogoutUser">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinSocket">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNoneIp">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNoneSocket">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinShutdown">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinSystem">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinTimeout">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinApiServer">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinAuth">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinBirthDayNull">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinBirthdayFail">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNoneAdult">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinAlreadyServer">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNotFindServer">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNotFindUser">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinCantGetMembership">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinIsAdult">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinNotFindAge">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinIsNotGaaUser">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinInvalidParameter">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinRedis">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPurinRedisData">
+            <summary>사용안함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxRequest">
+            <summary>PostBox</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxService">
+            <summary>우편 서비스 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidAccessToken">
+            <summary>Client's Xk5 Accesstoken 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxTrnAlready">
+            <summary>Transaction Id 중복</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidTrn">
+            <summary>Transaction Id 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotFoundPost">
+            <summary>Post 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxAlreadySendItem">
+            <summary>이미 아이템 수령</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotExistItemInPost">
+            <summary>우편에 아이템 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxAllPostProviderFail">
+            <summary>모두 실패</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxSomePostProviderFail">
+            <summary>일부 실패</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxUserNotFound">
+            <summary>User 정보 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxUnauthorized">
+            <summary>인증 정보 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxExceededPostboxSize">
+            <summary>우편함 크기 초과</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxExceededRecipientMaxsize">
+            <summary>수취인 우편함 초과</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxDuplicatePostboxId">
+            <summary>PostBoxId 중복</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotFoundPostbox">
+            <summary>PostBox 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxDuplicateServiceId">
+            <summary>Service Id 중복 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotFoundServiceInfo">
+            <summary>Service 정보 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidRecipients">
+            <summary>수취인 정보 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidReservationTime">
+            <summary>Post 예약 시간 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotFoundReservationPost">
+            <summary>예약 우편 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxAlreadyReservationPost">
+            <summary>이미 예약 우편 전송 됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxCanceledReservationPost">
+            <summary>예약 우편 취소</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotFoundUserPost">
+            <summary>유저 우편 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidExpireTime">
+            <summary>만료 시간 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNotAllowModifyPost">
+            <summary>우편 수정 승인 불가</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxNeedRecipient">
+            <summary>수취인 1명 이상 필요</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxInvalidPageNum">
+            <summary>page number 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrPostboxMandatoryUserId">
+            <summary>모든 우편 타입을 위해 User Id 가 인증되어야 함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrUgcDataError">
+            <summary>ugc</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrUgcNotExistUgcId">
+            <summary>include ERR_HOMELAND_NOT_FOUND_DATA, ERR_HTTP_NOT_IMPLEMENTED</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrUgcInvalidParameter">
+            <summary>include ERR_HOMELAND_WRONG_PARAMETER, ERR_HTTP_BAD_GATEWAY</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrNotFoundData">
+            <summary>file</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrFriendInvalidSubscription">
+            <summary>friend</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrFriendNotExistMember">
+            <summary>don't exist member_no</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrFriendNullToken">
+            <summary>token is null</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrFriendInvalidToken">
+            <summary>invalid token</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrHomelandInvalidTicket">
+            <summary>Homeland (현재 사용 하지 않음)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrCharCharacterInfoAlreadyExists">
+            <summary>character</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrCharInvalidAccessToken">
+            <summary>Invalid Client's Xk5 AccessToken</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrCharNoExistsAccessToken">
+            <summary>no exists Client's Xk5 AccessToken</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrCharCharacterIdListIsEmpty">
+            <summary>캐릭터 Id List 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrRecommendHomelandExceptionOccurred">
+            <summary>Recommend Homeland</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrHopeServiceError">
+            <summary>Hope 서비스에서 에러를 반환</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrHopeInvalidPlatform">
+            <summary>appid가 설정되지 않은 플랫폼타입 입니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrHopeNotFound">
+            <summary>해당 유저의 hope judge를 찾을 수 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrInAppRankNotExistData">
+            <summary>InApp Ranking( 45000 ~ 45999 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDocumentServiceSystemError">
+            <summary>Document Service( 46000 ~ 46999 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrApiGatewayExceptionOccurred">
+            <summary>APIGateway Common Error ( 47000 ~ 47099 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrXk5RankRecordCanNotUpdate">
+            <summary>Xk5Rank (47600~47699)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrXk5RankNoPermission">
+            <summary>No permission</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGuestbookSystemError">
+            <summary>Guestbook Service ( 47800 ~ 47899 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGuestbookDeleteFailError">
+            <summary>글/댓글 삭제 실패</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGuestbookDeleteArticleHaveCommentError">
+            <summary>글 삭제시 댓글이 있는 경우</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGuestbookContentOverLengthError">
+            <summary>글/댓글 자릿수 초과</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGuestbookUserCanNotRequestError">
+            <summary>글/댓글 작성이나 삭제가 불가능 유저가 시도한 경우</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrVisitSystemError">
+            <summary>Visit Service ( 47900 ~ 47999 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrCloudUgcSystemError">
+            <summary>Tenvine Cloud Ugc ( 48100 ~ 48199 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrAccountServiceSystemError">
+            <summary>Account Service ( 48200 ~ 48299 )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrScfInvalidParameterValue">
+            <summary>SCF Error (48300 ~ 48399)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackOfCash">
+            <summary>Shop Error (48400 ~ 48499)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopOpenKeyError">
+            <summary>open Key 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopThirdOrderNoAlreadyExist">
+            <summary>제3자(게임서버자체생성) 주문번호가 이미 존재하며, 상품을 구매할 때 중복된 제3자 주문번호가 들어옴</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopRpcExceptionOccured">
+            <summary>RPC 예외 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopCheckUserCurrency">
+            <summary>유저 재화 조회 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopDeductCurrency">
+            <summary>유저 재화 차감 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopSendItem">
+            <summary>아이템 전송 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopExceptionOccured">
+            <summary>예외 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopProductWasNotFound">
+            <summary>상품정보 조회 불가 : 상품이 지정된 전시페이지 및 채널에서 조회되지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopRechargeProductWasNotFound">
+            <summary>충전된 상품정보 조회 불가 : 충전상품은 지정된 전시페이지 및 채널에서 조회되지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopOrderNoWasNotFound">
+            <summary>xk5 주문번호 조회 안됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopCashTypeNotFound">
+            <summary>상품 구매 시 선택 결제 게임재화 유형 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopChannelCouldNotMatch">
+            <summary>xk5 채널 정보를 일치하지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopInvalidArgument">
+            <summary>잘못된 인자값. 자세한 내용은 message 참조</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopOrderNoAlreadyRollback">
+            <summary>차감한 재화 중복 취소</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopNotAllowedToBuy">
+            <summary>상품 구매 불가</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLimitedPurchase">
+            <summary>상품 구매 시 제한된 수량을 초과 함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLimitedDiscount">
+            <summary>상품 구매 시 할인 구매 제한 수량 초과</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackDiamond">
+            <summary>재화 부족 ( Diamond )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackGold">
+            <summary>재화 부족 ( Gold )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackPoint">
+            <summary>재화 부족 ( Point )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopSnapshotNotFound">
+            <summary>snapshot 조회 불가</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopUserNotFound">
+            <summary>User 조회 불가</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopDuplicateProduct">
+            <summary>상품 정보 중복 조회</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopNotAllowRollback">
+            <summary>선물 Cash 롤백 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopCashTypeNoExists">
+            <summary>CashType 존재하지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackSCoin">
+            <summary>재화 부족 ( S-Coin )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopLackNCoin">
+            <summary>재화 부족 ( N-Coin )</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopCategoryNotFound">
+            <summary>카테고리 코드 조회 안됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopWalletNotFound">
+            <summary>지갑 조회 안됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrShopExhibitionNotFound">
+            <summary>전시코드 조회 안됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreDataError">
+            <summary>DataStore Error (48500 ~ 48599)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreExistingValueIsNotNumeric">
+            <summary>Entry 값이 숫자 타입이 아니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreEntryKeyNotFound">
+            <summary>Entry Key 를 찾을 수 없다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreCodeNotFound">
+            <summary>Data Store 를 찾을 수 없다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreRankIllegalArgument">
+            <summary>rank payload 잘못된 인수</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreCharacterInfoNotFound">
+            <summary>캐릭터정보를 찾을 수 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrDatastoreUgcUnboundFranchisee">
+            <summary>ugc 언바운드 프랜차이즈 ID</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardError">
+            <summary>leaderboard(rank) Error (48600 ~ 48699)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardException">
+            <summary>예외 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardSystem">
+            <summary>LeaderBoard System error</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardNotFound">
+            <summary>LeaderBoard 를 찾을 수 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardDoNotHavePermissionToAccess">
+            <summary>리소스에 액세스할 수 있는 권한이 없습니다</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrLeaderboardAlreadyExistLeaderboardId">
+            <summary>사용중인 리더보드 id</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityException">
+            <summary>Activity Error (48700 ~ 48799)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityMemberNotFound">
+            <summary>찾을수 없는 멤버</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityCharacterNotFound">
+            <summary>찾을수 없는 캐릭터</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityMissionNotCompleted">
+            <summary>미션 완료되지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityRewardBeenObtained">
+            <summary>보상 이미 획득</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityNotFound">
+            <summary>찾을수 없는 activity</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrActivityMissionNotFound">
+            <summary>찾을수 없는 미션</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopAlreadyProductId">
+            <summary>ModShop Error (48800 ~ 48899)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopNoPermission">
+            <summary>권한이 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopProductNotFound">
+            <summary>상품을 찾을수 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopNotOnSale">
+            <summary>판매하지 않는 상품</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopOrderNoPermission">
+            <summary>주문은 귀하의 것이 아닙니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopProductNameSensitive">
+            <summary>상품 이름에 민감한 정보가 있습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopProductIconSensitive">
+            <summary>상품 아이콘에 민감한 정보가 있습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrModshopOrderNotFound">
+            <summary>주문을 찾을수 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.UnknownFromApiResult">
+            <summary>서버에서 ApiResultCode를 받아오지 못한 경우</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNetworkBadRequestFromApiResult">
+            <summary>http status 400</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorHttpUnauthorizedFromApiResult">
+            <summary>http status 401</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNetworkNotFoundFromApiResult">
+            <summary>http status 404</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNetworkInternalServerErrorFromApiResult">
+            <summary>http status 500</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorInvalidParameterFromApiResult">
+            <summary>함수 호출시 파라메터 입력값 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorTooFastRequestFromApiResult">
+            <summary>API요청 주기가 너무 빠를 경우</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNetworkTimeoutFromApiResult">
+            <summary>타임아웃이 발생한 경우</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNoResultFromApiResult">
+            <summary>서버통신은 성공했으나 처리는 실패한 경우<br /> ex) 데이터 삭제요청 http 통신은 성공했으나 삭제 실패함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorValidationFailedFromApiResult">
+            <summary>함수 호출시 파라미터가 잘못됨</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorJsonParsingFromApiResult">
+            <summary>Json 파싱 에러</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorNetworkExceptionFromApiResult">
+            <summary>네트워크 통신 실패 또는 http 통신 결과를 받지 못함</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorUnexpectedExceptionFromApiResult">
+            <summary>예상치 못한 예외 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrorOperationCanceledFromApiResult">
+            <summary>CancellationToken 취소로 인해 작업이 취소되었다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrExceptionOccurredFromPas">
+            <summary>예외 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.NotExistData">
+            <summary>데이터 없음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.WriteDataFail">
+            <summary>데이터 쓰기 실패</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.WrongParameterValue">
+            <summary>파라미터가 없거나 올바르지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.EventBusUnknown">
+            <summary>EventBus 전송 관련 오류</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TargetNotFound">
+            <summary>요청한 타켓이 검색되지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.TargetNotLocationProjectType">
+            <summary>Target이 요청한 위치에 없습니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.UserNotApiLoggedIn">
+            <summary>유저 관련 에러</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.UserNotZoneLoggedIn">
+            <summary>유저가 존서버에 로그인되어 있지 않음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.UserAlreadyZoneLoggedIn">
+            <summary>유저가 이미 존에 진입되어 있음</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.UserHasNoZoneReservation">
+            <summary>유저가 예약되지 않는 존입니다.</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserAlreadyInteractionHubLoggedIn">
+            <summary>유저가 이미 InteractionHub서버에 진입되어 있다. (중복로그인)</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserNotEnoughCurrency">
+            <summary> 유저 재화 부족 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserOverMaximumCurrency">
+            <summary>재화 최대치 이상 획득하려 할 때 제한되도록 처리</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsBlock">
+            <summary> 유저 거래 내가 차단 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsTargetBlock">
+            <summary> 유저 거래 상대 차단 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsAllowedBlock">
+            <summary> 유저 거래 나 방해금지 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsTargetAllowedBlock">
+            <summary> 유저 거래 상대 방해금지 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsAllowedFriend">
+            <summary> 유저 거래 나 방해금지 친구만 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsTargetAllowedFriend">
+            <summary> 유저 거래 상대 방해금지 친구만 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsBlockGm">
+            <summary> 운영자 차단 유저 거래 불가 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PasUserTransactionsTargetBlockGm">
+            <summary> 운영자 차단 상대 유저 거래 불가 </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ServerNotValid">
+            <summary>서버 관련 에러</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneNotValid">
+            <summary>존 관련 에러</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneNotValidServerBaseInfoDifferent">
+            <summary>
+                요청된 서버와 존의 정보가 달라 존이 유효하지 않습니다. (ZoneGuid는 존재하는 데이터이나 groupId, projectType, version이 다릅니다.)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ZoneUpdateUgcVersionIdFailed">
+            <summary>
+                존의 ugc version id 변경에 실패
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrGdsHttpRequestFailed">
+            <summary>
+                에러코드를 인지 할 수 없을 때 발생
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.ErrUnknownErrorCode">
+            <summary>에러코드를 인지 할 수 없을 때 발생</summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PartyModMaxUserOver">
+            <summary>
+                현재 파티원수가 변경할 모드 최대 인원을 초과함.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PartyGamePlaying">
+            <summary>
+                현재 파티가 게임중입니다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PartyIsNotAllReady">
+            <summary>
+                모든 인원이 게임 준비가 안되었다.
+            </summary>
+        </member>
+        <member name="F:Backend.Common.Constants.ErrorCode.PartyGamePlayMinUser">
+            <summary>
+                게임 시작에 필요한 최소 인원 충족 되지 않음
+            </summary>
+        </member>
+        <member name="T:Backend.Common.Constants.LobbyErrorCode">
+            <summary>
+                로비 서버의 매칭 관련 에러코드 정의
+            </summary>
+        </member>
+        <member name="T:Backend.Common.Constants.PlatformErrorCode">
+            <summary>
+                플랫폼(XK5) API 서버의 에러코드 정의
+            </summary>
+        </member>
+        <member name="T:Backend.Common.Constants.StoveErrorCode">
+            <summary>
+                Stove API 관련 에러 코드
+            </summary>
+        </member>
+        <member name="T:Backend.Common.DistributionType">
+            <summary>
+                팀 Position 분배 타입
+            </summary>
+        </member>
+        <member name="F:Backend.Common.DistributionType.Solo">
+            <summary>
+                Party 상관없이 배치
+            </summary>
+        </member>
+        <member name="F:Backend.Common.DistributionType.Team">
+            <summary>
+                미사용 (현재 MMS에서는 Solo 와 동일한 방식으로 처리됨)
+            </summary>
+        </member>
+        <member name="F:Backend.Common.DistributionType.Party">
+            <summary>
+                Party 끼리 뭉쳐서 배치
+            </summary>
+        </member>
+        <member name="T:Backend.Common.CloudServiceProvider">
+            <summary>
+                클라우드 타입
+            </summary>
+        </member>
+        <member name="M:Backend.Common.Extensions.SystemLoadLevelExtensions.ToStringD7(Backend.Common.SystemLoadLevel)">
+            <summary>
+            SystemLoadLevel을 7자리 문자열로 변환합니다.
+            </summary>
+            <param name="this">변환할 SystemLoadLevel</param>
+            <returns>7자리 0 패딩된 문자열</returns>
+        </member>
+        <member name="M:Backend.Common.Extensions.ExceptionExtensions.Flatten``1(``0,System.Func{``0,``0})">
+            <summary>
+                Linked 로 연결된 속성의 객체를 1차원으로 나열합니다.
+            </summary>
+            <param name="item">루트 객체</param>
+            <param name="selectorFunc">연결된 객체를 가리키는 속성</param>
+        </member>
+        <member name="M:Backend.Common.Extensions.ExceptionExtensions.FlattenExceptions(System.Exception)">
+            <summary>
+                Exception 과 Exception.InnerException 을 1차원으로 나열합니다.
+                <see cref="T:System.AggregateException" /> 은 자기 자신과 InnerExceptions 를 나열합니다.
+            </summary>
+            <param name="exception">예외 객체</param>
+        </member>
+        <member name="M:Backend.Common.Extensions.ExceptionExtensions.ToExceptionMessages(System.Exception)">
+            <summary>
+                Exception 과 Exception.InnerException 을 1차원으로 나열하고,
+                Exception.Message 의 문자열을 연결한 문자열을 반환합니다.
+            </summary>
+            <example>
+                // 아래의 예외가 반환하는 문자열
+                <code>
+                var exceptions =
+                    new Exception("AAA",
+                        new Exception("BBB",
+                            new Exception("CCC",
+                                new AggregateException("DDD",
+                                    new[]
+                                    {
+                                        new Exception("DDD 1", new Exception("DDD 1-1")),
+                                        new Exception("DDD 2")
+                                    }))));
+            // Result: exceptions.ToExceptionMessages() 결과
+            // Exception:AAA -> Exception:BBB -> Exception:CCC -> AggregateException:DDD (DDD 1) (DDD 2) -> Exception:DDD 1 -> Exception:DDD 1-1 -> Exception:DDD 2
+            //
+            // Result: catch 절에서 exception.ToString() 결과
+            // System.Exception: AAA
+            // --- System.Exception: BBB
+            // --- System.Exception: CCC
+            // --- System.AggregateException: DDD (DDD 1) (DDD 2)
+            // --- System.Exception: DDD 1
+            // --- System.Exception: DDD 1-1
+            // --- End of inner exception stack trace ---
+            // --- End of inner exception stack trace ---
+            // --- (Inner Exception #1) System.Exception: DDD 2---
+            // --- End of inner exception stack trace ---
+            // --- End of inner exception stack trace ---
+            // --- End of inner exception stack trace ---
+            // at Program.Main$(String[] args)
+            </code>
+            </example>
+            <param name="exception">예외</param>
+        </member>
+    </members>
+</doc>

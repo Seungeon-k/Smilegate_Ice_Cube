@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <editor:Toolbar style="background-color: rgba(0,0,0,0);border-width: 0px;">
+        
+        <engine:Button text="Apply" name="Apply">
+
+        </engine:Button>
+
+        <engine:Button text="Reset" name="Reset">
+
+        </engine:Button>
+
+        <engine:Button text="Block" name="Block">
+
+        </engine:Button>
+
+        <engine:Button text="Generate Thumbnail" name="Thumbnail">
+
+        </engine:Button>
+
+    </editor:Toolbar>
+    <engine:Foldout text="Properties" name="Toggle">
+        <engine:Box>
+            <engine:Toggle label="Transparency">
+
+            </engine:Toggle>
+
+            <engine:Toggle label="Static Edge">
+
+            </engine:Toggle>
+            
+            <engine:Toggle label="Breakable">
+
+            </engine:Toggle>
+
+            <engine:Toggle label="Collidable">
+
+            </engine:Toggle>
+        </engine:Box>
+    </engine:Foldout>
+
+    <engine:Foldout text="Texture">
+        <editor:Toolbar style="background-color: rgba(0,0,0,0);border-width: 0px;width: auto">
+
+
+            <engine:Button text="Top" class="DirectorButGroup">
+
+            </engine:Button>
+
+            <engine:Button text="Bottom" class="DirectorButGroup">
+
+            </engine:Button>
+
+            <engine:Button text="Left" class="DirectorButGroup">
+
+            </engine:Button>
+
+            <engine:Button text="Right" class="DirectorButGroup">
+
+            </engine:Button>
+
+            <engine:Button text="Front" class="DirectorButGroup">
+
+            </engine:Button>
+
+            <engine:Button text="Back" class="DirectorButGroup">
+
+            </engine:Button>
+            <editor:ToolbarMenu text="..." name="FaceMenu">
+
+            </editor:ToolbarMenu>
+        </editor:Toolbar>
+        <engine:Box>
+            <engine:TreeView>
+                <editor:IntegerField label="Tilling" name="Tilling">
+
+                </editor:IntegerField>
+
+                <editor:IntegerField label="MaxCount" name="MaxCount">
+
+                </editor:IntegerField>
+
+                <editor:IntegerField label="Index" name="Index">
+
+                </editor:IntegerField>
+
+                <editor:IntegerField label="Divide" name="Divide">
+
+                </editor:IntegerField>
+            </engine:TreeView>
+        </engine:Box>
+
+        <engine:Box>
+            <engine:Label text="Rotate" style="margin-top: 10px; margin-left: 10px; ">
+
+                <editor:Toolbar style="background-color: rgba(0,0,0,0);border-width: 0px;margin-left: 80px;">
+                    <engine:Button text="Left" name="Left">
+
+                    </engine:Button>
+                    <engine:Button text="Right" name="Right">
+
+                    </engine:Button>
+
+                </editor:Toolbar>
+            </engine:Label>
+
+            <engine:Label text="Flip" style="margin-top: 5px; margin-bottom: 10px; margin-left: 10px;">
+
+                <editor:Toolbar style="background-color: rgba(0,0,0,0);border-width: 0px;margin-left: 80px;">
+                    <engine:Button text="Horizontal" name="HorizontalFlip">
+
+                    </engine:Button>
+
+                    <engine:Button text="Vertical" name="VerticalFlip">
+
+                    </engine:Button>
+                </editor:Toolbar>
+            </engine:Label>
+            >
+        </engine:Box>
+
+        <engine:Box>
+            <editor:ObjectField allow-scene-objects="false" name="Material" label="Select Material">
+
+            </editor:ObjectField>
+            <editor:ObjectField allow-scene-objects="false" name="Texture" label="Select Texture">
+
+            </editor:ObjectField>
+        </engine:Box>
+
+    </engine:Foldout>
+
+</engine:UXML>

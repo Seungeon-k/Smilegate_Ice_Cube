@@ -1,0 +1,13 @@
+{
+    "ID": "!Int",
+    "MissionType": "!String",
+    "MissionConditionType": "!String",
+    "TargetMod": "!String",
+    "Count": "!Int",
+    "MissionIcon": "!String",
+    "MissionDesc": "!String",
+    "MissionStep": "!Int",
+    "MissionGrade": "!Int",
+    "IsActive": "!Bool",
+    "RewardExp": "!Int"
+}

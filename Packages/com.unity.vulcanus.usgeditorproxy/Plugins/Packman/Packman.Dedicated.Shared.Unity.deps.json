@@ -1,0 +1,116 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/win-x64": {
+      "Packman.Dedicated.Shared.Unity/2026.12.2": {
+        "dependencies": {
+          "Backend.Common": "2026.12.2",
+          "FastEnum": "1.8.0",
+          "Packman.Core": "2026.12.2",
+          "Packman.Shared": "2026.12.2",
+          "ProudDotNetClientUnity": "1.0.0.0"
+        },
+        "runtime": {
+          "Packman.Dedicated.Shared.Unity.dll": {}
+        }
+      },
+      "FastEnum/1.8.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FastEnum.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Backend.Common/2026.12.2": {
+        "runtime": {
+          "Backend.Common.dll": {
+            "assemblyVersion": "2026.12.2.0",
+            "fileVersion": "2026.12.2.0"
+          }
+        }
+      },
+      "Packman.Core/2026.12.2": {
+        "runtime": {
+          "Packman.Core.dll": {
+            "assemblyVersion": "2026.12.2.0",
+            "fileVersion": "2026.12.2.0"
+          }
+        }
+      },
+      "Packman.Shared/2026.12.2": {
+        "runtime": {
+          "Packman.Shared.dll": {
+            "assemblyVersion": "2026.12.2.0",
+            "fileVersion": "2026.12.2.0"
+          }
+        }
+      },
+      "ProudDotNetClientUnity/1.0.0.0": {
+        "runtime": {
+          "ProudDotNetClientUnity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Packman.Dedicated.Shared.Unity/2026.12.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastEnum/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cBVeGWLPPHyrVcJKpANXtw0CbVyb1Ltr7Lqc/HE/WktAgxKpVD3mFMbLT4IAa5cuM5oKv2zPt6ovT7AhZf4zsg==",
+      "path": "fastenum/1.8.0",
+      "hashPath": "fastenum.1.8.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    },
+    "Backend.Common/2026.12.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Packman.Core/2026.12.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Packman.Shared/2026.12.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProudDotNetClientUnity/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

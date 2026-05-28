@@ -1,0 +1,104 @@
+.VVector4Field {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.VVector4Field > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VVector4Field > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VVector4Field > VisualElement {
+    width: 65%;
+    flex-direction: row;
+    min-width: 65%;
+}
+
+.VVector4Field > VisualElement > #unity-x-input > Label {
+    font-size: 12px;
+    color: var(--Vector-x-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector4Field > VisualElement > #unity-x-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector4Field > VisualElement > #unity-x-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector4Field > VisualElement > #unity-y-input > Label {
+    font-size: 12px;
+    color: var(--Vector-y-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector4Field > VisualElement > #unity-y-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector4Field > VisualElement > #unity-y-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector4Field > VisualElement > #unity-z-input > Label {
+    font-size: 12px;
+    color: var(--Vector-z-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector4Field > VisualElement > #unity-z-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector4Field > VisualElement > #unity-z-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}
+
+.VVector4Field > VisualElement > #unity-w-input > Label {
+    font-size: 12px;
+    color: var(--Vector-w-color);
+    -unity-text-align: middle-left;
+}
+
+.VVector4Field > VisualElement > #unity-w-input > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    height: 18px;
+}
+
+.VVector4Field > VisualElement > #unity-w-input > #unity-text-input > TextElement {
+    font-size: 12px;
+    color: var(--text-primary-default);
+}

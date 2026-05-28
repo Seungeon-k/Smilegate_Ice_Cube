@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorUnit/uss/UnitFooter.uss?fileID=7433441132597879392&amp;guid=f337a6a8df40b214ba84d37438cb6602&amp;type=3#UnitFooter" />
+    <ui:VisualElement name="Footer" class="UnitFooter">
+        <ui:Button display-tooltip-when-elided="true" name="AddBtn">
+            <ui:VisualElement name="IconVE"/>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="AddLabel"/>
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="PasteBtn">
+            <ui:Label text="Paste" display-tooltip-when-elided="true" name="Paste"/>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

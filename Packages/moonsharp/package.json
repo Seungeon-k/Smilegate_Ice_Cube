@@ -1,0 +1,16 @@
+{
+  "name": "moonsharp",
+  "displayName": "MoonSharp",
+  "version": "2.0.0",
+  "description": "Unity npm package of interpreter for the Lua language, written entirely in C# for the Unity3D platforms, including handy remote debugger facilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0dep/moonsharp.git"
+  },
+  "author": "Marco Mastropaolo",
+  "license": "SEE LICENSE IN <LICENSE> file",
+  "bugs": {
+    "url": "https://github.com/k0dep/moonsharp/issues"
+  },
+  "homepage": "https://github.com/k0dep/moonsharp#readme"
+}

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/StyleSheets/Extensions/CustomDark.uss?fileID=7433441132597879392&amp;guid=7cb21c68881a46e4eb07a92ffbdab306&amp;type=3#CustomDark" />
+    <ui:VisualElement name="CategoryItem" picking-mode="Ignore" style="flex-direction: row; opacity: 1; min-height: 20px; max-height: 20px; margin-left: 0; height: 20px; justify-content: flex-start; -unity-text-align: upper-left; margin-top: 2px; margin-bottom: 2px;">
+        <ui:VisualElement name="Space" picking-mode="Ignore" style="height: auto; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center;" />
+        <ui:Label display-tooltip-when-elided="true" name="ArrowIcon" class="OnWindowContainerText" style="width: 20px; min-width: 20px; max-width: 20px; flex-direction: row; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/arrow_down.png?fileID=2800000&amp;guid=ae7ebba0b4c02514ca58aeccab563332&amp;type=3#arrow_down&quot;); height: 20px; max-height: 20px; min-height: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center;" />
+        <ui:VisualElement name="FoldIcon" picking-mode="Ignore" class="OnWindowContainerText" style="min-width: 20px; min-height: 20px; flex-direction: row; width: 20px; height: 20px; margin-right: 4px; margin-left: 4px; align-items: center;" />
+        <ui:Label text="CategoryName" display-tooltip-when-elided="true" name="Name" picking-mode="Ignore" class="OnWindowContainerText" style="align-items: center; justify-content: center; -unity-text-align: middle-left; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-basis: auto; flex-shrink: 0; flex-grow: 0; -unity-font-style: bold;" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="CategoryNameChangeText" style="display: none; align-items: center;" />
+    </ui:VisualElement>
+</ui:UXML>

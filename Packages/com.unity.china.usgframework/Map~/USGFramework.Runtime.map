@@ -1,0 +1,2862 @@
+{
+  "Name": "USGFramework.Runtime",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\USGFramework.Runtime.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ClientZoneSessionHandler.cs",
+      "OriginalGuid": "bec0e64aeff2b0041ab12a540d01c74e",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ClientZoneSessionHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ClientZoneSessionHandler",
+      "FileID": -33632538
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\WorldDataContainer.cs",
+      "OriginalGuid": "fade71df210f57742aeae38cf69671bb",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain",
+      "ClassName": "WorldDataContainer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.WorldDataContainer",
+      "FileID": -614464146
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\StartUpSequenceCompleteEvent.cs",
+      "OriginalGuid": "c4b747b4ecde36146b68b43f423ae467",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "StartUpSequenceCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.StartUpSequenceCompleteEvent",
+      "FileID": 2106551219
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentLinked\\VulcanusContentLinked.cs",
+      "OriginalGuid": "4d67b19ee9982e64a84691ce85d9a91b",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "VulcanusContentLinked",
+      "ClassFullName": "USGFramework.Runtime.Contents.VulcanusContentLinked",
+      "FileID": 831777108
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\InterpolationSettings.cs",
+      "OriginalGuid": "59421a55c4377354592637328dca9114",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "InterpolationSettings",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.InterpolationSettings",
+      "FileID": 763360515
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\PhysicsLuaAPIHandler.cs",
+      "OriginalGuid": "28cdaf4fad23cbe4c86857b917e8fa18",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "PhysicsLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.PhysicsLuaAPIHandler",
+      "FileID": -667960566
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\EditorProxyCommunicator.cs",
+      "OriginalGuid": "a7013dcdae2003f4e8e250dcc773683b",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "EditorProxyCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.EditorProxyCommunicator",
+      "FileID": 205742649
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\RectExtension\\RectExtensionForAlignment.cs",
+      "OriginalGuid": "e8ece4b90929c95418a1c1e66b52eba0",
+      "ClassNamespace": "USGFramework.Runtime.Core.RectExtension",
+      "ClassName": "RectExtensionForAlignment",
+      "ClassFullName": "USGFramework.Runtime.Core.RectExtension.RectExtensionForAlignment",
+      "FileID": -1074428109
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\EventCenter.cs",
+      "OriginalGuid": "51662aaa556cb604cafb41107eaa2316",
+      "ClassNamespace": "USGFramework.Runtime.USGZone",
+      "ClassName": "EventCenter",
+      "ClassFullName": "USGFramework.Runtime.USGZone.EventCenter",
+      "FileID": 819225227
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\SceneTableManagement\\SceneExtensionForSceneTable.cs",
+      "OriginalGuid": "6a81dd5fcbec1da4989a4df1209e2d35",
+      "ClassNamespace": "USGFramework.Runtime.SceneTableManagement",
+      "ClassName": "SceneExtensionForSceneTable",
+      "ClassFullName": "USGFramework.Runtime.SceneTableManagement.SceneExtensionForSceneTable",
+      "FileID": -1543475345
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\StartUpUI\\Context\\SimpleTextViewContext.cs",
+      "OriginalGuid": "04bbf291506cfe1489c100980ee1f462",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context",
+      "ClassName": "SimpleTextViewContext",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context.SimpleTextViewContext",
+      "FileID": 1855651632
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\LoadUserLuaState.cs",
+      "OriginalGuid": "c183100c2468c1e428c80274d60890ea",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "LoadUserLuaState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.LoadUserLuaState",
+      "FileID": 100562545
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\MeshData.cs",
+      "OriginalGuid": "2200859349416b7429e828990310c407",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "MeshData",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.MeshData",
+      "FileID": -889612127
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\LoadUserLuaCompleteEvent.cs",
+      "OriginalGuid": "855e8cbe431cc7749bf23df1bed2f87a",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "LoadUserLuaCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.LoadUserLuaCompleteEvent",
+      "FileID": 1274660047
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ZoneManager.cs",
+      "OriginalGuid": "0d381510ccb76904799a161c8652a17d",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ZoneManager",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ZoneManager",
+      "FileID": 53328123
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLuaFramework\\LuaInputActionMapper.cs",
+      "OriginalGuid": "c4854b59059acc14faf691b81571b4ef",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "LuaInputActionMapper",
+      "ClassFullName": "USGFramework.Runtime.LuaInputActionMapper",
+      "FileID": -1094071069
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\TerrainServiceInitializeState.cs",
+      "OriginalGuid": "0403051f10ade1844958393ec14e0142",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "TerrainServiceInitializeState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.TerrainServiceInitializeState",
+      "FileID": 500379257
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ContentServiceCommunicator.cs",
+      "OriginalGuid": "75b6b16fe81c5074e9b0e65fbb7f9e63",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ContentServiceCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ContentServiceCommunicator",
+      "FileID": 1880169222
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\ChangeNickNameEvent.cs",
+      "OriginalGuid": "fadc07bcf3d94834a86645887d465246",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "ChangeNickNameEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.ChangeNickNameEvent",
+      "FileID": -449747112
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\RuningCurrentScene.cs",
+      "OriginalGuid": "8d1c61dcd10358642a6c32a104c6237e",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "RuningCurrentScene",
+      "ClassFullName": "USGFramework.Runtime.Core.RuningCurrentScene",
+      "FileID": -1685559761
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\ExtensionClass\\PlayableAssetExtension.cs",
+      "OriginalGuid": "0256045bfd9899d4da12736d522073d0",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "PlayableAssetExtension",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.PlayableAssetExtension",
+      "FileID": 1965995570
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkClientConnectEvent.cs",
+      "OriginalGuid": "b628e091088a09048b62072abbc1b6af",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkClientConnectEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkClientConnectEvent",
+      "FileID": -23629284
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\NetworkRigidbody.cs",
+      "OriginalGuid": "2a615474a05c9a3459b6c527490769c8",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "NetworkRigidbody",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.NetworkRigidbody",
+      "FileID": 764697587
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\UnloadSceneRequestMessage.cs",
+      "OriginalGuid": "92cca76c016ef224f8a4bac2cfbac232",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "UnloadSceneRequestMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.UnloadSceneRequestMessage",
+      "FileID": -1230743463
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\MatchAPI.cs",
+      "OriginalGuid": "a3725389567b4aa4c88fb14cb3c23271",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "MatchAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.MatchAPI",
+      "FileID": 540896783
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientDisconnectedEvent.cs",
+      "OriginalGuid": "5e6488eebae4385428de66241aeffc70",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientDisconnectedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientDisconnectedEvent",
+      "FileID": -1538986293
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientHeartbeatTimeoutEvent.cs",
+      "OriginalGuid": "48ed2218978b41ae9b03f36c08e7d64f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientHeartbeatTimeoutEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientHeartbeatTimeoutEvent",
+      "FileID": 518751835
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientEnterEvent.cs",
+      "OriginalGuid": "54618e8af4cd01245a035e683a333e18",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientEnterEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientEnterEvent",
+      "FileID": 1957846792
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\VersionInterpreter.cs",
+      "OriginalGuid": "0f4af08658e53694ea72749b8c651fec",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle",
+      "ClassName": "VersionInterpreter",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.VersionInterpreter",
+      "FileID": 275616137
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\StateBase.cs",
+      "OriginalGuid": "33b82221616d3114998c3e2752cf4111",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "StateBase",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.StateBase",
+      "FileID": -139844700
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\UnloadResourceServiceEvent.cs",
+      "OriginalGuid": "04cbbde7cf76e464db5e4be626c34235",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "UnloadResourceServiceEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.UnloadResourceServiceEvent",
+      "FileID": -149159344
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\BlockRecordReaderWriter.cs",
+      "OriginalGuid": "001fc4c3344fd9d4aad06bd40a6b1f14",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "BlockRecordReaderWriter",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.BlockRecordReaderWriter",
+      "FileID": -1337728545
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\FrameworkInfo.cs",
+      "OriginalGuid": "7c2cda1dceaef6248b8ba14ba9c64338",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "FrameworkInfo",
+      "ClassFullName": "USGFramework.Runtime.FrameworkInfo",
+      "FileID": 181014965
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\StartUp.cs",
+      "OriginalGuid": "d18f97c59fc1d6c49a5824b61c69ca41",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "StartUp",
+      "ClassFullName": "USGFramework.Runtime.StartUp",
+      "FileID": -1824259586
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ServiceFunctions\\TerrainServiceUtility.cs",
+      "OriginalGuid": "78f6c98996a507341ab714dab3a11d68",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "TerrainServiceUtility",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ServiceFunctions.TerrainServiceUtility",
+      "FileID": -677195807
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\ProjectInfo.cs",
+      "OriginalGuid": "15799877b24042df8f639eb75938d084",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "ProjectInfo",
+      "ClassFullName": "USGFramework.Runtime.Core.ProjectInfo",
+      "FileID": 1567437764
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\AssetBundleLoadFromFileRequestEvent.cs",
+      "OriginalGuid": "1c8a2f23b59b3aa4e8f71829146b3c11",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "AssetBundleLoadFromFileRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.AssetBundleLoadFromFileRequestEvent",
+      "FileID": -1646009283
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\GetGameObjectOwnerCompleteMessage.cs",
+      "OriginalGuid": "662ba26d00de50343a57ad8cbafd0098",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "GetGameObjectOwnerCompleteMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.GetGameObjectOwnerCompleteMessage",
+      "FileID": 1000782595
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\NetworkLogger.cs",
+      "OriginalGuid": "eba3ff9eee5d466dbe23dbf4782b4f61",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "NetworkLogger",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.NetworkLogger",
+      "FileID": 1232431425
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleCryptor.cs",
+      "OriginalGuid": "5dbee39adb824216947844f67eb91f91",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleCryptor",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleCryptor",
+      "FileID": 478479434
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\SOElement.cs",
+      "OriginalGuid": "d85c635fb05b45b48a7e1a642b43fff1",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "SOElement",
+      "ClassFullName": "USGFramework.Runtime.Elements.SOElement",
+      "FileID": 1683656336
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\MirageClient.cs",
+      "OriginalGuid": "dd1805ad74b1bc045b34f1d5c1b9abd9",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "MirageClient",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.MirageClient",
+      "FileID": 510292283
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\VoxelTerrainDataTransmitter.cs",
+      "OriginalGuid": "a512ac1b742cc054989c21a227c752ff",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "VoxelTerrainDataTransmitter",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.VoxelTerrainDataTransmitter",
+      "FileID": 606469010
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NetworkTransmitterBase.cs",
+      "OriginalGuid": "ac43256a334ea584c957747c06ba0ab1",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NetworkTransmitterBase",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NetworkTransmitterBase",
+      "FileID": 876780105
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\LuaManager.cs",
+      "OriginalGuid": "05733760e0fbfe54bbf3365148884bee",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager",
+      "ClassName": "LuaManager",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.LuaManager",
+      "FileID": 1539626152
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\FrameworkBase.cs",
+      "OriginalGuid": "66ae2e601308a854cb164ac78ef1095d",
+      "ClassNamespace": "USGFramework.Runtime.Framework",
+      "ClassName": "FrameworkBase",
+      "ClassFullName": "USGFramework.Runtime.Framework.FrameworkBase",
+      "FileID": 1566908118
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientAuthenticatedEvent.cs",
+      "OriginalGuid": "a50227d713afb574f93ba2ebc49e8616",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientAuthenticatedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientAuthenticatedEvent",
+      "FileID": 123105728
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkServerConnectEvent.cs",
+      "OriginalGuid": "7d3b922e4bcf76c4abce34494e231308",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkServerConnectEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkServerConnectEvent",
+      "FileID": 1480249543
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\StartUpUI\\Context\\TestSettingViewContext.cs",
+      "OriginalGuid": "ec803fd98cd33474f971eb467fad4b8f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context",
+      "ClassName": "TestSettingViewContext",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context.TestSettingViewContext",
+      "FileID": -581505183
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\CameraCommunicator.cs",
+      "OriginalGuid": "389fa51313394b31ac99361d7493f4b1",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "CameraCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.CameraCommunicator",
+      "FileID": 27727560
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIStartMatchEvent.cs",
+      "OriginalGuid": "44075f44a5ff9de428b9fbc2aaac59f0",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIStartMatchEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIStartMatchEvent",
+      "FileID": 82810641
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\TerrainServiceMessages\\MoveBlocksMessage.cs",
+      "OriginalGuid": "8c6282a9d0c7da14b83ffd5e8fc8c218",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages",
+      "ClassName": "MoveBlocksMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages.MoveBlocksMessage",
+      "FileID": -988288008
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkInitializeRequestEvent.cs",
+      "OriginalGuid": "374a041d2b8a80340bd37ab29bc76498",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkInitializeRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkInitializeRequestEvent",
+      "FileID": -899771540
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleDefines.cs",
+      "OriginalGuid": "c0b5159065d14f5c92d2153830e2237b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleDefines",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleDefines",
+      "FileID": -2126066499
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\NetworkSceneInitializeState.cs",
+      "OriginalGuid": "0640210a79ef4424a898fedbac2c3be4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "NetworkSceneInitializeState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.NetworkSceneInitializeState",
+      "FileID": 118608695
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\ExtensionClass\\GameObjectExtensionForLuaComponent.cs",
+      "OriginalGuid": "11a6cc6bf4b6d9b4c90f3dd4fa223cec",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "GameObjectExtensionForLuaComponent",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.GameObjectExtensionForLuaComponent",
+      "FileID": 504351185
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\LoadSceneStartEvent.cs",
+      "OriginalGuid": "aae951c9e095f4945948de3658f7f655",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "LoadSceneStartEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.LoadSceneStartEvent",
+      "FileID": -808089847
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ZoneAssetBundleManager\\ZoneAssetBundleQueue.cs",
+      "OriginalGuid": "2886f20bd9494185a28f8d30939b00e5",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ZoneAssetBundleQueue",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ZoneAssetBundleQueue",
+      "FileID": -665609714
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\AssetBundleDownloadRequestEvent.cs",
+      "OriginalGuid": "d872801df54d9a946a775d7c3a30d4f1",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "AssetBundleDownloadRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.AssetBundleDownloadRequestEvent",
+      "FileID": 534092700
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\StartUpUIProgressEvent.cs",
+      "OriginalGuid": "ef23267c09f419a448cbeb62ddf1f790",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "StartUpUIProgressEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.StartUpUIProgressEvent",
+      "FileID": 1529505699
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\VAddressable\\VAddressableHeader.cs",
+      "OriginalGuid": "43c13e06c9c24a2a9721eb50348302a2",
+      "ClassNamespace": "USGFramework.Runtime.Core.VAddressable",
+      "ClassName": "VAddressableHeader",
+      "ClassFullName": "USGFramework.Runtime.Core.VAddressable.VAddressableHeader",
+      "FileID": 640014626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\ComponentAPIHandler.cs",
+      "OriginalGuid": "84a976875c45f45418b2dca81b0080b2",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ComponentAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ComponentAPIHandler",
+      "FileID": -966460362
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\SyncMessages\\NetworkMessageSyncHandler.cs",
+      "OriginalGuid": "c99808c56c1c38c4eb9594944abe2ea4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages",
+      "ClassName": "NetworkMessageSyncHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages.NetworkMessageSyncHandler",
+      "FileID": -291210959
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\DeleteOnlyBreakableBlocksEvent.cs",
+      "OriginalGuid": "384891b37840d7d4f8216931a5b95ddb",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "DeleteOnlyBreakableBlocksEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.DeleteOnlyBreakableBlocksEvent",
+      "FileID": 1604392085
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\EventCenterMessage.cs",
+      "OriginalGuid": "a5a06e8e74df56c4890b7f181f413794",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "EventCenterMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.EventCenterMessage",
+      "FileID": -815946074
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLuaFramework\\LuaZoneLooper.cs",
+      "OriginalGuid": "31a0bb07916235f45b182340e567e95b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLuaFramework",
+      "ClassName": "LuaZoneLooper",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLuaFramework.LuaZoneLooper",
+      "FileID": -1552521658
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\APIDataStruct.cs",
+      "OriginalGuid": "daf319bf556c97a4c928c7a5d4af4780",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "APIDataStruct",
+      "ClassFullName": "USGFramework.Runtime.Contents.APIDataStruct",
+      "FileID": -2117753692
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneMonoBehavior.cs",
+      "OriginalGuid": "c08a9c368ad211a428b7382379c96921",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "ZoneMonoBehavior",
+      "ClassFullName": "USGFramework.Runtime.Core.ZoneMonoBehavior",
+      "FileID": -1486672296
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\TerrainBlockRecordSyncEvent.cs",
+      "OriginalGuid": "f54a1e35ec5003b498d8dcab3708292c",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "TerrainBlockRecordSyncEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.TerrainBlockRecordSyncEvent",
+      "FileID": 363569206
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\ChunkMeshMaker.cs",
+      "OriginalGuid": "c327a5ed9028a4f0a832d1a4e237a0c7",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "ChunkMeshMaker",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.ChunkMeshMaker",
+      "FileID": 46777871
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\ElementManager.cs",
+      "OriginalGuid": "1edaf92e71bfcae429129aa4c03f4a14",
+      "ClassNamespace": "USGFramework.Runtime.Framework",
+      "ClassName": "ElementManager",
+      "ClassFullName": "USGFramework.Runtime.Framework.ElementManager",
+      "FileID": -1182513478
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\RoomCloseEvent.cs",
+      "OriginalGuid": "fac91c65f14abb346b78edbe62b55c61",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "RoomCloseEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.RoomCloseEvent",
+      "FileID": -813456939
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\LuaComponentExtensionForRPC.cs",
+      "OriginalGuid": "3e1753b6230818b4c904026ae6272a24",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaComponentExtensionForRPC",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaComponentExtensionForRPC",
+      "FileID": 458533346
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\NetworkInitializeState.cs",
+      "OriginalGuid": "b0ce561846c6fee4495bda90131ed178",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "NetworkInitializeState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.NetworkInitializeState",
+      "FileID": -727454484
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\NetworkReadyEvent.cs",
+      "OriginalGuid": "c28ddba0310990d478c78f85b2af33fc",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "NetworkReadyEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.NetworkReadyEvent",
+      "FileID": 878571266
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\Utilities\\ChunkUtil.cs",
+      "OriginalGuid": "694f9654e44529547bdb8763e2bba459",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities",
+      "ClassName": "ChunkUtil",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities.ChunkUtil",
+      "FileID": 46889659
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\LoadSceneAsyncAdditiveEvent.cs",
+      "OriginalGuid": "85767890a2d04c6c8494f4134aafdaec",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "LoadSceneAsyncAdditiveEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.LoadSceneAsyncAdditiveEvent",
+      "FileID": 1409336684
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkInitializeCompleteEvent.cs",
+      "OriginalGuid": "1ef420c4896695441848fe04548ecb60",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkInitializeCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkInitializeCompleteEvent",
+      "FileID": -1413520186
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\InterpolationTransform.cs",
+      "OriginalGuid": "6fd7e61049425204ab66c6aee171fb13",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "InterpolationTransform",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.InterpolationTransform",
+      "FileID": 765411756
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\CameraStacker.cs",
+      "OriginalGuid": "9f2e3f430cf8445bbe5040830a1ce0bd",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "CameraStacker",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.CameraStacker",
+      "FileID": 206082055
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\UseRemoteServerOption.cs",
+      "OriginalGuid": "e9426e975d8a431b86f8690e45664bd1",
+      "ClassNamespace": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions",
+      "ClassName": "UseRemoteServerOption",
+      "ClassFullName": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions.UseRemoteServerOption",
+      "FileID": 757471617
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\USGFramework.cs",
+      "OriginalGuid": "8337dc6de57498f47ba866e1b8b6a1ca",
+      "ClassNamespace": "USGFramework.Runtime.Framework",
+      "ClassName": "USGFramework",
+      "ClassFullName": "USGFramework.Runtime.Framework.USGFramework",
+      "FileID": -847097630
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\EditorService.cs",
+      "OriginalGuid": "81013bbe0b4f3e645ae5cbc435d71d3e",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "EditorService",
+      "ClassFullName": "USGFramework.Runtime.EditorService",
+      "FileID": -472260720
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\Utilities\\WorldEditUtil.cs",
+      "OriginalGuid": "ba534c477ebd66f4cb9c4afec4d1a7d4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities",
+      "ClassName": "WorldEditUtil",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities.WorldEditUtil",
+      "FileID": -1761961372
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\GetGraphicOptionEvent.cs",
+      "OriginalGuid": "4026c817a4569594ba45d13502ec62cf",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "GetGraphicOptionEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.GetGraphicOptionEvent",
+      "FileID": 1506056017
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\SyncObjectInitializeEvent.cs",
+      "OriginalGuid": "fdf7757e35920a840adff72262740938",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "SyncObjectInitializeEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.SyncObjectInitializeEvent",
+      "FileID": -1366415643
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\InstantChunkRenderer.cs",
+      "OriginalGuid": "dfe5503bcbab81247982074644640d0f",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "InstantChunkRenderer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.InstantChunkRenderer",
+      "FileID": -1179956258
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLuaFramework\\LuaProperty\\UnityObjectProperty.cs",
+      "OriginalGuid": "f050c0dc5b19c59498fb6fd181a36131",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLuaFramework.LuaProperty",
+      "ClassName": "UnityObjectProperty",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLuaFramework.LuaProperty.UnityObjectProperty",
+      "FileID": -1933226901
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\PackingConfigAsset\\USGFrameworkPackingConfig.cs",
+      "OriginalGuid": "6aa3a732e7484e1d80ebb1601978345b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.PackingConfigAsset",
+      "ClassName": "USGFrameworkPackingConfig",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.PackingConfigAsset.USGFrameworkPackingConfig",
+      "FileID": -1707310950
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\UgcAPI.cs",
+      "OriginalGuid": "b756d018caf1a114985d2302494e97ab",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "UgcAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.UgcAPI",
+      "FileID": -783822133
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ZoneServerCommunicator.cs",
+      "OriginalGuid": "aac7b10803d45ef41addaf9de49aba31",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ZoneServerCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ZoneServerCommunicator",
+      "FileID": -1647495129
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\VoiceAPI.cs",
+      "OriginalGuid": "c840347ee71c498083088da03100f791",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "VoiceAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.VoiceAPI",
+      "FileID": -417951057
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\SceneTableManagement\\SystemAsset.cs",
+      "OriginalGuid": "0f8c9a9b8c6b6e446974727964a2bae6",
+      "ClassNamespace": "USGFramework.Runtime.SceneTableManagement",
+      "ClassName": "SystemAsset",
+      "ClassFullName": "USGFramework.Runtime.SceneTableManagement.SystemAsset",
+      "FileID": 910850633
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPICloseUgcLobbyEvent.cs",
+      "OriginalGuid": "8ff48f22cfda4664bae9a4e76c7dafd5",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPICloseUgcLobbyEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPICloseUgcLobbyEvent",
+      "FileID": 1698408758
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientJoinedEvent.cs",
+      "OriginalGuid": "18f7f8737440ebd4e967a42271f94ffd",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientJoinedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientJoinedEvent",
+      "FileID": -595686737
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\ServerAddressOption.cs",
+      "OriginalGuid": "e8340ee07f4264d4a9718c4e16b44faf",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "ServerAddressOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.ServerAddressOption",
+      "FileID": 238127610
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Global\\Defines\\ResourcesFilePaths.cs",
+      "OriginalGuid": "623b1ddf63520514f99057c505f54927",
+      "ClassNamespace": "USGFramework.Runtime.Core.Global.Defines",
+      "ClassName": "ResourcesFilePaths",
+      "ClassFullName": "USGFramework.Runtime.Core.Global.Defines.ResourcesFilePaths",
+      "FileID": -140078711
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\MatchingInfo.cs",
+      "OriginalGuid": "fb431cf0ca68a3348a2610531f42fb48",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "MatchingInfo",
+      "ClassFullName": "USGFramework.Runtime.MatchingInfo",
+      "FileID": 1027600893
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\NetworkStates\\EventStateHander.cs",
+      "OriginalGuid": "9e33960b4a011b04f873b90575bf8418",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.NetworkStates",
+      "ClassName": "EventStateHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.NetworkStates.EventStateHandler",
+      "FileID": 980808766
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\VoxelRenderer\\Voxel.cs",
+      "OriginalGuid": "1397eaa5854a07e49b635a494232a375",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer",
+      "ClassName": "Voxel",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer.Voxel",
+      "FileID": -81478558
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\VoxelAssets\\UnityMeshBlockOre.cs",
+      "OriginalGuid": "5b0bd5e829b4f4f42b032b8fcb69f8bc",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.VoxelAssets",
+      "ClassName": "UnityMeshBlockOre",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.VoxelAssets.UnityMeshBlockOre",
+      "FileID": 789804625
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGService\\ResourceService.cs",
+      "OriginalGuid": "7f1c95b450e772f43a749648583f79ca",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGService",
+      "ClassName": "ResourceService",
+      "ClassFullName": "USGFramework.Runtime.Core.USGService.ResourceService",
+      "FileID": -1483212947
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkSceneInitializeRequestEvent.cs",
+      "OriginalGuid": "46064ce272b54964faa38bef2fb18c13",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkSceneInitializeRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkSceneInitializeRequestEvent",
+      "FileID": -58815549
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\TransformLuaAPIHandler.cs",
+      "OriginalGuid": "ec8b8d721d2806c49997e387abecf6ae",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "TransformLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.TransformLuaAPIHandler",
+      "FileID": 1742583762
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\PoolManager.cs",
+      "OriginalGuid": "4e5658fcb6a2c784398a57437922ebba",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "PoolManager",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.PoolManager",
+      "FileID": 1414502744
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\ServerLoadSceneCompleteMessage.cs",
+      "OriginalGuid": "eb5faf71396c8d64c9fb7cad7b7575f0",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "ServerLoadSceneCompleteMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.ServerLoadSceneCompleteMessage",
+      "FileID": 99546940
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\MoveBlocksEvent.cs",
+      "OriginalGuid": "a08d79b42e2c7bf4f9ce81d617219d40",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "MoveBlocksEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.MoveBlocksEvent",
+      "FileID": 457175863
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ModTeamCommunicator.cs",
+      "OriginalGuid": "b778129e7f3f4626b05fe7b03fb2fc54",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ModTeamCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ModTeamCommunicator",
+      "FileID": -1266784748
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLuaFramework\\LuaEventCenter.cs",
+      "OriginalGuid": "908d1bdd3187c354dbe4629e3a44ddfe",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLuaFramework",
+      "ClassName": "LuaEventCenter",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLuaFramework.LuaEventCenter",
+      "FileID": 170671999
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\UnloadSceneCompleteEvent.cs",
+      "OriginalGuid": "2e1f2ba9f3e1b7a439d760be96597ec8",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "UnloadSceneCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.UnloadSceneCompleteEvent",
+      "FileID": -435470324
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NativeNetworkTransmitterHandler.cs",
+      "OriginalGuid": "7d394da28c1e40e9a73c6af088c61c1c",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NativeNetworkTransmitterHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NativeNetworkTransmitterHandler",
+      "FileID": 979264704
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPICancelMatchEvent.cs",
+      "OriginalGuid": "25840020838249b4390a51553556c8bf",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPICancelMatchEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPICancelMatchEvent",
+      "FileID": 18333566
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\DataSheet\\UnityDataSheetOre.cs",
+      "OriginalGuid": "4074b2c78732e544491b95e421bd9332",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.DataSheetAsset",
+      "ClassName": "UnityDataSheetOre",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.DataSheetAsset.UnityDataSheetOre",
+      "FileID": 1781602124
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\MirageServer.cs",
+      "OriginalGuid": "decd7b4765b3ad44997809620cb70b80",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "MirageServer",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.MirageServer",
+      "FileID": -743387515
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkServerDisconnectEvent.cs",
+      "OriginalGuid": "9849c06405c43254aa7f8d50c0d4c1dd",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkServerDisconnectEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkServerDisconnectEvent",
+      "FileID": -780209238
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\InstantChunkHelper.cs",
+      "OriginalGuid": "e71baa242f3f40e42aa664afd0998e7a",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "InstantChunkHelper",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.InstantChunkHelper",
+      "FileID": -1346250791
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientInfoAssignedEvent.cs",
+      "OriginalGuid": "6ce5d18bb9a9c8b46b807dccfe5ea27f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientInfoAssignedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientInfoAssignedEvent",
+      "FileID": -42749963
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\EnvironmentLink\\VulcanusEnvironmentLink.cs",
+      "OriginalGuid": "4ad82b25af8dd8b4ebe39672e12c88d1",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "VulcanusEnvironmentLink",
+      "ClassFullName": "USGFramework.Runtime.Contents.VulcanusEnvironmentLink",
+      "FileID": 1900821454
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\FakeMainmenu.cs",
+      "OriginalGuid": "45b9bf3c38425db428e037ad902d1465",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "FakeMainmenu",
+      "ClassFullName": "USGFramework.Runtime.FakeMainmenu",
+      "FileID": 145733392
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkClientDisconnectEvent.cs",
+      "OriginalGuid": "19568f129c80bbd4686707b94156fee9",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkClientDisconnectEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkClientDisconnectEvent",
+      "FileID": -1615754660
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleResolver.cs",
+      "OriginalGuid": "b8e128705cae40628864bef5aafbb915",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleResolver",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleResolver",
+      "FileID": -1067778473
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\LoadSceneState.cs",
+      "OriginalGuid": "2a09c98226659374ab53c2d3568b4049",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "LoadSceneState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.LoadSceneState",
+      "FileID": 841105409
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManager.cs",
+      "OriginalGuid": "7e7f1d9b68891a044ab5dd93d86f3007",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager",
+      "ClassName": "GameManager",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManager",
+      "FileID": 1800827154
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\PlaneBuffer.cs",
+      "OriginalGuid": "6b07aaf08f5f648e68a9695a571c5452",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "PlaneBuffer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.PlaneBuffer",
+      "FileID": 730515447
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\Log\\CustomLog.cs",
+      "OriginalGuid": "48533827191841eab1c5b8cd841ce1ce",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "CustomLog",
+      "ClassFullName": "USGFramework.Runtime.Contents.CustomLog",
+      "FileID": -590707405
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\VulcanusEditorInfo.cs",
+      "OriginalGuid": "46b33d524e40949419b67657e6867039",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "VulcanusEditorInfo",
+      "ClassFullName": "USGFramework.Runtime.Core.VulcanusEditorInfo",
+      "FileID": -1511336092
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\NetworkSyncActionHandler.cs",
+      "OriginalGuid": "eb1ce6c5458870346ab1b9cfffe10579",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaRPCSyncAction",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaRPCSyncAction",
+      "FileID": -1270764553
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\MoveBlocksEndEvent.cs",
+      "OriginalGuid": "a4cb98e3e5f8e234aaa519174ed11cbe",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "MoveBlocksEndEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.MoveBlocksEndEvent",
+      "FileID": -434828360
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Extenstion\\VObjectExtenstion.cs",
+      "OriginalGuid": "93e87477385ca104f84ac579c02b0200",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "VObjectExtenstion",
+      "ClassFullName": "USGFramework.Runtime.Core.VObjectExtenstion",
+      "FileID": -1330327348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\LuaEventMessage.cs",
+      "OriginalGuid": "9a68eca1673adfa4aa3b733aa8d961b7",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "LuaEventMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.LuaEventMessage",
+      "FileID": -1320730933
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\LuaComponentInfo.cs",
+      "OriginalGuid": "b57439e09709ea64db7e67f6dc85ec30",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaComponentInfo",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaComponentInfo",
+      "FileID": -1102296735
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\TerrainServiceMessages\\DeleteOnlyBreakableBlocksMessage.cs",
+      "OriginalGuid": "044039ad572bfea46a388a79938b93c5",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages",
+      "ClassName": "DeleteOnlyBreakableBlocksMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages.DeleteOnlyBreakableBlocksMessage",
+      "FileID": -180850205
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\SceneTableManagement\\SceneExtensionForCore.cs",
+      "OriginalGuid": "573eead79ab711741a32bb8ba4a9f60b",
+      "ClassNamespace": "USGFramework.Runtime.Core.SceneTableManagement",
+      "ClassName": "SceneExtensionForCore",
+      "ClassFullName": "USGFramework.Runtime.Core.SceneTableManagement.SceneExtensionForCore",
+      "FileID": 1788914281
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\TerrainServiceInitializeRequestEvent.cs",
+      "OriginalGuid": "f1b4c81964ddc9c43921c30f21609178",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "TerrainServiceInitializeRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.TerrainServiceInitializeRequestEvent",
+      "FileID": -1821036405
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\CinemachineOverwrite\\USGCinemachineCollider.cs",
+      "OriginalGuid": "9af669e990d58474489adcf85cb241f4",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "USGCinemachineCollider",
+      "ClassFullName": "USGFramework.Runtime.Core.USGCinemachineCollider",
+      "FileID": -1642745400
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleLength.cs",
+      "OriginalGuid": "3c4804f16c9040c6a979861c7f6b9620",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleLength",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleLength",
+      "FileID": 1217903502
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\FastRemoveArray.cs",
+      "OriginalGuid": "7be8ee99cbd0f9648a04c23cfae50530",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "FastRemoveArray",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.FastRemoveArray",
+      "FileID": 93717980
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\PlayerCostumeLink\\PlayerCostumeSync.cs",
+      "OriginalGuid": "8ebafb32e6494b71802eb4d46857d6bc",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "PlayerCostumeSync",
+      "ClassFullName": "USGFramework.Runtime.Contents.PlayerCostumeSync",
+      "FileID": -847174544
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\ObjectLuaAPIHandler.cs",
+      "OriginalGuid": "1e5df232e4b3a474e824979335e36ed3",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ObjectLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ObjectLuaAPIHandler",
+      "FileID": 268121863
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\ExtensionClass\\LuaZipHelper.cs",
+      "OriginalGuid": "4e2be3c3ca2de974e9f0d62ff424b90a",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaZipHelper",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaZipHelper",
+      "FileID": 1435742500
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ZoneAssetBundleManager\\ZoneAseetBundleManager.cs",
+      "OriginalGuid": "be704360ace8460a8048b251bc0c4f86",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ZoneAseetBundleManager",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ZoneAseetBundleManager",
+      "FileID": 246166728
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NetworkIdentityEventListener.cs",
+      "OriginalGuid": "ab1cb9d524394a35903e78bea699b64d",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NetworkIdentityEventListener",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NetworkIdentityEventListener",
+      "FileID": -744226530
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkSceneInitializeCompleteEvent.cs",
+      "OriginalGuid": "e8017ddd7e96fd446bd0e5a6c64cd2a7",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkSceneInitializeCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkSceneInitializeCompleteEvent",
+      "FileID": -697894283
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\WrapperClassSettings\\USGWrapperClassSettings.cs",
+      "OriginalGuid": "67777a9386489314cbaeb58210aa37ad",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework.WrapperClassSettings",
+      "ClassName": "USGWrapperClassSettings",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.WrapperClassSettings.USGWrapperClassSettings",
+      "FileID": 1934063983
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\VoiceCommunicator.cs",
+      "OriginalGuid": "9dab2200f3094a7e86c265d12eb0ae74",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "VoiceCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.VoiceCommunicator",
+      "FileID": -952842346
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\UnloadSceneEvent.cs",
+      "OriginalGuid": "b5f491ab44c88104da6b109786eb6a7a",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "UnloadSceneEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.UnloadSceneEvent",
+      "FileID": -1510774824
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\SettingAPIHandler.cs",
+      "OriginalGuid": "1a892c6180d711e459fb5a78e0d418bf",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "QualitySettingsLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.QualitySettingsLuaAPIHandler",
+      "FileID": 1378004200
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIUpdateMatchCountEvent.cs",
+      "OriginalGuid": "255e26e6061aacc41b276e47a66ad427",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIUpdateMatchCountEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIUpdateMatchCountEvent",
+      "FileID": -1320627779
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\UICommandCommunicator.cs",
+      "OriginalGuid": "aaeef50bff07ba747bd02c66f8cf855a",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "UICommandCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.UICommandCommunicator",
+      "FileID": -357801690
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\GameZoneCreatedEvent.cs",
+      "OriginalGuid": "adc4055cf9fb977469eabbe5e3d87b8b",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "GameZoneCreatedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.GameZoneCreatedEvent",
+      "FileID": -232369059
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGRuntimeSetting\\RuntimeTags.cs",
+      "OriginalGuid": "03fc15b87138475e8365d7c957b33fac",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGRuntimeSetting",
+      "ClassName": "RuntimeTags",
+      "ClassFullName": "USGFramework.Runtime.Core.USGRuntimeSetting.RuntimeTags",
+      "FileID": -203265861
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\TweenModule\\VulcanusTweener.cs",
+      "OriginalGuid": "4cd3297ee146e0a41b539d03064270c8",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "VulcanusTweener",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.VulcanusTweener",
+      "FileID": 922531332
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPICloseDownloadUIEvent.cs",
+      "OriginalGuid": "a260f7b9d23d3644ba5502f059d1bfa2",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPICloseDownloadUIEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPICloseDownloadUIEvent",
+      "FileID": 797470266
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\HeartbeatSender.cs",
+      "OriginalGuid": "2aabca0d635943d1ae83e36c7c6a266e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "HeartbeatSender",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.HeartbeatSender",
+      "FileID": -1567928805
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\AddBlocksEvent.cs",
+      "OriginalGuid": "7f1baee7394d8f34ebee1eeba4c48cb9",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "AddBlocksEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.AddBlocksEvent",
+      "FileID": -1037346830
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ZoneMonitoringCommunicator.cs",
+      "OriginalGuid": "4dabe525a58237644b185c286677ed67",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ZoneMonitoringCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ZoneMonitoringCommunicator",
+      "FileID": -2110075660
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\USGMonitor\\ZoneMonitor.cs",
+      "OriginalGuid": "7ad4b20462ac9b040899f7f2f2a34638",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "ZoneMonitor",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.ZoneMonitor",
+      "FileID": 233089205
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\PreviewGameZoneOption.cs",
+      "OriginalGuid": "4367e7d74e0142b6b2dd07a8fe779112",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "PreviewGameZoneOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.PreviewGameZoneOption",
+      "FileID": 2056757316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\SyncMessages\\NetworkSyncMessageQueue.cs",
+      "OriginalGuid": "37481b200569f8f4db2d1742e6f994f5",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages",
+      "ClassName": "NetworkSyncMessageQueue",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages.NetworkSyncMessageQueue",
+      "FileID": -1572443990
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\PlatformServiceAPI.cs",
+      "OriginalGuid": "93f1b335aedafe84f8557ef4593ac325",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "PlatformServiceAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.PlatformServiceAPI",
+      "FileID": -1487127360
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NetworkTransmitterHandler.cs",
+      "OriginalGuid": "0f880d73d89796b4d8695c1769b24159",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NetworkTransmitterHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NetworkTransmitterHandler",
+      "FileID": 1009999678
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\NetworkTransformWithRBody.cs",
+      "OriginalGuid": "3db7c7f541f7ad440a49d3a134622389",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "NetworkTransformWithRBody",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.NetworkTransformWithRBody",
+      "FileID": -724974781
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\VoxelTerrainMoveAnimation.cs",
+      "OriginalGuid": "29844eb766511904ab994a4fe3e60573",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "VoxelTerrainMoveAnimation",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.VoxelTerrainMoveAnimation",
+      "FileID": 760946930
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\CinemachineOverwrite\\USGCameraOffsetAfterFreeLook.cs",
+      "OriginalGuid": "27a5b86b10c90194d90a9a7b109adf50",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "USGCameraOffsetAfterFreeLook",
+      "ClassFullName": "USGFramework.Runtime.Core.USGCameraOffsetAfterFreeLook",
+      "FileID": -1277876351
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\CinemachineOverwrite\\USGCinemachine3rdPresionAim.cs",
+      "OriginalGuid": "7ffd926ee17d1f84a981d8e664df71ee",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "USGCinemachine3rdPresionAim",
+      "ClassFullName": "USGFramework.Runtime.Core.USGCinemachine3rdPresionAim",
+      "FileID": -563901111
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneManagerContainer.cs",
+      "OriginalGuid": "1b4b6c1fd35fd714484f64e95d864c57",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "ZoneManagerContainer",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.ZoneManagerContainer",
+      "FileID": 194469023
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\SceneHandler\\SceneHandler.cs",
+      "OriginalGuid": "d65f48db0a27df34585fba354a3cd6d9",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "SceneHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.SceneHandler",
+      "FileID": 1664428018
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIUpdateDownloadProgressEvent.cs",
+      "OriginalGuid": "989f530fe73e73043bd70059bb5961e3",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIUpdateDownloadProgressEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIUpdateDownloadProgressEvent",
+      "FileID": -435706494
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusPlayer\\VulcanusPlayer.cs",
+      "OriginalGuid": "af35c76a330ce0e45a6d05ea3f5a73e2",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "VulcanusPlayer",
+      "ClassFullName": "USGFramework.Runtime.VulcanusPlayer",
+      "FileID": 356526551
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\HeartbeatHandler.cs",
+      "OriginalGuid": "42bc14dac7b444b799a790ea63d3d921",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "HeartbeatHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.HeartbeatHandler",
+      "FileID": -1902082164
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ZoneObjectManager.cs",
+      "OriginalGuid": "661f9551bfc1c0a4bb3f0e51863be0d3",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ZoneObjectManager",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ZoneObjectManager",
+      "FileID": 1503693126
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Global\\USGApplication.cs",
+      "OriginalGuid": "eadb6123159b4c279521ccc007801c41",
+      "ClassNamespace": "USGFramework.Runtime.Core.Global",
+      "ClassName": "USGApplication",
+      "ClassFullName": "USGFramework.Runtime.Core.Global.USGApplication",
+      "FileID": -1799538203
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\ChatAPI.cs",
+      "OriginalGuid": "d94fe420adc94f2eae9a804c1a4bd9df",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "ChatAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.ChatAPI",
+      "FileID": 459342863
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\GameFrameworkInitializeCompleteEvent.cs",
+      "OriginalGuid": "a48101774036bca4d8ec336d5b34998a",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "GameFrameworkInitializeCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.GameFrameworkInitializeCompleteEvent",
+      "FileID": -1559058157
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\SyncMessages\\NetworkSyncMessage.cs",
+      "OriginalGuid": "622271784f40f5b4c988a071f6322f29",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages",
+      "ClassName": "NetworkSyncMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.SyncMessages.NetworkSyncMessage",
+      "FileID": -806792134
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\NetworkObjectSyncInitializeMessage.cs",
+      "OriginalGuid": "f74616c9e3b45d9418936697114d529a",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "NetworkObjectSyncInitializeMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.NetworkObjectSyncInitializeMessage",
+      "FileID": 782489890
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusPlayer\\State\\VulcanusClientPlayer.cs",
+      "OriginalGuid": "5fb1a6bfde2e8dc42a28ca8bffcfbf24",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "VulcanusClientPlayer",
+      "ClassFullName": "USGFramework.Runtime.VulcanusClientPlayer",
+      "FileID": 1891432425
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\Samples.cs",
+      "OriginalGuid": "a806d0e4d366a854db737f835eef33c9",
+      "ClassNamespace": "GameFramework.Runtime.Interface",
+      "ClassName": "FrameworkInitializeEvent",
+      "ClassFullName": "GameFramework.Runtime.Interface.FrameworkInitializeEvent",
+      "FileID": 540192558
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentLinked\\VulcanusContentLinkedDummy.cs",
+      "OriginalGuid": "d79e67273bbb49ef8ae21577d3c6679e",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "VulcanusContentLinkedDummy",
+      "ClassFullName": "USGFramework.Runtime.Contents.VulcanusContentLinkedDummy",
+      "FileID": 1322757390
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\InterpolationTransformWithRBody.cs",
+      "OriginalGuid": "792c381954c5139468b2fbaa95a9579e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "InterpolationTransformWithRBody",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.InterpolationTransformWithRBody",
+      "FileID": 772290140
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\TransformState.cs",
+      "OriginalGuid": "13d1f82076063b34c86a704aa838db76",
+      "ClassNamespace": null,
+      "ClassName": "Interpolator",
+      "ClassFullName": "Interpolator",
+      "FileID": -1419394636
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\GameStartEvent.cs",
+      "OriginalGuid": "e81522d923be53744b709da554a4ef14",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "GameStartEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.GameStartEvent",
+      "FileID": 1150190107
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\FakeChatWindow.cs",
+      "OriginalGuid": "db5b0bde32c3cc14aa154caafca07fee",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "FakeChatWindow",
+      "ClassFullName": "USGFramework.Runtime.FakeChatWindow",
+      "FileID": -901497311
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientConnectedEvent.cs",
+      "OriginalGuid": "def12a613cc71a448aadec2ac8526ce5",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientConnectedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientConnectedEvent",
+      "FileID": 1543921316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\NetworkManager.cs",
+      "OriginalGuid": "eeec7d9e4c85b08458ed34b9ad086d4f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager",
+      "ClassName": "NetworkManager",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.NetworkManager",
+      "FileID": -1528642257
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\VoxelAssets\\UnityVoxelFaceParam.cs",
+      "OriginalGuid": "180e0fe1778500746b8be04aeee63971",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.VoxelAssets",
+      "ClassName": "UnityVoxelFaceParam",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.VoxelAssets.UnityVoxelFaceParam",
+      "FileID": -2008494126
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\MirageConnection.cs",
+      "OriginalGuid": "20ec6398bfcb3f94cb5269f5e5629200",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "MirageConnection",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.MirageConnection",
+      "FileID": 418784532
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\GameStartState.cs",
+      "OriginalGuid": "45c25c7e715cc284a856ed60b77757ec",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "GameStartState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.GameStartState",
+      "FileID": -1833881677
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIAdditionalWaitingEvent.cs",
+      "OriginalGuid": "00a6e84e998acdc4c8a1f62a1112a328",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIAdditionalWaitingEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIAdditionalWaitingEvent",
+      "FileID": 2127528769
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\RoyalInputCommunicator.cs",
+      "OriginalGuid": "6420845d50e8af34489a433f48b2f029",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "RoyalInputCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.RoyalInputCommunicator",
+      "FileID": 806532
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\GetSoundOptionEvent.cs",
+      "OriginalGuid": "50a44374899715641b54d0f9277b9822",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "GetSoundOptionEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.GetSoundOptionEvent",
+      "FileID": -1807489309
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\PackingDublicatedAsset\\PackingDuplicated.cs",
+      "OriginalGuid": "390bfd53392d471baf12a232dc2d0415",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.PackingDublicatedAsset",
+      "ClassName": "PackingDuplicated",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.PackingDublicatedAsset.PackingDuplicated",
+      "FileID": 2031549488
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\VoxelRenderer\\VoxelTerrainOreRenderer.cs",
+      "OriginalGuid": "8ccf4ded04025934993afd553685d97f",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer",
+      "ClassName": "VoxelTerrainOreRenderer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer.VoxelTerrainOreRenderer",
+      "FileID": 625613945
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\LogCommunicator.cs",
+      "OriginalGuid": "e4a8726755b544c19e9676c425ea78f0",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "LogCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.LogCommunicator",
+      "FileID": 808386133
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VAddressable\\VUGCFileFetcherResolver.cs",
+      "OriginalGuid": "4b15a55326cc468abde9b39add9a2b6e",
+      "ClassNamespace": "USGFramework.Runtime.VAddressable",
+      "ClassName": "VUGCFileFetcherResolver",
+      "ClassFullName": "USGFramework.Runtime.VAddressable.VUGCFileFetcherResolver",
+      "FileID": 898464577
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\WaitingState.cs",
+      "OriginalGuid": "fe42786e7eb45854f86e6e22aab980d8",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "WaitingState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.WaitingState",
+      "FileID": 74669185
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGManager\\InhouseUI\\View\\LoadingView.cs",
+      "OriginalGuid": "e059d8e5e79166945bc16a62c5de4cf6",
+      "ClassNamespace": "USGFramework.Runtime.USGManager.Inhouse.View",
+      "ClassName": "LoadingView",
+      "ClassFullName": "USGFramework.Runtime.USGManager.Inhouse.View.LoadingView",
+      "FileID": 933400134
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\ClientInfo.cs",
+      "OriginalGuid": "497c13a48e4cb8f42b625da12645a869",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "ClientInfo",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.ClientInfo",
+      "FileID": 1584679879
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\SOElementsData\\PlatformDatas.cs",
+      "OriginalGuid": "4a214f7cf7f98f644a982d2294387e0d",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "PlatformDataConfig",
+      "ClassFullName": "USGFramework.Runtime.Elements.PlatformDataConfig",
+      "FileID": -864161490
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\NetworkModeOption.cs",
+      "OriginalGuid": "0377e5c2e96a0224e9ea2de5002bcc2f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "NetworkModeOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.NetworkModeOption",
+      "FileID": -1841847938
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\RoyalContentsCommunicator.cs",
+      "OriginalGuid": "0d0e9159b4a8f0843bea4ca0afedfac2",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "RoyalContentsCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.RoyalContentsCommunicator",
+      "FileID": -167187807
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\MakeBuffer.cs",
+      "OriginalGuid": "b0542c887a29af64da0497e6ea67b5fb",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "MakeBuffer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.MakeBuffer",
+      "FileID": 1390732635
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\DeleteBlocksEvent.cs",
+      "OriginalGuid": "9ea22242a892cdf4ba48ae65174cc65e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "DeleteBlocksEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.DeleteBlocksEvent",
+      "FileID": 1783899256
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\FrameworkFinder.cs",
+      "OriginalGuid": "db42f1202acc247449b3f373e4831a6b",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "FrameworkFinder",
+      "ClassFullName": "USGFramework.Runtime.FrameworkFinder",
+      "FileID": -885272962
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\AssetBundleLoader.cs",
+      "OriginalGuid": "18849b1a6ce84a94ab96d07b0fae2fb8",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle",
+      "ClassName": "AssetBundleLoader",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.AssetBundleLoader",
+      "FileID": 849265578
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\LuaAPIHandler.cs",
+      "OriginalGuid": "94a6b6525c6708b4881a44abf418bda1",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "LuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.LuaAPIHandler",
+      "FileID": 191683802
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIActiveMatchInviteEvent.cs",
+      "OriginalGuid": "8814e85d48895cc459f6d1ebd579685b",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIEventActiveMatchInviteEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIEventActiveMatchInviteEvent",
+      "FileID": 1273847271
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIGoToMatchedZoneEvent.cs",
+      "OriginalGuid": "0e9d070a4583b3d4288880d87c61af56",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIGoToMatchedZoneEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIGoToMatchedZoneEvent",
+      "FileID": 192881064
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGService\\GameAssistantService.cs",
+      "OriginalGuid": "9b6401222784f994e8fb885949aa091e",
+      "ClassNamespace": "USGFramework.Runtime.USGService",
+      "ClassName": "GameAssistantService",
+      "ClassFullName": "USGFramework.Runtime.USGService.GameAssistantService",
+      "FileID": -1711890449
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\ServerLoadSceneCompleteEvent.cs",
+      "OriginalGuid": "4d04fc4c44bbb2f4ebb5918fa6864781",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "ServerLoadSceneCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.ServerLoadSceneCompleteEvent",
+      "FileID": -696296198
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\GameReadyEvent.cs",
+      "OriginalGuid": "f3518d3d3ca3db744a8d928db5a7ba65",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "GameReadyEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.GameReadyEvent",
+      "FileID": 1185911467
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\InterpolationBase.cs",
+      "OriginalGuid": "f5e04649c37e1c74aa3adb6fd89e0bd9",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "InterpolationBase",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.InterpolationBase",
+      "FileID": -1428118052
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusPlayer\\State\\PlayerState.cs",
+      "OriginalGuid": "d31cf26732b0a9443bff6cba23523c07",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "PlayerState",
+      "ClassFullName": "USGFramework.Runtime.PlayerState",
+      "FileID": 2108124510
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\InstanitiateRequestMessage.cs",
+      "OriginalGuid": "b8f5a5d8d5b58404aa0c9e275823d55f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "InstanitiateRequestMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.InstanitiateRequestMessage",
+      "FileID": 1003156143
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\UnloadSceneState.cs",
+      "OriginalGuid": "b1e4fe15477877149bcd9f2c72db5e33",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "UnloadSceneState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.UnloadSceneState",
+      "FileID": -806406110
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\InstanitiateCompleteMessage.cs",
+      "OriginalGuid": "598353e8b8f39a046aa2f3db93b1a60f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "InstanitiateCompleteMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.InstanitiateCompleteMessage",
+      "FileID": 485155429
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\PlayerCostumeLink\\DisplayEvent.cs",
+      "OriginalGuid": "6d1a05cb19504877abdd873411e74c25",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "DisplayEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.DisplayEvent",
+      "FileID": -1074499348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\TerrainServiceInitializeCompleteEvent.cs",
+      "OriginalGuid": "2746b5d8ff5cd1442af9cac1fba3a186",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "TerrainServiceInitializeCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.TerrainServiceInitializeCompleteEvent",
+      "FileID": 884466224
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientAccountInfoEvent.cs",
+      "OriginalGuid": "04eb9f0ca33add94dbe2775c6071c1dc",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientAccountInfoEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientAccountInfoEvent",
+      "FileID": 1222861394
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Events\\ClientGameZoneEnteredEvent.cs",
+      "OriginalGuid": "f480f080dba43794aaf27408c503fec0",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Events",
+      "ClassName": "ClientGameZoneEnteredEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Events.ClientGameZoneEnteredEvent",
+      "FileID": -920920243
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\MemoryAPI.cs",
+      "OriginalGuid": "5a5debe47a06c9a4d9382efaf8f28b0a",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "MemoryAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.MemoryAPI",
+      "FileID": 543845715
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\TerrainAssets\\UnityChunkData.cs",
+      "OriginalGuid": "45f544ec03d498c45b9aa03a83111f0e",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.TerrainAssets",
+      "ClassName": "UnityChunkData",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.TerrainAssets.UnityChunkData",
+      "FileID": 1568400367
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\SOElementsData\\LeaderboardConfigData.cs",
+      "OriginalGuid": "dbd4a6cf49124e1d99a7fb22aa33e898",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "LeaderboardConfigData",
+      "ClassFullName": "USGFramework.Runtime.Elements.LeaderboardConfigData",
+      "FileID": -1705376298
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\NetworkStates\\BaseStateHander.cs",
+      "OriginalGuid": "f8844df31b1a973449c9acc550f8741a",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.NetworkStates",
+      "ClassName": "BaseStateHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.NetworkStates.BaseStateHandler",
+      "FileID": 590942438
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\PackingConfigAsset\\PackingConfig.cs",
+      "OriginalGuid": "9d85bda8e71c4b4eb36e3d734ae57bfe",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.PackingConfigAsset",
+      "ClassName": "PackingConfig",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.PackingConfigAsset.PackingConfig",
+      "FileID": -330129091
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\SubPlatformOption.cs",
+      "OriginalGuid": "588c54a256864af9a002409298727edf",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "SubPlatformOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.SubPlatformOption",
+      "FileID": -1228101148
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\InhouseUI\\Context\\LoadingViewContext.cs",
+      "OriginalGuid": "8345dbd8004417047b235a03807be5a2",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context",
+      "ClassName": "LoadingViewContext",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.StartUpUI.Context.LoadingViewContext",
+      "FileID": -1817209764
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\LoadUserLuaRequestEvent.cs",
+      "OriginalGuid": "beb31ea02d5400c43a774da05f5e6201",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "LoadUserLuaRequestEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.LoadUserLuaRequestEvent",
+      "FileID": -1116597085
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\CommonAction.cs",
+      "OriginalGuid": "b9f0ed94a9e73124b9199b9a3477c044",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "CommonAction",
+      "ClassFullName": "USGFramework.Runtime.Contents.CommonAction",
+      "FileID": -2057064256
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\VoxelAssets\\UnityVoxelBlockBase.cs",
+      "OriginalGuid": "4e822df208e5f2342b34dc63ebc1ced0",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.VoxelAssets",
+      "ClassName": "UnityVoxelBlockBase",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.VoxelAssets.UnityVoxelBlockBase",
+      "FileID": 1611781739
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\RoyalPlatformCommunicator.cs",
+      "OriginalGuid": "eb27d7d6e1453a144bc1ce9dc1d4bc80",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "RoyalPlatformCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.RoyalPlatformCommunicator",
+      "FileID": 743988641
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\LoadSceneCompleteEvent.cs",
+      "OriginalGuid": "8d01c9cb2d6e18048a464e89a47e1d33",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "LoadSceneCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.LoadSceneCompleteEvent",
+      "FileID": 320302367
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\UgcInfo.cs",
+      "OriginalGuid": "e52965bca044ec6438d3e2884df044ff",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "UgcInfo",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.UgcInfo",
+      "FileID": -184392709
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\FileLog.cs",
+      "OriginalGuid": "8460963699224de08677682a55833e37",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "FileLog",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.FileLog",
+      "FileID": 1795661758
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\UnityLogger.cs",
+      "OriginalGuid": "5f406201b38b4cbfbd55cd7b2b976144",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "UnityLogger",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.UnityLogger",
+      "FileID": 2048517966
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\IdleState.cs",
+      "OriginalGuid": "40c7ccea8613fec4397781c8ce33326c",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "IdleState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.IdleState",
+      "FileID": -1193924188
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\RuntimeSettingManager.cs",
+      "OriginalGuid": "4c5d3d97b3054edda0f45c85be23ef2a",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager",
+      "ClassName": "RuntimeSettingManager",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.RuntimeSettingManager",
+      "FileID": 660188646
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\Log\\BattleLog.cs",
+      "OriginalGuid": "b6a0f80b7b56480eae69f340d194139f",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "BattleLog",
+      "ClassFullName": "USGFramework.Runtime.Contents.BattleLog",
+      "FileID": -930396114
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusPlayer\\State\\VulcanusServerPlayer.cs",
+      "OriginalGuid": "60743b61613a2f74fa6e916bc53c07d8",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "VulcanusServerPlayer",
+      "ClassFullName": "USGFramework.Runtime.VulcanusServerPlayer",
+      "FileID": -1084510909
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\PrivateLuaEventMessage.cs",
+      "OriginalGuid": "71419661c9e12c3488f5b251d3da552b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "PrivateLuaEventMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.PrivateLuaEventMessage",
+      "FileID": 1144409101
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\MatchCommunicator.cs",
+      "OriginalGuid": "55f8d8deb9ebd224fb7d8495a495e432",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "MatchCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.MatchCommunicator",
+      "FileID": 1420116363
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\FrameworkModeOption.cs",
+      "OriginalGuid": "f583e96b02b54934b1ed6372c02f6efe",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "FrameworkModeOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.FrameworkModeOption",
+      "FileID": -631339677
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIOpenDownloadConfirmUIEvent.cs",
+      "OriginalGuid": "e66a0fadda1bfc04c8b96f6fb165cbdc",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIOpenDownloadConfirmUIEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIOpenDownloadConfirmUIEvent",
+      "FileID": 1933572035
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\AssetBundleUtil.cs",
+      "OriginalGuid": "697731abfeee4744ad410fac3fce090e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle",
+      "ClassName": "AssetBundleUtil",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.AssetBundleUtil",
+      "FileID": 1265957949
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\TerrainAssets\\BlockEntry.cs",
+      "OriginalGuid": "4344702004574db459cbd68bf062a8da",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.TerrainAssets",
+      "ClassName": "BlockEntry",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.TerrainAssets.BlockEntry",
+      "FileID": -210070700
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\VulcanusCommunicator.cs",
+      "OriginalGuid": "9c73160782489f244b7dbccd595813e5",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "VulcanusCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.VulcanusCommunicator",
+      "FileID": -1703009398
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\EnvironmentLink\\VulcanusEnvironmentLinkDummy.cs",
+      "OriginalGuid": "e56fdf83d45e4d548b0bca688b4eba41",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "VulcanusEnvironmentDummy",
+      "ClassFullName": "USGFramework.Runtime.Contents.VulcanusEnvironmentDummy",
+      "FileID": -2085656691
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\PlayerCostumeLink\\PlayerCostumeLoader.cs",
+      "OriginalGuid": "bfc71bb87054cf84a8417b818e39416a",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "PlayerCostumeLoader",
+      "ClassFullName": "USGFramework.Runtime.Contents.PlayerCostumeLoader",
+      "FileID": 609824466
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\OpenContentsModTeam.cs",
+      "OriginalGuid": "325e457b572842f18cca5442fe030db3",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "OpenContentsModTeam",
+      "ClassFullName": "USGFramework.Runtime.Contents.OpenContentsModTeam",
+      "FileID": -1959672369
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\Utilities\\TerrainUtil.cs",
+      "OriginalGuid": "41b9c5b9e27ab7e488c2c108cf9cfc9e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities",
+      "ClassName": "TerrainUtil",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.Utilities.TerrainUtil",
+      "FileID": -1785747870
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\ServerPortOption.cs",
+      "OriginalGuid": "b234c607013337c45a45b1df44739e3b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "ServerPortOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.ServerPortOption",
+      "FileID": 605535299
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ServiceFunctions\\VoxelTerrainUtil.cs",
+      "OriginalGuid": "eab6e4bc7133fee4594854859f93e319",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "VoxelTerrainUtil",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ServiceFunctions.VoxelTerrainUtil",
+      "FileID": 944978470
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\USGEqualityComparer.cs",
+      "OriginalGuid": "8acfff740cf9cf24aa8e159a11cacfdb",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "USGEqualityComparer",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.USGEqualityComparer",
+      "FileID": 920879367
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\RoyalUICommunicator.cs",
+      "OriginalGuid": "418a524a1b19d6c4fb1238647f38e5cd",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "RoyalUICommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.RoyalUICommunicator",
+      "FileID": 1308245584
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\SecurityCommunicator.cs",
+      "OriginalGuid": "d164c32f6a5abc84d8434b594b3d7983",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "SecurityCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.SecurityCommunicator",
+      "FileID": -684672387
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPISuccessMatchEvent.cs",
+      "OriginalGuid": "c63e6c02a1394444e8c47bb100f35e25",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPISuccessMatchEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPISuccessMatchEvent",
+      "FileID": -1596715287
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Extention\\ElementExtenstion.cs",
+      "OriginalGuid": "9ff976e2d4e120848891483dde011795",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "ElementExtenstion",
+      "ClassFullName": "USGFramework.Runtime.ElementExtenstion",
+      "FileID": -1808804908
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneManagerConfig.cs",
+      "OriginalGuid": "8754a4e8874aaa6499f4c1a5e2cfb358",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "ZoneManagerConfig",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.ZoneManagerConfig",
+      "FileID": -1554772282
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\LuaLogger.cs",
+      "OriginalGuid": "141b2468b5ef419296ccc8005498b279",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "LuaLogger",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.LuaLogger",
+      "FileID": 248779595
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneInfo.cs",
+      "OriginalGuid": "b05d34805b9a5194ab329888080f2fe6",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "KeyPartsC",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.KeyPartsC",
+      "FileID": 126456896
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\BehaviourLuaAPIHandler.cs",
+      "OriginalGuid": "d27020ae39281c74a91af8dae871569e",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "BehaviourLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.BehaviourLuaAPIHandler",
+      "FileID": -635963692
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\RuntimePlayerCostumeSync.cs",
+      "OriginalGuid": "c4de1c54928baad4b93e782cd257e888",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "RuntimePlayerCostumeSync",
+      "ClassFullName": "USGFramework.Runtime.RuntimePlayerCostumeSync",
+      "FileID": 1154922016
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\TerrainAssets\\UnityWorldData.cs",
+      "OriginalGuid": "56e3d0bb5763aa04a9b18b130da032a5",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.TerrainAssets",
+      "ClassName": "UnityWorldData",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.TerrainAssets.UnityWorldData",
+      "FileID": 1705571284
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\SceneHandler\\ServerSceneHandler.cs",
+      "OriginalGuid": "1dab0ade6622e64458b53e8366bcd944",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ServerSceneHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ServerSceneHandler",
+      "FileID": -657386113
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\LoadSceneRequestMessage.cs",
+      "OriginalGuid": "db8e48b1b26ccb74880d12a594abe4e4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "LoadSceneRequestMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.LoadSceneRequestMessage",
+      "FileID": -2088591844
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\LocalModeOption.cs",
+      "OriginalGuid": "8957224564541ec429fdd4ceac5755e0",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "LocalModeOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.LocalModeOption",
+      "FileID": 425079230
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\SceneTableManagement\\VulcanusAssetContainer.cs",
+      "OriginalGuid": "e5294230fab6c9949b7ae028c0af8417",
+      "ClassNamespace": "USGFramework.Runtime.SceneTableManagement",
+      "ClassName": "VulcanusAssetContainer",
+      "ClassFullName": "USGFramework.Runtime.SceneTableManagement.VulcanusAssetContainer",
+      "FileID": -1367922653
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\SandBoxContentsCommunicator.cs",
+      "OriginalGuid": "e674e7c5af7f8f54cb9adb75b54b9e5d",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "SandBoxContentsCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.SandBoxContentsCommunicator",
+      "FileID": 1283931138
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\CharacterInfo.cs",
+      "OriginalGuid": "a7b9918dcc0fe394c8b0c2090cb5bfee",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "CharacterInfo",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.CharacterInfo",
+      "FileID": 743652376
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\EssentialBundleDefines.cs",
+      "OriginalGuid": "5895c54c9b6d941498d0d30e23b67168",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle",
+      "ClassName": "EssentialBundleDefines",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.EssentialBundleDefines",
+      "FileID": 991469126
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\XK5Log.cs",
+      "OriginalGuid": "78d7e0324b5246f4bb28a838758a053f",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "XK5Log",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.XK5Log",
+      "FileID": -1413715985
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\SampleMonoElement.cs",
+      "OriginalGuid": "2e51021c100412843bdce130e197d39e",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "SampleMonoElement",
+      "ClassFullName": "USGFramework.Runtime.Elements.SampleMonoElement",
+      "FileID": 2028515508
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\GameFrameworkInitializeState.cs",
+      "OriginalGuid": "7dac5c99cc2d43b428b3240c571f14b0",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "GameFrameworkInitializeState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.GameFrameworkInitializeState",
+      "FileID": 1500961420
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGRuntimeSetting\\RuntimeLayers.cs",
+      "OriginalGuid": "ed57515dca3146eeba1812f346be9a59",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGRuntimeSetting",
+      "ClassName": "RuntimeLayers",
+      "ClassFullName": "USGFramework.Runtime.Core.USGRuntimeSetting.RuntimeLayers",
+      "FileID": -1647476436
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\ModTeamAPI.cs",
+      "OriginalGuid": "59fcfd2a7d304d7c9c0c5d04bdb37626",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "ModTeamAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.ModTeamAPI",
+      "FileID": -769307534
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NativeNetworkTransmitterBase.cs",
+      "OriginalGuid": "8dedf00766b24fa2b59b32e87347bab8",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NativeNetworkTransmitterBase",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NativeNetworkTransmitterBase",
+      "FileID": 1800893432
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3SeekableCryptoStream.cs",
+      "OriginalGuid": "6626a6ddd29246c4be4564a4274e000c",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3SeekableCryptoStream",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3SeekableCryptoStream",
+      "FileID": -1976539060
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPINotifyMessageEvent.cs",
+      "OriginalGuid": "72510fb244cb0ef4195d65abaf317c5b",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPINotifyMessageEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPINotifyMessageEvent",
+      "FileID": -723322031
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\SceneTableManagement\\SceneTable.cs",
+      "OriginalGuid": "734e7af7753f63a41bcc56361b7590d6",
+      "ClassNamespace": "USGFramework.Runtime.SceneTableManagement",
+      "ClassName": "SceneTable",
+      "ClassFullName": "USGFramework.Runtime.SceneTableManagement.SceneTable",
+      "FileID": -1246999773
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneExceptionHandler.cs",
+      "OriginalGuid": "f0a17cea56a0e27409181448b53727de",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "ZoneExceptionHandler",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.ZoneExceptionHandler",
+      "FileID": 87399096
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleHeader.cs",
+      "OriginalGuid": "052191ef538b4a31a15bcb68c2109a10",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleHeader",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleHeader",
+      "FileID": -726835713
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\VoxelRenderer\\VoxelChunkRenderer.cs",
+      "OriginalGuid": "eadbf153f84bb460cb12ad9ca4877301",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer",
+      "ClassName": "VoxelChunkRenderer",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer.VoxelChunkRenderer",
+      "FileID": -1405964327
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\TerrainSyncTransmitEvent.cs",
+      "OriginalGuid": "4d7acf3f6ca564c48a9b1ba7c06667e4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "TerrainSyncTransmitEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.TerrainSyncTransmitEvent",
+      "FileID": -1531543892
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\MirageMessages.cs",
+      "OriginalGuid": "823ad31b2e914014a841dd44061325ac",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "ClientConnectedMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.ClientConnectedMessage",
+      "FileID": 163017678
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\VoxelAssets\\UnityVoxelStructureOre.cs",
+      "OriginalGuid": "1dea587f14baa6c41a3443f3e9aec970",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.VoxelAssets",
+      "ClassName": "UnityVoxelStructureOre",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.VoxelAssets.UnityVoxelStructureOre",
+      "FileID": 24316782
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\ContentServiceAPI.cs",
+      "OriginalGuid": "8173749bece250f489b7dba1171fcc8a",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "ContentServiceAPI",
+      "ClassFullName": "USGFramework.Runtime.Contents.ContentServiceAPI",
+      "FileID": 1754207109
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\AssetBundleDownloadCompleteEvent.cs",
+      "OriginalGuid": "6ce9401bfc218644da266471e8db68cf",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "AssetBundleDownloadCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.AssetBundleDownloadCompleteEvent",
+      "FileID": 652188454
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\AddressablesAPIService.cs",
+      "OriginalGuid": "9bce747042aa76e4db721940affffefe",
+      "ClassNamespace": "USGFramework.Runtime.Framework",
+      "ClassName": "AddressablesAPIService",
+      "ClassFullName": "USGFramework.Runtime.Framework.AddressablesAPIService",
+      "FileID": -1781249993
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\FormatV3\\V3BundleHelper.cs",
+      "OriginalGuid": "4173cc2bb391452690d38229862163d7",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3",
+      "ClassName": "V3BundleHelper",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.FormatV3.V3BundleHelper",
+      "FileID": 923621535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ChatCommunicator.cs",
+      "OriginalGuid": "9c94ef2a2a72450aadcf347804cbf179",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ChatCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ChatCommunicator",
+      "FileID": -2037583984
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\ExtensionClass\\LuaStringWrapper.cs",
+      "OriginalGuid": "eda08a8ef2b4dd24385c41170642a99d",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaStringWrapper",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaStringWrapper",
+      "FileID": -1522204291
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPICancelMatchForMoveEvent.cs",
+      "OriginalGuid": "eb8600e7478c9764399bc251638bcf87",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPICancelMatchForMoveEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPICancelMatchForMoveEvent",
+      "FileID": -19058501
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\ClientZoneKeyOption.cs",
+      "OriginalGuid": "838018abb272407d9a38b632b5e616d8",
+      "ClassNamespace": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions",
+      "ClassName": "ClientZoneKeyOption",
+      "ClassFullName": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions.ClientZoneKeyOption",
+      "FileID": -1830920920
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\ClientSessionCommunicator.cs",
+      "OriginalGuid": "ff0fa542e7f715e41b437c362e79ebb7",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "ClientSessionCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.ClientSessionCommunicator",
+      "FileID": -1805337983
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\VoxelAssets\\UnityVoxelBlockOre.cs",
+      "OriginalGuid": "e3126765fd5540544adf67007def96bb",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.VoxelAssets",
+      "ClassName": "UnityVoxelBlockOre",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.VoxelAssets.UnityVoxelBlockOre",
+      "FileID": -1113107473
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\SceneLoadedEvent.cs",
+      "OriginalGuid": "523112a82f487e94d95747145b299e11",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "SceneLoadedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.SceneLoadedEvent",
+      "FileID": -1987315048
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGRuntimeSetting\\RuntimeSettingAsset.cs",
+      "OriginalGuid": "d8352cb0e4ad229408b252fa189ded47",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "RuntimeSettingAsset",
+      "ClassFullName": "USGFramework.Runtime.Core.RuntimeSettingAsset",
+      "FileID": -209983776
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\SceneHandler\\ClientSceneHandler.cs",
+      "OriginalGuid": "3536492e5cd61704eaa643d71eb856ab",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ClientSceneHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ClientSceneHandler",
+      "FileID": 1393872468
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\RigidbodyState.cs",
+      "OriginalGuid": "d6fa26b4c9f35a54988108e5d45d4bc9",
+      "ClassNamespace": null,
+      "ClassName": "Interpolator",
+      "ClassFullName": "Interpolator",
+      "FileID": -1419394636
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\ClientLauncherProfile.cs",
+      "OriginalGuid": "5137267ce30ddf34b94293462972991b",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "ClientLauncherProfile",
+      "ClassFullName": "USGFramework.Runtime.ClientLauncherProfile",
+      "FileID": -823176662
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\VLog.cs",
+      "OriginalGuid": "05baaec47cd4437ab1ed281b2c87ac58",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "VLog",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.VLog",
+      "FileID": -213024206
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\PlatformServiceCommunicator.cs",
+      "OriginalGuid": "d0f1006529054f44aa79f23dc347d718",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "PlatformServiceCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.PlatformServiceCommunicator",
+      "FileID": 1331732782
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\NetworkObjectSyncInitializeCompleteMessage.cs",
+      "OriginalGuid": "c677d7dba8b20c5449ae0c8f3c6f3d89",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "NetworkSceneObjectInitializeCompleteMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.NetworkSceneObjectInitializeCompleteMessage",
+      "FileID": 1048051767
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\NetworkUtility.cs",
+      "OriginalGuid": "756bc69343ff0a74ab8e3ade4458735d",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork",
+      "ClassName": "NetworkUtility",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.NetworkUtility",
+      "FileID": 1657826019
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\StartState.cs",
+      "OriginalGuid": "e20ce95f104da8d41afc1ce90cd0d37b",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "StartState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.StartState",
+      "FileID": -1255021487
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\RendererLuaAPIHandler.cs",
+      "OriginalGuid": "1a00e16f99ed8fc49a87e749eef08b63",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "RendererLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.RendererLuaAPIHandler",
+      "FileID": 1920600633
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\TerrainServiceMessages\\DeleteBlocksMessage.cs",
+      "OriginalGuid": "bc15ae7841e497b42ad73d1ee80981e4",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages",
+      "ClassName": "DeleteBlocksMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages.DeleteBlocksMessage",
+      "FileID": 295992967
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGService\\TerrainService.cs",
+      "OriginalGuid": "5b4ef38f6fa94bd41bc5c6616236dea1",
+      "ClassNamespace": "USGFramework.Runtime.USGService",
+      "ClassName": "TerrainService",
+      "ClassFullName": "USGFramework.Runtime.USGService.TerrainService",
+      "FileID": 1482124348
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\UgcCommunicator.cs",
+      "OriginalGuid": "590d1b830b33f9947a644dd314503dab",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "UgcCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.UgcCommunicator",
+      "FileID": -181838651
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\InhouseUIManager.cs",
+      "OriginalGuid": "a89772a62001e744f881d64bcc9e0f13",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager",
+      "ClassName": "InhouseUIManager",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.InhouseUIManager",
+      "FileID": -1034166143
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\StartUpUIMessageEvent.cs",
+      "OriginalGuid": "07c6767e19515b14d8855defd7d6c1db",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "StartUpUIMessageEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.StartUpUIMessageEvent",
+      "FileID": -1647120186
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\VoxelRenderer\\VoxelChunkBehaviour.cs",
+      "OriginalGuid": "734ac8fe784dee345980d07ce21965a6",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer",
+      "ClassName": "VoxelChunkBehaviour",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.VoxelRenderer.VoxelChunkBehaviour",
+      "FileID": -2005847356
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\NetworkElement.cs",
+      "OriginalGuid": "58ad94d8eabd0e24db3e37a1a29634df",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "NetworkElement",
+      "ClassFullName": "USGFramework.Runtime.Elements.NetworkElement",
+      "FileID": -1890418101
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\ServerLauncherProfile.cs",
+      "OriginalGuid": "3a99745a79edee846a0162037e85ffda",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "ServerLauncherProfile",
+      "ClassFullName": "USGFramework.Runtime.ServerLauncherProfile",
+      "FileID": -428969996
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLuaFramework\\LuaProperty\\NativeProperty.cs",
+      "OriginalGuid": "9a519007aa359c94eb9283d58ff1badf",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLuaFramework.LuaProperty",
+      "ClassName": "NativeProperty",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLuaFramework.LuaProperty.NativeProperty",
+      "FileID": -1176752901
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\RoomStartEvent.cs",
+      "OriginalGuid": "614d10c6edf8b0c439765539a71dd84f",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "RoomStartEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.RoomStartEvent",
+      "FileID": -1074783276
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIFailMatchEvent.cs",
+      "OriginalGuid": "3d896cd4ab4403442be2d9b083ba494f",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIFailMatchEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIFailMatchEvent",
+      "FileID": -1166440481
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\AllClientConnectionsMessage.cs",
+      "OriginalGuid": "bc7126a3e18c07f4594d56109e6acf7f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "AllClientConnectionsMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.AllClientConnectionsMessage",
+      "FileID": 430269687
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\BlockDataReaderWriter.cs",
+      "OriginalGuid": "2e913896f0b90464aa9f045462eada33",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions",
+      "ClassName": "BlockDataReaderWriter",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.BlockDataReaderWriter",
+      "FileID": -645231961
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\LuaRPCHandler.cs",
+      "OriginalGuid": "11667872d6fccf548afe70b55be562f2",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaRPCHandler",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaRPCHandler",
+      "FileID": 919264373
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\InstantChunkData.cs",
+      "OriginalGuid": "cd4c6f95ca46809448538ba56c2d3007",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "InstantChunkData",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.InstantChunkData",
+      "FileID": -170389794
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\ZoneBaseObject.cs",
+      "OriginalGuid": "bf55b1c80dc1aea4e958ffd797ec744f",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "ZoneBaseObject",
+      "ClassFullName": "USGFramework.Runtime.ZoneBaseObject",
+      "FileID": 1256505440
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\MonoElement.cs",
+      "OriginalGuid": "84eecfa67e40cbd46a063f2c3d6d24da",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "MonoElement",
+      "ClassFullName": "USGFramework.Runtime.Elements.MonoElement",
+      "FileID": -1923778034
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Shared\\PlayerCostumeCommunicator.cs",
+      "OriginalGuid": "bb86d0e7e4e54ff6923f93c4da5dc4c5",
+      "ClassNamespace": "USGFramework.Runtime.Core.Shared",
+      "ClassName": "PlayerCostumeCommunicator",
+      "ClassFullName": "USGFramework.Runtime.Core.Shared.PlayerCostumeCommunicator",
+      "FileID": -1872267313
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\InterpolationRigidbody.cs",
+      "OriginalGuid": "775a70c151dc66845b3639d1b4129a7d",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "InterpolationRigidbody",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.InterpolationRigidbody",
+      "FileID": -1159571707
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\ZoneInstance.cs",
+      "OriginalGuid": "eaf17e2e92cebb84faf4cfc29d25e73a",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "ZoneInstance",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.ZoneInstance",
+      "FileID": 1942262664
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\ZoneServerDatasOption.cs",
+      "OriginalGuid": "91f8d13f2f1a430b94c04c4932850a63",
+      "ClassNamespace": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions",
+      "ClassName": "ZoneServerDatasOption",
+      "ClassFullName": "USGProxy.Runtime.Launcher.ProxyCommandLineOptions.ZoneServerDatasOption",
+      "FileID": 1654423316
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\TerrainHistory\\BlockRecord.cs",
+      "OriginalGuid": "d6e0f7cc93968304286c878d24fe980f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.TerrainHistory",
+      "ClassName": "BlockRecord",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.TerrainHistory.BlockRecord",
+      "FileID": 852288785
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\OverTimerGate.cs",
+      "OriginalGuid": "72e4b66caaff2954bac838313e5d1eb0",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "OverTimerGate",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.OverTimerGate",
+      "FileID": -1226058464
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\OpenContentsAPIService.cs",
+      "OriginalGuid": "5fa788bd8542b664b9ecb08a13d57e29",
+      "ClassNamespace": "USGFramework.Runtime.Contents",
+      "ClassName": "OpenContentsAPIService",
+      "ClassFullName": "USGFramework.Runtime.Contents.OpenContentsAPIService",
+      "FileID": 1983379326
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\PlaneTable.cs",
+      "OriginalGuid": "8d7bbedfef769984a853e8a0a0c4caf4",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "PlaneTable",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.PlaneTable",
+      "FileID": 722711083
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Extenstion\\VTransformExtenstion.cs",
+      "OriginalGuid": "184f83bcdc666a741bfcc198e8143d99",
+      "ClassNamespace": "USGFramework.Runtime.Core",
+      "ClassName": "VTransformExtenstion",
+      "ClassFullName": "USGFramework.Runtime.Core.VTransformExtenstion",
+      "FileID": -1607255319
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\ExtensionClass\\LuaFunctionLib.cs",
+      "OriginalGuid": "0e355f97089a15845a8796c18cd65100",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "CinemachineFreeLook",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.CinemachineFreeLook",
+      "FileID": 1656023931
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGZoneManager\\LuaAPIHandler\\GameObjectLuaAPIHandler.cs",
+      "OriginalGuid": "1229de2297422e74d91d8877cc08a9f9",
+      "ClassNamespace": "USGFramework.Runtime.USGZoneManager",
+      "ClassName": "GameObjectLuaAPIHandler",
+      "ClassFullName": "USGFramework.Runtime.USGZoneManager.GameObjectLuaAPIHandler",
+      "FileID": 2010418003
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGAssetBundle\\LeaveOpenCryptoStream.cs",
+      "OriginalGuid": "bd59fae007dcd294e85cde4d28287800",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGAssetBundle",
+      "ClassName": "LeaveOpenCryptoStream",
+      "ClassFullName": "USGFramework.Runtime.Core.USGAssetBundle.LeaveOpenCryptoStream",
+      "FileID": -193668885
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGManager\\GameManagerStates\\StartLoadLocalAssetBundleState.cs",
+      "OriginalGuid": "6f1e772362ebc174ab37e79c745e9c80",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGManager.GameManagerStates",
+      "ClassName": "StartLoadLocalAssetBundleState",
+      "ClassFullName": "USGFramework.Runtime.Core.USGManager.GameManagerStates.StartLoadLocalAssetBundleState",
+      "FileID": -1926470520
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\MatchAPIOpenDownloadUIEvent.cs",
+      "OriginalGuid": "a1acfb4582ddde744b045d6537fbca84",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "MatchAPIOpenDownloadUIEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.MatchAPIOpenDownloadUIEvent",
+      "FileID": 141186418
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\NetworkPrefabInitializeEvent.cs",
+      "OriginalGuid": "c6e4712ec20f22c4cb40002042e7d00a",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "NetworkPrefabInitializeEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.NetworkPrefabInitializeEvent",
+      "FileID": 38915177
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\SnapshotBuffer.cs",
+      "OriginalGuid": "dcff336bb00a26b42a2d78518335a071",
+      "ClassNamespace": "Mirage",
+      "ClassName": "SnapshotBuffer",
+      "ClassFullName": "Mirage.SnapshotBuffer",
+      "FileID": 905553282
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\TransformWithRBodyState.cs",
+      "OriginalGuid": "b5e02eff69caa854b823a7877a6c5939",
+      "ClassNamespace": null,
+      "ClassName": "Interpolator",
+      "ClassFullName": "Interpolator",
+      "FileID": -1419394636
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGLauncherCommandsLineOptions\\FirstSceneOption.cs",
+      "OriginalGuid": "d69ce3130c2a41348979a646f8bd3f18",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions",
+      "ClassName": "FirstSceneOption",
+      "ClassFullName": "USGFramework.Runtime.Core.USGLauncherCommandsLineOptions.FirstSceneOption",
+      "FileID": -346132665
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\VulcanusUtility\\TweenModule\\TweenManager.cs",
+      "OriginalGuid": "700f214a68a34504f84b65c793c4abcd",
+      "ClassNamespace": "USGFramework.Runtime.VulcanusUtility",
+      "ClassName": "TweenManager",
+      "ClassFullName": "USGFramework.Runtime.VulcanusUtility.TweenManager",
+      "FileID": -738837058
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Contents\\ContentClass\\Events\\GetAllSoundOptionEvent.cs",
+      "OriginalGuid": "ff77b6c8b69a430e834e4059af76a737",
+      "ClassNamespace": "USGFramework.Runtime.Contents.Events",
+      "ClassName": "GetAllSoundOptionEvent",
+      "ClassFullName": "USGFramework.Runtime.Contents.Events.GetAllSoundOptionEvent",
+      "FileID": 961652317
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGVoxelTerrain\\ChunkMaker\\MeshFaces.cs",
+      "OriginalGuid": "2eae8ed97b460124b97cd6b39feb36e8",
+      "ClassNamespace": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker",
+      "ClassName": "MeshFaces",
+      "ClassFullName": "USGFramework.Runtime.USGVoxelTerrain.ChunkMaker.MeshFaces",
+      "FileID": 1899519645
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGAsset\\TerrainAssets\\PriorityQueue.cs",
+      "OriginalGuid": "c796630cc6150ee448ca3864baf94da0",
+      "ClassNamespace": "USGFramework.Runtime.USGAsset.TerrainAssets",
+      "ClassName": "PriorityQueue",
+      "ClassFullName": "USGFramework.Runtime.USGAsset.TerrainAssets.PriorityQueue",
+      "FileID": 1053787988
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\TerrainServiceMessages\\AddBlocksMessage.cs",
+      "OriginalGuid": "38cfec11f90aff74d9bdf98a537c968f",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages",
+      "ClassName": "AddBlocksMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.TerrainServiceMessages.AddBlocksMessage",
+      "FileID": 1012002358
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\UGSZone\\SnapshotInterpolation\\NetworkTransform.cs",
+      "OriginalGuid": "b7c732ba141329249801b7bf8d5b136e",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGZone",
+      "ClassName": "NetworkTransform",
+      "ClassFullName": "USGFramework.Runtime.Core.USGZone.NetworkTransform",
+      "FileID": -723732518
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Log\\ForceLogger.cs",
+      "OriginalGuid": "f6b0152a457843edab9920425e8b5c97",
+      "ClassNamespace": "USGFramework.Runtime.Core.Log",
+      "ClassName": "ForceLogger",
+      "ClassFullName": "USGFramework.Runtime.Core.Log.ForceLogger",
+      "FileID": -889303395
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\GetGameObjectOwnerRequestMessage.cs",
+      "OriginalGuid": "0468d041f37bbb1469024fd0f91cceb6",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "GetGameObjectOwnerRequestMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.GetGameObjectOwnerRequestMessage",
+      "FileID": -1988107328
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\ClientCharacterNetIdSyncedEvent.cs",
+      "OriginalGuid": "95da6b1981af11c458971cbac3c34bdc",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "ClientCharacterNetIdSyncedEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.ClientCharacterNetIdSyncedEvent",
+      "FileID": 538968605
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGVoxelTerrain\\ServiceFunctions\\Events\\TerrainSyncRequestOnServerEvent.cs",
+      "OriginalGuid": "e8138a4e6869eb2429dbd517ffd7d064",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events",
+      "ClassName": "TerrainSyncRequestOnServerEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.USGVoxelTerrain.ServiceFunctions.Events.TerrainSyncRequestOnServerEvent",
+      "FileID": 615185740
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\MirageManage\\MirageInstance.cs",
+      "OriginalGuid": "b80173e2fb3663d4985e16166c24c290",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.MirageManage",
+      "ClassName": "MirageInstance",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.MirageManage.MirageInstance",
+      "FileID": -1861312033
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Framework\\Element.cs",
+      "OriginalGuid": "f817c1e935ca5bb4cb1dfe17659a98a4",
+      "ClassNamespace": "USGFramework.Runtime.Elements",
+      "ClassName": "Element",
+      "ClassFullName": "USGFramework.Runtime.Elements.Element",
+      "FileID": 1963812528
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\USGNetwork\\Messages\\LuaEventToServerMessage.cs",
+      "OriginalGuid": "0bf0bc778d2378345bf7d27427492b79",
+      "ClassNamespace": "USGFramework.Runtime.Core.USGNetwork.Messages",
+      "ClassName": "LuaEventToServerMessage",
+      "ClassFullName": "USGFramework.Runtime.Core.USGNetwork.Messages.LuaEventToServerMessage",
+      "FileID": -239234564
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Extention\\GameObjectExtention.cs",
+      "OriginalGuid": "e646c77bdb53aa6429c0c4923a5ca8af",
+      "ClassNamespace": "USGFramework.Runtime",
+      "ClassName": "GameObjectExtensions",
+      "ClassFullName": "USGFramework.Runtime.GameObjectExtensions",
+      "FileID": 628593849
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Runtime\\USGLuaFramework\\LuaComponent.cs",
+      "OriginalGuid": "cc6363343bd0e144cb1720f7fd80a449",
+      "ClassNamespace": "USGFramework.Runtime.USGLuaFramework",
+      "ClassName": "LuaComponent",
+      "ClassFullName": "USGFramework.Runtime.USGLuaFramework.LuaComponent",
+      "FileID": -1739531371
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.usgframework\\Scripts\\Core\\Events\\AssetBundleLoadFromFileCompleteEvent.cs",
+      "OriginalGuid": "8920d7a8560c921438ec4eb976c4d570",
+      "ClassNamespace": "USGFramework.Runtime.Core.Events",
+      "ClassName": "AssetBundleLoadFromFileCompleteEvent",
+      "ClassFullName": "USGFramework.Runtime.Core.Events.AssetBundleLoadFromFileCompleteEvent",
+      "FileID": -176953292
+    }
+  ]
+}

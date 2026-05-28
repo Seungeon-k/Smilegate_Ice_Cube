@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c113ff064b10c427fb3a071e46ace37d, type: 3}
+  m_Name: LayoutRuleData
+  m_EditorClassIdentifier: 
+  _layoutRule:
+    _settings:
+      _excludeUnversioned:
+        _value: 0
+      _versionExpression:
+        _value: 
+    _addressRules:
+      _internalList:
+      - _id: 6c5f75e9-c738-4270-ad77-8b276a91e14c
+        _addressableGroup: {fileID: 11400000, guid: 2f53519c51ccc384ab0440f4d56652ce, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 9c9ab204-8af8-44f0-bbc3-cb14c9dfaa8d
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 7942799574570631593
+              - rid: 7942799574570631599
+              - rid: 3843556455775207435
+        _addressProviderInternal:
+          rid: 7942799574570631585
+      - _id: b53171ab-e6ed-4aba-8156-1dba7298bb20
+        _addressableGroup: {fileID: 11400000, guid: 66fee0b568e461145b4bba5a7380833d, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: cfaa1acb-7e9c-4425-a9af-40d89ad95010
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 7942799574570631603
+              - rid: 7942799574570631611
+              - rid: 3843556593307222016
+        _addressProviderInternal:
+          rid: 7942799574570631602
+      - _id: 8aed5c71-0e9a-425d-9d9d-5aa9720a4a25
+        _addressableGroup: {fileID: 11400000, guid: cc6049c92b40e814aacf68ffa18024d4, type: 2}
+        _control:
+          _value: 0
+        _assetGroups:
+          _internalList:
+          - _id: eefa4c22-cfcd-48e5-b990-04561320ef9a
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList: []
+        _addressProviderInternal:
+          rid: 7942799573344583680
+      - _id: 5a920995-766b-42a2-bf02-1079024faef5
+        _addressableGroup: {fileID: 11400000, guid: 06978d67382d7f54bb4efccf9813c150, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: c8f45d99-9096-4f07-93e5-d6bb7339c52e
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 3843556455775207431
+              - rid: 5344083404515966982
+              - rid: 3843556455775207432
+              - rid: 3843556455775207434
+        _addressProviderInternal:
+          rid: 7942799600469934155
+      - _id: 74b4a80f-756f-4688-b44f-31b1122ff938
+        _addressableGroup: {fileID: 11400000, guid: b2c5ae60071930a43ab3386ef868492f, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 8012240b-625a-45e1-972b-201d65913873
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 5344083409844305941
+              - rid: 5344083409844305945
+              - rid: 3843556455775207433
+        _addressProviderInternal:
+          rid: 7942799574108209152
+      - _id: 0c824ebc-f397-4f9f-b76c-4d7fe47e175f
+        _addressableGroup: {fileID: 11400000, guid: 17a637a61d0b136428f3811597a3b860, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 8b9e8d5f-1b2f-42db-9ef6-641fc0444ccc
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 5344083404515966981
+              - rid: 7942799574570631600
+        _addressProviderInternal:
+          rid: 7942799573344583682
+      - _id: 09121175-139b-48c0-80a9-f31382512b91
+        _addressableGroup: {fileID: 11400000, guid: 9861bda3f28ddae49b0105bf80030311, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 31b89aa6-988e-42e9-b94f-fb28ad71456a
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 7942799574570631610
+              - rid: 7942799574570631612
+        _addressProviderInternal:
+          rid: 7942799574570631609
+      - _id: c9dd4a47-cafb-4bc8-b239-ec39706b93c4
+        _addressableGroup: {fileID: 11400000, guid: 21090ee00f4542a48bfd543854b1a127, type: 2}
+        _control:
+          _value: 1
+        _assetGroups:
+          _internalList:
+          - _id: 57997320-adad-49d7-84e0-575ee746928a
+            _name:
+              _value: New Asset Group
+            _filters:
+              _internalList: []
+        _addressProviderInternal:
+          rid: 7942799574570631588
+    _labelRules:
+      _internalList:
+      - _id: f257e261-3320-467c-a696-9510660c7255
+        _name:
+          _value: GFCommon
+        _assetGroups:
+          _internalList:
+          - _id: d8d0e4e8-78b7-49ac-a6d7-6654555f4161
+            _name:
+              _value: Default Asset Group
+            _filters:
+              _internalList:
+              - rid: 4510170427299201180
+        _labelProviderInternal:
+          rid: 4510170427299201181
+    _versionRules:
+      _internalList: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3843556455775207431
+      type: {class: DependentObjectBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: cceefa16-d3a6-4c5c-8a37-541d88e5345c
+        _onlyDirectDependencies: 0
+        _object:
+          _isListMode: 0
+          _values:
+          - {fileID: 11400000, guid: 8a648c5c2ab269f498d820a37b216726, type: 2}
+    - rid: 3843556455775207432
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: d59035ce-3c07-474b-a559-9f473ed5a28a
+        _matchWithFolders: 0
+        _condition: 3
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - Packages/com.v.gameframework.resources/Runtime
+    - rid: 3843556455775207433
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 64963fce-696f-4222-af1c-273fef604ae8
+        _matchWithFolders: 0
+        _condition: 3
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - Packages/com.v.gameframework.resources/Runtime
+    - rid: 3843556455775207434
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: e1d7f4c1-fba8-4270-94d3-2b7b110580f1
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 1
+          _values:
+          - Packages/com.vulcanus.gameframework
+          - Assets/Vulcanus
+    - rid: 3843556455775207435
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 1e543302-ab1b-479b-8432-26cff1996ef4
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 1
+          _values:
+          - Assets/Vulcanus
+          - Packages/com.vulcanus.gameframework/Templates
+    - rid: 3843556593307222016
+      type: {class: ExtensionBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: c09cc108-efc6-46a0-932f-96eb9f3739e6
+        _extension:
+          _isListMode: 1
+          _values:
+          - hlsl
+          - cginc
+        _invertMatch: 1
+    - rid: 4510170427299201180
+      type: {class: AddressableAssetGroupBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 65adf2e1-be9c-4c40-a059-291dd2670941
+        _groups:
+          _isListMode: 0
+          _values:
+          - {fileID: 11400000, guid: 66fee0b568e461145b4bba5a7380833d, type: 2}
+    - rid: 4510170427299201181
+      type: {class: AssetPathBasedLabelProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.LabelRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 1
+        _pattern: .*/([^/]+)/[^/]+$
+        _replacement: GFCommon$1
+    - rid: 5344083404515966981
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 1762a1c3-1fd0-4844-b42e-4e63f4cd79bf
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - Packages/com.unity.china.luaframework/Runtime/ToLua
+    - rid: 5344083404515966982
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 294e1465-5fe1-4258-8fc4-3eccfa16eeaf
+        _type:
+          _isListMode: 1
+          _values:
+          - _name: LuaScript
+            _fullName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript
+            _assemblyQualifiedName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript,
+              LuaFramework.Runtime.LuaAssetProcessor, Version=0.1.1.0, Culture=neutral,
+              PublicKeyToken=null
+          - _name: SceneAsset
+            _fullName: UnityEditor.SceneAsset
+            _assemblyQualifiedName: UnityEditor.SceneAsset, UnityEditor.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 1
+    - rid: 5344083409844305941
+      type: {class: DependentObjectBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 42fa6248-4afa-4174-98ed-453db304d5b8
+        _onlyDirectDependencies: 0
+        _object:
+          _isListMode: 0
+          _values:
+          - {fileID: 11400000, guid: 8a648c5c2ab269f498d820a37b216726, type: 2}
+    - rid: 5344083409844305945
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 0250b320-3dee-4304-895c-430cfff4b651
+        _type:
+          _isListMode: 0
+          _values:
+          - _name: SceneAsset
+            _fullName: UnityEditor.SceneAsset
+            _assemblyQualifiedName: UnityEditor.SceneAsset, UnityEditor.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 0
+    - rid: 7942799573344583680
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799573344583682
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574108209152
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574570631585
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574570631588
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574570631593
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: c629c2af-521e-471b-83cc-25f36319a2d8
+        _type:
+          _isListMode: 0
+          _values:
+          - _name: LuaScript
+            _fullName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript
+            _assemblyQualifiedName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript,
+              LuaFramework.Runtime.LuaAssetProcessor, Version=0.1.1.0, Culture=neutral,
+              PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 0
+    - rid: 7942799574570631599
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: d59a2cc9-ef5e-49a2-94c9-dee1146b6fa0
+        _matchWithFolders: 0
+        _condition: 3
+        _assetPathRegex:
+          _isListMode: 1
+          _values:
+          - Packages/com.unity.china.luaframework/Runtime/ToLua
+          - Packages/com.v.gameframework.resources/Runtime
+    - rid: 7942799574570631600
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: aa41a25b-c791-4bee-a1c5-652d0375654f
+        _type:
+          _isListMode: 0
+          _values:
+          - _name: LuaScript
+            _fullName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript
+            _assemblyQualifiedName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript,
+              LuaFramework.Runtime.LuaAssetProcessor, Version=0.1.1.0, Culture=neutral,
+              PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 0
+    - rid: 7942799574570631602
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574570631603
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 4ae1243b-ffc4-4378-867d-cd096ffdbd3e
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 0
+          _values:
+          - Packages/com.v.gameframework.resources/Runtime
+    - rid: 7942799574570631609
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: 
+        _replacement: 
+    - rid: 7942799574570631610
+      type: {class: RegexBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: acae520f-c740-4922-855a-c250d8149f7c
+        _matchWithFolders: 0
+        _condition: 0
+        _assetPathRegex:
+          _isListMode: 1
+          _values:
+          - Packages/com.vulcanus.gameframework/Runtime/0_Framework/Lua
+          - Packages/com.v.gameframework.resources/Runtime
+    - rid: 7942799574570631611
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 1e92b8a7-032e-4d90-b9fd-f6b023096209
+        _type:
+          _isListMode: 1
+          _values:
+          - _name: LuaScript
+            _fullName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript
+            _assemblyQualifiedName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript,
+              LuaFramework.Runtime.LuaAssetProcessor, Version=0.1.1.0, Culture=neutral,
+              PublicKeyToken=null
+          - _name: SceneAsset
+            _fullName: UnityEditor.SceneAsset
+            _assemblyQualifiedName: UnityEditor.SceneAsset, UnityEditor.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 1
+    - rid: 7942799574570631612
+      type: {class: TypeBasedAssetFilter, ns: SmartAddresser.Editor.Core.Models.Shared.AssetGroups.AssetFilterImpl, asm: SmartAddresser.Editor}
+      data:
+        _id: 06ba4934-8d12-48e6-84d1-6e277cf14341
+        _type:
+          _isListMode: 0
+          _values:
+          - _name: LuaScript
+            _fullName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript
+            _assemblyQualifiedName: LuaFramework.Runtime.LuaAssetProcessor.LuaScript,
+              LuaFramework.Runtime.LuaAssetProcessor, Version=0.1.1.0, Culture=neutral,
+              PublicKeyToken=null
+        _matchWithDerivedTypes: 1
+        _invertMatch: 0
+    - rid: 7942799600469934155
+      type: {class: AssetPathBasedAddressProvider, ns: SmartAddresser.Editor.Core.Models.LayoutRules.AddressRules, asm: SmartAddresser.Editor}
+      data:
+        _source: 2
+        _replaceWithRegex: 0
+        _pattern: GameFramework
+        _replacement: 

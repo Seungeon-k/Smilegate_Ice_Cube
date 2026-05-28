@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top">
+        <uie:ColorField value="RGBA(0.000, 1.000, 1.000, 1.000)" name="BorderColor" label="Color" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Label text="Width" display-tooltip-when-elided="true" style="margin-top: 5px;" />
+        <uie:FloatField label="Top" value="0" name="WidthTop" style="margin-left: 8px;" />
+        <uie:FloatField label="Right" value="0" name="WidthRight" style="margin-left: 8px;" />
+        <uie:FloatField label="Bottom" value="0" name="WidthBottom" style="margin-left: 8px;" />
+        <uie:FloatField label="Left" value="0" name="WidthLeft" style="margin-left: 8px;" />
+        <ui:Label text="Radius" display-tooltip-when-elided="true" style="margin-top: 5px;" />
+        <uie:FloatField label="Top-Left" value="0" name="RadiusTopLeft" style="margin-left: 8px;" />
+        <uie:FloatField label="Top-Right" value="0" name="RadiusTopRight" style="margin-left: 8px;" />
+        <uie:FloatField label="Bottom-Right" value="0" name="RadiusBottomRight" style="margin-left: 8px;" />
+        <uie:FloatField label="Bottom-Left" value="0" name="RadiusBottomLeft" style="margin-left: 8px;" />
+        <ui:VisualElement style="align-items: flex-end;">
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" style="width: 30px; height: 30px; font-size: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

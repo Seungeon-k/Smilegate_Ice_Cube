@@ -1,0 +1,10 @@
+{
+    "ID": "!String",
+    "kr": "!String",
+    "en": "!String",
+    "cn": "!String",
+    "tw": "!String",
+    "id": "!String",
+    "th": "!String",
+    "ID_INT_TEMP": "!Int"
+}

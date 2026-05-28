@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Root">
+        <ui:VisualElement name="Head" style="flex-direction: row; justify-content: space-between;">
+            <ui:Label text="Variable Type" display-tooltip-when-elided="true" name="TypeLB" style="width: 50%;" />
+            <ui:DropdownField name="TypeDF" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VTextField.uss?fileID=7433441132597879392&amp;guid=505d19bea97aa9343a50760f3848e4e4&amp;type=3#VTextField" />
+    <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" class="VTextField" />
+</ui:UXML>

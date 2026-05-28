@@ -1,0 +1,265 @@
+vexeditor = {
+    label = "VulcanusExEditor"
+    menus = [   
+
+        {
+            name = "File"
+            children = [
+                //{ name = "New Scene" }
+                //{ name = "Open Scene" }
+				null,
+                { name = "Save" }				
+                { name = "Save As..." }
+				null,
+                { name = "Save Project" }
+				null,
+                { name = "Exit" }				
+            ]
+        }
+
+        {
+            name = "Edit"
+            children = [
+                { name = "Undo" }
+                { name = "Redo" }
+				null,
+                //{ name = "Select All" }
+                //{ name = "Deselect All" }
+				//{ name = "Select Children" }
+                //{ name = "Select Prefab Root" }
+                //{ name = "Invert Selection" }
+				//null,
+                //{ name = "Cut" }
+                //{ name = "Copy" }
+                //{ name = "Paste" }
+                //{ name = "Paste As Child" }
+				//null,
+                //{ name = "Duplicate" }
+                //{ name = "Rename" }
+                //{ name = "Delete" }
+				//null,
+                { name = "Frame Selected" }
+                { name = "Lock View to Selected" }
+				null,
+                { name = "Play" }
+                { name = "Pause" }
+                { name = "Step" }
+				null,
+                { name = "Sign in..." }
+                { name = "Sign out" }
+				null,
+                //{ name = "Project Settings..." }
+                //{ name = "Preferences..." }
+				//{ name = "Shortcuts..." }
+                //{ name = "Clear All PlayerPrefs" }
+            ]
+        }
+
+        {
+            name = "Assets"
+            children = [
+                {
+                    name = "Create"
+                    children = [
+                        {
+                            name = "Framework"
+                            children = "*"
+                        }
+                        //{ name = "Folder" }
+                        //{ name = "C# Script" }
+                        //{
+                        //    name = "2D"
+                        //    children = "*"
+                        //}
+                        //{
+                        //    name = "Shader Graph"
+                        //    children = "*"
+                        //}
+                        //{
+                        //    name = "Shader"
+                        //    children = "*"
+                        //}
+                        //{ name = "Shader Variant Collection" }
+                        //{
+                        //    name = "Testing"
+                        //    children = "*"
+                        //}
+                        //{
+                        //    name = "Playables"
+                        //    children = "*"
+                        //}
+                        //{ name = "Assembly Definition" }
+                        //{ name = "Assembly Definition Reference" }
+						//{
+                        //    name = "Text"
+                        //    children = "*"
+                        //}
+						//{
+                        //    name = "TextMeshPro"
+                        //    children = "*"
+                        //}
+                        { name = "Scene" }
+                        //{ name = "Scene Template" }
+                        //{ name = "Scene Template From Scene" }
+						//{ name = "Volume Profile" }
+                        //{ name = "Scene Template Pipeline" }
+                        //{ name = "Prefab" }
+                        //{ name = "Prefab Variant" }
+                        //{ name = "Audio Mixer" }
+                        { name = "Material" }
+                        //{ name = "Lens Flare" }
+                        //{ name = "Lens Flare (SRP)" }
+                        //{ name = "Render Texture" }
+                        //{ name = "Lightmap Parameters" }
+                        //{ name = "Lighting Settings" }
+                        //{ name = "Custom Render Texture" }
+                        //{ name = "Animator Controller" }
+                        //{ name = "Animation" }
+                        //{ name = "Animator Override Controller" }
+                        //{ name = "Avatar Mask" }
+                        //{ name = "Timeline" }
+                        //{ name = "Signal" }
+						{ name = "Physic Material" }
+                        //{ name = "GUI Skin" }
+                        //{ name = "Custom Font" }
+                        //{
+						//	name = "Legacy"
+						//	children = "*"
+						//}
+                        //{
+						//	name = "UI Toolkit"
+						//	children = "*"
+						//}						
+                        //{
+						//	name = "Search"
+						//	children = "*"
+						//}						
+						//{ name = "Brush" }
+						//{ name = "Terrain Layer" }
+						//{ name = "DataSheet" }
+						//{ name = "Lua Behaviour" }
+						//{ 
+						//	name = "Block"
+						//	children = "*"
+						//}
+						//{ 
+						//	name = "Cinemachine"
+						//	children = "*"
+						//}
+						//{ 
+						//	name = "Rendering"
+						//	children = "*"
+						//}
+                    ]
+                }
+                { name = "Show in Explorer" }
+                { name = "Open" }
+                { name = "Delete" }
+                { name = "Rename" }
+	            { name = "Copy Path" }
+				null,
+                { name = "Import New Asset..." }
+				{ 
+					name = "Import Package"
+					children = "*"
+				}
+				null,
+				{ name = "Refresh" }
+                { name = "Reimport" }
+				null,
+                { name = "Reimport All" }
+				null,
+                //{ name = "Properties..." }
+            ]
+        }
+        //{
+        //    name = "GameObject"
+        //	children = "*"
+        //}
+        //{
+        //    name = "Component"
+        //	children = "*"
+        //}
+        {
+            name = "VEditor"
+            children = "*"
+        }
+		{
+            name = "[Lo:LocalizationTestMenu]"
+			children = [
+				{ name = "[Lo:TestMenu]" }
+			]
+		}
+		
+        {
+            name = "Window"
+            children = [
+                //{
+                //    name = "Audio"
+                //    children = [
+                //        { name = "Audio Mixer" }
+                //    ]
+                //}
+                //{
+                //    name = "AI"
+                //    children = [
+                //        { name = "Navigation" }
+                //    ]
+                //}
+                //{
+                //    name = "Sequencing"
+                //    children = [
+                //        { name = "Timeline" }
+                //    ]
+                //}
+                {
+                    name = "Animation"
+                    children = [
+                        { name = "Animation" }
+                        { name = "Animator" }
+                        { name = "Animator Parameter" }
+                    ]
+                }
+                //{
+                //    name = "Rendering"
+                //    children = [
+                //        { name = "Lighting" }
+                //        { name = "Light Explorer" }
+                //        { name = "Render Pipeline Converter" }
+                //        { name = "Occlusion Culling" }
+                //        { name = "Probe Volume Settings (Experimental)" }
+                //        { name = "Look Dev" }
+                //    ]
+                //}
+                //{
+                //    name = "Vulcanus General"
+                //    children = [
+                //        { name = "Scene" }
+                //        { name = "Game" }
+                //        { name = "Vulcanus Inspector" }
+                //        { name = "Vulcanus Hierarchy" }
+                //        { name = "Palette" }
+                //        { name = "Project" }
+                //        { name = "Console" }
+                //    ]
+                //}
+                //{
+                //    name = "Layouts"
+                //    children = [
+                //        { name = "Vulcanus" }
+                //    ]
+                //}
+                //{ name = "Asset Store" }
+                //{ name = "Package Manager" }
+                //{
+                //    name = "Asset Management"
+                //    children = [
+                //        { name = "Version Control" }
+                //    ]
+                //}
+            ]
+        }
+
+    ]
+
+}

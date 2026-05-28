@@ -1,0 +1,17 @@
+{
+    "Pet": "!String",
+    "Pet_Category": "!String",
+    "Pet_Category_Name": "!String",
+    "ItemName": "!String",
+    "ItemDesc": "!String",
+    "ItemGrade": "!String",
+    "Icon": "!String",
+    "SeedData_Name": "!String",
+    "ModelData_Name": "!String",
+    "Pet_Prefab": "!String",
+    "Pet_Collection_Season": "!String",
+    "Cutscene_Scale": "!Float",
+    "Inven_Scale": "!Float",
+    "NamePlate_Y": "!Float",
+    "ID_INT_TEMP": "!Int"
+}

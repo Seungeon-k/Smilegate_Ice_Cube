@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VSkin/USS/USS_Size.uss?fileID=7433441132597879392&amp;guid=03b1c1f61697b564ea5f93d6eb59ab10&amp;type=3#USS_Size" />
+    <ui:VisualElement name="Top" style="flex-direction: column; width: 100%; height: 100%;">
+        <ui:VisualElement name="Layout" style="flex-direction: row; width: 100%;">
+            <ui:VisualElement name="Side1" style="width: 20%;">
+                <ui:Label text="Size" display-tooltip-when-elided="true" style="margin-top: 20px;" />
+                <ui:Label text="Max" display-tooltip-when-elided="true" style="margin-top: 15px;" />
+                <ui:Label text="Min" display-tooltip-when-elided="true" style="margin-top: 15px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Side2" style="width: 40%; height: 100%;">
+                <ui:Label text="Width" display-tooltip-when-elided="true" />
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="Width" class="FloatField" />
+                    <ui:DropdownField choices="px,%,Auto,initial" index="0" name="WidthDropDown" class="DropDown" />
+                </ui:VisualElement>
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="MaxWidth" class="FloatField" />
+                    <ui:DropdownField choices="px,%,none,initial" index="0" name="MaxWidthDropDown" class="DropDown" />
+                </ui:VisualElement>
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="MinWidth" class="FloatField" />
+                    <ui:DropdownField choices="px,%,Auto,initial" index="0" name="MinWidthDropDown" class="DropDown" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Side3" style="width: 40%; height: 100%;">
+                <ui:Label text="Height" display-tooltip-when-elided="true" />
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="Height" class="FloatField" />
+                    <ui:DropdownField choices="px,%,Auto,initial" index="0" name="HeightDropDown" class="DropDown" />
+                </ui:VisualElement>
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="MaxHeight" class="FloatField" />
+                    <ui:DropdownField choices="px,%,none,initial" index="0" name="MaxHeightDropDown" class="DropDown" />
+                </ui:VisualElement>
+                <ui:VisualElement name="FieldLayout" class="FieldLayout">
+                    <uie:FloatField value="42.2" name="MinHeight" class="FloatField" />
+                    <ui:DropdownField choices="px,%,Auto,initial" index="0" name="MinHeightDropDown" class="DropDown" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="align-items: flex-end;">
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" style="width: 30px; height: 30px; font-size: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

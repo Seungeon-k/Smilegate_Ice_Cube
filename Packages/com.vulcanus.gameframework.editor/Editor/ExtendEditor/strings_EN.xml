@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Time Elapsed">Set the duration for which the sequence remains active during runtime.</string>
+  <string name="Name">Name</string>
+  <string name="Sequence End Type">Set the type for ending the active sequence.</string>
+  <string name="Time">Time</string>
+  <string name="Event Name">Specify the event name or message used for broadcasting.</string>
+  <string name="Event Type">Set the method for event communication.</string>
+  <string name="Set as Start Point">Set this location as the initial spawn point.</string>
+  <string name="Spawn Range Radius">Spawn the player at a random position within a radius centered around the device.</string>
+  <string name="Spawn Type">Set the spawn type.</string>
+  <string name="Neutral">Spawns neutral players.</string>
+  <string name="Team Color">Assigns players to a team (color group) and spawns them.</string>
+  <string name="Player Setting Data">Select the player data. This data can be added in the game settings under the player section.</string>
+  <string name="Appearance Type">Set how the spawning character appears.
+    • Balloon: Drops with a balloon. Cannot be canceled manually.
+    • Balloon Glide: Glides with a balloon. Can be canceled manually.</string>
+  <string name="CameraEndType">Set the camera transition type when it ends.
+    • Return To Player: Switch to the player camera.
+    • Return To Another Camera: Switch to a designated camera.</string>
+  <string name="FinishRecoverType">Set the camera state after the sequence ends.
+    • Keep State: Restore the initial camera settings.
+    • Recover State: Maintain the final position after the sequence ends.</string>
+  <string name="CameraSustainTime">Set the condition for currently activated camera.
+    • Infinity: Keep the camera active indefinitely until an event ends it.
+    • By Camera Path: End the camera when it reaches the path's end.
+    • Time Value: End the camera after the specified duration.</string>
+  <string name="Type">Set the camera state.
+    • Fixed Cam: Fixed-position camera.
+    • Dolly Cam: Moving camera.</string>
+  <string name="Target">Set the target the camera looks at.</string>
+  <string name="Look at forward on path">Set the camera's viewing direction while moving.
+    • Checked: Keep the camera direction fixed.
+    • Unchecked: Adjust the camera direction according to the path.</string>
+  <string name="FOV">Set the camera's field of view (FOV).</string>
+  <string name="Near">Set the minimum render distance for the camera.</string>
+  <string name="Far">Set the maximum render distance for the camera.</string>
+  <string name="Speed1">Set the default movement speed when using the camera path.</string>
+  <string name="Roll">Set the camera roll angle along the path.</string>
+  <string name="Speed2">Set individual movement speeds between path points.</string>
+  <string name="Pitch Angle">Rotate the camera up or down relative to the horizontal axis.
+    • + Value: Rotate downward.
+    • - Value: Rotate upward.</string>
+  <string name="Yaw Angle">Rotate the camera left or right relative to the vertical axis.
+    • + Value: Rotate left.
+    • - Value: Rotate right.</string>
+  <string name="Arrival Delay">Set the delay time before the camera moves after reaching a path point.</string>
+  <string name="Path Length">Display the length of the path.</string>
+  <string name="Current Position">Display the current camera position.</string>
+  <string name="Item Name">Set the item name.</string>
+  <string name="HUD_Button Slot Number">Assign a button slot for item usage.</string>
+  <string name="Button Action Type">Set the item usage method.
+    • START: Trigger animation when pressing the button.
+    • END: Trigger animation when releasing the button.</string>
+  <string name="Max Count">Set the maximum number of items a player can hold.</string>
+  <string name="Cool Time">Set the cooldown time before the item can be reused.</string>
+  <string name="Item Icon">Set the icon displayed on the HUD button.</string>
+  <string name="Part Type">Select the part where the item is placed.
+    • None: Do not place the item.
+    • Head_Acc: Head
+    • Face_Acc: Face
+    • Back_Acc: Back
+    • Right_Weapon: Right hand
+    • Left_Weapon: Left hand.</string>
+  <string name="Is Stack">Enable item stacking.
+    • Stack Time: Time required to charge the item.
+    • Max Stack: Maximum stackable amount.</string>
+  <string name="Part Offset Position">Set the item's position offset when attached to a part.</string>
+  <string name="Part Offset Rotation">Set the item's rotation offset when attached to a part.</string>
+  <string name="Part Offset Scale">Set the item's scale offset when attached to a part.</string>
+  <string name="Idel Animation Clipo">Change the default animation when the item is equipped.</string>
+  <string name="Running Animation Clipo">Change the running animation when the item is equipped.</string>
+  <string name="Attack Animation Clipo">Change the attack animation when the item is equipped.</string>
+  <string name="Is Upper Animation">Apply the animation to the upper body only.
+    • Checked: Apply animation to the entire body.
+    • Unchecked: Apply animation only to the upper body.</string>
+  <string name="Min Player Count">Set the minimum number of players required to start the game.</string>
+  <string name="Max Player Count">Set the maximum number of players allowed in the game.</string>
+  <string name="Additional Recruitment">Set the player recruitment condition.
+    • Forbidden: Start the game when the minimum number of players is reached.
+    • Allowed: Continue recruiting until the maximum number of players is reached.</string>
+  <string name="Recruitment Time">Set the waiting time for players to join until the maximum count is reached.</string>
+  <string name="Pre Game Time">Set the duration to stay on the Pre-Game Scene before the game starts, regardless of player recruitment status.</string>
+  <string name="LuaScript1">Define a custom Lua script for the entire game.</string>
+  <string name="Max Move Speed">Set the character's maximum movement speed.</string>
+  <string name="Rotation Time">Set the character's rotation speed.</string>
+  <string name="VariableGroup">Set variables to apply to the player or character.</string>
+  <string name="LuaScript2">Define a custom Lua script for the character.</string>
+  <string name="Default Life Quantity">Set the initial life count at game start.</string>
+  <string name="MaximumTotalLigeLayout">Set the maximum number of lives a player can hold.</string>
+  <string name="Player HUD(UI) Visible">Display the player's life count on the HUD.</string>
+  <string name="Name Plate HUD Visible">Display the player's nameplate on the HUD.</string>
+  <string name="Default Star Quantity">Set the initial number of Stars the player starts with.</string>
+  <string name="Maximum Total Star">Set the maximum number of Stars a player can hold.</string>
+  <string name="Game Play Scene">Assign the scene file used for this stage.</string>
+  <string name="Stage Icon Image">Set the stage icon displayed in the game UI.</string>
+  <string name="Number of Stars">Set the number of stars required for the exchange.</string>
+  <string name="Exchange Item">Set the item acquired by exchanging stars.</string>
+  <string name="Number of Item">Set the number of items received per exchange.</string>
+  <string name="Duplicationdata Warning">Using the same Value key will not work properly.</string>
+  <string name="Value Key Error">Please check the Variable component and Value key setup on the linked object.</string>
+</resources>

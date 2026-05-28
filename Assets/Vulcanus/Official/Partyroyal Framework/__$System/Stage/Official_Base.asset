@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1678894900, guid: 8ac59772327e27a41b98b1bc5f1c9381, type: 3}
+  m_Name: Official_Base
+  m_EditorClassIdentifier: 
+  _assetKey: f3b76e46bc086b7479767ac4ec7eb1b7
+  _sceneAsset: {fileID: 102900000, guid: 427a672eb57aeec48be4a85cca048a7d, type: 3}
+  _sceneName: Official_Base Scene
+  sceneImage: {fileID: 0}
+  _gameData: {fileID: 0}
+  luaScript: {fileID: 0}
+  stageName: Base Stage
+  stageSummary: Create a game with the basic stage.
+  stageImage: {fileID: 2800000, guid: 5b99cb8461526a640ae34810bb90c44d, type: 3}
+  stageIcon: {fileID: 0}
+  editorTemplateType: 1
+  editorSourceType: 1
+  editorStageType: 2

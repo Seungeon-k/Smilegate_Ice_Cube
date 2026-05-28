@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829a16e33af47a7408859e241913af57, type: 3}
+  m_Name: ResourceManager
+  m_EditorClassIdentifier: 
+  _pixelCanvasRootPerfab: {fileID: 3406400414000337700, guid: 4797989afdceec8418af9ebda4928c33,
+    type: 3}
+  _vulcanusSimpleLitShader: {fileID: 4800000, guid: 9adc214ed129591449983e55269973ca,
+    type: 3}
+  _vulcanusLitShader: {fileID: 4800000, guid: 50e9c7c5b31032c459a8b23e6176bfa0, type: 3}
+  _diffRegionShader: {fileID: 7200000, guid: 72bf7ae267d020146ae06957ecb78a61, type: 3}
+  _colorDiffShader: {fileID: 4800000, guid: 3491e17bd005a0140a67d2114c9f2c03, type: 3}
+  _undoRedoShader: {fileID: 4800000, guid: 898d75ad7ffec5a48af4b95b271f8044, type: 3}
+  _brushShader: {fileID: 4800000, guid: 350e4bdb34250de4c86cf8e6f07db030, type: 3}
+  _drawingLayerMergerShader: {fileID: 4800000, guid: f43117de3e077254589f147a95f4bf2e,
+    type: 3}
+  _uvOutlineShader: {fileID: 4800000, guid: 13278048e6ebfdf4080472a6f5412398, type: 3}
+  _modelThumbnailShader: {fileID: 4800000, guid: 868fa921b599d7944b63c1823ab2b7c6,
+    type: 3}
+  _meshLocalPositionBakerShader: {fileID: 4800000, guid: 0967f2efd2d83fc4e9df4cfc5b3095ae,
+    type: 3}
+  _brushProjectorShader: {fileID: 4800000, guid: e3b162bb9feeb164e8b20b27a021d268,
+    type: 3}
+  _projectionBrushApplierShader: {fileID: 4800000, guid: 5cc4bfdaa6e0ea247834f617b07a2ca1,
+    type: 3}
+  _depthBakerShader: {fileID: 4800000, guid: 507e5e665aec3b146a9248f113e11c96, type: 3}
+  _depthCopierShader: {fileID: 4800000, guid: e06cb500b6964a046915f8b4ad58f2f9, type: 3}
+  _jumpFloodShader: {fileID: 4800000, guid: 9503927488e5be244ad9bc9ec61360b2, type: 3}
+  _regionDrawerShader: {fileID: 4800000, guid: f589457d6f52f7944b1477eb0402d8ff, type: 3}
+  _sdfMergerShader: {fileID: 4800000, guid: c9ffe779f9181964fa46bfd3a4e17489, type: 3}
+  _upscaleShader_Xbrz: {fileID: 4800000, guid: 8b3630348019a1049babff54a8de524c, type: 3}
+  _seedTarget: {fileID: 0}
+  _drawingLayerTarget: {fileID: 0}
+  _mergedTarget: {fileID: 0}
+  _canvasTarget: {fileID: 0}
+  _scaledTarget: {fileID: 0}
+  _colorDiffTarget: {fileID: 0}
+  _dummyModelMaterial: {fileID: 2100000, guid: 5c21fc2230c0df644be140cf85653502, type: 2}
+  _modelPrefabMaterial: {fileID: 2100000, guid: 453e0fcedc175614aa7452eb9ce5a3b0,
+    type: 2}
+  _mergedImageUIMaterial: {fileID: 2100000, guid: 7071658d75eb1cf4b96ea6173d9cc707,
+    type: 2}
+  _seedTexture: {fileID: 0}
+  _errorImage: {fileID: 2800000, guid: c62f669dc774872499011a2cd35c0a47, type: 3}
+  _doubleTabTimeThreshold: 0.2
+  _zoomMinMax:
+    x: 0.5
+    y: 50
+  _brushMinMaxSize:
+    x: 1
+    y: 20
+  _brushSoftnessMinMax:
+    x: 0
+    y: 1
+  _brushMinMaxFlow:
+    x: 0
+    y: 1
+  _paintMinMaxThreshold:
+    x: 0
+    y: 1
+  _fingerToolTimeThreashold: 0.5
+  _fingerToolDragThreashold: 5
+  _zoomAngleThreashold: 20
+  _cameraRotationSensitivity: 2
+  _cameraRotationDampingFactor: 10
+  _thumbnailLightDirection:
+    x: -1
+    y: 1
+    z: 1
+  _thumbnailCameraTarget:
+    x: 0
+    y: 0.3
+    z: 0
+  _thumbnailCameraOffsetDirection:
+    x: -0.4
+    y: 0.2
+    z: 1
+  _thumbnailCameraDistance: 1.2
+  _thumbnailCameraFOV: 60
+  _thumbnailPadding: 0.2
+  _thumbnailGausianBlurRadius: 15
+  _geodesicDomeRadius: 3
+  _geodesicDomeFrequency: 6
+  _raySurfaceNormalAllowance: 0.94
+  _thumbnailEmptyMark: {fileID: 2800000, guid: 6f6f2c51fb86e3842917ba162b4b0e20, type: 3}
+  _brushBoardMoverMultiplier: 2
+  _audioClips:
+  - {fileID: 8300000, guid: 51efeeb27c438344b99a07746e46df9d, type: 3}
+  - {fileID: 8300000, guid: 4ab83b12c4595e849b0efa4640c919e4, type: 3}
+  - {fileID: 8300000, guid: df3593737f397874c95bb4079aae1aba, type: 3}
+  - {fileID: 8300000, guid: d05f56d3ef925c24daa530ab31cfbefe, type: 3}

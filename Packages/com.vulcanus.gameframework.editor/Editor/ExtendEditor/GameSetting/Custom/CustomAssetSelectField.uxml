@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" ue="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="display: flex; height: auto; width: auto; flex-direction: row; margin-left: 0; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0);">
+        <ui:Label text="Label" display-tooltip-when-elided="true" style="width: 150px; -unity-text-align: middle-left;" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:VisualElement style="width: 25px; height: 25px;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" />
+            <ui:Button text="Select&#10;" display-tooltip-when-elided="true" style="background-image: none; width: 80px; -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

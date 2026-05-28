@@ -1,0 +1,12 @@
+.VToolbarButton {
+    background-color: rgb(47, 47, 55);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.VToolbarButton:checked {
+    background-color: rgb(59, 59, 67);
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}

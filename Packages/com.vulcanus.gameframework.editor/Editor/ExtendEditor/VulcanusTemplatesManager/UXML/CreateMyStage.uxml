@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisuaElement" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+            <ui:Label tabindex="-1" text="생성 순서" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Label tabindex="-1" text="기존 MyStage삭제 -&gt; MyStage변경할 Stage선택 -&gt; MyStage생성" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="1. 삭제할 Stage선택" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="margin-top: 10px; display: none;" />
+        <ui:VisualElement name="MyStageListContainer" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; display: none;" />
+        <ui:Label tabindex="-1" text="1. MyStage로 변경할 Stage 선택" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="margin-top: 10px;" />
+        <ui:VisualElement name="ChangeMyStageListContainer" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 5px; margin-right: 5px; margin-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
+        <ui:Label tabindex="-1" text="2. MyStage 생성 타겟" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 10px;" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateCheck" style="margin-top: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+        <ui:Button text="생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Create" />
+        <ui:Button text="취소" parse-escape-sequences="true" display-tooltip-when-elided="true" name="none" />
+    </ui:VisualElement>
+</ui:UXML>

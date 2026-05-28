@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1; height: 20px; max-height: 20px; min-height: 20px; flex-direction: row; width: 100%; justify-content: space-around; margin-left: 0; align-items: center;">
+        <ui:VisualElement name="AssetLabelTabel" style="flex-grow: 1; flex-direction: row; min-width: 90%; min-height: 20px; width: 90%;" />
+        <ui:VisualElement name="AssetLabelOpenButton" style="flex-grow: 0; width: 20px; height: 20px; align-items: stretch; justify-content: center; max-height: 20px; min-height: 20px; -unity-text-align: middle-left; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: 20px; padding-right: 0; margin-right: 15px; margin-left: 0;">
+            <ui:VisualElement name="Icon" picking-mode="Ignore" style="flex-grow: 1; width: 20px; height: 20px; min-width: 20px; min-height: 20px; background-color: rgb(34, 73, 128); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

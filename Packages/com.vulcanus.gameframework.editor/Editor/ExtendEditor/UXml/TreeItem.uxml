@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="TreeItem" style="flex-direction: row; align-items: center; background-color: rgba(0, 0, 0, 0); opacity: 1; height: 16px; flex-basis: auto;">
+        <ui:VisualElement name="SpaceVE" style="height: auto; width: 1px; background-color: rgba(0, 0, 0, 0); display: flex; max-width: 1px; min-width: 1px; max-height: initial; min-height: initial;" />
+        <ui:VisualElement name="ArrowIconVE" style="height: 12px; width: 12px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/arrow-right@2x.png?fileID=2800000&amp;guid=4f8299463706a024a91d16c223c890ec&amp;type=3#arrow-right@2x&quot;); rotate: 0; -unity-background-scale-mode: stretch-to-fill; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; max-width: 12px; max-height: 12px; min-width: 12px; min-height: 12px; display: flex;" />
+        <ui:VisualElement name="FoldIconVE" style="height: 16px; width: 16px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/1.png?fileID=2800000&amp;guid=39c684f4316c96941ba4f5e3185a809b&amp;type=3#1&quot;); max-width: 16px; max-height: 16px; min-width: 16px; min-height: 16px;" />
+        <ui:Label text="CategoryName" display-tooltip-when-elided="true" name="NameLB" style="align-items: center; width: auto; height: 20px; justify-content: center; -unity-text-align: middle-left; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-basis: auto; flex-shrink: 0; flex-grow: 0;" />
+        <ui:VisualElement name="NameChangeVE" style="overflow: visible; width: auto; position: absolute; bottom: 0; left: 14px; top: 0; right: 0; display: none;">
+            <ui:TextField picking-mode="Ignore" value="filler text" name="NameChangeTF" style="overflow: visible;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

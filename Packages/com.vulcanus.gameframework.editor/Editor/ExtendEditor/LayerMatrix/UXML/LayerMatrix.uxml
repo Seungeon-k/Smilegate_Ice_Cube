@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Top" style="flex-grow: 1;">
+        <ui:VisualElement name="Horizontal" style="height: 100px; flex-direction: row; flex-grow: 0;">
+            <ui:VisualElement name="empty" style="height: 100%; min-width: 100px;" />
+            <ui:VisualElement name="HorizontalNames" style="flex-direction: row; -unity-text-align: upper-left; justify-content: flex-start; align-items: flex-end;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="rotate: 90deg; width: 18px; height: 18px; -unity-text-align: middle-right; align-items: stretch;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Vertical" style="flex-direction: row;">
+            <ui:VisualElement name="VerticalNames" style="align-items: flex-end; min-width: 100px;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="height: 18px; -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" focusable="false">
+                <GlobalCustomUI.VToggle value="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

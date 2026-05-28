@@ -1,0 +1,11 @@
+{
+    "name": "com.v.common.resources",
+    "displayName": "Common Resources",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Shared runtime assets (textures, prefabs, materials) and editor resources.",
+    "keywords": ["resources","shared","common"],
+    "author": { "name": "Smilegate" },
+    "dependencies": {}
+}
+

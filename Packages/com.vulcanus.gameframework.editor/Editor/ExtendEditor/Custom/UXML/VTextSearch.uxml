@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Custom/USS/VTextSearch.uss?fileID=7433441132597879392&amp;guid=d9377e729723a964686a3c00174ea4c9&amp;type=3#VTextSearch" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <ui:VisualElement name="Top" class="FieldBorder FieldBackground Background" style="width: auto; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; flex-grow: 0; flex-shrink: 0; height: auto;">
+        <ui:VisualElement name="Layout" style="flex-direction: row; flex-shrink: 1; height: auto;">
+            <ui:Button display-tooltip-when-elided="true" name="FindButton" class="FindButton" style="flex-shrink: 0; flex-grow: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; background-color: rgba(111, 62, 62, 0); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; justify-content: center; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);">
+                <ui:VisualElement picking-mode="Ignore" class="OnFieldIcon" style="width: 15px; height: 15px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Img/icons/search.png?fileID=2800000&amp;guid=eddb16fcc3e648647b7f246873dd52f3&amp;type=3#search&quot;);" />
+            </ui:Button>
+            <ui:TextField picking-mode="Ignore" name="SearchField" is-delayed="false" class="TextField OnFieldText" style="flex-shrink: 1; width: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-grow: 1;" />
+            <ui:Button display-tooltip-when-elided="true" name="DeleteButton" class="DeleteButton" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(88, 88, 88, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; justify-content: center; align-items: center; display: flex;">
+                <ui:Label text="×" display-tooltip-when-elided="true" class="OnFieldText" style="width: 15px; height: 15px; -unity-text-align: lower-center; font-size: 15px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

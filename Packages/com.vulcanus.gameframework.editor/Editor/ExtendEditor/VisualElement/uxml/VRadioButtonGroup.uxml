@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VRadioButtonGroup.uss?fileID=7433441132597879392&amp;guid=12f2cf31bdcb3f6449648cd31a6d0299&amp;type=3#VRadioButtonGroup" />
+    <ui:RadioButtonGroup label="Radio Button Group" value="-1" class="VRadioButtonGroup" />
+</ui:UXML>

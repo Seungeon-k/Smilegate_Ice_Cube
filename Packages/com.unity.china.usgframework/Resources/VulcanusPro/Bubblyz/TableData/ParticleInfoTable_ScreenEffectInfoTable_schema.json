@@ -1,0 +1,6 @@
+{
+    "ID": "!String",
+    "PrefabName": "!String",
+    "LifeTime": "!Int",
+    "ID_INT_TEMP": "!Int"
+}

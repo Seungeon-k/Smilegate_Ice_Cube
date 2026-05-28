@@ -1,0 +1,127 @@
+vexeditor = {
+    label = "VulcanusExEditor"
+
+    layouts = [
+        "Packages/com.vulcanus.gameframework/Editor/ExtendEditor/DevLayout.wlt"
+    ]
+
+    layout = {
+    }
+
+    pane_types = [
+        "Palette"
+        "VulcanusHierarchy"
+        "VulcanusInspector"
+        "VulcanusSceneView"
+        "GameView"
+    ]
+
+    menus = [   
+
+        {
+            name = "File"
+            children = [
+                { name = "Save" }				
+                null,
+				null,
+                { name = "Save Project" }
+				null,
+                { name = "Exit" }				
+            ]
+        }
+
+        {
+            name = "Edit"
+            children = [
+                { name = "Undo" }
+                { name = "Redo" }
+                { name = "Undo History" }
+				null,
+                { name = "Cut" }
+                { name = "Copy" }
+                { name = "Paste" }
+				null,
+                { name = "Duplicate" }
+                { name = "Rename" }
+                { name = "Delete" }
+				null,
+                { name = "Frame Selected" }
+                { name = "Lock View to Selected" }
+				null,
+				{ name = "Layer Collision Matrix" }
+                { name = "Play" }
+                { name = "Pause" }
+                { name = "Step" }
+				null,
+                { name = "Sign in..." }
+                { name = "Sign out" }
+				null,
+				{
+					name = "Rendering"
+                    children = [            
+                        {
+							name = "Materials"
+							children = [            
+								{ name = "Convert Selected Built-in Materials to URP" }
+							]
+						}
+                    ]
+				}
+            ]
+        }
+        {
+            name = "Assets"
+            children = [            
+                { name = "Show in Explorer" }
+				null,
+				{ name = "Refresh" }				
+            ]
+        }
+        {
+            name = "VEditor"
+            children = "*"
+        }
+		{
+            name = "Admin"
+            children = "*"
+        }
+        {
+            name = "Window"
+            children = [
+                {
+                    name = "Animation"
+                    children = "*"
+                }
+                {
+                    name = "Layouts"
+                    children = [            
+                        { name = "default" }
+                        { name = "2x3" }
+                        { name = "vertical" }
+                        { name = "horizontal" }
+                        { name = "4split" }				
+                    ]
+                }
+                {
+                    name = "TextMeshPro"
+                    children = "*"
+                }
+            ]
+        }
+		{
+            name = "Help"
+			children = [
+                { name = "About ZAMMYSMITH" }
+            ]
+        }
+
+    ]
+
+    capabilities = {
+        //host_view_generic_menu = false
+    }
+
+    execute_handlers = {
+    }
+
+}

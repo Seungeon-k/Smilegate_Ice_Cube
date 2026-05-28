@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/Uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VToolbarToggle.uss?fileID=7433441132597879392&amp;guid=d4595b12346e7b145afd9417fd6ffab8&amp;type=3#VToolbarToggle" />
+    <uie:ToolbarToggle label="Toggle" class="VToolbarToggle" />
+</ui:UXML>

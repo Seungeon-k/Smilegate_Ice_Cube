@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Footer" style="flex-direction: row;">
+        <ui:VisualElement name="AddBtnVE" style="height: 20px; flex-grow: 1; flex-direction: column;">
+            <ui:Button display-tooltip-when-elided="true" name="AddBtn" style="flex-direction: row; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; align-items: center;">
+                <ui:VisualElement name="IconVE" style="height: 16px; width: 16px; background-image: url(&quot;project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/InspectorVE/StyleSheets/Icon/Icon_Edit_36.png?fileID=2800000&amp;guid=fdc2910515cc74548afb5e8fcc017f80&amp;type=3#Icon_Edit_36&quot;); justify-content: center; align-items: center; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="AddLabel" style="height: 20px;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="PasteBtnVE" style="height: 20px; flex-direction: column; width: auto;">
+            <ui:Button display-tooltip-when-elided="true" name="PasteBtn" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; flex-direction: row; justify-content: center;">
+                <ui:Label text="Paste" display-tooltip-when-elided="true" name="Paste" style="height: 20px; padding-top: 0; padding-right: 10px; padding-bottom: 0; padding-left: 10px; background-color: rgba(0, 0, 0, 0);" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VVector2IntField.uss?fileID=7433441132597879392&amp;guid=b9dbed858a74fd048bc13727137e41ae&amp;type=3#VVector2IntField" />
+    <uie:Vector2IntField label="Vector2Int" class="VVector3Field VVector2IntField" />
+</ui:UXML>

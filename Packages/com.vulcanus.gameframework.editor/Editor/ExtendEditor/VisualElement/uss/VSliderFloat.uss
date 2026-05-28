@@ -1,0 +1,48 @@
+.VSliderFloat {
+    flex-direction: row;
+    align-items: center;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.VSliderFloat > Label {
+    width: 35%;
+    color: var(--text-primary-default);
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.child .VSliderFloat > Label {
+    padding-left: 6px;
+    width: 35%;
+    min-width: 35%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.VSliderFloat > VisualElement {
+    width: 65%;
+    min-width: 65%;
+}
+
+.VSliderFloat > VisualElement > #unity-text-field > #unity-text-input {
+    background-color: var(--original-background-field);
+    border-color: var(--background-container-01);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 5%;
+    min-width: 5%;
+}

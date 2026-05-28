@@ -1,0 +1,18 @@
+{
+    "ID": "!String",
+    "PrefabName": "!String",
+    "AttachToTrasnform": "!Bool",
+    "RemoveOnAnimationChange": "!Bool",
+    "LifeTime": "!Float",
+    "Tier": "!Int",
+    "TransformLocation": "!String",
+    "CheckVisibleState": "!Bool",
+    "PositionOffset": "!Vector3",
+    "RotationOffset": "!Vector3",
+    "LocalScale": "!Vector3",
+    "TraceOwnerPosition": "!Bool",
+    "ApplyRootRotation": "!Bool",
+    "UniuquePerCharacter": "!Bool",
+    "Billboard": "BillboardType",
+    "ID_INT_TEMP": "!Int"
+}

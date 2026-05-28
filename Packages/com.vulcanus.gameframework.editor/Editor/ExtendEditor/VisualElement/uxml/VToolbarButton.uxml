@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/Global/uss/Color.uss?fileID=7433441132597879392&amp;guid=2fa9a26ed481233489415947ff8a0e89&amp;type=3#Color" />
+    <Style src="project://database/Packages/com.vulcanus.gameframework.editor/Editor/ExtendEditor/VisualElement/uss/VToolbarButton.uss?fileID=7433441132597879392&amp;guid=e4a08a2d2eee1734094bc666afc21b7a&amp;type=3#VToolbarButton" />
+    <uie:ToolbarButton text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="VToolbarButton" />
+</ui:UXML>

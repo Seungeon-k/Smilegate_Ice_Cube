@@ -1,0 +1,590 @@
+{
+  "Name": "LuaFramework.Runtime",
+  "DllPath": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\build\\DLL\\Editor\\LuaFramework.Runtime.dll",
+  "Files": [
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Custom\\BaseClass\\WrapperClassSettingsBase.cs",
+      "OriginalGuid": "811b1d29f5cc26f4f8f7bf09f875309c",
+      "ClassNamespace": "LuaFramework.Runtime.Custom",
+      "ClassName": "WrapperClassSettingsBase",
+      "ClassFullName": "LuaFramework.Runtime.Custom.WrapperClassSettingsBase",
+      "FileID": 1786869232
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\Il2cppType.cs",
+      "OriginalGuid": "3b89f9152d985544ca912aaea27d0718",
+      "ClassNamespace": "LuaFramework.Runtime.Misc",
+      "ClassName": "Il2cppType",
+      "ClassFullName": "LuaFramework.Runtime.Misc.Il2cppType",
+      "FileID": -392955335
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaFileUtils.cs",
+      "OriginalGuid": "bc1dfae6a246cdf418b607701b2dfc7c",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaFileUtils",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaFileUtils",
+      "FileID": -1551367565
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_DelegateWrap.cs",
+      "OriginalGuid": "86ed9798a2c5dc74e9018394dfc827ea",
+      "ClassNamespace": "LuaFramework.Runtime.Generate",
+      "ClassName": "System_DelegateWrap",
+      "ClassFullName": "LuaFramework.Runtime.Generate.System_DelegateWrap",
+      "FileID": 1748096490
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_LuaOutWrap.cs",
+      "OriginalGuid": "6ba873a052f57bc45890275ec67bb4dc",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_LuaOutWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_LuaOutWrap",
+      "FileID": -2067126076
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaValueType.cs",
+      "OriginalGuid": "caa2d85e8d1314547a78624e7fec25a3",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaValueTypeName",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaValueTypeName",
+      "FileID": 964248063
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_StringWrap.cs",
+      "OriginalGuid": "6380cf60ae81034418e4fe4dabc06bc2",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_StringWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_StringWrap",
+      "FileID": 1113133852
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaEqualityComparer.cs",
+      "OriginalGuid": "66b6db2cd4d2de84bb0575dfed0f35b8",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaEqualityComparer",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaEqualityComparer",
+      "FileID": 798208462
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_Generic_ListWrap.cs",
+      "OriginalGuid": "9806172156647e244b2fb905a4d02611",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_Generic_ListWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_Generic_ListWrap",
+      "FileID": 870506632
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Reflection\\LuaConstructor.cs",
+      "OriginalGuid": "5f277531b56c0944fb5d9af67defed02",
+      "ClassNamespace": "LuaFramework.Runtime.Reflection",
+      "ClassName": "LuaConstructor",
+      "ClassFullName": "LuaFramework.Runtime.Reflection.LuaConstructor",
+      "FileID": -564037985
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\UnityEngine_CoroutineWrap.cs",
+      "OriginalGuid": "0142bbe402aab764582bb960d6966d34",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "UnityEngine_CoroutineWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.UnityEngine_CoroutineWrap",
+      "FileID": 931890884
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaMethodCache.cs",
+      "OriginalGuid": "6d0c295670bdae343be5791ad4a0e9ae",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaMethodCache",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaMethodCache",
+      "FileID": 5701268
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_NullObjectWrap.cs",
+      "OriginalGuid": "bdcd3994912f4e145b1f12f3d76376b6",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_NullObjectWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_NullObjectWrap",
+      "FileID": -646312578
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\ToLua.cs",
+      "OriginalGuid": "8558028e53ff5d946b0ef857634815da",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "ToLua",
+      "ClassFullName": "LuaFramework.Runtime.Core.ToLua",
+      "FileID": -312260118
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\Native\\LuaDLLNativeIOSHandler.cs",
+      "OriginalGuid": "89726a46fa89cad4b8e13ad359a4df01",
+      "ClassNamespace": "LuaFramework.Runtime.Core.Native",
+      "ClassName": "LuaDLLNativeIOSHandler",
+      "ClassFullName": "LuaFramework.Runtime.Core.Native.LuaDLLNativeIOSHandler",
+      "FileID": -83781624
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\LuaClient.cs",
+      "OriginalGuid": "3d41d4486c02e3e4ca1c1f12f7a48a95",
+      "ClassNamespace": "LuaFramework.Runtime.Misc",
+      "ClassName": "LuaClient",
+      "ClassFullName": "LuaFramework.Runtime.Misc.LuaClient",
+      "FileID": -680440192
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaTable.cs",
+      "OriginalGuid": "b68fd1e3004ea4a4a879bf6fbda73510",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaTable",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaTable",
+      "FileID": -152010006
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaThread.cs",
+      "OriginalGuid": "c80e713269311db4689148e01949206a",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaThread",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaThread",
+      "FileID": 2111527085
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs",
+      "OriginalGuid": "8b073f28ab535d6478ab1e2f76f44547",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_Generic_Dictionary_ValueCollectionWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_Generic_Dictionary_ValueCollectionWrap",
+      "FileID": -1699347034
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_ArrayWrap.cs",
+      "OriginalGuid": "270e5e13dbb276c47a14c00ec09f9254",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_ArrayWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_ArrayWrap",
+      "FileID": 1348924704
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\LuaCoroutine.cs",
+      "OriginalGuid": "61c0f3aff91dfbd4097181bfb8c99d7f",
+      "ClassNamespace": "LuaFramework.Runtime.Misc",
+      "ClassName": "LuaCoroutine",
+      "ClassFullName": "LuaFramework.Runtime.Misc.LuaCoroutine",
+      "FileID": -1079189369
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Reflection\\LuaProperty.cs",
+      "OriginalGuid": "26952c90fb22bda4dbe945f2fa2224ff",
+      "ClassNamespace": "LuaFramework.Runtime.Reflection",
+      "ClassName": "LuaProperty",
+      "ClassFullName": "LuaFramework.Runtime.Reflection.LuaProperty",
+      "FileID": 1781435177
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\LuaProfiler.cs",
+      "OriginalGuid": "29c635f2321c2dc48aea28e8e6accb7e",
+      "ClassNamespace": null,
+      "ClassName": "LuaProfiler",
+      "ClassFullName": "LuaProfiler",
+      "FileID": 82080754
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaMisc.cs",
+      "OriginalGuid": "49b0c76b911a9d34bac07d4b3aa7f6de",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaMisc",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaMisc",
+      "FileID": -1672134445
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Reflection\\LuaMethod.cs",
+      "OriginalGuid": "e50f0b4cc54866649975adb5d9801a3d",
+      "ClassNamespace": "LuaFramework.Runtime.Reflection",
+      "ClassName": "LuaMethod",
+      "ClassFullName": "LuaFramework.Runtime.Reflection.LuaMethod",
+      "FileID": 2057177849
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaScriptLoader\\ZipMapLuaScriptLoader.cs",
+      "OriginalGuid": "2768056d51a04aa6bf7e17488e063394",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "ZipMapLuaScriptLoader",
+      "ClassFullName": "LuaFramework.Runtime.Core.ZipMapLuaScriptLoader",
+      "FileID": -1681340626
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaFunction.cs",
+      "OriginalGuid": "8f2e7f7664506cc45b1e1d375c066432",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaFunction",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaFunction",
+      "FileID": -2092031986
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\Native\\LuaDLLNativeHandler.cs",
+      "OriginalGuid": "dd64db0e515f7484ea5902d50362a6ec",
+      "ClassNamespace": "LuaFramework.Runtime.Core.Native",
+      "ClassName": "LuaDLLNativeHandler",
+      "ClassFullName": "LuaFramework.Runtime.Core.Native.LuaDLLNativeHandler",
+      "FileID": 1782294439
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\LuaResLoader.cs",
+      "OriginalGuid": "61b6ccc77a2cfc341963b08eb6cb4dfc",
+      "ClassNamespace": "LuaFramework.Runtime.Misc",
+      "ClassName": "LuaResLoader",
+      "ClassFullName": "LuaFramework.Runtime.Misc.LuaResLoader",
+      "FileID": -991286529
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Injection\\LuaInjectionStation.cs",
+      "OriginalGuid": "50962a9cc65f2be42af0d2419c4bc074",
+      "ClassNamespace": "LuaFramework.Runtime.Injection",
+      "ClassName": "LuaInjectionStation",
+      "ClassFullName": "LuaFramework.Runtime.Injection.LuaInjectionStation",
+      "FileID": -15286848
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\ObjectPool.cs",
+      "OriginalGuid": "375ac727a60642f4e9db9303e4025911",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaObjectPool",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaObjectPool",
+      "FileID": 1185727891
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaDLL.cs",
+      "OriginalGuid": "d60cef534e986e849a829838fbeb74b5",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaDLL",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaDLL",
+      "FileID": 1860425695
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaStackOp.cs",
+      "OriginalGuid": "57935fe3acd7c654599f70b62465e1d0",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaStackOp",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaStackOp",
+      "FileID": -409627029
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\TypeTraits.cs",
+      "OriginalGuid": "82858b365ef4145429c2f3227be8c845",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "TypeTraits",
+      "ClassFullName": "LuaFramework.Runtime.Core.TypeTraits",
+      "FileID": -1756443446
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\Native\\LuaDLLNativeIOS.cs",
+      "OriginalGuid": "b0e9c23ba7708814caf0c95a20bb716b",
+      "ClassNamespace": "LuaFramework.Runtime.Core.Native",
+      "ClassName": "LuaDLLNativeIOS",
+      "ClassFullName": "LuaFramework.Runtime.Core.Native.LuaDLLNativeIOS",
+      "FileID": 967186704
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_LuaMethodWrap.cs",
+      "OriginalGuid": "bd62b7af99a9c284cb3b8c9c8a177e8c",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_LuaMethodWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_LuaMethodWrap",
+      "FileID": 184606234
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Reflection\\LuaField.cs",
+      "OriginalGuid": "ac0dd1f9fec2afa4e96fc2f583688c5a",
+      "ClassNamespace": "LuaFramework.Runtime.Reflection",
+      "ClassName": "LuaField",
+      "ClassFullName": "LuaFramework.Runtime.Reflection.LuaField",
+      "FileID": -1561769130
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaStatePtr.cs",
+      "OriginalGuid": "e68c435592e3d3b47a315497b6150aae",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaStatePtr",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaStatePtr",
+      "FileID": -1468121323
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Misc\\LuaLooper.cs",
+      "OriginalGuid": "d56dbfed903b80e498bb872845c17e7e",
+      "ClassNamespace": "LuaFramework.Runtime.Misc",
+      "ClassName": "LuaLooper",
+      "ClassFullName": "LuaFramework.Runtime.Misc.LuaLooper",
+      "FileID": -377197662
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\TypeChecker.cs",
+      "OriginalGuid": "b2c5d493c1805784994fefe7b22da126",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "TypeChecker",
+      "ClassFullName": "LuaFramework.Runtime.Core.TypeChecker",
+      "FileID": 1419138078
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_LuaConstructorWrap.cs",
+      "OriginalGuid": "be39bc8579dccd14bb20b24e64a68faf",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_LuaConstructorWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_LuaConstructorWrap",
+      "FileID": -917081071
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BinderFactory\\LuaBinder.cs",
+      "OriginalGuid": "9621a0179b692cd46b020b1de545ebed",
+      "ClassNamespace": "LuaFramework.Runtime.BinderFactory",
+      "ClassName": "LuaBinder",
+      "ClassFullName": "LuaFramework.Runtime.BinderFactory.LuaBinder",
+      "FileID": -1226607375
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_Generic_DictionaryWrap.cs",
+      "OriginalGuid": "973a63c864c67f34b852be1021aa8445",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_Generic_DictionaryWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_Generic_DictionaryWrap",
+      "FileID": -1083321612
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Source\\BaseClass\\DelegateFactorySettingsObjectBase.cs",
+      "OriginalGuid": "bc03c137eca248841990b0954dd7d219",
+      "ClassNamespace": "LuaFramework.Runtime.Source",
+      "ClassName": "DelegateFactorySettingsObjectBase",
+      "ClassFullName": "LuaFramework.Runtime.Source.DelegateFactorySettingsObjectBase",
+      "FileID": -1404207117
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaMatchType.cs",
+      "OriginalGuid": "23fa92cf1685f2d4da97d54967a224ad",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaMatchType",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaMatchType",
+      "FileID": -759246057
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaEvent.cs",
+      "OriginalGuid": "ce5b2d0ac4f71564c84ecc85556409a4",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaEvent",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaEvent",
+      "FileID": -1421460712
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Utils\\UnityVersionUtil.cs",
+      "OriginalGuid": "f1799e07fcb6e9b4780dd7726e45d71e",
+      "ClassNamespace": "LuaFramework.Runtime.Utils",
+      "ClassName": "UnityVersionUtil",
+      "ClassFullName": "LuaFramework.Runtime.Utils.UnityVersionUtil",
+      "FileID": 2073292727
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_LuaFieldWrap.cs",
+      "OriginalGuid": "58e0ce586689f58419f26062891e1fc1",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_LuaFieldWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_LuaFieldWrap",
+      "FileID": 358730446
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaScriptLoader\\VResourcesLuaScriptLoader.cs",
+      "OriginalGuid": "383e811b1e0941d68a2da76902a12fc4",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "VResourcesLuaScriptLoader",
+      "ClassFullName": "LuaFramework.Runtime.Core.VResourcesLuaScriptLoader",
+      "FileID": -1931229702
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaStatic.cs",
+      "OriginalGuid": "e7f8fdc4e97256748b422edf401c641d",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaStatic",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaStatic",
+      "FileID": -979724724
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Source\\DelegateFactory.cs",
+      "OriginalGuid": "e875a37c9739f694082060c4e7e4f113",
+      "ClassNamespace": "LuaFramework.Runtime.Source",
+      "ClassName": "DelegateFactory",
+      "ClassFullName": "LuaFramework.Runtime.Source.DelegateFactory",
+      "FileID": 1591225311
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\Native\\LuaDLLNative.cs",
+      "OriginalGuid": "8a4869e0679fe09489264fa02f737584",
+      "ClassNamespace": "LuaFramework.Runtime.Core.Native",
+      "ClassName": "LuaDLLNative",
+      "ClassFullName": "LuaFramework.Runtime.Core.Native.LuaDLLNative",
+      "FileID": 2061346535
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_EnumWrap.cs",
+      "OriginalGuid": "9fd9d683a50920540914bdd15aa75290",
+      "ClassNamespace": "LuaFramework.Runtime.Generate",
+      "ClassName": "System_EnumWrap",
+      "ClassFullName": "LuaFramework.Runtime.Generate.System_EnumWrap",
+      "FileID": 1924661803
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_TypeWrap.cs",
+      "OriginalGuid": "a713f1fe057cf7248b09e045a105933b",
+      "ClassNamespace": "LuaFramework.Runtime.Generate",
+      "ClassName": "System_TypeWrap",
+      "ClassFullName": "LuaFramework.Runtime.Generate.System_TypeWrap",
+      "FileID": -1323658798
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Source\\LuaConst.cs",
+      "OriginalGuid": "35b0c8bef181f2d4dacd3c860eb546a7",
+      "ClassNamespace": "LuaFramework.Runtime.Source",
+      "ClassName": "LuaConst",
+      "ClassFullName": "LuaFramework.Runtime.Source.LuaConst",
+      "FileID": 369146828
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs",
+      "OriginalGuid": "fa5b181e2942520408fb4d6bac615d4f",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_ObjectModel_ReadOnlyCollectionWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_ObjectModel_ReadOnlyCollectionWrap",
+      "FileID": 1772579790
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Utils\\PathUtil.cs",
+      "OriginalGuid": "d0c418c752df382408218083ccce637e",
+      "ClassNamespace": "LuaFramework.Runtime.Utils",
+      "ClassName": "PathUtil",
+      "ClassFullName": "LuaFramework.Runtime.Utils.PathUtil",
+      "FileID": -315750717
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Reflection\\LuaReflection.cs",
+      "OriginalGuid": "3faee4f867484814bb3f76d4a798219d",
+      "ClassNamespace": "LuaFramework.Runtime.Reflection",
+      "ClassName": "LuaReflection",
+      "ClassFullName": "LuaFramework.Runtime.Reflection.LuaReflection",
+      "FileID": 299402357
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_Generic_KeyValuePairWrap.cs",
+      "OriginalGuid": "2bfe26e81faf9a1498eaae521869ecea",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_Generic_KeyValuePairWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_Generic_KeyValuePairWrap",
+      "FileID": -1344445096
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_ObjectWrap.cs",
+      "OriginalGuid": "fcf1094389eec494d9d80c46f54f2a7e",
+      "ClassNamespace": "LuaFramework.Runtime.Generate",
+      "ClassName": "System_ObjectWrap",
+      "ClassFullName": "LuaFramework.Runtime.Generate.System_ObjectWrap",
+      "FileID": -1360882825
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_IEnumeratorWrap.cs",
+      "OriginalGuid": "7eaa472c4f36f9d419d9bf704795f0d6",
+      "ClassNamespace": "LuaFramework.Runtime.Generate",
+      "ClassName": "System_Collections_IEnumeratorWrap",
+      "ClassFullName": "LuaFramework.Runtime.Generate.System_Collections_IEnumeratorWrap",
+      "FileID": -7204862
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaBaseRef.cs",
+      "OriginalGuid": "39292548101f65b41be91c5d20f20812",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaBaseRef",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaBaseRef",
+      "FileID": 282143492
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\ObjectTranslator.cs",
+      "OriginalGuid": "607902915586ecd43b863b154c1337ad",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "ObjectTranslator",
+      "ClassFullName": "LuaFramework.Runtime.Core.ObjectTranslator",
+      "FileID": 2071949978
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_LuaPropertyWrap.cs",
+      "OriginalGuid": "5b401947a631ece4487e44f4b8ef9418",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_LuaPropertyWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_LuaPropertyWrap",
+      "FileID": -1546368272
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\LuaInterface_EventObjectWrap.cs",
+      "OriginalGuid": "9eec90316b4c2da499dee7c75f1f94ae",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "LuaInterface_EventObjectWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.LuaInterface_EventObjectWrap",
+      "FileID": -1907588157
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaException.cs",
+      "OriginalGuid": "1b37c8a2d4e86364c85c26a407d79af7",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaException",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaException",
+      "FileID": -240681193
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaBeatEvent.cs",
+      "OriginalGuid": "c7332596f22ac5446852c531d7148318",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaBeatEvent",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaBeatEvent",
+      "FileID": -71694150
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaAttributes.cs",
+      "OriginalGuid": "036fab5eb22f19e4bba933e194fb4756",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "MonoPInvokeCallbackAttribute",
+      "ClassFullName": "LuaFramework.Runtime.Core.MonoPInvokeCallbackAttribute",
+      "FileID": 1365396735
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BaseType\\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs",
+      "OriginalGuid": "b5a969e41ba260d4197ec05de2e0b107",
+      "ClassNamespace": "LuaFramework.Runtime.BaseType",
+      "ClassName": "System_Collections_Generic_Dictionary_KeyCollectionWrap",
+      "ClassFullName": "LuaFramework.Runtime.BaseType.System_Collections_Generic_Dictionary_KeyCollectionWrap",
+      "FileID": -384025907
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\BinderFactory\\LuaBinderSetting.cs",
+      "OriginalGuid": "596b2596566f68b48bbfdd0d31bcfec4",
+      "ClassNamespace": "LuaFramework.Runtime.BinderFactory",
+      "ClassName": "LuaBinderSetting",
+      "ClassFullName": "LuaFramework.Runtime.BinderFactory.LuaBinderSetting",
+      "FileID": -404506984
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaUnityLibs.cs",
+      "OriginalGuid": "6f293d0bd6470a044a8688cd9a61b433",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaUnityLibs",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaUnityLibs",
+      "FileID": 1166280919
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\Custom\\DefaultWrapperClassSettings.cs",
+      "OriginalGuid": "30d047be005acda4695bcd477ab7fe7f",
+      "ClassNamespace": "LuaFramework.Runtime.Custom",
+      "ClassName": "DefaultWrapperClassSettings",
+      "ClassFullName": "LuaFramework.Runtime.Custom.DefaultWrapperClassSettings",
+      "FileID": 367041587
+    },
+    {
+      "Path": "C:\\ci\\jenkins-unity\\workspace\\build-vulcanus-templates-node-modules-obfuscated\\source\\git\\src\\USGEditor\\Packages\\com.unity.china.luaframework\\Runtime\\ToLua\\Core\\LuaState.cs",
+      "OriginalGuid": "358b86bdf79858e46b17d8700238c397",
+      "ClassNamespace": "LuaFramework.Runtime.Core",
+      "ClassName": "LuaState",
+      "ClassFullName": "LuaFramework.Runtime.Core.LuaState",
+      "FileID": -194559145
+    }
+  ]
+}
