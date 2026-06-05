@@ -83,6 +83,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3bb54edb008c14488488d21363ec4e4
+    m_Address: Assets/Vulcanus/Custom/Prefab/MAP.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c41e7b86fe346364bb4c299a2083a139
     m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/GameSettingData.asset
     m_ReadOnly: 0
