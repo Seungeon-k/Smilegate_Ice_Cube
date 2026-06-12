@@ -7,6 +7,7 @@ this.UseLocalPlayer = __EX_VARIABLE__.bool(true)
 this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
 this.ControlStrength = __EX_VARIABLE__.float(1.4)
 this.MaxMoveSpeed = __EX_VARIABLE__.float(7.0)
+this.MoveAcceleration = __EX_VARIABLE__.float(18.0)
 
 this.MeltRate = __EX_VARIABLE__.float(0.035)
 this.MinHeight = __EX_VARIABLE__.float(0.05)
@@ -82,6 +83,24 @@ local function getVObjectName(vObject)
     local name = tryGet(vObject, "name")
     if name ~= nil then return name end
     return ""
+end
+
+local function isObstacleVObject(vObject)
+    local current = vObject
+
+    for _ = 1, 8 do
+        if current == nil then
+            return false
+        end
+
+        if startsWith(getVObjectName(current), this.ObstacleNamePrefix) then
+            return true
+        end
+
+        current = tryGet(current, "parent")
+    end
+
+    return false
 end
 
 local function callEvent(eventObject, ...)
@@ -334,15 +353,38 @@ local function getComponent(vObject, componentName)
     return nil
 end
 
-local function moveIcePosition(position)
-    position = keepIceGrounded(position)
-
+local function moveIce(moveX, moveZ, deltaTime)
     if iceRigidbody ~= nil and this.UseRigidbodyMove == true then
-        iceRigidbody:MovePosition(position)
+        local velocity = tryGet(iceRigidbody, "velocity")
+        if velocity == nil then
+            velocity = Vector3(0, 0, 0)
+        end
+
+        local acceleration = this.MoveAcceleration or 18.0
+        local force = Vector3(
+            (moveX - velocity.x) * acceleration,
+            0,
+            (moveZ - velocity.z) * acceleration
+        )
+        local usedAcceleration = false
+
+        if VFramework ~= nil and VFramework.ForceMode ~= nil and VFramework.ForceMode.Acceleration ~= nil then
+            usedAcceleration = pcall(function()
+                iceRigidbody:AddForce(force, VFramework.ForceMode.Acceleration)
+            end)
+        end
+
+        if not usedAcceleration then
+            iceRigidbody:AddForce(force)
+        end
+
         return
     end
 
-    syncTransformPosition(iceTransform, position)
+    local position = iceTransform.position
+    position.x = position.x + moveX * deltaTime
+    position.z = position.z + moveZ * deltaTime
+    syncTransformPosition(iceTransform, keepIceGrounded(position))
 end
 
 local function shouldDamageFromCollision(collision)
@@ -354,10 +396,7 @@ local function shouldDamageFromCollision(collision)
         return false
     end
 
-    local hitObject = collision.vObject
-    local hitName = getVObjectName(hitObject)
-
-    return startsWith(hitName, this.ObstacleNamePrefix)
+    return isObstacleVObject(collision.vObject)
 end
 
 local function getPushBackDirection(collision)
@@ -409,6 +448,18 @@ local function pushBackFromObstacleCollision(collision)
     pushBackTimer = this.PushBackDuration
 
     collisionStopTimer = this.CollisionStopTime
+
+    if iceRigidbody ~= nil then
+        local velocity = tryGet(iceRigidbody, "velocity")
+        if velocity ~= nil then
+            local inwardSpeed = velocity.x * direction.x + velocity.z * direction.z
+            if inwardSpeed < 0 then
+                velocity.x = velocity.x - direction.x * inwardSpeed
+                velocity.z = velocity.z - direction.z * inwardSpeed
+                iceRigidbody.velocity = velocity
+            end
+        end
+    end
 
     if iceRigidbody ~= nil and this.PushBackForce > 0 then
         local force = Vector3(direction.x * this.PushBackForce, 0, direction.z * this.PushBackForce)
@@ -539,8 +590,8 @@ local function updatePlatform(deltaTime)
         moveZ = 0
     end
 
-    icePos.x = icePos.x + (moveX + pushBackVelocity.x) * deltaTime
-    icePos.z = icePos.z + (moveZ + pushBackVelocity.z) * deltaTime
+    local finalMoveX = moveX + pushBackVelocity.x
+    local finalMoveZ = moveZ + pushBackVelocity.z
 
     currentHeight = currentHeight - this.MeltRate * deltaTime
     currentHeight = clamp(currentHeight, 0, startScale.y)
@@ -551,8 +602,8 @@ local function updatePlatform(deltaTime)
     scale.z = startScale.z
     syncTransformScale(iceTransform, scale)
 
-    icePos = keepIceGrounded(icePos)
-    moveIcePosition(icePos)
+    keepIceGrounded(icePos)
+    moveIce(finalMoveX, finalMoveZ, deltaTime)
 
     if currentHeight <= this.MinHeight then
         applyHeight()

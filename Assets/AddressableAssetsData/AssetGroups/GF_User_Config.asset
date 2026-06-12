@@ -66,6 +66,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a29f8d6b739d4f5a91c4e072bea63518
+    m_Address: Assets/Vulcanus/Custom/InfiniteYRotator.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa066f6e73d76274583e2d796f8ca6d1
     m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Localization/LocalizationTable.asset
     m_ReadOnly: 0

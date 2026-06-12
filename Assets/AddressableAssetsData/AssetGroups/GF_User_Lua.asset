@@ -27,6 +27,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5c8e1730cbd4de78f2a644748192ab1
+    m_Address: Assets/Vulcanus/Custom/Lua/InfiniteYRotator.lua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 452f2d086f433b14389eb3dbe85a43aa, type: 2}
   m_SchemaSet:

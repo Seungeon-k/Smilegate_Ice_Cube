@@ -75,34 +75,41 @@ MonoBehaviour:
   GameModeData: {fileID: 11400000, guid: 0102b223175f97d47aeacff1bae1a631, type: 2}
   AssetTable:
     _objects:
-    - {fileID: 7100610123750587958, guid: 76da839816a6c604a96b713857c7cbc9, type: 3}
-    - {fileID: 7532466562185302781, guid: 2613dc7f5d6c5934896324aabe1651dc, type: 3}
+    - {fileID: 4672589309454332499, guid: 0328318a13d26c142aa41cd030e8dec0, type: 3}
+    - {fileID: 1691844803846995739, guid: 7acaa6e0b8720234284786b898e68285, type: 3}
     - {fileID: 636053398423619936, guid: cf9b656f6210195479ecafc1d5c1b4e7, type: 3}
+    - {fileID: 7338312546261803797, guid: 00807127ebab62843bc5266e17f0d094, type: 3}
     - {fileID: 818156681825515034, guid: 3a634b05757ce054cb5e5c86e03b6a3c, type: 3}
-    - {fileID: 3539778382053223992, guid: 9f007474c95e5534b9c9183e52a6bc85, type: 3}
-    - {fileID: 3430526832007871775, guid: c06a7312d5c3ac1499f24628e8b425f6, type: 3}
-    - {fileID: 5645493393515185580, guid: 26f30fde7fff55343a88d96052c56e16, type: 3}
+    - {fileID: 753398074534555615, guid: 5cae929b1c7351440825fa57f20c4b8b, type: 3}
     - {fileID: 6465058846577760876, guid: cc2fe4386fc3d5844bb048901773bce1, type: 3}
     - {fileID: 1461628220184542364, guid: fc1c19cf69acf124c8e550597fb65ca3, type: 3}
+    - {fileID: 7338312546261803797, guid: 28cbfe6121a1204479b6739a5674659e, type: 3}
     - {fileID: 6736699916482217839, guid: 5f9cba465f484a24bb00f8cb3ef1dcd6, type: 3}
+    - {fileID: 4077857070097607750, guid: 64c4da314823b414db3192c8dc118eea, type: 3}
     - {fileID: 7938823128363574090, guid: 607c8b3660adcf544a85eda3e1083f11, type: 3}
     - {fileID: 6016720149126415606, guid: 770deab5f23925b4db32603d4fc22860, type: 3}
-    - {fileID: 8015810743564088543, guid: b45e054c0279a8442b481567da453ef7, type: 3}
     - {fileID: 3089368348247097939, guid: 3acc30f8070ed4341915faf0128ba65f, type: 3}
     - {fileID: 213830635556500924, guid: cdad1bc6be9d8054f846cfc303621587, type: 3}
-    - {fileID: 8400639674178477501, guid: 780ef45fbdbaf5a4f86f40c50ac0491b, type: 3}
+    - {fileID: 7338312546261803797, guid: 35f927849fb9fe84b9edc3febf110e62, type: 3}
     - {fileID: 1557396442366960157, guid: f66677d8010969744b8c611ac8d80379, type: 3}
     - {fileID: 7830241210914566513, guid: 77541a3af46471542976396b155097ac, type: 3}
+    - {fileID: 7338312546261803797, guid: aa24215596e10d64abab2a2989baa8b4, type: 3}
+    - {fileID: 1691844803846995739, guid: 495629d45b4333b4a86255f5139b00e6, type: 3}
     - {fileID: 6595717803320179313, guid: 11c40bfabde2be844a86996b3c4b691d, type: 3}
-    - {fileID: 7532466562185302781, guid: a6ea76e489d0e614ea3c54a07db8c9b5, type: 3}
+    - {fileID: 1429727232555631999, guid: 29110d35dd3f583459a3107c58572b0f, type: 3}
+    - {fileID: 6899204773871781282, guid: 37f1f0bffeb2e9a4fb8f9a871f24cb01, type: 3}
     - {fileID: 6210643463170462087, guid: 0497440e31258544e82eefe0c7520764, type: 3}
+    - {fileID: 1778413184099477927, guid: 4628e0db6c80ae84f9ec79375ad62afe, type: 3}
+    - {fileID: 7622278022742391217, guid: ef2585990484175438b027c9d05b37d4, type: 3}
     - {fileID: 987062817099460686, guid: 9785a05d70bc00d4396e62e06cc86256, type: 3}
     - {fileID: 888358689896514245, guid: 8a49154ffb40ad14b8e962621180eaad, type: 3}
+    - {fileID: 2892295225103440185, guid: c61c483463932e148b1d3cf829787fdb, type: 3}
     - {fileID: 8074578624501151096, guid: 390a3f0e65f38824c93f46c841949df0, type: 3}
     - {fileID: 7622278022742391217, guid: 0bb68e449f5cbdc45bab0c02c2198e1e, type: 3}
     - {fileID: 3738597918821851219, guid: c3bb54edb008c14488488d21363ec4e4, type: 3}
     - {fileID: 636053398423619936, guid: abda83727399f204d858374c8fc8c0aa, type: 3}
     - {fileID: 5384685648526470705, guid: c111622b911145440be2d3002f2eb51c, type: 3}
+    - {fileID: 7338312546261803797, guid: e522451be7d9f3d4bb2b30dab3afeddd, type: 3}
     _soElements:
     - {fileID: 11400000, guid: ebdd00d9c105f8d4485bf6dc2f7f3cab, type: 2}
     - {fileID: 11400000, guid: c41e7b86fe346364bb4c299a2083a139, type: 2}
@@ -571,12 +578,12 @@ MonoBehaviour:
     guid: 07aa19d34f49c944290f382096634e5f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Grad_06.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 07aa19d34f49c944290f382096634e5f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Grad_06.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 07b078975629158458a47c1d3a379018
     asset: {fileID: 0}
@@ -628,12 +635,12 @@ MonoBehaviour:
     guid: 08e5852cc7b2af6408ab5dbad91f07ed
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Rank_3rd.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 08e5852cc7b2af6408ab5dbad91f07ed
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Rank_3rd.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 09082fed5354f3f4ea45f59966ab0d3e
     asset: {fileID: 0}
@@ -804,23 +811,23 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_CannonBall.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 0c43c34d64f83794797241cfd2a7899a
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_CannonBall.png
-    localId: 2800000
-  - type: 0
-    guid: 0c4aca31a9a4fc2458671ae9a2bcec00
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Chat_Group_01.png
     localId: 21300000
   - type: 0
     guid: 0c4aca31a9a4fc2458671ae9a2bcec00
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Chat_Group_01.png
     localId: 2800000
+  - type: 0
+    guid: 0c4aca31a9a4fc2458671ae9a2bcec00
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Chat_Group_01.png
+    localId: 21300000
   - type: 0
     guid: 0c52ee4f5ede9b14dbeef54021027a7b
     asset: {fileID: 0}
@@ -964,12 +971,12 @@ MonoBehaviour:
     guid: 0e9163921da8ae143a45596b3158ad8e
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Score3_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 0e9163921da8ae143a45596b3158ad8e
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Score3_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 0e92591f17c14b74080e79fd25ef1e74
     asset: {fileID: 0}
@@ -1065,12 +1072,12 @@ MonoBehaviour:
     guid: 100ce811cf843f247982f4fd02c30c44
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/Fx_Glow_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 100ce811cf843f247982f4fd02c30c44
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/Fx_Glow_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 100e0ef1d2baf9e43a0c1bc1ab9dec44
     asset: {fileID: 0}
@@ -1152,12 +1159,12 @@ MonoBehaviour:
     guid: 1170bedc635b6e748a3f84ba5c1f5594
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Rank_2nd.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 1170bedc635b6e748a3f84ba5c1f5594
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Rank_2nd.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 11c0179c998441f47877c61711e42777
     asset: {fileID: 0}
@@ -1349,12 +1356,12 @@ MonoBehaviour:
     guid: 1480ec0d5bda8f74e95a7ef9772ea389
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Grad_04.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 1480ec0d5bda8f74e95a7ef9772ea389
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Grad_04.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 148ec9b26d8fbc543ae375ebb44fb8ef
     asset: {fileID: 0}
@@ -1401,12 +1408,12 @@ MonoBehaviour:
     guid: 14ff6f8d4f8ac5644835027b9fcbefd0
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 14ff6f8d4f8ac5644835027b9fcbefd0
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 150464955891d50478953841bc1e43ff
     asset: {fileID: 0}
@@ -1453,12 +1460,12 @@ MonoBehaviour:
     guid: 15a7f2806d533634a95d5f2125a8527c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Cir_50.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 15a7f2806d533634a95d5f2125a8527c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Cir_50.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 15b5b4c81dfad3345861a9b0fc2698e3
     asset: {fileID: 0}
@@ -1563,12 +1570,12 @@ MonoBehaviour:
     guid: 1803aca42889b7840bb60f64903a4713
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_End_KR_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 1803aca42889b7840bb60f64903a4713
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_End_KR_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 1847b9e6d5be7714981c2b0ff8766d72
     asset: {fileID: 0}
@@ -1590,12 +1597,12 @@ MonoBehaviour:
     guid: 18a29ba431a8fa94db44aa2fa426d296
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Close_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 18a29ba431a8fa94db44aa2fa426d296
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Close_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 18b60bf924c3e144ab0723a8ad6c754c
     asset: {fileID: 0}
@@ -1659,13 +1666,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_ConveyorBelt.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 1948ceea3c7442b4f87ff9ec9c94e458
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_ConveyorBelt.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: 194954cff32c16844907eecaedfb48d2
     asset: {fileID: 0}
@@ -1761,12 +1768,12 @@ MonoBehaviour:
     guid: 1aa024d0adb66f5429acdb07d8b35d47
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Deco_Pattern_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 1aa024d0adb66f5429acdb07d8b35d47
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Deco_Pattern_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 1afc95b0bf50c854598388276e61559b
     asset: {fileID: 0}
@@ -1981,13 +1988,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Hotkey.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 1fc15ec0f4ef3984b8b336732e8a9189
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Hotkey.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 1fc330090c2bdc841a3b0ac424c70efa
     asset: {fileID: 0}
@@ -2110,12 +2117,12 @@ MonoBehaviour:
     guid: 22f6c9dd60338404c95a9830cd3dc547
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Squ_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 22f6c9dd60338404c95a9830cd3dc547
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Squ_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 232eedac3e87d284497d79fbd4ed9e3a
     asset: {fileID: 0}
@@ -2361,13 +2368,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_BGMSound.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 277a80eb87de0f14bb2aae303c335a54
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_BGMSound.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 277e3ecba89e9a64182da067af9f6ffd
     asset: {fileID: 0}
@@ -2537,12 +2544,12 @@ MonoBehaviour:
     guid: 2a3161e7ceb93404e91278d9cf488269
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Squ_03.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 2a3161e7ceb93404e91278d9cf488269
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Squ_03.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 2a4de65f85ab930438b108cfa6013db8
     asset: {fileID: 0}
@@ -2585,12 +2592,12 @@ MonoBehaviour:
     guid: 2bc92d5be33478e4388b15cc9d9615bd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_04.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 2bc92d5be33478e4388b15cc9d9615bd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_04.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 2bd8f8c220cef1c40806f04baa7f4b8b
     asset: {fileID: 0}
@@ -2601,13 +2608,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_GameEndButton.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 2bd9e7da362416348baba938029a2848
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_GameEndButton.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 2bf2001d74b17754e859509330b8fe69
     asset: {fileID: 0}
@@ -2635,12 +2642,12 @@ MonoBehaviour:
     guid: 2c78a1d3c3c297342b4f1050099536e6
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_I.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 2c78a1d3c3c297342b4f1050099536e6
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_I.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 2c980958dd52ee2498e2c38075f961db
     asset: {fileID: 0}
@@ -2695,12 +2702,12 @@ MonoBehaviour:
     guid: 2d8cd13508cf68a45970d6f10091a752
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/VC_Icon_LeaderBoard.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 2d8cd13508cf68a45970d6f10091a752
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/VC_Icon_LeaderBoard.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 2d935de7737852b409173f715ea10b91
     asset: {fileID: 0}
@@ -3027,13 +3034,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Wall.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 340743aff023a3240beb0de2adddc377
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Wall.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 34074e7b360973b43995a8c39ea3148e
     asset: {fileID: 0}
@@ -3194,13 +3201,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_BuffMushRoom.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 36fdc38245f2c3a4c9f57ef39b182251
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_BuffMushRoom.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 374dfd85727ac314492bac946ddf7b67
     asset: {fileID: 0}
@@ -3360,12 +3367,12 @@ MonoBehaviour:
     guid: 3a23cfefbd751de4e877bebb662f4b95
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Pattern_Line_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 3a23cfefbd751de4e877bebb662f4b95
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Pattern_Line_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 3a2ef9dc2fd0ff84f99c7b6bdfa1afcd
     asset: {fileID: 0}
@@ -3982,12 +3989,12 @@ MonoBehaviour:
     guid: 446a081d2e3f33f488609dbf44809988
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_VIPName.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 446a081d2e3f33f488609dbf44809988
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_VIPName.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 447334b96205b8040b534702d8d806c6
     asset: {fileID: 0}
@@ -4024,13 +4031,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Timer_UI.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 44eaf9459de672348933bcb1b145be63
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Timer_UI.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 44eb0d04c020fe249b0d4dc8660531b0
     asset: {fileID: 0}
@@ -4135,13 +4142,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Colorswitch.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 45b064f733124cb4099a2ff521986710
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Colorswitch.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 45cd531eacd4e694585cb017ffc7df14
     asset: {fileID: 0}
@@ -4308,22 +4315,22 @@ MonoBehaviour:
     guid: 48d79acdc3c0c0b49bda9435cd716251
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_05.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 48d79acdc3c0c0b49bda9435cd716251
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_05.png
-    localId: 2800000
-  - type: 0
-    guid: 48e40c85f88768345a542abf29dbca83
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Warning1.png
     localId: 21300000
   - type: 0
     guid: 48e40c85f88768345a542abf29dbca83
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Warning1.png
     localId: 2800000
+  - type: 0
+    guid: 48e40c85f88768345a542abf29dbca83
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Warning1.png
+    localId: 21300000
   - type: 0
     guid: 48ee0c1b8478eba4f9338e5ec4a14d40
     asset: {fileID: 0}
@@ -4396,12 +4403,12 @@ MonoBehaviour:
     guid: 498f70b0aaf259545a15e40ed6fbf51f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_KR_03.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 498f70b0aaf259545a15e40ed6fbf51f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_KR_03.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 49b37f0c3df3ebf4296a985be4af0872
     asset: {fileID: 0}
@@ -4518,13 +4525,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Knockback.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 4b73b1cb248996247bc155f2b093e993
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Knockback.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 4b955f779c6ccd2439db8c6480c220b8
     asset: {fileID: 0}
@@ -4582,22 +4589,22 @@ MonoBehaviour:
     guid: 4c9cd2aed60456647adcb0245217f616
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_05.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 4c9cd2aed60456647adcb0245217f616
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_05.png
-    localId: 2800000
-  - type: 0
-    guid: 4ccbcec10d98b664e904e5f0e5692015
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Star_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 4ccbcec10d98b664e904e5f0e5692015
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Star_02.png
     localId: 21300000
+  - type: 0
+    guid: 4ccbcec10d98b664e904e5f0e5692015
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Star_02.png
+    localId: 2800000
   - type: 0
     guid: 4cd6a5e2ec5bd184395594d88b751c3c
     asset: {fileID: 0}
@@ -4799,12 +4806,12 @@ MonoBehaviour:
     guid: 51c6d6643745c754ab63b15457f5cbd3
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_S.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 51c6d6643745c754ab63b15457f5cbd3
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_S.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 51d968a0559959241a11f94fe220408f
     asset: {fileID: 0}
@@ -5132,12 +5139,12 @@ MonoBehaviour:
     guid: 57cb738b4e2b1a44ba3a2f0af3fe41b6
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Number_03.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 57cb738b4e2b1a44ba3a2f0af3fe41b6
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Number_03.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 57d50f96482a6b14aa3407a2f876be03
     asset: {fileID: 0}
@@ -5589,12 +5596,12 @@ MonoBehaviour:
     guid: 5f20976a1fbbed649acf64b2d4cb65d9
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Arrow_08.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 5f20976a1fbbed649acf64b2d4cb65d9
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Arrow_08.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 5f2282b3f3e0f05468e7dc036fa32e4c
     asset: {fileID: 0}
@@ -5779,12 +5786,12 @@ MonoBehaviour:
     guid: 624cc230c75d48042a586459865b0d26
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_VoiveChat_Speaker_Mute.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 624cc230c75d48042a586459865b0d26
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_VoiveChat_Speaker_Mute.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 6283a10f598e96943915a0613bab2fc2
     asset: {fileID: 0}
@@ -6245,13 +6252,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_TrampolinePad.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 6ba197cfabbfc0c4c80fb14ece075659
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_TrampolinePad.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 6bb43701abfffdb469b42f0bc781a7d1
     asset: {fileID: 0}
@@ -6330,12 +6337,12 @@ MonoBehaviour:
     guid: 6d307e69792a58548bcc676f2be3582f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Circle_Line_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 6d307e69792a58548bcc676f2be3582f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Circle_Line_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 6d31347508ccfb64994599422482982b
     asset: {fileID: 0}
@@ -6366,13 +6373,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_OverloadDownLift.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 6d82d67a1a853bf4492210fd61b0607b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_OverloadDownLift.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 6da1f567147d0d640ac4d407cf366e78
     asset: {fileID: 0}
@@ -6748,12 +6755,12 @@ MonoBehaviour:
     guid: 7429fa7d14e829f46bf11feff3d531b8
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Watching.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 7429fa7d14e829f46bf11feff3d531b8
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Watching.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 743021e8347895d4e8660b3a1160b862
     asset: {fileID: 0}
@@ -6961,12 +6968,12 @@ MonoBehaviour:
     guid: 77d8bcc8f8433dc48a846b755510289c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Question.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 77d8bcc8f8433dc48a846b755510289c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Question.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 77f6e38784378d644b9a6cb3409fac93
     asset: {fileID: 0}
@@ -7061,12 +7068,12 @@ MonoBehaviour:
     guid: 7a491488e7c079f428f00bb979a846fb
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Key_Face_Btn.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 7a491488e7c079f428f00bb979a846fb
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Key_Face_Btn.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 7a5168b55257dc9499abedb135fb010c
     asset: {fileID: 0}
@@ -7214,12 +7221,12 @@ MonoBehaviour:
     guid: 7d38f266d4b7dae4aaa1b143c18524ff
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/Fx_Glow_Ring_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 7d38f266d4b7dae4aaa1b143c18524ff
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/Fx_Glow_Ring_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 7d5947038d5f6a04188d1dbbe9ca666e
     asset: {fileID: 0}
@@ -7229,12 +7236,12 @@ MonoBehaviour:
     guid: 7d5fabc3a57e21c4a9717bc8154504e7
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Pattern_Back.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 7d5fabc3a57e21c4a9717bc8154504e7
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Pattern_Back.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 7d703a862f37cfb42a2937b6f2cc9df6
     asset: {fileID: 0}
@@ -7329,13 +7336,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Scale.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 7e88f7271e3cfae48b86bca2f693f50c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Scale.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 7e8aba68e877e0f4faee186c3fbfc035
     asset: {fileID: 0}
@@ -7536,12 +7543,12 @@ MonoBehaviour:
     guid: 820f4a2d369936f49b73610e65e96284
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Deco_Star_Yellow.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 820f4a2d369936f49b73610e65e96284
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Deco_Star_Yellow.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 823c8c99ab27b544b97ea90de2e0c043
     asset: {fileID: 0}
@@ -7623,12 +7630,12 @@ MonoBehaviour:
     guid: 8421753b13cd0bd489ab6cbe747ee544
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_T.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 8421753b13cd0bd489ab6cbe747ee544
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_T.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 84258603ab275a545926e2db757bb324
     asset: {fileID: 0}
@@ -7877,12 +7884,12 @@ MonoBehaviour:
     guid: 898d122ba72fb544492411d7a0c5bbdb
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Ranking_Finished.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 898d122ba72fb544492411d7a0c5bbdb
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Ranking_Finished.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 89a40faf1f2556f46a2fdab636a21ed3
     asset: {fileID: 0}
@@ -7912,12 +7919,12 @@ MonoBehaviour:
     guid: 8a0035bc635edc645beb29c5f79f747f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Btn_Base_06.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 8a0035bc635edc645beb29c5f79f747f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Btn_Base_06.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 8a0fd823effdf7444aa180a4cebcb2fd
     asset: {fileID: 0}
@@ -8418,13 +8425,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Lavezone.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 93d270b620029c74ebc66a087f2b788f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_Lavezone.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 94070fc1bd29a334eaaa903e648e5f19
     asset: {fileID: 0}
@@ -8467,12 +8474,12 @@ MonoBehaviour:
     guid: 94b1ccd1cb11a9e4a9e01c166eaebfbd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Myname.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 94b1ccd1cb11a9e4a9e01c166eaebfbd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Myname.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: 94c1e24afae700e4aa4f71e5ecfb1f7a
     asset: {fileID: 0}
@@ -8652,13 +8659,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_FinalStage.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 97f7021ccddcd704882c2eebe0ae6717
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_FinalStage.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 9808901d38239a94aa02cbb9a0129db1
     asset: {fileID: 0}
@@ -8724,12 +8731,12 @@ MonoBehaviour:
     guid: 99c5a90401b360443a971096e6d944f4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Dot_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: 99c5a90401b360443a971096e6d944f4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Bg_Dot_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 99e0d332d92e1c44ca56267a2b3bdcf9
     asset: {fileID: 0}
@@ -8838,12 +8845,12 @@ MonoBehaviour:
     guid: 9cb46b66d4f2f344d9f103d030c55e39
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Fish_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: 9cb46b66d4f2f344d9f103d030c55e39
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Fish_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: 9cdfa297381c8bf4f8c496eb1586bfc3
     asset: {fileID: 0}
@@ -9103,22 +9110,22 @@ MonoBehaviour:
     guid: a129c00d426468e499d61acdb40112a5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Title_ItemSell.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a129c00d426468e499d61acdb40112a5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Title_ItemSell.png
-    localId: 21300000
-  - type: 0
-    guid: a140f996343ac5342b1a425f2ec086cd
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Cir_Line_60_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a140f996343ac5342b1a425f2ec086cd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Cir_Line_60_01.png
     localId: 2800000
+  - type: 0
+    guid: a140f996343ac5342b1a425f2ec086cd
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Cir_Line_60_01.png
+    localId: 21300000
   - type: 0
     guid: a14dd238c062ee7488fae8e65ab43a14
     asset: {fileID: 0}
@@ -9209,6 +9216,11 @@ MonoBehaviour:
     path: Packages/com.v.gameframework.resources/Runtime/Essential/Resources/Penguin/Animation/Animation
       Clip/Party_Penguin_Solo_Excite.anim
     localId: 7400000
+  - type: 1
+    guid: a29f8d6b739d4f5a91c4e072bea63518
+    asset: {fileID: 0}
+    path: Assets/Vulcanus/Custom/InfiniteYRotator.prefab
+    localId: 720000000000000001
   - type: 0
     guid: a2b3c32e586c7b44e9ba382002d02440
     asset: {fileID: 0}
@@ -9240,12 +9252,12 @@ MonoBehaviour:
     guid: a339c9da9c40b3049960cc54fc7a233b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a339c9da9c40b3049960cc54fc7a233b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a343d89ba2df6e445b85cf9fe46a2eab
     asset: {fileID: 0}
@@ -9260,12 +9272,12 @@ MonoBehaviour:
     guid: a378954f17d89a94b85b2dd9e3969c60
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani05.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a378954f17d89a94b85b2dd9e3969c60
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani05.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a3824322a1301384eb890d6a01bed0e1
     asset: {fileID: 0}
@@ -9441,12 +9453,12 @@ MonoBehaviour:
     guid: a644174d158aa4e4a9e447a0f1736bfc
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_G.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a644174d158aa4e4a9e447a0f1736bfc
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_G.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a67da33e410b6bb48997f7d5f57bb3ff
     asset: {fileID: 0}
@@ -9462,13 +9474,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PillarBumper.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a715e67b1a5a45240bf255b466231cdd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PillarBumper.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a72eb8caea628c146937eb9ff3c928e9
     asset: {fileID: 0}
@@ -9579,12 +9591,12 @@ MonoBehaviour:
     guid: a8f5cba01b718c24698925ee527b2aaf
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/Fx_Glow.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: a8f5cba01b718c24698925ee527b2aaf
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/Fx_Glow.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: a8f786dfdff7461459ad4bf76db1580b
     asset: {fileID: 0}
@@ -9696,12 +9708,12 @@ MonoBehaviour:
     guid: aac0c6b23036640409a8d852e6d88dd4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_KR_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: aac0c6b23036640409a8d852e6d88dd4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Final_KR_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: aadc625078c329d47877095aa90e4717
     asset: {fileID: 0}
@@ -9863,13 +9875,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_LeaderBoard.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ad1354ca02757264d9e01aa2303cd0b7
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_LeaderBoard.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: ad21b7363efb93e49ac0f5355a2c523e
     asset: {fileID: 0}
@@ -9909,12 +9921,12 @@ MonoBehaviour:
     guid: ade35cfd8143b6941b1b421f186ed257
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/FX_Light_05.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ade35cfd8143b6941b1b421f186ed257
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/FX_Light_05.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: adeac47410b416445a14f16011e9589f
     asset: {fileID: 0}
@@ -9931,13 +9943,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_SavePoint.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ae57f0533b00cd64c9d1570839ad9b44
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_SavePoint.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ae5f82c26e7f4d740939a2556b4508d3
     asset: {fileID: 0}
@@ -9959,13 +9971,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_HUDMessage.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ae9cded43beca654784a415c05215d9f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_HUDMessage.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ae9ee4ffcb01c3b43beef788a6e635fc
     asset: {fileID: 0}
@@ -9976,13 +9988,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PunchBumper.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: aeae2ae054032a247a49b3883348119c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PunchBumper.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: aebeb3b3df021ff4cba6a3d638871af3
     asset: {fileID: 0}
@@ -10030,12 +10042,12 @@ MonoBehaviour:
     guid: af24c951a59033140b832364b2ea2453
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: af24c951a59033140b832364b2ea2453
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: af273ab237d29d9478aaefe5fd97a5e4
     asset: {fileID: 0}
@@ -10365,12 +10377,12 @@ MonoBehaviour:
     guid: b4b04c1d41db3174f82b7ae5d41ea4c5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Circle_DotLine_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: b4b04c1d41db3174f82b7ae5d41ea4c5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Base_Circle_DotLine_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: b4c94f9ca773b9b46abd1071aa066ab9
     asset: {fileID: 0}
@@ -10385,17 +10397,11 @@ MonoBehaviour:
     guid: b4d7f1b345d61ca46a7633ba15eceee9
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Time_03_2.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: b4d7f1b345d61ca46a7633ba15eceee9
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Time_03_2.png
-    localId: 2800000
-  - type: 0
-    guid: b4d969d4e99691b44a49dce12d5a5479
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
-      Icon/UI_Icon_Stage_UpandDown.png
     localId: 21300000
   - type: 0
     guid: b4d969d4e99691b44a49dce12d5a5479
@@ -10403,6 +10409,12 @@ MonoBehaviour:
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_UpandDown.png
     localId: 2800000
+  - type: 0
+    guid: b4d969d4e99691b44a49dce12d5a5479
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
+      Icon/UI_Icon_Stage_UpandDown.png
+    localId: 21300000
   - type: 1
     guid: b4f1480dc6bf9eb4a8f1b1e7ca31a0b2
     asset: {fileID: 0}
@@ -10449,12 +10461,12 @@ MonoBehaviour:
     guid: b5a5855dec740454ca56644505477e29
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: b5a5855dec740454ca56644505477e29
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: b5f75189bcca4fe4bb798f9bc5708b26
     asset: {fileID: 0}
@@ -10716,12 +10728,12 @@ MonoBehaviour:
     guid: ba04776e3e7697840a4bc2f02b3e33bf
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Bat.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ba04776e3e7697840a4bc2f02b3e33bf
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Bat.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ba102bf161de8c74a9ec3c987c21658b
     asset: {fileID: 0}
@@ -10855,12 +10867,12 @@ MonoBehaviour:
     guid: bc809d88ead687f419d4cb97413bef69
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: bc809d88ead687f419d4cb97413bef69
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: bc8181e6244125146a87c5b83c380a92
     asset: {fileID: 0}
@@ -10908,12 +10920,12 @@ MonoBehaviour:
     guid: bd0b4e1093ad2a04e9c0e10acf879638
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Key_Space.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: bd0b4e1093ad2a04e9c0e10acf879638
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Key_Space.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: bd1db18b05e5f8642accf9697f43dd93
     asset: {fileID: 0}
@@ -10949,12 +10961,12 @@ MonoBehaviour:
     guid: bda320790512c19458cd882e4784ff89
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Round_End_KR_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: bda320790512c19458cd882e4784ff89
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Round_End_KR_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: bdc571c96c2416348ac9e49e8ec1659f
     asset: {fileID: 0}
@@ -11107,12 +11119,12 @@ MonoBehaviour:
     guid: c02d8e5169d8eae44ba156e1a2ba9094
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_BG_Deco_Victory.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: c02d8e5169d8eae44ba156e1a2ba9094
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_BG_Deco_Victory.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: c06a7312d5c3ac1499f24628e8b425f6
     asset: {fileID: 0}
@@ -11167,12 +11179,12 @@ MonoBehaviour:
     guid: c1727479334141848a8d1ca67709b2de
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Arrow_Skew_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: c1727479334141848a8d1ca67709b2de
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Arrow_Skew_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: c17eeae05b94e864cbf205bc650eb000
     asset: {fileID: 0}
@@ -11286,12 +11298,12 @@ MonoBehaviour:
     guid: c37f2ac8b07aae9409188dd98eb13d00
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Defeat_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: c37f2ac8b07aae9409188dd98eb13d00
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Defeat_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: c3bb54edb008c14488488d21363ec4e4
     asset: {fileID: 0}
@@ -12497,13 +12509,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Timer.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: d5a4bcc093b9fa94798f093b59ed2e90
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Timer.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: d5b043c16cf7f53459a1f5299e5ef282
     asset: {fileID: 0}
@@ -12590,13 +12602,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/ItemE_Statue.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: d6cd13e765ede884fb8e88530fbe28bc
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/ItemE_Statue.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: d771d596d520a204ca25b0dd87f98f7b
     asset: {fileID: 0}
@@ -12618,12 +12630,12 @@ MonoBehaviour:
     guid: d7f811b510ff0cb48a89efb828bb0800
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/Fx_Glow.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: d7f811b510ff0cb48a89efb828bb0800
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/Fx_Glow.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: d82c83d20b8e6fb46a0f978c29cad099
     asset: {fileID: 0}
@@ -12792,12 +12804,12 @@ MonoBehaviour:
     guid: db15df9f567d79245872cb3bed36597d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Check_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: db15df9f567d79245872cb3bed36597d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Check_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: db2b287120d1a0147973d7ff175e654b
     asset: {fileID: 0}
@@ -12870,12 +12882,12 @@ MonoBehaviour:
     guid: dc045fbaf5ebff240b0b35b81b3004d2
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Star_Glow.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: dc045fbaf5ebff240b0b35b81b3004d2
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Img_Star_Glow.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: dc078620d4b5f534684c1007377406ac
     asset: {fileID: 0}
@@ -12935,13 +12947,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PopBouncer.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: dc8caba48e551644aa3a9e9374182525
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_PopBouncer.png
-    localId: 21300000
+    localId: 2800000
   - type: 1
     guid: dcba88b7f404bbd47ad2c3c926d9426c
     asset: {fileID: 0}
@@ -12968,12 +12980,12 @@ MonoBehaviour:
     guid: dd1b253514f795d4f9ba144a643f0f4c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Ef_Glow_Count.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: dd1b253514f795d4f9ba144a643f0f4c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Ef_Glow_Count.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: dd1e861dd5a1a8b46959a7f02d264db3
     asset: {fileID: 0}
@@ -12988,12 +13000,12 @@ MonoBehaviour:
     guid: dd46045b66d36be449e3fdf9d27b084d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_F.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: dd46045b66d36be449e3fdf9d27b084d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_FinalStage_EN_F.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: dd493ecab8d93854a83fe87f3e47fd4b
     asset: {fileID: 0}
@@ -13151,12 +13163,12 @@ MonoBehaviour:
     guid: df4c9db5eaf926145b3576e4cc98399d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_CirLine_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: df4c9db5eaf926145b3576e4cc98399d
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_CirLine_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: df5ea9134f7d80944a95771352678676
     asset: {fileID: 0}
@@ -13222,13 +13234,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_LastStage.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: e02a883e88b51a240afdd7f9d08dca5f
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Stage
       Icon/UI_Icon_Stage_LastStage.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: e032575080c13c140b30be064867aa97
     asset: {fileID: 0}
@@ -13548,12 +13560,12 @@ MonoBehaviour:
     guid: e56642555e7f4e94bac1fe5a5f084bbd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/UI_Base_Squ_02.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: e56642555e7f4e94bac1fe5a5f084bbd
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/UI_Base_Squ_02.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: e5acf2faa5844954fa63669c7f3edbbd
     asset: {fileID: 0}
@@ -13620,12 +13632,12 @@ MonoBehaviour:
     guid: e7355b6ca4569324181cc2212f255b1e
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_03.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: e7355b6ca4569324181cc2212f255b1e
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_03.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: e736fdc367fe85045a17092af44427d5
     asset: {fileID: 0}
@@ -13809,12 +13821,12 @@ MonoBehaviour:
     guid: ea5127ea3103d0a44b780bd7858e3a58
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Texture/UI/UI_Back_Transition_Cirline_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ea5127ea3103d0a44b780bd7858e3a58
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Texture/UI/UI_Back_Transition_Cirline_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ea7c20178de5ffc4c86adb7bef061dbe
     asset: {fileID: 0}
@@ -13926,12 +13938,12 @@ MonoBehaviour:
     guid: ec36a66f992a5654e983549d2291d3c5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_RocketLauncher.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ec36a66f992a5654e983549d2291d3c5
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_RocketLauncher.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ec3e8103eedef164bb1d7f7d117943e2
     asset: {fileID: 0}
@@ -14036,12 +14048,12 @@ MonoBehaviour:
     guid: ee0d2a8c3ddc91b42bd7fbd6c693f72b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_04.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ee0d2a8c3ddc91b42bd7fbd6c693f72b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_EN_04.png
-    localId: 2800000
+    localId: 21300000
   - type: 1
     guid: ee15b68104eb0f04cbd538a449656138
     asset: {fileID: 0}
@@ -14088,12 +14100,12 @@ MonoBehaviour:
     guid: ee512dc39e8cb354a9a1bcb3f984c421
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/UI_Base_Cir_Line_60.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ee512dc39e8cb354a9a1bcb3f984c421
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/__$internal/Sprite_Temp/UI_Base_Cir_Line_60.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: ee6de23219c050d40bdd5a9795027782
     asset: {fileID: 0}
@@ -14242,12 +14254,12 @@ MonoBehaviour:
     guid: f0a381a9275d9be439909c5e1c9fbb36
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Stage_LastStage.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f0a381a9275d9be439909c5e1c9fbb36
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Stage_LastStage.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f0c1782dc06232d4f99ec74e36fb10df
     asset: {fileID: 0}
@@ -14302,12 +14314,12 @@ MonoBehaviour:
     guid: f1497913d5cf4e746bcd58b1d442e372
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani04.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f1497913d5cf4e746bcd58b1d442e372
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Crown_Ani04.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f1627dcdc5af9ce48ae3c61fcc7d5728
     asset: {fileID: 0}
@@ -14440,12 +14452,12 @@ MonoBehaviour:
     guid: f3bad1f7c813c4e468059a6d1065868b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_03.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f3bad1f7c813c4e468059a6d1065868b
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Top_KR_03.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f3c439f1ccfd1634485494c1fb0182f9
     asset: {fileID: 0}
@@ -14512,12 +14524,12 @@ MonoBehaviour:
     guid: f548da54e4811c8478d2494d2a948d83
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Score1_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f548da54e4811c8478d2494d2a948d83
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_Score1_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f575c8c6a0aa3e044bedb80c477a213e
     asset: {fileID: 0}
@@ -14528,6 +14540,11 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Audio/SFX/Character/SFX_Penguin_Vo_Flyaway_05.wav
     localId: 8300000
+  - type: 0
+    guid: f5c8e1730cbd4de78f2a644748192ab1
+    asset: {fileID: 0}
+    path: Assets/Vulcanus/Custom/Lua/InfiniteYRotator.lua
+    localId: -6750239444755058063
   - type: 0
     guid: f5cb6e52716ddcf4eaaaefd4439e3b2c
     asset: {fileID: 0}
@@ -14585,13 +14602,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_GimmickScroll.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f774c6b36e14c36448adc722623e97f9
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_GimmickScroll.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f77fb82d2fd4ba34cb3faca6061cc2dd
     asset: {fileID: 0}
@@ -14642,12 +14659,12 @@ MonoBehaviour:
     guid: f7dd585548a389c44ac6a70cc25e3412
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Essential/Vulcanus Resource/RawResource/UI/FX_Light_04.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f7dd585548a389c44ac6a70cc25e3412
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Essential/Vulcanus Resource/RawResource/UI/FX_Light_04.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f7f296f7c5defa8479b49b0190bce365
     asset: {fileID: 0}
@@ -14699,12 +14716,12 @@ MonoBehaviour:
     guid: f8f87d97928c9a648857689d816922aa
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Interaction.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f8f87d97928c9a648857689d816922aa
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Interaction.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f9003af7551794549ab6d6b68ac292e6
     asset: {fileID: 0}
@@ -14725,12 +14742,12 @@ MonoBehaviour:
     guid: f96e2c8a96a16274ebddedb755286dc4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_End_EN_01.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: f96e2c8a96a16274ebddedb755286dc4
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Text_End_EN_01.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: f9a19961f866b12418eb7b40c4be633f
     asset: {fileID: 0}
@@ -14866,12 +14883,12 @@ MonoBehaviour:
     guid: fbbfad6c20c8ac744a563cf9781a805c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_03_1.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: fbbfad6c20c8ac744a563cf9781a805c
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_Like_03_1.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: fbc41fbc9f5d35842ac445a82f51c1d1
     asset: {fileID: 0}
@@ -14963,17 +14980,11 @@ MonoBehaviour:
     guid: fd7ddf7ce3512e84e93a885d3d7ded13
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_VoiveChat_Mic_Mute.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: fd7ddf7ce3512e84e93a885d3d7ded13
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/UI/UI_Icon_VoiveChat_Mic_Mute.png
-    localId: 2800000
-  - type: 0
-    guid: fdb9a2a8567d2c54fb141ed8f2c63508
-    asset: {fileID: 0}
-    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
-      Icon/Gizmo_Popup.png
     localId: 21300000
   - type: 0
     guid: fdb9a2a8567d2c54fb141ed8f2c63508
@@ -14981,6 +14992,12 @@ MonoBehaviour:
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
       Icon/Gizmo_Popup.png
     localId: 2800000
+  - type: 0
+    guid: fdb9a2a8567d2c54fb141ed8f2c63508
+    asset: {fileID: 0}
+    path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Gizmo
+      Icon/Gizmo_Popup.png
+    localId: 21300000
   - type: 0
     guid: fde178c6fe667994eb2437fefc5c054d
     asset: {fileID: 0}
@@ -15062,13 +15079,13 @@ MonoBehaviour:
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_RotationPlatform.png
-    localId: 21300000
+    localId: 2800000
   - type: 0
     guid: fee6b80e04e41b549a948c57f25b66f1
     asset: {fileID: 0}
     path: Packages/com.v.gameframework.resources/Runtime/Official/Partyroyal Framework/RawResource/Sprite/Palette
       Icon/Device_RotationPlatform.png
-    localId: 2800000
+    localId: 21300000
   - type: 0
     guid: ff0c6a61c80b00242b9ec27c9fa59f0f
     asset: {fileID: 0}
