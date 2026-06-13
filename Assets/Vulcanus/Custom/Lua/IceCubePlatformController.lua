@@ -27,6 +27,17 @@ this.ClearAngularVelocity = __EX_VARIABLE__.bool(true)
 
 this.ObstacleNamePrefix = __EX_VARIABLE__.string("Obstacle")
 this.FinishName = __EX_VARIABLE__.string("Finish_Line")
+this.EnableDropPlatforms = __EX_VARIABLE__.bool(true)
+this.DropPlatformPrefix = __EX_VARIABLE__.string("Drop_")
+this.DropPlatformRootName = __EX_VARIABLE__.string("Start_Platform")
+this.DropShakeDuration = __EX_VARIABLE__.float(1.0)
+this.DropShakeAmount = __EX_VARIABLE__.float(0.18)
+this.DropShakeFrequency = __EX_VARIABLE__.float(24.0)
+this.DropAcceleration = __EX_VARIABLE__.float(18.0)
+this.DropMaxSpeed = __EX_VARIABLE__.float(20.0)
+this.DropDistance = __EX_VARIABLE__.float(30.0)
+this.DropDetectionDepth = __EX_VARIABLE__.float(3.0)
+this.DropDetectionWidthScale = __EX_VARIABLE__.float(0.8)
 
 this.OnIceMelted = __EX_VARIABLE__.event()
 this.OnFinishReached = __EX_VARIABLE__.event()
@@ -35,6 +46,7 @@ this.OnIceDamaged = __EX_VARIABLE__.event("float damage", "float height")
 local serviceApi
 local scriptObject
 local playerService
+local physicsService
 local iceTransform
 local iceRigidbody
 local startScale
@@ -47,6 +59,7 @@ local collisionStopTimer = 0
 local damageCooldownTimer = 0
 local pushBackTimer = 0
 local pushBackVelocity = Vector3(0, 0, 0)
+local dropPlatformStates = {}
 
 local function tryGet(target, key)
     if target == nil then
@@ -85,6 +98,21 @@ local function getVObjectName(vObject)
     return ""
 end
 
+local function getParentVObject(vObject)
+    if vObject == nil then
+        return nil
+    end
+
+    local parent = tryGet(vObject, "parent")
+    if parent ~= nil then
+        return parent
+    end
+
+    local transform = tryGet(vObject, "transform")
+    local parentTransform = tryGet(transform, "parent")
+    return tryGet(parentTransform, "vObject")
+end
+
 local function isObstacleVObject(vObject)
     local current = vObject
 
@@ -97,10 +125,152 @@ local function isObstacleVObject(vObject)
             return true
         end
 
-        current = tryGet(current, "parent")
+        current = getParentVObject(current)
     end
 
     return false
+end
+
+local function findDropPlatform(vObject)
+    local current = vObject
+
+    for _ = 1, 12 do
+        if current == nil then
+            return nil
+        end
+
+        local name = getVObjectName(current)
+        if startsWith(name, this.DropPlatformPrefix) then
+            return current
+        end
+
+        current = getParentVObject(current)
+    end
+
+    return nil
+end
+
+local function startDropPlatform(vObject)
+    if this.EnableDropPlatforms ~= true or vObject == nil then
+        return
+    end
+
+    local platform = findDropPlatform(vObject)
+    if platform == nil or dropPlatformStates[platform] ~= nil then
+        return
+    end
+
+    local platformTransform = tryGet(platform, "transform")
+    if platformTransform == nil then
+        return
+    end
+
+    local position = platformTransform.localPosition
+    dropPlatformStates[platform] = {
+        transform = platformTransform,
+        origin = Vector3(position.x, position.y, position.z),
+        elapsed = 0,
+        fallSpeed = 0,
+        fallDistance = 0,
+        falling = false,
+        finished = false
+    }
+end
+
+local function updateDropPlatforms(deltaTime)
+    for _, state in pairs(dropPlatformStates) do
+        if not state.finished then
+            state.elapsed = state.elapsed + deltaTime
+
+            if not state.falling then
+                if state.elapsed >= this.DropShakeDuration then
+                    state.falling = true
+                    state.transform.localPosition = state.origin
+                    state.transform:SyncTransform()
+                else
+                    local phase = state.elapsed * this.DropShakeFrequency
+                    local offsetX = math.sin(phase) * this.DropShakeAmount
+                    local offsetZ = math.sin(phase * 1.37) * this.DropShakeAmount
+                    state.transform.localPosition = Vector3(
+                        state.origin.x + offsetX,
+                        state.origin.y,
+                        state.origin.z + offsetZ
+                    )
+                    state.transform:SyncTransform()
+                end
+            else
+                state.fallSpeed = math.min(
+                    state.fallSpeed + this.DropAcceleration * deltaTime,
+                    this.DropMaxSpeed
+                )
+
+                local fallStep = state.fallSpeed * deltaTime
+                state.fallDistance = state.fallDistance + fallStep
+                state.transform.localPosition = Vector3(
+                    state.origin.x,
+                    state.origin.y - state.fallDistance,
+                    state.origin.z
+                )
+                state.transform:SyncTransform()
+
+                if state.fallDistance >= this.DropDistance then
+                    state.finished = true
+                end
+            end
+        end
+    end
+end
+
+local function detectDropPlatformBelow()
+    if this.EnableDropPlatforms ~= true or physicsService == nil or iceTransform == nil then
+        return
+    end
+
+    local depth = this.DropDetectionDepth or 3.0
+    local widthScale = this.DropDetectionWidthScale or 0.8
+    local scale = iceTransform.localScale
+    local icePosition = iceTransform.position
+    local center = Vector3(
+        icePosition.x,
+        icePosition.y - depth * 0.5,
+        icePosition.z
+    )
+    local halfExtents = Vector3(
+        math.max(scale.x * widthScale, 0.5),
+        depth * 0.5,
+        math.max(scale.z * widthScale, 0.5)
+    )
+
+    local ok, colliders = pcall(function()
+        return physicsService:OverlapBox(center, halfExtents, Quaternion.identity)
+    end)
+
+    if not ok or colliders == nil then
+        return
+    end
+
+    local closestPlatform = nil
+    local closestDistance = math.huge
+
+    for i = 1, #colliders do
+        local platform = findDropPlatform(colliders[i].vObject)
+        if platform ~= nil and dropPlatformStates[platform] == nil then
+            local platformTransform = tryGet(platform, "transform")
+            if platformTransform ~= nil then
+                local platformPosition = platformTransform.position
+                local dx = platformPosition.x - icePosition.x
+                local dz = platformPosition.z - icePosition.z
+                local distance = dx * dx + dz * dz
+
+                if distance < closestDistance then
+                    closestDistance = distance
+                    closestPlatform = platform
+                end
+            end
+        end
+    end
+
+    startDropPlatform(closestPlatform)
 end
 
 local function callEvent(eventObject, ...)
@@ -505,6 +675,7 @@ function this.OnAwake()
 
     if serviceApi ~= nil then
         playerService = serviceApi.playerService
+        physicsService = serviceApi.physicsService
     end
 end
 
@@ -533,6 +704,9 @@ end
 local function updatePlatform(deltaTime)
     if isFinished or isPaused then return end
     if iceTransform == nil then return end
+
+    detectDropPlatformBelow()
+    updateDropPlatforms(deltaTime)
 
     if collisionStopTimer > 0 then
         collisionStopTimer = collisionStopTimer - deltaTime
@@ -617,6 +791,7 @@ end
 function this.OnCollisionEnter(collision)
     if collision ~= nil then
         tryAssignCharacterFromVObject(collision.vObject)
+        startDropPlatform(collision.vObject)
     end
 
     if not shouldDamageFromCollision(collision) then return end
@@ -632,6 +807,10 @@ function this.OnCollisionEnter(collision)
 end
 
 function this.OnCollisionStay(collision)
+    if collision ~= nil then
+        startDropPlatform(collision.vObject)
+    end
+
     if not shouldDamageFromCollision(collision) then return end
 
     pushBackFromObstacleCollision(collision)
@@ -646,7 +825,13 @@ function this.OnTriggerEnter(collider)
     if collider == nil then return end
 
     local hitObject = collider.vObject
+    startDropPlatform(hitObject)
     finishIfNeeded(hitObject)
+end
+
+function this.OnTriggerStay(collider)
+    if collider == nil then return end
+    startDropPlatform(collider.vObject)
 end
 
 function this.OnDestroy()
