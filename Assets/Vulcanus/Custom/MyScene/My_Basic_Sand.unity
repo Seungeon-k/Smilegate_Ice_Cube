@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: -1246999773, guid: 6ccafe1d968dae14fb7a84d37d9fe1d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tableHash: 1123473507
+  tableHash: 714630176
   rootGameObjects:
   - {fileID: 1797001973}
   - {fileID: 1811738106}
@@ -6397,6 +6397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802360644}
   - component: {fileID: 1802360645}
+  - component: {fileID: 2147300103}
   m_Layer: 0
   m_Name: InputController_C
   m_TagString: Untagged
@@ -8399,7 +8400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchorMax.y
@@ -8407,11 +8408,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_LocalScale.x
@@ -8431,7 +8432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000002, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 820000000000000302, guid: 74f705aa18c74efca592e76daed80404, type: 3}
       propertyPath: m_AnchorMax.x

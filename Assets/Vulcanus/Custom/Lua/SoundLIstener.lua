@@ -19,6 +19,15 @@
     local initialIceHeight = 3.0028605
     local gaugeConnectedLogged = false
 
+    local raceTimerText
+    local raceStatusText
+    local finishLine
+    local iceCollider
+    local finishCollider
+    local raceTimeRemaining = 120
+    local startMessageRemaining = 2
+    local raceState = "running"
+
     local function clamp01(value)
         if value < 0 then return 0 end
         if value > 1 then return 1 end
@@ -60,6 +69,106 @@
         displayedGaugeRatio = displayedGaugeRatio + (targetRatio - displayedGaugeRatio) * blend
         gaugeSlider.normalizedValue = displayedGaugeRatio
     end
+
+    local function resolveText(uiName)
+        if serviceApi.uiService == nil then return nil end
+
+        local uiObject = serviceApi.uiService:GetChildUI("IceGaugeHUD_UI/" .. uiName)
+        if uiObject == nil then
+            uiObject = serviceApi.uiService:FindByName(uiName)
+        end
+
+        if uiObject == nil then return nil end
+        return uiObject:GetComponent("TextMeshProUGUI")
+    end
+
+    local function resolveRaceHud()
+        if raceTimerText == nil then
+            raceTimerText = resolveText("RaceTimerText")
+        end
+
+        if raceStatusText == nil then
+            raceStatusText = resolveText("RaceStatusText")
+        end
+
+        if iceCube == nil and serviceApi.world ~= nil then
+            iceCube = serviceApi.world:GetVObject("Ice_Cube")
+        end
+
+        if finishLine == nil and serviceApi.world ~= nil then
+            finishLine = serviceApi.world:GetVObject("Finish_Line")
+        end
+
+        if iceCollider == nil and iceCube ~= nil then
+            iceCollider = iceCube:GetComponent("Collider")
+        end
+
+        if finishCollider == nil and finishLine ~= nil then
+            finishCollider = finishLine:GetComponent("Collider")
+        end
+    end
+
+    local function formatRaceTime(seconds)
+        local totalSeconds = math.max(0, math.ceil(seconds))
+        local minutes = math.floor(totalSeconds / 60)
+        local remainingSeconds = totalSeconds % 60
+        return string.format("%02d:%02d", minutes, remainingSeconds)
+    end
+
+    local function boundsOverlap(a, b)
+        return a.min.x <= b.max.x and a.max.x >= b.min.x
+            and a.min.y <= b.max.y and a.max.y >= b.min.y
+            and a.min.z <= b.max.z and a.max.z >= b.min.z
+    end
+
+    local function hasReachedFinish()
+        if iceCube == nil or finishLine == nil then return false end
+        if iceCube.transform == nil or finishLine.transform == nil then return false end
+
+        if iceCollider ~= nil and finishCollider ~= nil then
+            local ok, overlapping = pcall(function()
+                return boundsOverlap(iceCollider.bounds, finishCollider.bounds)
+            end)
+            if ok and overlapping then return true end
+        end
+
+        local icePosition = iceCube.transform.position
+        local finishPosition = finishLine.transform.position
+        local dx = icePosition.x - finishPosition.x
+        local dz = icePosition.z - finishPosition.z
+        return dx * dx + dz * dz <= 100
+    end
+
+    local function updateRaceHud(deltaTime)
+        resolveRaceHud()
+
+        if raceState == "running" then
+            raceTimeRemaining = math.max(0, raceTimeRemaining - (deltaTime or 0))
+            startMessageRemaining = math.max(0, startMessageRemaining - (deltaTime or 0))
+
+            if hasReachedFinish() then
+                raceState = "goal"
+                if raceStatusText ~= nil then
+                    raceStatusText.text = "GOAL"
+                end
+            elseif raceTimeRemaining <= 0 then
+                raceState = "timeout"
+                if raceStatusText ~= nil then
+                    raceStatusText.text = "TIME OVER"
+                end
+            elseif raceStatusText ~= nil then
+                if startMessageRemaining > 0 then
+                    raceStatusText.text = "START!"
+                else
+                    raceStatusText.text = ""
+                end
+            end
+        end
+
+        if raceTimerText ~= nil then
+            raceTimerText.text = formatRaceTime(raceTimeRemaining)
+        end
+    end
     
     local function onCreateCharacter(player)
         if not this.UseLocalPlayer then return end
@@ -91,6 +200,14 @@
         _transform = scriptObject.parent.transform
         _camera = serviceApi.cameraService:GetGameCamera()
         resolveIceGauge()
+        resolveRaceHud()
+
+        if raceTimerText ~= nil then
+            raceTimerText.text = "02:00"
+        end
+        if raceStatusText ~= nil then
+            raceStatusText.text = "START!"
+        end
 
         if this.UseLocalPlayer and playerService ~= nil then
             playerService.OnCreateCharacter:AddListener(onCreateCharacter)
@@ -101,6 +218,7 @@
     
     function this.OnUpdate(deltaTime)
         updateIceGauge(deltaTime)
+        updateRaceHud(deltaTime)
 
         if blockUpdate == true then return end
         if this.Target == nil or this.Target.transform == nil then return end
