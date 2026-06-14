@@ -9,11 +9,12 @@ this.PlayerSpeedBonus = __EX_VARIABLE__.float(8.0)
 
 this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
 this.ControlStrength = __EX_VARIABLE__.float(8.0)
-this.MaxMoveSpeed = __EX_VARIABLE__.float(24.0)
+this.MaxMoveSpeed = __EX_VARIABLE__.float(18.0)
 this.PlayerInfluenceRadiusScale = __EX_VARIABLE__.float(0.65)
-this.PlayerInfluenceWeight = __EX_VARIABLE__.float(1.0)
-this.MoveAcceleration = __EX_VARIABLE__.float(40.0)
-this.SlideDeceleration = __EX_VARIABLE__.float(4.0)
+this.PlayerInfluenceWeight = __EX_VARIABLE__.float(0.8)
+this.MoveInputSmoothing = __EX_VARIABLE__.float(7.0)
+this.MoveAcceleration = __EX_VARIABLE__.float(22.0)
+this.SlideDeceleration = __EX_VARIABLE__.float(5.0)
 
 this.MeltRate = __EX_VARIABLE__.float(0.035)
 this.MinHeight = __EX_VARIABLE__.float(0.05)
@@ -88,6 +89,8 @@ local damageCooldownTimer = 0
 local pushBackTimer = 0
 -- Vector3 is available only after the runtime context is initialized.
 local pushBackVelocity
+local smoothedMoveX = 0
+local smoothedMoveZ = 0
 local fallbackVelocityX = 0
 local fallbackVelocityZ = 0
 local dropPlatformStates = {}
@@ -1405,8 +1408,12 @@ local function updatePlatform(deltaTime)
         moveZ = 0
     end
 
-    local finalMoveX = moveX + pushBackVelocity.x
-    local finalMoveZ = moveZ + pushBackVelocity.z
+    local inputBlend = clamp((this.MoveInputSmoothing or 7.0) * deltaTime, 0, 1)
+    smoothedMoveX = smoothedMoveX + (moveX - smoothedMoveX) * inputBlend
+    smoothedMoveZ = smoothedMoveZ + (moveZ - smoothedMoveZ) * inputBlend
+
+    local finalMoveX = smoothedMoveX + pushBackVelocity.x
+    local finalMoveZ = smoothedMoveZ + pushBackVelocity.z
 
     currentHeight = currentHeight - this.MeltRate * deltaTime
     currentHeight = clamp(currentHeight, 0, startScale.y)
@@ -1510,6 +1517,8 @@ function this.ResetIce()
     damageCooldownTimer = 0
     pushBackTimer = 0
     pushBackVelocity = Vector3(0, 0, 0)
+    smoothedMoveX = 0
+    smoothedMoveZ = 0
     fallbackVelocityX = 0
     fallbackVelocityZ = 0
     currentHeight = startScale.y
