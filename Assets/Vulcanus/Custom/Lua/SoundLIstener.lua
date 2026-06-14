@@ -19,10 +19,12 @@
     local initialIceHeight = 3.0028605
     local gaugeConnectedLogged = false
     local playerRecoveryTimer = 0
+    local playerRecoveryCooldownTimer = 0
     local playerRecoveryLogged = false
-    local playerRecoveryDepth = 0.2
-    local playerRecoveryHeight = 0.55
-    local playerRecoveryDuration = 0.4
+    local playerRecoveryDepth = 1.0
+    local playerRecoveryHeight = 1.0
+    local playerRecoveryDuration = 0.18
+    local playerRecoveryCooldown = 1.0
 
     local raceTimerText
     local raceTimerObject
@@ -98,6 +100,7 @@
 
     local function updatePlayerRecovery(deltaTime)
         if raceEnded then return end
+        deltaTime = deltaTime or 0.016
 
         if iceCube == nil or iceCube.transform == nil then
             resolveIceGauge()
@@ -109,24 +112,41 @@
 
         local iceTransform = iceCube.transform
         local icePosition = iceTransform.position
-        local iceTopY = icePosition.y + iceTransform.localScale.y * 0.5
+        local iceScale = iceTransform.localScale
+        local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
         local characterPosition = character.transform.position
         local isBelow = characterPosition.y < iceTopY - playerRecoveryDepth
-        local isFallingNearIce = character.isFalling == true
-            and characterPosition.y < iceTopY + 0.5
 
-        if playerRecoveryTimer <= 0 and (isBelow or isFallingNearIce) then
+        if playerRecoveryCooldownTimer > 0 then
+            playerRecoveryCooldownTimer = math.max(0, playerRecoveryCooldownTimer - deltaTime)
+        end
+
+        if playerRecoveryTimer <= 0
+            and playerRecoveryCooldownTimer <= 0
+            and isBelow then
             playerRecoveryTimer = playerRecoveryDuration
+            playerRecoveryCooldownTimer = playerRecoveryCooldown
             playerRecoveryLogged = false
+
+            local recoveryPosition = Vector3(
+                icePosition.x,
+                iceTopY + playerRecoveryHeight,
+                icePosition.z
+            )
+
+            local characterTransform = character.transform
+            local moved = pcall(function()
+                characterTransform:ChangePosition(recoveryPosition)
+            end)
+            if not moved then
+                characterTransform.position = recoveryPosition
+                pcall(function()
+                    characterTransform:SyncTransform()
+                end)
+            end
         end
 
         if playerRecoveryTimer <= 0 then return end
-
-        local recoveryPosition = Vector3(
-            icePosition.x,
-            iceTopY + playerRecoveryHeight,
-            icePosition.z
-        )
 
         pcall(function()
             character:SetControlBlocked(true)
@@ -137,26 +157,13 @@
         pcall(function()
             character:SetAngularVelocity(Vector3(0, 0, 0))
         end)
-        local characterTransform = character.transform
-        local moved = pcall(function()
-            characterTransform:ChangePosition(recoveryPosition)
-        end)
-        if not moved then
-            characterTransform.position = recoveryPosition
-            pcall(function()
-                characterTransform:SyncTransform()
-            end)
-        end
-        pcall(function()
-            character:SetIsOnIce(true)
-        end)
 
         if not playerRecoveryLogged and scriptObject ~= nil then
             playerRecoveryLogged = true
             scriptObject:Log("[PlayerRecovery] Returned player to Ice_Cube.")
         end
 
-        playerRecoveryTimer = playerRecoveryTimer - (deltaTime or 0.016)
+        playerRecoveryTimer = playerRecoveryTimer - deltaTime
         if playerRecoveryTimer <= 0 then
             pcall(function()
                 character:SetControlBlocked(false)
@@ -341,10 +348,6 @@
     end
 
     local function stopGameplay()
-        pcall(function()
-            Time.timeScale = 0
-        end)
-
         if icePlatformController ~= nil then
             pcall(function()
                 icePlatformController:SetPaused(true)
@@ -371,6 +374,10 @@
         raceEnded = true
         raceState = state
         setUIObjectActive(raceStatusObject, true)
+
+        if scriptObject ~= nil then
+            scriptObject:Log("[RaceHUD] Race finished: " .. message)
+        end
 
         if not setTextValue(raceStatusObject, raceStatusText, message)
             and scriptObject ~= nil then

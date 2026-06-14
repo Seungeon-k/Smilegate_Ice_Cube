@@ -30,6 +30,10 @@ this.PushBackForce = __EX_VARIABLE__.float(2.5)
 this.KeepGrounded = __EX_VARIABLE__.bool(true)
 this.ClearVerticalVelocity = __EX_VARIABLE__.bool(true)
 this.ClearAngularVelocity = __EX_VARIABLE__.bool(true)
+this.KeepPlayersOnIce = __EX_VARIABLE__.bool(true)
+this.PlayerClampMargin = __EX_VARIABLE__.float(0.8)
+this.PlayerRecoverHeight = __EX_VARIABLE__.float(1.1)
+this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(0.6)
 
 this.ObstacleNamePrefix = __EX_VARIABLE__.string("Obstacle")
 this.FinishName = __EX_VARIABLE__.string("Finish_Line")
@@ -607,6 +611,74 @@ local function calculateMultiplayerMove(icePosition)
     end
 
     return moveX / contributors, moveZ / contributors, contributors
+end
+
+local function stopCharacterMotion(character)
+    pcall(function()
+        character:SetVelocity(Vector3(0, 0, 0))
+    end)
+    pcall(function()
+        character:SetAngularVelocity(Vector3(0, 0, 0))
+    end)
+end
+
+local function moveCharacterTo(character, position)
+    if character == nil or character.transform == nil then
+        return
+    end
+
+    local moved = pcall(function()
+        character.transform:ChangePosition(position)
+    end)
+
+    if not moved then
+        character.transform.position = position
+        pcall(function()
+            character.transform:SyncTransform()
+        end)
+    end
+end
+
+local function keepPlayersOnIceTop()
+    if this.KeepPlayersOnIce ~= true or iceTransform == nil then
+        return
+    end
+
+    refreshControllingCharacters()
+
+    local icePosition = iceTransform.position
+    local iceScale = iceTransform.localScale
+    local margin = math.max(this.PlayerClampMargin or 0.8, 0)
+    local halfX = math.max(math.abs(iceScale.x) * 0.5 - margin, 0.25)
+    local halfZ = math.max(math.abs(iceScale.z) * 0.5 - margin, 0.25)
+    local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
+    local recoverY = iceTopY + math.max(this.PlayerRecoverHeight or 1.1, 0.2)
+    local belowDepth = math.max(this.PlayerRecoverBelowDepth or 0.6, 0.1)
+
+    for i = 1, #controllingCharacters do
+        local character = controllingCharacters[i]
+        if character ~= nil and character.transform ~= nil then
+            local position = character.transform.position
+            local clampedX = clamp(position.x, icePosition.x - halfX, icePosition.x + halfX)
+            local clampedZ = clamp(position.z, icePosition.z - halfZ, icePosition.z + halfZ)
+            local targetY = position.y
+            local shouldMove = false
+
+            if position.x ~= clampedX or position.z ~= clampedZ then
+                shouldMove = true
+            end
+
+            if position.y < iceTopY - belowDepth then
+                targetY = recoverY
+                shouldMove = true
+            end
+
+            if shouldMove then
+                moveCharacterTo(character, Vector3(clampedX, targetY, clampedZ))
+                stopCharacterMotion(character)
+            end
+        end
+    end
 end
 
 local function tryAssignCharacterFromVObject(vObject)
@@ -1261,6 +1333,7 @@ local function updatePlatform(deltaTime)
     detectDropPlatformBelow()
     updateDropPlatforms(deltaTime)
     updateIceBallRain(deltaTime)
+    keepPlayersOnIceTop()
 
     if collisionStopTimer > 0 then
         collisionStopTimer = collisionStopTimer - deltaTime
