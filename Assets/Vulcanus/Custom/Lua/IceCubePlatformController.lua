@@ -695,6 +695,7 @@ local function beginIceBallFall()
         iceBallTargetPosition.z
     ))
 
+    setVObjectActive(iceBallShadow, false)
     setVObjectActive(iceBallObject, true)
     iceBallState = "falling"
     iceBallFallSpeed = 0

@@ -97,7 +97,7 @@ public sealed class IceBallCellBreakEffect : MonoBehaviour
         foreach (Renderer renderer in renderers)
         {
             Transform cellTransform = renderer.transform;
-            if (cellTransform == transform)
+            if (cellTransform == transform || !cellTransform.name.StartsWith("Sphere_cell"))
             {
                 continue;
             }

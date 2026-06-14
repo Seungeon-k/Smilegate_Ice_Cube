@@ -156,6 +156,11 @@ internal static class IceBallHazardSetup
 
         foreach (GameObject obj in objects)
         {
+            if (obj == null)
+            {
+                continue;
+            }
+
             if (obj.name != objectName)
             {
                 continue;
@@ -220,6 +225,7 @@ internal static class IceBallHazardSetup
             InteractionMode.AutomatedAction
         );
         changed = true;
+        changed = KeepOnlyCellRenderers(model) || changed;
 
         foreach (MeshRenderer renderer in root.GetComponents<MeshRenderer>())
         {
@@ -304,6 +310,39 @@ internal static class IceBallHazardSetup
         }
 
         changed = NormalizeModelWithBottomPivot(root, model, BallDiameter) || changed;
+        return changed;
+    }
+
+    private static bool KeepOnlyCellRenderers(GameObject model)
+    {
+        bool changed = false;
+        Renderer[] renderers = model.GetComponentsInChildren<Renderer>(true);
+
+        foreach (Renderer renderer in renderers)
+        {
+            GameObject rendererObject = renderer.gameObject;
+            if (rendererObject.name.StartsWith("Sphere_cell"))
+            {
+                continue;
+            }
+
+            if (rendererObject == model)
+            {
+                Object.DestroyImmediate(renderer);
+                MeshFilter meshFilter = rendererObject.GetComponent<MeshFilter>();
+                if (meshFilter != null)
+                {
+                    Object.DestroyImmediate(meshFilter);
+                }
+            }
+            else
+            {
+                Object.DestroyImmediate(rendererObject);
+            }
+
+            changed = true;
+        }
+
         return changed;
     }
 
