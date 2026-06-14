@@ -76,6 +76,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9897690520fbb3e499e696e85d881d0f
+    m_Address: Assets/Vulcanus/Custom/Object/ice_ball.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a06977d710d8fc84cadd225baffe8047
+    m_Address: Assets/Vulcanus/Custom/M_RunIce01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a29f8d6b739d4f5a91c4e072bea63518
     m_Address: Assets/Vulcanus/Custom/InfiniteYRotator.prefab
     m_ReadOnly: 0
@@ -110,6 +120,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c41e7b86fe346364bb4c299a2083a139
     m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/GameMode/GameSettingData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e24197db08b5b5a42ba297ddc63aaab8
+    m_Address: Assets/Vulcanus/Custom/Material/IceBallShadow.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

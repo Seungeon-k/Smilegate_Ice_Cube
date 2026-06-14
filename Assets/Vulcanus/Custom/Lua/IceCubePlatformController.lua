@@ -41,6 +41,24 @@ this.DropDistance = __EX_VARIABLE__.float(30.0)
 this.DropDetectionDepth = __EX_VARIABLE__.float(3.0)
 this.DropDetectionWidthScale = __EX_VARIABLE__.float(0.8)
 
+this.EnableIceBallRain = __EX_VARIABLE__.bool(true)
+this.IceBallPlatformName = __EX_VARIABLE__.string("Snow_Platform (2)")
+this.IceBallObjectName = __EX_VARIABLE__.string("Ice_Ball_Hazard")
+this.IceBallShadowName = __EX_VARIABLE__.string("Ice_Ball_Shadow")
+this.IceBallIntervalMin = __EX_VARIABLE__.float(2.5)
+this.IceBallIntervalMax = __EX_VARIABLE__.float(4.5)
+this.IceBallWarningTime = __EX_VARIABLE__.float(1.0)
+this.IceBallFallHeight = __EX_VARIABLE__.float(24.0)
+this.IceBallFallAcceleration = __EX_VARIABLE__.float(38.0)
+this.IceBallMaxFallSpeed = __EX_VARIABLE__.float(28.0)
+this.IceBallRadius = __EX_VARIABLE__.float(5.0)
+this.IceBallLandingOffset = __EX_VARIABLE__.float(-0.5)
+this.IceBallAreaMargin = __EX_VARIABLE__.float(2.0)
+this.IceBallImpactRadius = __EX_VARIABLE__.float(7.0)
+this.IceBallImpactForce = __EX_VARIABLE__.float(9.0)
+this.IceBallImpactDamage = __EX_VARIABLE__.float(0.22)
+this.IceBallBreakDuration = __EX_VARIABLE__.float(0.75)
+
 this.OnIceMelted = __EX_VARIABLE__.event()
 this.OnFinishReached = __EX_VARIABLE__.event()
 this.OnIceDamaged = __EX_VARIABLE__.event("float damage", "float height")
@@ -66,6 +84,18 @@ local fallbackVelocityX = 0
 local fallbackVelocityZ = 0
 local dropPlatformStates = {}
 local speedBoostedCharacters = {}
+local iceBallPlatform
+local iceBallObject
+local iceBallShadow
+local iceBallState = "waiting"
+local iceBallTimer = 1.5
+local iceBallFallSpeed = 0
+local iceBallSurfaceY = 0
+local iceBallTargetPosition
+local iceBallStartScale
+local iceBallShadowScale
+local iceBallHitPlayer = false
+local iceBallMissingLogTimer = 0
 
 local function tryGet(target, key)
     if target == nil then
@@ -538,6 +568,343 @@ local function getComponent(vObject, componentName)
     return nil
 end
 
+local function setVObjectActive(vObject, active)
+    if vObject == nil then return end
+
+    pcall(function()
+        vObject:SetActive(active)
+    end)
+end
+
+local function randomRange(minValue, maxValue)
+    if maxValue < minValue then
+        minValue, maxValue = maxValue, minValue
+    end
+
+    return minValue + (maxValue - minValue) * math.random()
+end
+
+local function resolveIceBallObjects()
+    if serviceApi == nil or serviceApi.world == nil then
+        return false
+    end
+
+    if iceBallPlatform == nil then
+        iceBallPlatform = serviceApi.world:GetVObject(this.IceBallPlatformName)
+    end
+    if iceBallObject == nil then
+        iceBallObject = serviceApi.world:GetVObject(this.IceBallObjectName)
+    end
+    if iceBallShadow == nil then
+        iceBallShadow = serviceApi.world:GetVObject(this.IceBallShadowName)
+    end
+
+    return iceBallPlatform ~= nil
+        and iceBallObject ~= nil
+        and iceBallShadow ~= nil
+        and iceBallPlatform.transform ~= nil
+        and iceBallObject.transform ~= nil
+        and iceBallShadow.transform ~= nil
+end
+
+local function getIceBallArea()
+    if iceBallPlatform == nil or iceBallPlatform.transform == nil then
+        return nil
+    end
+
+    local colliderNames = { "BoxCollider", "MeshCollider", "Collider" }
+    for i = 1, #colliderNames do
+        local collider = getComponent(iceBallPlatform, colliderNames[i])
+        local bounds = tryGet(collider, "bounds")
+        local center = tryGet(bounds, "center")
+        local extents = tryGet(bounds, "extents")
+
+        if center ~= nil and extents ~= nil then
+            return center, extents
+        end
+    end
+
+    local transform = iceBallPlatform.transform
+    local position = transform.position
+    local scale = transform.localScale
+    return position, Vector3(
+        math.abs(scale.x) * 0.5,
+        math.max(math.abs(scale.y) * 0.5, 0.1),
+        math.abs(scale.z) * 0.5
+    )
+end
+
+local function hideIceBallHazard()
+    setVObjectActive(iceBallObject, false)
+    setVObjectActive(iceBallShadow, false)
+end
+
+local function scheduleNextIceBall()
+    iceBallState = "waiting"
+    iceBallTimer = randomRange(this.IceBallIntervalMin, this.IceBallIntervalMax)
+    iceBallFallSpeed = 0
+    iceBallHitPlayer = false
+    hideIceBallHazard()
+end
+
+local function beginIceBallWarning()
+    local center, extents = getIceBallArea()
+    if center == nil or extents == nil then
+        scheduleNextIceBall()
+        return
+    end
+
+    local margin = math.max(this.IceBallAreaMargin, 0)
+    local radius = math.max(this.IceBallRadius, 0.1)
+    local rangeX = math.max(extents.x - margin - radius, 0)
+    local rangeZ = math.max(extents.z - margin - radius, 0)
+
+    iceBallSurfaceY = center.y + extents.y
+    iceBallTargetPosition = Vector3(
+        center.x + randomRange(-rangeX, rangeX),
+        iceBallSurfaceY,
+        center.z + randomRange(-rangeZ, rangeZ)
+    )
+
+    local shadowTransform = iceBallShadow.transform
+    iceBallShadowScale = shadowTransform.localScale
+    syncTransformPosition(shadowTransform, Vector3(
+        iceBallTargetPosition.x,
+        iceBallSurfaceY + 0.04,
+        iceBallTargetPosition.z
+    ))
+    syncTransformScale(shadowTransform, Vector3(
+        iceBallShadowScale.x * 0.35,
+        iceBallShadowScale.y,
+        iceBallShadowScale.z * 0.35
+    ))
+
+    setVObjectActive(iceBallObject, false)
+    setVObjectActive(iceBallShadow, true)
+    iceBallState = "warning"
+    iceBallTimer = math.max(this.IceBallWarningTime, 0.05)
+end
+
+local function beginIceBallFall()
+    local ballTransform = iceBallObject.transform
+    iceBallStartScale = ballTransform.localScale
+    syncTransformScale(ballTransform, iceBallStartScale)
+    syncTransformPosition(ballTransform, Vector3(
+        iceBallTargetPosition.x,
+        iceBallSurfaceY + this.IceBallFallHeight,
+        iceBallTargetPosition.z
+    ))
+
+    setVObjectActive(iceBallObject, true)
+    iceBallState = "falling"
+    iceBallFallSpeed = 0
+    iceBallHitPlayer = false
+end
+
+local function applyIceBallImpact()
+    if iceTransform == nil then return end
+
+    local icePosition = iceTransform.position
+    local directionX = icePosition.x - iceBallTargetPosition.x
+    local directionZ = icePosition.z - iceBallTargetPosition.z
+    local magnitude = math.sqrt(directionX * directionX + directionZ * directionZ)
+
+    if magnitude <= 0.001 then
+        directionX = randomRange(-1, 1)
+        directionZ = randomRange(-1, 1)
+        magnitude = math.max(math.sqrt(directionX * directionX + directionZ * directionZ), 0.001)
+    end
+
+    directionX = directionX / magnitude
+    directionZ = directionZ / magnitude
+    pushBackVelocity = Vector3(
+        directionX * this.IceBallImpactForce,
+        0,
+        directionZ * this.IceBallImpactForce
+    )
+    pushBackTimer = math.max(this.PushBackDuration, 0.25)
+    collisionStopTimer = math.max(collisionStopTimer, 0.12)
+
+    if iceRigidbody ~= nil then
+        local force = Vector3(
+            directionX * this.IceBallImpactForce,
+            0,
+            directionZ * this.IceBallImpactForce
+        )
+        local applied = false
+
+        if VFramework ~= nil
+            and VFramework.ForceMode ~= nil
+            and VFramework.ForceMode.VelocityChange ~= nil then
+            applied = pcall(function()
+                iceRigidbody:AddForce(force, VFramework.ForceMode.VelocityChange)
+            end)
+        end
+
+        if not applied then
+            pcall(function()
+                iceRigidbody:AddForce(force)
+            end)
+        end
+    end
+
+    damageIce(this.IceBallImpactDamage)
+end
+
+local function checkIceBallPlayerHit(ballPosition)
+    if iceBallHitPlayer or not acquireTargetCharacter() then
+        return
+    end
+
+    local targetTransform = tryGet(this.TargetCharacter, "transform")
+    if targetTransform == nil then return end
+
+    local targetPosition = targetTransform.position
+    local dx = targetPosition.x - ballPosition.x
+    local dy = targetPosition.y - (ballPosition.y + math.max(this.IceBallRadius, 0.1))
+    local dz = targetPosition.z - ballPosition.z
+    local radius = math.max(this.IceBallImpactRadius, 0.1)
+
+    if dx * dx + dz * dz <= radius * radius
+        and math.abs(dy) <= radius * 1.25 then
+        iceBallHitPlayer = true
+        applyIceBallImpact()
+    end
+end
+
+local function checkIceBallIceCubeHit(ballPosition)
+    if iceBallHitPlayer or iceTransform == nil then
+        return false
+    end
+
+    local icePosition = iceTransform.position
+    local iceScale = iceTransform.localScale
+    local radius = math.max(this.IceBallRadius, 0.1)
+    local halfX = math.abs(iceScale.x) * 0.5 + radius
+    local halfZ = math.abs(iceScale.z) * 0.5 + radius
+    local dx = math.abs(ballPosition.x - icePosition.x)
+    local dz = math.abs(ballPosition.z - icePosition.z)
+
+    if dx > halfX or dz > halfZ then
+        return false
+    end
+
+    local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
+    if ballPosition.y > iceTopY + 0.05 then
+        return false
+    end
+
+    iceBallHitPlayer = true
+    iceBallTargetPosition = Vector3(ballPosition.x, ballPosition.y, ballPosition.z)
+    applyIceBallImpact()
+    return true
+end
+
+local function triggerIceBallBreakEffect()
+    local breakEffect = getComponent(iceBallObject, "IceBallCellBreakEffect")
+    if breakEffect == nil then
+        return
+    end
+
+    pcall(function()
+        breakEffect:BreakNow()
+    end)
+end
+
+local function beginIceBallBreak()
+    iceBallState = "breaking"
+    iceBallTimer = math.max(this.IceBallBreakDuration, 0.05)
+    setVObjectActive(iceBallShadow, false)
+    triggerIceBallBreakEffect()
+end
+
+local function updateIceBallRain(deltaTime)
+    if this.EnableIceBallRain ~= true or isPaused or isFinished then
+        return
+    end
+
+    if not resolveIceBallObjects() then
+        iceBallMissingLogTimer = iceBallMissingLogTimer + deltaTime
+        if iceBallMissingLogTimer >= 5 then
+            iceBallMissingLogTimer = 0
+            if scriptObject ~= nil then
+                scriptObject:Log(
+                    "Ice ball rain is waiting for "
+                    .. this.IceBallPlatformName .. ", "
+                    .. this.IceBallObjectName .. " and "
+                    .. this.IceBallShadowName .. "."
+                )
+            end
+        end
+        return
+    end
+
+    if iceBallState == "waiting" then
+        iceBallTimer = iceBallTimer - deltaTime
+        if iceBallTimer <= 0 then
+            beginIceBallWarning()
+        end
+        return
+    end
+
+    if iceBallState == "warning" then
+        iceBallTimer = iceBallTimer - deltaTime
+        local warningDuration = math.max(this.IceBallWarningTime, 0.05)
+        local progress = clamp(1 - iceBallTimer / warningDuration, 0, 1)
+        local pulse = 0.9 + math.sin(progress * math.pi * 8) * 0.1
+        local scale = 0.35 + progress * 0.65
+        syncTransformScale(iceBallShadow.transform, Vector3(
+            iceBallShadowScale.x * scale * pulse,
+            iceBallShadowScale.y,
+            iceBallShadowScale.z * scale * pulse
+        ))
+
+        if iceBallTimer <= 0 then
+            beginIceBallFall()
+        end
+        return
+    end
+
+    if iceBallState == "falling" then
+        iceBallFallSpeed = math.min(
+            iceBallFallSpeed + this.IceBallFallAcceleration * deltaTime,
+            this.IceBallMaxFallSpeed
+        )
+
+        local ballTransform = iceBallObject.transform
+        local position = ballTransform.position
+        position.x = iceBallTargetPosition.x
+        position.z = iceBallTargetPosition.z
+        position.y = position.y - iceBallFallSpeed * deltaTime
+        local landingY = iceBallSurfaceY + this.IceBallLandingOffset
+
+        if position.y <= landingY then
+            position.y = landingY
+        end
+
+        syncTransformPosition(ballTransform, position)
+        checkIceBallPlayerHit(position)
+        if checkIceBallIceCubeHit(position) then
+            beginIceBallBreak()
+            return
+        end
+
+        if position.y <= landingY then
+            beginIceBallBreak()
+        end
+        return
+    end
+
+    if iceBallState == "breaking" then
+        iceBallTimer = iceBallTimer - deltaTime
+
+        if iceBallTimer <= 0 then
+            syncTransformScale(iceBallObject.transform, iceBallStartScale)
+            scheduleNextIceBall()
+        end
+    end
+end
+
 local function moveIce(moveX, moveZ, deltaTime)
     if iceRigidbody ~= nil and this.UseRigidbodyMove == true then
         local velocity = tryGet(iceRigidbody, "velocity")
@@ -719,6 +1086,10 @@ function this.OnStart()
         playerService.OnDestroyCharacter:AddListener(clearTargetFromPlayer)
         acquireTargetCharacter()
     end
+
+    if resolveIceBallObjects() then
+        scheduleNextIceBall()
+    end
 end
 
 local function updatePlatform(deltaTime)
@@ -727,6 +1098,7 @@ local function updatePlatform(deltaTime)
 
     detectDropPlatformBelow()
     updateDropPlatforms(deltaTime)
+    updateIceBallRain(deltaTime)
 
     if collisionStopTimer > 0 then
         collisionStopTimer = collisionStopTimer - deltaTime
@@ -889,5 +1261,6 @@ function this.ResetIce()
     fallbackVelocityX = 0
     fallbackVelocityZ = 0
     currentHeight = startScale.y
+    scheduleNextIceBall()
     applyHeight()
 end
