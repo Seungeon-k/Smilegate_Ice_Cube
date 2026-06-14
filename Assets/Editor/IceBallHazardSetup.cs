@@ -41,7 +41,6 @@ internal static class IceBallHazardSetup
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode)
         {
-            EditorApplication.delayCall += TrySetup;
             return;
         }
 
@@ -99,6 +98,13 @@ internal static class IceBallHazardSetup
 
         if (changed)
         {
+            if (EditorApplication.isPlayingOrWillChangePlaymode
+                || !scene.IsValid()
+                || !scene.isLoaded)
+            {
+                return;
+            }
+
             EditorSceneManager.MarkSceneDirty(scene);
             EditorSceneManager.SaveScene(scene);
             AssetDatabase.SaveAssets();

@@ -25,6 +25,7 @@
     local playerRecoveryHeight = 1.0
     local playerRecoveryDuration = 0.18
     local playerRecoveryCooldown = 1.0
+    local playerEdgeMargin = -0.1
 
     local raceTimerText
     local raceTimerObject
@@ -116,14 +117,52 @@
         local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
         local characterPosition = character.transform.position
         local isBelow = characterPosition.y < iceTopY - playerRecoveryDepth
+        local halfX = math.max(math.abs(iceScale.x) * 0.5 - playerEdgeMargin, 0.25)
+        local halfZ = math.max(math.abs(iceScale.z) * 0.5 - playerEdgeMargin, 0.25)
+        local safeX = math.max(
+            icePosition.x - halfX,
+            math.min(characterPosition.x, icePosition.x + halfX)
+        )
+        local safeZ = math.max(
+            icePosition.z - halfZ,
+            math.min(characterPosition.z, icePosition.z + halfZ)
+        )
+        local isOutside = characterPosition.x ~= safeX
+            or characterPosition.z ~= safeZ
 
         if playerRecoveryCooldownTimer > 0 then
             playerRecoveryCooldownTimer = math.max(0, playerRecoveryCooldownTimer - deltaTime)
         end
 
-        if playerRecoveryTimer <= 0
-            and playerRecoveryCooldownTimer <= 0
-            and isBelow then
+        if isOutside then
+            local edgePosition = Vector3(
+                safeX,
+                math.max(characterPosition.y, iceTopY + 0.25),
+                safeZ
+            )
+
+            local moved = pcall(function()
+                character.transform:ChangePosition(edgePosition)
+            end)
+            if not moved then
+                character.transform.position = edgePosition
+                pcall(function()
+                    character.transform:SyncTransform()
+                end)
+            end
+
+            pcall(function()
+                character:SetVelocity(Vector3(0, 0, 0))
+            end)
+            pcall(function()
+                character:SetAngularVelocity(Vector3(0, 0, 0))
+            end)
+
+            characterPosition = edgePosition
+            isBelow = false
+        end
+
+        if playerRecoveryTimer <= 0 and isBelow then
             playerRecoveryTimer = playerRecoveryDuration
             playerRecoveryCooldownTimer = playerRecoveryCooldown
             playerRecoveryLogged = false

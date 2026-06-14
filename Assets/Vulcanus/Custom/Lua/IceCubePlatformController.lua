@@ -5,16 +5,16 @@ this.TargetCharacter = __EX_VARIABLE__.vobject()
 this.UseLocalPlayer = __EX_VARIABLE__.bool(true)
 this.EnableMultiplayerControl = __EX_VARIABLE__.bool(true)
 this.MaxControllingPlayers = __EX_VARIABLE__.float(4)
-this.PlayerSpeedBonus = __EX_VARIABLE__.float(8.0)
+this.PlayerSpeedBonus = __EX_VARIABLE__.float(20.0)
 
 this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
 this.ControlStrength = __EX_VARIABLE__.float(8.0)
-this.MaxMoveSpeed = __EX_VARIABLE__.float(18.0)
+this.MaxMoveSpeed = __EX_VARIABLE__.float(24.0)
 this.PlayerInfluenceRadiusScale = __EX_VARIABLE__.float(0.65)
 this.PlayerInfluenceWeight = __EX_VARIABLE__.float(0.8)
 this.MoveInputSmoothing = __EX_VARIABLE__.float(7.0)
-this.MoveAcceleration = __EX_VARIABLE__.float(22.0)
-this.SlideDeceleration = __EX_VARIABLE__.float(5.0)
+this.MoveAcceleration = __EX_VARIABLE__.float(50.0)
+this.SlideDeceleration = __EX_VARIABLE__.float(1.5)
 
 this.MeltRate = __EX_VARIABLE__.float(0.035)
 this.MinHeight = __EX_VARIABLE__.float(0.05)
@@ -32,9 +32,9 @@ this.KeepGrounded = __EX_VARIABLE__.bool(true)
 this.ClearVerticalVelocity = __EX_VARIABLE__.bool(true)
 this.ClearAngularVelocity = __EX_VARIABLE__.bool(true)
 this.KeepPlayersOnIce = __EX_VARIABLE__.bool(true)
-this.ClampPlayersInsideIce = __EX_VARIABLE__.bool(false)
+this.ClampPlayersInsideIce = __EX_VARIABLE__.bool(true)
 this.PreventPlayerEdgeFall = __EX_VARIABLE__.bool(true)
-this.PlayerClampMargin = __EX_VARIABLE__.float(0.25)
+this.PlayerClampMargin = __EX_VARIABLE__.float(-0.1)
 this.PlayerEdgeBuffer = __EX_VARIABLE__.float(0.35)
 this.PlayerRecoverHeight = __EX_VARIABLE__.float(1.2)
 this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(1.4)
@@ -57,19 +57,19 @@ this.EnableIceBallRain = __EX_VARIABLE__.bool(true)
 this.IceBallPlatformName = __EX_VARIABLE__.string("Snow_Platform (2)")
 this.IceBallObjectName = __EX_VARIABLE__.string("Ice_Ball_Hazard")
 this.IceBallShadowName = __EX_VARIABLE__.string("Ice_Ball_Shadow")
-this.IceBallIntervalMin = __EX_VARIABLE__.float(2.5)
-this.IceBallIntervalMax = __EX_VARIABLE__.float(4.5)
+this.IceBallIntervalMin = __EX_VARIABLE__.float(0.25)
+this.IceBallIntervalMax = __EX_VARIABLE__.float(0.65)
 this.IceBallWarningTime = __EX_VARIABLE__.float(1.0)
-this.IceBallFallHeight = __EX_VARIABLE__.float(24.0)
-this.IceBallFallAcceleration = __EX_VARIABLE__.float(38.0)
-this.IceBallMaxFallSpeed = __EX_VARIABLE__.float(28.0)
+this.IceBallFallHeight = __EX_VARIABLE__.float(18.0)
+this.IceBallFallAcceleration = __EX_VARIABLE__.float(65.0)
+this.IceBallMaxFallSpeed = __EX_VARIABLE__.float(40.0)
 this.IceBallRadius = __EX_VARIABLE__.float(5.0)
 this.IceBallLandingOffset = __EX_VARIABLE__.float(-0.5)
 this.IceBallAreaMargin = __EX_VARIABLE__.float(2.0)
 this.IceBallImpactRadius = __EX_VARIABLE__.float(7.0)
 this.IceBallImpactForce = __EX_VARIABLE__.float(9.0)
 this.IceBallImpactDamage = __EX_VARIABLE__.float(0.22)
-this.IceBallBreakDuration = __EX_VARIABLE__.float(0.75)
+this.IceBallBreakDuration = __EX_VARIABLE__.float(0.4)
 
 this.OnIceMelted = __EX_VARIABLE__.event()
 this.OnFinishReached = __EX_VARIABLE__.event()
@@ -103,7 +103,7 @@ local iceBallPlatform
 local iceBallObject
 local iceBallShadow
 local iceBallState = "waiting"
-local iceBallTimer = 1.5
+local iceBallTimer = 0.5
 local iceBallFallSpeed = 0
 local iceBallSurfaceY = 0
 local iceBallTargetPosition
@@ -655,7 +655,7 @@ local function keepPlayersOnIceTop()
 
     local icePosition = iceTransform.position
     local iceScale = iceTransform.localScale
-    local margin = math.max(this.PlayerClampMargin or 0.25, 0)
+    local margin = this.PlayerClampMargin or -0.1
     local halfX = math.max(math.abs(iceScale.x) * 0.5 - margin, 0.25)
     local halfZ = math.max(math.abs(iceScale.z) * 0.5 - margin, 0.25)
     local edgeBuffer = math.max(this.PlayerEdgeBuffer or 0.35, 0)
