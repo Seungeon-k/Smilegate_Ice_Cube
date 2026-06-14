@@ -3,11 +3,15 @@ local this = __CREATOR__.new()
 this.IceCube = __EX_VARIABLE__.vobject()
 this.TargetCharacter = __EX_VARIABLE__.vobject()
 this.UseLocalPlayer = __EX_VARIABLE__.bool(true)
+this.EnableMultiplayerControl = __EX_VARIABLE__.bool(true)
+this.MaxControllingPlayers = __EX_VARIABLE__.float(4)
 this.PlayerSpeedBonus = __EX_VARIABLE__.float(8.0)
 
 this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
 this.ControlStrength = __EX_VARIABLE__.float(8.0)
 this.MaxMoveSpeed = __EX_VARIABLE__.float(24.0)
+this.PlayerInfluenceRadiusScale = __EX_VARIABLE__.float(0.65)
+this.PlayerInfluenceWeight = __EX_VARIABLE__.float(1.0)
 this.MoveAcceleration = __EX_VARIABLE__.float(40.0)
 this.SlideDeceleration = __EX_VARIABLE__.float(4.0)
 
@@ -83,6 +87,7 @@ local pushBackVelocity
 local fallbackVelocityX = 0
 local fallbackVelocityZ = 0
 local dropPlatformStates = {}
+local controllingCharacters = {}
 local speedBoostedCharacters = {}
 local iceBallPlatform
 local iceBallObject
@@ -409,6 +414,72 @@ local function setTargetFromPlayer(player)
     end
 end
 
+local function addControllingCharacter(character)
+    if character == nil or tryGet(character, "transform") == nil then
+        return false
+    end
+
+    for i = 1, #controllingCharacters do
+        if controllingCharacters[i] == character then
+            return false
+        end
+    end
+
+    local maxPlayers = math.max(math.floor(this.MaxControllingPlayers or 4), 1)
+    if #controllingCharacters >= maxPlayers then
+        return false
+    end
+
+    controllingCharacters[#controllingCharacters + 1] = character
+    return true
+end
+
+local function refreshControllingCharacters()
+    controllingCharacters = {}
+
+    if playerService == nil then
+        if this.TargetCharacter ~= nil then
+            addControllingCharacter(this.TargetCharacter)
+        end
+        return #controllingCharacters
+    end
+
+    local getPlayers = tryGet(playerService, "GetPlayers")
+    if getPlayers ~= nil then
+        local ok, players = pcall(function()
+            return getPlayers(playerService)
+        end)
+
+        if ok and players ~= nil then
+            for i = 1, #players do
+                local player = players[i]
+                if player ~= nil and player.character ~= nil then
+                    setTargetFromPlayer(player)
+                    addControllingCharacter(player.character)
+                end
+
+                if #controllingCharacters >= math.max(math.floor(this.MaxControllingPlayers or 4), 1) then
+                    break
+                end
+            end
+        end
+    end
+
+    if #controllingCharacters == 0 then
+        local localPlayer = tryGet(playerService, "localPlayer")
+        if localPlayer ~= nil and localPlayer.character ~= nil then
+            setTargetFromPlayer(localPlayer)
+            addControllingCharacter(localPlayer.character)
+        end
+    end
+
+    if #controllingCharacters == 0 and this.TargetCharacter ~= nil then
+        addControllingCharacter(this.TargetCharacter)
+    end
+
+    return #controllingCharacters
+end
+
 local function clearTargetFromPlayer(player)
     if player == nil then return end
     if player.character == this.TargetCharacter then
@@ -464,6 +535,78 @@ local function acquireTargetCharacter()
     end
 
     return false
+end
+
+local function isCharacterOnIce(character, icePosition)
+    if character == nil or character.transform == nil or iceTransform == nil then
+        return false
+    end
+
+    local characterPosition = character.transform.position
+    local iceScale = iceTransform.localScale
+    local halfX = math.abs(iceScale.x) * 0.5 + 0.75
+    local halfZ = math.abs(iceScale.z) * 0.5 + 0.75
+    local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
+
+    if math.abs(characterPosition.x - icePosition.x) > halfX then
+        return false
+    end
+
+    if math.abs(characterPosition.z - icePosition.z) > halfZ then
+        return false
+    end
+
+    return characterPosition.y >= iceTopY - 1.25 and characterPosition.y <= iceTopY + 3.0
+end
+
+local function calculateMultiplayerMove(icePosition)
+    local count = refreshControllingCharacters()
+    if count <= 0 then
+        return nil, nil, 0
+    end
+
+    local moveX = 0
+    local moveZ = 0
+    local contributors = 0
+    local influenceRadiusScale = this.PlayerInfluenceRadiusScale or 0.65
+    local weight = this.PlayerInfluenceWeight or 1.0
+
+    for i = 1, #controllingCharacters do
+        local character = controllingCharacters[i]
+        if isCharacterOnIce(character, icePosition) then
+            local position = character.transform.position
+            local offsetX = position.x - icePosition.x
+            local offsetZ = position.z - icePosition.z
+
+            local influenceX = offsetX * this.ControlStrength * weight
+            local influenceZ = offsetZ * this.ControlStrength * weight
+
+            local radiusX = math.max(math.abs(iceTransform.localScale.x) * influenceRadiusScale, this.ControlDeadZone)
+            local radiusZ = math.max(math.abs(iceTransform.localScale.z) * influenceRadiusScale, this.ControlDeadZone)
+
+            if math.abs(offsetX) <= this.ControlDeadZone then
+                influenceX = 0
+            else
+                influenceX = influenceX * clamp(math.abs(offsetX) / radiusX, 0.25, 1.0)
+            end
+
+            if math.abs(offsetZ) <= this.ControlDeadZone then
+                influenceZ = 0
+            else
+                influenceZ = influenceZ * clamp(math.abs(offsetZ) / radiusZ, 0.25, 1.0)
+            end
+
+            moveX = moveX + influenceX
+            moveZ = moveZ + influenceZ
+            contributors = contributors + 1
+        end
+    end
+
+    if contributors <= 0 then
+        return nil, nil, 0
+    end
+
+    return moveX / contributors, moveZ / contributors, contributors
 end
 
 local function tryAssignCharacterFromVObject(vObject)
@@ -1133,34 +1276,48 @@ local function updatePlatform(deltaTime)
         pushBackVelocity = Vector3(0, 0, 0)
     end
 
-    if not acquireTargetCharacter() then
+    local icePos = iceTransform.position
+    local moveX = 0
+    local moveZ = 0
+    local contributors = 0
+
+    if this.EnableMultiplayerControl == true then
+        local multiplayerMoveX, multiplayerMoveZ, multiplayerContributors =
+            calculateMultiplayerMove(icePos)
+
+        if multiplayerMoveX ~= nil and multiplayerMoveZ ~= nil then
+            moveX = multiplayerMoveX
+            moveZ = multiplayerMoveZ
+            contributors = multiplayerContributors
+        end
+    end
+
+    if contributors <= 0 and not acquireTargetCharacter() then
         targetLogTime = targetLogTime + deltaTime
         if targetLogTime >= 3 then
             targetLogTime = 0
             if scriptObject ~= nil then
-                scriptObject:Log("IceCubePlatformController is waiting for a target character.")
+                scriptObject:Log("IceCubePlatformController is waiting for player characters.")
             end
         end
         return
     end
 
-    local icePos = iceTransform.position
-    local targetTransform = tryGet(this.TargetCharacter, "transform")
-    if targetTransform == nil then return end
+    if contributors <= 0 then
+        local targetTransform = tryGet(this.TargetCharacter, "transform")
+        if targetTransform == nil then return end
 
-    local charPos = targetTransform.position
-    local offsetX = charPos.x - icePos.x
-    local offsetZ = charPos.z - icePos.z
+        local charPos = targetTransform.position
+        local offsetX = charPos.x - icePos.x
+        local offsetZ = charPos.z - icePos.z
 
-    local moveX = 0
-    local moveZ = 0
+        if math.abs(offsetX) > this.ControlDeadZone then
+            moveX = offsetX * this.ControlStrength
+        end
 
-    if math.abs(offsetX) > this.ControlDeadZone then
-        moveX = offsetX * this.ControlStrength
-    end
-
-    if math.abs(offsetZ) > this.ControlDeadZone then
-        moveZ = offsetZ * this.ControlStrength
+        if math.abs(offsetZ) > this.ControlDeadZone then
+            moveZ = offsetZ * this.ControlStrength
+        end
     end
 
     local speed = math.sqrt(moveX * moveX + moveZ * moveZ)

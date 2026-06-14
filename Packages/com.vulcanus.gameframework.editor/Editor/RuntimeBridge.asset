@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetKey: 
   inputSimulation:
-    rid: 8164765798649561089
-  references:
-    version: 2
-    RefIds:
-    - rid: 8164765798649561089
-      type: {class: InputSimulation, ns: GameFramework.Runtime.Framework, asm: GameFramework.Runtime}
-      data:
-        inputMode: 1
-        HotKeyGuide: 1
-        MouseCursor: 1
+    inputMode: 0
+    HotKeyGuide: 0
+    MouseCursor: 0

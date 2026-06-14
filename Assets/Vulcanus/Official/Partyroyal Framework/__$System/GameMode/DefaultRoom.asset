@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetKey: ebdd00d9c105f8d4485bf6dc2f7f3cab
   MatchInfo:
-    MinPlayerCount: 4
-    MaxPlayerCount: 20
+    MinPlayerCount: 1
+    MaxPlayerCount: 4
     RecruitmentTime: 30
     PlayerWaitTime: 20
     IsBackfill: 0
