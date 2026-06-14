@@ -39,6 +39,12 @@
     local startMessageRemaining = 2
     local raceState = "running"
     local raceEnded = false
+    local startFeedback
+    local goalFeedback
+    local failFeedback
+    local startFeedbackPlayed = false
+    local statusPulseTimer = 0
+    local statusPulseScale
 
     local function clamp01(value)
         if value < 0 then return 0 end
@@ -407,6 +413,115 @@
         end
     end
 
+    local function resolveFeedbackObjects()
+        if serviceApi == nil or serviceApi.world == nil then
+            return
+        end
+
+        if startFeedback == nil then
+            startFeedback = serviceApi.world:GetVObject("Feedback_START")
+        end
+        if goalFeedback == nil then
+            goalFeedback = serviceApi.world:GetVObject("Feedback_GOAL")
+        end
+        if failFeedback == nil then
+            failFeedback = serviceApi.world:GetVObject("Feedback_FAIL")
+        end
+    end
+
+    local function playFeedback(feedback, message)
+        if feedback == nil then
+            resolveFeedbackObjects()
+            if message == "START" then
+                feedback = startFeedback
+            elseif message == "GOAL" then
+                feedback = goalFeedback
+            else
+                feedback = failFeedback
+            end
+        end
+        if feedback == nil then return end
+
+        local targetPosition
+        if iceCube ~= nil and iceCube.transform ~= nil then
+            local icePosition = iceCube.transform.position
+            targetPosition = Vector3(icePosition.x, icePosition.y + 1.5, icePosition.z)
+        else
+            local character = resolveLocalCharacter()
+            if character ~= nil and character.transform ~= nil then
+                targetPosition = character.transform.position
+            end
+        end
+
+        if targetPosition ~= nil and feedback.transform ~= nil then
+            local moved = pcall(function()
+                feedback.transform:ChangePosition(targetPosition)
+            end)
+            if not moved then
+                feedback.transform.position = targetPosition
+                pcall(function()
+                    feedback.transform:SyncTransform()
+                end)
+            end
+        end
+
+        local okAudio, audioSource = pcall(function()
+            return feedback:GetComponent("AudioSource")
+        end)
+        if okAudio and audioSource ~= nil then
+            pcall(function()
+                audioSource:Play()
+            end)
+        end
+
+        local okParticles, particles = pcall(function()
+            return feedback:GetComponentsInChildren("ParticleSystem")
+        end)
+        if okParticles and particles ~= nil then
+            for i = 1, #particles do
+                pcall(function()
+                    particles[i]:Play(true)
+                end)
+            end
+        end
+
+        statusPulseTimer = 0.5
+        if scriptObject ~= nil then
+            scriptObject:Log("[GameFeedback] Played " .. message .. ".")
+        end
+    end
+
+    local function updateStatusPulse(deltaTime)
+        if raceStatusObject == nil or raceStatusObject.transform == nil then
+            return
+        end
+
+        local transform = raceStatusObject.transform
+        if statusPulseScale == nil then
+            local scale = transform.localScale
+            statusPulseScale = Vector3(scale.x, scale.y, scale.z)
+        end
+
+        if statusPulseTimer <= 0 then
+            return
+        end
+
+        statusPulseTimer = math.max(0, statusPulseTimer - (deltaTime or 0))
+        local progress = 1 - statusPulseTimer / 0.5
+        local pulse = math.sin(progress * math.pi) * 0.3
+        transform.localScale = Vector3(
+            statusPulseScale.x * (1 + pulse),
+            statusPulseScale.y * (1 + pulse),
+            statusPulseScale.z
+        )
+        if statusPulseTimer <= 0 then
+            transform.localScale = statusPulseScale
+        end
+        pcall(function()
+            transform:SyncTransform()
+        end)
+    end
+
     local function finishRace(state, message)
         if raceEnded then return end
 
@@ -421,6 +536,12 @@
         if not setTextValue(raceStatusObject, raceStatusText, message)
             and scriptObject ~= nil then
             scriptObject:Log("[RaceHUD] Could not find RaceStatusText component for " .. message .. ".")
+        end
+
+        if state == "goal" then
+            playFeedback(goalFeedback, message)
+        else
+            playFeedback(failFeedback, message)
         end
 
         stopGameplay()
@@ -444,6 +565,11 @@
                 if startMessageRemaining > 0 then
                     setUIObjectActive(raceStatusObject, true)
                     setTextValue(raceStatusObject, raceStatusText, "START!")
+                    if not startFeedbackPlayed then
+                        resolveFeedbackObjects()
+                        startFeedbackPlayed = true
+                        playFeedback(startFeedback, "START")
+                    end
                 else
                     setTextValue(raceStatusObject, raceStatusText, "")
                 end
@@ -451,6 +577,7 @@
         end
 
         setTextValue(raceTimerObject, raceTimerText, formatRaceTime(raceTimeRemaining))
+        updateStatusPulse(deltaTime)
     end
     
     local function onCreateCharacter(player)
@@ -488,6 +615,7 @@
         _camera = serviceApi.cameraService:GetGameCamera()
         resolveIceGauge()
         resolveRaceHud()
+        resolveFeedbackObjects()
         scriptObject:Log("[PlayerRecovery] Recovery controller ready.")
 
         setTextValue(raceTimerObject, raceTimerText, "02:00")

@@ -112,6 +112,8 @@ local iceBallShadowScale
 local iceBallCellStates = {}
 local iceBallHitPlayer = false
 local iceBallMissingLogTimer = 0
+local impactFeedback
+local impactFeedbackCooldown = 0
 
 local function tryGet(target, key)
     if target == nil then
@@ -791,6 +793,61 @@ local function applyHeight()
     end
 end
 
+local function playImpactFeedback()
+    if impactFeedbackCooldown > 0 or serviceApi == nil or serviceApi.world == nil then
+        return
+    end
+
+    if impactFeedback == nil then
+        impactFeedback = serviceApi.world:GetVObject("Feedback_IMPACT")
+    end
+    if impactFeedback == nil then return end
+
+    if impactFeedback.transform ~= nil and iceTransform ~= nil then
+        local icePosition = iceTransform.position
+        local effectPosition = Vector3(
+            icePosition.x,
+            icePosition.y + math.max(currentHeight * 0.5, 0.2),
+            icePosition.z
+        )
+        local moved = pcall(function()
+            impactFeedback.transform:ChangePosition(effectPosition)
+        end)
+        if not moved then
+            impactFeedback.transform.position = effectPosition
+            pcall(function()
+                impactFeedback.transform:SyncTransform()
+            end)
+        end
+    end
+
+    local okAudio, audioSource = pcall(function()
+        return impactFeedback:GetComponent("AudioSource")
+    end)
+    if okAudio and audioSource ~= nil then
+        pcall(function()
+            audioSource.pitch = 0.92 + math.random() * 0.16
+            audioSource:Play()
+        end)
+    end
+
+    local okParticles, particles = pcall(function()
+        return impactFeedback:GetComponentsInChildren("ParticleSystem")
+    end)
+    if okParticles and particles ~= nil then
+        for i = 1, #particles do
+            pcall(function()
+                particles[i]:Play(true)
+            end)
+        end
+    end
+
+    impactFeedbackCooldown = 0.25
+    if scriptObject ~= nil then
+        scriptObject:Log("[GameFeedback] Played IMPACT.")
+    end
+end
+
 local function damageIce(amount)
     if isFinished or isPaused then return end
     if amount == nil or amount <= 0 then return end
@@ -798,6 +855,7 @@ local function damageIce(amount)
     currentHeight = currentHeight - amount
     applyHeight()
     callEvent(getScriptEvent("OnIceDamaged"), amount, currentHeight)
+    playImpactFeedback()
 end
 
 local function getVectorMagnitude(vector)
@@ -1455,6 +1513,10 @@ end
 local function updatePlatform(deltaTime)
     if isFinished or isPaused then return end
     if iceTransform == nil then return end
+
+    if impactFeedbackCooldown > 0 then
+        impactFeedbackCooldown = math.max(0, impactFeedbackCooldown - deltaTime)
+    end
 
     detectDropPlatformBelow()
     updateDropPlatforms(deltaTime)
