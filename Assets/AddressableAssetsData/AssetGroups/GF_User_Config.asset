@@ -32,11 +32,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 74f705aa18c74efca592e76daed80404
-    m_Address: Assets/Vulcanus/Custom/UI/IceGaugeHUD.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2952829c7cbc3404eb7cd52dd5c098b9
     m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Player/CustomData_0/Base
       Penguin_Player.asset
@@ -57,6 +52,11 @@ MonoBehaviour:
   - m_GUID: 6ca10c335f15af54eaddd0891827a8f6
     m_Address: Assets/Vulcanus/Official/Partyroyal Framework/__$System/Layer/Layer
       Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74f705aa18c74efca592e76daed80404
+    m_Address: Assets/Vulcanus/Custom/UI/IceGaugeHUD.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

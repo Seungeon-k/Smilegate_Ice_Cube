@@ -17,18 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 021742dfcb280a0429b9a28db5b85e31
   m_SerializeEntries:
-  - m_GUID: 53dd198749dc1f74e9f7f5f9774ae202
-    m_Address: Assets/Vulcanus/Custom/Lua/SoundLIstener.lua
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f0b3c4feff34a1a9dce0d63744e6f90
     m_Address: Assets/Vulcanus/Custom/Lua/IceCubePlatformController.lua
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f5c8e1730cbd4de78f2a644748192ab1
-    m_Address: Assets/Vulcanus/Custom/Lua/InfiniteYRotator.lua
+  - m_GUID: 53dd198749dc1f74e9f7f5f9774ae202
+    m_Address: Assets/Vulcanus/Custom/Lua/SoundLIstener.lua
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -37,8 +32,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c083ee864694c46bb205f8086dbf2cc
+    m_Address: Assets/Vulcanus/Custom/Lua/WalrusPlayerChaser.lua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85a816bb29d85f0db6a3f87ebfe91515
     m_Address: Assets/Vulcanus/Custom/Lua/IceGaugeSpawner.lua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5c8e1730cbd4de78f2a644748192ab1
+    m_Address: Assets/Vulcanus/Custom/Lua/InfiniteYRotator.lua
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

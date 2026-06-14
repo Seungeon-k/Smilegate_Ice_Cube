@@ -71,7 +71,7 @@ MonoBehaviour:
         ValueKey: RotationSpeed
         IsSync: 0
         FromScript: 0
-        _value: 45
+        _value: 20
         _range: 0
         _min: 0
         _max: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
         ValueKey: RotationSpeed
         IsSync: 0
         FromScript: 0
-        _value: 45
+        _value: 20
         _range: 0
         _min: 0
         _max: 0

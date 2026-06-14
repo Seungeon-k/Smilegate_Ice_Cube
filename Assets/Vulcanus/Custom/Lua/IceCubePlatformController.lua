@@ -3,11 +3,13 @@ local this = __CREATOR__.new()
 this.IceCube = __EX_VARIABLE__.vobject()
 this.TargetCharacter = __EX_VARIABLE__.vobject()
 this.UseLocalPlayer = __EX_VARIABLE__.bool(true)
+this.PlayerSpeedBonus = __EX_VARIABLE__.float(8.0)
 
 this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
-this.ControlStrength = __EX_VARIABLE__.float(1.4)
-this.MaxMoveSpeed = __EX_VARIABLE__.float(7.0)
-this.MoveAcceleration = __EX_VARIABLE__.float(18.0)
+this.ControlStrength = __EX_VARIABLE__.float(8.0)
+this.MaxMoveSpeed = __EX_VARIABLE__.float(24.0)
+this.MoveAcceleration = __EX_VARIABLE__.float(40.0)
+this.SlideDeceleration = __EX_VARIABLE__.float(4.0)
 
 this.MeltRate = __EX_VARIABLE__.float(0.035)
 this.MinHeight = __EX_VARIABLE__.float(0.05)
@@ -58,8 +60,12 @@ local targetLogTime = 0
 local collisionStopTimer = 0
 local damageCooldownTimer = 0
 local pushBackTimer = 0
-local pushBackVelocity = Vector3(0, 0, 0)
+-- Vector3 is available only after the runtime context is initialized.
+local pushBackVelocity
+local fallbackVelocityX = 0
+local fallbackVelocityZ = 0
 local dropPlatformStates = {}
+local speedBoostedCharacters = {}
 
 local function tryGet(target, key)
     if target == nil then
@@ -337,12 +343,21 @@ end
 local function setTargetFromPlayer(player)
     if player == nil or player.character == nil then return end
 
+    local character = player.character
+    if speedBoostedCharacters[character] == nil then
+        local setMaxVelocityBonus = tryGet(character, "SetMaxVelocityBonus")
+        if setMaxVelocityBonus ~= nil and this.PlayerSpeedBonus > 0 then
+            setMaxVelocityBonus(character, this.PlayerSpeedBonus)
+            speedBoostedCharacters[character] = true
+        end
+    end
+
     if this.UseLocalPlayer then
         if player.isLocalPlayer then
-            this.TargetCharacter = player.character
+            this.TargetCharacter = character
         end
     elseif this.TargetCharacter == nil then
-        this.TargetCharacter = player.character
+        this.TargetCharacter = character
     end
 end
 
@@ -530,30 +545,34 @@ local function moveIce(moveX, moveZ, deltaTime)
             velocity = Vector3(0, 0, 0)
         end
 
-        local acceleration = this.MoveAcceleration or 18.0
-        local force = Vector3(
-            (moveX - velocity.x) * acceleration,
-            0,
-            (moveZ - velocity.z) * acceleration
+        local hasMoveInput = math.abs(moveX) > 0.001 or math.abs(moveZ) > 0.001
+        local acceleration = hasMoveInput
+            and (this.MoveAcceleration or 40.0)
+            or (this.SlideDeceleration or 4.0)
+        local targetVelocity = Vector3(moveX, 0, moveZ)
+        local nextVelocity = Vector3.MoveTowards(
+            velocity,
+            targetVelocity,
+            acceleration * deltaTime
         )
-        local usedAcceleration = false
-
-        if VFramework ~= nil and VFramework.ForceMode ~= nil and VFramework.ForceMode.Acceleration ~= nil then
-            usedAcceleration = pcall(function()
-                iceRigidbody:AddForce(force, VFramework.ForceMode.Acceleration)
-            end)
-        end
-
-        if not usedAcceleration then
-            iceRigidbody:AddForce(force)
-        end
+        nextVelocity.y = 0
+        iceRigidbody.velocity = nextVelocity
 
         return
     end
 
+    local hasMoveInput = math.abs(moveX) > 0.001 or math.abs(moveZ) > 0.001
+    local response = hasMoveInput
+        and (this.MoveAcceleration or 40.0)
+        or (this.SlideDeceleration or 4.0)
+    local blend = clamp(response * deltaTime, 0, 1)
+
+    fallbackVelocityX = fallbackVelocityX + (moveX - fallbackVelocityX) * blend
+    fallbackVelocityZ = fallbackVelocityZ + (moveZ - fallbackVelocityZ) * blend
+
     local position = iceTransform.position
-    position.x = position.x + moveX * deltaTime
-    position.z = position.z + moveZ * deltaTime
+    position.x = position.x + fallbackVelocityX * deltaTime
+    position.z = position.z + fallbackVelocityZ * deltaTime
     syncTransformPosition(iceTransform, keepIceGrounded(position))
 end
 
@@ -672,6 +691,7 @@ end
 function this.OnAwake()
     serviceApi = this.serviceApi
     scriptObject = this.scriptObject
+    pushBackVelocity = Vector3(0, 0, 0)
 
     if serviceApi ~= nil then
         playerService = serviceApi.playerService
@@ -866,6 +886,8 @@ function this.ResetIce()
     damageCooldownTimer = 0
     pushBackTimer = 0
     pushBackVelocity = Vector3(0, 0, 0)
+    fallbackVelocityX = 0
+    fallbackVelocityZ = 0
     currentHeight = startScale.y
     applyHeight()
 end

@@ -18,6 +18,11 @@
     local displayedGaugeRatio = 1
     local initialIceHeight = 3.0028605
     local gaugeConnectedLogged = false
+    local playerRecoveryTimer = 0
+    local playerRecoveryLogged = false
+    local playerRecoveryDepth = 0.2
+    local playerRecoveryHeight = 0.55
+    local playerRecoveryDuration = 0.4
 
     local raceTimerText
     local raceStatusText
@@ -68,6 +73,89 @@
 
         displayedGaugeRatio = displayedGaugeRatio + (targetRatio - displayedGaugeRatio) * blend
         gaugeSlider.normalizedValue = displayedGaugeRatio
+    end
+
+    local function resolveLocalCharacter()
+        if this.Target ~= nil and this.Target.transform ~= nil then
+            return this.Target
+        end
+
+        if playerService == nil or playerService.localPlayer == nil then
+            return nil
+        end
+
+        local character = playerService.localPlayer.character
+        if character ~= nil then
+            this.Target = character
+            blockUpdate = false
+        end
+        return character
+    end
+
+    local function updatePlayerRecovery(deltaTime)
+        if iceCube == nil or iceCube.transform == nil then
+            resolveIceGauge()
+        end
+
+        local character = resolveLocalCharacter()
+        if character == nil or character.transform == nil then return end
+        if iceCube == nil or iceCube.transform == nil then return end
+
+        local iceTransform = iceCube.transform
+        local icePosition = iceTransform.position
+        local iceTopY = icePosition.y + iceTransform.localScale.y * 0.5
+        local characterPosition = character.transform.position
+        local isBelow = characterPosition.y < iceTopY - playerRecoveryDepth
+        local isFallingNearIce = character.isFalling == true
+            and characterPosition.y < iceTopY + 0.5
+
+        if playerRecoveryTimer <= 0 and (isBelow or isFallingNearIce) then
+            playerRecoveryTimer = playerRecoveryDuration
+            playerRecoveryLogged = false
+        end
+
+        if playerRecoveryTimer <= 0 then return end
+
+        local recoveryPosition = Vector3(
+            icePosition.x,
+            iceTopY + playerRecoveryHeight,
+            icePosition.z
+        )
+
+        pcall(function()
+            character:SetControlBlocked(true)
+        end)
+        pcall(function()
+            character:SetVelocity(Vector3(0, 0, 0))
+        end)
+        pcall(function()
+            character:SetAngularVelocity(Vector3(0, 0, 0))
+        end)
+        local characterTransform = character.transform
+        local moved = pcall(function()
+            characterTransform:ChangePosition(recoveryPosition)
+        end)
+        if not moved then
+            characterTransform.position = recoveryPosition
+            pcall(function()
+                characterTransform:SyncTransform()
+            end)
+        end
+        pcall(function()
+            character:SetIsOnIce(true)
+        end)
+
+        if not playerRecoveryLogged and scriptObject ~= nil then
+            playerRecoveryLogged = true
+            scriptObject:Log("[PlayerRecovery] Returned player to Ice_Cube.")
+        end
+
+        playerRecoveryTimer = playerRecoveryTimer - (deltaTime or 0.016)
+        if playerRecoveryTimer <= 0 then
+            pcall(function()
+                character:SetControlBlocked(false)
+            end)
+        end
     end
 
     local function resolveText(uiName)
@@ -201,6 +289,7 @@
         _camera = serviceApi.cameraService:GetGameCamera()
         resolveIceGauge()
         resolveRaceHud()
+        scriptObject:Log("[PlayerRecovery] Recovery controller ready.")
 
         if raceTimerText ~= nil then
             raceTimerText.text = "02:00"
@@ -219,6 +308,7 @@
     function this.OnUpdate(deltaTime)
         updateIceGauge(deltaTime)
         updateRaceHud(deltaTime)
+        updatePlayerRecovery(deltaTime)
 
         if blockUpdate == true then return end
         if this.Target == nil or this.Target.transform == nil then return end

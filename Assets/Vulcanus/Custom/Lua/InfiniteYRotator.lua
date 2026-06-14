@@ -1,6 +1,6 @@
 local this = __CREATOR__.new()
 
-this.RotationSpeed = __EX_VARIABLE__.float(45.0)
+this.RotationSpeed = __EX_VARIABLE__.float(20.0)
 this.PivotOffset = __EX_VARIABLE__.vector3(18.768356, 8.681134, 5.936426)
 
 local targetTransform
