@@ -32,9 +32,12 @@ this.KeepGrounded = __EX_VARIABLE__.bool(true)
 this.ClearVerticalVelocity = __EX_VARIABLE__.bool(true)
 this.ClearAngularVelocity = __EX_VARIABLE__.bool(true)
 this.KeepPlayersOnIce = __EX_VARIABLE__.bool(true)
-this.PlayerClampMargin = __EX_VARIABLE__.float(0.8)
-this.PlayerRecoverHeight = __EX_VARIABLE__.float(1.1)
-this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(0.6)
+this.ClampPlayersInsideIce = __EX_VARIABLE__.bool(false)
+this.PreventPlayerEdgeFall = __EX_VARIABLE__.bool(true)
+this.PlayerClampMargin = __EX_VARIABLE__.float(0.25)
+this.PlayerEdgeBuffer = __EX_VARIABLE__.float(0.35)
+this.PlayerRecoverHeight = __EX_VARIABLE__.float(1.2)
+this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(1.4)
 
 this.ObstacleNamePrefix = __EX_VARIABLE__.string("Obstacle")
 this.FinishName = __EX_VARIABLE__.string("Finish_Line")
@@ -106,6 +109,7 @@ local iceBallSurfaceY = 0
 local iceBallTargetPosition
 local iceBallStartScale
 local iceBallShadowScale
+local iceBallCellStates = {}
 local iceBallHitPlayer = false
 local iceBallMissingLogTimer = 0
 
@@ -651,12 +655,15 @@ local function keepPlayersOnIceTop()
 
     local icePosition = iceTransform.position
     local iceScale = iceTransform.localScale
-    local margin = math.max(this.PlayerClampMargin or 0.8, 0)
+    local margin = math.max(this.PlayerClampMargin or 0.25, 0)
     local halfX = math.max(math.abs(iceScale.x) * 0.5 - margin, 0.25)
     local halfZ = math.max(math.abs(iceScale.z) * 0.5 - margin, 0.25)
+    local edgeBuffer = math.max(this.PlayerEdgeBuffer or 0.35, 0)
+    local outerHalfX = math.abs(iceScale.x) * 0.5 + edgeBuffer
+    local outerHalfZ = math.abs(iceScale.z) * 0.5 + edgeBuffer
     local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
     local recoverY = iceTopY + math.max(this.PlayerRecoverHeight or 1.1, 0.2)
-    local belowDepth = math.max(this.PlayerRecoverBelowDepth or 0.6, 0.1)
+    local belowDepth = math.max(this.PlayerRecoverBelowDepth or 1.4, 0.1)
 
     for i = 1, #controllingCharacters do
         local character = controllingCharacters[i]
@@ -667,13 +674,27 @@ local function keepPlayersOnIceTop()
             local targetY = position.y
             local shouldMove = false
 
-            if position.x ~= clampedX or position.z ~= clampedZ then
+            if this.ClampPlayersInsideIce == true
+                and (position.x ~= clampedX or position.z ~= clampedZ) then
+                shouldMove = true
+            end
+
+            local isNearTop = position.y >= iceTopY - belowDepth
+                and position.y <= iceTopY + 3.0
+            local crossedOuterEdge = math.abs(position.x - icePosition.x) > outerHalfX
+                or math.abs(position.z - icePosition.z) > outerHalfZ
+
+            if this.PreventPlayerEdgeFall == true
+                and isNearTop
+                and crossedOuterEdge then
                 shouldMove = true
             end
 
             if position.y < iceTopY - belowDepth then
                 targetY = recoverY
                 shouldMove = true
+                clampedX = clamp(position.x, icePosition.x - halfX, icePosition.x + halfX)
+                clampedZ = clamp(position.z, icePosition.z - halfZ, icePosition.z + halfZ)
             end
 
             if shouldMove then
@@ -820,6 +841,105 @@ local function randomRange(minValue, maxValue)
     return minValue + (maxValue - minValue) * math.random()
 end
 
+local function collectIceBallCells()
+    if iceBallObject == nil or #iceBallCellStates > 0 then
+        return
+    end
+
+    local ok, renderers = pcall(function()
+        return iceBallObject:GetComponentsInChildren("Renderer")
+    end)
+
+    if not ok or renderers == nil then
+        return
+    end
+
+    for i = 1, #renderers do
+        local renderer = renderers[i]
+        local transform = tryGet(renderer, "transform")
+        local name = tryGet(transform, "name")
+
+        if transform ~= nil and startsWith(name, "Sphere_cell") then
+            local originPosition = transform.localPosition
+            local originRotation = transform.localRotation
+            local originScale = transform.localScale
+            local direction = Vector3(originPosition.x, math.abs(originPosition.y) + 0.5, originPosition.z)
+            local magnitude = math.sqrt(
+                direction.x * direction.x
+                + direction.y * direction.y
+                + direction.z * direction.z
+            )
+
+            if magnitude <= 0.001 then
+                direction = Vector3(randomRange(-1, 1), randomRange(0.3, 1), randomRange(-1, 1))
+                magnitude = math.max(math.sqrt(
+                    direction.x * direction.x
+                    + direction.y * direction.y
+                    + direction.z * direction.z
+                ), 0.001)
+            end
+
+            direction = Vector3(direction.x / magnitude, direction.y / magnitude, direction.z / magnitude)
+            iceBallCellStates[#iceBallCellStates + 1] = {
+                transform = transform,
+                originPosition = Vector3(originPosition.x, originPosition.y, originPosition.z),
+                originRotation = originRotation,
+                originScale = Vector3(originScale.x, originScale.y, originScale.z),
+                direction = direction
+            }
+        end
+    end
+end
+
+local function resetIceBallCells()
+    collectIceBallCells()
+
+    for i = 1, #iceBallCellStates do
+        local state = iceBallCellStates[i]
+        local transform = state.transform
+        if transform ~= nil then
+            transform.localPosition = state.originPosition
+            transform.localRotation = state.originRotation
+            transform.localScale = state.originScale
+            pcall(function()
+                transform:SyncTransform()
+            end)
+        end
+    end
+end
+
+local function updateIceBallBreakCells(progress)
+    collectIceBallCells()
+
+    local t = clamp(progress, 0, 1)
+    local eased = 1 - (1 - t) * (1 - t)
+
+    for i = 1, #iceBallCellStates do
+        local state = iceBallCellStates[i]
+        local transform = state.transform
+        if transform ~= nil then
+            local scatter = Vector3(
+                state.direction.x * 3.2 * eased,
+                state.direction.y * 3.2 * eased + math.sin(t * math.pi) * 1.2,
+                state.direction.z * 3.2 * eased
+            )
+            transform.localPosition = Vector3(
+                state.originPosition.x + scatter.x,
+                state.originPosition.y + scatter.y,
+                state.originPosition.z + scatter.z
+            )
+            transform.localScale = Vector3(
+                state.originScale.x * (1 - t),
+                state.originScale.y * (1 - t),
+                state.originScale.z * (1 - t)
+            )
+            pcall(function()
+                transform:SyncTransform()
+            end)
+        end
+    end
+end
+
 local function resolveIceBallObjects()
     if serviceApi == nil or serviceApi.world == nil then
         return false
@@ -880,6 +1000,7 @@ local function scheduleNextIceBall()
     iceBallTimer = randomRange(this.IceBallIntervalMin, this.IceBallIntervalMax)
     iceBallFallSpeed = 0
     iceBallHitPlayer = false
+    resetIceBallCells()
     hideIceBallHazard()
 end
 
@@ -1134,6 +1255,8 @@ local function updateIceBallRain(deltaTime)
 
     if iceBallState == "breaking" then
         iceBallTimer = iceBallTimer - deltaTime
+        local breakDuration = math.max(this.IceBallBreakDuration, 0.05)
+        updateIceBallBreakCells(1 - iceBallTimer / breakDuration)
 
         if iceBallTimer <= 0 then
             syncTransformScale(iceBallObject.transform, iceBallStartScale)
