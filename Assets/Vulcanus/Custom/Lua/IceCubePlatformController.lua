@@ -167,6 +167,24 @@ local function isObstacleVObject(vObject)
     return false
 end
 
+local function isNamedOrChildOf(vObject, targetName)
+    local current = vObject
+
+    for _ = 1, 12 do
+        if current == nil then
+            return false
+        end
+
+        if getVObjectName(current) == targetName then
+            return true
+        end
+
+        current = getParentVObject(current)
+    end
+
+    return false
+end
+
 local function findDropPlatform(vObject)
     local current = vObject
 
@@ -1043,12 +1061,12 @@ local function finishIfNeeded(vObject)
         return false
     end
 
-    local name = getVObjectName(vObject)
-    if name ~= this.FinishName then
+    if not isNamedOrChildOf(vObject, this.FinishName) then
         return false
     end
 
     isFinished = true
+    isPaused = true
     callEvent(getScriptEvent("OnFinishReached"))
     if scriptObject ~= nil then
         scriptObject:Log("Ice_Cube reached the finish.")
@@ -1185,6 +1203,7 @@ function this.OnCollisionEnter(collision)
     if collision ~= nil then
         tryAssignCharacterFromVObject(collision.vObject)
         startDropPlatform(collision.vObject)
+        if finishIfNeeded(collision.vObject) then return end
     end
 
     if not shouldDamageFromCollision(collision) then return end
@@ -1202,6 +1221,7 @@ end
 function this.OnCollisionStay(collision)
     if collision ~= nil then
         startDropPlatform(collision.vObject)
+        if finishIfNeeded(collision.vObject) then return end
     end
 
     if not shouldDamageFromCollision(collision) then return end
@@ -1225,6 +1245,7 @@ end
 function this.OnTriggerStay(collider)
     if collider == nil then return end
     startDropPlatform(collider.vObject)
+    finishIfNeeded(collider.vObject)
 end
 
 function this.OnDestroy()

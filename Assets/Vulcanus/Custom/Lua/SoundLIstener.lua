@@ -25,13 +25,17 @@
     local playerRecoveryDuration = 0.4
 
     local raceTimerText
+    local raceTimerObject
     local raceStatusText
+    local raceStatusObject
     local finishLine
     local iceCollider
     local finishCollider
+    local icePlatformController
     local raceTimeRemaining = 120
     local startMessageRemaining = 2
     local raceState = "running"
+    local raceEnded = false
 
     local function clamp01(value)
         if value < 0 then return 0 end
@@ -93,6 +97,8 @@
     end
 
     local function updatePlayerRecovery(deltaTime)
+        if raceEnded then return end
+
         if iceCube == nil or iceCube.transform == nil then
             resolveIceGauge()
         end
@@ -158,7 +164,41 @@
         end
     end
 
-    local function resolveText(uiName)
+    local function setUIObjectActive(uiObject, active)
+        if uiObject == nil then return end
+
+        pcall(function()
+            uiObject:SetActive(active)
+        end)
+        pcall(function()
+            uiObject.activeSelf = active
+        end)
+    end
+
+    local function getTextComponent(uiObject)
+        if uiObject == nil then return nil end
+
+        local componentNames = {
+            "TextMeshProUGUI",
+            "TMP_Text",
+            "TextMeshPro",
+            "Text"
+        }
+
+        for i = 1, #componentNames do
+            local ok, component = pcall(function()
+                return uiObject:GetComponent(componentNames[i])
+            end)
+
+            if ok and component ~= nil then
+                return component
+            end
+        end
+
+        return nil
+    end
+
+    local function resolveTextObject(uiName)
         if serviceApi.uiService == nil then return nil end
 
         local uiObject = serviceApi.uiService:GetChildUI("IceGaugeHUD_UI/" .. uiName)
@@ -166,17 +206,64 @@
             uiObject = serviceApi.uiService:FindByName(uiName)
         end
 
-        if uiObject == nil then return nil end
-        return uiObject:GetComponent("TextMeshProUGUI")
+        return uiObject
+    end
+
+    local function resolveText(uiName)
+        return getTextComponent(resolveTextObject(uiName))
+    end
+
+    local function setTextValue(uiObject, textComponent, value)
+        local applied = false
+
+        if textComponent ~= nil then
+            local ok = pcall(function()
+                textComponent.text = value
+            end)
+            applied = applied or ok
+        end
+
+        if uiObject ~= nil then
+            local ok = pcall(function()
+                uiObject.text = value
+            end)
+            applied = applied or ok
+        end
+
+        return applied
+    end
+
+    local function getComponentSafe(vObject, componentName)
+        if vObject == nil then return nil end
+
+        local ok, component = pcall(function()
+            return vObject:GetComponent(componentName)
+        end)
+
+        if ok then return component end
+        return nil
+    end
+
+    local function getComponentInChildrenSafe(vObject, componentName)
+        if vObject == nil then return nil end
+
+        local ok, component = pcall(function()
+            return vObject:GetComponentInChildren(componentName)
+        end)
+
+        if ok then return component end
+        return nil
     end
 
     local function resolveRaceHud()
         if raceTimerText == nil then
-            raceTimerText = resolveText("RaceTimerText")
+            raceTimerObject = resolveTextObject("RaceTimerText")
+            raceTimerText = getTextComponent(raceTimerObject)
         end
 
         if raceStatusText == nil then
-            raceStatusText = resolveText("RaceStatusText")
+            raceStatusObject = resolveTextObject("RaceStatusText")
+            raceStatusText = getTextComponent(raceStatusObject)
         end
 
         if iceCube == nil and serviceApi.world ~= nil then
@@ -188,11 +275,21 @@
         end
 
         if iceCollider == nil and iceCube ~= nil then
-            iceCollider = iceCube:GetComponent("Collider")
+            iceCollider = getComponentSafe(iceCube, "Collider")
+            if iceCollider == nil then
+                iceCollider = getComponentInChildrenSafe(iceCube, "Collider")
+            end
+        end
+
+        if icePlatformController == nil and iceCube ~= nil then
+            icePlatformController = getComponentSafe(iceCube, "IceCubePlatformController")
         end
 
         if finishCollider == nil and finishLine ~= nil then
-            finishCollider = finishLine:GetComponent("Collider")
+            finishCollider = getComponentSafe(finishLine, "Collider")
+            if finishCollider == nil then
+                finishCollider = getComponentInChildrenSafe(finishLine, "Collider")
+            end
         end
     end
 
@@ -210,21 +307,77 @@
     end
 
     local function hasReachedFinish()
-        if iceCube == nil or finishLine == nil then return false end
-        if iceCube.transform == nil or finishLine.transform == nil then return false end
+        if finishLine == nil or finishLine.transform == nil then return false end
 
-        if iceCollider ~= nil and finishCollider ~= nil then
+        if iceCube ~= nil and iceCube.transform ~= nil
+            and iceCollider ~= nil and finishCollider ~= nil then
             local ok, overlapping = pcall(function()
                 return boundsOverlap(iceCollider.bounds, finishCollider.bounds)
             end)
             if ok and overlapping then return true end
         end
 
-        local icePosition = iceCube.transform.position
         local finishPosition = finishLine.transform.position
-        local dx = icePosition.x - finishPosition.x
-        local dz = icePosition.z - finishPosition.z
-        return dx * dx + dz * dz <= 100
+        if iceCube ~= nil and iceCube.transform ~= nil then
+            local icePosition = iceCube.transform.position
+            local dx = icePosition.x - finishPosition.x
+            local dz = icePosition.z - finishPosition.z
+            if dx * dx + dz * dz <= 100 then
+                return true
+            end
+        end
+
+        local character = resolveLocalCharacter()
+        if character ~= nil and character.transform ~= nil then
+            local characterPosition = character.transform.position
+            local dx = characterPosition.x - finishPosition.x
+            local dz = characterPosition.z - finishPosition.z
+            if dx * dx + dz * dz <= 100 then
+                return true
+            end
+        end
+
+        return false
+    end
+
+    local function stopGameplay()
+        pcall(function()
+            Time.timeScale = 0
+        end)
+
+        if icePlatformController ~= nil then
+            pcall(function()
+                icePlatformController:SetPaused(true)
+            end)
+        end
+
+        local character = resolveLocalCharacter()
+        if character ~= nil then
+            pcall(function()
+                character:SetControlBlocked(true)
+            end)
+            pcall(function()
+                character:SetVelocity(Vector3(0, 0, 0))
+            end)
+            pcall(function()
+                character:SetAngularVelocity(Vector3(0, 0, 0))
+            end)
+        end
+    end
+
+    local function finishRace(state, message)
+        if raceEnded then return end
+
+        raceEnded = true
+        raceState = state
+        setUIObjectActive(raceStatusObject, true)
+
+        if not setTextValue(raceStatusObject, raceStatusText, message)
+            and scriptObject ~= nil then
+            scriptObject:Log("[RaceHUD] Could not find RaceStatusText component for " .. message .. ".")
+        end
+
+        stopGameplay()
     end
 
     local function updateRaceHud(deltaTime)
@@ -235,27 +388,23 @@
             startMessageRemaining = math.max(0, startMessageRemaining - (deltaTime or 0))
 
             if hasReachedFinish() then
-                raceState = "goal"
-                if raceStatusText ~= nil then
-                    raceStatusText.text = "GOAL"
-                end
+                finishRace("goal", "GOAL")
+            elseif iceCube ~= nil and iceCube.transform ~= nil
+                and iceCube.transform.localScale.y <= 0.01 then
+                finishRace("gameover", "GAME OVER")
             elseif raceTimeRemaining <= 0 then
-                raceState = "timeout"
-                if raceStatusText ~= nil then
-                    raceStatusText.text = "TIME OVER"
-                end
+                finishRace("timeout", "TIME OVER")
             elseif raceStatusText ~= nil then
                 if startMessageRemaining > 0 then
-                    raceStatusText.text = "START!"
+                    setUIObjectActive(raceStatusObject, true)
+                    setTextValue(raceStatusObject, raceStatusText, "START!")
                 else
-                    raceStatusText.text = ""
+                    setTextValue(raceStatusObject, raceStatusText, "")
                 end
             end
         end
 
-        if raceTimerText ~= nil then
-            raceTimerText.text = formatRaceTime(raceTimeRemaining)
-        end
+        setTextValue(raceTimerObject, raceTimerText, formatRaceTime(raceTimeRemaining))
     end
     
     local function onCreateCharacter(player)
@@ -285,18 +434,18 @@
     end
 
     function this.OnStart()
+        pcall(function()
+            Time.timeScale = 1
+        end)
+
         _transform = scriptObject.parent.transform
         _camera = serviceApi.cameraService:GetGameCamera()
         resolveIceGauge()
         resolveRaceHud()
         scriptObject:Log("[PlayerRecovery] Recovery controller ready.")
 
-        if raceTimerText ~= nil then
-            raceTimerText.text = "02:00"
-        end
-        if raceStatusText ~= nil then
-            raceStatusText.text = "START!"
-        end
+        setTextValue(raceTimerObject, raceTimerText, "02:00")
+        setTextValue(raceStatusObject, raceStatusText, "START!")
 
         if this.UseLocalPlayer and playerService ~= nil then
             playerService.OnCreateCharacter:AddListener(onCreateCharacter)
@@ -308,6 +457,8 @@
     function this.OnUpdate(deltaTime)
         updateIceGauge(deltaTime)
         updateRaceHud(deltaTime)
+        if raceEnded then return end
+
         updatePlayerRecovery(deltaTime)
 
         if blockUpdate == true then return end
