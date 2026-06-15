@@ -55,6 +55,25 @@ public sealed class IceBallCellBreakEffect : MonoBehaviour
         float t = Mathf.Clamp01(breakTime / Mathf.Max(breakDuration, 0.05f));
         float eased = 1f - (1f - t) * (1f - t);
 
+        ApplyBreakPose(t, eased);
+    }
+
+    public void BreakNow()
+    {
+        if (breaking)
+        {
+            return;
+        }
+
+        CollectCells();
+        ResetCells();
+        breaking = true;
+        breakTime = 0f;
+        ApplyBreakPose(0.08f, 1f - 0.92f * 0.92f);
+    }
+
+    private void ApplyBreakPose(float t, float eased)
+    {
         foreach (CellState cell in cells)
         {
             if (cell.Transform == null)
@@ -71,19 +90,6 @@ public sealed class IceBallCellBreakEffect : MonoBehaviour
         }
     }
 
-    public void BreakNow()
-    {
-        if (breaking)
-        {
-            return;
-        }
-
-        CollectCells();
-        ResetCells();
-        breaking = true;
-        breakTime = 0f;
-    }
-
     private void CollectCells()
     {
         if (collected)
@@ -97,7 +103,7 @@ public sealed class IceBallCellBreakEffect : MonoBehaviour
         foreach (Renderer renderer in renderers)
         {
             Transform cellTransform = renderer.transform;
-            if (cellTransform == transform || !cellTransform.name.StartsWith("Sphere_cell"))
+            if (cellTransform == transform)
             {
                 continue;
             }

@@ -191,7 +191,15 @@
             end
         end
 
-        if playerRecoveryTimer <= 0 then return end
+        if playerRecoveryTimer <= 0 then
+            pcall(function()
+                character:SetControlBlocked(false)
+            end)
+            pcall(function()
+                character:SetIsOnIce(true)
+            end)
+            return
+        end
 
         pcall(function()
             character:SetControlBlocked(true)
@@ -212,6 +220,9 @@
         if playerRecoveryTimer <= 0 then
             pcall(function()
                 character:SetControlBlocked(false)
+            end)
+            pcall(function()
+                character:CancelKnockBack()
             end)
         end
     end
@@ -655,6 +666,7 @@
     function this.OnDestroy()
         if playerService then
             playerService.OnCreateCharacter:RemoveListener(onCreateCharacter)
+            playerService.OnDestroyCharacter:RemoveListener(OnDestroyCharacter)
         end
     end
 
