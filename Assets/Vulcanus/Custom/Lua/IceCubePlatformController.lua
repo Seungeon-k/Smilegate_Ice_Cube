@@ -5,17 +5,17 @@ this.TargetCharacter = __EX_VARIABLE__.vobject()
 this.UseLocalPlayer = __EX_VARIABLE__.bool(true)
 this.EnableMultiplayerControl = __EX_VARIABLE__.bool(true)
 this.MaxControllingPlayers = __EX_VARIABLE__.float(4)
-this.PlayerSpeedBonus = __EX_VARIABLE__.float(30.0)
+this.PlayerSpeedBonus = __EX_VARIABLE__.float(260.0)
 
-this.ControlDeadZone = __EX_VARIABLE__.float(0.25)
-this.ControlStrength = __EX_VARIABLE__.float(9.0)
-this.MaxMoveSpeed = __EX_VARIABLE__.float(34.0)
+this.ControlDeadZone = __EX_VARIABLE__.float(0.02)
+this.ControlStrength = __EX_VARIABLE__.float(45.0)
+this.MaxMoveSpeed = __EX_VARIABLE__.float(360.0)
 this.PlayerInfluenceRadiusScale = __EX_VARIABLE__.float(0.65)
-this.PlayerInfluenceWeight = __EX_VARIABLE__.float(0.8)
-this.PlayerDirectionWeight = __EX_VARIABLE__.float(0.85)
-this.MoveInputSmoothing = __EX_VARIABLE__.float(7.0)
-this.MoveAcceleration = __EX_VARIABLE__.float(70.0)
-this.SlideDeceleration = __EX_VARIABLE__.float(1.2)
+this.PlayerInfluenceWeight = __EX_VARIABLE__.float(1.2)
+this.PlayerDirectionWeight = __EX_VARIABLE__.float(14.0)
+this.MoveInputSmoothing = __EX_VARIABLE__.float(45.0)
+this.MoveAcceleration = __EX_VARIABLE__.float(1600.0)
+this.SlideDeceleration = __EX_VARIABLE__.float(0.08)
 
 this.MeltRate = __EX_VARIABLE__.float(0.035)
 this.MinHeight = __EX_VARIABLE__.float(0.05)
@@ -35,8 +35,8 @@ this.ClearAngularVelocity = __EX_VARIABLE__.bool(true)
 this.KeepPlayersOnIce = __EX_VARIABLE__.bool(true)
 this.ClampPlayersInsideIce = __EX_VARIABLE__.bool(false)
 this.PreventPlayerEdgeFall = __EX_VARIABLE__.bool(true)
-this.PlayerClampMargin = __EX_VARIABLE__.float(-0.1)
-this.PlayerEdgeBuffer = __EX_VARIABLE__.float(0.35)
+this.PlayerClampMargin = __EX_VARIABLE__.float(-1.0)
+this.PlayerEdgeBuffer = __EX_VARIABLE__.float(1.45)
 this.PlayerRecoverHeight = __EX_VARIABLE__.float(1.2)
 this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(1.4)
 
@@ -101,6 +101,7 @@ local dropPlatformStates = {}
 local controllingCharacters = {}
 local knownCharacters = {}
 local characterMotionStates = {}
+local characterRigidbodies = {}
 local speedBoostedCharacters = {}
 local lastControlLogCount = -1
 local controlLogTimer = 0
@@ -421,6 +422,15 @@ local function registerCharacter(character)
 
     knownCharacters[character] = true
 
+    if characterRigidbodies[character] == nil then
+        local ok, rigidbody = pcall(function()
+            return character:GetComponent("Rigidbody")
+        end)
+        if ok and rigidbody ~= nil then
+            characterRigidbodies[character] = rigidbody
+        end
+    end
+
     if speedBoostedCharacters[character] == nil then
         local setMaxVelocityBonus = tryGet(character, "SetMaxVelocityBonus")
         if setMaxVelocityBonus ~= nil and this.PlayerSpeedBonus > 0 then
@@ -553,6 +563,7 @@ local function refreshControllingCharacters()
         else
             knownCharacters[character] = nil
             characterMotionStates[character] = nil
+            characterRigidbodies[character] = nil
             speedBoostedCharacters[character] = nil
         end
 
@@ -582,11 +593,50 @@ local function clearTargetFromPlayer(player)
     if character ~= nil then
         knownCharacters[character] = nil
         characterMotionStates[character] = nil
+        characterRigidbodies[character] = nil
         speedBoostedCharacters[character] = nil
     end
     if character == this.TargetCharacter then
         this.TargetCharacter = nil
     end
+end
+
+local function getCharacterMoveVelocity(character, position, motionState, iceVelocityX, iceVelocityZ, timeStep)
+    local velocityX = 0
+    local velocityZ = 0
+    local deltaVelocityX = 0
+    local deltaVelocityZ = 0
+    local rigidbody = characterRigidbodies[character]
+
+    if motionState ~= nil then
+        deltaVelocityX = (position.x - motionState.x) / timeStep - iceVelocityX
+        deltaVelocityZ = (position.z - motionState.z) / timeStep - iceVelocityZ
+    end
+
+    if rigidbody == nil then
+        local ok, component = pcall(function()
+            return character:GetComponent("Rigidbody")
+        end)
+        if ok and component ~= nil then
+            rigidbody = component
+            characterRigidbodies[character] = component
+        end
+    end
+
+    local velocity = tryGet(rigidbody, "velocity")
+    if velocity ~= nil then
+        velocityX = (velocity.x or 0) - iceVelocityX
+        velocityZ = (velocity.z or 0) - iceVelocityZ
+    end
+
+    local rigidbodySpeed = math.sqrt(velocityX * velocityX + velocityZ * velocityZ)
+    local deltaSpeed = math.sqrt(deltaVelocityX * deltaVelocityX + deltaVelocityZ * deltaVelocityZ)
+    if deltaSpeed > rigidbodySpeed then
+        velocityX = deltaVelocityX
+        velocityZ = deltaVelocityZ
+    end
+
+    return velocityX, velocityZ
 end
 
 local function acquireTargetCharacter()
@@ -647,8 +697,8 @@ local function isCharacterOnIce(character, icePosition)
 
     local characterPosition = character.transform.position
     local iceScale = iceTransform.localScale
-    local halfX = math.abs(iceScale.x) * 0.5 + 1.2
-    local halfZ = math.abs(iceScale.z) * 0.5 + 1.2
+    local halfX = math.max(math.abs(iceScale.x) * 0.5 + 1.45, 1.45)
+    local halfZ = math.max(math.abs(iceScale.z) * 0.5 + 1.45, 1.45)
     local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
 
     if math.abs(characterPosition.x - icePosition.x) > halfX then
@@ -680,10 +730,14 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
     local maxDirectionSpeed = math.max(this.MaxMoveSpeed or 20.0, 1.0)
     local iceDeltaX = 0
     local iceDeltaZ = 0
+    local iceVelocityX = 0
+    local iceVelocityZ = 0
 
     if previousIcePosition ~= nil then
         iceDeltaX = icePosition.x - previousIcePosition.x
         iceDeltaZ = icePosition.z - previousIcePosition.z
+        iceVelocityX = iceDeltaX / timeStep
+        iceVelocityZ = iceDeltaZ / timeStep
     end
 
     for i = 1, #controllingCharacters do
@@ -697,36 +751,42 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
             end)
 
             local position = character.transform.position
-            local offsetX = position.x - icePosition.x
-            local offsetZ = position.z - icePosition.z
+            if weight > 0 then
+                local offsetX = position.x - icePosition.x
+                local offsetZ = position.z - icePosition.z
 
-            local influenceX = offsetX * this.ControlStrength * weight
-            local influenceZ = offsetZ * this.ControlStrength * weight
+                local influenceX = offsetX * this.ControlStrength * weight
+                local influenceZ = offsetZ * this.ControlStrength * weight
 
-            local radiusX = math.max(math.abs(iceTransform.localScale.x) * influenceRadiusScale, this.ControlDeadZone)
-            local radiusZ = math.max(math.abs(iceTransform.localScale.z) * influenceRadiusScale, this.ControlDeadZone)
+                local radiusX = math.max(math.abs(iceTransform.localScale.x) * influenceRadiusScale, this.ControlDeadZone)
+                local radiusZ = math.max(math.abs(iceTransform.localScale.z) * influenceRadiusScale, this.ControlDeadZone)
 
-            if math.abs(offsetX) <= this.ControlDeadZone then
-                influenceX = 0
-            else
-                influenceX = influenceX * clamp(math.abs(offsetX) / radiusX, 0.25, 1.0)
+                if math.abs(offsetX) <= this.ControlDeadZone then
+                    influenceX = 0
+                else
+                    influenceX = influenceX * clamp(math.abs(offsetX) / radiusX, 0.25, 1.0)
+                end
+
+                if math.abs(offsetZ) <= this.ControlDeadZone then
+                    influenceZ = 0
+                else
+                    influenceZ = influenceZ * clamp(math.abs(offsetZ) / radiusZ, 0.25, 1.0)
+                end
+
+                moveX = moveX + influenceX
+                moveZ = moveZ + influenceZ
             end
-
-            if math.abs(offsetZ) <= this.ControlDeadZone then
-                influenceZ = 0
-            else
-                influenceZ = influenceZ * clamp(math.abs(offsetZ) / radiusZ, 0.25, 1.0)
-            end
-
-            moveX = moveX + influenceX
-            moveZ = moveZ + influenceZ
 
             local motionState = characterMotionStates[character]
-            if motionState ~= nil then
-                local relativeDeltaX = (position.x - motionState.x) - iceDeltaX
-                local relativeDeltaZ = (position.z - motionState.z) - iceDeltaZ
-                local directionX = relativeDeltaX / timeStep
-                local directionZ = relativeDeltaZ / timeStep
+            do
+                local directionX, directionZ = getCharacterMoveVelocity(
+                    character,
+                    position,
+                    motionState,
+                    iceVelocityX,
+                    iceVelocityZ,
+                    timeStep
+                )
                 local directionSpeed = math.sqrt(directionX * directionX + directionZ * directionZ)
 
                 if directionSpeed > maxDirectionSpeed then
@@ -736,12 +796,16 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
                     directionSpeed = maxDirectionSpeed
                 end
 
-                local smoothedDirectionX = motionState.directionX or 0
-                local smoothedDirectionZ = motionState.directionZ or 0
+                local smoothedDirectionX = motionState ~= nil and motionState.directionX or 0
+                local smoothedDirectionZ = motionState ~= nil and motionState.directionZ or 0
                 smoothedDirectionX = smoothedDirectionX + (directionX - smoothedDirectionX) * velocityBlend
                 smoothedDirectionZ = smoothedDirectionZ + (directionZ - smoothedDirectionZ) * velocityBlend
+                local smoothedSpeed = math.sqrt(
+                    smoothedDirectionX * smoothedDirectionX
+                    + smoothedDirectionZ * smoothedDirectionZ
+                )
 
-                if directionSpeed > 0.05 then
+                if smoothedSpeed > 0.02 then
                     moveX = moveX + smoothedDirectionX * directionWeight
                     moveZ = moveZ + smoothedDirectionZ * directionWeight
                 end
@@ -752,14 +816,6 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
                     z = position.z,
                     directionX = smoothedDirectionX,
                     directionZ = smoothedDirectionZ
-                }
-            else
-                characterMotionStates[character] = {
-                    x = position.x,
-                    y = position.y,
-                    z = position.z,
-                    directionX = 0,
-                    directionZ = 0
                 }
             end
             contributors = contributors + 1

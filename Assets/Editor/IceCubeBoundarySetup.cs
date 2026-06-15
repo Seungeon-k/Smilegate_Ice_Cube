@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 [InitializeOnLoad]
 internal static class IceCubeBoundarySetup
 {
-    private const int SetupVersion = 3;
+    private const int SetupVersion = 5;
     private const string ScenePath = "Assets/Vulcanus/Custom/MyScene/My_Basic_Sand.unity";
     private const string IceCubeName = "Ice_Cube";
     private const string BoundaryRootName = "Player_Boundary_Walls";
 
-    private const float WallThickness = 0.015f;
-    private const float WallHeight = 0.8f;
-    private const float WallLength = 1.03f;
-    private const float WallOffset = 0.515f;
+    private const float WallThickness = 0.004f;
+    private const float WallHeight = 0.55f;
+    private const float WallLength = 2.9f;
+    private const float WallOffset = 1.45f;
 
     static IceCubeBoundarySetup()
     {

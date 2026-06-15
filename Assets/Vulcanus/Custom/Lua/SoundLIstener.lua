@@ -25,7 +25,7 @@
     local playerRecoveryHeight = 1.0
     local playerRecoveryDuration = 0.18
     local playerRecoveryCooldown = 1.0
-    local playerEdgeMargin = -0.1
+    local playerEdgeMargin = -1.0
 
     local raceTimerText
     local raceTimerObject
@@ -35,7 +35,8 @@
     local iceCollider
     local finishCollider
     local icePlatformController
-    local raceTimeRemaining = 120
+    local raceDuration = 150
+    local raceTimeRemaining = raceDuration
     local startMessageRemaining = 2
     local raceState = "running"
     local raceEnded = false
@@ -123,8 +124,8 @@
         local iceTopY = icePosition.y + math.abs(iceScale.y) * 0.5
         local characterPosition = character.transform.position
         local isBelow = characterPosition.y < iceTopY - playerRecoveryDepth
-        local halfX = math.max(math.abs(iceScale.x) * 0.5 - playerEdgeMargin, 0.25)
-        local halfZ = math.max(math.abs(iceScale.z) * 0.5 - playerEdgeMargin, 0.25)
+        local halfX = math.max(math.abs(iceScale.x) * 0.5 - playerEdgeMargin, 1.45)
+        local halfZ = math.max(math.abs(iceScale.z) * 0.5 - playerEdgeMargin, 1.45)
         local safeX = math.max(
             icePosition.x - halfX,
             math.min(characterPosition.x, icePosition.x + halfX)
@@ -629,7 +630,8 @@
         resolveFeedbackObjects()
         scriptObject:Log("[PlayerRecovery] Recovery controller ready.")
 
-        setTextValue(raceTimerObject, raceTimerText, "02:00")
+        raceTimeRemaining = raceDuration
+        setTextValue(raceTimerObject, raceTimerText, "02:30")
         setTextValue(raceStatusObject, raceStatusText, "START!")
 
         if this.UseLocalPlayer and playerService ~= nil then
