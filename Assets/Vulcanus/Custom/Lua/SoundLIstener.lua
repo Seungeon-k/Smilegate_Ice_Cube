@@ -423,6 +423,10 @@
     end
 
     local function hasReachedFinish()
+        if __ICE_CUBE_GOAL_REACHED == true then
+            return true
+        end
+
         if finishLine == nil or finishLine.transform == nil then return false end
 
         if iceCube ~= nil and iceCube.transform ~= nil

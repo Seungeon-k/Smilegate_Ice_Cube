@@ -1864,6 +1864,7 @@ local function finishIfNeeded(vObject)
         return false
     end
 
+    __ICE_CUBE_GOAL_REACHED = true
     endIceCubeRun("GOAL: Ice_Cube reached Finish_Line.")
     callEvent(getScriptEvent("OnFinishReached"))
     if scriptObject ~= nil then
@@ -1897,6 +1898,7 @@ end
 
 function this.OnStart()
     __ICE_CUBE_RACE_ENDED = false
+    __ICE_CUBE_GOAL_REACHED = false
     applyRuntimeMovementMinimums()
 
     local iceCube = resolveIceCube()
