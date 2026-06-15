@@ -106,6 +106,59 @@
         return character
     end
 
+    local function getPlayerCharacter(player)
+        if player == nil then return nil end
+
+        local character = player.character
+        if character == nil then
+            character = player.Character
+        end
+
+        return character
+    end
+
+    local function forEachPlayerCharacter(callback)
+        local visited = {}
+        local localCharacter = resolveLocalCharacter()
+        if localCharacter ~= nil then
+            visited[localCharacter] = true
+            callback(localCharacter)
+        end
+
+        if playerService == nil then return end
+
+        local getPlayers = playerService.GetPlayers
+        if getPlayers == nil then
+            getPlayers = playerService.getPlayers
+        end
+        if getPlayers == nil then return end
+
+        local ok, players = pcall(function()
+            return getPlayers(playerService)
+        end)
+        if not ok or players == nil then return end
+
+        pcall(function()
+            for i = 1, #players do
+                local character = getPlayerCharacter(players[i])
+                if character ~= nil and visited[character] == nil then
+                    visited[character] = true
+                    callback(character)
+                end
+            end
+        end)
+
+        pcall(function()
+            for _, player in pairs(players) do
+                local character = getPlayerCharacter(player)
+                if character ~= nil and visited[character] == nil then
+                    visited[character] = true
+                    callback(character)
+                end
+            end
+        end)
+    end
+
     local function updatePlayerRecovery(deltaTime)
         if raceEnded then return end
         deltaTime = deltaTime or 0.016
@@ -411,8 +464,7 @@
             end)
         end
 
-        local character = resolveLocalCharacter()
-        if character ~= nil then
+        forEachPlayerCharacter(function(character)
             pcall(function()
                 character:SetControlBlocked(true)
             end)
@@ -422,7 +474,7 @@
             pcall(function()
                 character:SetAngularVelocity(Vector3(0, 0, 0))
             end)
-        end
+        end)
     end
 
     local function resolveFeedbackObjects()
@@ -563,15 +615,19 @@
         resolveRaceHud()
 
         if raceState == "running" then
-            raceTimeRemaining = math.max(0, raceTimeRemaining - (deltaTime or 0))
-            startMessageRemaining = math.max(0, startMessageRemaining - (deltaTime or 0))
+            local elapsed = deltaTime or 0
+            if startMessageRemaining > 0 then
+                startMessageRemaining = math.max(0, startMessageRemaining - elapsed)
+            else
+                raceTimeRemaining = math.max(0, raceTimeRemaining - elapsed)
+            end
 
             if hasReachedFinish() then
                 finishRace("goal", "GOAL")
             elseif iceCube ~= nil and iceCube.transform ~= nil
                 and iceCube.transform.localScale.y <= 0.01 then
                 finishRace("gameover", "GAME OVER")
-            elseif raceTimeRemaining <= 0 then
+            elseif startMessageRemaining <= 0 and raceTimeRemaining <= 0 then
                 finishRace("timeout", "TIME OVER")
             elseif raceStatusText ~= nil then
                 if startMessageRemaining > 0 then

@@ -97,6 +97,7 @@ local smoothedMoveX = 0
 local smoothedMoveZ = 0
 local fallbackVelocityX = 0
 local fallbackVelocityZ = 0
+local controlWarmupRemaining = 0
 local dropPlatformStates = {}
 local controllingCharacters = {}
 local knownCharacters = {}
@@ -601,16 +602,18 @@ local function clearTargetFromPlayer(player)
     end
 end
 
-local function getCharacterMoveVelocity(character, position, motionState, iceVelocityX, iceVelocityZ, timeStep)
+local function getCharacterMoveVelocity(character, position, motionState, icePosition, iceVelocityX, iceVelocityZ, timeStep)
     local velocityX = 0
     local velocityZ = 0
     local deltaVelocityX = 0
     local deltaVelocityZ = 0
     local rigidbody = characterRigidbodies[character]
+    local relativeX = position.x - icePosition.x
+    local relativeZ = position.z - icePosition.z
 
     if motionState ~= nil then
-        deltaVelocityX = (position.x - motionState.x) / timeStep - iceVelocityX
-        deltaVelocityZ = (position.z - motionState.z) / timeStep - iceVelocityZ
+        deltaVelocityX = (relativeX - (motionState.relativeX or relativeX)) / timeStep
+        deltaVelocityZ = (relativeZ - (motionState.relativeZ or relativeZ)) / timeStep
     end
 
     if rigidbody == nil then
@@ -636,7 +639,7 @@ local function getCharacterMoveVelocity(character, position, motionState, iceVel
         velocityZ = deltaVelocityZ
     end
 
-    return velocityX, velocityZ
+    return velocityX, velocityZ, relativeX, relativeZ
 end
 
 local function acquireTargetCharacter()
@@ -724,21 +727,6 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
     local contributors = 0
     local influenceRadiusScale = this.PlayerInfluenceRadiusScale or 0.65
     local weight = this.PlayerInfluenceWeight or 1.0
-    local directionWeight = this.PlayerDirectionWeight or 0.85
-    local timeStep = math.max(deltaTime or 0.016, 0.001)
-    local velocityBlend = clamp((this.MoveInputSmoothing or 7.0) * timeStep, 0, 1)
-    local maxDirectionSpeed = math.max(this.MaxMoveSpeed or 20.0, 1.0)
-    local iceDeltaX = 0
-    local iceDeltaZ = 0
-    local iceVelocityX = 0
-    local iceVelocityZ = 0
-
-    if previousIcePosition ~= nil then
-        iceDeltaX = icePosition.x - previousIcePosition.x
-        iceDeltaZ = icePosition.z - previousIcePosition.z
-        iceVelocityX = iceDeltaX / timeStep
-        iceVelocityZ = iceDeltaZ / timeStep
-    end
 
     for i = 1, #controllingCharacters do
         local character = controllingCharacters[i]
@@ -751,9 +739,26 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
             end)
 
             local position = character.transform.position
+            local motionState = characterMotionStates[character]
+            local relativeX = position.x - icePosition.x
+            local relativeZ = position.z - icePosition.z
+
+            if motionState == nil then
+                motionState = {
+                    neutralX = relativeX,
+                    neutralZ = relativeZ,
+                    relativeX = relativeX,
+                    relativeZ = relativeZ,
+                    directionX = 0,
+                    directionZ = 0
+                }
+            end
+
             if weight > 0 then
-                local offsetX = position.x - icePosition.x
-                local offsetZ = position.z - icePosition.z
+                local neutralX = motionState.neutralX or relativeX
+                local neutralZ = motionState.neutralZ or relativeZ
+                local offsetX = relativeX - neutralX
+                local offsetZ = relativeZ - neutralZ
 
                 local influenceX = offsetX * this.ControlStrength * weight
                 local influenceZ = offsetZ * this.ControlStrength * weight
@@ -777,56 +782,24 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
                 moveZ = moveZ + influenceZ
             end
 
-            local motionState = characterMotionStates[character]
-            do
-                local directionX, directionZ = getCharacterMoveVelocity(
-                    character,
-                    position,
-                    motionState,
-                    iceVelocityX,
-                    iceVelocityZ,
-                    timeStep
-                )
-                local directionSpeed = math.sqrt(directionX * directionX + directionZ * directionZ)
-
-                if directionSpeed > maxDirectionSpeed then
-                    local ratio = maxDirectionSpeed / directionSpeed
-                    directionX = directionX * ratio
-                    directionZ = directionZ * ratio
-                    directionSpeed = maxDirectionSpeed
-                end
-
-                local smoothedDirectionX = motionState ~= nil and motionState.directionX or 0
-                local smoothedDirectionZ = motionState ~= nil and motionState.directionZ or 0
-                smoothedDirectionX = smoothedDirectionX + (directionX - smoothedDirectionX) * velocityBlend
-                smoothedDirectionZ = smoothedDirectionZ + (directionZ - smoothedDirectionZ) * velocityBlend
-                local smoothedSpeed = math.sqrt(
-                    smoothedDirectionX * smoothedDirectionX
-                    + smoothedDirectionZ * smoothedDirectionZ
-                )
-
-                if smoothedSpeed > 0.02 then
-                    moveX = moveX + smoothedDirectionX * directionWeight
-                    moveZ = moveZ + smoothedDirectionZ * directionWeight
-                end
-
-                characterMotionStates[character] = {
-                    x = position.x,
-                    y = position.y,
-                    z = position.z,
-                    directionX = smoothedDirectionX,
-                    directionZ = smoothedDirectionZ
-                }
-            end
+            characterMotionStates[character] = {
+                neutralX = motionState.neutralX or relativeX,
+                neutralZ = motionState.neutralZ or relativeZ,
+                relativeX = relativeX,
+                relativeZ = relativeZ,
+                directionX = 0,
+                directionZ = 0
+            }
             contributors = contributors + 1
         else
             local characterTransform = tryGet(character, "transform")
             if characterTransform ~= nil then
                 local position = characterTransform.position
                 characterMotionStates[character] = {
-                    x = position.x,
-                    y = position.y,
-                    z = position.z,
+                    neutralX = position.x - icePosition.x,
+                    neutralZ = position.z - icePosition.z,
+                    relativeX = position.x - icePosition.x,
+                    relativeZ = position.z - icePosition.z,
                     directionX = 0,
                     directionZ = 0
                 }
@@ -841,6 +814,41 @@ local function calculateMultiplayerMove(icePosition, deltaTime)
     end
 
     return moveX, moveZ, contributors
+end
+
+local function stabilizeControlOrigins(icePosition)
+    refreshControllingCharacters()
+
+    for i = 1, #controllingCharacters do
+        local character = controllingCharacters[i]
+        local characterTransform = tryGet(character, "transform")
+        if characterTransform ~= nil then
+            local position = characterTransform.position
+            local relativeX = position.x - icePosition.x
+            local relativeZ = position.z - icePosition.z
+            characterMotionStates[character] = {
+                neutralX = relativeX,
+                neutralZ = relativeZ,
+                relativeX = relativeX,
+                relativeZ = relativeZ,
+                directionX = 0,
+                directionZ = 0
+            }
+        end
+    end
+
+    previousIcePosition = Vector3(icePosition.x, icePosition.y, icePosition.z)
+    smoothedMoveX = 0
+    smoothedMoveZ = 0
+    fallbackVelocityX = 0
+    fallbackVelocityZ = 0
+
+    if iceRigidbody ~= nil then
+        pcall(function()
+            iceRigidbody.velocity = Vector3(0, 0, 0)
+            iceRigidbody.angularVelocity = Vector3(0, 0, 0)
+        end)
+    end
 end
 
 local function stopCharacterMotion(character)
@@ -1406,7 +1414,7 @@ end
 
 local function checkIceBallPlayerHit(ballPosition)
     if iceBallHitPlayer then
-        return
+        return false
     end
 
     local radius = math.max(this.IceBallImpactRadius, 0.1)
@@ -1434,10 +1442,12 @@ local function checkIceBallPlayerHit(ballPosition)
                 iceBallBreakReason = "player"
                 iceBallTargetPosition = Vector3(ballPosition.x, ballPosition.y, ballPosition.z)
                 applyIceBallImpact()
-                return
+                return true
             end
         end
     end
+
+    return false
 end
 
 local function checkIceBallIceCubeHit(ballPosition)
@@ -1562,7 +1572,10 @@ local function updateIceBallRain(deltaTime)
         end
 
         syncTransformPosition(ballTransform, position)
-        checkIceBallPlayerHit(position)
+        if checkIceBallPlayerHit(position) then
+            beginIceBallBreak()
+            return
+        end
         if checkIceBallIceCubeHit(position) then
             beginIceBallBreak()
             return
@@ -1589,41 +1602,38 @@ local function updateIceBallRain(deltaTime)
 end
 
 local function moveIce(moveX, moveZ, deltaTime)
-    if iceRigidbody ~= nil and this.UseRigidbodyMove == true then
-        local velocity = tryGet(iceRigidbody, "velocity")
-        if velocity == nil then
-            velocity = Vector3(0, 0, 0)
-        end
-
-        local hasMoveInput = math.abs(moveX) > 0.001 or math.abs(moveZ) > 0.001
-        local acceleration = hasMoveInput
-            and (this.MoveAcceleration or 40.0)
-            or (this.SlideDeceleration or 4.0)
-        local targetVelocity = Vector3(moveX, 0, moveZ)
-        local nextVelocity = Vector3.MoveTowards(
-            velocity,
-            targetVelocity,
-            acceleration * deltaTime
-        )
-        nextVelocity.y = 0
-        iceRigidbody.velocity = nextVelocity
-
-        return
-    end
-
+    local timeStep = clamp(deltaTime or 0.02, 0.001, 0.05)
     local hasMoveInput = math.abs(moveX) > 0.001 or math.abs(moveZ) > 0.001
     local response = hasMoveInput
         and (this.MoveAcceleration or 40.0)
         or (this.SlideDeceleration or 4.0)
-    local blend = clamp(response * deltaTime, 0, 1)
+    local blend = clamp(response * timeStep, 0, 1)
 
     fallbackVelocityX = fallbackVelocityX + (moveX - fallbackVelocityX) * blend
     fallbackVelocityZ = fallbackVelocityZ + (moveZ - fallbackVelocityZ) * blend
 
+    local velocityMagnitude = math.sqrt(
+        fallbackVelocityX * fallbackVelocityX
+        + fallbackVelocityZ * fallbackVelocityZ
+    )
+    local stableMaxSpeed = math.min(this.MaxMoveSpeed or 60.0, 90.0)
+    if velocityMagnitude > stableMaxSpeed and velocityMagnitude > 0 then
+        local ratio = stableMaxSpeed / velocityMagnitude
+        fallbackVelocityX = fallbackVelocityX * ratio
+        fallbackVelocityZ = fallbackVelocityZ * ratio
+    end
+
     local position = iceTransform.position
-    position.x = position.x + fallbackVelocityX * deltaTime
-    position.z = position.z + fallbackVelocityZ * deltaTime
+    position.x = position.x + fallbackVelocityX * timeStep
+    position.z = position.z + fallbackVelocityZ * timeStep
     syncTransformPosition(iceTransform, keepIceGrounded(position))
+
+    if iceRigidbody ~= nil then
+        pcall(function()
+            iceRigidbody.velocity = Vector3(0, 0, 0)
+            iceRigidbody.angularVelocity = Vector3(0, 0, 0)
+        end)
+    end
 end
 
 local function shouldDamageFromCollision(collision)
@@ -1749,7 +1759,21 @@ function this.OnAwake()
     end
 end
 
+local function applyRuntimeMovementMinimums()
+    this.PlayerSpeedBonus = clamp(this.PlayerSpeedBonus or 160.0, 160.0, 220.0)
+    this.ControlDeadZone = clamp(this.ControlDeadZone or 0.08, 0.06, 0.12)
+    this.ControlStrength = clamp(this.ControlStrength or 28.0, 28.0, 55.0)
+    this.MaxMoveSpeed = clamp(this.MaxMoveSpeed or 120.0, 120.0, 180.0)
+    this.PlayerInfluenceWeight = clamp(this.PlayerInfluenceWeight or 1.0, 0.8, 1.2)
+    this.PlayerDirectionWeight = clamp(this.PlayerDirectionWeight or 4.0, 4.0, 8.0)
+    this.MoveInputSmoothing = clamp(this.MoveInputSmoothing or 12.0, 10.0, 18.0)
+    this.MoveAcceleration = clamp(this.MoveAcceleration or 240.0, 180.0, 300.0)
+    this.SlideDeceleration = clamp(this.SlideDeceleration or 0.8, 0.5, 1.2)
+end
+
 function this.OnStart()
+    applyRuntimeMovementMinimums()
+
     local iceCube = resolveIceCube()
     if iceCube == nil or iceCube.transform == nil then
         if scriptObject ~= nil then
@@ -1763,6 +1787,8 @@ function this.OnStart()
     startScale = iceTransform.localScale
     currentHeight = startScale.y
     bottomY = iceTransform.position.y - currentHeight * 0.5
+    controlWarmupRemaining = 0.75
+    stabilizeControlOrigins(iceTransform.position)
 
     if playerService ~= nil then
         playerService.OnCreateCharacter:AddListener(setTargetFromPlayer)
@@ -1781,6 +1807,7 @@ end
 local function updatePlatform(deltaTime)
     if isFinished or isPaused then return end
     if iceTransform == nil then return end
+    deltaTime = deltaTime or 0.02
 
     if impactFeedbackCooldown > 0 then
         impactFeedbackCooldown = math.max(0, impactFeedbackCooldown - deltaTime)
@@ -1806,6 +1833,13 @@ local function updatePlatform(deltaTime)
     end
 
     local icePos = iceTransform.position
+
+    if controlWarmupRemaining > 0 then
+        controlWarmupRemaining = math.max(0, controlWarmupRemaining - deltaTime)
+        stabilizeControlOrigins(icePos)
+        return
+    end
+
     local moveX = 0
     local moveZ = 0
     local contributors = 0
@@ -1821,7 +1855,8 @@ local function updatePlatform(deltaTime)
         end
     end
 
-    if contributors <= 0 and not acquireTargetCharacter() then
+    if contributors <= 0 then
+        acquireTargetCharacter()
         targetLogTime = targetLogTime + deltaTime
         if targetLogTime >= 3 then
             targetLogTime = 0
@@ -1829,24 +1864,17 @@ local function updatePlatform(deltaTime)
                 scriptObject:Log("IceCubePlatformController is waiting for player characters.")
             end
         end
+        smoothedMoveX = 0
+        smoothedMoveZ = 0
+        fallbackVelocityX = 0
+        fallbackVelocityZ = 0
+        if iceRigidbody ~= nil then
+            pcall(function()
+                iceRigidbody.velocity = Vector3(0, 0, 0)
+                iceRigidbody.angularVelocity = Vector3(0, 0, 0)
+            end)
+        end
         return
-    end
-
-    if contributors <= 0 then
-        local targetTransform = tryGet(this.TargetCharacter, "transform")
-        if targetTransform == nil then return end
-
-        local charPos = targetTransform.position
-        local offsetX = charPos.x - icePos.x
-        local offsetZ = charPos.z - icePos.z
-
-        if math.abs(offsetX) > this.ControlDeadZone then
-            moveX = offsetX * this.ControlStrength
-        end
-
-        if math.abs(offsetZ) > this.ControlDeadZone then
-            moveZ = offsetZ * this.ControlStrength
-        end
     end
 
     local speed = math.sqrt(moveX * moveX + moveZ * moveZ)
@@ -1933,8 +1961,6 @@ function this.OnCollisionStay(collision)
 
     if not shouldDamageFromCollision(collision) then return end
 
-    pushBackFromObstacleCollision(collision)
-
     if damageCooldownTimer > 0 then return end
 
     damageIce(this.ImpactDamage)
@@ -1999,7 +2025,9 @@ function this.ResetIce()
     fallbackVelocityZ = 0
     previousIcePosition = nil
     characterMotionStates = {}
+    controlWarmupRemaining = 0.75
     currentHeight = startScale.y
     scheduleNextIceBall()
     applyHeight()
+    stabilizeControlOrigins(iceTransform.position)
 end
