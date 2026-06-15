@@ -42,6 +42,7 @@ this.PlayerRecoverBelowDepth = __EX_VARIABLE__.float(1.4)
 
 this.ObstacleNamePrefix = __EX_VARIABLE__.string("Obstacle")
 this.FinishName = __EX_VARIABLE__.string("Finish_Line")
+this.RaceDuration = __EX_VARIABLE__.float(150.0)
 this.EnableDropPlatforms = __EX_VARIABLE__.bool(true)
 this.DropPlatformPrefix = __EX_VARIABLE__.string("Drop_")
 this.DropPlatformRootName = __EX_VARIABLE__.string("Start_Platform")
@@ -124,6 +125,7 @@ local iceBallMissingLogTimer = 0
 local iceBallBreakReason = "ground"
 local impactFeedback
 local impactFeedbackCooldown = 0
+local raceTimeRemaining = 150.0
 
 local function tryGet(target, key)
     if target == nil then
@@ -232,6 +234,69 @@ local function findDropPlatform(vObject)
     return nil
 end
 
+local function collectDropPlatformColliders(platform)
+    local colliders = {}
+    local visited = {}
+
+    local function addCollider(collider)
+        if collider ~= nil and visited[collider] == nil then
+            visited[collider] = true
+            colliders[#colliders + 1] = collider
+        end
+    end
+
+    local colliderNames = {
+        "Collider",
+        "BoxCollider",
+        "MeshCollider",
+        "CapsuleCollider",
+        "SphereCollider"
+    }
+
+    for i = 1, #colliderNames do
+        local componentName = colliderNames[i]
+        local okRoot, rootCollider = pcall(function()
+            return platform:GetComponent(componentName)
+        end)
+        if okRoot then
+            addCollider(rootCollider)
+        end
+
+        local okChildren, childColliders = pcall(function()
+            return platform:GetComponentsInChildren(componentName)
+        end)
+        if okChildren and childColliders ~= nil then
+            pcall(function()
+                for index = 1, #childColliders do
+                    addCollider(childColliders[index])
+                end
+            end)
+            pcall(function()
+                for _, collider in pairs(childColliders) do
+                    addCollider(collider)
+                end
+            end)
+        end
+    end
+
+    return colliders
+end
+
+local function setDropPlatformCollidersEnabled(state, enabled)
+    if state == nil or state.colliders == nil then
+        return
+    end
+
+    for i = 1, #state.colliders do
+        local collider = state.colliders[i]
+        if collider ~= nil then
+            pcall(function()
+                collider.enabled = enabled
+            end)
+        end
+    end
+end
+
 local function startDropPlatform(vObject)
     if this.EnableDropPlatforms ~= true or vObject == nil then
         return
@@ -248,8 +313,11 @@ local function startDropPlatform(vObject)
     end
 
     local position = platformTransform.localPosition
+    local colliders = collectDropPlatformColliders(platform)
     dropPlatformStates[platform] = {
+        platform = platform,
         transform = platformTransform,
+        colliders = colliders,
         origin = Vector3(position.x, position.y, position.z),
         elapsed = 0,
         fallSpeed = 0,
@@ -267,6 +335,7 @@ local function updateDropPlatforms(deltaTime)
             if not state.falling then
                 if state.elapsed >= this.DropShakeDuration then
                     state.falling = true
+                    setDropPlatformCollidersEnabled(state, false)
                     state.transform.localPosition = state.origin
                     state.transform:SyncTransform()
                 else
@@ -297,6 +366,12 @@ local function updateDropPlatforms(deltaTime)
 
                 if state.fallDistance >= this.DropDistance then
                     state.finished = true
+                    setDropPlatformCollidersEnabled(state, false)
+                    if state.platform ~= nil then
+                        pcall(function()
+                            state.platform:SetActive(false)
+                        end)
+                    end
                 end
             end
         end
@@ -997,6 +1072,36 @@ local function keepIceGrounded(position)
     return position
 end
 
+local function stopIceMotion()
+    smoothedMoveX = 0
+    smoothedMoveZ = 0
+    fallbackVelocityX = 0
+    fallbackVelocityZ = 0
+    pushBackVelocity = Vector3(0, 0, 0)
+    collisionStopTimer = 0
+
+    if iceRigidbody ~= nil then
+        pcall(function()
+            iceRigidbody.velocity = Vector3(0, 0, 0)
+        end)
+        pcall(function()
+            iceRigidbody.angularVelocity = Vector3(0, 0, 0)
+        end)
+    end
+end
+
+local function endIceCubeRun(reason)
+    if isFinished then return end
+    isFinished = true
+    isPaused = true
+    __ICE_CUBE_RACE_ENDED = true
+    stopIceMotion()
+
+    if scriptObject ~= nil and reason ~= nil then
+        scriptObject:Log("[IceCubeRun] " .. reason)
+    end
+end
+
 local function applyHeight()
     if iceTransform == nil or startScale == nil then return end
 
@@ -1017,7 +1122,7 @@ local function applyHeight()
     syncTransformPosition(iceTransform, position)
 
     if meltedNow and not isFinished then
-        isFinished = true
+        endIceCubeRun("GAME OVER: Ice_Cube height reached 0.")
         callEvent(getScriptEvent("OnIceMelted"))
         if scriptObject ~= nil then
             scriptObject:Log("Ice_Cube melted before reaching the finish.")
@@ -1031,9 +1136,15 @@ local function playImpactFeedback()
     end
 
     if impactFeedback == nil then
-        impactFeedback = serviceApi.world:GetVObject("Feedback_IMPACT")
+        pcall(function()
+            impactFeedback = serviceApi.world:GetVObject("Feedback_IMPACT")
+        end)
     end
     if impactFeedback == nil then return end
+
+    pcall(function()
+        impactFeedback:SetActive(true)
+    end)
 
     if impactFeedback.transform ~= nil and iceTransform ~= nil then
         local icePosition = iceTransform.position
@@ -1058,6 +1169,7 @@ local function playImpactFeedback()
     end)
     if okAudio and audioSource ~= nil then
         pcall(function()
+            audioSource.enabled = true
             audioSource.pitch = 0.92 + math.random() * 0.16
             audioSource:Play()
         end)
@@ -1067,11 +1179,24 @@ local function playImpactFeedback()
         return impactFeedback:GetComponentsInChildren("ParticleSystem")
     end)
     if okParticles and particles ~= nil then
-        for i = 1, #particles do
-            pcall(function()
-                particles[i]:Play(true)
-            end)
-        end
+        local played = {}
+        pcall(function()
+            for i = 1, #particles do
+                local particle = particles[i]
+                if particle ~= nil and played[particle] == nil then
+                    played[particle] = true
+                    particle:Play(true)
+                end
+            end
+        end)
+        pcall(function()
+            for _, particle in pairs(particles) do
+                if particle ~= nil and played[particle] == nil then
+                    played[particle] = true
+                    particle:Play(true)
+                end
+            end
+        end)
     end
 
     impactFeedbackCooldown = 0.25
@@ -1739,8 +1864,7 @@ local function finishIfNeeded(vObject)
         return false
     end
 
-    isFinished = true
-    isPaused = true
+    endIceCubeRun("GOAL: Ice_Cube reached Finish_Line.")
     callEvent(getScriptEvent("OnFinishReached"))
     if scriptObject ~= nil then
         scriptObject:Log("Ice_Cube reached the finish.")
@@ -1772,6 +1896,7 @@ local function applyRuntimeMovementMinimums()
 end
 
 function this.OnStart()
+    __ICE_CUBE_RACE_ENDED = false
     applyRuntimeMovementMinimums()
 
     local iceCube = resolveIceCube()
@@ -1786,6 +1911,7 @@ function this.OnStart()
     iceRigidbody = getComponent(iceCube, "Rigidbody")
     startScale = iceTransform.localScale
     currentHeight = startScale.y
+    raceTimeRemaining = this.RaceDuration or 150.0
     bottomY = iceTransform.position.y - currentHeight * 0.5
     controlWarmupRemaining = 0.75
     stabilizeControlOrigins(iceTransform.position)
@@ -1808,6 +1934,12 @@ local function updatePlatform(deltaTime)
     if isFinished or isPaused then return end
     if iceTransform == nil then return end
     deltaTime = deltaTime or 0.02
+
+    raceTimeRemaining = raceTimeRemaining - deltaTime
+    if raceTimeRemaining <= 0 then
+        endIceCubeRun("TIME OVER: Race duration elapsed.")
+        return
+    end
 
     if impactFeedbackCooldown > 0 then
         impactFeedbackCooldown = math.max(0, impactFeedbackCooldown - deltaTime)
@@ -1931,6 +2063,11 @@ local function updatePlatform(deltaTime)
 end
 
 function this.OnFixedUpdate(deltaTime)
+    if __ICE_CUBE_RACE_ENDED == true then
+        stopIceMotion()
+        return
+    end
+
     updatePlatform(deltaTime)
 end
 
@@ -1940,6 +2077,8 @@ function this.OnCollisionEnter(collision)
         startDropPlatform(collision.vObject)
         if finishIfNeeded(collision.vObject) then return end
     end
+
+    playImpactFeedback()
 
     if not shouldDamageFromCollision(collision) then return end
 
@@ -1972,7 +2111,10 @@ function this.OnTriggerEnter(collider)
 
     local hitObject = collider.vObject
     startDropPlatform(hitObject)
-    finishIfNeeded(hitObject)
+    if finishIfNeeded(hitObject) then return end
+    if isObstacleVObject(hitObject) then
+        playImpactFeedback()
+    end
 end
 
 function this.OnTriggerStay(collider)
@@ -2007,6 +2149,9 @@ end
 __EX_FUNCTION__(this, __EX_VARIABLE__.bool())
 function this.SetPaused(paused)
     isPaused = paused
+    if paused then
+        stopIceMotion()
+    end
 end
 
 __EX_FUNCTION__(this)
@@ -2026,6 +2171,7 @@ function this.ResetIce()
     previousIcePosition = nil
     characterMotionStates = {}
     controlWarmupRemaining = 0.75
+    raceTimeRemaining = this.RaceDuration or 150.0
     currentHeight = startScale.y
     scheduleNextIceBall()
     applyHeight()

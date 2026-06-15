@@ -35,8 +35,7 @@
     local iceCollider
     local finishCollider
     local icePlatformController
-    local raceDuration = 150
-    local raceTimeRemaining = raceDuration
+    local raceTimeRemaining = 120
     local startMessageRemaining = 2
     local raceState = "running"
     local raceEnded = false
@@ -615,19 +614,15 @@
         resolveRaceHud()
 
         if raceState == "running" then
-            local elapsed = deltaTime or 0
-            if startMessageRemaining > 0 then
-                startMessageRemaining = math.max(0, startMessageRemaining - elapsed)
-            else
-                raceTimeRemaining = math.max(0, raceTimeRemaining - elapsed)
-            end
+            raceTimeRemaining = math.max(0, raceTimeRemaining - (deltaTime or 0))
+            startMessageRemaining = math.max(0, startMessageRemaining - (deltaTime or 0))
 
             if hasReachedFinish() then
                 finishRace("goal", "GOAL")
             elseif iceCube ~= nil and iceCube.transform ~= nil
                 and iceCube.transform.localScale.y <= 0.01 then
                 finishRace("gameover", "GAME OVER")
-            elseif startMessageRemaining <= 0 and raceTimeRemaining <= 0 then
+            elseif raceTimeRemaining <= 0 then
                 finishRace("timeout", "TIME OVER")
             elseif raceStatusText ~= nil then
                 if startMessageRemaining > 0 then
@@ -686,8 +681,7 @@
         resolveFeedbackObjects()
         scriptObject:Log("[PlayerRecovery] Recovery controller ready.")
 
-        raceTimeRemaining = raceDuration
-        setTextValue(raceTimerObject, raceTimerText, "02:30")
+        setTextValue(raceTimerObject, raceTimerText, "02:00")
         setTextValue(raceStatusObject, raceStatusText, "START!")
 
         if this.UseLocalPlayer and playerService ~= nil then
